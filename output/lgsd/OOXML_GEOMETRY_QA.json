@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/lgsd",
+  "diagram_id": "lgsd-figure-2",
+  "scene_sha256": "3f874eee69219e04ca2fa9abee83b5da1d6823357aa3d299ab128307f7545c8e",
+  "pptx_sha256": "e2be37583a10a33ef88d89fefe510397bf1bd53ac7c3d0b904c3febc1e5b5637",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 40,
+    "named_shapes_checked": 40,
+    "text_labels_checked": 8,
+    "paths_checked": 18,
+    "curve_commands_checked": 3,
+    "images_checked": 10
+  },
+  "maximum_object_position_delta_scene_pixels": 4.682e-05,
+  "maximum_path_control_point_delta_scene_pixels": 4.471e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

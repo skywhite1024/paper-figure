@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette",
-  "revision": 5,
-  "status": "in_progress",
+  "revision": 6,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.503147Z",
-  "updated_at": "2026-10-09T20:49:28.352989Z",
+  "updated_at": "2026-10-09T22:00:59.346700Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -123,8 +123,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/pipette/README.md",
+          "output/pipette/VALIDATION.json"
+        ],
+        "output_directory": "output/pipette",
+        "source_sha256": "72ad55814d9958242cd534f45f540f9bcd86bcd2bfbf21beaa2278e6c2bb93a3",
+        "scene_sha256": "1df949a1707c1d4eb05af6b07a7f1edd8bb0dd984f1015994d838829a78f3658",
+        "text_editability": {
+          "typeable_text_objects": 36,
+          "native_freeform_paths": 85,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -442,6 +456,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 6,
+      "at": "2026-10-09T22:00:59.346700Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "3a409aafa287b45a216c9fb6c6f04e1616fbdedb73b07175fbfae7392291182d",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/pipette/README.md",
+                "output/pipette/VALIDATION.json"
+              ],
+              "output_directory": "output/pipette",
+              "source_sha256": "72ad55814d9958242cd534f45f540f9bcd86bcd2bfbf21beaa2278e6c2bb93a3",
+              "scene_sha256": "1df949a1707c1d4eb05af6b07a7f1edd8bb0dd984f1015994d838829a78f3658",
+              "text_editability": {
+                "typeable_text_objects": 36,
+                "native_freeform_paths": 85,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

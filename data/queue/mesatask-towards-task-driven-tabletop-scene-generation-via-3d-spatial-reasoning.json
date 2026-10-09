@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "mesatask-towards-task-driven-tabletop-scene-generation-via-3d-spatial-reasoning",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.497779Z",
-  "updated_at": "2026-10-09T20:49:29.198416Z",
+  "updated_at": "2026-10-09T21:58:05.692366Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/mesatask/README.md",
+          "output/mesatask/VALIDATION.json"
+        ],
+        "output_directory": "output/mesatask",
+        "source_sha256": "45ed869dd42c02f733b74aab7dda7f58c295b12485be0d8f07139a71db585258",
+        "scene_sha256": "6d5a16756da24f023f409fbe55700fb7577bf22755e346a5bc3b673dab1e69d7",
+        "text_editability": {
+          "typeable_text_objects": 114,
+          "native_freeform_paths": 59,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:58:05.692366Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "92cc9e319897cfd720b0e6eaa88caa3a8fb3b42f84c4956923718c7b7d8bf66f",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/mesatask/README.md",
+                "output/mesatask/VALIDATION.json"
+              ],
+              "output_directory": "output/mesatask",
+              "source_sha256": "45ed869dd42c02f733b74aab7dda7f58c295b12485be0d8f07139a71db585258",
+              "scene_sha256": "6d5a16756da24f023f409fbe55700fb7577bf22755e346a5bc3b673dab1e69d7",
+              "text_editability": {
+                "typeable_text_objects": 114,
+                "native_freeform_paths": 59,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

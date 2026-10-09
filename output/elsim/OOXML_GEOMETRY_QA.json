@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/elsim",
+  "diagram_id": "elsim-figure-1",
+  "scene_sha256": "34f07edd148b00d8214b8368ea21c1cf32d20d543c08be15d49e0f2cef3ca3e0",
+  "pptx_sha256": "d1464be7fcc087ebddda9b09f57fe03d1647f5e1db0bab8a405d655cfa7bea5a",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 156,
+    "named_shapes_checked": 156,
+    "text_labels_checked": 1,
+    "paths_checked": 155,
+    "curve_commands_checked": 776,
+    "images_checked": 0
+  },
+  "maximum_object_position_delta_scene_pixels": 5.19e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.549e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

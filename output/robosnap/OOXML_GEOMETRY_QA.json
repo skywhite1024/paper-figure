@@ -1,0 +1,23 @@
+{
+  "folder": "build/candidates/robosnap",
+  "diagram_id": "robosnap-figure-2",
+  "scene_sha256": "1fcbcc99ecf084f891914e4598a850ae7f5c84006db601871483634673fb3f9f",
+  "pptx_sha256": "c1f3a6a10d649144b1a65cf9e2638ab14afdb12efa1b0d0da97015c2536656cd",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 285,
+    "named_shapes_checked": 285,
+    "text_labels_checked": 89,
+    "paths_checked": 112,
+    "curve_commands_checked": 320,
+    "images_checked": 81,
+    "semantic_connectors_not_geometry_checked": 0
+  },
+  "maximum_object_position_delta_scene_pixels": 5.249e-05,
+  "maximum_path_control_point_delta_scene_pixels": 0.00010531,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; font substitution, glyph appearance, visual clipping, semantic connector routing and editing UX are not validated."
+}

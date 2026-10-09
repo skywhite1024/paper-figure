@@ -51,6 +51,11 @@ for n in s['nodes']:
   font=('tibo' if n.get('bold') else 'tiro') if n.get('font_family')=='Times New Roman' else ('hebo' if n.get('bold') else 'helv');length=fitz.get_text_length(n['label'],fontname=font,fontsize=n['font_size'])
   if length>n['width']:n['font_size']*=n['width']/length*.97
 
+
+ns=[n for n in s['nodes'] if n['shape']=='text' and n.get('source_seqno') in [111,112,113]]
+if ns:
+ n=dict(ns[0]);n['id']='simulation-ready-header';n['label']='Simulation-ready';n['x']=min(q['x'] for q in ns);n['width']=max(q['x']+q['width'] for q in ns)-n['x'];n['font_size']=min(28,n['width']*.98/fitz.get_text_length(n['label'],fontname='hebo',fontsize=1));s['nodes']=[q for q in s['nodes'] if q not in ns]+[n]
+
 s['provenance']['notes']+=' Original raster assets isolated with their exact original alpha, clipping and affine transforms; no full-figure raster backdrop.'
 s['provenance']['original_extraction_warnings']=s['provenance'].get('extraction_warnings',[])
 s['provenance']['extraction_warnings']=[w for w in s['provenance'].get('extraction_warnings',[]) if not w.startswith('unhandled image/shading')]

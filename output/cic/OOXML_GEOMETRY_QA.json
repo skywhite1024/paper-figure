@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/cic",
+  "diagram_id": "cic-figure-3",
+  "scene_sha256": "a24c89dafb06faeec15b6dfbb06857090380b3b5b34a79eff7aa574243926084",
+  "pptx_sha256": "e5890f332d69988d1170455240518ffdaf6ae7d9b1402b8fa4464bc56971c6be",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 75,
+    "named_shapes_checked": 75,
+    "text_labels_checked": 12,
+    "paths_checked": 55,
+    "curve_commands_checked": 420,
+    "images_checked": 8
+  },
+  "maximum_object_position_delta_scene_pixels": 5.242e-05,
+  "maximum_path_control_point_delta_scene_pixels": 0.00010017,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

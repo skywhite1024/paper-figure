@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "affordsim-a-scalable-data-generator-and-benchmark-for-affordance-aware-robotic-manipulation",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.504485Z",
-  "updated_at": "2026-10-09T20:49:28.340212Z",
+  "updated_at": "2026-10-09T21:58:03.553582Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/affordsim/README.md",
+          "output/affordsim/VALIDATION.json"
+        ],
+        "output_directory": "output/affordsim",
+        "source_sha256": "8811e0ccda74dae8722860f1a730c8d7f2bedf13841ef67796ca9bb02399f1de",
+        "scene_sha256": "bc292d73eada169b5889e06e19f8171968be81200e4c2596c03e2b9cf0756990",
+        "text_editability": {
+          "typeable_text_objects": 73,
+          "native_freeform_paths": 72,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:58:03.553582Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "07037c5345840fbe5e30166e06c018de7892691f8b480e75cd01bc4e54824c4e",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/affordsim/README.md",
+                "output/affordsim/VALIDATION.json"
+              ],
+              "output_directory": "output/affordsim",
+              "source_sha256": "8811e0ccda74dae8722860f1a730c8d7f2bedf13841ef67796ca9bb02399f1de",
+              "scene_sha256": "bc292d73eada169b5889e06e19f8171968be81200e4c2596c03e2b9cf0756990",
+              "text_editability": {
+                "typeable_text_objects": 73,
+                "native_freeform_paths": 72,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

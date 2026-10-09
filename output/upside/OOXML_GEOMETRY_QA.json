@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/upside",
+  "diagram_id": "upside-figure-1",
+  "scene_sha256": "eefba34e659d6ebd3f66b5af317040cd5203bd882b5bd7245f3b0bd462abf59c",
+  "pptx_sha256": "6087058f1f3ed186ced94b86d5c1695184b0baa8955820fabbef02dc2277e379",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 362,
+    "named_shapes_checked": 362,
+    "text_labels_checked": 8,
+    "paths_checked": 317,
+    "curve_commands_checked": 133,
+    "images_checked": 0
+  },
+  "maximum_object_position_delta_scene_pixels": 5.249e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.029e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

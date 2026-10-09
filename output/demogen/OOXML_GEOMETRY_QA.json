@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/demogen",
+  "diagram_id": "demogen-figure-1",
+  "scene_sha256": "9a66ee39ca94e10ae6ab51571100b57b0985f3535325a5b769cc5214823b4376",
+  "pptx_sha256": "013b4e8c261b5dddec30a56facbdd780c21247b797dfbf5e193cc56fca80904d",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 55,
+    "named_shapes_checked": 55,
+    "text_labels_checked": 13,
+    "paths_checked": 29,
+    "curve_commands_checked": 32,
+    "images_checked": 13
+  },
+  "maximum_object_position_delta_scene_pixels": 5.247e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.997e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

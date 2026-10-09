@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/manitaskgen",
+  "diagram_id": "manitaskgen-figure-1",
+  "scene_sha256": "e2c8f2c738581cdef7a525afd81d4cc631ff16aba14716a4d142fee0192b12a2",
+  "pptx_sha256": "15ebec9514b86f8ef2443d3ea47fe12a06c0633879dda15cd81d164b1efbbe02",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 112,
+    "named_shapes_checked": 112,
+    "text_labels_checked": 36,
+    "paths_checked": 46,
+    "curve_commands_checked": 31,
+    "images_checked": 12
+  },
+  "maximum_object_position_delta_scene_pixels": 5.249e-05,
+  "maximum_path_control_point_delta_scene_pixels": 5.249e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

@@ -12,6 +12,7 @@ Figure 7 · PDF 第 24 页 · 1803.00781v3
 - [导出清单与原生对象统计](ugl-figure-7.manifest.json)
 - [本文件夹 SHA256 清单](bundle.manifest.json)
 - [验证记录](VALIDATION.json)
+- [PPTX 对象与源场景几何一致性检查](OOXML_GEOMETRY_QA.json)（不代替编辑器渲染检查）
 
 ## 来源与编辑边界
 

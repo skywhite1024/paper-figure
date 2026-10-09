@@ -1,0 +1,544 @@
+{
+  "schema_version": 1,
+  "diagram_id": "robogen-figure-2",
+  "source_sha256": "696e1c52680ae6020b1b600cf24edb8740333e3062f6fb070417c446c1693572",
+  "assets": [
+    {
+      "name": "assets/arm-object.png",
+      "sha256": "32de6b01576b4f287c9e71ce9e4e1cad1faaf5068dae305a2642ba47eae1fae4"
+    },
+    {
+      "name": "assets/cabinet.png",
+      "sha256": "75c45d0370bf0bc06a583b96208306a85a9af868fa7dfbda80bb2cff1ffd9e71"
+    },
+    {
+      "name": "assets/dishwasher.png",
+      "sha256": "7a3ba194e9bc9faf065d927debc3f345bf1a73cc463cb68e63ce468d4a3796e7"
+    },
+    {
+      "name": "assets/laptop.png",
+      "sha256": "93fffb04311c6e980fd9c159e18a97f2415e33a600ee95b4f95008f8d11e9f38"
+    },
+    {
+      "name": "assets/microwave.png",
+      "sha256": "c2af8f72d7586fe5226ba37518d46be98b6eb6726b82a613e51ab72dda6baebb"
+    },
+    {
+      "name": "assets/midjourney-logo.png",
+      "sha256": "637b65ee91e9db81400cc2048a323572fc9f077164254e14c817ac53202dcb90"
+    },
+    {
+      "name": "assets/quadruped.png",
+      "sha256": "3c1f40f3d3b022c5ed4df2275c954e065b094210ea1788def143e8d7bad7cf10"
+    },
+    {
+      "name": "assets/robot-arm.png",
+      "sha256": "512028ba255ec2f29354f21f48bb005da130615d64ce95110dafa093566678a4"
+    },
+    {
+      "name": "assets/robot-small.png",
+      "sha256": "9c9d5bac01b42eda796d9929d5d4af5dd9956ed3958bdb3b6f79bb0c864f6a55"
+    },
+    {
+      "name": "assets/safe.png",
+      "sha256": "e71fe2eaae06898ffc095087b83515a0b79ae607b63578366873cf516cffa471"
+    },
+    {
+      "name": "assets/sanitizer.png",
+      "sha256": "b291c45ff6b09c5d2aa01894c2cb593dcabab41a49ea51962c8a7c20d39cb01e"
+    },
+    {
+      "name": "assets/scene1.png",
+      "sha256": "30b8216b9f698fa6881141c7060fe1a3f3a25b96e6d4e3f755f1ddbfccbb3d64"
+    },
+    {
+      "name": "assets/scene2.png",
+      "sha256": "57784d01fcb1fa4758b31d49903558bcba96c90961f4b9299490e4c108e0b0d8"
+    },
+    {
+      "name": "assets/scene3.png",
+      "sha256": "11ab0f05cfda7994ae9b4569486104d27048c407c9555de5a94a6b65685554c0"
+    },
+    {
+      "name": "assets/scene4.png",
+      "sha256": "f9b00084637dfdba7f962dc84167d54a71157c88596c5c2337e2456c0142eee6"
+    },
+    {
+      "name": "assets/skill-0-0.png",
+      "sha256": "3ff57976d3ff0941e086c36e4c141572b138c27d1bc354105e960357b4aa19da"
+    },
+    {
+      "name": "assets/skill-0-1.png",
+      "sha256": "4fde54b64aadd8e5bbe42319dffb0478466ac65a631c007ac387ee019a2daf02"
+    },
+    {
+      "name": "assets/skill-0-2.png",
+      "sha256": "deed24d0630448e2120de03cc3b694a3b9058579c6d6d2997728c95cce9c8e7f"
+    },
+    {
+      "name": "assets/skill-0-3.png",
+      "sha256": "eb10421a525f3cb85d51421862fe284bacde41d23826bd4a855e869b8b41e467"
+    },
+    {
+      "name": "assets/skill-0-4.png",
+      "sha256": "9fc94a4b64a4bcb86fa2c4a3830225b2e9bc013664fa429e4c4249337b893b63"
+    },
+    {
+      "name": "assets/skill-0-5.png",
+      "sha256": "443bf90f014b7cb091264d721860ac001f73e6d360fb60771ea349f32cca11b2"
+    },
+    {
+      "name": "assets/skill-1-0.png",
+      "sha256": "d05b87590bd89d34f4bcd5c84b180423e828b28414d7b01567909e631d5624fd"
+    },
+    {
+      "name": "assets/skill-1-1.png",
+      "sha256": "a7ebed556cd2f7c07dfc3740f9f5d4f1ec69b3e55feaf392cf32be50c379fbaa"
+    },
+    {
+      "name": "assets/skill-1-2.png",
+      "sha256": "cbc8f3b7a81d6d28bca33db5fa28f7fb5b8be99c7ead595e733dd392bee1c48c"
+    },
+    {
+      "name": "assets/skill-1-3.png",
+      "sha256": "874021a613babb8bbcfbb6416cdaf2bd5fe9a190ca47fdc733d2c9a694db11fc"
+    },
+    {
+      "name": "assets/skill-1-4.png",
+      "sha256": "1826cc200d00e103298c42eea347f7d47254f6e0faea883c39ee1eafa1b44acb"
+    },
+    {
+      "name": "assets/skill-1-5.png",
+      "sha256": "35566dd366aef0227ebf8d254c15ded3f9705e37ebd1a98ae68c41f3bc5638d6"
+    },
+    {
+      "name": "assets/skill-1-6.png",
+      "sha256": "4ec262383a61f8958b34134431e4f38692d2da5583667d72000977927f8a8f5a"
+    },
+    {
+      "name": "assets/skill-2-0.png",
+      "sha256": "eccdb0c8fd368f6d7c10ac3dd338e47a891a2f1ee7a0560b45074a8a1650f231"
+    },
+    {
+      "name": "assets/skill-2-1.png",
+      "sha256": "823fdf474486f83434b4b86bb0db5d688a17c37f20387de5ae2e3720d2d8b062"
+    },
+    {
+      "name": "assets/skill-2-2.png",
+      "sha256": "9b726a64bc00525e825645f7eb8f20c1972036e24fa54213c118db417bcac2e7"
+    },
+    {
+      "name": "assets/skill-2-3.png",
+      "sha256": "135cf747937a76591675d932138bcc2c0d32e9351f134d52974b1f6148872110"
+    },
+    {
+      "name": "assets/skill-2-4.png",
+      "sha256": "12b053bdc7f244f7b992fc1c4157bba1b768c41ea7b67ef276b9effe5c540cd9"
+    },
+    {
+      "name": "assets/skill-2-5.png",
+      "sha256": "cf0037942f4954e3dfde1d20d0c24672dcd682c52908e0291739f1c9f2555aef"
+    },
+    {
+      "name": "assets/suitcase.png",
+      "sha256": "045d80c97fa7420215b5b966e61db6a925a031849c702491f5218f5aca3f4b48"
+    }
+  ],
+  "provenance": {
+    "paper_title": "RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation",
+    "paper_url": "https://arxiv.org/abs/2311.01455v3",
+    "pdf_url": "https://arxiv.org/pdf/2311.01455v3",
+    "figure": "Figure 2",
+    "page": 4,
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/ Private user-requested adaptation; no public redistribution permission implied.",
+    "status": "figure_recreation",
+    "notes": "Manually reconstructed from the inspected original flattened PDF figure. Ordinary labels are live typeable text; panels, graph geometry and arrows are native editable shapes or paths. Source layout and contents retained; font metrics, line widths and decorative effects approximated. Initialization asset icons, scene photographs and each skill thumbnail are separate original raster crops. All stage headings, task-example cards, models, configuration blocks, dataset labels, reward labels and main routing paths are native typeable/editable objects.",
+    "source_sha256": "4146b2443205d6e4f8137e14fb20a91165da9a70c12306a300bc71fcae53b022",
+    "source_crop_pdf_points": [
+      79,
+      66,
+      519,
+      257
+    ],
+    "survey_crop_correction": false,
+    "visual_inspection": "Original PDF figure inspected before source-layout reconstruction on 2026-10-09; independent application QA pending.",
+    "raster_details": [
+      {
+        "id": "robot-arm",
+        "bounds_source_pixels": [
+          62,
+          119,
+          120,
+          177
+        ],
+        "detail": "Original robot/object asset icon; internal pixels remain raster"
+      },
+      {
+        "id": "robot-small",
+        "bounds_source_pixels": [
+          144,
+          122,
+          198,
+          177
+        ],
+        "detail": "Original robot/object asset icon; internal pixels remain raster"
+      },
+      {
+        "id": "quadruped",
+        "bounds_source_pixels": [
+          217,
+          121,
+          280,
+          178
+        ],
+        "detail": "Original robot/object asset icon; internal pixels remain raster"
+      },
+      {
+        "id": "microwave",
+        "bounds_source_pixels": [
+          40,
+          229,
+          98,
+          282
+        ],
+        "detail": "Original robot/object asset icon; internal pixels remain raster"
+      },
+      {
+        "id": "arm-object",
+        "bounds_source_pixels": [
+          112,
+          221,
+          164,
+          283
+        ],
+        "detail": "Original robot/object asset icon; internal pixels remain raster"
+      },
+      {
+        "id": "sanitizer",
+        "bounds_source_pixels": [
+          182,
+          221,
+          229,
+          281
+        ],
+        "detail": "Original robot/object asset icon; internal pixels remain raster"
+      },
+      {
+        "id": "suitcase",
+        "bounds_source_pixels": [
+          247,
+          220,
+          306,
+          282
+        ],
+        "detail": "Original robot/object asset icon; internal pixels remain raster"
+      },
+      {
+        "id": "dishwasher",
+        "bounds_source_pixels": [
+          40,
+          292,
+          98,
+          350
+        ],
+        "detail": "Original robot/object asset icon; internal pixels remain raster"
+      },
+      {
+        "id": "safe",
+        "bounds_source_pixels": [
+          111,
+          294,
+          167,
+          350
+        ],
+        "detail": "Original robot/object asset icon; internal pixels remain raster"
+      },
+      {
+        "id": "laptop",
+        "bounds_source_pixels": [
+          179,
+          293,
+          234,
+          351
+        ],
+        "detail": "Original robot/object asset icon; internal pixels remain raster"
+      },
+      {
+        "id": "cabinet",
+        "bounds_source_pixels": [
+          245,
+          291,
+          309,
+          351
+        ],
+        "detail": "Original robot/object asset icon; internal pixels remain raster"
+      },
+      {
+        "id": "midjourney-logo",
+        "bounds_source_pixels": [
+          512,
+          329,
+          531,
+          350
+        ],
+        "detail": "Original tiny Midjourney sail mark"
+      },
+      {
+        "id": "scene1",
+        "bounds_source_pixels": [
+          363,
+          446,
+          464,
+          547
+        ],
+        "detail": "Original generated scene photo; internal scene pixels remain raster"
+      },
+      {
+        "id": "scene2",
+        "bounds_source_pixels": [
+          478,
+          446,
+          579,
+          547
+        ],
+        "detail": "Original generated scene photo; internal scene pixels remain raster"
+      },
+      {
+        "id": "scene3",
+        "bounds_source_pixels": [
+          591,
+          445,
+          692,
+          547
+        ],
+        "detail": "Original generated scene photo; internal scene pixels remain raster"
+      },
+      {
+        "id": "scene4",
+        "bounds_source_pixels": [
+          701,
+          445,
+          801,
+          546
+        ],
+        "detail": "Original generated scene photo; internal scene pixels remain raster"
+      },
+      {
+        "id": "skill-0-0",
+        "bounds_source_pixels": [
+          906,
+          407,
+          954,
+          455
+        ],
+        "detail": "Original isolated circular skill-execution photo; its pixels and round crop remain raster"
+      },
+      {
+        "id": "skill-0-1",
+        "bounds_source_pixels": [
+          964,
+          407,
+          1012,
+          455
+        ],
+        "detail": "Original isolated circular skill-execution photo; its pixels and round crop remain raster"
+      },
+      {
+        "id": "skill-0-2",
+        "bounds_source_pixels": [
+          1022,
+          407,
+          1070,
+          455
+        ],
+        "detail": "Original isolated circular skill-execution photo; its pixels and round crop remain raster"
+      },
+      {
+        "id": "skill-0-3",
+        "bounds_source_pixels": [
+          1079,
+          407,
+          1127,
+          455
+        ],
+        "detail": "Original isolated circular skill-execution photo; its pixels and round crop remain raster"
+      },
+      {
+        "id": "skill-0-4",
+        "bounds_source_pixels": [
+          1137,
+          407,
+          1185,
+          455
+        ],
+        "detail": "Original isolated circular skill-execution photo; its pixels and round crop remain raster"
+      },
+      {
+        "id": "skill-0-5",
+        "bounds_source_pixels": [
+          1195,
+          407,
+          1243,
+          455
+        ],
+        "detail": "Original isolated circular skill-execution photo; its pixels and round crop remain raster"
+      },
+      {
+        "id": "skill-1-0",
+        "bounds_source_pixels": [
+          878,
+          459,
+          926,
+          507
+        ],
+        "detail": "Original isolated circular skill-execution photo; its pixels and round crop remain raster"
+      },
+      {
+        "id": "skill-1-1",
+        "bounds_source_pixels": [
+          936,
+          459,
+          984,
+          507
+        ],
+        "detail": "Original isolated circular skill-execution photo; its pixels and round crop remain raster"
+      },
+      {
+        "id": "skill-1-2",
+        "bounds_source_pixels": [
+          994,
+          459,
+          1042,
+          507
+        ],
+        "detail": "Original isolated circular skill-execution photo; its pixels and round crop remain raster"
+      },
+      {
+        "id": "skill-1-3",
+        "bounds_source_pixels": [
+          1052,
+          459,
+          1100,
+          507
+        ],
+        "detail": "Original isolated circular skill-execution photo; its pixels and round crop remain raster"
+      },
+      {
+        "id": "skill-1-4",
+        "bounds_source_pixels": [
+          1110,
+          459,
+          1158,
+          507
+        ],
+        "detail": "Original isolated circular skill-execution photo; its pixels and round crop remain raster"
+      },
+      {
+        "id": "skill-1-5",
+        "bounds_source_pixels": [
+          1169,
+          459,
+          1217,
+          507
+        ],
+        "detail": "Original isolated circular skill-execution photo; its pixels and round crop remain raster"
+      },
+      {
+        "id": "skill-1-6",
+        "bounds_source_pixels": [
+          1226,
+          459,
+          1274,
+          507
+        ],
+        "detail": "Original isolated circular skill-execution photo; its pixels and round crop remain raster"
+      },
+      {
+        "id": "skill-2-0",
+        "bounds_source_pixels": [
+          909,
+          511,
+          957,
+          559
+        ],
+        "detail": "Original isolated circular skill-execution photo; its pixels and round crop remain raster"
+      },
+      {
+        "id": "skill-2-1",
+        "bounds_source_pixels": [
+          967,
+          511,
+          1015,
+          559
+        ],
+        "detail": "Original isolated circular skill-execution photo; its pixels and round crop remain raster"
+      },
+      {
+        "id": "skill-2-2",
+        "bounds_source_pixels": [
+          1024,
+          511,
+          1072,
+          559
+        ],
+        "detail": "Original isolated circular skill-execution photo; its pixels and round crop remain raster"
+      },
+      {
+        "id": "skill-2-3",
+        "bounds_source_pixels": [
+          1082,
+          511,
+          1130,
+          559
+        ],
+        "detail": "Original isolated circular skill-execution photo; its pixels and round crop remain raster"
+      },
+      {
+        "id": "skill-2-4",
+        "bounds_source_pixels": [
+          1139,
+          511,
+          1187,
+          559
+        ],
+        "detail": "Original isolated circular skill-execution photo; its pixels and round crop remain raster"
+      },
+      {
+        "id": "skill-2-5",
+        "bounds_source_pixels": [
+          1196,
+          511,
+          1244,
+          559
+        ],
+        "detail": "Original isolated circular skill-execution photo; its pixels and round crop remain raster"
+      }
+    ]
+  },
+  "metrics": {
+    "native_nodes": 159,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 101,
+    "native_text_objects": 45,
+    "raster_images": 35,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "robogen-figure-2.drawio",
+      "sha256": "157296142a14a91c71f3964022b7c09629fcf26955717942b8c0e4f351446d28"
+    },
+    {
+      "name": "robogen-figure-2.png",
+      "sha256": "b78bb0dd7802ba983ecbbc1811c6d5f0cc10d0780fabf9201407903dd6b6c35b"
+    },
+    {
+      "name": "robogen-figure-2.pptx",
+      "sha256": "0cb3e38bc5d7d6feac3b160aa8b29e96320e0144c7c568ad9c1450f29a45ffba"
+    }
+  ]
+}

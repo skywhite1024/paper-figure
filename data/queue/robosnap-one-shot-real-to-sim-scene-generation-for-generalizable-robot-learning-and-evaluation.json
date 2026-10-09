@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "robosnap-one-shot-real-to-sim-scene-generation-for-generalizable-robot-learning-and-evaluation",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.492241Z",
-  "updated_at": "2026-10-09T20:49:29.473607Z",
+  "updated_at": "2026-10-09T22:00:59.754176Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/robosnap/README.md",
+          "output/robosnap/VALIDATION.json"
+        ],
+        "output_directory": "output/robosnap",
+        "source_sha256": "62ab8556acff89b6af105d3b6340f35a59f789dad1af99733ef80dacd558b9d5",
+        "scene_sha256": "1fcbcc99ecf084f891914e4598a850ae7f5c84006db601871483634673fb3f9f",
+        "text_editability": {
+          "typeable_text_objects": 89,
+          "native_freeform_paths": 112,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T22:00:59.754176Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "cc752dff0223e8310f6608ba43abef57db79646854184d5766e9eee6da7ffb46",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/robosnap/README.md",
+                "output/robosnap/VALIDATION.json"
+              ],
+              "output_directory": "output/robosnap",
+              "source_sha256": "62ab8556acff89b6af105d3b6340f35a59f789dad1af99733ef80dacd558b9d5",
+              "scene_sha256": "1fcbcc99ecf084f891914e4598a850ae7f5c84006db601871483634673fb3f9f",
+              "text_editability": {
+                "typeable_text_objects": 89,
+                "native_freeform_paths": 112,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

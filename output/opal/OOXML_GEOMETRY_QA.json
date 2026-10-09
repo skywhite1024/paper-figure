@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/opal",
+  "diagram_id": "opal-figure-2",
+  "scene_sha256": "f9d64cf3ecf6017842b23be66da286140c0b4bd42ed650ed9ae9e0662c9219f3",
+  "pptx_sha256": "b3343334ca28535ae7c364c69d21439a9422174cc6d0b2a4b678fd1be6a0ebab",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 262,
+    "named_shapes_checked": 262,
+    "text_labels_checked": 27,
+    "paths_checked": 233,
+    "curve_commands_checked": 2217,
+    "images_checked": 2
+  },
+  "maximum_object_position_delta_scene_pixels": 5.239e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.756e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

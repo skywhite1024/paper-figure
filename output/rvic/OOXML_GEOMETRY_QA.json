@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/rvic",
+  "diagram_id": "rvic-figure-1",
+  "scene_sha256": "6dd61a131fd4e3ad5645d7104c38e427cb2e75e17e7330cbd25812d9de3576ec",
+  "pptx_sha256": "0e947f038048e91a4f081768155a3acb53b41d406c30f37573d83e6420bef29c",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 42,
+    "named_shapes_checked": 42,
+    "text_labels_checked": 8,
+    "paths_checked": 15,
+    "curve_commands_checked": 0,
+    "images_checked": 8
+  },
+  "maximum_object_position_delta_scene_pixels": 2.625e-05,
+  "maximum_path_control_point_delta_scene_pixels": 0.0,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

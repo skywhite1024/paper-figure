@@ -6,7 +6,7 @@ from PIL import Image
 R=Path(__file__).resolve().parents[2]
 SLUG='tref'; CAT='tref-6-inferring-task-relevant-frames-from-a-single-demonstration-for-one-shot-skill-generalization'; FIG='figure-1'; CROP=[111,75,499,303]; FONT='Times New Roman'
 p=argparse.ArgumentParser();p.add_argument('--pdf');a=p.parse_args()
-evidence=json.loads((R/'research/survey'/f'{CAT}.json').read_text());pdf=Path(a.pdf or evidence['pdf_path'])
+evidence=json.loads((R/'research/survey'/f'{CAT}.json').read_text());pdf=Path(a.pdf or evidence['pdf_path']);pdf=pdf if pdf.is_absolute() else R/pdf
 sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest()
 assert sha(pdf)==evidence['pdf_sha256'],'Wrong source PDF'
 D=R/'data/diagrams'/SLUG;A=D/'assets';D.mkdir(parents=True,exist_ok=True);A.mkdir(exist_ok=True)

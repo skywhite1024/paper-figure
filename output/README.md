@@ -2,8 +2,20 @@
 
 每篇论文单独一个文件夹，包含 PPTX、draw.io、预览、论文原图、原文 PDF、离线对照及来源/校验记录。
 
+
+## 检查层级
+
+- 原图/重建预览及原生结构核查：已通过 128，待完成 0，未记载 0
+- PPTX 实际 LibreOffice 打开与渲染：已通过 76，待完成 52，未记载 0
+- draw.io 实际应用渲染：已通过 0，待完成 128，未记载 0
+
+源图/预览和对象坐标、文字、曲线结构检查，不等于实际目标软件渲染。单元测试数量也不代表编辑器验证数量。
+
+[逐篇检查层级与证据](QA_SUMMARY.json)
+
 - [Affordance-Graphed Task Worlds: Self-Evolving Task Generation for Scalable Embodied Learning](affordance-worlds/README.md)：Figure 1，PDF 第 2 页 · [离线对照](affordance-worlds/comparison.html)
 - [AffordGen: Generating Diverse Demonstrations for Generalizable Object Manipulation with Affordance Correspondence](affordgen/README.md)：Figure 2，PDF 第 3 页 · [离线对照](affordgen/comparison.html)
+- [AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation](affordsim/README.md)：Figure 2，PDF 第 4 页 · [离线对照](affordsim/comparison.html)
 - [From Reaction to Anticipation: Proactive Failure Recovery through Agentic Task Graph for Robotic Manipulation (AgentChord)](agentchord/README.md)：Figure 2，PDF 第 4 页 · [离线对照](agentchord/comparison.html)
 - [Annotation-Free One-Shot Imitation Learning for Multi-Step Manipulation Tasks](annotation-free/README.md)：Figure 1，PDF 第 2 页 · [离线对照](annotation-free/comparison.html)
 - [AnyTask: An Automated Task and Data Generation Framework for Advancing Sim-to-Real Policy Learning](anytask/README.md)：Figure 2，PDF 第 2 页 · [离线对照](anytask/comparison.html)
@@ -14,6 +26,7 @@
 - [Active Task Randomization: Learning Robust Skills via Unsupervised Generation of Diverse and Feasible Tasks](atr/README.md)：Figure 1，PDF 第 1 页 · [离线对照](atr/comparison.html)
 - [Autonomous Skill Discovery with Quality-Diversity and Unsupervised Descriptors](aurora/README.md)：Figure 1，PDF 第 1 页 · [离线对照](aurora/comparison.html)
 - [Unsupervised Skill Discovery for Robotic Manipulation through Automatic Task Generation](automatic-task-skills/README.md)：Figure 1，PDF 第 1 页 · [离线对照](automatic-task-skills/comparison.html)
+- [AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation](axis/README.md)：Figure 1，PDF 第 1 页 · [离线对照](axis/comparison.html)
 - [Behavior Contrastive Learning for Unsupervised Skill Discovery](becl/README.md)：Figure 3，PDF 第 4 页 · [离线对照](becl/comparison.html)
 - [Bayesian Nonparametrics for Offline Skill Discovery](bnpo/README.md)：Figure 1，PDF 第 5 页 · [离线对照](bnpo/comparison.html)
 - [Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance](boss/README.md)：Figure 1，PDF 第 2 页 · [离线对照](boss/comparison.html)
@@ -46,10 +59,14 @@
 - [Divide, Discover, Deploy: Factorized Skill Learning with Symmetry and Style Priors](divide-discover-deploy/README.md)：Figure 2，PDF 第 4 页 · [离线对照](divide-discover-deploy/comparison.html)
 - [Do's and Don'ts: Learning Desirable Skills with Instruction Videos](dodont/README.md)：Figure 1，PDF 第 2 页 · [离线对照](dodont/comparison.html)
 - [DreamGen: Unlocking Generalization in Robot Learning through Video World Models](dreamgen/README.md)：Figure 2，PDF 第 2 页 · [离线对照](dreamgen/comparison.html)
+- [DynScene: Scalable Generation of Dynamic Robotic Manipulation Scenes for Embodied AI](dynscene/README.md)：Figure 2，PDF 第 3 页 · [离线对照](dynscene/comparison.html)
 - [ELSIM: End-to-End Learning of Reusable Skills through Intrinsic Motivation](elsim/README.md)：Figure 1，PDF 第 5 页 · [离线对照](elsim/comparison.html)
 - [Eurekaverse: Environment Curriculum Generation via Large Language Models](eurekaverse/README.md)：Figure 2，PDF 第 2 页 · [离线对照](eurekaverse/comparison.html)
+- [FATE: Closed-Loop Feasibility-Aware Task Generation with Active Repair for Physically Grounded Robotic Curricula](fate/README.md)：Figure 2，PDF 第 4 页 · [离线对照](fate/comparison.html)
 - [Guiding Skill Discovery with Foundation Models](fog/README.md)：Figure 1，PDF 第 2 页 · [离线对照](fog/comparison.html)
+- [ForeRobo: Unlocking Infinite Simulation Data for 3D Goal-driven Robotic Manipulation](forerobo/README.md)：Figure 1，PDF 第 3 页 · [离线对照](forerobo/comparison.html)
 - [What Foundation Models Can Bring for Robot Learning in Manipulation: A Survey](foundation-survey/README.md)：Figure 2，PDF 第 4 页 · [离线对照](foundation-survey/comparison.html)
+- [Gen2Sim: Scaling Up Robot Learning in Simulation with Generative Models](gen2sim/README.md)：Figure 2，PDF 第 3 页 · [离线对照](gen2sim/comparison.html)
 - [Generative Artificial Intelligence in Robotic Manipulation: A Survey](genai-survey/README.md)：Figure 1，PDF 第 2 页 · [离线对照](genai-survey/comparison.html)
 - [GenSim: Generating Robotic Simulation Tasks via Large Language Models](gensim/README.md)：Figure 2，PDF 第 3 页 · [离线对照](gensim/comparison.html)
 - [GenSim2: Scaling Robot Data Generation with Multi-Modal and Reasoning LLMs](gensim2/README.md)：Figure 2，PDF 第 4 页 · [离线对照](gensim2/comparison.html)
@@ -61,11 +78,13 @@
 - [Robots Acquire Manipulation Skills in Seconds from a Single Human Video (HOST)](host/README.md)：Figure 2，PDF 第 4 页 · [离线对照](host/comparison.html)
 - [Human-Centric Open-Future Task Discovery: Formulation, Benchmark, and Scalable Tree-Based Search](hotd/README.md)：Figure 3，PDF 第 4 页 · [离线对照](hotd/comparison.html)
 - [Unsupervised Skill Discovery with Bottleneck Option Learning](ibol/README.md)：Figure 2，PDF 第 3 页 · [离线对照](ibol/comparison.html)
+- [IGen: Scalable Data Generation for Robot Learning from Open-World Images](igen/README.md)：Figure 2，PDF 第 4 页 · [离线对照](igen/comparison.html)
 - [Language Guided Skill Discovery](lgsd/README.md)：Figure 2，PDF 第 4 页 · [离线对照](lgsd/comparison.html)
 - [Reset-Free Lifelong Learning with Skill-Space Planning](lifelong-skill-planning/README.md)：Figure 2，PDF 第 5 页 · [离线对照](lifelong-skill-planning/comparison.html)
 - [LodeStar: Long-horizon Dexterity via Synthetic Data Augmentation from Human Demonstrations](lodestar/README.md)：Figure 2，PDF 第 4 页 · [离线对照](lodestar/comparison.html)
 - [LOTUS: Continual Imitation Learning for Robot Manipulation through Unsupervised Skill Discovery](lotus/README.md)：Figure 2，PDF 第 4 页 · [离线对照](lotus/comparison.html)
 - [ManiTaskGen: A Comprehensive Task Generator for Benchmarking and Improving Vision-Language Agents on Embodied Decision-Making](manitaskgen/README.md)：Figure 1，PDF 第 2 页 · [离线对照](manitaskgen/comparison.html)
+- [MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning](mesatask/README.md)：Figure 2，PDF 第 5 页 · [离线对照](mesatask/comparison.html)
 - [METRA: Scalable Unsupervised RL with Metric-Aware Abstraction](metra/README.md)：Figure 1，PDF 第 2 页 · [离线对照](metra/comparison.html)
 - [Autonomous Skill Acquisition on a Mobile Manipulator](mobile-skill/README.md)：Figure 1，PDF 第 2 页 · [离线对照](mobile-skill/comparison.html)
 - [Diverse Skill Discovery for Quadruped Robots via Unsupervised Learning](mod-skill/README.md)：Figure 1，PDF 第 3 页 · [离线对照](mod-skill/comparison.html)
@@ -77,13 +96,19 @@
 - [OPAL: Offline Primitive Discovery for Accelerating Offline Reinforcement Learning](opal/README.md)：Figure 2，PDF 第 4 页 · [离线对照](opal/comparison.html)
 - [The Option Keyboard: Combining Skills in Reinforcement Learning](option-keyboard/README.md)：Figure 1，PDF 第 5 页 · [离线对照](option-keyboard/comparison.html)
 - [PARTNR: A Benchmark for Planning and Reasoning in Embodied Multi-Agent Tasks](partnr/README.md)：Figure 5，PDF 第 7 页 · [离线对照](partnr/comparison.html)
+- [An Embodied Simulation Platform, Benchmark, and Success-Verified Simulation Augmentation Framework for Wet-Lab Robotics (Pipette)](pipette/README.md)：Figure 1，PDF 第 4 页 · [离线对照](pipette/comparison.html)
 - [Learning Latent Plans from Play](play-lmp/README.md)：Figure 1，PDF 第 2 页 · [离线对照](play-lmp/comparison.html)
 - [Periodic Skill Discovery](psd/README.md)：Figure 1，PDF 第 2 页 · [离线对照](psd/comparison.html)
 - [RDD: Retrieval-Based Demonstration Decomposer for Planner Alignment in Long-Horizon Tasks](rdd/README.md)：Figure 2，PDF 第 4 页 · [离线对照](rdd/comparison.html)
 - [Unsupervised Skill Discovery via Recurrent Skill Training](rest/README.md)：Figure 3，PDF 第 3 页 · [离线对照](rest/comparison.html)
 - [Reference Grounded Skill Discovery](rgsd/README.md)：Figure 2，PDF 第 4 页 · [离线对照](rgsd/comparison.html)
+- [RoboCerebra: A Large-Scale Benchmark for Long-Horizon Robotic Manipulation Evaluation](robocerebra/README.md)：Figure 2，PDF 第 4 页 · [离线对照](robocerebra/comparison.html)
+- [RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation](robogen/README.md)：Figure 2，PDF 第 4 页 · [离线对照](robogen/comparison.html)
+- [RoboGene: Boosting VLA Pre-training via Diversity-Driven Agentic Framework for Real-World Task Generation](robogene/README.md)：Figure 2，PDF 第 4 页 · [离线对照](robogene/comparison.html)
+- [RoboLab: A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies](robolab/README.md)：Figure 1，PDF 第 1 页 · [离线对照](robolab/comparison.html)
 - [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](roboreact/README.md)：Figure 2，PDF 第 3 页 · [离线对照](roboreact/comparison.html)
 - [Learning Multi-Task Robot Trajectory Segmentation from Visual and Kinematic Streams (RoboSegNet)](robosegnet/README.md)：Figure 2，PDF 第 4 页 · [离线对照](robosegnet/comparison.html)
+- [RoboSnap: One-Shot Real-to-Sim Scene Generation for Generalizable Robot Learning and Evaluation](robosnap/README.md)：Figure 2，PDF 第 3 页 · [离线对照](robosnap/comparison.html)
 - [RoboSubtaskNet: Temporal Sub-task Segmentation for Human-to-Robot Skill Transfer in Real-World Environments](robosubtasknet/README.md)：Figure 2，PDF 第 3 页 · [离线对照](robosubtasknet/comparison.html)
 - [RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation](robotwin2/README.md)：Figure 2，PDF 第 3 页 · [离线对照](robotwin2/comparison.html)
 - [Relative Variational Intrinsic Control](rvic/README.md)：Figure 1，PDF 第 2 页 · [离线对照](rvic/comparison.html)
@@ -95,6 +120,7 @@
 - [SkiD RAW: Skill Discovery from Raw Trajectories](skid-raw/README.md)：Figure 2，PDF 第 2 页 · [离线对照](skid-raw/comparison.html)
 - [Skill Discovery in Continuous Reinforcement Learning Domains Using Skill Chaining](skill-chaining/README.md)：Figure 1，PDF 第 4 页 · [离线对照](skill-chaining/comparison.html)
 - [SkillMimicGen: Automated Demonstration Generation for Efficient Skill Learning and Deployment](skillmimicgen/README.md)：Figure 1，PDF 第 2 页 · [离线对照](skillmimicgen/comparison.html)
+- [SkillWrapper: Generative Predicate Invention for Task-Level Robot Planning](skillwrapper/README.md)：Figure 1，PDF 第 2 页 · [离线对照](skillwrapper/comparison.html)
 - [SLAC: Safe and Efficient Real-Robot Reinforcement Learning via Unsupervised Simulation Pre-Training](slac/README.md)：Figure 2，PDF 第 4 页 · [离线对照](slac/comparison.html)
 - [Discovering Generalizable Skills via Automated Generation of Diverse Tasks](slide/README.md)：Figure 2，PDF 第 3 页 · [离线对照](slide/comparison.html)
 - [Leveraging Human Feedback for Semantically-Relevant Skill Discovery](srsd/README.md)：Figure 2，PDF 第 4 页 · [离线对照](srsd/comparison.html)
@@ -112,6 +138,7 @@
 - [Variational Option Discovery Algorithms](valor/README.md)：Figure 1，PDF 第 4 页 · [离线对照](valor/comparison.html)
 - [Real-Time Verification of Embodied Reasoning for Generative Skill Acquisition](vergsa/README.md)：Figure 2，PDF 第 4 页 · [离线对照](vergsa/comparison.html)
 - [Video2Policy: Scaling up Manipulation Tasks in Simulation through Internet Videos](video2policy/README.md)：Figure 1，PDF 第 2 页 · [离线对照](video2policy/comparison.html)
+- [VLBiMan: Vision-Language Anchored One-Shot Demonstration Enables Generalizable Bimanual Robotic Manipulation](vlbiman/README.md)：Figure 2，PDF 第 4 页 · [离线对照](vlbiman/comparison.html)
 - [Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills](vuvc/README.md)：Figure 1，PDF 第 2 页 · [离线对照](vuvc/comparison.html)
 - [XSkill: Cross Embodiment Skill Discovery](xskill/README.md)：Figure 2，PDF 第 3 页 · [离线对照](xskill/comparison.html)
 
@@ -125,6 +152,10 @@
 - [Lipschitz-Constrained Unsupervised Skill Discovery](lipschitz-constrained-unsupervised-skill-discovery/README.md)
 - [Variational Intrinsic Control](variational-intrinsic-control/README.md)
 - [VOLT: Vision and Language Trajectory Segmentation for Faster-than-Demonstration Policies](volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies/README.md)
+
+## 等待补充原文
+
+[等待可访问原文 PDF 的条目，不计入图形交付](AWAITING_SOURCES.md)
 
 [逐篇处理进度（已交付与待审查分开计数）](PROCESSING.json)
 

@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/gordon",
+  "diagram_id": "gordon-figure-2",
+  "scene_sha256": "d45f228f334faacfab5b98967c2b415904598e0514af193289c2b6a7a9cf6484",
+  "pptx_sha256": "9dbe5050e0ef65543d363d70bc92be040cdc951870327882f42118289f51aa96",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 291,
+    "named_shapes_checked": 291,
+    "text_labels_checked": 31,
+    "paths_checked": 227,
+    "curve_commands_checked": 987,
+    "images_checked": 33
+  },
+  "maximum_object_position_delta_scene_pixels": 5.245e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.684e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

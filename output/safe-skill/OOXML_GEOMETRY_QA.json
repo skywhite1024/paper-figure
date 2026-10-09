@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/safe-skill",
+  "diagram_id": "safe-skill-figure-2",
+  "scene_sha256": "c19e278da3364ffd3c3add5aedebf90b15a45d96f98a785ff6978ccdad804535",
+  "pptx_sha256": "983fda8b857f09617c125b4af105979dd09f32c8d4c3ed276f18c43baaffee6f",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 128,
+    "named_shapes_checked": 128,
+    "text_labels_checked": 17,
+    "paths_checked": 77,
+    "curve_commands_checked": 0,
+    "images_checked": 6
+  },
+  "maximum_object_position_delta_scene_pixels": 5.249e-05,
+  "maximum_path_control_point_delta_scene_pixels": 5.249e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

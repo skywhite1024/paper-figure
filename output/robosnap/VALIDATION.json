@@ -1,0 +1,879 @@
+{
+  "diagram_id": "robosnap-figure-2",
+  "source_scene_sha256": "1fcbcc99ecf084f891914e4598a850ae7f5c84006db601871483634673fb3f9f",
+  "source_pdf_sha256": "62ab8556acff89b6af105d3b6340f35a59f789dad1af99733ef80dacd558b9d5",
+  "checked_files": [
+    {
+      "name": "robosnap-figure-2.drawio",
+      "sha256": "6d2206446d0e688ae432f17c0a4c8d31239c04b899cd231b39f0bc36393c6e0d"
+    },
+    {
+      "name": "robosnap-figure-2.png",
+      "sha256": "5230c854300224ed17758d65c161c1a53ba62f87c76bc70b5e350ab4b31dfbe7"
+    },
+    {
+      "name": "robosnap-figure-2.pptx",
+      "sha256": "c1f3a6a10d649144b1a65cf9e2638ab14afdb12efa1b0d0da97015c2536656cd"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_scene_asset_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 112,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; source edition/hash pinned",
+    "source_page_figure": "Independent PDF crop compared with original PNG and delivered preview",
+    "source_preview_visual": "passed with disclosed image/font/math/dash limitations"
+  },
+  "native_xml_counts": {
+    "p:sp": 285,
+    "p:pic": 81,
+    "a:custGeom": 112,
+    "p:cxnSp": 0,
+    "a:t": 92
+  },
+  "source_title": "RoboSnap: One-Shot Real-to-Sim Scene Generation for Generalizable Robot Learning and Evaluation",
+  "typeable_labels": [
+    "l",
+    "RGB ",
+    "Image ",
+    "1",
+    "2",
+    "3",
+    "“background”",
+    "Articulate",
+    "Object",
+    "Inpainted",
+    "root",
+    "Scene Graph",
+    "Support",
+    "fixed",
+    "Contact",
+    "After Refinement",
+    "SDF Phase",
+    "Objects Settle/",
+    "N = Max Round",
+    "Set of Mask ",
+    "Prompting",
+    "…",
+    "1",
+    "2",
+    "3",
+    "Before Refinement",
+    "✓",
+    "✓",
+    "n",
+    "+",
+    "𝑧",
+    "Gravity",
+    "Alignment",
+    "“orange plate”, “pizza”",
+    "“donut",
+    "”,  ",
+    "…",
+    "Edge",
+    "Data Generation",
+    "Policy Evaluation",
+    "Real/Sim success",
+    "𝑇",
+    "𝑎𝑠𝑘",
+    "&",
+    "𝑆",
+    "∗",
+    "6D EEF waypoints",
+    "InternDataEngine",
+    "AnyGrasp",
+    "CuRobo",
+    "Joint",
+    "actions",
+    "Generated ",
+    "Data ",
+    "RGB ",
+    "video",
+    "Robot State",
+    "A",
+    "ctions  ",
+    "M",
+    "etadata",
+    "SAM 3",
+    "VGGT",
+    "RANSAC",
+    "Pointcloud Alignment",
+    "Physics",
+    "Phase",
+    "V",
+    "-",
+    "HACD SAPIEN",
+    "Kinematic Obj",
+    ".",
+    "Dynamic ",
+    "Obj.",
+    "3D",
+    "World",
+    "Model",
+    "P3",
+    "-",
+    "SAM",
+    "SAM 3D",
+    "𝑺",
+    "∗",
+    "Collision hulls",
+    "",
+    "",
+    "",
+    "Layered Scene",
+    "Decomposition",
+    "Refinement",
+    "Applications",
+    "Simulation-ready"
+  ],
+  "raster_nodes": [
+    {
+      "id": "source-raster-0",
+      "asset": "robosnap-source-raster-0.png",
+      "x": 738,
+      "y": 170,
+      "width": 59,
+      "height": 22,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-raster-1",
+      "asset": "robosnap-source-raster-1.png",
+      "x": 336,
+      "y": 389,
+      "width": 86,
+      "height": 15,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-raster-2",
+      "asset": "robosnap-source-raster-2.png",
+      "x": 337,
+      "y": 341,
+      "width": 84,
+      "height": 49,
+      "canvas_area_fraction": 0.007
+    },
+    {
+      "id": "source-raster-6",
+      "asset": "robosnap-source-raster-6.png",
+      "x": 36,
+      "y": 135,
+      "width": 31,
+      "height": 25,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "source-raster-11",
+      "asset": "robosnap-source-raster-11.png",
+      "x": 89,
+      "y": 299,
+      "width": 32,
+      "height": 17,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "source-raster-20",
+      "asset": "robosnap-source-raster-20.png",
+      "x": 96,
+      "y": 282,
+      "width": 26,
+      "height": 18,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "source-raster-25",
+      "asset": "robosnap-source-raster-25.png",
+      "x": 31,
+      "y": 241,
+      "width": 36,
+      "height": 32,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-raster-26",
+      "asset": "robosnap-source-raster-26.png",
+      "x": 80,
+      "y": 242,
+      "width": 37,
+      "height": 35,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-raster-27",
+      "asset": "robosnap-source-raster-27.png",
+      "x": 81,
+      "y": 204,
+      "width": 36,
+      "height": 32,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-raster-32",
+      "asset": "robosnap-source-raster-32.png",
+      "x": 34,
+      "y": 198,
+      "width": 34,
+      "height": 34,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-raster-37",
+      "asset": "robosnap-source-raster-37.png",
+      "x": 175,
+      "y": 73,
+      "width": 37,
+      "height": 37,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-raster-38",
+      "asset": "robosnap-source-raster-38.png",
+      "x": 317,
+      "y": 188,
+      "width": 106,
+      "height": 60,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "source-raster-39",
+      "asset": "robosnap-source-raster-39.png",
+      "x": 166,
+      "y": 207,
+      "width": 28,
+      "height": 19,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "source-raster-40",
+      "asset": "robosnap-source-raster-40.png",
+      "x": 175,
+      "y": 227,
+      "width": 18,
+      "height": 16,
+      "canvas_area_fraction": 0.0
+    },
+    {
+      "id": "source-raster-41",
+      "asset": "robosnap-source-raster-41.png",
+      "x": 200,
+      "y": 222,
+      "width": 19,
+      "height": 17,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "source-raster-42",
+      "asset": "robosnap-source-raster-42.png",
+      "x": 208,
+      "y": 199,
+      "width": 16,
+      "height": 15,
+      "canvas_area_fraction": 0.0
+    },
+    {
+      "id": "source-raster-43",
+      "asset": "robosnap-source-raster-43.png",
+      "x": 187,
+      "y": 196,
+      "width": 18,
+      "height": 10,
+      "canvas_area_fraction": 0.0
+    },
+    {
+      "id": "source-raster-44",
+      "asset": "robosnap-source-raster-44.png",
+      "x": 220,
+      "y": 206,
+      "width": 74,
+      "height": 51,
+      "canvas_area_fraction": 0.006
+    },
+    {
+      "id": "source-raster-45",
+      "asset": "robosnap-source-raster-45.png",
+      "x": 216,
+      "y": 256,
+      "width": 79,
+      "height": 64,
+      "canvas_area_fraction": 0.009
+    },
+    {
+      "id": "source-raster-46",
+      "asset": "robosnap-source-raster-46.png",
+      "x": 317,
+      "y": 264,
+      "width": 107,
+      "height": 60,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "source-raster-47",
+      "asset": "robosnap-source-raster-47.png",
+      "x": 464,
+      "y": 68,
+      "width": 66,
+      "height": 59,
+      "canvas_area_fraction": 0.007
+    },
+    {
+      "id": "source-raster-48",
+      "asset": "robosnap-source-raster-48.png",
+      "x": 482,
+      "y": 106,
+      "width": 86,
+      "height": 76,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "source-raster-49",
+      "asset": "robosnap-source-raster-49.png",
+      "x": 170,
+      "y": 259,
+      "width": 21,
+      "height": 10,
+      "canvas_area_fraction": 0.0
+    },
+    {
+      "id": "source-raster-50",
+      "asset": "robosnap-source-raster-50.png",
+      "x": 196,
+      "y": 255,
+      "width": 14,
+      "height": 15,
+      "canvas_area_fraction": 0.0
+    },
+    {
+      "id": "source-raster-51",
+      "asset": "robosnap-source-raster-51.png",
+      "x": 173,
+      "y": 272,
+      "width": 17,
+      "height": 14,
+      "canvas_area_fraction": 0.0
+    },
+    {
+      "id": "source-raster-52",
+      "asset": "robosnap-source-raster-52.png",
+      "x": 198,
+      "y": 270,
+      "width": 16,
+      "height": 17,
+      "canvas_area_fraction": 0.0
+    },
+    {
+      "id": "source-raster-53",
+      "asset": "robosnap-source-raster-53.png",
+      "x": 170,
+      "y": 296,
+      "width": 21,
+      "height": 18,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "source-raster-54",
+      "asset": "robosnap-source-raster-54.png",
+      "x": 172,
+      "y": 339,
+      "width": 130,
+      "height": 92,
+      "canvas_area_fraction": 0.02
+    },
+    {
+      "id": "source-raster-55",
+      "asset": "robosnap-source-raster-55.png",
+      "x": 715,
+      "y": 66,
+      "width": 68,
+      "height": 17,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-raster-56",
+      "asset": "robosnap-source-raster-56.png",
+      "x": 465,
+      "y": 391,
+      "width": 136,
+      "height": 90,
+      "canvas_area_fraction": 0.021
+    },
+    {
+      "id": "source-raster-57",
+      "asset": "robosnap-source-raster-57.png",
+      "x": 573,
+      "y": 460,
+      "width": 12,
+      "height": 10,
+      "canvas_area_fraction": 0.0
+    },
+    {
+      "id": "source-raster-59",
+      "asset": "robosnap-source-raster-59.png",
+      "x": 468,
+      "y": 390,
+      "width": 134,
+      "height": 57,
+      "canvas_area_fraction": 0.013
+    },
+    {
+      "id": "source-raster-60",
+      "asset": "robosnap-source-raster-60.png",
+      "x": 469,
+      "y": 390,
+      "width": 127,
+      "height": 50,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "source-raster-61",
+      "asset": "robosnap-source-raster-61.png",
+      "x": 469,
+      "y": 445,
+      "width": 39,
+      "height": 29,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-raster-62",
+      "asset": "robosnap-source-raster-62.png",
+      "x": 515,
+      "y": 445,
+      "width": 38,
+      "height": 29,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-raster-63",
+      "asset": "robosnap-source-raster-63.png",
+      "x": 560,
+      "y": 451,
+      "width": 38,
+      "height": 23,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "source-raster-64",
+      "asset": "robosnap-source-raster-64.png",
+      "x": 674,
+      "y": 384,
+      "width": 131,
+      "height": 58,
+      "canvas_area_fraction": 0.013
+    },
+    {
+      "id": "source-raster-65",
+      "asset": "robosnap-source-raster-65.png",
+      "x": 676,
+      "y": 385,
+      "width": 123,
+      "height": 51,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "source-raster-66",
+      "asset": "robosnap-source-raster-66.png",
+      "x": 672,
+      "y": 443,
+      "width": 45,
+      "height": 38,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "source-raster-67",
+      "asset": "robosnap-source-raster-67.png",
+      "x": 675,
+      "y": 443,
+      "width": 38,
+      "height": 31,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-raster-68",
+      "asset": "robosnap-source-raster-68.png",
+      "x": 717,
+      "y": 443,
+      "width": 45,
+      "height": 38,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "source-raster-69",
+      "asset": "robosnap-source-raster-69.png",
+      "x": 721,
+      "y": 443,
+      "width": 37,
+      "height": 31,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-raster-70",
+      "asset": "robosnap-source-raster-70.png",
+      "x": 763,
+      "y": 443,
+      "width": 45,
+      "height": 37,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "source-raster-71",
+      "asset": "robosnap-source-raster-71.png",
+      "x": 766,
+      "y": 443,
+      "width": 38,
+      "height": 29,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-raster-73",
+      "asset": "robosnap-source-raster-73.png",
+      "x": 573,
+      "y": 82,
+      "width": 25,
+      "height": 17,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "source-raster-74",
+      "asset": "robosnap-source-raster-74.png",
+      "x": 577,
+      "y": 113,
+      "width": 18,
+      "height": 17,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "source-raster-75",
+      "asset": "robosnap-source-raster-75.png",
+      "x": 578,
+      "y": 140,
+      "width": 19,
+      "height": 17,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "source-raster-76",
+      "asset": "robosnap-source-raster-76.png",
+      "x": 305,
+      "y": 353,
+      "width": 29,
+      "height": 26,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "source-raster-79",
+      "asset": "robosnap-source-raster-79.png",
+      "x": 851,
+      "y": 65,
+      "width": 115,
+      "height": 109,
+      "canvas_area_fraction": 0.021
+    },
+    {
+      "id": "source-raster-80",
+      "asset": "robosnap-source-raster-80.png",
+      "x": 988,
+      "y": 66,
+      "width": 120,
+      "height": 107,
+      "canvas_area_fraction": 0.022
+    },
+    {
+      "id": "source-raster-81",
+      "asset": "robosnap-source-raster-81.png",
+      "x": 852,
+      "y": 306,
+      "width": 63,
+      "height": 46,
+      "canvas_area_fraction": 0.005
+    },
+    {
+      "id": "source-raster-82",
+      "asset": "robosnap-source-raster-82.png",
+      "x": 900,
+      "y": 306,
+      "width": 60,
+      "height": 47,
+      "canvas_area_fraction": 0.005
+    },
+    {
+      "id": "source-raster-83",
+      "asset": "robosnap-source-raster-83.png",
+      "x": 952,
+      "y": 306,
+      "width": 61,
+      "height": 47,
+      "canvas_area_fraction": 0.005
+    },
+    {
+      "id": "source-raster-84",
+      "asset": "robosnap-source-raster-84.png",
+      "x": 1043,
+      "y": 306,
+      "width": 67,
+      "height": 47,
+      "canvas_area_fraction": 0.005
+    },
+    {
+      "id": "source-raster-85",
+      "asset": "robosnap-source-raster-85.png",
+      "x": 1003,
+      "y": 306,
+      "width": 61,
+      "height": 47,
+      "canvas_area_fraction": 0.005
+    },
+    {
+      "id": "source-raster-86",
+      "asset": "robosnap-source-raster-86.png",
+      "x": 933,
+      "y": 415,
+      "width": 65,
+      "height": 48,
+      "canvas_area_fraction": 0.005
+    },
+    {
+      "id": "source-raster-87",
+      "asset": "robosnap-source-raster-87.png",
+      "x": 864,
+      "y": 415,
+      "width": 66,
+      "height": 48,
+      "canvas_area_fraction": 0.005
+    },
+    {
+      "id": "source-raster-90",
+      "asset": "robosnap-source-raster-90.png",
+      "x": 516,
+      "y": 305,
+      "width": 66,
+      "height": 34,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "source-raster-91",
+      "asset": "robosnap-source-raster-91.png",
+      "x": 530,
+      "y": 273,
+      "width": 45,
+      "height": 37,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "source-raster-93",
+      "asset": "robosnap-source-raster-93.png",
+      "x": 562,
+      "y": 272,
+      "width": 62,
+      "height": 36,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "source-raster-94",
+      "asset": "robosnap-source-raster-94.png",
+      "x": 503,
+      "y": 295,
+      "width": 40,
+      "height": 25,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-raster-95",
+      "asset": "robosnap-source-raster-95.png",
+      "x": 484,
+      "y": 311,
+      "width": 48,
+      "height": 21,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-raster-96",
+      "asset": "robosnap-source-raster-96.png",
+      "x": 647,
+      "y": 237,
+      "width": 62,
+      "height": 36,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "source-raster-97",
+      "asset": "robosnap-source-raster-97.png",
+      "x": 46,
+      "y": 179,
+      "width": 61,
+      "height": 20,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-raster-99",
+      "asset": "robosnap-source-raster-99.png",
+      "x": 309,
+      "y": 447,
+      "width": 92,
+      "height": 15,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-raster-100",
+      "asset": "robosnap-source-raster-100.png",
+      "x": 310,
+      "y": 397,
+      "width": 90,
+      "height": 51,
+      "canvas_area_fraction": 0.008
+    },
+    {
+      "id": "source-raster-101",
+      "asset": "robosnap-source-raster-101.png",
+      "x": 404,
+      "y": 404,
+      "width": 26,
+      "height": 24,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "pdf-raster-8",
+      "asset": "robosnap-figure-2-raster-8.png",
+      "x": 669.0,
+      "y": 318.0,
+      "width": 135.0,
+      "height": 27.0,
+      "canvas_area_fraction": 0.006
+    },
+    {
+      "id": "pdf-raster-12",
+      "asset": "robosnap-figure-2-raster-12.png",
+      "x": 1008.0,
+      "y": 423.0,
+      "width": 96.0,
+      "height": 54.0,
+      "canvas_area_fraction": 0.009
+    },
+    {
+      "id": "pdf-raster-13",
+      "asset": "robosnap-figure-2-raster-13.png",
+      "x": 1062.0,
+      "y": 234.0,
+      "width": 30.0,
+      "height": 15.0,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "pdf-raster-6",
+      "asset": "robosnap-figure-2-raster-6.png",
+      "x": 195.0,
+      "y": 294.0,
+      "width": 42.0,
+      "height": 24.0,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "pdf-raster-4",
+      "asset": "robosnap-figure-2-raster-4.png",
+      "x": 627.0,
+      "y": 84.0,
+      "width": 39.0,
+      "height": 39.0,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "pdf-raster-2",
+      "asset": "robosnap-figure-2-raster-2.png",
+      "x": 33.0,
+      "y": 372.0,
+      "width": 78.0,
+      "height": 54.0,
+      "canvas_area_fraction": 0.007
+    },
+    {
+      "id": "pdf-raster-3",
+      "asset": "robosnap-figure-2-raster-3.png",
+      "x": 96.0,
+      "y": 393.0,
+      "width": 63.0,
+      "height": 45.0,
+      "canvas_area_fraction": 0.005
+    },
+    {
+      "id": "pdf-raster-7",
+      "asset": "robosnap-figure-2-raster-7.png",
+      "x": 135.0,
+      "y": 465.0,
+      "width": 171.0,
+      "height": 45.0,
+      "canvas_area_fraction": 0.013
+    },
+    {
+      "id": "pdf-raster-0",
+      "asset": "robosnap-figure-2-raster-0.png",
+      "x": 26.39999999999999,
+      "y": 64.19999999999993,
+      "width": 65.69999999999997,
+      "height": 59.400000000000034,
+      "canvas_area_fraction": 0.007
+    },
+    {
+      "id": "pdf-raster-1",
+      "asset": "robosnap-figure-2-raster-1.png",
+      "x": 77.70000000000002,
+      "y": 112.19999999999993,
+      "width": 66.0,
+      "height": 58.2000000000001,
+      "canvas_area_fraction": 0.007
+    },
+    {
+      "id": "pdf-raster-9",
+      "asset": "robosnap-figure-2-raster-9.png",
+      "x": 569.4000000000001,
+      "y": 273.0,
+      "width": 51.2999999999999,
+      "height": 30.0,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "pdf-raster-5",
+      "asset": "robosnap-figure-2-raster-5.png",
+      "x": 465.0,
+      "y": 273.0,
+      "width": 102.0,
+      "height": 63.0,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "pdf-raster-10",
+      "asset": "robosnap-figure-2-raster-10.png",
+      "x": 652.5,
+      "y": 237.0,
+      "width": 55.5,
+      "height": 30.0,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "pdf-raster-11",
+      "asset": "robosnap-figure-2-raster-11.png",
+      "x": 615.0,
+      "y": 243.0,
+      "width": 36.0,
+      "height": 27.0,
+      "canvas_area_fraction": 0.002
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

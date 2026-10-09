@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/skid-raw",
+  "diagram_id": "skid-raw-figure-2",
+  "scene_sha256": "cbc77c3bd818eadb1487f4e2e1ec3b664ce6c84dcf03a03955e4d009bd68e7b5",
+  "pptx_sha256": "8a14267793221c95adbd39e4c588f3de92b6a24f6a3f015d44ec8df011c71120",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 273,
+    "named_shapes_checked": 273,
+    "text_labels_checked": 6,
+    "paths_checked": 265,
+    "curve_commands_checked": 1355,
+    "images_checked": 2
+  },
+  "maximum_object_position_delta_scene_pixels": 5.249e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.697e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

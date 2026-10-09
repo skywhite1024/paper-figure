@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/psd",
+  "diagram_id": "psd-figure-1",
+  "scene_sha256": "2f6bbb3e427d6b63ed5d7bb727bc03a94abcefb21c06b6835d6ec72cecc4a355",
+  "pptx_sha256": "4e1aaa034c35a347c846237f7f222ca5c9b00f3d8c6de6d5a81e78db4b3fd830",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 481,
+    "named_shapes_checked": 481,
+    "text_labels_checked": 1,
+    "paths_checked": 480,
+    "curve_commands_checked": 1848,
+    "images_checked": 0
+  },
+  "maximum_object_position_delta_scene_pixels": 5.247e-05,
+  "maximum_path_control_point_delta_scene_pixels": 0.0001009,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/metra",
+  "diagram_id": "metra-figure-1",
+  "scene_sha256": "74e7b6f997f12ed083cfc8f64e8da1abe5e470288fb8f38436eade5fb112be21",
+  "pptx_sha256": "0d99195f464f90200d3d30a8b4902104394f618999252f9c690b7bbeae373a17",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 65,
+    "named_shapes_checked": 65,
+    "text_labels_checked": 6,
+    "paths_checked": 50,
+    "curve_commands_checked": 377,
+    "images_checked": 9
+  },
+  "maximum_object_position_delta_scene_pixels": 5.246e-05,
+  "maximum_path_control_point_delta_scene_pixels": 0.00010499,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

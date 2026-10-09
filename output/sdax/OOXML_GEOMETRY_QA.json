@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/sdax",
+  "diagram_id": "sdax-figure-2",
+  "scene_sha256": "62d874598e3de83cbef51adcbad4a10449398e0186530bce8b264ac979700e92",
+  "pptx_sha256": "421f0ccabd8578fd26068f44950135f99e75e7f68914a73395006c71d60cb5da",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 36,
+    "named_shapes_checked": 36,
+    "text_labels_checked": 4,
+    "paths_checked": 18,
+    "curve_commands_checked": 2,
+    "images_checked": 9
+  },
+  "maximum_object_position_delta_scene_pixels": 5.24e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.337e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "robocerebra-a-large-scale-benchmark-for-long-horizon-robotic-manipulation-evaluation",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.509021Z",
-  "updated_at": "2026-10-09T20:49:29.358239Z",
+  "updated_at": "2026-10-09T21:58:06.140057Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/robocerebra/README.md",
+          "output/robocerebra/VALIDATION.json"
+        ],
+        "output_directory": "output/robocerebra",
+        "source_sha256": "cca6d9a78c2a4768497fba712c96a1434f91e4beb6891fb02c12eed5b53ef90d",
+        "scene_sha256": "e6c73c41978ad61f1c5e71322b9968ef7439dac686c1ec76d2e853680e281c3b",
+        "text_editability": {
+          "typeable_text_objects": 369,
+          "native_freeform_paths": 110,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:58:06.140057Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "4b5d89598fbf2c7b752c1c4c40abd1fca3f0fa568f5e1e7bf8132c9cc1beb7fe",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/robocerebra/README.md",
+                "output/robocerebra/VALIDATION.json"
+              ],
+              "output_directory": "output/robocerebra",
+              "source_sha256": "cca6d9a78c2a4768497fba712c96a1434f91e4beb6891fb02c12eed5b53ef90d",
+              "scene_sha256": "e6c73c41978ad61f1c5e71322b9968ef7439dac686c1ec76d2e853680e281c3b",
+              "text_editability": {
+                "typeable_text_objects": 369,
+                "native_freeform_paths": 110,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

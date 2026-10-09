@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/curricullm",
+  "diagram_id": "curricullm-figure-1",
+  "scene_sha256": "2e31eed78c051f487d2d0c8e81c18e549656b6d0f4c15f8bca4ed3266fbc9851",
+  "pptx_sha256": "a18a640b8dae3f06939d2c188794c3e306c9201f218317bb1915d8741065743c",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 75,
+    "named_shapes_checked": 75,
+    "text_labels_checked": 28,
+    "paths_checked": 41,
+    "curve_commands_checked": 70,
+    "images_checked": 6
+  },
+  "maximum_object_position_delta_scene_pixels": 5.235e-05,
+  "maximum_path_control_point_delta_scene_pixels": 8.801e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

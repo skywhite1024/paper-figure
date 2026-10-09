@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/aro",
+  "diagram_id": "aro-figure-1",
+  "scene_sha256": "756a2e0599582d7d04235ced03f8016a72e9b280c6736198f0945547cee07bef",
+  "pptx_sha256": "799231311428fe3f15c6c4984ff3f23e3bf4b7e80796836f1d9da7a854c44ecc",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 33,
+    "named_shapes_checked": 33,
+    "text_labels_checked": 17,
+    "paths_checked": 14,
+    "curve_commands_checked": 15,
+    "images_checked": 0
+  },
+  "maximum_object_position_delta_scene_pixels": 5.249e-05,
+  "maximum_path_control_point_delta_scene_pixels": 5.249e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

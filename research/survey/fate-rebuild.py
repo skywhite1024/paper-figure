@@ -54,7 +54,12 @@ L('alignment-dashed-axis',[(368,200),(368,293)],'#777777',1.2,arrow=False,dash=T
 # and explicit native baseline/subscript/superscript mathematical runs.
 for n in s['nodes']:
  if n['id']=='scene-label-4':n['y']-=7
-s['nodes']=[n for n in s['nodes'] if n['id'] not in ['aper','exec','eq']]
+s['nodes']=[n for n in s['nodes'] if n['id'] not in ['aper','exec','eq','delta']]
+T('delta-tau','τ',207,144,12,22,16,font='Times New Roman',italic=True,align='left')
+T('delta-init','init',219,153,19,13,10,font='Times New Roman',italic=True,align='left')
+T('delta-oplus','⊕',240,144,18,22,16,font='Times New Roman',italic=True,align='left')
+T('delta-base','Δ',258,144,14,22,16,font='Times New Roman',italic=True,align='left')
+T('delta-static','static',272,153,28,13,10,font='Times New Roman',italic=True,align='left')
 P('alignment-up-arrow',[(368,201),(363.5,211),(372.5,211)],'#000000','none',0,True)
 for prefix,x,y,sub in [('aper',201,207,'perc'),('exec',400,107,'exec')]:
  T(prefix+'-base','A',x,y,14,21,17,font='Times New Roman',italic=True,align='left')

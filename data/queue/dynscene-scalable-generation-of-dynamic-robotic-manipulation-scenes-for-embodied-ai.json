@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "dynscene-scalable-generation-of-dynamic-robotic-manipulation-scenes-for-embodied-ai",
-  "revision": 2,
-  "status": "in_progress",
+  "revision": 3,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.508684Z",
-  "updated_at": "2026-10-09T20:49:28.733616Z",
+  "updated_at": "2026-10-09T22:00:58.347019Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/dynscene/README.md",
+          "output/dynscene/VALIDATION.json"
+        ],
+        "output_directory": "output/dynscene",
+        "source_sha256": "e489d02d5e0ed28b8b7b6d910c1893bcba9a7a4dbb838728c48adc2dae898515",
+        "scene_sha256": "aa97379b7f1ae2649b8bb9fd1d314a1d64edd25ec155d4c323a1a62b27b6a974",
+        "text_editability": {
+          "typeable_text_objects": 29,
+          "native_freeform_paths": 1208,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -254,6 +268,36 @@
           }
         },
         "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T22:00:58.347019Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "22b09e18cf0a2ceb8b152cba74e3c2a6d34e93402340292d85beb0fca0b1d06a",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/dynscene/README.md",
+                "output/dynscene/VALIDATION.json"
+              ],
+              "output_directory": "output/dynscene",
+              "source_sha256": "e489d02d5e0ed28b8b7b6d910c1893bcba9a7a4dbb838728c48adc2dae898515",
+              "scene_sha256": "aa97379b7f1ae2649b8bb9fd1d314a1d64edd25ec155d4c323a1a62b27b6a974",
+              "text_editability": {
+                "typeable_text_objects": 29,
+                "native_freeform_paths": 1208,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
+            }
+          }
+        }
       }
     }
   ]

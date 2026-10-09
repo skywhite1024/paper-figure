@@ -14,6 +14,26 @@ def sha(path):
     return h.hexdigest()
 def require(ok,message):
     if not ok:raise ValueError(message)
+def safe_survey_path(root,cid):
+    """Never follow a survey file or directory symlink for a repository write."""
+    path=root
+    for part in ('research','survey',cid+'.json'):
+        path=path/part
+        require(not path.is_symlink(),'Unsafe symlink in survey path: '+str(path))
+    require(path.resolve().is_relative_to(root/'research/survey'),'Survey escapes repository')
+    require(not path.exists() or path.is_file(),'Survey is not a regular file: '+str(path))
+    return path
+def write_survey(root,cid,record):
+    """Replace the survey atomically rather than writing through a file link."""
+    survey=safe_survey_path(root,cid)
+    fd,temp=tempfile.mkstemp(prefix='.restore-survey-',suffix='.json',dir=survey.parent)
+    try:
+        with os.fdopen(fd,'w',encoding='utf-8') as stream:
+            stream.write(json.dumps(record,indent=2,ensure_ascii=False)+'\n')
+        safe_survey_path(root,cid)
+        os.replace(temp,survey)
+    finally:
+        if os.path.exists(temp):os.unlink(temp)
 def restore(root,apply=False,paper=None):
     root=Path(root).resolve();catalog=json.loads((root/'data/catalog.json').read_text());results=[]
     for row in catalog['papers']:
@@ -35,18 +55,26 @@ def restore(root,apply=False,paper=None):
         target=(root/'build/sources'/(cid+'.pdf')).resolve();require(target.is_relative_to(root/'build/sources'),'Source cache escapes repository')
         exists=target.exists()
         if exists:require(target.is_file() and sha(target)==expected,'Different cached source exists; refusing overwrite: '+str(target))
-        survey=root/'research/survey'/(cid+'.json');record=json.loads(survey.read_text()) if survey.exists() else None
+        survey=safe_survey_path(root,cid);record=json.loads(survey.read_text()) if survey.exists() else None
         if record is not None:require(record.get('pdf_sha256')==expected,'Survey source version differs from archived PDF: '+cid)
         if apply:
             target.parent.mkdir(parents=True,exist_ok=True)
             if not exists:
                 fd,temp=tempfile.mkstemp(prefix='.restore-',suffix='.pdf',dir=target.parent);os.close(fd)
                 try:
-                    shutil.copyfile(source,temp);require(sha(Path(temp))==expected,'Source changed during copy');os.replace(temp,target)
+                    shutil.copyfile(source,temp);require(sha(Path(temp))==expected,'Source changed during copy')
+                    # An exclusive hard-link install cannot clobber a file that
+                    # appeared after the initial existence check. Both paths
+                    # are in the same cache directory / filesystem.
+                    try:os.link(temp,target)
+                    except FileExistsError:
+                        require(not target.is_symlink() and target.is_file() and sha(target)==expected,
+                                'Different cached source appeared; refusing overwrite: '+str(target))
+                        exists=True
                 finally:
                     if os.path.exists(temp):os.unlink(temp)
             if record is not None:
-                record['pdf_path']=str(target.relative_to(root));survey.write_text(json.dumps(record,indent=2,ensure_ascii=False)+'\n')
+                record['pdf_path']=str(target.relative_to(root));write_survey(root,cid,record)
         results.append(dict(catalog_id=cid,source=str(source.relative_to(root)),target=str(target.relative_to(root)),sha256=expected,action='already_present' if exists else ('restored' if apply else 'would_restore')))
     require(not paper or results,'No matching archived paper found')
     return results

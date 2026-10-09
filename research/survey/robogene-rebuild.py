@@ -19,7 +19,7 @@ s['provenance']['notes']+=' Native rounded panels replace source bitmap panels; 
 for n in s['nodes']:
  if n['id']=='native-panel-3':n['dash_style']='dashed';n['dash']=True
  if n['id']=='native-panel-59':
-  w,h=n['width'],n['height'];n['commands']=[{'moveTo':{'x':0,'y':0}},{'lineTo':{'x':w-45,'y':0}},{'lineTo':{'x':w,'y':20}},{'lineTo':{'x':w,'y':h}},{'lineTo':{'x':0,'y':h}},{'close':{}}]
+  w,h=n['width'],n['height'];n['commands']=[{'moveTo':{'x':0,'y':0}},{'lineTo':{'x':w-42,'y':0}},{'lineTo':{'x':w,'y':20}},{'lineTo':{'x':w,'y':h-24}},{'lineTo':{'x':w-48,'y':h}},{'lineTo':{'x':0,'y':h}},{'close':{}}]
  if n.get('label')=='Generate Key':n['label']='Generate Key-Value Pair';n['width']=230;n['font_size']=20
 # Isolate all non-panel source image paints with the original SVG clip/mask
 # chain. This preserves complete robot ears/bases, articulated robot-arm links,
@@ -53,7 +53,21 @@ with tempfile.TemporaryDirectory(prefix='robogene-exact-images-') as tmp:
   x0,y0,x1,y1=ab;px=rect.width/im.width;py=rect.height/im.height;im.crop(ab).save(out/name);rr=fitz.Rect(rect.x0+x0*px,rect.y0+y0*py,rect.x0+x1*px,rect.y0+y1*py)
   s['nodes'].append(dict(id=f'robogene-exact-source-{i}',shape='image',asset=name,alt='Individual original photograph or icon, preserving exact source mask, crop, affine transform and visible silhouette',x=(rr.x0-crop.x0)*scale,y=(rr.y0-crop.y0)*scale,width=rr.width*scale,height=rr.height*scale,source_seqno=seq))
 # Reinsert native substitute backgrounds ahead of their source foreground paints.
-for n in backgrounds:n['source_seqno']=(-.5 if n['id']=='native-panel-59' else paints[int(n['id'].rsplit('-',1)[-1])][0])
+for n in backgrounds:n['source_seqno']=(paints[35][0]-.1 if n['id']=='native-panel-59' else paints[int(n['id'].rsplit('-',1)[-1])][0])
+document_panel=next(n for n in backgrounds if n['id']=='native-panel-59');w,h=document_panel['width'],document_panel['height']
+s['nodes'].append(dict(id='robogene-document-native-folds',shape='path',x=document_panel['x'],y=document_panel['y'],width=w,height=h,fill='none',stroke='#18323D',stroke_width=1.2,source_seqno=document_panel['source_seqno']+.01,commands=[{'moveTo':{'x':w-42,'y':0}},{'lineTo':{'x':w-42,'y':20}},{'lineTo':{'x':w,'y':20}},{'moveTo':{'x':0,'y':20}},{'lineTo':{'x':w-42,'y':20}},{'moveTo':{'x':w-48,'y':h}},{'lineTo':{'x':w-48,'y':h-24}},{'lineTo':{'x':w,'y':h-24}}]))
 s['nodes'].sort(key=lambda n:n.get('source_seqno',1000000))
 s['provenance']['notes']+=' Updated exact isolated SVG image extraction restores full robot-icon silhouettes and the articulated three-arm collection illustration. Photo stacks and clipped sprite icons follow original source paint order; only reviewed bitmap panels and shadows are replaced/omitted.'
+# Use measured native inter-run spacing in the task document. Source Skeena
+# metrics differ from the editable Arial replacement, so fit the bold prefixes
+# and keep a real visual word-space before each independently editable value.
+font_bold=fitz.Font(fontfile='/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf')
+font_regular=fitz.Font(fontfile='/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf')
+by_id={n['id']:n for n in s['nodes']}
+location=by_id['pdf-text-93-0'];following=by_id['pdf-text-94-0'];location['label']='Location Information: ';location['width']=following['x']+following['width']-location['x'];s['nodes'].remove(following)
+for prefix_id,value_id in [('pdf-text-85-0','pdf-text-86-0'),('pdf-text-87-0','pdf-text-88-0'),('pdf-text-89-0','pdf-text-90-0'),('pdf-text-91-0','pdf-text-92-0'),('pdf-text-93-0','pdf-text-95-0')]:
+ prefix=by_id[prefix_id];value=by_id[value_id];end=value['x']+value['width'];gap=3.5
+ measured=font_bold.text_length(prefix['label'].rstrip(),fontsize=prefix['font_size']);prefix['font_size']*=min(1,(prefix['width']-gap)/max(measured,.01))
+ value['x']=prefix['x']+font_bold.text_length(prefix['label'].rstrip(),fontsize=prefix['font_size'])+gap;value['width']=end-value['x']
+ measured=font_regular.text_length(value['label'],fontsize=value['font_size']);value['font_size']*=min(1,value['width']/max(measured,.01))
 f=out/(cfg['id']+'.json');f.write_text(json.dumps(s,indent=2));subprocess.run([sys.executable,'-m','paper_figure','export',str(f),'--out',str(R/'build'/slug),'--preview','--force'],cwd=R,check=True)

@@ -30,3 +30,5 @@ Source stroke widths larger than one tenth of the figure extent now emit a trans
 ## Publishing multiple reviewed candidates
 
 `python research/refresh_outputs.py --add-paper build/candidates/a --add-paper build/candidates/b` validates the entire proposed batch before moving any complete paper folder into output. It stages the existing output tree once, avoiding one full archival copy per candidate. Existing paper replacement remains a separate explicit `--from-build ... --paper ...` operation; regeneration invalidates previous QA until the new bytes are reviewed.
+
+Freeform paths intentionally have no attached text in the PPTX backend. Validation rejects nonempty `label` on a path instead of silently losing it; put the label in a separate native text node. This preserves matching visible text across the two export formats.

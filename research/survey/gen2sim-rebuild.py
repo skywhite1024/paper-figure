@@ -6,7 +6,7 @@ from PIL import Image
 R=Path(__file__).resolve().parents[2]
 SLUG='gen2sim'; CAT='gen2sim-scaling-up-robot-learning-in-simulation-with-generative-models'; FIG='figure-2'; CROP=[52, 50, 558, 231]; FONT='Times New Roman'
 p=argparse.ArgumentParser();p.add_argument('--pdf');a=p.parse_args()
-evidence=json.loads((R/'research/survey'/f'{CAT}.json').read_text());pdf=Path(a.pdf or evidence['pdf_path'])
+evidence=json.loads((R/'research/survey'/f'{CAT}.json').read_text());pdf=Path(a.pdf or evidence['pdf_path']);pdf=pdf if pdf.is_absolute() else R/pdf
 sha=lambda p:hashlib.sha256(Path(p).read_bytes()).hexdigest()
 assert sha(pdf)==evidence['pdf_sha256'],'Wrong source PDF'
 D=R/'data/diagrams'/SLUG;A=D/'assets';D.mkdir(parents=True,exist_ok=True);A.mkdir(exist_ok=True)
@@ -54,3 +54,39 @@ def finish():
  validation={'diagram_id':s['id'],'source_scene_sha256':sha(scene),'source_pdf_sha256':sha(pdf),'checked_files':[{'name':s['id']+'.'+ext,'sha256':sha(C/(s['id']+'.'+ext))} for ext in ['drawio','png','pptx']],'review_status':'source pixels inspected; reconstruction preview review pending; independent application QA pending','native_xml_counts':counts,'editability':{'live_typeable_labels':sum(bool(z.get('label')) for z in s['nodes']),'native_paths':sum(z['shape']=='path' for z in s['nodes']),'raster_images':sum(z['shape']=='image' for z in s['nodes']),'raster_boundaries':s['provenance']['raster_details']},'checks':{'source_title':'Verified PDF title and fixed version from survey evidence; PDF hash rechecked','source_figure':'Actual PDF figure inspected; crop includes complete source diagram','drawio':'Native XML generated; draw.io application editing not tested','powerpoint':'Native XML counts inspected; PowerPoint GUI editing not tested'},'limitations':['Flattened source manually rebuilt; font metrics, arrowheads and stroke widths approximate original','Native paths are independently editable but not semantically attached connectors','No PowerPoint or draw.io GUI edit validation claimed']}
  (C/'VALIDATION.json').write_text(json.dumps(validation,indent=2,ensure_ascii=False)+'\n')
  print(SLUG,counts,validation['editability'])
+FONT='Arial'
+s['provenance']['notes']+=' Flattened original rebuilt with individual source asset photographs and robot/scene renderings. All captions, task instructions and reward/code labels are live typeable text. Outlined arrows and caption boxes are native; four small model-logo icons retain original pixels.'
+# Every asset thumbnail is an independent photographic object rather than one
+# flattened diagram panel, so the generated object catalogue stays movable.
+for row in range(10):
+ for col in range(8):
+  x=6+col*50;y=9+row*50
+  image(f'asset-{row+1}-{col+1}',(x,y,x+49,min(y+49,506)),'Original individual generated object asset rendering')
+# Original rendered task environments and robot-action photos are isolated.
+for id,box in [('fridge-environment',(505,78,685,254)),('cabinet-environment',(502,333,687,498)),('open-fridge',(815,84,936,252)),('pick-veggie',(1067,84,1192,252)),('place-veggie',(1304,84,1426,252)),('open-cabinet',(814,313,937,499)),('pick-ball',(1065,313,1193,499)),('place-ball',(1303,313,1427,499))]:
+ image(id,box,'Original isolated generated environment or robotic task execution rendering; its internal pixels remain raster')
+for j,box in enumerate([(429,87,472,129),(722,87,766,129),(429,325,472,367),(722,325,766,367)]):image('model-logo-'+str(j),box,'Original small language-model logo/icon')
+# Native outline arrows faithfully retain the large white arrowheads.
+for j,(x,y) in enumerate([(412,133),(705,133),(412,371),(705,371)]):
+ poly('generation-arrow-'+str(j),[(x,y+10),(x+64,y+10),(x+64,y),(x+82,y+14),(x+64,y+28),(x+64,y+18),(x,y+18)],'#000000',2.8,'#FFFFFF',True)
+# All rectangular instructions are live text with original line breaks.
+for id,box,label,fs in [('fridge-task',(511,25,162,43),'Put the veggies inside\nthe refrigerator',14),('cabinet-task',(520,267,162,42),'Put the tennis ball inside\nthe left of the cabinet',14),('fridge-step-one',(794,24,162,43),'Open the left door of the\nrefrigerator',14),('fridge-step-two',(1033,24,190,43),'Pick up the veggie, while\nkeeping the door open',14),('fridge-step-three',(1270,24,188,43),'Move the veggie inside',14),('cabinet-step-one',(814,267,124,43),'Open the left door\nof the cabinet',14),('cabinet-step-two',(1044,267,168,43),'Pick up the ball, while\nkeeping the door open',14),('cabinet-step-three',(1281,267,168,43),'Move the ball into the\ncabinet',14)]:
+ x,y,w,h=box;rect(id+'-box',x,y,w,h,'#FFFFFF','#000000',1.4);text(id+'-label',label,x+3,y+4,w-6,h-8,fs,bold=True)
+# Original reward signs and color are retained as editable per-line labels.
+green='#60AD3A';red='#DF2E21'
+reward_specs=[('fridge-open',940,135,[('Reward:',green),('+ Grasp handle',green),('+ Open left door',green)]),('fridge-pick',1196,135,[('Reward:',green),('+ Grasp veggie',green),('- Left door state',red)]),('fridge-place',1432,135,[('Reward:',green),('+ Veggie inside',green),('  fridge',green),('- Left door state',red)]),('cabinet-open',940,378,[('Reward:',green),('+ Grasp handle',green),('+ Open left door',green)]),('cabinet-pick',1194,378,[('Reward:',green),('+ Grasp ball',green),('- Left door state',red)]),('cabinet-place',1432,370,[('Reward:',green),('+ Ball inside',green),('  cabinet',green),('- Left door state',red)])]
+for id,x,y,lines in reward_specs:
+ for j,(label,color) in enumerate(lines):text(id+'-reward-'+str(j),label,x,y+j*12,82,12,9.5,color,True,align='left')
+ cy=y+len(lines)*12+3;cx=x+18
+ rounded(id+'-code-box',cx,cy,20,26,3,'#F5F5F5','#3F3F3F',1.2)
+ text(id+'-code-label','</>',cx+1,cy+4,18,17,10,'#333333',True)
+text('asset-generation-title','Asset Generation',101,512,243,27,20,bold=True)
+text('task-generation-title','Task Generation',497,512,242,27,20,bold=True)
+text('decomposition-title','Task Decomposition and Reward Generation',817,512,626,27,20,bold=True)
+# Keep manual source-width labels inside their original boxes in both formats.
+for n in s['nodes']:
+ if n['shape']=='text':
+  font='hebo' if n.get('bold') else 'helv';length=fitz.get_text_length(n['label'].split('\n')[0],fontname=font,fontsize=n['font_size'])
+  length=max(fitz.get_text_length(t,fontname=font,fontsize=n['font_size']) for t in n['label'].split('\n'))
+  if length>n['width']:n['font_size']*=n['width']/length*.98
+finish()

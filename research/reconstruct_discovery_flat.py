@@ -51,7 +51,7 @@ if slug=='lgsd':
  text('origin','origin',82,278,81,28,26,italic=True,font='Times New Roman');text('state-s','s',213,233,26,23,23,italic=True,font='Times New Roman');text('state-sp','s′',366,168,27,24,23,italic=True,font='Times New Roman')
  text('far-description','"Robot is far\nfrom the origin"',538,164,200,42,19,bold=True,font='Courier New',align='left');text('near-description','"Robot is near\nthe origin"',410,306,199,42,19,bold=True,font='Courier New',align='left');text('prompt','Prompt : How far the robot is from the origin?',58,383,638,28,22,bold=True,font='Courier New',align='left')
  for id,box in [('mapping-formula',(594,13,725,49)),('language-far-formula',(402,163,530,183)),('language-near-formula',(267,241,374,290)),('distance-formula',(568,250,680,286)),('latent-s-formula',(847,251,900,282)),('latent-sp-formula',(968,161,1027,198)),('gaussian-prior-formula',(938,243,1068,280)),('distance-constraint',(796,376,1095,410))]:image(id,box,'Original isolated mathematical expression; formula pixels remain raster')
- 
+
  for n in s['nodes']:
   if n.get('dash'):n['dash_style']='dotted';n['dash_pattern']=[1,3]
  s['provenance']['notes']+=' LGSD retains the two original robot illustrations and eight isolated formulas; all ordinary language and the graph geometry are native.'
@@ -92,7 +92,7 @@ elif slug=='sds':
  # Two thick source cycle arrow segments are independent native paths.
  path('cycle-top',[{'moveTo':{'x':1053,'y':13}},{'lineTo':{'x':1129,'y':13}},{'cubicBezTo':{'x1':1154,'y1':13,'x2':1174,'y2':33,'x':1174,'y':65}},{'lineTo':{'x':1186,'y':65}},{'lineTo':{'x':1169,'y':82}},{'lineTo':{'x':1152,'y':65}},{'lineTo':{'x':1164,'y':65}},{'cubicBezTo':{'x1':1164,'y1':42,'x2':1153,'y2':22,'x':1128,'y':22}},{'lineTo':{'x':1053,'y':22}},{'close':{}}],'#48526E',1.2,'#999D9E')
  path('cycle-bottom',[{'moveTo':{'x':151,'y':579}},{'lineTo':{'x':57,'y':579}},{'cubicBezTo':{'x1':34,'y1':579,'x2':25,'y2':560,'x':25,'y':542}},{'lineTo':{'x':37,'y':542}},{'lineTo':{'x':22,'y':528}},{'lineTo':{'x':8,'y':542}},{'lineTo':{'x':17,'y':542}},{'cubicBezTo':{'x1':17,'y1':567,'x2':29,'y2':587,'x':56,'y':587}},{'lineTo':{'x':151,'y':587}},{'close':{}}],'#48526E',1.2,'#999D9E');text('cycle-label','SDS x5',50,538,117,38,30,font='Times New Roman')
- 
+
  for n in s['nodes']:
   if n.get('dash'):n['dash_style']='dotted' if n['id']=='filter-dashes' else 'dashed';n['dash_pattern']=[2,3] if n['id']=='filter-dashes' else [5,4]
  s['provenance']['notes']+=' SDS contains four isolated original visual inserts: logo, demonstration photo frames, contact-sequence visualization and robot simulation montage. Prompt/code, stage numbers and all loop geometry are typeable/native.'

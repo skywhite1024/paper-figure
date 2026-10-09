@@ -7,6 +7,8 @@ import shutil
 import subprocess
 import tempfile
 import unittest
+from unittest.mock import patch
+import os
 import zipfile
 from html.parser import HTMLParser
 from pathlib import Path
@@ -46,6 +48,16 @@ class OutputTests(unittest.TestCase):
                 if node['shape']=='image':
                     asset=target.parent/node['asset'];asset.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(scene.parent/node['asset'],asset)
         self.output = self.root / 'output'
+
+    def test_geometry_qa_rejects_stale_pptx_binding(self):
+        folder = self.output / 'aspire'
+        source = json.loads((folder / 'sources.json').read_text())['papers'][0]
+        scene_path = (folder / source['diagram_json']).resolve()
+        report = {'status': 'passed', 'scene_sha256': sha256(scene_path),
+                  'pptx_sha256': '0' * 64}
+        (folder / 'OOXML_GEOMETRY_QA.json').write_text(json.dumps(report))
+        with self.assertRaisesRegex(ValidationError, 'geometry QA binds older'):
+            refresh_output(self.root)
 
     def artifact_hashes(self):
         return {str(p.relative_to(self.output)): sha256(p)
@@ -219,6 +231,70 @@ class OutputTests(unittest.TestCase):
     def test_duplicate_batch_slug_rejected(self):
         from paper_figure.outputs import add_papers
         with self.assertRaises(ValidationError):add_papers(self.root,[self.root/'a/new',self.root/'b/new'])
+
+    def new_batch_candidate(self, slug):
+        candidate=self.root/'build'/slug;candidate.parent.mkdir(exist_ok=True)
+        shutil.copytree(self.output/'aspire',candidate)
+        metadata=json.loads((candidate/'sources.json').read_text());metadata['papers'][0]['id']=slug
+        (candidate/'sources.json').write_text(json.dumps(metadata))
+        (candidate/'aspire-original.png').rename(candidate/(slug+'-original.png'))
+        return candidate
+
+    def test_batch_publication_rolls_back_on_second_directory_failure(self):
+        from paper_figure.outputs import add_papers
+        candidates=[self.new_batch_candidate(slug) for slug in ['one-new','two-new']]
+        before={str(p.relative_to(self.output)):sha256(p) for p in self.output.rglob('*') if p.is_file()}
+        replace=os.replace
+        def fail_second(source,destination):
+            if Path(destination)==self.output/'two-new':raise PermissionError('second directory failure')
+            return replace(source,destination)
+        with patch('paper_figure.outputs.os.replace',side_effect=fail_second):
+            with self.assertRaisesRegex(PermissionError,'second directory'):add_papers(self.root,candidates)
+        self.assertEqual(before,{str(p.relative_to(self.output)):sha256(p) for p in self.output.rglob('*') if p.is_file()})
+        self.assertFalse((self.output/'one-new').exists());self.assertFalse((self.output/'two-new').exists())
+        self.assertEqual(len(add_papers(self.root,candidates)),2)
+
+    def test_batch_publication_restores_indexes_on_second_index_failure(self):
+        from paper_figure.outputs import add_papers
+        candidate=self.new_batch_candidate('one-new')
+        before={str(p.relative_to(self.output)):sha256(p) for p in self.output.rglob('*') if p.is_file()}
+        replace=os.replace
+        def fail_second_index(source,destination):
+            if Path(destination)==self.output/'comparison.html':raise PermissionError('second index failure')
+            return replace(source,destination)
+        with patch('paper_figure.outputs.os.replace',side_effect=fail_second_index):
+            with self.assertRaisesRegex(PermissionError,'second index'):add_papers(self.root,[candidate])
+        self.assertEqual(before,{str(p.relative_to(self.output)):sha256(p) for p in self.output.rglob('*') if p.is_file()})
+        self.assertFalse((self.output/'one-new').exists())
+        self.assertEqual(len(add_papers(self.root,[candidate])),1)
+
+    def test_batch_rejects_dangling_destination_symlink(self):
+        from paper_figure.outputs import add_papers
+        candidate=self.new_batch_candidate('one-new')
+        destination=self.output/'one-new';destination.symlink_to(self.root/'absent')
+        with self.assertRaisesRegex(ValidationError,'already exists'):add_papers(self.root,[candidate])
+        self.assertTrue(destination.is_symlink())
+
+    def test_qa_tiers_bound_to_current_pptx_bytes(self):
+        records={}
+        for slug in ['aspire','roboreact']:
+            folder=self.output/slug;paper=json.loads((folder/'sources.json').read_text())['papers'][0]
+            scene=(folder/paper['diagram_json']).resolve()
+            records[slug]={'scene_sha256':sha256(scene),'pptx_sha256':sha256(folder/paper['editable_pptx']),
+                           'source_preview_native':'passed','libreoffice_render':'passed' if slug=='aspire' else 'pending','drawio_app_render':'pending'}
+            stem=json.loads(scene.read_text())['id']
+            records[slug]['hash_binding']={'source_scene_sha256':sha256(scene),'source_pdf_sha256':paper['sha256'],
+                'exports':{stem+'.'+suffix:sha256(folder/(stem+'.'+suffix)) for suffix in ['pptx','drawio','png']}}
+        path=self.output/'QA_SUMMARY.json';path.write_text(json.dumps({'papers':records}))
+        refresh_output(self.root)
+        self.assertIn('PPTX 实际 LibreOffice 打开与渲染：已通过 1，待完成 1',(self.output/'README.md').read_text())
+        good=copy.deepcopy(records)
+        records['aspire']['hash_binding']['exports']['aspire-figure-1.drawio']='0'*64
+        path.write_text(json.dumps({'papers':records}));refresh_output(self.root)
+        self.assertIn('检查汇总待更新',(self.output/'README.md').read_text())
+        records=good
+        records['aspire']['pptx_sha256']='0'*64;path.write_text(json.dumps({'papers':records}));refresh_output(self.root)
+        self.assertIn('检查汇总待更新',(self.output/'README.md').read_text())
 
     def test_stale_qa_hash_rejected(self):
         path=self.output/'aspire/VALIDATION.json'

@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/collie",
+  "diagram_id": "collie-figure-1",
+  "scene_sha256": "ff917449eb93978665edf4deb3b2f23c1edbf0f2bdb9e330e271aded44e7ac3a",
+  "pptx_sha256": "7d7dc66b0b5617cebbd82dc7fc243dce49052cc0a967c5ef940b9279d1e09fcd",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 142,
+    "named_shapes_checked": 142,
+    "text_labels_checked": 30,
+    "paths_checked": 42,
+    "curve_commands_checked": 235,
+    "images_checked": 70
+  },
+  "maximum_object_position_delta_scene_pixels": 5.243e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.085e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

@@ -53,7 +53,7 @@ plans=[ [('Step 1: Grasp the can at ','#8D8D8D'),('K₁','#EA722E')], [('Step 2:
 for li,runs in enumerate(plans):
  total=''.join(t for t,c in runs);fs=min(20.5,124*sc/fitz.get_text_length(total,fontname='helv',fontsize=1));offset=0
  for ri,(t,c) in enumerate(runs):
-  length=fitz.get_text_length(t,fontname='helv',fontsize=fs);live(f'plan-line-{li}-{ri}',t,308.28+offset/sc,222.29+li*8.9,(length+2)/sc,8,fs,c);offset+=length
+  length=fitz.get_text_length(t,fontname='helv',fontsize=fs);live(f'plan-line-{li}-{ri}',t,308.28+offset/sc,222.29+li*8.9,(length+2)/sc,8,fs,c);offset+=length+3
 codes=['robot.grasp(K_1)','robot.ee.move(K_1 + [0, 0, 0.2])','robot.ee.move(K_4 + [0, 0, 0.1] + K_1 − K_3)','robot.ee.rotate(pi / 6)']
 for li,t in enumerate(codes):live(f'code-line-{li}',t,100.9,223.7+li*9.3,153,8,15.7,'#606060','Courier New')
 for n in s['nodes']:
@@ -63,6 +63,22 @@ for n in s['nodes']:
    font=('tibo' if n.get('bold') else 'tiro') if n.get('font_family')=='Times New Roman' else ('hebo' if n.get('bold') else 'helv')
    length=fitz.get_text_length(n['label'],fontname=font,fontsize=n['font_size'])
    if length>n['width']:n['font_size']*=n['width']/length*.97
+
+
+# Replace the four pencil-styled stage-transition arrows by editable native
+# gray curves and arrowheads; decorative texture is intentionally approximate.
+for idx in [18,19,20,33]:
+ old=next((n for n in s['nodes'] if n['id']==f'source-raster-{idx}'),None)
+ if not old:continue
+ s['nodes'].remove(old);x,y,w,h=[old[k] for k in ['x','y','width','height']]
+ if idx==18:points=[(w*.35,0),(w*.7,h*.35),(w*.65,h*.63),(w*.32,h*.79)]
+ elif idx==19:points=[(w*.33,0),(w*.01,h*.38),(w*.02,h*.63),(w*.43,h*.82)]
+ else:points=[(w*.43,0),(w*.42,h*.32),(w*.52,h*.60),(w*.55,h*.74)]
+ st,c1,c2,en=points;cmds=[{'moveTo':{'x':st[0],'y':st[1]}},{'cubicBezTo':{'x1':c1[0],'y1':c1[1],'x2':c2[0],'y2':c2[1],'x':en[0],'y':en[1]}}]
+ s['nodes'].append({'id':f'stage-arrow-{idx}','shape':'path','label':'','x':x,'y':y,'width':w,'height':h,'commands':cmds,'fill':'none','stroke':'#BDBDBD','stroke_width':max(3,w*.1),'stroke_opacity':.65})
+ dx,dy=en[0]-c2[0],en[1]-c2[1];import math;L=math.hypot(dx,dy);ux,uy=dx/L,dy/L;size=min(w,h)*.30;tip=(en[0]+size*.5*ux,en[1]+size*.5*uy);left=(en[0]-size*.5*ux-size*.55*uy,en[1]-size*.5*uy+size*.55*ux);right=(en[0]-size*.5*ux+size*.55*uy,en[1]-size*.5*uy-size*.55*ux)
+ s['nodes'].append({'id':f'stage-arrowhead-{idx}','shape':'path','label':'','x':x,'y':y,'width':w,'height':h,'commands':[{'moveTo':{'x':tip[0],'y':tip[1]}},{'lineTo':{'x':left[0],'y':left[1]}},{'lineTo':{'x':right[0],'y':right[1]}},{'close':{}}],'fill':'#BDBDBD','fill_opacity':.65,'stroke':'#A6A6A6','stroke_width':.7})
+s['provenance']['notes']+=' Decorative gray stage arrows rebuilt as native geometry; pencil texture approximated.'
 
 s['provenance']['notes']+=' Original raster assets isolated with their exact original alpha, clipping and affine transforms; no full-figure raster backdrop.'
 s['provenance']['original_extraction_warnings']=s['provenance'].get('extraction_warnings',[])

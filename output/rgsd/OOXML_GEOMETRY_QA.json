@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/rgsd",
+  "diagram_id": "rgsd-figure-2",
+  "scene_sha256": "84cba6ab3c081ff65ae50b5482b36f761890bfda67fe715ec5d3872c4ddf1e6e",
+  "pptx_sha256": "4952188b01d8764415b09c1e43f8df7ccc3b2732f33b9efa7080e7822f9ab8ed",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 280,
+    "named_shapes_checked": 280,
+    "text_labels_checked": 18,
+    "paths_checked": 256,
+    "curve_commands_checked": 1524,
+    "images_checked": 6
+  },
+  "maximum_object_position_delta_scene_pixels": 5.235e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.627e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

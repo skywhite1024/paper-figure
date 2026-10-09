@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/cst",
+  "diagram_id": "cst-figure-1",
+  "scene_sha256": "a9cdd17a7da7e3f5fba76c5cc750a77dea62bda941c80caa6bca82c7cbad0397",
+  "pptx_sha256": "149c07cc792ae2d9425315678bd45157b5a93cb7bce5a5ec1638d089f268b1c7",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 251,
+    "named_shapes_checked": 251,
+    "text_labels_checked": 4,
+    "paths_checked": 247,
+    "curve_commands_checked": 318,
+    "images_checked": 0
+  },
+  "maximum_object_position_delta_scene_pixels": 5.249e-05,
+  "maximum_path_control_point_delta_scene_pixels": 8.939e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

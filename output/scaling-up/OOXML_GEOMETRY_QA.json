@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/scaling-up",
+  "diagram_id": "scaling-up-figure-4",
+  "scene_sha256": "ca1bb7f09a5ec3948756c3bcaa9393da4771e6f1c2f42a6d35c25448f9090654",
+  "pptx_sha256": "2990ab8e1494f27504aeb77f6c758bd222a729623ea14060af1585cb070c9ab0",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 50,
+    "named_shapes_checked": 50,
+    "text_labels_checked": 21,
+    "paths_checked": 14,
+    "curve_commands_checked": 0,
+    "images_checked": 3
+  },
+  "maximum_object_position_delta_scene_pixels": 5.249e-05,
+  "maximum_path_control_point_delta_scene_pixels": 5.249e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

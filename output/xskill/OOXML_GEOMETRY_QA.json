@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/xskill",
+  "diagram_id": "xskill-figure-2",
+  "scene_sha256": "3b0b916414a8aad488bce9516430b12cd7993218d87f9fdbb8d6a7641aec237c",
+  "pptx_sha256": "278be24b56828e505b82c0e7f4bed3d8ab7ea17a0a710832c6cffeadf8cef8f1",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 121,
+    "named_shapes_checked": 121,
+    "text_labels_checked": 32,
+    "paths_checked": 85,
+    "curve_commands_checked": 194,
+    "images_checked": 4
+  },
+  "maximum_object_position_delta_scene_pixels": 5.245e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.826e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/host",
+  "diagram_id": "host-figure-2",
+  "scene_sha256": "c96082bad0ad121a90ca291d12e3d02548272754be541c314ec4cdc3cae0a886",
+  "pptx_sha256": "e9f1d977c6dc99165f1b3508c1e3c56373833ae74cf19b206d3fb8ca23052453",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 586,
+    "named_shapes_checked": 586,
+    "text_labels_checked": 71,
+    "paths_checked": 433,
+    "curve_commands_checked": 3619,
+    "images_checked": 82
+  },
+  "maximum_object_position_delta_scene_pixels": 5.247e-05,
+  "maximum_path_control_point_delta_scene_pixels": 0.00010361,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

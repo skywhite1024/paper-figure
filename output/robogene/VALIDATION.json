@@ -1,0 +1,523 @@
+{
+  "diagram_id": "robogene-figure-2",
+  "source_scene_sha256": "e0bd40ccbbebdfc845129c00e88586b0a8a988c9e8cbd598e14041df7cc6b245",
+  "source_pdf_sha256": "c65de2109ed099e23bfef6f7d7fab0c622371c041d7cf7e852c4f819cc51c151",
+  "checked_files": [
+    {
+      "name": "robogene-figure-2.drawio",
+      "sha256": "b2b66e37ee6592ec9be9a50afaa664e9a081104d041f9a689ff269b98ed5aedf"
+    },
+    {
+      "name": "robogene-figure-2.png",
+      "sha256": "4d4f16511375428584931fee2a8000b70084bdf9af25f75e48903392dc1e4cf7"
+    },
+    {
+      "name": "robogene-figure-2.pptx",
+      "sha256": "d6fd5f0ee1a6da06a236b5dacd04f701a9fced0cf5ecae2440f3970c7fc91f1e"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      0.745,
+      0.691,
+      0.67
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_scene_asset_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 63,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; source edition/hash pinned",
+    "source_page_figure": "Independent PDF crop compared with original PNG and delivered preview",
+    "source_preview_visual": "passed with disclosed image/font/math/dash limitations"
+  },
+  "native_xml_counts": {
+    "p:sp": 192,
+    "p:pic": 42,
+    "a:custGeom": 63,
+    "p:cxnSp": 0,
+    "a:t": 87
+  },
+  "source_title": "RoboGene: Boosting VLA Pre-training via Diversity-Driven Agentic Framework for Real-World Task Generation",
+  "typeable_labels": [
+    "Constraint Adherence ",
+    "Evaluator",
+    "Statistical ",
+    "Information",
+    "Proposal",
+    "Generator",
+    "Initial Task ",
+    "Descriptions",
+    "Critique Feedback",
+    "Long",
+    "-",
+    "Term Memory",
+    "Self",
+    "-",
+    "Reflection ",
+    "Refiner",
+    "scenes",
+    "objects",
+    "skills",
+    "Classification:",
+    "Single",
+    "-",
+    "arm ",
+    "robot twist open ",
+    "the oil bottle",
+    "Critique:",
+    "Entity OOD; ",
+    "substitute the oil ",
+    "bottle with ",
+    "beverage bottle .",
+    "Task Novelty ",
+    "Evaluator",
+    "Classification:",
+    "Critique:",
+    "High novelty; ",
+    "introduces ",
+    "complex rotational ",
+    "primitives and rare ",
+    "contact mechanics .",
+    "Real",
+    "-",
+    "World",
+    "Robot Data",
+    "Collection",
+    "Physical Feasibility ",
+    "Evaluator",
+    "Classification:",
+    "Critique:",
+    "Kinematically ",
+    "infeasible; needs ",
+    "dual",
+    "-",
+    "arm for stable ",
+    "counter",
+    "-",
+    "force..",
+    "Robo",
+    "Robo",
+    "Gene",
+    "Gene",
+    "Human",
+    "-",
+    "in",
+    "-",
+    "the",
+    "-",
+    "Loop ",
+    "Cycles=10",
+    "Generate Key-Value Pair",
+    "-",
+    "K:",
+    "Task Description",
+    "V:",
+    "Refined Experience",
+    "Generated Task",
+    "{ Task Name: ",
+    "gpt_franka_dual_twist_cap",
+    "Task Description: ",
+    "Twist the cap of the beverage bottle. ",
+    "Object Name: ",
+    "beverage bottle",
+    "Skill Name: ",
+    "twist",
+    "Location Information: ",
+    "Centered in bimanual workspace. ",
+    "}",
+    "Retrieve"
+  ],
+  "raster_nodes": [
+    {
+      "id": "robogene-exact-source-4",
+      "asset": "robogene-source-component-4.png",
+      "x": 564.2293757388467,
+      "y": 279.6777648925781,
+      "width": 80.79229334781039,
+      "height": 108.15100946841034,
+      "canvas_area_fraction": 0.008
+    },
+    {
+      "id": "robogene-exact-source-7",
+      "asset": "robogene-source-component-7.png",
+      "x": 300.65977397007225,
+      "y": 276.7715148925781,
+      "width": 81.24683143818271,
+      "height": 107.14961123259172,
+      "canvas_area_fraction": 0.008
+    },
+    {
+      "id": "robogene-exact-source-10",
+      "asset": "robogene-source-component-10.png",
+      "x": 52.873783449583414,
+      "y": 97.8701176234654,
+      "width": 74.1833583010903,
+      "height": 65.44286237444196,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "robogene-exact-source-11",
+      "asset": "robogene-source-component-11.png",
+      "x": 54.13838195800781,
+      "y": 99.12602233886719,
+      "width": 68.2972412109375,
+      "height": 58.12532043457031,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "robogene-exact-source-12",
+      "asset": "robogene-source-component-12.png",
+      "x": 132.5355705462004,
+      "y": 107.72758152610379,
+      "width": 44.01768794812652,
+      "height": 42.018351203516914,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "robogene-exact-source-15",
+      "asset": "robogene-source-component-15.png",
+      "x": 358.5696716308594,
+      "y": 104.57530975341797,
+      "width": 51.586212158203125,
+      "height": 55.94561004638672,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "robogene-exact-source-18",
+      "asset": "robogene-source-component-18.png",
+      "x": 618.9544758043791,
+      "y": 102.48004290932101,
+      "width": 56.21326326069078,
+      "height": 58.220914740311486,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "robogene-exact-source-21",
+      "asset": "robogene-source-component-21.png",
+      "x": 340.6073455810547,
+      "y": 634.4807138015975,
+      "width": 126.01890563964844,
+      "height": 74.82550322119863,
+      "canvas_area_fraction": 0.009
+    },
+    {
+      "id": "robogene-exact-source-24",
+      "asset": "robogene-source-component-24.png",
+      "x": 724.3053806304932,
+      "y": 646.3468900981702,
+      "width": 63.89714355468743,
+      "height": 65.92473401521391,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "robogene-exact-source-25",
+      "asset": "robogene-source-component-25.png",
+      "x": 805.3172861735027,
+      "y": 653.5388758042279,
+      "width": 61.939768473307254,
+      "height": 53.23167329676022,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "robogene-exact-source-26",
+      "asset": "robogene-source-component-26.png",
+      "x": 931.2130737304688,
+      "y": 540.7291534423828,
+      "width": 44.20356445312507,
+      "height": 46.21281738281252,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "robogene-exact-source-27",
+      "asset": "robogene-source-component-27.png",
+      "x": 312.08983277738764,
+      "y": 406.5250798152043,
+      "width": 43.82255777080408,
+      "height": 49.74186823918268,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "robogene-exact-source-28",
+      "asset": "robogene-source-component-28.png",
+      "x": 499.52357482910156,
+      "y": 325.81475830078125,
+      "width": 34.51190185546875,
+      "height": 34.51190185546875,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "robogene-exact-source-29",
+      "asset": "robogene-source-component-29.png",
+      "x": 409.46534729003906,
+      "y": 85.6820068359375,
+      "width": 93.9041748046875,
+      "height": 93.9041748046875,
+      "canvas_area_fraction": 0.008
+    },
+    {
+      "id": "robogene-exact-source-32",
+      "asset": "robogene-source-component-32.png",
+      "x": 35.18655760098346,
+      "y": 276.7715148925781,
+      "width": 81.24683143818271,
+      "height": 107.14961123259172,
+      "canvas_area_fraction": 0.008
+    },
+    {
+      "id": "robogene-exact-source-33",
+      "asset": "robogene-source-component-33.png",
+      "x": 32.61989059448244,
+      "y": 399.56126403808594,
+      "width": 58.29484100341797,
+      "height": 60.66828918457031,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "robogene-exact-source-34",
+      "asset": "robogene-source-component-34.png",
+      "x": 1014.9631704935214,
+      "y": 85.88641897061976,
+      "width": 59.17662829887581,
+      "height": 74.22155445378002,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "robogene-exact-source-35",
+      "asset": "robogene-source-component-35.png",
+      "x": 1136.0886818847657,
+      "y": 359.96337890625,
+      "width": 119.97061523437509,
+      "height": 61.39485168457031,
+      "canvas_area_fraction": 0.007
+    },
+    {
+      "id": "robogene-exact-source-36",
+      "asset": "robogene-source-component-36.png",
+      "x": 192.08020320691563,
+      "y": 109.13544423956621,
+      "width": 37.01490738517353,
+      "height": 39.01652948479902,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "robogene-exact-source-41",
+      "asset": "robogene-source-component-41.png",
+      "x": 563.0981597900391,
+      "y": 399.56121826171875,
+      "width": 54.12922668457031,
+      "height": 54.129180908203125,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "robogene-exact-source-42",
+      "asset": "robogene-source-component-42.png",
+      "x": 753.45849609375,
+      "y": 325.81475830078125,
+      "width": 34.51190185546875,
+      "height": 34.51190185546875,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "robogene-exact-source-43",
+      "asset": "robogene-source-component-43.png",
+      "x": 151.9567794382898,
+      "y": 210.2479248046875,
+      "width": 532.9872895120924,
+      "height": 10.326278686523438,
+      "canvas_area_fraction": 0.005
+    },
+    {
+      "id": "robogene-exact-source-44",
+      "asset": "robogene-source-component-44.png",
+      "x": 1325.2236328125,
+      "y": 451.21376037597656,
+      "width": 48.99444580078125,
+      "height": 39.86805725097656,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "robogene-exact-source-45",
+      "asset": "robogene-source-component-45.png",
+      "x": 1251.2337558027627,
+      "y": 20.770239322743507,
+      "width": 134.80964992357332,
+      "height": 132.29691720516126,
+      "canvas_area_fraction": 0.016
+    },
+    {
+      "id": "robogene-exact-source-46",
+      "asset": "robogene-source-component-46.png",
+      "x": 1258.7854031649504,
+      "y": 247.03289794921875,
+      "width": 127.87566583806824,
+      "height": 20.955459594726562,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "robogene-exact-source-49",
+      "asset": "robogene-source-component-49.png",
+      "x": 971.3642028808595,
+      "y": 257.80407531738285,
+      "width": 89.16356140136713,
+      "height": 89.16360214233396,
+      "canvas_area_fraction": 0.007
+    },
+    {
+      "id": "robogene-exact-source-50",
+      "asset": "robogene-source-component-50.png",
+      "x": 1276.3178737474525,
+      "y": 252.06825256347656,
+      "width": 67.1995338771656,
+      "height": 90.25315761566162,
+      "canvas_area_fraction": 0.006
+    },
+    {
+      "id": "robogene-exact-source-51",
+      "asset": "robogene-source-component-51.png",
+      "x": 1124.4286962890624,
+      "y": 254.94544189453126,
+      "width": 68.18099853515628,
+      "height": 66.17567504882811,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "robogene-exact-source-52",
+      "asset": "robogene-source-component-52.png",
+      "x": 1132.7746032714845,
+      "y": 295.950500793457,
+      "width": 19.035282897949116,
+      "height": 19.034726257324195,
+      "canvas_area_fraction": 0.0
+    },
+    {
+      "id": "robogene-exact-source-53",
+      "asset": "robogene-source-component-53.png",
+      "x": 1159.479581507241,
+      "y": 256.63735813047833,
+      "width": 27.833853372713406,
+      "height": 24.850705774818977,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "robogene-exact-source-54",
+      "asset": "robogene-source-component-54.png",
+      "x": 1129.0,
+      "y": 347.0,
+      "width": 68.00000000000006,
+      "height": 15.0,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "robogene-exact-source-55",
+      "asset": "robogene-source-component-55.png",
+      "x": 1180.3163452148438,
+      "y": 607.7225189208984,
+      "width": 139.95418467420205,
+      "height": 93.00050354003906,
+      "canvas_area_fraction": 0.012
+    },
+    {
+      "id": "robogene-exact-source-56",
+      "asset": "robogene-source-component-56.png",
+      "x": 1189.6720538330078,
+      "y": 606.9059605189732,
+      "width": 148.03550048828117,
+      "height": 102.98904331752237,
+      "canvas_area_fraction": 0.014
+    },
+    {
+      "id": "robogene-exact-source-57",
+      "asset": "robogene-source-component-57.png",
+      "x": 1184.500353162042,
+      "y": 612.2734530362216,
+      "width": 141.30459152747846,
+      "height": 106.4221643621272,
+      "canvas_area_fraction": 0.014
+    },
+    {
+      "id": "robogene-exact-source-58",
+      "asset": "robogene-source-component-58.png",
+      "x": 227.51529121398926,
+      "y": 329.81087493896484,
+      "width": 32.96796226501465,
+      "height": 32.96796226501465,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "robogene-exact-source-60",
+      "asset": "robogene-source-component-60.png",
+      "x": 1196.6867065429688,
+      "y": 613.7161560058594,
+      "width": 121.24748929819663,
+      "height": 96.18626953125005,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "robogene-exact-source-61",
+      "asset": "robogene-source-component-61.png",
+      "x": 1199.5702514648438,
+      "y": 638.96484375,
+      "width": 110.80133056640625,
+      "height": 65.7542724609375,
+      "canvas_area_fraction": 0.007
+    },
+    {
+      "id": "robogene-exact-source-62",
+      "asset": "robogene-source-component-62.png",
+      "x": 555.0448308623997,
+      "y": 276.7715148925781,
+      "width": 81.24686425133083,
+      "height": 107.14961123259172,
+      "canvas_area_fraction": 0.008
+    },
+    {
+      "id": "robogene-exact-source-63",
+      "asset": "robogene-source-component-63.png",
+      "x": 1257.4161846454326,
+      "y": 365.49640362079333,
+      "width": 32.89108041616589,
+      "height": 32.89111915001496,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "robogene-exact-source-64",
+      "asset": "robogene-source-component-64.png",
+      "x": 1063.570597971518,
+      "y": 627.0429120744977,
+      "width": 108.02423912709162,
+      "height": 69.07147117713828,
+      "canvas_area_fraction": 0.007
+    },
+    {
+      "id": "robogene-exact-source-65",
+      "asset": "robogene-source-component-65.png",
+      "x": 1053.1723022460938,
+      "y": 620.454345703125,
+      "width": 56.96905517578125,
+      "height": 43.822357177734375,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "robogene-exact-source-66",
+      "asset": "robogene-source-component-66.png",
+      "x": 1052.9069304964437,
+      "y": 594.9861898983227,
+      "width": 60.18572906949623,
+      "height": 59.621187097886065,
+      "canvas_area_fraction": 0.003
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

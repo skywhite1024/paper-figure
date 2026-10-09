@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/tref",
+  "diagram_id": "tref-figure-1",
+  "scene_sha256": "519a261e195cf8259a349887e5efbee877b8fe0d697ad773280ab07e97085704",
+  "pptx_sha256": "4aca06db3592f280b94bbc5129cc212a2dd7248be155a94d8eab68ef5e9296fb",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 69,
+    "named_shapes_checked": 69,
+    "text_labels_checked": 25,
+    "paths_checked": 38,
+    "curve_commands_checked": 92,
+    "images_checked": 6
+  },
+  "maximum_object_position_delta_scene_pixels": 0.0,
+  "maximum_path_control_point_delta_scene_pixels": 4.885e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

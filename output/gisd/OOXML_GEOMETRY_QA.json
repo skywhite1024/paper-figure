@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/gisd",
+  "diagram_id": "gisd-figure-1",
+  "scene_sha256": "74ab3e4f37d8719c0e141b148ed9629630933615f789ceca302ad3095ad964ed",
+  "pptx_sha256": "7bc23a5d2ac5c1cab673eaa6186becb0fa1da0dfa9374eed05dd26e12cf16206",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 44,
+    "named_shapes_checked": 44,
+    "text_labels_checked": 10,
+    "paths_checked": 32,
+    "curve_commands_checked": 387,
+    "images_checked": 2
+  },
+  "maximum_object_position_delta_scene_pixels": 5.227e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.538e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

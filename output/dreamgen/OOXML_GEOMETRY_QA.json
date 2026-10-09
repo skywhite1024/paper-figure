@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/dreamgen",
+  "diagram_id": "dreamgen-figure-2",
+  "scene_sha256": "d5e7c3bf89bd70f2fb112ba6931c1e432b269552bb5bd8dc40b57f691d7c6809",
+  "pptx_sha256": "ec45604b8d3b834fce37f7de886cfa9a7193dc9a7b10d7ba50cbcd8f6c53fdde",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 77,
+    "named_shapes_checked": 77,
+    "text_labels_checked": 12,
+    "paths_checked": 47,
+    "curve_commands_checked": 373,
+    "images_checked": 18
+  },
+  "maximum_object_position_delta_scene_pixels": 5.225e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.224e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

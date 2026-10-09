@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/axis",
+  "diagram_id": "axis-figure-1",
+  "scene_sha256": "188739f8c3f42e6008ce8b3b6c1fccb85ff0c5f1f672a0b5ab138b28bdc3f55e",
+  "pptx_sha256": "5409d16c56ce77896f5e42a4b180b362cbf80976c72cf6dff4c222beae3bad73",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 474,
+    "named_shapes_checked": 474,
+    "text_labels_checked": 131,
+    "paths_checked": 175,
+    "curve_commands_checked": 1456,
+    "images_checked": 22
+  },
+  "maximum_object_position_delta_scene_pixels": 5.249e-05,
+  "maximum_path_control_point_delta_scene_pixels": 0.00010112,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

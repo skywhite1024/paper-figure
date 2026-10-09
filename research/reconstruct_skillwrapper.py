@@ -35,8 +35,15 @@ for n in s['nodes']:
     prev['label']+=(' 'if gap>prev['font_size']*.15 and not prev['label'].endswith(' ') else '')+n['label'];prev['width']=n['x']+n['width']-prev['x'];prev['source_seqno']=n['source_seqno'];continue
  merged.append(n)
 s['nodes']=merged
+for n in s['nodes']:
+ if n['shape']=='text':n['label']=n['label'].replace('Pr oblem','Problem')
 s['provenance']['ordinary_label_repair']='Source duplicate stroked character outlines removed; ordinary text character spans merged into coherent live labels/code lines.'
 for n in s['nodes']:
  if n['shape']=='text':
   n['label']=n['label'].replace('ﬁ','fi').replace('ﬂ','fl');n['italic']=n.get('italic',False)or'Ital'in n.get('source_font','');n['bold']=n.get('bold',False)or any(t in n.get('source_font','')for t in ['Heavy','Black']);font=('tibo'if n.get('bold')else'tiro')if n.get('font_family')=='Times New Roman'else'hebo'if n.get('bold')else'helv';old=n['font_size'];n['font_size']*=min(1,n['width']/max(fitz.get_text_length(n['label'],fontname=font,fontsize=old),.01));n['y']=max(0,n['y']-.15*old+.5*(old-n['font_size']))
+# Restore the source small-caps method name as ordinary editable lettering.
+s['nodes']=[n for n in s['nodes']if n['id']not in ['pdf-path-'+str(i)for i in range(343,366,2)]]
+s['nodes'].append(dict(id='skillwrapper-method-name',shape='text',label='SKILLWRAPPER',x=495,y=519,width=141,height=21,font_size=17,font_family='Times New Roman',bold=True,text_color='#000000',align='left',no_wrap=True,text_inset=0))
+a=next(n for n in s['nodes']if n['id']=='pdf-text-311-0');b=next(n for n in s['nodes']if n['id']=='pdf-text-328-0');a['label']='Skill Planning Problem';a['width']=b['x']+b['width']-a['x'];s['nodes']=[n for n in s['nodes']if n['id']!=b['id']]
+s['provenance']['extraction_warnings_reviewed']=['Original photo/icon image instances bounded individually after source-pixel review; duplicate source image paints merged into one discrete crop. Native source paths and ordinary labels preserved. Stroked character contours paired with source live letters removed to prevent double lettering and hidden old labels. Small-caps method caption transcribed as live text. Source mathematical expressions remain native outline paths.']
 validate(s,D);scene=D/(s['id']+'.json');scene.write_text(json.dumps(s,ensure_ascii=False,indent=2)+'\n');subprocess.run([sys.executable,'-m','paper_figure','export',str(scene),'--out',str(R/'build'/slug),'--preview','--force'],cwd=R,check=True)

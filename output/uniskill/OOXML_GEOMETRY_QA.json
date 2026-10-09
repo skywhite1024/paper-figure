@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/uniskill",
+  "diagram_id": "uniskill-figure-2",
+  "scene_sha256": "24617fb648803dc8aea11a22f4995d2b036adf0d3141d23106959605dfe295f8",
+  "pptx_sha256": "01811a67aac549894534d1bacd3e4401482fd202d791477775fd341ff0d1e36c",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 200,
+    "named_shapes_checked": 200,
+    "text_labels_checked": 28,
+    "paths_checked": 121,
+    "curve_commands_checked": 1079,
+    "images_checked": 51
+  },
+  "maximum_object_position_delta_scene_pixels": 5.247e-05,
+  "maximum_path_control_point_delta_scene_pixels": 0.00010098,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

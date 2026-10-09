@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/bnpo",
+  "diagram_id": "bnpo-figure-1",
+  "scene_sha256": "01fe8cea54e57a4d61f23492701ab70509e92d584bfb8e53327ffd3b77f9a974",
+  "pptx_sha256": "129860acec3a84751a136cd1d1002645476d75ace2bf0c9865e3ef437b3ebf32",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 163,
+    "named_shapes_checked": 163,
+    "text_labels_checked": 0,
+    "paths_checked": 163,
+    "curve_commands_checked": 1274,
+    "images_checked": 0
+  },
+  "maximum_object_position_delta_scene_pixels": 5.245e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.553e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

@@ -21,9 +21,12 @@ def path(id,cmds,stroke='#000000',sw=2,fill='none',dash=False):
  return node(id,'path',x,y,w,h,commands=cc,stroke=stroke,stroke_width=sw,fill=fill,dash=dash)
 def poly(id,pts,stroke='#000000',sw=2,fill='none',close=False,dash=False):return path(id,[{('moveTo'if j==0 else'lineTo'):{'x':x,'y':y}}for j,(x,y)in enumerate(pts)]+([{'close':{}}]if close else[]),stroke,sw,fill,dash)
 def tip(id,end,prev,color='#000000',size=10,open=False):
- dx=end[0]-prev[0];dy=end[1]-prev[1];l=math.hypot(dx,dy);ux,uy=dx/l,dy/l;b=(end[0]-size*ux,end[1]-size*uy);p1=(b[0]-size*.45*uy,b[1]+size*.45*ux);p2=(b[0]+size*.45*uy,b[1]-size*.45*ux);poly(id,[p1,end,p2],color,1.6 if open else 0,'none'if open else color,not open)
+ dx=end[0]-prev[0];dy=end[1]-prev[1];l=math.hypot(dx,dy);ux,uy=dx/l,dy/l;b=(end[0]-size*ux,end[1]-size*uy);factor=.9 if color in ['#BBA7FF','#D5A5CC'] else .45;p1=(b[0]-size*factor*uy,b[1]+size*factor*ux);p2=(b[0]+size*factor*uy,b[1]-size*factor*ux);poly(id,[p1,end,p2],color,1.6 if open else 0,'none'if open else color,not open)
 def line(id,pts,color='#000000',sw=2,arrow=False,dash=False,head=False,size=10):
- n=poly(id,pts,color,sw,dash=dash)
+ shaft=list(pts)
+ if arrow and sw>5:
+  ex,ey=pts[-1];px,py=pts[-2];length=math.hypot(ex-px,ey-py);shaft[-1]=(ex-(ex-px)/length*size*.7,ey-(ey-py)/length*size*.7)
+ n=poly(id,shaft,color,sw,dash=dash)
  if arrow:tip(id+'-tip',pts[-1],pts[-2],color,size)
  if head:tip(id+'-head',pts[0],pts[1],color,size)
  return n
@@ -45,7 +48,7 @@ assets=[('experimental-scene',(273,29,440,125),'Experimental\nScene Assets',277,
 for name,box,label,x,y,w in assets:image(name,box,'Original separate laboratory asset group photograph/rendering');text(name+'-label',label,x,y,w,35,15,font=font)
 for x in [447,629,815,991]:line('asset-separator-'+str(x),[(x,22),(x,165)],'#7F8096',2,dash=True)
 line('researcher-down',[(125,175),(125,191)],thick,11,True,size=14);line('assets-down',[(585,176),(585,191)],thick,11,True,size=14)
-rect('platform-panel',11,192,1160,407,'#FFFFFF',purple,1.8,True);image('platform-agent-icon',(25,195,81,243),'Original platform-agent robot icon');text('platform-heading','Pipette Simulation Platform Agent',93,201,570,40,28,font=font,align='left')
+rect('platform-panel',11,192,1160,407,'#FFFFFF',purple,1.8,True);image('platform-agent-icon',(25,195,81,243),'Original platform-agent robot icon');text('platform-heading','Pipette Simulation Platform Agent',93,198,570,40,26.5,font=font,align='left')
 rect('task-proposal-background',21,253,151,130,pale,'none',0);text('task-proposal','Set up a centrifuge tube o\nperation scenario with a c\nentrifuge, tube rack, centri\nfuge tubes, and pipettes on\nthe experimental table. Th\ne robot grasps a tube from\nthe rack, moves it near the\ncentrifuge, and prepares to\ninsert it into the rotor hole.',26,258,146,117,13,font=font,align='left');text('task-proposal-label','Task proposal',41,383,106,22,16,font=font)
 # The original cluster is separated around its existing label so no old lettering remains.
 for name,box in [('identified-assets-top',(217,252,318,302)),('identified-assets-left',(193,292,218,330)),('identified-assets-right',(315,289,335,350)),('identified-assets-bottom',(202,333,314,382))]:image(name,box,'Original identified laboratory asset illustration, cropped clear of the native label')
@@ -53,9 +56,10 @@ rect('asset-identification-panel',225,302,85,29,pale,'none',0);text('asset-ident
 image('constructed-scene',(357,256,500,370),'Original constructed laboratory scene');text('scene-construction','Scene Construction',345,383,170,23,16,font=font)
 for id,pts in [('proposal-to-assets',[(173,323),(193,323)]),('assets-to-scene',[(335,323),(356,323)])]:line(id,pts,arrow,1.5,True,size=8)
 def cylinder(id,x,y,w,h,color,label):
- rect(id+'-body',x,y+10,w,h-18,color,'none',0);ellipse(id+'-bottom',x,y+h-20,w,20,color,'#FFFFFF',1.8)
- for j,cy in enumerate([y+10,y+25,y+40]):ellipse(id+'-ring-'+str(j),x,cy,w,20,color,'#FFFFFF',1.8)
- ellipse(id+'-top',x,y,w,23,color,'#FFFFFF',1.8);text(id+'-label',label,x+7,y+3,w-14,24,12,'#FFFFFF',font=font)
+ rect(id+'-body',x,y+10,w,h-18,color,'none',0);ellipse(id+'-bottom',x,y+h-20,w,20,color,'none',0)
+ for j,cy in enumerate([y+24,y+39]):curve(id+'-ring-'+str(j),(x,cy),(x+w*.25,cy+12),(x+w*.75,cy+12),(x+w,cy),'#FFFFFF',1.8)
+ ellipse(id+'-top',x,y,w,23,color,'#FFFFFF',1.8);
+ for li,word in enumerate(label.split('\n')):text(id+'-label-'+str(li),word,x+7,y+li*11,w-14,13,11.5,'#FFFFFF',font=font)
 cylinder('hdf5',565,233,77,70,'#8E7ACC','HDF5\nData');cylinder('lerobot',565,317,76,68,'#6086C0','Lerobot\nData');image('lerobot-data-thumbnail',(592,347,638,381),'Original robot trajectory sample thumbnail on the data cylinder');line('data-format-conversion',[(603,302),(603,318)],arrow,1.4,True,size=8)
 for j,(x,y)in enumerate([(742,258),(713,305),(770,306)]):
  for face,pts in [('top',[(x,y+9),(x+25,y),(x+50,y+9),(x+25,y+21)]),('left',[(x,y+15),(x+21,y+25),(x+21,y+48),(x,y+38)]),('right',[(x+29,y+25),(x+50,y+15),(x+50,y+38),(x+29,y+48)])]:poly(f'vla-cube-{j}-{face}',pts,'none',0,'#A39BCE',True)

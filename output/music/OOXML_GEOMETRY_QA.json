@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/music",
+  "diagram_id": "music-figure-1",
+  "scene_sha256": "c8ca49a460b0523d44dc1cacc9ac640dbc549549faf718089614e85f0c040574",
+  "pptx_sha256": "bdc18cdae37c6c9d81f58d6a7e2abbc9f97e79c702764ef04bf180e39debf821",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 279,
+    "named_shapes_checked": 279,
+    "text_labels_checked": 34,
+    "paths_checked": 245,
+    "curve_commands_checked": 1144,
+    "images_checked": 0
+  },
+  "maximum_object_position_delta_scene_pixels": 5.226e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.829e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

@@ -47,6 +47,9 @@ class PipelineTests(unittest.TestCase):
   export(self.d,ROOT/'examples/minimal.json',self.out,('pptx',));ns={'p':'http://schemas.openxmlformats.org/presentationml/2006/main','a':'http://schemas.openxmlformats.org/drawingml/2006/main'}
   with zipfile.ZipFile(self.out/'demo.pptx') as z:
    r=ET.fromstring(z.read('ppt/slides/slide1.xml'));self.assertEqual(len(r.findall('.//a:custGeom',ns)),1);self.assertEqual(len(r.findall('.//p:cxnSp',ns)),1);self.assertEqual(len(r.findall('.//a:stCxn',ns)),1);self.assertEqual(len(r.findall('.//a:cubicBezTo',ns)),1);self.assertIn(b'paper_url',z.read('ppt/notesSlides/notesSlide1.xml'))
+ def test_freeform_label_cannot_silently_disappear(self):
+  node=next(n for n in self.d['nodes'] if n['shape']=='path');node['label']='Visible label'
+  with self.assertRaises(ValidationError):validate(self.d)
  def test_drawio_honors_no_wrap_and_text_inset(self):
   self.d['nodes'][0].update(no_wrap=True,text_inset=3)
   source=self.out/'scene.json';source.write_text(json.dumps(self.d))

@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/mod-skill",
+  "diagram_id": "mod-skill-figure-1",
+  "scene_sha256": "d7689eb4b76d8b25e02b1cf15583d1c258113ed4f5467d7965e85c7f72cf561a",
+  "pptx_sha256": "75417cdbe9a7cc32ab73e515da4f2ab93355378c7c488948167ebc62ef457353",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 75,
+    "named_shapes_checked": 75,
+    "text_labels_checked": 21,
+    "paths_checked": 42,
+    "curve_commands_checked": 28,
+    "images_checked": 1
+  },
+  "maximum_object_position_delta_scene_pixels": 5.249e-05,
+  "maximum_path_control_point_delta_scene_pixels": 5.249e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

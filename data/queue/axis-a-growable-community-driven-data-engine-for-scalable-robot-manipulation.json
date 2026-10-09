@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "axis-a-growable-community-driven-data-engine-for-scalable-robot-manipulation",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.491640Z",
-  "updated_at": "2026-10-09T20:49:28.434732Z",
+  "updated_at": "2026-10-09T21:58:03.913390Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/axis/README.md",
+          "output/axis/VALIDATION.json"
+        ],
+        "output_directory": "output/axis",
+        "source_sha256": "52bedbf53aefd2499910ee182281d1f72d88578ba9cf8451299d48dd3194050e",
+        "scene_sha256": "188739f8c3f42e6008ce8b3b6c1fccb85ff0c5f1f672a0b5ab138b28bdc3f55e",
+        "text_editability": {
+          "typeable_text_objects": 131,
+          "native_freeform_paths": 175,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:58:03.913390Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "313626c64f49ccd080228a3313bd61f41cef0c51be438d4e223f5bbb28b1a63f",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/axis/README.md",
+                "output/axis/VALIDATION.json"
+              ],
+              "output_directory": "output/axis",
+              "source_sha256": "52bedbf53aefd2499910ee182281d1f72d88578ba9cf8451299d48dd3194050e",
+              "scene_sha256": "188739f8c3f42e6008ce8b3b6c1fccb85ff0c5f1f672a0b5ab138b28bdc3f55e",
+              "text_editability": {
+                "typeable_text_objects": 131,
+                "native_freeform_paths": 175,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

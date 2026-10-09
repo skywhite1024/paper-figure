@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/grs",
+  "diagram_id": "grs-figure-2",
+  "scene_sha256": "e5506df63b3558047e93084f888b0dce3fefbfa6ca5b55311720182783a87994",
+  "pptx_sha256": "83799cce35214662e8ba3c97eeb9930f500fbc76feb8cc709e5613533695d20b",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 72,
+    "named_shapes_checked": 72,
+    "text_labels_checked": 24,
+    "paths_checked": 34,
+    "curve_commands_checked": 26,
+    "images_checked": 4
+  },
+  "maximum_object_position_delta_scene_pixels": 0.0,
+  "maximum_path_control_point_delta_scene_pixels": 4.35e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

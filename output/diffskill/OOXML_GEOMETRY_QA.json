@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/diffskill",
+  "diagram_id": "diffskill-figure-2",
+  "scene_sha256": "34072b470144b0c30c1223153d03e0a84f23778a511ae5b1051bee32f6747abb",
+  "pptx_sha256": "0f44fd84ad9ebd947a80887863d7458a527c380b42dabfdaf3c9679231346949",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 220,
+    "named_shapes_checked": 220,
+    "text_labels_checked": 49,
+    "paths_checked": 161,
+    "curve_commands_checked": 1260,
+    "images_checked": 10
+  },
+  "maximum_object_position_delta_scene_pixels": 5.23e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.565e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

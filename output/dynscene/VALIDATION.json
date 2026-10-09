@@ -1,0 +1,253 @@
+{
+  "diagram_id": "dynscene-figure-2",
+  "source_scene_sha256": "aa97379b7f1ae2649b8bb9fd1d314a1d64edd25ec155d4c323a1a62b27b6a974",
+  "source_pdf_sha256": "e489d02d5e0ed28b8b7b6d910c1893bcba9a7a4dbb838728c48adc2dae898515",
+  "checked_files": [
+    {
+      "name": "dynscene-figure-2.drawio",
+      "sha256": "ab4c29a3fee305937c8faeea3e746e7f595bebc1df039e6f5ffc3bee7d0e8635"
+    },
+    {
+      "name": "dynscene-figure-2.png",
+      "sha256": "b6e1176d694b37a95ebe72a02a5e6ca6fb6b45d45ee3279d965d398c84505341"
+    },
+    {
+      "name": "dynscene-figure-2.pptx",
+      "sha256": "75e1886c7855b99119bf0c904d76f304ee35d71cc65e678ad0ea3cd0848dc7af"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "version_embedded": "Not applicable: official CVPR2025 proceedings copy; actual PDF title, page3 Figure2, publisher URL and exact PDF hash independently checked",
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_scene_asset_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 1208,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; source edition/hash pinned",
+    "source_page_figure": "Independent PDF crop compared with original PNG and delivered preview",
+    "source_preview_visual": "passed with disclosed image/font/math/dash limitations"
+  },
+  "native_xml_counts": {
+    "p:sp": 1255,
+    "p:pic": 18,
+    "a:custGeom": 1208,
+    "p:cxnSp": 0,
+    "a:t": 33
+  },
+  "source_title": "DynScene: Scalable Generation of Dynamic Robotic Manipulation Scenes for Embodied AI",
+  "typeable_labels": [
+    "Static Scene Generation",
+    "Action Generation",
+    "Verification",
+    "Agent Training",
+    "Simulator",
+    "Static Scene Refinement",
+    "Action Augmentation",
+    "Layout Sampling",
+    "Quaternion Quantization",
+    "Residual Learning",
+    "Static Scene",
+    "Dynamic Scene",
+    "Mismatched",
+    "Room-Layout",
+    "Best matched",
+    "Room-Layout",
+    "Room-Layouts",
+    "Unstable",
+    "Orientation",
+    "Stable",
+    "Orientation",
+    "Goal state",
+    "Init state",
+    "Denoising Step x (T-1)",
+    "Denoising Step x (T-1)",
+    "U-Net",
+    "U-Net",
+    "\u201cPickup object 10cm\u201d",
+    "gravity",
+    "gravity",
+    "10cm",
+    "20cm",
+    "30cm"
+  ],
+  "raster_nodes": [
+    {
+      "id": "simulator-photo",
+      "asset": "simulator-photo.png",
+      "x": 1295,
+      "y": 251,
+      "width": 163,
+      "height": 103,
+      "canvas_area_fraction": 0.016
+    },
+    {
+      "id": "static-room-render",
+      "asset": "static-room-render.png",
+      "x": 675,
+      "y": 374,
+      "width": 187,
+      "height": 251,
+      "canvas_area_fraction": 0.046
+    },
+    {
+      "id": "dynamic-room-render",
+      "asset": "dynamic-room-render.png",
+      "x": 1290,
+      "y": 372,
+      "width": 184,
+      "height": 252,
+      "canvas_area_fraction": 0.045
+    },
+    {
+      "id": "residual-pose-10cm",
+      "asset": "residual-pose-10cm.png",
+      "x": 875,
+      "y": 374,
+      "width": 123,
+      "height": 208,
+      "canvas_area_fraction": 0.025
+    },
+    {
+      "id": "residual-pose-20cm",
+      "asset": "residual-pose-20cm.png",
+      "x": 1000,
+      "y": 374,
+      "width": 128,
+      "height": 208,
+      "canvas_area_fraction": 0.026
+    },
+    {
+      "id": "residual-pose-30cm",
+      "asset": "residual-pose-30cm.png",
+      "x": 1130,
+      "y": 370,
+      "width": 111,
+      "height": 212,
+      "canvas_area_fraction": 0.023
+    },
+    {
+      "id": "state-equation",
+      "asset": "state-equation.png",
+      "x": 96,
+      "y": 222,
+      "width": 122,
+      "height": 52,
+      "canvas_area_fraction": 0.006
+    },
+    {
+      "id": "action-equation",
+      "asset": "action-equation.png",
+      "x": 666,
+      "y": 220,
+      "width": 132,
+      "height": 54,
+      "canvas_area_fraction": 0.007
+    },
+    {
+      "id": "layout-pose-equation",
+      "asset": "layout-pose-equation.png",
+      "x": 95,
+      "y": 313,
+      "width": 124,
+      "height": 36,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "equation6",
+      "asset": "equation6.png",
+      "x": 133,
+      "y": 449,
+      "width": 61,
+      "height": 24,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "equation7",
+      "asset": "equation7.png",
+      "x": 480,
+      "y": 398,
+      "width": 61,
+      "height": 29,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "layout-z",
+      "asset": "layout-z.png",
+      "x": 48,
+      "y": 486,
+      "width": 31,
+      "height": 26,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "layout-zhat",
+      "asset": "layout-zhat.png",
+      "x": 258,
+      "y": 484,
+      "width": 36,
+      "height": 28,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "layout-z1",
+      "asset": "layout-z1.png",
+      "x": 69,
+      "y": 565,
+      "width": 34,
+      "height": 25,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "layout-z2",
+      "asset": "layout-z2.png",
+      "x": 136,
+      "y": 565,
+      "width": 39,
+      "height": 25,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "layout-zk",
+      "asset": "layout-zk.png",
+      "x": 232,
+      "y": 565,
+      "width": 40,
+      "height": 25,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "quaternion-equation",
+      "asset": "quaternion-equation.png",
+      "x": 389,
+      "y": 571,
+      "width": 73,
+      "height": 42,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "stable-quaternion-equation",
+      "asset": "stable-quaternion-equation.png",
+      "x": 562,
+      "y": 568,
+      "width": 62,
+      "height": 45,
+      "canvas_area_fraction": 0.003
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

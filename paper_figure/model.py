@@ -83,6 +83,7 @@ def validate(d,base=None):
    text(n.get('asset'),'asset');text(n.get('alt'),'alt')
    if base is not None:local_asset(base,n['asset'])
   if n['shape']=='path':
+   require(not n.get('label','').strip(),'Freeform path labels require a separate native text node; the PPTX backend does not render path text')
    require(isinstance(n.get('commands'),list) and n['commands'],'path commands required')
    for cmd in n['commands']:
     require(isinstance(cmd,dict) and len(cmd)==1,'path command invalid');op,v=next(iter(cmd.items()))

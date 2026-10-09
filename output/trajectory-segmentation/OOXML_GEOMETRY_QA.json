@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/trajectory-segmentation",
+  "diagram_id": "trajectory-segmentation-figure-2",
+  "scene_sha256": "6be13aa3184fa4e366b5cb95ec61338a6998831142a9ae017c92c1800e364d9d",
+  "pptx_sha256": "7257b001c0cc875302875f64a85d7f8b10ec54d6a5aabc9ba6051212040aa8c5",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 45,
+    "named_shapes_checked": 45,
+    "text_labels_checked": 4,
+    "paths_checked": 41,
+    "curve_commands_checked": 3435,
+    "images_checked": 0
+  },
+  "maximum_object_position_delta_scene_pixels": 0.0,
+  "maximum_path_control_point_delta_scene_pixels": 5.249e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

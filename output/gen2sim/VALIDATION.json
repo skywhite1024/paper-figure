@@ -1,0 +1,938 @@
+{
+  "diagram_id": "gen2sim-figure-2",
+  "source_scene_sha256": "48ad9a9000120ce133280450a0cb1ddfe63d2e9f1853652ba70da25bf4317115",
+  "source_pdf_sha256": "618007739203770439d49d86d099cec7428e7aeb7118b07198d255dfd766af38",
+  "checked_files": [
+    {
+      "name": "gen2sim-figure-2.drawio",
+      "sha256": "b0114d7905aa4e49240520e338570ed48e5f4ad0f39fc1e99bccb65e2f0b6ccc"
+    },
+    {
+      "name": "gen2sim-figure-2.png",
+      "sha256": "d7f3f1497666d420bea7a721fd6268d80cd16b86dc2964c0f136dc3558dc0fe5"
+    },
+    {
+      "name": "gen2sim-figure-2.pptx",
+      "sha256": "bc2918a14a3e08f66f58faadd918a418f9338a60163808797e767b1f516adf4a"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_scene_asset_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 10,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; source edition/hash pinned",
+    "source_page_figure": "Independent PDF crop compared with original PNG and delivered preview",
+    "source_preview_visual": "passed with disclosed image/font/math/dash limitations"
+  },
+  "native_xml_counts": {
+    "p:sp": 147,
+    "p:pic": 92,
+    "a:custGeom": 10,
+    "p:cxnSp": 0,
+    "a:t": 52
+  },
+  "source_title": "Gen2Sim: Scaling Up Robot Learning in Simulation with Generative Models",
+  "typeable_labels": [
+    "",
+    "Put the veggies inside",
+    "the refrigerator",
+    "",
+    "Put the tennis ball inside",
+    "the left of the cabinet",
+    "",
+    "Open the left door of the",
+    "refrigerator",
+    "",
+    "Pick up the veggie, while",
+    "keeping the door open",
+    "",
+    "Move the veggie inside",
+    "",
+    "Open the left door",
+    "of the cabinet",
+    "",
+    "Pick up the ball, while",
+    "keeping the door open",
+    "",
+    "Move the ball into the",
+    "cabinet",
+    "Reward:",
+    "+ Grasp handle",
+    "+ Open left door",
+    "</>",
+    "Reward:",
+    "+ Grasp veggie",
+    "- Left door state",
+    "</>",
+    "Reward:",
+    "+ Veggie inside",
+    "  fridge",
+    "- Left door state",
+    "</>",
+    "Reward:",
+    "+ Grasp handle",
+    "+ Open left door",
+    "</>",
+    "Reward:",
+    "+ Grasp ball",
+    "- Left door state",
+    "</>",
+    "Reward:",
+    "+ Ball inside",
+    "  cabinet",
+    "- Left door state",
+    "</>",
+    "Asset Generation",
+    "Task Generation",
+    "Task Decomposition and Reward Generation"
+  ],
+  "raster_nodes": [
+    {
+      "id": "asset-1-1",
+      "asset": "assets/asset-1-1.png",
+      "x": 6,
+      "y": 9,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-1-2",
+      "asset": "assets/asset-1-2.png",
+      "x": 56,
+      "y": 9,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-1-3",
+      "asset": "assets/asset-1-3.png",
+      "x": 106,
+      "y": 9,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-1-4",
+      "asset": "assets/asset-1-4.png",
+      "x": 156,
+      "y": 9,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-1-5",
+      "asset": "assets/asset-1-5.png",
+      "x": 206,
+      "y": 9,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-1-6",
+      "asset": "assets/asset-1-6.png",
+      "x": 256,
+      "y": 9,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-1-7",
+      "asset": "assets/asset-1-7.png",
+      "x": 306,
+      "y": 9,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-1-8",
+      "asset": "assets/asset-1-8.png",
+      "x": 356,
+      "y": 9,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-2-1",
+      "asset": "assets/asset-2-1.png",
+      "x": 6,
+      "y": 59,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-2-2",
+      "asset": "assets/asset-2-2.png",
+      "x": 56,
+      "y": 59,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-2-3",
+      "asset": "assets/asset-2-3.png",
+      "x": 106,
+      "y": 59,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-2-4",
+      "asset": "assets/asset-2-4.png",
+      "x": 156,
+      "y": 59,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-2-5",
+      "asset": "assets/asset-2-5.png",
+      "x": 206,
+      "y": 59,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-2-6",
+      "asset": "assets/asset-2-6.png",
+      "x": 256,
+      "y": 59,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-2-7",
+      "asset": "assets/asset-2-7.png",
+      "x": 306,
+      "y": 59,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-2-8",
+      "asset": "assets/asset-2-8.png",
+      "x": 356,
+      "y": 59,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-3-1",
+      "asset": "assets/asset-3-1.png",
+      "x": 6,
+      "y": 109,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-3-2",
+      "asset": "assets/asset-3-2.png",
+      "x": 56,
+      "y": 109,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-3-3",
+      "asset": "assets/asset-3-3.png",
+      "x": 106,
+      "y": 109,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-3-4",
+      "asset": "assets/asset-3-4.png",
+      "x": 156,
+      "y": 109,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-3-5",
+      "asset": "assets/asset-3-5.png",
+      "x": 206,
+      "y": 109,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-3-6",
+      "asset": "assets/asset-3-6.png",
+      "x": 256,
+      "y": 109,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-3-7",
+      "asset": "assets/asset-3-7.png",
+      "x": 306,
+      "y": 109,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-3-8",
+      "asset": "assets/asset-3-8.png",
+      "x": 356,
+      "y": 109,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-4-1",
+      "asset": "assets/asset-4-1.png",
+      "x": 6,
+      "y": 159,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-4-2",
+      "asset": "assets/asset-4-2.png",
+      "x": 56,
+      "y": 159,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-4-3",
+      "asset": "assets/asset-4-3.png",
+      "x": 106,
+      "y": 159,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-4-4",
+      "asset": "assets/asset-4-4.png",
+      "x": 156,
+      "y": 159,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-4-5",
+      "asset": "assets/asset-4-5.png",
+      "x": 206,
+      "y": 159,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-4-6",
+      "asset": "assets/asset-4-6.png",
+      "x": 256,
+      "y": 159,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-4-7",
+      "asset": "assets/asset-4-7.png",
+      "x": 306,
+      "y": 159,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-4-8",
+      "asset": "assets/asset-4-8.png",
+      "x": 356,
+      "y": 159,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-5-1",
+      "asset": "assets/asset-5-1.png",
+      "x": 6,
+      "y": 209,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-5-2",
+      "asset": "assets/asset-5-2.png",
+      "x": 56,
+      "y": 209,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-5-3",
+      "asset": "assets/asset-5-3.png",
+      "x": 106,
+      "y": 209,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-5-4",
+      "asset": "assets/asset-5-4.png",
+      "x": 156,
+      "y": 209,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-5-5",
+      "asset": "assets/asset-5-5.png",
+      "x": 206,
+      "y": 209,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-5-6",
+      "asset": "assets/asset-5-6.png",
+      "x": 256,
+      "y": 209,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-5-7",
+      "asset": "assets/asset-5-7.png",
+      "x": 306,
+      "y": 209,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-5-8",
+      "asset": "assets/asset-5-8.png",
+      "x": 356,
+      "y": 209,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-6-1",
+      "asset": "assets/asset-6-1.png",
+      "x": 6,
+      "y": 259,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-6-2",
+      "asset": "assets/asset-6-2.png",
+      "x": 56,
+      "y": 259,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-6-3",
+      "asset": "assets/asset-6-3.png",
+      "x": 106,
+      "y": 259,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-6-4",
+      "asset": "assets/asset-6-4.png",
+      "x": 156,
+      "y": 259,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-6-5",
+      "asset": "assets/asset-6-5.png",
+      "x": 206,
+      "y": 259,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-6-6",
+      "asset": "assets/asset-6-6.png",
+      "x": 256,
+      "y": 259,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-6-7",
+      "asset": "assets/asset-6-7.png",
+      "x": 306,
+      "y": 259,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-6-8",
+      "asset": "assets/asset-6-8.png",
+      "x": 356,
+      "y": 259,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-7-1",
+      "asset": "assets/asset-7-1.png",
+      "x": 6,
+      "y": 309,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-7-2",
+      "asset": "assets/asset-7-2.png",
+      "x": 56,
+      "y": 309,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-7-3",
+      "asset": "assets/asset-7-3.png",
+      "x": 106,
+      "y": 309,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-7-4",
+      "asset": "assets/asset-7-4.png",
+      "x": 156,
+      "y": 309,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-7-5",
+      "asset": "assets/asset-7-5.png",
+      "x": 206,
+      "y": 309,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-7-6",
+      "asset": "assets/asset-7-6.png",
+      "x": 256,
+      "y": 309,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-7-7",
+      "asset": "assets/asset-7-7.png",
+      "x": 306,
+      "y": 309,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-7-8",
+      "asset": "assets/asset-7-8.png",
+      "x": 356,
+      "y": 309,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-8-1",
+      "asset": "assets/asset-8-1.png",
+      "x": 6,
+      "y": 359,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-8-2",
+      "asset": "assets/asset-8-2.png",
+      "x": 56,
+      "y": 359,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-8-3",
+      "asset": "assets/asset-8-3.png",
+      "x": 106,
+      "y": 359,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-8-4",
+      "asset": "assets/asset-8-4.png",
+      "x": 156,
+      "y": 359,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-8-5",
+      "asset": "assets/asset-8-5.png",
+      "x": 206,
+      "y": 359,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-8-6",
+      "asset": "assets/asset-8-6.png",
+      "x": 256,
+      "y": 359,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-8-7",
+      "asset": "assets/asset-8-7.png",
+      "x": 306,
+      "y": 359,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-8-8",
+      "asset": "assets/asset-8-8.png",
+      "x": 356,
+      "y": 359,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-9-1",
+      "asset": "assets/asset-9-1.png",
+      "x": 6,
+      "y": 409,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-9-2",
+      "asset": "assets/asset-9-2.png",
+      "x": 56,
+      "y": 409,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-9-3",
+      "asset": "assets/asset-9-3.png",
+      "x": 106,
+      "y": 409,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-9-4",
+      "asset": "assets/asset-9-4.png",
+      "x": 156,
+      "y": 409,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-9-5",
+      "asset": "assets/asset-9-5.png",
+      "x": 206,
+      "y": 409,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-9-6",
+      "asset": "assets/asset-9-6.png",
+      "x": 256,
+      "y": 409,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-9-7",
+      "asset": "assets/asset-9-7.png",
+      "x": 306,
+      "y": 409,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-9-8",
+      "asset": "assets/asset-9-8.png",
+      "x": 356,
+      "y": 409,
+      "width": 49,
+      "height": 49,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-10-1",
+      "asset": "assets/asset-10-1.png",
+      "x": 6,
+      "y": 459,
+      "width": 49,
+      "height": 47,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-10-2",
+      "asset": "assets/asset-10-2.png",
+      "x": 56,
+      "y": 459,
+      "width": 49,
+      "height": 47,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-10-3",
+      "asset": "assets/asset-10-3.png",
+      "x": 106,
+      "y": 459,
+      "width": 49,
+      "height": 47,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-10-4",
+      "asset": "assets/asset-10-4.png",
+      "x": 156,
+      "y": 459,
+      "width": 49,
+      "height": 47,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-10-5",
+      "asset": "assets/asset-10-5.png",
+      "x": 206,
+      "y": 459,
+      "width": 49,
+      "height": 47,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-10-6",
+      "asset": "assets/asset-10-6.png",
+      "x": 256,
+      "y": 459,
+      "width": 49,
+      "height": 47,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-10-7",
+      "asset": "assets/asset-10-7.png",
+      "x": 306,
+      "y": 459,
+      "width": 49,
+      "height": 47,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "asset-10-8",
+      "asset": "assets/asset-10-8.png",
+      "x": 356,
+      "y": 459,
+      "width": 49,
+      "height": 47,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "fridge-environment",
+      "asset": "assets/fridge-environment.png",
+      "x": 505,
+      "y": 78,
+      "width": 180,
+      "height": 176,
+      "canvas_area_fraction": 0.038
+    },
+    {
+      "id": "cabinet-environment",
+      "asset": "assets/cabinet-environment.png",
+      "x": 502,
+      "y": 333,
+      "width": 185,
+      "height": 165,
+      "canvas_area_fraction": 0.037
+    },
+    {
+      "id": "open-fridge",
+      "asset": "assets/open-fridge.png",
+      "x": 815,
+      "y": 84,
+      "width": 121,
+      "height": 168,
+      "canvas_area_fraction": 0.025
+    },
+    {
+      "id": "pick-veggie",
+      "asset": "assets/pick-veggie.png",
+      "x": 1067,
+      "y": 84,
+      "width": 125,
+      "height": 168,
+      "canvas_area_fraction": 0.025
+    },
+    {
+      "id": "place-veggie",
+      "asset": "assets/place-veggie.png",
+      "x": 1304,
+      "y": 84,
+      "width": 122,
+      "height": 168,
+      "canvas_area_fraction": 0.025
+    },
+    {
+      "id": "open-cabinet",
+      "asset": "assets/open-cabinet.png",
+      "x": 814,
+      "y": 313,
+      "width": 123,
+      "height": 186,
+      "canvas_area_fraction": 0.028
+    },
+    {
+      "id": "pick-ball",
+      "asset": "assets/pick-ball.png",
+      "x": 1065,
+      "y": 313,
+      "width": 128,
+      "height": 186,
+      "canvas_area_fraction": 0.029
+    },
+    {
+      "id": "place-ball",
+      "asset": "assets/place-ball.png",
+      "x": 1303,
+      "y": 313,
+      "width": 124,
+      "height": 186,
+      "canvas_area_fraction": 0.028
+    },
+    {
+      "id": "model-logo-0",
+      "asset": "assets/model-logo-0.png",
+      "x": 429,
+      "y": 87,
+      "width": 43,
+      "height": 42,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "model-logo-1",
+      "asset": "assets/model-logo-1.png",
+      "x": 722,
+      "y": 87,
+      "width": 44,
+      "height": 42,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "model-logo-2",
+      "asset": "assets/model-logo-2.png",
+      "x": 429,
+      "y": 325,
+      "width": 43,
+      "height": 42,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "model-logo-3",
+      "asset": "assets/model-logo-3.png",
+      "x": 722,
+      "y": 325,
+      "width": 44,
+      "height": 42,
+      "canvas_area_fraction": 0.002
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

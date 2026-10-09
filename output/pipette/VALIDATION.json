@@ -1,0 +1,461 @@
+{
+  "diagram_id": "pipette-figure-1",
+  "source_scene_sha256": "1df949a1707c1d4eb05af6b07a7f1edd8bb0dd984f1015994d838829a78f3658",
+  "source_pdf_sha256": "72ad55814d9958242cd534f45f540f9bcd86bcd2bfbf21beaa2278e6c2bb93a3",
+  "checked_files": [
+    {
+      "name": "pipette-figure-1.drawio",
+      "sha256": "15d27deb362070b871e6ce09a259782c27fb18c97949792108f6b3e3f3016faa"
+    },
+    {
+      "name": "pipette-figure-1.png",
+      "sha256": "7253aba231137e0df817bb2c74f3c2480b04640bf38caa5d2207aeda14c4f398"
+    },
+    {
+      "name": "pipette-figure-1.pptx",
+      "sha256": "d7a0319ffe9e86b61b083a18a3c95f86d8a92da6eecd576a419fd1d578e32435"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_scene_asset_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 85,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; source edition/hash pinned",
+    "source_page_figure": "Independent PDF crop compared with original PNG and delivered preview",
+    "source_preview_visual": "passed with disclosed image/font/math/dash limitations"
+  },
+  "native_xml_counts": {
+    "p:sp": 177,
+    "p:pic": 36,
+    "a:custGeom": 85,
+    "p:cxnSp": 0,
+    "a:t": 79
+  },
+  "source_title": "An Embodied Simulation Platform, Benchmark, and Success-Verified Simulation Augmentation Framework for Wet-Lab Robotics (Pipette)",
+  "typeable_labels": [
+    "",
+    "Researcher",
+    "",
+    "Task proposal",
+    "",
+    "Goals and constraints",
+    "",
+    "Research ideas",
+    "",
+    "Feedback and revision",
+    "",
+    "Experimental",
+    "Scene Assets",
+    "Experimental",
+    "Workstation Assets",
+    "Environmental Control",
+    "Equipment Assets",
+    "Measurement",
+    "Instruments Assets",
+    "Tubes",
+    "and Racks Assets",
+    "",
+    "Pipette Simulation Platform Agent",
+    "",
+    "Set up a centrifuge tube o",
+    "peration scenario with a c",
+    "entrifuge, tube rack, centri",
+    "fuge tubes, and pipettes on",
+    "the experimental table. Th",
+    "e robot grasps a tube from",
+    "the rack, moves it near the",
+    "centrifuge, and prepares to",
+    "insert it into the rotor hole.",
+    "Task proposal",
+    "",
+    "Asset",
+    "Identification",
+    "Scene Construction",
+    "",
+    "",
+    "",
+    "HDF5",
+    "Data",
+    "",
+    "",
+    "",
+    "Lerobot",
+    "Data",
+    "VLA models",
+    "Inference",
+    "Teleoperation",
+    "Camera",
+    "",
+    "Action",
+    "Recording",
+    "",
+    "Multi-view",
+    "Imaging",
+    "",
+    "Data",
+    "Collection",
+    "",
+    "Data",
+    "Augmentation",
+    "",
+    "Success",
+    "Evaluation",
+    "Lighting",
+    "Perturbation",
+    "Speed",
+    "Perturbation",
+    "Camera Position",
+    "Perturbation",
+    "Trajectory",
+    "Perturbation",
+    "Tube-and-Rack Manipulation Tasks",
+    "Cultureware Handling Tasks",
+    "Process-Instrument Operation Tasks",
+    "Analytical-Instrument Operation Tasks"
+  ],
+  "raster_nodes": [
+    {
+      "id": "researcher-icon",
+      "asset": "researcher-icon.png",
+      "x": 17,
+      "y": 44,
+      "width": 72,
+      "height": 86,
+      "canvas_area_fraction": 0.006
+    },
+    {
+      "id": "experimental-scene",
+      "asset": "experimental-scene.png",
+      "x": 273,
+      "y": 29,
+      "width": 167,
+      "height": 96,
+      "canvas_area_fraction": 0.016
+    },
+    {
+      "id": "experimental-workstations",
+      "asset": "experimental-workstations.png",
+      "x": 457,
+      "y": 24,
+      "width": 161,
+      "height": 103,
+      "canvas_area_fraction": 0.017
+    },
+    {
+      "id": "environmental-control",
+      "asset": "environmental-control.png",
+      "x": 637,
+      "y": 30,
+      "width": 170,
+      "height": 99,
+      "canvas_area_fraction": 0.017
+    },
+    {
+      "id": "measurement",
+      "asset": "measurement.png",
+      "x": 832,
+      "y": 22,
+      "width": 155,
+      "height": 106,
+      "canvas_area_fraction": 0.017
+    },
+    {
+      "id": "tubes-racks",
+      "asset": "tubes-racks.png",
+      "x": 1000,
+      "y": 31,
+      "width": 152,
+      "height": 85,
+      "canvas_area_fraction": 0.013
+    },
+    {
+      "id": "platform-agent-icon",
+      "asset": "platform-agent-icon.png",
+      "x": 25,
+      "y": 195,
+      "width": 56,
+      "height": 48,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "identified-assets-top",
+      "asset": "identified-assets-top.png",
+      "x": 217,
+      "y": 252,
+      "width": 101,
+      "height": 50,
+      "canvas_area_fraction": 0.005
+    },
+    {
+      "id": "identified-assets-left",
+      "asset": "identified-assets-left.png",
+      "x": 193,
+      "y": 292,
+      "width": 25,
+      "height": 38,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "identified-assets-right",
+      "asset": "identified-assets-right.png",
+      "x": 315,
+      "y": 289,
+      "width": 20,
+      "height": 61,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "identified-assets-bottom",
+      "asset": "identified-assets-bottom.png",
+      "x": 202,
+      "y": 333,
+      "width": 112,
+      "height": 49,
+      "canvas_area_fraction": 0.006
+    },
+    {
+      "id": "constructed-scene",
+      "asset": "constructed-scene.png",
+      "x": 357,
+      "y": 256,
+      "width": 143,
+      "height": 114,
+      "canvas_area_fraction": 0.017
+    },
+    {
+      "id": "lerobot-data-thumbnail",
+      "asset": "lerobot-data-thumbnail.png",
+      "x": 592,
+      "y": 347,
+      "width": 46,
+      "height": 34,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "inference-interface",
+      "asset": "inference-interface.png",
+      "x": 887,
+      "y": 217,
+      "width": 263,
+      "height": 154,
+      "canvas_area_fraction": 0.041
+    },
+    {
+      "id": "teleoperation-icon",
+      "asset": "teleoperation-icon.png",
+      "x": 46,
+      "y": 437,
+      "width": 82,
+      "height": 52,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "camera-view",
+      "asset": "camera-view.png",
+      "x": 42,
+      "y": 514,
+      "width": 91,
+      "height": 67,
+      "canvas_area_fraction": 0.006
+    },
+    {
+      "id": "lighting",
+      "asset": "lighting.png",
+      "x": 609,
+      "y": 466,
+      "width": 131,
+      "height": 99,
+      "canvas_area_fraction": 0.013
+    },
+    {
+      "id": "speed",
+      "asset": "speed.png",
+      "x": 757,
+      "y": 465,
+      "width": 120,
+      "height": 100,
+      "canvas_area_fraction": 0.012
+    },
+    {
+      "id": "camera-position",
+      "asset": "camera-position.png",
+      "x": 896,
+      "y": 466,
+      "width": 125,
+      "height": 100,
+      "canvas_area_fraction": 0.013
+    },
+    {
+      "id": "trajectory",
+      "asset": "trajectory.png",
+      "x": 1039,
+      "y": 465,
+      "width": 108,
+      "height": 100,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "task-family-0-frame-0",
+      "asset": "task-family-0-frame-0.png",
+      "x": 10,
+      "y": 633,
+      "width": 120,
+      "height": 87,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "task-family-0-frame-1",
+      "asset": "task-family-0-frame-1.png",
+      "x": 144,
+      "y": 632,
+      "width": 120,
+      "height": 87,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "task-family-0-frame-2",
+      "asset": "task-family-0-frame-2.png",
+      "x": 10,
+      "y": 733,
+      "width": 120,
+      "height": 87,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "task-family-0-frame-3",
+      "asset": "task-family-0-frame-3.png",
+      "x": 144,
+      "y": 731,
+      "width": 120,
+      "height": 87,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "task-family-1-frame-0",
+      "asset": "task-family-1-frame-0.png",
+      "x": 313,
+      "y": 633,
+      "width": 120,
+      "height": 87,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "task-family-1-frame-1",
+      "asset": "task-family-1-frame-1.png",
+      "x": 446,
+      "y": 632,
+      "width": 120,
+      "height": 87,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "task-family-1-frame-2",
+      "asset": "task-family-1-frame-2.png",
+      "x": 313,
+      "y": 733,
+      "width": 120,
+      "height": 87,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "task-family-1-frame-3",
+      "asset": "task-family-1-frame-3.png",
+      "x": 446,
+      "y": 731,
+      "width": 120,
+      "height": 87,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "task-family-2-frame-0",
+      "asset": "task-family-2-frame-0.png",
+      "x": 617,
+      "y": 633,
+      "width": 120,
+      "height": 87,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "task-family-2-frame-1",
+      "asset": "task-family-2-frame-1.png",
+      "x": 751,
+      "y": 632,
+      "width": 120,
+      "height": 87,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "task-family-2-frame-2",
+      "asset": "task-family-2-frame-2.png",
+      "x": 617,
+      "y": 733,
+      "width": 120,
+      "height": 87,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "task-family-2-frame-3",
+      "asset": "task-family-2-frame-3.png",
+      "x": 751,
+      "y": 731,
+      "width": 120,
+      "height": 87,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "task-family-3-frame-0",
+      "asset": "task-family-3-frame-0.png",
+      "x": 914,
+      "y": 633,
+      "width": 120,
+      "height": 87,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "task-family-3-frame-1",
+      "asset": "task-family-3-frame-1.png",
+      "x": 1047,
+      "y": 632,
+      "width": 120,
+      "height": 87,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "task-family-3-frame-2",
+      "asset": "task-family-3-frame-2.png",
+      "x": 914,
+      "y": 733,
+      "width": 120,
+      "height": 87,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "task-family-3-frame-3",
+      "asset": "task-family-3-frame-3.png",
+      "x": 1047,
+      "y": 731,
+      "width": 120,
+      "height": 87,
+      "canvas_area_fraction": 0.011
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

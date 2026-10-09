@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/fate",
+  "diagram_id": "fate-figure-2",
+  "scene_sha256": "e2f91b9a1246767199152bc38dbce4f0e70238788a92926708dbd742691d9fae",
+  "pptx_sha256": "7c2750acf23ea7affa02a4a738eb9bf46d23e6bf95fb158206592bd2edf7ddd9",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 104,
+    "named_shapes_checked": 104,
+    "text_labels_checked": 49,
+    "paths_checked": 42,
+    "curve_commands_checked": 0,
+    "images_checked": 0
+  },
+  "maximum_object_position_delta_scene_pixels": 5.249e-05,
+  "maximum_path_control_point_delta_scene_pixels": 7.116e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

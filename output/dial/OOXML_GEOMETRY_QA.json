@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/dial",
+  "diagram_id": "dial-figure-1",
+  "scene_sha256": "992cf710158b1f97df7f831dcc0eb846c4d2fadf21952bbbbf5f36022a5d1271",
+  "pptx_sha256": "a9cc0f058666190ba5895f48f2ea6eca6f2e5767e9b460c515fefd86a4128ede",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 315,
+    "named_shapes_checked": 315,
+    "text_labels_checked": 94,
+    "paths_checked": 208,
+    "curve_commands_checked": 508,
+    "images_checked": 13
+  },
+  "maximum_object_position_delta_scene_pixels": 5.241e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.813e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

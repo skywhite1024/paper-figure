@@ -1,0 +1,462 @@
+{
+  "diagram_id": "igen-figure-2",
+  "source_scene_sha256": "be54838e8c5c62566d3310448b111ce95dd25c86f55af853406f004f5e7f31e9",
+  "source_pdf_sha256": "4c88265824d3d90d2c37b8fcdd03ef2d452b3ed25ea822d514ee1f06ff18f71c",
+  "checked_files": [
+    {
+      "name": "igen-figure-2.drawio",
+      "sha256": "7e3286dd6a3827faefceb5e3210fbe06b3e0fc6e806e0829af69c658d1ab91f0"
+    },
+    {
+      "name": "igen-figure-2.png",
+      "sha256": "fb737db81a07c898a69dada4fbf3349720589a104ab21a2d665bbc26cd370af1"
+    },
+    {
+      "name": "igen-figure-2.pptx",
+      "sha256": "a0f51b86db8e788b4aee5bbcdfebab488350b1893766775d4de6b5bbcc5e8351"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_scene_asset_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 90,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; source edition/hash pinned",
+    "source_page_figure": "Independent PDF crop compared with original PNG and delivered preview",
+    "source_preview_visual": "passed with disclosed image/font/math/dash limitations"
+  },
+  "native_xml_counts": {
+    "p:sp": 206,
+    "p:pic": 36,
+    "a:custGeom": 90,
+    "p:cxnSp": 0,
+    "a:t": 80
+  },
+  "source_title": "IGen: Scalable Data Generation for Robot Learning from Open-World Images",
+  "typeable_labels": [
+    "5",
+    "6",
+    "4",
+    "3",
+    "1",
+    "2",
+    "Foundation",
+    "Vision",
+    "Model",
+    "Image To 3D",
+    "Model",
+    "Annotated",
+    "Raw",
+    "Image",
+    "Object Reconstruction",
+    "&",
+    "6D Estimation",
+    "Mapping",
+    "Pixels to 3D Space",
+    "Depth & G",
+    "eometry Estimation",
+    "Spatial Keypoints",
+    "From Pixels to Structured 3D Representations",
+    "Spatial Motion Planning for Behavior Generation",
+    "“",
+    "Water the roses",
+    "with",
+    "the yellow can",
+    "”",
+    "5",
+    "6",
+    "4",
+    "3",
+    "1",
+    "2",
+    "High",
+    "-",
+    "Level Task Planning",
+    "Low",
+    "-",
+    "Level Execution Signals",
+    "Visuomotor Experiences Synthesis for Robot Learning",
+    "M",
+    "otion Control in Simulation",
+    "Rendering of Point Cloud Sequences",
+    "Robot",
+    "-",
+    "Scene Point Cloud ",
+    "Concatenation",
+    "Please create a task plan for the robot.",
+    "Implement this task as a robot control function in Python.",
+    "Rendering",
+    "Depth",
+    "to",
+    "Points",
+    "Joint State",
+    "End",
+    "-",
+    "Effector Pose",
+    "End",
+    "-",
+    "Effector State",
+    "Generated Visual Observations",
+    "Generated Robot Actions",
+    "Generating",
+    "Generating",
+    "Step 1: Grasp the can at ",
+    "K₁",
+    "Step 2: Raise ",
+    "K₁",
+    " by a height of 0.2",
+    "Step 3: Lift ",
+    "K₃",
+    " at 0.1 above ",
+    "K₄",
+    "Step 4: Rotate gripper 30° along horizon.",
+    "robot.grasp(K_1)",
+    "robot.ee.move(K_1 + [0, 0, 0.2])",
+    "robot.ee.move(K_4 + [0, 0, 0.1] + K_1 − K_3)",
+    "robot.ee.rotate(pi / 6)"
+  ],
+  "raster_nodes": [
+    {
+      "id": "source-raster-0",
+      "asset": "igen-source-raster-0.png",
+      "x": 847,
+      "y": 19,
+      "width": 360,
+      "height": 270,
+      "canvas_area_fraction": 0.057
+    },
+    {
+      "id": "source-raster-1",
+      "asset": "igen-source-raster-1.png",
+      "x": 603,
+      "y": 132,
+      "width": 144,
+      "height": 17,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "source-raster-2",
+      "asset": "igen-source-raster-2.png",
+      "x": 604,
+      "y": 78,
+      "width": 141,
+      "height": 55,
+      "canvas_area_fraction": 0.005
+    },
+    {
+      "id": "source-raster-3",
+      "asset": "igen-source-raster-3.png",
+      "x": 604,
+      "y": 132,
+      "width": 141,
+      "height": 55,
+      "canvas_area_fraction": 0.005
+    },
+    {
+      "id": "source-raster-4",
+      "asset": "igen-source-raster-4.png",
+      "x": 71,
+      "y": 68,
+      "width": 26,
+      "height": 34,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "source-raster-5",
+      "asset": "igen-source-raster-5.png",
+      "x": 52,
+      "y": 115,
+      "width": 234,
+      "height": 189,
+      "canvas_area_fraction": 0.026
+    },
+    {
+      "id": "source-raster-6",
+      "asset": "igen-source-raster-6.png",
+      "x": 1204,
+      "y": 391,
+      "width": 207,
+      "height": 167,
+      "canvas_area_fraction": 0.02
+    },
+    {
+      "id": "source-raster-7",
+      "asset": "igen-source-raster-7.png",
+      "x": 531,
+      "y": 672,
+      "width": 135,
+      "height": 182,
+      "canvas_area_fraction": 0.014
+    },
+    {
+      "id": "source-raster-8",
+      "asset": "igen-source-raster-8.png",
+      "x": 89,
+      "y": 746,
+      "width": 57,
+      "height": 109,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "source-raster-9",
+      "asset": "igen-source-raster-9.png",
+      "x": 154,
+      "y": 744,
+      "width": 46,
+      "height": 110,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "source-raster-10",
+      "asset": "igen-source-raster-10.png",
+      "x": 254,
+      "y": 719,
+      "width": 109,
+      "height": 136,
+      "canvas_area_fraction": 0.009
+    },
+    {
+      "id": "source-raster-11",
+      "asset": "igen-source-raster-11.png",
+      "x": 201,
+      "y": 730,
+      "width": 50,
+      "height": 125,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "source-raster-12",
+      "asset": "igen-source-raster-12.png",
+      "x": 89,
+      "y": 694,
+      "width": 50,
+      "height": 38,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "source-raster-13",
+      "asset": "igen-source-raster-13.png",
+      "x": 923,
+      "y": 691,
+      "width": 110,
+      "height": 156,
+      "canvas_area_fraction": 0.01
+    },
+    {
+      "id": "source-raster-14",
+      "asset": "igen-source-raster-14.png",
+      "x": 685,
+      "y": 679,
+      "width": 237,
+      "height": 183,
+      "canvas_area_fraction": 0.025
+    },
+    {
+      "id": "source-raster-15",
+      "asset": "igen-source-raster-15.png",
+      "x": 1108,
+      "y": 644,
+      "width": 317,
+      "height": 216,
+      "canvas_area_fraction": 0.04
+    },
+    {
+      "id": "source-raster-16",
+      "asset": "igen-source-raster-16.png",
+      "x": 705,
+      "y": 448,
+      "width": 28,
+      "height": 27,
+      "canvas_area_fraction": 0.0
+    },
+    {
+      "id": "source-raster-17",
+      "asset": "igen-source-raster-17.png",
+      "x": 78,
+      "y": 452,
+      "width": 28,
+      "height": 27,
+      "canvas_area_fraction": 0.0
+    },
+    {
+      "id": "source-raster-21",
+      "asset": "igen-source-raster-21.png",
+      "x": 423,
+      "y": 1105,
+      "width": 168,
+      "height": 38,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "source-raster-22",
+      "asset": "igen-source-raster-22.png",
+      "x": 425,
+      "y": 979,
+      "width": 165,
+      "height": 127,
+      "canvas_area_fraction": 0.012
+    },
+    {
+      "id": "source-raster-23",
+      "asset": "igen-source-raster-23.png",
+      "x": 594,
+      "y": 1105,
+      "width": 168,
+      "height": 38,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "source-raster-24",
+      "asset": "igen-source-raster-24.png",
+      "x": 596,
+      "y": 979,
+      "width": 164,
+      "height": 127,
+      "canvas_area_fraction": 0.012
+    },
+    {
+      "id": "source-raster-25",
+      "asset": "igen-source-raster-25.png",
+      "x": 764,
+      "y": 1104,
+      "width": 168,
+      "height": 37,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "source-raster-26",
+      "asset": "igen-source-raster-26.png",
+      "x": 765,
+      "y": 978,
+      "width": 165,
+      "height": 127,
+      "canvas_area_fraction": 0.012
+    },
+    {
+      "id": "source-raster-27",
+      "asset": "igen-source-raster-27.png",
+      "x": 935,
+      "y": 1103,
+      "width": 168,
+      "height": 37,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "source-raster-28",
+      "asset": "igen-source-raster-28.png",
+      "x": 936,
+      "y": 977,
+      "width": 165,
+      "height": 127,
+      "canvas_area_fraction": 0.012
+    },
+    {
+      "id": "source-raster-29",
+      "asset": "igen-source-raster-29.png",
+      "x": 1107,
+      "y": 1102,
+      "width": 168,
+      "height": 38,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "source-raster-30",
+      "asset": "igen-source-raster-30.png",
+      "x": 1108,
+      "y": 976,
+      "width": 165,
+      "height": 128,
+      "canvas_area_fraction": 0.012
+    },
+    {
+      "id": "source-raster-31",
+      "asset": "igen-source-raster-31.png",
+      "x": 1278,
+      "y": 1103,
+      "width": 167,
+      "height": 38,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "source-raster-32",
+      "asset": "igen-source-raster-32.png",
+      "x": 1279,
+      "y": 978,
+      "width": 165,
+      "height": 127,
+      "canvas_area_fraction": 0.012
+    },
+    {
+      "id": "pdf-raster-0",
+      "asset": "igen-figure-2-raster-0.png",
+      "x": 1269.0,
+      "y": 51.0,
+      "width": 127.5,
+      "height": 30.0,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "pdf-raster-1",
+      "asset": "igen-figure-2-raster-1.png",
+      "x": 1269.0,
+      "y": 87.0,
+      "width": 127.5,
+      "height": 30.0,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "pdf-raster-2",
+      "asset": "igen-figure-2-raster-2.png",
+      "x": 1269.0,
+      "y": 123.0,
+      "width": 127.5,
+      "height": 31.5,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "pdf-raster-3",
+      "asset": "igen-figure-2-raster-3.png",
+      "x": 1269.0,
+      "y": 162.0,
+      "width": 127.5,
+      "height": 31.5,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "pdf-raster-4",
+      "asset": "igen-figure-2-raster-4.png",
+      "x": 1269.0,
+      "y": 201.0,
+      "width": 127.5,
+      "height": 31.5,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "pdf-raster-5",
+      "asset": "igen-figure-2-raster-5.png",
+      "x": 1269.0,
+      "y": 240.0,
+      "width": 127.5,
+      "height": 31.5,
+      "canvas_area_fraction": 0.002
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

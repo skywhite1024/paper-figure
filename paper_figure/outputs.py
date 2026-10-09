@@ -88,6 +88,13 @@ def read_paper(folder, repository):
             require(qa['source_pdf_sha256'] == paper['sha256'], 'QA report binds another source PDF')
         for entry in qa.get('checked_files', []):
             require(sha256(local_file(folder, entry['name'])) == entry['sha256'], 'QA report binds older exported bytes')
+    geometry_path = folder / 'OOXML_GEOMETRY_QA.json'
+    if geometry_path.is_file():
+        geometry = json_file(geometry_path)
+        if geometry.get('status') == 'passed':
+            require(geometry.get('scene_sha256') == manifest['source_sha256'] and
+                    geometry.get('pptx_sha256') == sha256(folder / (stem + '.pptx')),
+                    'OOXML geometry QA binds older scene or PPTX bytes')
     original = local_file(folder, folder.name + '-original.png')
     require(paper['editable_pptx'] == stem + '.pptx' and
             paper['editable_drawio'] == stem + '.drawio', 'Stale editable-file reference')
@@ -98,6 +105,42 @@ STYLE = '''body{font:16px system-ui;background:#f4f6f8;color:#16212b;margin:24px
 main{max-width:1600px;margin:auto}section{background:white;padding:18px;border-radius:10px}
 img{max-width:100%;height:auto;border:1px solid #ddd}.pair{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 a{color:#17629e}small{color:#56636e}@media(max-width:900px){.pair{grid-template-columns:1fr}}'''
+
+
+def qa_tier_summary(records, output):
+    """Show only explicitly recorded, current-byte QA tiers; tests are separate."""
+    path = output / 'QA_SUMMARY.json'
+    if not path.exists():
+        return [], ''
+    summary = json_file(path)
+    papers = summary.get('papers', {})
+    current = set(papers) == {folder.name for folder, *_ in records}
+    if current:
+        for folder, paper, scene, manifest, original in records:
+            entry = papers[folder.name]
+            binding = entry.get('hash_binding', {})
+            expected_exports = {scene['id'] + '.' + suffix: sha256(folder / (scene['id'] + '.' + suffix)) for suffix in ['pptx', 'drawio', 'png']}
+            if (entry.get('scene_sha256') != manifest['source_sha256'] or
+                    entry.get('pptx_sha256') != sha256(folder / paper['editable_pptx']) or
+                    binding.get('source_scene_sha256') != manifest['source_sha256'] or
+                    binding.get('source_pdf_sha256') != paper['sha256'] or
+                    binding.get('exports') != expected_exports):
+                current = False
+                break
+    if not current:
+        message = '检查汇总待更新：部分文件已重新生成，请查看各篇当前验证记录。'
+        return ['', '## 检查层级', '', message, ''], '<h2>检查层级</h2><p>'+message+'</p>'
+    labels = [('source_preview_native', '原图/重建预览及原生结构核查'),
+              ('libreoffice_render', 'PPTX 实际 LibreOffice 打开与渲染'),
+              ('drawio_app_render', 'draw.io 实际应用渲染')]
+    lines = []
+    for key, label in labels:
+        states = [entry.get(key, 'unknown') for entry in papers.values()]
+        passed = states.count('passed'); pending = states.count('pending'); unknown = len(states)-passed-pending
+        lines.append(f'{label}：已通过 {passed}，待完成 {pending}，未记载 {unknown}')
+    note = '源图/预览和对象坐标、文字、曲线结构检查，不等于实际目标软件渲染。单元测试数量也不代表编辑器验证数量。'
+    return (['', '## 检查层级', ''] + ['- '+line for line in lines] + ['', note, '', '[逐篇检查层级与证据](QA_SUMMARY.json)', ''],
+            '<h2>检查层级</h2><ul>'+''.join('<li>'+html.escape(line)+'</li>' for line in lines)+'</ul><p>'+note+'</p><p><a href="QA_SUMMARY.json">逐篇检查层级与证据</a></p>')
 
 
 def refresh_output(repository, output=None):
@@ -143,6 +186,8 @@ def refresh_output(repository, output=None):
                 '自由路径可编辑，但不会自动吸附到语义节点。独立栅格照片/图标的内部像素不是可编辑对象。',
                 '这是用户要求的私有仓库对照副本，不代表取得公开再发布许可。', '',
                 f'原文 SHA256：`{paper["sha256"]}`', '', '[返回论文索引](../README.md)', '']
+        if (folder / 'OOXML_GEOMETRY_QA.json').is_file():
+            text.insert(14, '- [PPTX 对象与源场景几何一致性检查](OOXML_GEOMETRY_QA.json)（不代替编辑器渲染检查）')
         (folder / 'README.md').write_text('\n'.join(text), encoding='utf-8')
         page_html = f'''<!doctype html><html lang="zh"><meta charset="utf-8">
 <title>{html.escape(title)} · 原图对照</title><style>{STYLE}</style><main>
@@ -157,6 +202,8 @@ def refresh_output(repository, output=None):
         (folder / 'comparison.html').write_text(page_html, encoding='utf-8')
         tracked = [stem + suffix for suffix in ['.pptx', '.drawio', '.png', '.manifest.json']]
         tracked += [original.name, paper['file'], 'sources.json', 'README.md', 'comparison.html', 'VALIDATION.json']
+        if (folder / 'OOXML_GEOMETRY_QA.json').is_file():
+            tracked.append('OOXML_GEOMETRY_QA.json')
         inventory = {'paper_id': paper['id'], 'diagram_id': stem,
                      'source_sha256': manifest['source_sha256'],
                      'files': [{'name': name, 'bytes': local_file(folder, name).stat().st_size,
@@ -164,11 +211,15 @@ def refresh_output(repository, output=None):
         (folder / 'bundle.manifest.json').write_text(json.dumps(inventory, indent=2, ensure_ascii=False) + '\n')
         links.append((folder.name, title, figure, page))
     index = ['# 论文结果索引', '', '每篇论文单独一个文件夹，包含 PPTX、draw.io、预览、论文原图、原文 PDF、离线对照及来源/校验记录。', '']
+    qa_lines, qa_html = qa_tier_summary(records, output)
+    index += qa_lines
     index.extend(f'- [{title}]({slug}/README.md)：{figure}，PDF 第 {page} 页 · [离线对照]({slug}/comparison.html)'
                  for slug, title, figure, page in links)
     if dispositions:
         index += ['', '## 已核查原文但未发现适合转换的方法结构图', '', '这些仅归档原文与逐页核查说明，不计入可编辑图交付数。']
-        index.extend(f'- [{title}]({slug}/README.md)' for slug, title in dispositions)
+    index.extend(f'- [{title}]({slug}/README.md)' for slug, title in dispositions)
+    if (output / 'AWAITING_SOURCES.md').exists():
+        index += ['', '## 等待补充原文', '', '[等待可访问原文 PDF 的条目，不计入图形交付](AWAITING_SOURCES.md)']
     if (output / 'PROCESSING.json').exists():
         index += ['', '[逐篇处理进度（已交付与待审查分开计数）](PROCESSING.json)']
     index += ['', '[验证汇总](VALIDATION.json) · [本地 HTML 索引](comparison.html)', '',
@@ -176,9 +227,9 @@ def refresh_output(repository, output=None):
               '保留来源版权与许可证说明；私有仓库上传不代表公开再发布许可。', '']
     (output / 'README.md').write_text('\n'.join(index), encoding='utf-8')
     (output / 'comparison.html').write_text(
-        f'<!doctype html><html lang="zh"><meta charset="utf-8"><title>论文结果索引</title><style>{STYLE}</style><main><h1>论文结果索引</h1><ul>' +
+        f'<!doctype html><html lang="zh"><meta charset="utf-8"><title>论文结果索引</title><style>{STYLE}</style><main><h1>论文结果索引</h1>' + qa_html + '<ul>' +
         ''.join(f'<li><a href="{slug}/comparison.html">{html.escape(title)}</a> · {html.escape(figure)}，PDF 第 {page} 页 · <a href="{slug}/README.md">文件与来源</a></li>'
-                for slug, title, figure, page in links) + '</ul>' + ('<h2>未发现适合的方法结构图（仅原文与核查记录）</h2><ul>' + ''.join(f'<li><a href="{slug}/README.md">{html.escape(title)}</a></li>' for slug,title in dispositions) + '</ul>' if dispositions else '') + '<p>每篇论文的原文 PDF 与可编辑结果保存在同一文件夹。</p></main></html>', encoding='utf-8')
+                for slug, title, figure, page in links) + '</ul>' + ('<h2>未发现适合的方法结构图（仅原文与核查记录）</h2><ul>' + ''.join(f'<li><a href="{slug}/README.md">{html.escape(title)}</a></li>' for slug,title in dispositions) + '</ul>' if dispositions else '') + ('<p><a href="AWAITING_SOURCES.md">等待补充原文 PDF 的论文</a></p>' if (output / 'AWAITING_SOURCES.md').exists() else '') + '<p>每篇论文的原文 PDF 与可编辑结果保存在同一文件夹。</p></main></html>', encoding='utf-8')
     return {'papers': [slug for slug, *_ in links], 'artifacts_modified': False}
 
 
@@ -236,6 +287,9 @@ def publish_build(repository, build, output=None, papers=None):
                           'previous_source_sha256': previous['source_sha256']}
             staged_folder = stage / folder.relative_to(output)
             (staged_folder / 'VALIDATION.json').write_text(json.dumps(validation, indent=2, ensure_ascii=False) + '\n')
+            geometry_path = staged_folder / 'OOXML_GEOMETRY_QA.json'
+            if geometry_path.exists():
+                geometry_path.write_text(json.dumps({'status': 'pending after regeneration', 'note': 'Prior geometry check does not certify these regenerated bytes.'}) + '\n')
         result = refresh_output(repository, stage)
         for source in stage.rglob('*'):
             if source.is_file():
@@ -260,7 +314,7 @@ def add_papers(repository, candidates, output=None):
     require(candidates and len({c.name for c in candidates}) == len(candidates), 'Empty or duplicate paper batch')
     for candidate in candidates:
         require(bool(re.fullmatch(r'[a-z0-9_-]+', candidate.name)), 'Unsafe paper slug')
-        require(not (output / candidate.name).exists(), 'Paper output already exists')
+        require(not os.path.lexists(output / candidate.name), 'Paper output already exists')
         require(candidate.is_dir() and not any(p.is_symlink() for p in candidate.rglob('*')), 'Unsafe candidate directory')
     with tempfile.TemporaryDirectory(dir=output.parent, prefix='.output-stage-') as temporary:
         stage = Path(temporary)
@@ -268,11 +322,44 @@ def add_papers(repository, candidates, output=None):
         for candidate in candidates:
             shutil.copytree(candidate, stage / candidate.name)
         refresh_output(repository, stage)
-        # Each validated directory moves atomically on the same filesystem.
-        for candidate in candidates:
-            os.replace(stage / candidate.name, output / candidate.name)
-        for name in ['README.md', 'comparison.html']:
-            os.replace(stage / name, output / name)
+        # Keep the original indexes until the whole commit has succeeded. Each
+        # move is atomic, and an exception rolls back every completed move so
+        # callers can safely retry the entire batch.
+        backup = stage / '.publication-backups'
+        backup.mkdir()
+        index_names = ['README.md', 'comparison.html']
+        original_indexes = set()
+        for name in index_names:
+            if os.path.lexists(output / name):
+                shutil.copy2(output / name, backup / name, follow_symlinks=False)
+                original_indexes.add(name)
+        published, replaced_indexes = [], []
+        try:
+            for candidate in candidates:
+                require(not os.path.lexists(output / candidate.name), 'Paper output appeared during publication')
+                os.replace(stage / candidate.name, output / candidate.name)
+                published.append(candidate.name)
+            for name in index_names:
+                os.replace(stage / name, output / name)
+                replaced_indexes.append(name)
+        except BaseException as error:
+            rollback_errors = []
+            for name in reversed(replaced_indexes):
+                try:
+                    if name in original_indexes:
+                        os.replace(backup / name, output / name)
+                    else:
+                        (output / name).unlink()
+                except OSError as rollback_error:
+                    rollback_errors.append(str(rollback_error))
+            for name in reversed(published):
+                try:
+                    os.replace(output / name, stage / name)
+                except OSError as rollback_error:
+                    rollback_errors.append(str(rollback_error))
+            if rollback_errors:
+                raise ValidationError('Publication failed and rollback is incomplete: ' + '; '.join(rollback_errors)) from error
+            raise
     return [{'paper': c.name, 'path': str(output / c.name)} for c in candidates]
 
 

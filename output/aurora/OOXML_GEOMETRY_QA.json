@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/aurora",
+  "diagram_id": "aurora-figure-1",
+  "scene_sha256": "428cacce1b0d9220a2b82e9839c7aee11c45a528b7814eb6e07c12056090da4a",
+  "pptx_sha256": "ee80dda58f42a73200190f60cb1da162f87f8dbf53d08bf327946df2028180d9",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 219,
+    "named_shapes_checked": 219,
+    "text_labels_checked": 12,
+    "paths_checked": 205,
+    "curve_commands_checked": 729,
+    "images_checked": 2
+  },
+  "maximum_object_position_delta_scene_pixels": 5.249e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.658e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

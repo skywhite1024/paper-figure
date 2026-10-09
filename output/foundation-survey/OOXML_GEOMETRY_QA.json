@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/foundation-survey",
+  "diagram_id": "foundation-survey-figure-2",
+  "scene_sha256": "d2db0bd2c54462209c9f712d93339d0ef8bdac676517fa4b32c6ed9b9051497f",
+  "pptx_sha256": "e8063441b25e67229ab27f8bd61440eb6d86ee575291e28b44eae2583e0bd8ad",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 219,
+    "named_shapes_checked": 219,
+    "text_labels_checked": 83,
+    "paths_checked": 134,
+    "curve_commands_checked": 24,
+    "images_checked": 2
+  },
+  "maximum_object_position_delta_scene_pixels": 5.246e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.638e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

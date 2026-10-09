@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "robolab-a-high-fidelity-simulation-benchmark-for-analysis-of-task-generalist-policies",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.493067Z",
-  "updated_at": "2026-10-09T20:49:29.454805Z",
+  "updated_at": "2026-10-09T21:58:06.309711Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/robolab/README.md",
+          "output/robolab/VALIDATION.json"
+        ],
+        "output_directory": "output/robolab",
+        "source_sha256": "49da5e317e36c4320eb3896cfca4ea1600908f8ed591a1e643ff65c405fba73e",
+        "scene_sha256": "ba8224e9924ae5ee19c0de6316e3ba4c1475280166337e1a5c6a719daca4e6dd",
+        "text_editability": {
+          "typeable_text_objects": 42,
+          "native_freeform_paths": 10,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:58:06.309711Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "0c9ab23321f502ad3ea6605f9564ac3be645b79bda9b8c7c4173c7c3f0b726db",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/robolab/README.md",
+                "output/robolab/VALIDATION.json"
+              ],
+              "output_directory": "output/robolab",
+              "source_sha256": "49da5e317e36c4320eb3896cfca4ea1600908f8ed591a1e643ff65c405fba73e",
+              "scene_sha256": "ba8224e9924ae5ee19c0de6316e3ba4c1475280166337e1a5c6a719daca4e6dd",
+              "text_editability": {
+                "typeable_text_objects": 42,
+                "native_freeform_paths": 10,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

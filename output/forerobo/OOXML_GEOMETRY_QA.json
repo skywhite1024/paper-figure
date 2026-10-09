@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/forerobo",
+  "diagram_id": "forerobo-figure-1",
+  "scene_sha256": "6efcfb1bcfd2f7b9c0f6a3a1d52fb9a7c90446aeee151fec4026e337d8a20a87",
+  "pptx_sha256": "0d1ef605a1280a62148ac0921147fea7d8c6337fb4068385ecf1c39e67de815b",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 157,
+    "named_shapes_checked": 157,
+    "text_labels_checked": 67,
+    "paths_checked": 74,
+    "curve_commands_checked": 176,
+    "images_checked": 16
+  },
+  "maximum_object_position_delta_scene_pixels": 5.227e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.669e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

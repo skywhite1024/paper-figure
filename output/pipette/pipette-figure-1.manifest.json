@@ -1,0 +1,555 @@
+{
+  "schema_version": 1,
+  "diagram_id": "pipette-figure-1",
+  "source_sha256": "1df949a1707c1d4eb05af6b07a7f1edd8bb0dd984f1015994d838829a78f3658",
+  "assets": [
+    {
+      "name": "camera-position.png",
+      "sha256": "7e64a2403faba0f968c500a0bf5e0e524536b192dd8579c8a600ef543e26ad5f"
+    },
+    {
+      "name": "camera-view.png",
+      "sha256": "98899c31914c5885ea3aaf6955f595b8cdbadb58964924adcf1d67a936e0de9a"
+    },
+    {
+      "name": "constructed-scene.png",
+      "sha256": "661ea8f3a269b29130ce6207a581f1fd30be00d43ef4df8505effb9b83547e44"
+    },
+    {
+      "name": "environmental-control.png",
+      "sha256": "12935f006236c7bd1d43e7997b9ccdfc2aaeb4cf5abcb193e8822d9465039302"
+    },
+    {
+      "name": "experimental-scene.png",
+      "sha256": "6c4fdb7b120f2c7e5ffcf389752bf0471253052f78d829fd373cc482318dbd0c"
+    },
+    {
+      "name": "experimental-workstations.png",
+      "sha256": "382062e06d1773d597e29f1d30131d6c673461588255c795a9a74e4647a9cd6e"
+    },
+    {
+      "name": "identified-assets-bottom.png",
+      "sha256": "1023e59521c775b3143c6b4182e1102ebd4f2baed2147e6c576e277e36a732f1"
+    },
+    {
+      "name": "identified-assets-left.png",
+      "sha256": "3f035cea338e20e3a830d2805a5d0b3fc9fb47ce0f95842f43bab75606b8fb53"
+    },
+    {
+      "name": "identified-assets-right.png",
+      "sha256": "391dadb6f753f904ff5f23fc9cb2d31510df61b3bdc2f40a07ba11fb868b1097"
+    },
+    {
+      "name": "identified-assets-top.png",
+      "sha256": "4920f7ea8d1a9d468d7d593b9aa33b25f0c37579509c3199e0c69694718862cb"
+    },
+    {
+      "name": "inference-interface.png",
+      "sha256": "96826468992c28075fca4eb6c0379899bc071b1232e72f2685abdeb1addeaf93"
+    },
+    {
+      "name": "lerobot-data-thumbnail.png",
+      "sha256": "c4529e992bf9814e5136acef1673beb3587dedc459ae507756209491f47bc8b9"
+    },
+    {
+      "name": "lighting.png",
+      "sha256": "048bfabdb9f73b5b3a1d7409bbb4fa498e0ce95da640dff2b625cd18646072e9"
+    },
+    {
+      "name": "measurement.png",
+      "sha256": "c2758bb978460b679f7cb299e68c812e045b9adefc694826e7ab95b44df6c10a"
+    },
+    {
+      "name": "platform-agent-icon.png",
+      "sha256": "c56dd7881ead786628f6626637281d5f748e997a0285c75b7eaea89b94b0a5a7"
+    },
+    {
+      "name": "researcher-icon.png",
+      "sha256": "1b2f20d1955aa6c8f18c73093d6ada4d539b643f6e04797925e803ac7ec588d0"
+    },
+    {
+      "name": "speed.png",
+      "sha256": "ae15fe4237a1ca6cb3d613dec307ccce2625064bc1aaab35b26afb51bef764d4"
+    },
+    {
+      "name": "task-family-0-frame-0.png",
+      "sha256": "5a8189483f00de5e434a958a38af7ce1d1d35417364e8f247fa0325257dfbc47"
+    },
+    {
+      "name": "task-family-0-frame-1.png",
+      "sha256": "4232b11bc7954a79d560572aa81e889ae311dc08645e12917ec5482f05816697"
+    },
+    {
+      "name": "task-family-0-frame-2.png",
+      "sha256": "7db201947b375a7227f90129ca13000750e298ece93e84da480e0df42e0f4313"
+    },
+    {
+      "name": "task-family-0-frame-3.png",
+      "sha256": "26d76869b130189d781c4bf77ccfc0f4a5129b463b9b0963b5e00a4b0661aa40"
+    },
+    {
+      "name": "task-family-1-frame-0.png",
+      "sha256": "bc0cdbac059a5326aee079f89b0b6933da5cc922f5d5fbfdad848e5313e12784"
+    },
+    {
+      "name": "task-family-1-frame-1.png",
+      "sha256": "3ace3bbeeef3341c0222751309dfe20350a1c085d37b6f866d33be1fcd8ae048"
+    },
+    {
+      "name": "task-family-1-frame-2.png",
+      "sha256": "20df717a5e0c817462c24027d3d9133d05d9ced101a5e17139fa55cd7a270cc2"
+    },
+    {
+      "name": "task-family-1-frame-3.png",
+      "sha256": "001cb5655e4ae8ab38cb10ad90e4775afd1051b3d158292c14adc1abec2d9813"
+    },
+    {
+      "name": "task-family-2-frame-0.png",
+      "sha256": "0e946ce77f2fb496ad6e8dfd8c7b71f50ab77c514fdf130aeeb3a6eafbdd586b"
+    },
+    {
+      "name": "task-family-2-frame-1.png",
+      "sha256": "0662995ec33b6f689be3f898d0b9cdcf27ab38ed7f191c15530c5d3fa5f864c1"
+    },
+    {
+      "name": "task-family-2-frame-2.png",
+      "sha256": "98d26441b9e68985a4ee56621cfeb5ae462c42c7746748d81e01ae3b642270d4"
+    },
+    {
+      "name": "task-family-2-frame-3.png",
+      "sha256": "b1690ae03796a77463d7adb00a2dedf4856904b647041c978e7120d575878b88"
+    },
+    {
+      "name": "task-family-3-frame-0.png",
+      "sha256": "319dcb114fdb85f656152daadd00bfa2ffec46e3bd44cc4782f99a3204ca47cf"
+    },
+    {
+      "name": "task-family-3-frame-1.png",
+      "sha256": "59cba456a501e5f58a6b422ec5c0048c583728f3355e7e5507c7f9953c5880df"
+    },
+    {
+      "name": "task-family-3-frame-2.png",
+      "sha256": "8bb2a978a8f05e4b9193c0bcdcb9d9040225fbafc20814277c716eff8e89a521"
+    },
+    {
+      "name": "task-family-3-frame-3.png",
+      "sha256": "54fb3f22f5a7ccb7695b71199bb3c51af5a1869c41aa8da7f1e868cc9b56e69f"
+    },
+    {
+      "name": "teleoperation-icon.png",
+      "sha256": "b067d6edd9e6a26db8f162767466755ae77bfc8e736eb9d846a025190b629b3f"
+    },
+    {
+      "name": "trajectory.png",
+      "sha256": "dbc4092be097622c2bd90ff2765ffbb1d3439cfb10f82976b61845e5e75d2c57"
+    },
+    {
+      "name": "tubes-racks.png",
+      "sha256": "f15c11d024fddde5ce752f6cb339de480be5653f6d21a304009670c1cdc0fb62"
+    }
+  ],
+  "provenance": {
+    "paper_title": "An Embodied Simulation Platform, Benchmark, and Success-Verified Simulation Augmentation Framework for Wet-Lab Robotics (Pipette)",
+    "paper_url": "https://arxiv.org/pdf/2606.12936v3",
+    "figure": "Figure 1",
+    "page": 4,
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "notes": "Source-layout reconstruction of flattened Pipette framework. All ordinary titles, task proposal, data labels and pipeline stages are live text; panels, data cylinders, cubes and arrows are native. Original laboratory assets, robot scene views, interface screenshots and icons are isolated raster inserts. The screenshot UI and visual photo annotations remain raster. Font metrics and curved arrow coordinates are measured approximations.",
+    "status": "figure_recreation",
+    "source_sha256": "72ad55814d9958242cd534f45f540f9bcd86bcd2bfbf21beaa2278e6c2bb93a3",
+    "source_crop_pdf_points": [
+      108,
+      62,
+      501,
+      339
+    ],
+    "raster_details": [
+      {
+        "id": "researcher-icon",
+        "source_pixels": [
+          17,
+          44,
+          89,
+          130
+        ],
+        "detail": "Original researcher/avatar icon"
+      },
+      {
+        "id": "experimental-scene",
+        "source_pixels": [
+          273,
+          29,
+          440,
+          125
+        ],
+        "detail": "Original separate laboratory asset group photograph/rendering"
+      },
+      {
+        "id": "experimental-workstations",
+        "source_pixels": [
+          457,
+          24,
+          618,
+          127
+        ],
+        "detail": "Original separate laboratory asset group photograph/rendering"
+      },
+      {
+        "id": "environmental-control",
+        "source_pixels": [
+          637,
+          30,
+          807,
+          129
+        ],
+        "detail": "Original separate laboratory asset group photograph/rendering"
+      },
+      {
+        "id": "measurement",
+        "source_pixels": [
+          832,
+          22,
+          987,
+          128
+        ],
+        "detail": "Original separate laboratory asset group photograph/rendering"
+      },
+      {
+        "id": "tubes-racks",
+        "source_pixels": [
+          1000,
+          31,
+          1152,
+          116
+        ],
+        "detail": "Original separate laboratory asset group photograph/rendering"
+      },
+      {
+        "id": "platform-agent-icon",
+        "source_pixels": [
+          25,
+          195,
+          81,
+          243
+        ],
+        "detail": "Original platform-agent robot icon"
+      },
+      {
+        "id": "identified-assets-top",
+        "source_pixels": [
+          217,
+          252,
+          318,
+          302
+        ],
+        "detail": "Original identified laboratory asset illustration, cropped clear of the native label"
+      },
+      {
+        "id": "identified-assets-left",
+        "source_pixels": [
+          193,
+          292,
+          218,
+          330
+        ],
+        "detail": "Original identified laboratory asset illustration, cropped clear of the native label"
+      },
+      {
+        "id": "identified-assets-right",
+        "source_pixels": [
+          315,
+          289,
+          335,
+          350
+        ],
+        "detail": "Original identified laboratory asset illustration, cropped clear of the native label"
+      },
+      {
+        "id": "identified-assets-bottom",
+        "source_pixels": [
+          202,
+          333,
+          314,
+          382
+        ],
+        "detail": "Original identified laboratory asset illustration, cropped clear of the native label"
+      },
+      {
+        "id": "constructed-scene",
+        "source_pixels": [
+          357,
+          256,
+          500,
+          370
+        ],
+        "detail": "Original constructed laboratory scene"
+      },
+      {
+        "id": "lerobot-data-thumbnail",
+        "source_pixels": [
+          592,
+          347,
+          638,
+          381
+        ],
+        "detail": "Original robot trajectory sample thumbnail on the data cylinder"
+      },
+      {
+        "id": "inference-interface",
+        "source_pixels": [
+          887,
+          217,
+          1150,
+          371
+        ],
+        "detail": "Original inference interface screenshots; embedded UI text remains part of the screenshots"
+      },
+      {
+        "id": "teleoperation-icon",
+        "source_pixels": [
+          46,
+          437,
+          128,
+          489
+        ],
+        "detail": "Original teleoperation operator/computer illustration"
+      },
+      {
+        "id": "camera-view",
+        "source_pixels": [
+          42,
+          514,
+          133,
+          581
+        ],
+        "detail": "Original camera observation scene"
+      },
+      {
+        "id": "lighting",
+        "source_pixels": [
+          609,
+          466,
+          740,
+          565
+        ],
+        "detail": "Original separate robot simulation perturbation visualization"
+      },
+      {
+        "id": "speed",
+        "source_pixels": [
+          757,
+          465,
+          877,
+          565
+        ],
+        "detail": "Original separate robot simulation perturbation visualization"
+      },
+      {
+        "id": "camera-position",
+        "source_pixels": [
+          896,
+          466,
+          1021,
+          566
+        ],
+        "detail": "Original separate robot simulation perturbation visualization"
+      },
+      {
+        "id": "trajectory",
+        "source_pixels": [
+          1039,
+          465,
+          1147,
+          565
+        ],
+        "detail": "Original separate robot simulation perturbation visualization"
+      },
+      {
+        "id": "task-family-0-frame-0",
+        "source_pixels": [
+          10,
+          633,
+          130,
+          720
+        ],
+        "detail": "Original individual task-stage laboratory robot frame"
+      },
+      {
+        "id": "task-family-0-frame-1",
+        "source_pixels": [
+          144,
+          632,
+          264,
+          719
+        ],
+        "detail": "Original individual task-stage laboratory robot frame"
+      },
+      {
+        "id": "task-family-0-frame-2",
+        "source_pixels": [
+          10,
+          733,
+          130,
+          820
+        ],
+        "detail": "Original individual task-stage laboratory robot frame"
+      },
+      {
+        "id": "task-family-0-frame-3",
+        "source_pixels": [
+          144,
+          731,
+          264,
+          818
+        ],
+        "detail": "Original individual task-stage laboratory robot frame"
+      },
+      {
+        "id": "task-family-1-frame-0",
+        "source_pixels": [
+          313,
+          633,
+          433,
+          720
+        ],
+        "detail": "Original individual task-stage laboratory robot frame"
+      },
+      {
+        "id": "task-family-1-frame-1",
+        "source_pixels": [
+          446,
+          632,
+          566,
+          719
+        ],
+        "detail": "Original individual task-stage laboratory robot frame"
+      },
+      {
+        "id": "task-family-1-frame-2",
+        "source_pixels": [
+          313,
+          733,
+          433,
+          820
+        ],
+        "detail": "Original individual task-stage laboratory robot frame"
+      },
+      {
+        "id": "task-family-1-frame-3",
+        "source_pixels": [
+          446,
+          731,
+          566,
+          818
+        ],
+        "detail": "Original individual task-stage laboratory robot frame"
+      },
+      {
+        "id": "task-family-2-frame-0",
+        "source_pixels": [
+          617,
+          633,
+          737,
+          720
+        ],
+        "detail": "Original individual task-stage laboratory robot frame"
+      },
+      {
+        "id": "task-family-2-frame-1",
+        "source_pixels": [
+          751,
+          632,
+          871,
+          719
+        ],
+        "detail": "Original individual task-stage laboratory robot frame"
+      },
+      {
+        "id": "task-family-2-frame-2",
+        "source_pixels": [
+          617,
+          733,
+          737,
+          820
+        ],
+        "detail": "Original individual task-stage laboratory robot frame"
+      },
+      {
+        "id": "task-family-2-frame-3",
+        "source_pixels": [
+          751,
+          731,
+          871,
+          818
+        ],
+        "detail": "Original individual task-stage laboratory robot frame"
+      },
+      {
+        "id": "task-family-3-frame-0",
+        "source_pixels": [
+          914,
+          633,
+          1034,
+          720
+        ],
+        "detail": "Original individual task-stage laboratory robot frame"
+      },
+      {
+        "id": "task-family-3-frame-1",
+        "source_pixels": [
+          1047,
+          632,
+          1167,
+          719
+        ],
+        "detail": "Original individual task-stage laboratory robot frame"
+      },
+      {
+        "id": "task-family-3-frame-2",
+        "source_pixels": [
+          914,
+          733,
+          1034,
+          820
+        ],
+        "detail": "Original individual task-stage laboratory robot frame"
+      },
+      {
+        "id": "task-family-3-frame-3",
+        "source_pixels": [
+          1047,
+          731,
+          1167,
+          818
+        ],
+        "detail": "Original individual task-stage laboratory robot frame"
+      }
+    ]
+  },
+  "metrics": {
+    "native_nodes": 141,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 85,
+    "native_text_objects": 36,
+    "raster_images": 36,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "pipette-figure-1.drawio",
+      "sha256": "15d27deb362070b871e6ce09a259782c27fb18c97949792108f6b3e3f3016faa"
+    },
+    {
+      "name": "pipette-figure-1.png",
+      "sha256": "7253aba231137e0df817bb2c74f3c2480b04640bf38caa5d2207aeda14c4f398"
+    },
+    {
+      "name": "pipette-figure-1.pptx",
+      "sha256": "d7a0319ffe9e86b61b083a18a3c95f86d8a92da6eecd576a419fd1d578e32435"
+    }
+  ]
+}

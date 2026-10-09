@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "robogene-boosting-vla-pre-training-via-diversity-driven-agentic-framework-for-real-world-task-generation",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.495773Z",
-  "updated_at": "2026-10-09T20:49:29.436234Z",
+  "updated_at": "2026-10-09T21:58:06.233537Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/robogene/README.md",
+          "output/robogene/VALIDATION.json"
+        ],
+        "output_directory": "output/robogene",
+        "source_sha256": "c65de2109ed099e23bfef6f7d7fab0c622371c041d7cf7e852c4f819cc51c151",
+        "scene_sha256": "e0bd40ccbbebdfc845129c00e88586b0a8a988c9e8cbd598e14041df7cc6b245",
+        "text_editability": {
+          "typeable_text_objects": 87,
+          "native_freeform_paths": 63,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:58:06.233537Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "40f287b9069f7e944bdb8363793cdcb1728690b8ea4936e25680196bcbaf3de6",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/robogene/README.md",
+                "output/robogene/VALIDATION.json"
+              ],
+              "output_directory": "output/robogene",
+              "source_sha256": "c65de2109ed099e23bfef6f7d7fab0c622371c041d7cf7e852c4f819cc51c151",
+              "scene_sha256": "e0bd40ccbbebdfc845129c00e88586b0a8a988c9e8cbd598e14041df7cc6b245",
+              "text_editability": {
+                "typeable_text_objects": 87,
+                "native_freeform_paths": 63,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

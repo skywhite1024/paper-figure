@@ -53,6 +53,41 @@ s['nodes'].insert(0,header)
 for j,(label,x,w) in enumerate([('1. Task-Aware Demonstration Decomposition',99,405),('2. VLM-based Adaptation',630,226),('3. Trajectory Composition',922,227)]):
  s['nodes'].append({'id':f'stage-title-{j}','shape':'text','label':label,'x':x,'y':8,'width':w,'height':33,'font_size':23,'font_family':'Nimbus Sans Narrow','bold':True,'text_color':'#4B4B4B','align':'left','text_inset':0,'no_wrap':True})
 
+
+# Some original object masks are unsupported by SVG rasterization. Recombine
+# the original PDF image and its own alpha mask without screenshotting labels.
+blocks=[b for b in page.get_text('dict')['blocks'] if b['type']==1]
+for idx in [25,26,29,30]:
+ s['nodes']=[n for n in s['nodes'] if n['id']==f'source-raster-{idx}' and False or n['id']!=f'source-raster-{idx}']
+ b=blocks[idx];pix=fitz.Pixmap(b['image'])
+ if b.get('mask'):
+  if pix.alpha:pix=fitz.Pixmap(pix,0)
+  pix=fitz.Pixmap(pix,fitz.Pixmap(b['mask']))
+ name=f'{SLUG}-alpha-photo-{idx}.png';pix.save(D/name);box=fitz.Rect(b['bbox'])
+ n={'id':f'alpha-photo-{idx}','shape':'image','label':'','asset':name,'alt':'Original isolated masked bottle/cup photo; original PDF image and its own alpha recombined','x':(box.x0-crop.x0)*sc,'y':(box.y0-crop.y0)*sc,'width':box.width*sc,'height':box.height*sc}
+ # Above the panel's base photo, below the text and overlay arrow annotations.
+ s['nodes'].insert(next((j for j,v in enumerate(s['nodes']) if v.get('source_seqno',100000)>image_logs[idx][0]),len(s['nodes'])),n)
+# Width-fit ordinary labels using the actual broadly available native face.
+for n in s['nodes']:
+ if n['shape']=='text':
+  n['font_family']='Arial';font='hebo' if n.get('bold') else 'helv';length=fitz.get_text_length(n['label'],fontname=font,fontsize=n['font_size'])
+  if length>n['width']*.94:n['font_size']*=n['width']*.94/length
+# Explicit complete phrases keep colored terms separated even when a text
+# renderer trims a leading/trailing space in a separate source font span.
+seqgroups=[[28,29,30],[33],[35,36,38,39],[94,95,96,97],[98,99,100],[166,167,168],[169,170,171],[203,204,205],[207,208,209,210,211],[212,213]]
+newlines=[('Binocular Observation (showing left RGB)',113.91,248.3,90.53,6.3,'#FFFFFF'),('Pour water from',164.51,199.72,38.56,6.41,'#000000'),('bottle into cup.',166.1,207.37,34.3,6.41,'#000000'),('※ For new instances / geometries',311.45,150.0,88,7.4,'#000000'),('※ For changed spatial location',315.39,102,80,7.1,'#000000'),('※ For changed spatial location',417.04,114.6,74,7,'#000000'),('※ For new instances / geometries',413.59,156.1,81,7,'#000000'),('Just adjust grasp actions of two arms!',411.6,143.91,84,6.12,'#000000'),('First adjust grasp / place actions, then',411.32,185.26,86,6.12,'#000000'),('align dual-arm coordination to pour.',414.11,192.56,79,6.12,'#000000')]
+remove={q for group in seqgroups for q in group};s['nodes']=[n for n in s['nodes'] if n.get('source_seqno') not in remove or n['shape']!='text']
+for li,(label,x,y,w,h,color) in enumerate(newlines):
+ fs=min(h*sc,w*sc*.94/fitz.get_text_length(label,fontname='helv',fontsize=1))
+ if li in [2,7,8,9]:
+  import re
+  words=label.split(' ');offset=0;lengths=[fitz.get_text_length(t,fontname='helv',fontsize=fs) for t in words];gap=(w*sc*.97-sum(lengths))/max(1,len(words)-1)
+  for wi,(word,leng) in enumerate(zip(words,lengths)):
+   col='#008000' if word in ('grasp','place','align') else color
+   s['nodes'].append({'id':f'phrase-{li}-{wi}','shape':'text','label':word,'x':(x-crop.x0)*sc+offset,'y':(y-crop.y0)*sc,'width':leng+1,'height':h*sc,'font_size':fs,'font_family':'Arial','text_color':col,'align':'left','text_inset':0,'no_wrap':True});offset+=leng+gap
+ else:s['nodes'].append({'id':f'phrase-{li}','shape':'text','label':label,'x':(x-crop.x0)*sc,'y':(y-crop.y0)*sc,'width':w*sc,'height':h*sc,'font_size':fs,'font_family':'Arial','text_color':color,'align':'left','text_inset':0,'no_wrap':True})
+s['provenance']['notes']+=' Source Arial Narrow is approximated with source-width-fitted native Arial to avoid application font substitution overflow; all text remains live.'
+
 s['provenance']['notes']+=' Original raster assets isolated with their exact original alpha, clipping and affine transforms; no full-figure raster backdrop.'
 s['provenance']['original_extraction_warnings']=s['provenance'].get('extraction_warnings',[])
 s['provenance']['extraction_warnings']=[w for w in s['provenance'].get('extraction_warnings',[]) if not w.startswith('unhandled image/shading')]

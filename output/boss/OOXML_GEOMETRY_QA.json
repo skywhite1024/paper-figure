@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/boss",
+  "diagram_id": "boss-figure-1",
+  "scene_sha256": "b40e9095b80d8ce1e4edb7fa8b4b5cd1fcc77fdd5c813a0752c7089ca3dbfe77",
+  "pptx_sha256": "9ff31b9369489b9c1e0708381e3e884245b3b8595a1fb62702c309d08d4bc803",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 241,
+    "named_shapes_checked": 241,
+    "text_labels_checked": 39,
+    "paths_checked": 182,
+    "curve_commands_checked": 1158,
+    "images_checked": 19
+  },
+  "maximum_object_position_delta_scene_pixels": 5.221e-05,
+  "maximum_path_control_point_delta_scene_pixels": 0.00010063,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

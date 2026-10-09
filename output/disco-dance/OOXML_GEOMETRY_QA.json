@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/disco-dance",
+  "diagram_id": "disco-dance-figure-3",
+  "scene_sha256": "6f8a6b98c87853f242e1a6bdf401013dea4b553fce547d68a572d05662341200",
+  "pptx_sha256": "437591f03eaf3216de841e7999adde58c5587777060a7a498beecfe223dd0292",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 56,
+    "named_shapes_checked": 56,
+    "text_labels_checked": 18,
+    "paths_checked": 31,
+    "curve_commands_checked": 4,
+    "images_checked": 7
+  },
+  "maximum_object_position_delta_scene_pixels": 5.249e-05,
+  "maximum_path_control_point_delta_scene_pixels": 7.338e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

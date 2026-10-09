@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/sage",
+  "diagram_id": "sage-figure-2",
+  "scene_sha256": "95f34076b4674a7da9d7d77b0692426f5a72d4cba45bdb147e202e62e2799e65",
+  "pptx_sha256": "1c36e6b6c9c93d7f3c93a5830e671ee316e2c3662544bd2758203f4fb25aa974",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 175,
+    "named_shapes_checked": 175,
+    "text_labels_checked": 71,
+    "paths_checked": 85,
+    "curve_commands_checked": 204,
+    "images_checked": 19
+  },
+  "maximum_object_position_delta_scene_pixels": 5.249e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.854e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

@@ -1,0 +1,320 @@
+{
+  "diagram_id": "affordsim-figure-2",
+  "source_scene_sha256": "bc292d73eada169b5889e06e19f8171968be81200e4c2596c03e2b9cf0756990",
+  "source_pdf_sha256": "8811e0ccda74dae8722860f1a730c8d7f2bedf13841ef67796ca9bb02399f1de",
+  "checked_files": [
+    {
+      "name": "affordsim-figure-2.drawio",
+      "sha256": "409635250b02cc0d39f6ed21356904f287c77f25180acb755dae2b3933aa153a"
+    },
+    {
+      "name": "affordsim-figure-2.png",
+      "sha256": "5894e763ccbc1d4b54c1cf7aea2eb2625c84eca6f3d1af5aebe304fd3f22a0f8"
+    },
+    {
+      "name": "affordsim-figure-2.pptx",
+      "sha256": "d7d2d693a87386c8f7309488819ff31cf75f1d0c6bb79493dc5f5c6d2ff52e8b"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_scene_asset_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 72,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; source edition/hash pinned",
+    "source_page_figure": "Independent PDF crop compared with original PNG and delivered preview",
+    "source_preview_visual": "passed with disclosed image/font/math/dash limitations"
+  },
+  "native_xml_counts": {
+    "p:sp": 166,
+    "p:pic": 21,
+    "a:custGeom": 72,
+    "p:cxnSp": 0,
+    "a:t": 73
+  },
+  "source_title": "AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation",
+  "typeable_labels": [
+    "VLM-based Description to Scene Gen",
+    "Natural ",
+    "Language ",
+    "Input",
+    "VLM System",
+    "1. Semantic Parsing",
+    "   (Object:  Kettle)",
+    "   (Action:  ",
+    "Pick&Pour",
+    ")",
+    "(",
+    "Query",
+    ":G",
+    "raspable Handle",
+    ")",
+    "2. Asset Retrieval",
+    "3. ",
+    "Generated Scene with Scene Graph",
+    "Give me a ",
+    "desktop scene, ",
+    "including a bowl, ",
+    "a microwave, a ",
+    "kettle.",
+    "Pick up the ",
+    "Kettle by its ",
+    "handle and pour ",
+    "into the bowl.",
+    "Affordance Guided Grasp Pose Selection",
+    "Affordance Estimate",
+    "Query",
+    ": ",
+    "‘G",
+    "raspable Handle",
+    "’",
+    "Affordance-guided grasp selection",
+    "Grasp poses Results",
+    "Bowl",
+    "Microwave  ",
+    "Kettle  ",
+    "Mesh",
+    "Pick Affordance",
+    "open-vocabulary ",
+    "3D affordance ",
+    "predictor",
+    "...",
+    "Candidate ",
+    "Grasps",
+    "Stage 1: ",
+    "sampling grasps on the ",
+    "affordance peak",
+    "Stage 2: ",
+    "motion-planner scoring",
+    "Affordance ",
+    "Mask",
+    " K approach ",
+    "directions",
+    "Wrist yaw ",
+    "solving",
+    "Local surface ",
+    "normal ",
+    "estimation",
+    " Mean-shift ",
+    "clustering on ",
+    "masked points",
+    "CuRobo",
+    "scoring",
+    " Grasp",
+    "Pour",
+    "otherwise",
+    "collision-free",
+    "Collision ",
+    "！！",
+    "Selected grasp"
+  ],
+  "raster_nodes": [
+    {
+      "id": "source-raster-0",
+      "asset": "affordsim-source-raster-0.png",
+      "x": 289,
+      "y": 204,
+      "width": 123,
+      "height": 86,
+      "canvas_area_fraction": 0.029
+    },
+    {
+      "id": "source-raster-1",
+      "asset": "affordsim-source-raster-1.png",
+      "x": 19,
+      "y": 116,
+      "width": 28,
+      "height": 35,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "source-raster-2",
+      "asset": "affordsim-source-raster-2.png",
+      "x": 297,
+      "y": 110,
+      "width": 26,
+      "height": 17,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "source-raster-3",
+      "asset": "affordsim-source-raster-3.png",
+      "x": 336,
+      "y": 109,
+      "width": 28,
+      "height": 25,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-raster-4",
+      "asset": "affordsim-source-raster-4.png",
+      "x": 374,
+      "y": 109,
+      "width": 33,
+      "height": 22,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-raster-5",
+      "asset": "affordsim-source-raster-5.png",
+      "x": 1028,
+      "y": 187,
+      "width": 97,
+      "height": 24,
+      "canvas_area_fraction": 0.006
+    },
+    {
+      "id": "source-raster-7",
+      "asset": "affordsim-source-raster-7.png",
+      "x": 574,
+      "y": 168,
+      "width": 30,
+      "height": 29,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-raster-8",
+      "asset": "affordsim-source-raster-8.png",
+      "x": 140,
+      "y": 209,
+      "width": 130,
+      "height": 83,
+      "canvas_area_fraction": 0.029
+    },
+    {
+      "id": "source-raster-11",
+      "asset": "affordsim-source-raster-11.png",
+      "x": 806,
+      "y": 136,
+      "width": 19,
+      "height": 13,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "source-raster-12",
+      "asset": "affordsim-source-raster-12.png",
+      "x": 824,
+      "y": 173,
+      "width": 21,
+      "height": 35,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-raster-13",
+      "asset": "affordsim-source-raster-13.png",
+      "x": 805,
+      "y": 199,
+      "width": 24,
+      "height": 9,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "source-raster-14",
+      "asset": "affordsim-source-raster-14.png",
+      "x": 837,
+      "y": 225,
+      "width": 137,
+      "height": 70,
+      "canvas_area_fraction": 0.026
+    },
+    {
+      "id": "source-raster-15",
+      "asset": "affordsim-source-raster-15.png",
+      "x": 1001,
+      "y": 217,
+      "width": 154,
+      "height": 83,
+      "canvas_area_fraction": 0.035
+    },
+    {
+      "id": "source-raster-16",
+      "asset": "affordsim-source-raster-16.png",
+      "x": 1005,
+      "y": 238,
+      "width": 68,
+      "height": 54,
+      "canvas_area_fraction": 0.01
+    },
+    {
+      "id": "source-raster-17",
+      "asset": "affordsim-source-raster-17.png",
+      "x": 1079,
+      "y": 238,
+      "width": 71,
+      "height": 54,
+      "canvas_area_fraction": 0.01
+    },
+    {
+      "id": "source-raster-18",
+      "asset": "affordsim-source-raster-18.png",
+      "x": 997,
+      "y": 79,
+      "width": 158,
+      "height": 103,
+      "canvas_area_fraction": 0.044
+    },
+    {
+      "id": "source-raster-19",
+      "asset": "affordsim-source-raster-19.png",
+      "x": 844,
+      "y": 109,
+      "width": 124,
+      "height": 82,
+      "canvas_area_fraction": 0.028
+    },
+    {
+      "id": "source-raster-20",
+      "asset": "affordsim-source-raster-20.png",
+      "x": 472,
+      "y": 124,
+      "width": 91,
+      "height": 52,
+      "canvas_area_fraction": 0.013
+    },
+    {
+      "id": "source-raster-21",
+      "asset": "affordsim-source-raster-21.png",
+      "x": 471,
+      "y": 220,
+      "width": 91,
+      "height": 52,
+      "canvas_area_fraction": 0.013
+    },
+    {
+      "id": "source-raster-23",
+      "asset": "affordsim-source-raster-23.png",
+      "x": 732,
+      "y": 120,
+      "width": 66,
+      "height": 39,
+      "canvas_area_fraction": 0.007
+    },
+    {
+      "id": "pdf-raster-0",
+      "asset": "affordsim-figure-2-raster-0.png",
+      "x": 839.0999999999999,
+      "y": 183.29999999999998,
+      "width": 84.0,
+      "height": 53.400000000000034,
+      "canvas_area_fraction": 0.012
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

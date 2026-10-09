@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "gen2sim-scaling-up-robot-learning-in-simulation-with-generative-models",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.501776Z",
-  "updated_at": "2026-10-09T20:49:28.855419Z",
+  "updated_at": "2026-10-09T21:58:05.178900Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/gen2sim/README.md",
+          "output/gen2sim/VALIDATION.json"
+        ],
+        "output_directory": "output/gen2sim",
+        "source_sha256": "618007739203770439d49d86d099cec7428e7aeb7118b07198d255dfd766af38",
+        "scene_sha256": "48ad9a9000120ce133280450a0cb1ddfe63d2e9f1853652ba70da25bf4317115",
+        "text_editability": {
+          "typeable_text_objects": 37,
+          "native_freeform_paths": 10,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:58:05.178900Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "3010e9fc86bbb54cce6b3aa756fa86b2a3364e2c1aad2cae40e079baa31b0d4d",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/gen2sim/README.md",
+                "output/gen2sim/VALIDATION.json"
+              ],
+              "output_directory": "output/gen2sim",
+              "source_sha256": "618007739203770439d49d86d099cec7428e7aeb7118b07198d255dfd766af38",
+              "scene_sha256": "48ad9a9000120ce133280450a0cb1ddfe63d2e9f1853652ba70da25bf4317115",
+              "text_editability": {
+                "typeable_text_objects": 37,
+                "native_freeform_paths": 10,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

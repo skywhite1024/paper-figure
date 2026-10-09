@@ -115,7 +115,7 @@ line('reward-learning-tip',[(1225,384),(1225,398)],blue,1.6,True,size=8);line('p
 for row,y,xs in [(0,431,[930,988,1046,1103,1161,1219]),(1,483,[902,960,1018,1076,1134,1193,1250]),(2,535,[933,991,1048,1106,1163,1220])]:
  for j,x in enumerate(xs):image(f'skill-{row}-{j}',(x-24,y-24,x+24,y+24),'Original isolated circular skill-execution photo; its pixels and round crop remain raster')
 # Source labels remain inside their own configuration/method cards.
-fit_ids={'rl-label','gradient-label','primitives-label','asset-configuration-label','scene-configuration-label','stage-c-label'}
+fit_ids={'verification-label','generation-method','rl-label','gradient-label','primitives-label','asset-configuration-label','scene-configuration-label','stage-c-label'}
 font=fitz.Font(fontfile='/usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf')
 heading_font=fitz.Font(fontfile='/usr/share/fonts/truetype/liberation/LiberationSans-Italic.ttf')
 for n in s['nodes']:

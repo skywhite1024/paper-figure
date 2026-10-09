@@ -20,7 +20,7 @@ def main():
     if args.paper and not args.from_build:
         parser.error('--paper requires --from-build')
     try:
-        result = (add_papers(ROOT, args.add_paper, args.output) if args.add_paper else
+        result = ((add_paper(ROOT, args.add_paper[0], args.output) if len(args.add_paper) == 1 else add_papers(ROOT, args.add_paper, args.output)) if args.add_paper else
                   publish_build(ROOT, args.from_build, args.output, args.paper) if args.from_build else
                   refresh_output(ROOT, args.output))
         print(json.dumps(result, ensure_ascii=False, indent=2))

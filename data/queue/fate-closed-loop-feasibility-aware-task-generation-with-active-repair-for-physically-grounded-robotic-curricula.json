@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "fate-closed-loop-feasibility-aware-task-generation-with-active-repair-for-physically-grounded-robotic-curricula",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.493707Z",
-  "updated_at": "2026-10-09T20:49:28.810013Z",
+  "updated_at": "2026-10-09T21:58:05.041135Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/fate/README.md",
+          "output/fate/VALIDATION.json"
+        ],
+        "output_directory": "output/fate",
+        "source_sha256": "daedae07f7fbff82cb003d72d8c74e819ce774c10c6ecebcfb7e465176459188",
+        "scene_sha256": "e2f91b9a1246767199152bc38dbce4f0e70238788a92926708dbd742691d9fae",
+        "text_editability": {
+          "typeable_text_objects": 49,
+          "native_freeform_paths": 42,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:58:05.041135Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "2df2b9fc9619727201555fd696ec03d0b63bd1129bfc123b8eadcf89c153884b",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/fate/README.md",
+                "output/fate/VALIDATION.json"
+              ],
+              "output_directory": "output/fate",
+              "source_sha256": "daedae07f7fbff82cb003d72d8c74e819ce774c10c6ecebcfb7e465176459188",
+              "scene_sha256": "e2f91b9a1246767199152bc38dbce4f0e70238788a92926708dbd742691d9fae",
+              "text_editability": {
+                "typeable_text_objects": 49,
+                "native_freeform_paths": 42,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

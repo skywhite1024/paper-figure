@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "igen-scalable-data-generation-for-robot-learning-from-open-world-images",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.505233Z",
-  "updated_at": "2026-10-09T20:49:28.969139Z",
+  "updated_at": "2026-10-09T22:00:58.881301Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/igen/README.md",
+          "output/igen/VALIDATION.json"
+        ],
+        "output_directory": "output/igen",
+        "source_sha256": "4c88265824d3d90d2c37b8fcdd03ef2d452b3ed25ea822d514ee1f06ff18f71c",
+        "scene_sha256": "be54838e8c5c62566d3310448b111ce95dd25c86f55af853406f004f5e7f31e9",
+        "text_editability": {
+          "typeable_text_objects": 80,
+          "native_freeform_paths": 90,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T22:00:58.881301Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "8db2cec7b76ea4d422b82c2bcf8f23a07b8451cd94c701245dde379b88e615cd",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/igen/README.md",
+                "output/igen/VALIDATION.json"
+              ],
+              "output_directory": "output/igen",
+              "source_sha256": "4c88265824d3d90d2c37b8fcdd03ef2d452b3ed25ea822d514ee1f06ff18f71c",
+              "scene_sha256": "be54838e8c5c62566d3310448b111ce95dd25c86f55af853406f004f5e7f31e9",
+              "text_editability": {
+                "typeable_text_objects": 80,
+                "native_freeform_paths": 90,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/affordance-worlds",
+  "diagram_id": "affordance-worlds-figure-1",
+  "scene_sha256": "7601c9708cff1830afd28740d6cd857d4970e432086189b5972e0436b2383006",
+  "pptx_sha256": "3d5c461fc7ce78e74e7ff7d6461c15af1b3eb2b9b35f56ca201ec53ddfb28655",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 314,
+    "named_shapes_checked": 314,
+    "text_labels_checked": 107,
+    "paths_checked": 134,
+    "curve_commands_checked": 687,
+    "images_checked": 73
+  },
+  "maximum_object_position_delta_scene_pixels": 5.24e-05,
+  "maximum_path_control_point_delta_scene_pixels": 0.00011266,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

@@ -112,6 +112,13 @@ for n in s['nodes']:
   if length>n['width']:n['font_size']*=n['width']/length*.95
  if n.get('source_seqno') in labels:n['text_color']='#A6A6A6'
 
+
+# Keep the complete original native Python logo above the recreated code plate.
+logo=[n for n in s['nodes'] if n.get('source_seqno') in [289,290]];s['nodes']=[n for n in s['nodes'] if n not in logo]+logo
+for n in s['nodes']:
+ if n['id']=='pdf-text-120-0':n['label']='Pick up the milk from upper_region of the';n['font_size']*=.92
+ if n['id']=='pdf-text-120-1':n['label']='short_fridge'
+
 s['provenance']['notes']+=' Original raster assets isolated with their exact original alpha, clipping and affine transforms; no full-figure raster backdrop.'
 s['provenance']['original_extraction_warnings']=s['provenance'].get('extraction_warnings',[])
 s['provenance']['extraction_warnings']=[w for w in s['provenance'].get('extraction_warnings',[]) if not w.startswith('unhandled image/shading')]

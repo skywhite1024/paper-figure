@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/csd",
+  "diagram_id": "csd-figure-2",
+  "scene_sha256": "14ae350efe0b2662202988352bd4fa3cf127a2c46220b36952257b6fc092d1a2",
+  "pptx_sha256": "c34199d7bb0714e3da41240b4d750e9ec9e7d39bcf18e0bfda54c28c6827aade",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 208,
+    "named_shapes_checked": 208,
+    "text_labels_checked": 9,
+    "paths_checked": 199,
+    "curve_commands_checked": 3321,
+    "images_checked": 0
+  },
+  "maximum_object_position_delta_scene_pixels": 5.245e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.78e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

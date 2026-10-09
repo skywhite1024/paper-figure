@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/robogene",
+  "diagram_id": "robogene-figure-2",
+  "scene_sha256": "e0bd40ccbbebdfc845129c00e88586b0a8a988c9e8cbd598e14041df7cc6b245",
+  "pptx_sha256": "d6fd5f0ee1a6da06a236b5dacd04f701a9fced0cf5ecae2440f3970c7fc91f1e",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 192,
+    "named_shapes_checked": 192,
+    "text_labels_checked": 87,
+    "paths_checked": 63,
+    "curve_commands_checked": 302,
+    "images_checked": 42
+  },
+  "maximum_object_position_delta_scene_pixels": 5.249e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.475e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

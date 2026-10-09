@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "diagram_id": "fate-figure-2",
+  "source_sha256": "e2f91b9a1246767199152bc38dbce4f0e70238788a92926708dbd742691d9fae",
+  "assets": [],
+  "provenance": {
+    "paper_title": "FATE: Closed-Loop Feasibility-Aware Task Generation with Active Repair for Physically Grounded Robotic Curricula",
+    "paper_url": "https://arxiv.org/abs/2603.01505v1",
+    "figure": "Figure 2",
+    "page": 4,
+    "license": "unverified",
+    "status": "figure_recreation",
+    "source_sha256": "daedae07f7fbff82cb003d72d8c74e819ce774c10c6ecebcfb7e465176459188",
+    "source_crop_pdf_points": [
+      326,
+      65,
+      524,
+      194
+    ],
+    "notes": "Manually reconstructed after inspecting actual source pixels. Original source is a flattened raster. Layout, native panels, labels and connecting geometry are recreated; no whole-figure raster backdrop. Font metrics and curve/arrow geometry approximated. Small original mathematical/photo details retained only where explicitly noted. Independent target-application QA pending. Fully native conceptual method diagram: axes, alignment plane, feasible polytope, state transitions, action documents and labels. Original soft glows replaced with clean colored outlines; mathematical labels use native typeable runs with explicit baseline, subscript and superscript positions; font metrics approximate the source TeX."
+  },
+  "metrics": {
+    "native_nodes": 104,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 42,
+    "native_text_objects": 49,
+    "raster_images": 0,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "fate-figure-2.drawio",
+      "sha256": "6788073e65502f106cb2e2b1e6d4205f91608387b7d68fce28152099a1621a9f"
+    },
+    {
+      "name": "fate-figure-2.png",
+      "sha256": "f6b5ed0e1981b82d64c601d71a3c1eba0e5d5daf7951c031594cd83658a100a6"
+    },
+    {
+      "name": "fate-figure-2.pptx",
+      "sha256": "7c2750acf23ea7affa02a4a738eb9bf46d23e6bf95fb158206592bd2edf7ddd9"
+    }
+  ]
+}

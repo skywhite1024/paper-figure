@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/aps",
+  "diagram_id": "aps-figure-2",
+  "scene_sha256": "0a8d0cfe21b934b1d6ecbade6b6c66f5e116ff5eb60c1a1e13f514af4282c63d",
+  "pptx_sha256": "b8bb324e4a13a23dd1ad4ee157a62c0755410c3991bfb250014df2de1ba5d2f1",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 64,
+    "named_shapes_checked": 64,
+    "text_labels_checked": 16,
+    "paths_checked": 48,
+    "curve_commands_checked": 304,
+    "images_checked": 0
+  },
+  "maximum_object_position_delta_scene_pixels": 5.236e-05,
+  "maximum_path_control_point_delta_scene_pixels": 0.00010029,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

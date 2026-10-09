@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/becl",
+  "diagram_id": "becl-figure-3",
+  "scene_sha256": "b50f166ed8162a552deab65422db8c29ac6c5c2845ee564f20be2300462c7716",
+  "pptx_sha256": "386cb082cad7bf8319ceaff628ef807731fd576978cadbad009f23cf518c4fdb",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 175,
+    "named_shapes_checked": 175,
+    "text_labels_checked": 47,
+    "paths_checked": 66,
+    "curve_commands_checked": 298,
+    "images_checked": 62
+  },
+  "maximum_object_position_delta_scene_pixels": 5.249e-05,
+  "maximum_path_control_point_delta_scene_pixels": 8.566e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/lotus",
+  "diagram_id": "lotus-figure-2",
+  "scene_sha256": "5350b561ea46e86693f5e81478bd5c050db9717f7034f6e34ec4b61b43114f53",
+  "pptx_sha256": "6f81b126ba9d721120f167bd8563ced5915e04040c93137841d720b4d21bf005",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 559,
+    "named_shapes_checked": 559,
+    "text_labels_checked": 44,
+    "paths_checked": 482,
+    "curve_commands_checked": 1782,
+    "images_checked": 33
+  },
+  "maximum_object_position_delta_scene_pixels": 5.245e-05,
+  "maximum_path_control_point_delta_scene_pixels": 0.00010256,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

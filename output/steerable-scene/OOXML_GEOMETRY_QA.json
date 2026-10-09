@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/steerable-scene",
+  "diagram_id": "steerable-scene-figure-1",
+  "scene_sha256": "53c3cfa526f3e7cc2d677063eabfe0f9aed3d53146c6b7773b7a8dde936f32db",
+  "pptx_sha256": "f9a89513aa6961db3a8d87e083b0acc91d614aa4599a470ccc374c98af2cd8d8",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 110,
+    "named_shapes_checked": 110,
+    "text_labels_checked": 68,
+    "paths_checked": 30,
+    "curve_commands_checked": 18,
+    "images_checked": 12
+  },
+  "maximum_object_position_delta_scene_pixels": 5.249e-05,
+  "maximum_path_control_point_delta_scene_pixels": 8.724e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

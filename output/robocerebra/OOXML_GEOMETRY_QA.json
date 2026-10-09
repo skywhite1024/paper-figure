@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/robocerebra",
+  "diagram_id": "robocerebra-figure-2",
+  "scene_sha256": "e6c73c41978ad61f1c5e71322b9968ef7439dac686c1ec76d2e853680e281c3b",
+  "pptx_sha256": "ca623156b2197beacc4e4c181753efa8c2f58f5485cc87d1df7595313c131d73",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 543,
+    "named_shapes_checked": 543,
+    "text_labels_checked": 369,
+    "paths_checked": 110,
+    "curve_commands_checked": 736,
+    "images_checked": 63
+  },
+  "maximum_object_position_delta_scene_pixels": 5.249e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.653e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

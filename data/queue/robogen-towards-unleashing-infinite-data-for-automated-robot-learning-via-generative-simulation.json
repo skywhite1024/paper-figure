@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "robogen-towards-unleashing-infinite-data-for-automated-robot-learning-via-generative-simulation",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.501507Z",
-  "updated_at": "2026-10-09T20:49:29.385471Z",
+  "updated_at": "2026-10-09T21:58:06.183931Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/robogen/README.md",
+          "output/robogen/VALIDATION.json"
+        ],
+        "output_directory": "output/robogen",
+        "source_sha256": "4146b2443205d6e4f8137e14fb20a91165da9a70c12306a300bc71fcae53b022",
+        "scene_sha256": "696e1c52680ae6020b1b600cf24edb8740333e3062f6fb070417c446c1693572",
+        "text_editability": {
+          "typeable_text_objects": 44,
+          "native_freeform_paths": 101,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:58:06.183931Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "676dbd77ab607dfc466b03edc943d40513dcebda94e41fd77b4387483882ac1e",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/robogen/README.md",
+                "output/robogen/VALIDATION.json"
+              ],
+              "output_directory": "output/robogen",
+              "source_sha256": "4146b2443205d6e4f8137e14fb20a91165da9a70c12306a300bc71fcae53b022",
+              "scene_sha256": "696e1c52680ae6020b1b600cf24edb8740333e3062f6fb070417c446c1693572",
+              "text_editability": {
+                "typeable_text_objects": 44,
+                "native_freeform_paths": 101,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

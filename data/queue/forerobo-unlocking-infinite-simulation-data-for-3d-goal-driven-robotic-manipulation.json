@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "forerobo-unlocking-infinite-simulation-data-for-3d-goal-driven-robotic-manipulation",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.496952Z",
-  "updated_at": "2026-10-09T20:49:28.822555Z",
+  "updated_at": "2026-10-09T21:58:05.126125Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/forerobo/README.md",
+          "output/forerobo/VALIDATION.json"
+        ],
+        "output_directory": "output/forerobo",
+        "source_sha256": "3bdb1dd33b86dd992851ef2d2c84c77d2e6a10c39c3134cc5ede3d36005cb193",
+        "scene_sha256": "6efcfb1bcfd2f7b9c0f6a3a1d52fb9a7c90446aeee151fec4026e337d8a20a87",
+        "text_editability": {
+          "typeable_text_objects": 67,
+          "native_freeform_paths": 74,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:58:05.126125Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "c48d230a2d6e719644d9debfa1cf3de7282459a0f17012f0fed484d49dba81a8",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/forerobo/README.md",
+                "output/forerobo/VALIDATION.json"
+              ],
+              "output_directory": "output/forerobo",
+              "source_sha256": "3bdb1dd33b86dd992851ef2d2c84c77d2e6a10c39c3134cc5ede3d36005cb193",
+              "scene_sha256": "6efcfb1bcfd2f7b9c0f6a3a1d52fb9a7c90446aeee151fec4026e337d8a20a87",
+              "text_editability": {
+                "typeable_text_objects": 67,
+                "native_freeform_paths": 74,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

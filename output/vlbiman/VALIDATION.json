@@ -1,0 +1,404 @@
+{
+  "diagram_id": "vlbiman-figure-2",
+  "source_scene_sha256": "061a1c24042aea391f2dd91bc5126165bcaa0c14b5f9cca4a03336ac1bcc108f",
+  "source_pdf_sha256": "6ecb5efd8c040508243e477990fdad996ca6315102ce18e0f884418f69e4561e",
+  "checked_files": [
+    {
+      "name": "vlbiman-figure-2.drawio",
+      "sha256": "ec28e380a07c69a1be98ae473ced03dec700e3bac314c0bea5cc40b0ef03ff04"
+    },
+    {
+      "name": "vlbiman-figure-2.png",
+      "sha256": "959fc1c10b55bb976322e0a948bd5df2dc51d7519b3bde773b8f2c4c0e5a539d"
+    },
+    {
+      "name": "vlbiman-figure-2.pptx",
+      "sha256": "20a7679de25c93797067d9624bb4f44b2c97120cb7d0fdc8c5b099fb4ebc3cd9"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_scene_asset_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 133,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; source edition/hash pinned",
+    "source_page_figure": "Independent PDF crop compared with original PNG and delivered preview",
+    "source_preview_visual": "passed with disclosed image/font/math/dash limitations"
+  },
+  "native_xml_counts": {
+    "p:sp": 215,
+    "p:pic": 33,
+    "a:custGeom": 133,
+    "p:cxnSp": 0,
+    "a:t": 49
+  },
+  "source_title": "VLBiMan: Vision-Language Anchored One-Shot Demonstration Enables Generalizable Bimanual Robotic Manipulation",
+  "typeable_labels": [
+    "L",
+    "R",
+    "grasp",
+    "place",
+    "carry",
+    "lift up",
+    "place",
+    "initial masks of traget objects ",
+    "in the given demonstration",
+    "pour",
+    "align",
+    "rel. ",
+    "rel. ",
+    "Adapted  ",
+    "Reused  ",
+    "Vision-",
+    "Language",
+    "Model",
+    "1. Task-Aware Demonstration Decomposition",
+    "2. VLM-based Adaptation",
+    "3. Trajectory Composition",
+    "Binocular Observation (showing left RGB)",
+    "Pour water from",
+    "bottle",
+    "into",
+    "cup.",
+    "※ For new instances / geometries",
+    "※ For changed spatial location",
+    "※ For changed spatial location",
+    "※ For new instances / geometries",
+    "Just",
+    "adjust",
+    "grasp",
+    "actions",
+    "of",
+    "two",
+    "arms!",
+    "First",
+    "adjust",
+    "grasp",
+    "/",
+    "place",
+    "actions,",
+    "then",
+    "align",
+    "dual-arm",
+    "coordination",
+    "to",
+    "pour."
+  ],
+  "raster_nodes": [
+    {
+      "id": "source-pdf-photo-0",
+      "asset": "vlbiman-source-pdf-photo-0.png",
+      "x": 11.060874938964844,
+      "y": 51.8895263671875,
+      "width": 284.66077423095703,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-1",
+      "asset": "vlbiman-source-pdf-photo-1.png",
+      "x": 11.060874938964844,
+      "y": 51.8895263671875,
+      "width": 284.66077423095703,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-2",
+      "asset": "vlbiman-source-pdf-photo-2.png",
+      "x": 11.060874938964844,
+      "y": 51.8895263671875,
+      "width": 284.66077423095703,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-3",
+      "asset": "vlbiman-source-pdf-photo-3.png",
+      "x": 305.1129455566406,
+      "y": 51.8895263671875,
+      "width": 284.6607971191406,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-4",
+      "asset": "vlbiman-source-pdf-photo-4.png",
+      "x": 305.1129455566406,
+      "y": 51.8895263671875,
+      "width": 284.6607971191406,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-5",
+      "asset": "vlbiman-source-pdf-photo-5.png",
+      "x": 305.1129455566406,
+      "y": 51.8895263671875,
+      "width": 284.6607971191406,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-6",
+      "asset": "vlbiman-source-pdf-photo-6.png",
+      "x": 305.1129455566406,
+      "y": 211.1243133544922,
+      "width": 284.6607971191406,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-7",
+      "asset": "vlbiman-source-pdf-photo-7.png",
+      "x": 305.1129455566406,
+      "y": 211.1243133544922,
+      "width": 284.6607971191406,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-8",
+      "asset": "vlbiman-source-pdf-photo-8.png",
+      "x": 305.1129455566406,
+      "y": 211.1243133544922,
+      "width": 284.6607971191406,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-9",
+      "asset": "vlbiman-source-pdf-photo-9.png",
+      "x": 599.58251953125,
+      "y": 370.1503601074219,
+      "width": 284.6607971191406,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-10",
+      "asset": "vlbiman-source-pdf-photo-10.png",
+      "x": 599.58251953125,
+      "y": 370.1503601074219,
+      "width": 284.6607971191406,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-11",
+      "asset": "vlbiman-source-pdf-photo-11.png",
+      "x": 599.58251953125,
+      "y": 370.1503601074219,
+      "width": 284.6607971191406,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-12",
+      "asset": "vlbiman-source-pdf-photo-12.png",
+      "x": 11.060874938964844,
+      "y": 370.1503601074219,
+      "width": 284.66077423095703,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-13",
+      "asset": "vlbiman-source-pdf-photo-13.png",
+      "x": 257.94776916503906,
+      "y": 310.6720733642578,
+      "width": 34.43476867675781,
+      "height": 34.43476867675781,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "source-pdf-photo-16",
+      "asset": "vlbiman-source-pdf-photo-16.png",
+      "x": 893.84326171875,
+      "y": 370.1503601074219,
+      "width": 284.6607971191406,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-17",
+      "asset": "vlbiman-source-pdf-photo-17.png",
+      "x": 893.84326171875,
+      "y": 370.1503601074219,
+      "width": 284.6607971191406,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-18",
+      "asset": "vlbiman-source-pdf-photo-18.png",
+      "x": 893.84326171875,
+      "y": 370.1503601074219,
+      "width": 284.6607971191406,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-19",
+      "asset": "vlbiman-source-pdf-photo-19.png",
+      "x": 29.826072692871094,
+      "y": 176.06341552734375,
+      "width": 153.3042984008789,
+      "height": 159.04344177246094,
+      "canvas_area_fraction": 0.039
+    },
+    {
+      "id": "source-pdf-photo-20",
+      "asset": "vlbiman-source-pdf-photo-20.png",
+      "x": 180.69561767578125,
+      "y": 176.06341552734375,
+      "width": 153.65213012695312,
+      "height": 159.04344177246094,
+      "canvas_area_fraction": 0.039
+    },
+    {
+      "id": "source-pdf-photo-21",
+      "asset": "vlbiman-source-pdf-photo-21.png",
+      "x": 305.1129455566406,
+      "y": 370.1503601074219,
+      "width": 284.6607971191406,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-22",
+      "asset": "vlbiman-source-pdf-photo-22.png",
+      "x": 305.1129455566406,
+      "y": 370.1503601074219,
+      "width": 284.6607971191406,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-23",
+      "asset": "vlbiman-source-pdf-photo-23.png",
+      "x": 305.1129455566406,
+      "y": 370.1503601074219,
+      "width": 284.6607971191406,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-24",
+      "asset": "vlbiman-source-pdf-photo-24.png",
+      "x": 599.58251953125,
+      "y": 51.8895263671875,
+      "width": 284.6607971191406,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-25",
+      "asset": "vlbiman-source-pdf-photo-25.png",
+      "x": 593.912841796875,
+      "y": 33.80259704589844,
+      "width": 153.3043212890625,
+      "height": 159.04344177246094,
+      "canvas_area_fraction": 0.039
+    },
+    {
+      "id": "source-pdf-photo-26",
+      "asset": "vlbiman-source-pdf-photo-26.png",
+      "x": 736.0867309570312,
+      "y": 33.80259704589844,
+      "width": 153.65213012695312,
+      "height": 159.04344177246094,
+      "canvas_area_fraction": 0.039
+    },
+    {
+      "id": "source-pdf-photo-27",
+      "asset": "vlbiman-source-pdf-photo-27.png",
+      "x": 599.58251953125,
+      "y": 51.8895263671875,
+      "width": 284.6607971191406,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-28",
+      "asset": "vlbiman-source-pdf-photo-28.png",
+      "x": 599.58251953125,
+      "y": 211.1243133544922,
+      "width": 284.6607971191406,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-29",
+      "asset": "vlbiman-source-pdf-photo-29.png",
+      "x": 593.912841796875,
+      "y": 193.10691833496094,
+      "width": 153.3043212890625,
+      "height": 159.04344177246094,
+      "canvas_area_fraction": 0.039
+    },
+    {
+      "id": "source-pdf-photo-30",
+      "asset": "vlbiman-source-pdf-photo-30.png",
+      "x": 736.0867309570312,
+      "y": 193.10691833496094,
+      "width": 153.65213012695312,
+      "height": 159.04344177246094,
+      "canvas_area_fraction": 0.039
+    },
+    {
+      "id": "source-pdf-photo-31",
+      "asset": "vlbiman-source-pdf-photo-31.png",
+      "x": 599.58251953125,
+      "y": 211.1243133544922,
+      "width": 284.6607971191406,
+      "height": 147.96519470214844,
+      "canvas_area_fraction": 0.067
+    },
+    {
+      "id": "source-pdf-photo-35",
+      "asset": "vlbiman-source-pdf-photo-35.png",
+      "x": 18.7825927734375,
+      "y": 287.50689697265625,
+      "width": 34.43476867675781,
+      "height": 34.43476867675781,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "pdf-raster-0",
+      "asset": "vlbiman-figure-2-raster-0.png",
+      "x": 716.0999999999999,
+      "y": 84.0,
+      "width": 81.90000000000003,
+      "height": 33.0,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "pdf-raster-1",
+      "asset": "vlbiman-figure-2-raster-1.png",
+      "x": 716.0999999999999,
+      "y": 226.5,
+      "width": 114.90000000000003,
+      "height": 33.0,
+      "canvas_area_fraction": 0.006
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

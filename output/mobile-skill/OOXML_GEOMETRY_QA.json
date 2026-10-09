@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/mobile-skill",
+  "diagram_id": "mobile-skill-figure-1",
+  "scene_sha256": "44d779ddcad4c38ac22b3a2be37e004f7e5ee2e2e227e5a4755f7c1806d641bb",
+  "pptx_sha256": "8d60fe481d6ebbdf3b6a02c58b4dcfe52a7ad07149f144dc72714cd3c28d9700",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 70,
+    "named_shapes_checked": 70,
+    "text_labels_checked": 5,
+    "paths_checked": 60,
+    "curve_commands_checked": 78,
+    "images_checked": 5
+  },
+  "maximum_object_position_delta_scene_pixels": 5.206e-05,
+  "maximum_path_control_point_delta_scene_pixels": 9.522e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}

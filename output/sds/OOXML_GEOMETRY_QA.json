@@ -1,0 +1,22 @@
+{
+  "folder": "build/candidates/sds",
+  "diagram_id": "sds-figure-2",
+  "scene_sha256": "07b1fa51205018f9316257768e1f9c8b28f4b31f7d3f9aa362c7cfeffb426f21",
+  "pptx_sha256": "ffb2a9cc1ca4c45ecf402541940b0e4d1ae955f710968c1c96b78c3098630e8b",
+  "status": "passed",
+  "checks": {
+    "scene_nodes": 72,
+    "named_shapes_checked": 72,
+    "text_labels_checked": 27,
+    "paths_checked": 30,
+    "curve_commands_checked": 30,
+    "images_checked": 4
+  },
+  "maximum_object_position_delta_scene_pixels": 5.249e-05,
+  "maximum_path_control_point_delta_scene_pixels": 5.249e-05,
+  "tolerance_scene_pixels": 0.002,
+  "errors": [],
+  "error_count": 0,
+  "text_normalization": "Unicode NFKC normalizes compatibility ligatures; CR/LF ignored",
+  "limitation": "OOXML semantic/coordinate consistency is not an application-render or text-layout check; does not validate font substitution, glyph appearance, visual clipping or editing UX."
+}
