@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "eurekaverse-environment-curriculum-generation-via-large-language-models",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.499228Z",
-  "updated_at": "2026-10-09T20:49:28.801516Z",
+  "updated_at": "2026-10-09T21:38:36.806769Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -123,8 +123,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/eurekaverse/README.md",
+          "output/eurekaverse/VALIDATION.json"
+        ],
+        "output_directory": "output/eurekaverse",
+        "source_sha256": "ab63c77ce4dd8cae2ebd03594cca5140e90a8c9c6f9daf791badf79208e14459",
+        "scene_sha256": "80dc64a088d1c93cc1a6710d4eb6c6d5006cd7f0f007319998955887e2ad056a",
+        "text_editability": {
+          "typeable_text_objects": 10,
+          "native_freeform_paths": 30,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -351,6 +365,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:38:36.806769Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "e83ad88a670a5e2f549fba0cb364aae78eac9057e71d87fe204c756af9cc0f2e",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/eurekaverse/README.md",
+                "output/eurekaverse/VALIDATION.json"
+              ],
+              "output_directory": "output/eurekaverse",
+              "source_sha256": "ab63c77ce4dd8cae2ebd03594cca5140e90a8c9c6f9daf791badf79208e14459",
+              "scene_sha256": "80dc64a088d1c93cc1a6710d4eb6c6d5006cd7f0f007319998955887e2ad056a",
+              "text_editability": {
+                "typeable_text_objects": 10,
+                "native_freeform_paths": 30,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

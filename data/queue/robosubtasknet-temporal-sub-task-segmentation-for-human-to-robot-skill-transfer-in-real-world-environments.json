@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "robosubtasknet-temporal-sub-task-segmentation-for-human-to-robot-skill-transfer-in-real-world-environments",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.484372Z",
-  "updated_at": "2026-10-09T20:14:36.642682Z",
+  "updated_at": "2026-10-09T21:45:40.339872Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/robosubtasknet/README.md",
+          "output/robosubtasknet/VALIDATION.json"
+        ],
+        "output_directory": "output/robosubtasknet",
+        "source_sha256": "50d3e5433963f630f1917143cf61fa4cd2713150834fa2bb9d3b564364343622",
+        "scene_sha256": "6b0f7f21d33ff06d81ea01a6c113424fcf844b42eac742ca21170a1d02ed5a91",
+        "text_editability": {
+          "typeable_text_objects": 32,
+          "native_freeform_paths": 60,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -287,6 +301,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T21:45:40.339872Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "fdd44852310f84846b8b3aeeec5863c331fd6c5ce27c064fd80efd612efff8c7",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/robosubtasknet/README.md",
+                "output/robosubtasknet/VALIDATION.json"
+              ],
+              "output_directory": "output/robosubtasknet",
+              "source_sha256": "50d3e5433963f630f1917143cf61fa4cd2713150834fa2bb9d3b564364343622",
+              "scene_sha256": "6b0f7f21d33ff06d81ea01a6c113424fcf844b42eac742ca21170a1d02ed5a91",
+              "text_editability": {
+                "typeable_text_objects": 32,
+                "native_freeform_paths": 60,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

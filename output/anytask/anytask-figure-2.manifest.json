@@ -1,0 +1,93 @@
+{
+  "schema_version": 1,
+  "diagram_id": "anytask-figure-2",
+  "source_sha256": "75a76f88df13e8faf1286c9ebec399cf94b9ef24da16d6ac299fa1997d086974",
+  "assets": [
+    {
+      "name": "collection-photos.png",
+      "sha256": "a0bd563dd152524e3985841fa1cf3f4cee80c271a888710de7e3df6f8e36d312"
+    },
+    {
+      "name": "data-icon.png",
+      "sha256": "21dcf52214b189574e5ce3e02c29fd66310c50d321a478ecb3aa99620541c951"
+    },
+    {
+      "name": "database-icon.png",
+      "sha256": "8805f781de992ab331821b4b7d91f37eb2522eea7189db6a226b258e4884d572"
+    },
+    {
+      "name": "objects-photo.png",
+      "sha256": "f0868908ae8ae62e8c842180c4c292eeb7d8d9cda31f21e78cf768ce7981ae5e"
+    },
+    {
+      "name": "policy-arm-icon-visible.png",
+      "sha256": "4ef11bd6405860973df5b010b02504b5ae5d4853756fcd5abec077c30357ab50"
+    },
+    {
+      "name": "python-icon.png",
+      "sha256": "5483a69c6de9bd1d33c4ffe79ad37c137dadeda01cdea3380ab643da171e4f12"
+    },
+    {
+      "name": "raw-assets-icon.png",
+      "sha256": "f308904b70b43c8d61144d1193400fab668a97413c17e14dc4f3dfe6a352e58d"
+    },
+    {
+      "name": "real-policy-photos.png",
+      "sha256": "79399de13e94cd998dd3d43a0ab1e46ecdccc9ad88e95b7307886bb5e8500c61"
+    },
+    {
+      "name": "robot-arm-icon.png",
+      "sha256": "f3a3cfb24019c6c328fb6afc19a707bdd9288d184b782862d73e852d549c419e"
+    },
+    {
+      "name": "simulation-icon.png",
+      "sha256": "578f4952532d41ea626fcf9a2bcfdf98898a8de253b16e409cd5ee276a4c2666"
+    },
+    {
+      "name": "simulation-photos.png",
+      "sha256": "ec583fa2f8369e15cc2b5149512c99b732117a600bce2057a4c2624066aef69a"
+    }
+  ],
+  "provenance": {
+    "paper_title": "AnyTask: An Automated Task and Data Generation Framework for Advancing Sim-to-Real Policy Learning",
+    "paper_url": "https://arxiv.org/abs/2512.17853v2",
+    "figure": "Figure 2",
+    "page": 2,
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "status": "figure_recreation",
+    "source_sha256": "511df38af5995725333fbcce983419388c9a747955be1b20bfc52af5ae029741",
+    "source_crop_pdf_points": [
+      70,
+      62,
+      551,
+      196
+    ],
+    "notes": "Manually reconstructed after inspecting actual source pixels. Original source is a flattened raster. Layout, native panels, labels and connecting geometry are recreated; no whole-figure raster backdrop. Font metrics and curve/arrow geometry approximated. Small original mathematical/photo details retained only where explicitly noted. Independent target-application QA pending. Manually reconstructed stacked stage panels, stage routes, labels and monospaced code names. Only ten bounded photographic/icon assets remain raster; code and ordinary labels typeable."
+  },
+  "metrics": {
+    "native_nodes": 68,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 26,
+    "native_text_objects": 26,
+    "raster_images": 11,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "anytask-figure-2.drawio",
+      "sha256": "51df7e9c532d2b0d18150962241c8bc993c23c789562dc5e454c642ba30285b1"
+    },
+    {
+      "name": "anytask-figure-2.png",
+      "sha256": "11d84d41302d80baa3e5eeab0c43b00f88e786cdf9ea3272e51ef41294bbfd75"
+    },
+    {
+      "name": "anytask-figure-2.pptx",
+      "sha256": "860dedfe1e5f96dea0a0e73eb7923d67d2d6794745e86405227ce32962ac04b3"
+    }
+  ]
+}

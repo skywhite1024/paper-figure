@@ -1,4 +1,5 @@
 """Validate and index paper-scoped deliverables without rewriting artifact bytes."""
+import os
 import hashlib
 import base64
 import xml.etree.ElementTree as ET
@@ -246,25 +247,35 @@ def publish_build(repository, build, output=None, papers=None):
     return result
 
 
-def add_paper(repository, candidate, output=None):
-    """Register one complete paper bundle after validating the complete proposed tree.
+def add_papers(repository, candidates, output=None):
+    """Validate and register a batch with one staging copy of the existing tree.
 
-    Candidate directory name is the paper slug. Existing paper replacement is
-    deliberately refused; use publish_build for an existing paper instead.
-    Source references must use the final ../../data/ relative layout.
+    Existing paper replacement is refused; use publish_build for regeneration.
+    All candidate hashes and the complete proposed tree are checked before any
+    new folder is moved into output. Source references retain ../../data/.
     """
-    repository, candidate = Path(repository).resolve(), Path(candidate).resolve()
+    repository = Path(repository).resolve()
+    candidates = [Path(candidate).resolve() for candidate in candidates]
     output = Path(output or repository / 'output').resolve()
-    require(bool(re.fullmatch(r'[a-z0-9_-]+', candidate.name)), 'Unsafe paper slug')
-    require(not (output / candidate.name).exists(), 'Paper output already exists')
-    require(candidate.is_dir() and not any(p.is_symlink() for p in candidate.rglob('*')), 'Unsafe candidate directory')
+    require(candidates and len({c.name for c in candidates}) == len(candidates), 'Empty or duplicate paper batch')
+    for candidate in candidates:
+        require(bool(re.fullmatch(r'[a-z0-9_-]+', candidate.name)), 'Unsafe paper slug')
+        require(not (output / candidate.name).exists(), 'Paper output already exists')
+        require(candidate.is_dir() and not any(p.is_symlink() for p in candidate.rglob('*')), 'Unsafe candidate directory')
     with tempfile.TemporaryDirectory(dir=output.parent, prefix='.output-stage-') as temporary:
         stage = Path(temporary)
         shutil.copytree(output, stage, dirs_exist_ok=True)
-        shutil.copytree(candidate, stage / candidate.name)
+        for candidate in candidates:
+            shutil.copytree(candidate, stage / candidate.name)
         refresh_output(repository, stage)
-        # Write the completed folder first; publish updated indexes only after it exists.
-        shutil.copytree(stage / candidate.name, output / candidate.name)
+        # Each validated directory moves atomically on the same filesystem.
+        for candidate in candidates:
+            os.replace(stage / candidate.name, output / candidate.name)
         for name in ['README.md', 'comparison.html']:
-            shutil.copy2(stage / name, output / name)
-    return {'paper': candidate.name, 'path': str(output / candidate.name)}
+            os.replace(stage / name, output / name)
+    return [{'paper': c.name, 'path': str(output / c.name)} for c in candidates]
+
+
+def add_paper(repository, candidate, output=None):
+    """Backwards-compatible single-bundle registration."""
+    return add_papers(repository, [candidate], output)[0]

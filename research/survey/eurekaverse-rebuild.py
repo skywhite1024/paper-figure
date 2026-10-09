@@ -54,3 +54,40 @@ def finish():
  validation={'diagram_id':s['id'],'source_scene_sha256':sha(scene),'source_pdf_sha256':sha(pdf),'checked_files':[{'name':s['id']+'.'+ext,'sha256':sha(C/(s['id']+'.'+ext))} for ext in ['drawio','png','pptx']],'review_status':'source pixels inspected; reconstruction preview review pending; independent application QA pending','native_xml_counts':counts,'editability':{'live_typeable_labels':sum(bool(z.get('label')) for z in s['nodes']),'native_paths':sum(z['shape']=='path' for z in s['nodes']),'raster_images':sum(z['shape']=='image' for z in s['nodes']),'raster_boundaries':s['provenance']['raster_details']},'checks':{'source_title':'Verified PDF title and fixed version from survey evidence; PDF hash rechecked','source_figure':'Actual PDF figure inspected; crop includes complete source diagram','drawio':'Native XML generated; draw.io application editing not tested','powerpoint':'Native XML counts inspected; PowerPoint GUI editing not tested'},'limitations':['Flattened source manually rebuilt; font metrics, arrowheads and stroke widths approximate original','Native paths are independently editable but not semantically attached connectors','No PowerPoint or draw.io GUI edit validation claimed']}
  (C/'VALIDATION.json').write_text(json.dumps(validation,indent=2,ensure_ascii=False)+'\n')
  print(SLUG,counts,validation['editability'])
+FONT='Arial'
+s['provenance']['notes']+=' Seven photo crops retain robot and simulated terrain examples; small branding/status icons are separate raster crops. Prompts, message bubbles, titles, training/evaluation panels and loop arrows are native.'
+blue='#327FF0';purple='#A966ED';red='#FF3B45';orange='#FF9100';gray='#606060'
+rounded('framework',272,3,926,353,5,'#FFFFFF','#DDDDDD',1.3)
+rounded('initial-prompt',9,8,236,46,4,'#D5E3FE','none',0)
+rounded('parkour',9,75,236,47,4,'#F1F1F1','none',0)
+rounded('coding-model',281,12,214,261,5,'#FFFFFF','#D7D7D7',1.3)
+rounded('training-panel',953,12,235,336,6,'#FFFFFF','#EDBF21',1)
+rounded('evaluation-panel',621,144,231,202,5,'#FFFFFF',red,1)
+image('robot-photo',(9,127,245,274),'Original quadruped robot parkour photograph')
+for id,box in [('train-top',(959,57,1182,149)),('train-middle',(959,153,1182,245)),('train-bottom',(959,249,1182,341)),('evaluate-left',(624,186,732,341)),('evaluate-right',(736,186,847,341))]:image(id,box,'Original simulated terrain example; terrain and robot pixels remain raster')
+for id,box in [('clipboard',(18,12,46,46)),('parkour-robot',(18,87,47,118)),('llm-icon',(335,241,361,267)),('training-icon',(963,20,994,52)),('code-icon',(507,22,536,49)),('evaluation-icon',(630,152,664,181)),('best-policy-icon',(571,102,598,127)),('evolution-icon',(510,241,537,267)),('brain-icon',(913,240,945,272)),('logo',(23,288,84,351))]:image(id,box,'Original small decorative/branding icon; internal artwork remains raster')
+text('initial-label','Initial Prompt',54,14,182,36,25,blue,align='left')
+text('parkour-label','Robot Parkour',54,80,182,35,25,gray,align='left')
+text('code-label','Environment Code',545,16,244,35,25,purple,align='left')
+text('training-label','Policy Training',1001,21,179,34,25,orange,align='left')
+text('evaluation-label','Policy Evaluation',667,151,176,32,23,red,align='left')
+text('llm-label','Coding LLM',366,236,122,36,22,gray,align='left')
+text('best-policy','Best\nPolicy',528,127,80,61,25,red)
+text('evolution-prompt','Evolution\nPrompt',505,271,111,64,25,red,align='left')
+text('policies','Policies',867,268,83,35,23,orange,align='left')
+text('logo-label','Eurekaverse',88,295,267,51,44,'#4B4B4B',True,align='left')
+rounded('initial-message',300,21,70,23,12,'#3586F1','none',0);poly('initial-message-tail',[(301,26),(290,33),(303,35)],blue,0,blue,True)
+for j,y in enumerate([47,78,108,139]):
+ rounded('code-message-'+str(j),373,y,106,23,12,'#AC6EEF','none',0)
+ if j in [0,1,2,3]:poly('code-message-tail-'+str(j),[(477,y+6),(487,y+11),(476,y+17)],purple,0,'#AC6EEF',True)
+rounded('feedback-message',302,176,68,23,12,'#FF424B','none',0);poly('feedback-tail',[(303,182),(292,188),(304,193)],red,0,'#FF424B',True)
+line('initial-flow',[(245,32),(298,32)],blue,2,True,size=10)
+line('code-to-training',[(487,58),(953,58)],purple,2,True,size=10)
+line('deploy-parkour',[(273,102),(245,102)],gray,2,True,size=10)
+line('best-to-training',[(621,215),(605,215),(605,77),(953,77)],red,2,True,size=10)
+line('evaluation-feedback',[(621,224),(495,224)],red,2,True,size=10)
+line('training-to-evaluation',[(953,306),(852,306)],orange,2,True,size=10)
+for n in s['nodes']:
+ if n['id'].endswith('-arrow'):
+  c=n['commands'];n['commands']=[{'moveTo':c[1]['lineTo']},{'lineTo':c[0]['moveTo']},{'lineTo':c[2]['lineTo']}];n['fill']='none';n['stroke_width']=2
+finish()

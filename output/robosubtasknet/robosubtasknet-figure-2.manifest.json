@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "diagram_id": "robosubtasknet-figure-2",
+  "source_sha256": "6b0f7f21d33ff06d81ea01a6c113424fcf844b42eac742ca21170a1d02ed5a91",
+  "assets": [
+    {
+      "name": "frames-0.png",
+      "sha256": "ac8338b3ca27a1f96adc4f96017af767a06c0664bbd83c4e256910ae0bbea9d5"
+    },
+    {
+      "name": "frames-1.png",
+      "sha256": "868c59c0118eef8d79e7c7f80509eb35919be863ca40160a50ae6b432347e81f"
+    },
+    {
+      "name": "frames-2.png",
+      "sha256": "eb9633b9ce89586152204f0401576f06db280d53771d36d42f0d2562bf68564a"
+    }
+  ],
+  "provenance": {
+    "paper_title": "RoboSubtaskNet: Temporal Sub-task Segmentation for Human-to-Robot Skill Transfer in Real-World Environments",
+    "paper_url": "https://arxiv.org/pdf/2602.10015v2",
+    "figure": "Figure 2",
+    "page": 3,
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "status": "figure_recreation",
+    "source_sha256": "50d3e5433963f630f1917143cf61fa4cd2713150834fa2bb9d3b564364343622",
+    "source_crop_pdf_points": [
+      53,
+      49,
+      560,
+      190
+    ],
+    "notes": "Both panels manually reconstructed from source raster. All architecture labels, input/fusion/attention blocks, 3-D CNN boxes, Greek weights and routing are native; four compact weight expressions are editable STIX glyph outlines with retained LaTeX, not equation fields. Three separate demonstration, RGB and optical-flow frame-stack crops remain raster. Font metrics, subscript placement, perspective depths and line weights approximate source. Freeform routes lack semantic endpoint attachment."
+  },
+  "metrics": {
+    "native_nodes": 103,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 60,
+    "native_text_objects": 16,
+    "raster_images": 3,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "robosubtasknet-figure-2.drawio",
+      "sha256": "cf87bde1a36edad73b4e8718b1e7d5728ec19b23faa99d89923438dab1c5d7db"
+    },
+    {
+      "name": "robosubtasknet-figure-2.png",
+      "sha256": "55cabc9a30c617e1bc6f36a354eef62bba5539d619004328b7ed70b74cc34730"
+    },
+    {
+      "name": "robosubtasknet-figure-2.pptx",
+      "sha256": "8b0007beeffa07a9d54d33f3bf6bf570c0504ce1fe333bf02ac2035b138ccb42"
+    }
+  ]
+}

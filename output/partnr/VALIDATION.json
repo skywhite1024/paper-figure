@@ -1,0 +1,110 @@
+{
+  "diagram_id": "partnr-figure-5",
+  "source_scene_sha256": "6b78e19fd6174a71cca5f352f039aa794b0a30d376e051728a09781e022e276d",
+  "source_pdf_sha256": "7da62f6f2b031d78908d6f063d44b6eaeb491bb31d03536218f6ee61dd300efd",
+  "checked_files": [
+    {
+      "name": "partnr-figure-5.drawio",
+      "sha256": "088378b7b11eb68e66c9a7b08ec4ce29f59559fe9ad6533b66b2dcad20789acd"
+    },
+    {
+      "name": "partnr-figure-5.png",
+      "sha256": "8ebd8fac6f30b3cea91c74872de34c377b708da947060a3e4f702cb67da5d5d3"
+    },
+    {
+      "name": "partnr-figure-5.pptx",
+      "sha256": "3a6c3ad842d8d86195854cd38f2dcee72e1bfd7f9d67aa3b159665fc160955d7"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 119,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; embedded version matches",
+    "source_page_figure": "Independent PDF source crop compared with provided original and delivered preview",
+    "source_preview_visual": "passed with disclosed raster/font/math limitations",
+    "all_scene_asset_hashes": "passed",
+    "source_crop_same_size_channel_mae": 0.0
+  },
+  "native_xml_counts": {
+    "p:sp": 146,
+    "p:pic": 3,
+    "a:custGeom": 119,
+    "p:cxnSp": 0,
+    "a:t": 24
+  },
+  "source_title": "PARTNR: A Benchmark for Planning and Reasoning in Embodied Multi-Agent Tasks",
+  "typeable_labels": [
+    "Low-Level",
+    "Skill",
+    "Task",
+    "Description",
+    "Control Signal",
+    "High-Level ",
+    "Policy (LLM)",
+    "High-Level ",
+    "Policy (LLM)",
+    "Sim Env",
+    "Habitat 3.0",
+    "World Graph",
+    "Perception",
+    "Human",
+    "Obs",
+    "Low-Level",
+    "Skill",
+    "Low-Level",
+    "Skill",
+    "Low-Level",
+    "Skill",
+    "Control Signal",
+    "Robot",
+    "Obs"
+  ],
+  "raster_nodes": [
+    {
+      "id": "reviewed-image-0",
+      "asset": "partnr-source-image-0.png",
+      "x": 370.3891296386719,
+      "y": 86.75582885742188,
+      "width": 108.5489501953125,
+      "height": 111.09210205078125,
+      "canvas_area_fraction": 0.018
+    },
+    {
+      "id": "reviewed-image-2",
+      "asset": "partnr-source-image-2.png",
+      "x": 96.63601684570312,
+      "y": 651.6469116210938,
+      "width": 131.28533935546875,
+      "height": 131.28533935546875,
+      "canvas_area_fraction": 0.025
+    },
+    {
+      "id": "reviewed-image-3",
+      "asset": "partnr-source-image-3.png",
+      "x": 641.000244140625,
+      "y": 639.1484985351562,
+      "width": 151.7391357421875,
+      "height": 151.7391357421875,
+      "canvas_area_fraction": 0.034
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

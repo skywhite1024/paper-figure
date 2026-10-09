@@ -1,0 +1,278 @@
+{
+  "schema_version": 1,
+  "diagram_id": "eurekaverse-figure-2",
+  "source_sha256": "80dc64a088d1c93cc1a6710d4eb6c6d5006cd7f0f007319998955887e2ad056a",
+  "assets": [
+    {
+      "name": "assets/best-policy-icon.png",
+      "sha256": "8d2fa8391b22f8bb07ddb6ee6102adeacf85171cb4590dcbc5069b16924bf6d8"
+    },
+    {
+      "name": "assets/brain-icon.png",
+      "sha256": "b1a17ac80ed8501e64ef8c2025a9556eee8f0ba3477cfc9af38ad1ad86eaec03"
+    },
+    {
+      "name": "assets/clipboard.png",
+      "sha256": "f618f278e409c2b187416c7039f47560f2ae8dbd3b5940b5c7650e6b2bc38589"
+    },
+    {
+      "name": "assets/code-icon.png",
+      "sha256": "8f14cf7accf28142f3ea653993fd1654928852c6f371d7fbf3b103454268e940"
+    },
+    {
+      "name": "assets/evaluate-left.png",
+      "sha256": "48eb451362e696ce6347dbb87579214aca0a2320f55c43f1e3dae9ca3c5aaa13"
+    },
+    {
+      "name": "assets/evaluate-right.png",
+      "sha256": "0ca2f1a0ce627294c7cacdc43ff49b819f2dec2852a2e03469a2c8c7d820276b"
+    },
+    {
+      "name": "assets/evaluation-icon.png",
+      "sha256": "248dd0b7c23a3080b6e0321bb17fbb73b45336df12dd41e42f8a1f77fe7bacf3"
+    },
+    {
+      "name": "assets/evolution-icon.png",
+      "sha256": "b5b2d1fb6023e1f1f00642c4349641f9818ab45e238b8d189eefe49ed78e6ab0"
+    },
+    {
+      "name": "assets/llm-icon.png",
+      "sha256": "47226fb8ee7eb411365c4818f3e4f50f45c461cb0d760ee8bc6f72861d7d742c"
+    },
+    {
+      "name": "assets/logo.png",
+      "sha256": "79403cc22094de342be7a74aa96eec392cc1edb9ea8c0c61528c50a6ed1c2d25"
+    },
+    {
+      "name": "assets/parkour-robot.png",
+      "sha256": "af27dd98a86d44746fba2a40aa85a7add93f4c51ed53e4fe2252b78a9d0883be"
+    },
+    {
+      "name": "assets/robot-photo.png",
+      "sha256": "263b40b15f685e44b9175a88fb42ad9c96b01275df2219586d80ea31c9ca5a4d"
+    },
+    {
+      "name": "assets/train-bottom.png",
+      "sha256": "c894cdc9d9e01181ac65683cc7738c14a128924fd7dd07bb4d85d35ef0dbe207"
+    },
+    {
+      "name": "assets/train-middle.png",
+      "sha256": "947c56887402d0bb2ee2e2fce6d2fba8d9e97f45de53bb45a2b98627053ea18e"
+    },
+    {
+      "name": "assets/train-top.png",
+      "sha256": "670e5b78f645b7f6c03f0403c6646a1f23e4b6801c44e01795ea968cd565eb71"
+    },
+    {
+      "name": "assets/training-icon.png",
+      "sha256": "bd44aeec8addf0014962b133087198c6f6e650e10d5ebdd2f836af01f7fe4eb9"
+    }
+  ],
+  "provenance": {
+    "paper_title": "Eurekaverse: Environment Curriculum Generation via Large Language Models",
+    "paper_url": "https://arxiv.org/abs/2411.01775v1",
+    "pdf_url": "https://arxiv.org/pdf/2411.01775v1",
+    "figure": "Figure 2",
+    "page": 2,
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/ Private user-requested adaptation; no public redistribution permission implied.",
+    "status": "figure_recreation",
+    "notes": "Manually reconstructed from the inspected original flattened PDF figure. Ordinary labels are live typeable text; panels, graph geometry and arrows are native editable shapes or paths. Source layout and contents retained; font metrics, line widths and decorative effects approximated. Seven photo crops retain robot and simulated terrain examples; small branding/status icons are separate raster crops. Prompts, message bubbles, titles, training/evaluation panels and loop arrows are native.",
+    "source_sha256": "ab63c77ce4dd8cae2ebd03594cca5140e90a8c9c6f9daf791badf79208e14459",
+    "source_crop_pdf_points": [
+      105,
+      71,
+      506,
+      190
+    ],
+    "survey_crop_correction": false,
+    "visual_inspection": "Original PDF figure inspected before source-layout reconstruction on 2026-10-09; independent application QA pending.",
+    "raster_details": [
+      {
+        "id": "robot-photo",
+        "bounds_source_pixels": [
+          9,
+          127,
+          245,
+          274
+        ],
+        "detail": "Original quadruped robot parkour photograph"
+      },
+      {
+        "id": "train-top",
+        "bounds_source_pixels": [
+          959,
+          57,
+          1182,
+          149
+        ],
+        "detail": "Original simulated terrain example; terrain and robot pixels remain raster"
+      },
+      {
+        "id": "train-middle",
+        "bounds_source_pixels": [
+          959,
+          153,
+          1182,
+          245
+        ],
+        "detail": "Original simulated terrain example; terrain and robot pixels remain raster"
+      },
+      {
+        "id": "train-bottom",
+        "bounds_source_pixels": [
+          959,
+          249,
+          1182,
+          341
+        ],
+        "detail": "Original simulated terrain example; terrain and robot pixels remain raster"
+      },
+      {
+        "id": "evaluate-left",
+        "bounds_source_pixels": [
+          624,
+          186,
+          732,
+          341
+        ],
+        "detail": "Original simulated terrain example; terrain and robot pixels remain raster"
+      },
+      {
+        "id": "evaluate-right",
+        "bounds_source_pixels": [
+          736,
+          186,
+          847,
+          341
+        ],
+        "detail": "Original simulated terrain example; terrain and robot pixels remain raster"
+      },
+      {
+        "id": "clipboard",
+        "bounds_source_pixels": [
+          18,
+          12,
+          46,
+          46
+        ],
+        "detail": "Original small decorative/branding icon; internal artwork remains raster"
+      },
+      {
+        "id": "parkour-robot",
+        "bounds_source_pixels": [
+          18,
+          87,
+          47,
+          118
+        ],
+        "detail": "Original small decorative/branding icon; internal artwork remains raster"
+      },
+      {
+        "id": "llm-icon",
+        "bounds_source_pixels": [
+          335,
+          241,
+          361,
+          267
+        ],
+        "detail": "Original small decorative/branding icon; internal artwork remains raster"
+      },
+      {
+        "id": "training-icon",
+        "bounds_source_pixels": [
+          963,
+          20,
+          994,
+          52
+        ],
+        "detail": "Original small decorative/branding icon; internal artwork remains raster"
+      },
+      {
+        "id": "code-icon",
+        "bounds_source_pixels": [
+          507,
+          22,
+          536,
+          49
+        ],
+        "detail": "Original small decorative/branding icon; internal artwork remains raster"
+      },
+      {
+        "id": "evaluation-icon",
+        "bounds_source_pixels": [
+          630,
+          152,
+          664,
+          181
+        ],
+        "detail": "Original small decorative/branding icon; internal artwork remains raster"
+      },
+      {
+        "id": "best-policy-icon",
+        "bounds_source_pixels": [
+          571,
+          102,
+          598,
+          127
+        ],
+        "detail": "Original small decorative/branding icon; internal artwork remains raster"
+      },
+      {
+        "id": "evolution-icon",
+        "bounds_source_pixels": [
+          510,
+          241,
+          537,
+          267
+        ],
+        "detail": "Original small decorative/branding icon; internal artwork remains raster"
+      },
+      {
+        "id": "brain-icon",
+        "bounds_source_pixels": [
+          913,
+          240,
+          945,
+          272
+        ],
+        "detail": "Original small decorative/branding icon; internal artwork remains raster"
+      },
+      {
+        "id": "logo",
+        "bounds_source_pixels": [
+          23,
+          288,
+          84,
+          351
+        ],
+        "detail": "Original small decorative/branding icon; internal artwork remains raster"
+      }
+    ]
+  },
+  "metrics": {
+    "native_nodes": 40,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 30,
+    "native_text_objects": 10,
+    "raster_images": 16,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "eurekaverse-figure-2.drawio",
+      "sha256": "f2364c90dcdd9f96802de57b0afbb9136a7ead53b3ef4da2432571380bfa1755"
+    },
+    {
+      "name": "eurekaverse-figure-2.png",
+      "sha256": "b10bd8b12dda7bb877de2d6ff2d6cfd7d4bb13db54b66928398f750a9dc5dd34"
+    },
+    {
+      "name": "eurekaverse-figure-2.pptx",
+      "sha256": "39ede21e2b6026339b43c9fce3b55aa22d780bd805c017bdddf89421d37296d2"
+    }
+  ]
+}

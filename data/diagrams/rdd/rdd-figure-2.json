@@ -1,0 +1,3254 @@
+{
+  "schema_version": 1,
+  "id": "rdd-figure-2",
+  "title": "RDD: Retrieval-Based Demonstration Decomposer for Planner Alignment in Long-Horizon Tasks · Figure 2",
+  "canvas": {
+    "width": 1440.0,
+    "height": 820.0
+  },
+  "provenance": {
+    "paper_title": "RDD: Retrieval-Based Demonstration Decomposer for Planner Alignment in Long-Horizon Tasks",
+    "paper_url": "https://arxiv.org/pdf/2510.14968v1",
+    "figure": "Figure 2",
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "notes": "Original retrieval-based demonstration partition architecture. Source arrows, braces, encoder outlines and ordinary prose labels remain native. Seven projected robot observation images, two icons, and source mathematical formula/symbol assets remain individually raster; formulas are not live equations. Native freeform connectors do not have semantic endpoint attachment.",
+    "page": 4,
+    "status": "figure_recreation",
+    "source_sha256": "f3e2f02817b13118305ca649ff31713bc04d1c6be4374ebb104acaca4156daf3",
+    "source_crop_pdf_points": [
+      122,
+      69,
+      482,
+      274
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "extraction_warnings": [
+      "126 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 0"
+    ],
+    "ignored_invisible_text_spans": 0
+  },
+  "nodes": [
+    {
+      "id": "pdf-path-2",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12.729248046875,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16.04766845703125,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16.04766845703125,
+            "y": 13.44940185546875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 28.77691650390625,
+            "y": 13.44940185546875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 28.77691650390625,
+            "y": 16.55908203125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16.04766845703125,
+            "y": 16.55908203125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16.04766845703125,
+            "y": 30.0107421875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.729248046875,
+            "y": 30.0107421875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.729248046875,
+            "y": 16.55908203125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 16.55908203125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 13.44940185546875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.729248046875,
+            "y": 13.44940185546875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.729248046875,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 240.44354248046875,
+      "y": 420.5228271484375,
+      "width": 28.77691650390625,
+      "height": 30.0107421875,
+      "fill": "#B94306",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 2,
+      "source_even_odd": true
+    },
+    {
+      "id": "pdf-path-3-part-0",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 356.132568359375,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 356.132568359375,
+            "y": 2.98968505859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 2.98968505859375
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 801.3958740234375,
+      "y": 287.297607421875,
+      "width": 366.0987548828125,
+      "height": 7.4747314453125,
+      "fill": "#A4F187",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 3,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-3-part-1",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 354.1396484375,
+            "y": -4.48504638671875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 366.0987548828125,
+            "y": 1.494873046875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 354.1396484375,
+            "y": 7.4747314453125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 354.1396484375,
+            "y": -4.48504638671875
+          }
+        }
+      ],
+      "x": 801.3958740234375,
+      "y": 287.297607421875,
+      "width": 366.0987548828125,
+      "height": 7.4747314453125,
+      "fill": "#A4F187",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 3,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-4-part-0",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 264.09912109375,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 264.09912109375,
+            "y": 2.9896240234375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 2.9896240234375
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 896.19970703125,
+      "y": 746.5308837890625,
+      "width": 274.0648193359375,
+      "height": 7.4747314453125,
+      "fill": "#BCE2FF",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 4,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-4-part-1",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 262.1055908203125,
+            "y": -4.48504638671875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 274.0648193359375,
+            "y": 1.494873046875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 262.1055908203125,
+            "y": 7.4747314453125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 262.1055908203125,
+            "y": -4.48504638671875
+          }
+        }
+      ],
+      "x": 896.19970703125,
+      "y": 746.5308837890625,
+      "width": 274.0648193359375,
+      "height": 7.4747314453125,
+      "fill": "#BCE2FF",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 4,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-source-image-0",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-0.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 783.783203125,
+      "y": 527.759033203125,
+      "width": 166.993896484375,
+      "height": 287.4556884765625
+    },
+    {
+      "id": "pdf-source-image-1",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-1.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 940.77490234375,
+      "y": 519.9312133789062,
+      "width": 166.993896484375,
+      "height": 287.89056396484375
+    },
+    {
+      "id": "pdf-source-image-2",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-2.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 597.654541015625,
+      "y": 533.8472900390625,
+      "width": 95.674072265625,
+      "height": 95.23876953125
+    },
+    {
+      "id": "pdf-source-image-3",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-3.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 699.41650390625,
+      "y": 547.7634887695312,
+      "width": 66.97119140625,
+      "height": 66.97125244140625
+    },
+    {
+      "id": "pdf-path-9",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 127.41986083984375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 50.01123046875,
+            "y": 25.4833984375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 50.01123046875,
+            "y": 101.93646240234375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 127.41986083984375
+          }
+        }
+      ],
+      "x": 1169.9566650390625,
+      "y": 523.8450927734375,
+      "width": 50.01123046875,
+      "height": 127.41986083984375,
+      "fill": "#FFFFFF",
+      "stroke": "#000000",
+      "stroke_width": 5.979599952697754,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 9,
+      "source_even_odd": true
+    },
+    {
+      "id": "pdf-source-image-4",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-4.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 1173.48876953125,
+      "y": 561.2447509765625,
+      "width": 43.0909423828125,
+      "height": 53.05517578125
+    },
+    {
+      "id": "pdf-path-12",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 127.41986083984375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 50.01123046875,
+            "y": 25.4833984375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 50.01123046875,
+            "y": 101.93658447265625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 127.41986083984375
+          }
+        }
+      ],
+      "x": 1169.9566650390625,
+      "y": 684.7506713867188,
+      "width": 50.01123046875,
+      "height": 127.41986083984375,
+      "fill": "#FFFFFF",
+      "stroke": "#000000",
+      "stroke_width": 5.979599952697754,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 12,
+      "source_even_odd": true
+    },
+    {
+      "id": "pdf-source-image-5",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-5.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 1173.4881591796875,
+      "y": 721.7155151367188,
+      "width": 43.1123046875,
+      "height": 53.05548095703125
+    },
+    {
+      "id": "pdf-path-15-part-0",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 52.7723388671875,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 52.7723388671875,
+            "y": 2.98968505859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 2.98968505859375
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 1105.376953125,
+      "y": 586.4950561523438,
+      "width": 62.7357177734375,
+      "height": 7.4747314453125,
+      "fill": "#1084D7",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 15,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-15-part-1",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 50.776611328125,
+            "y": -4.48504638671875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 62.7357177734375,
+            "y": 1.49481201171875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 50.776611328125,
+            "y": 7.4747314453125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 50.776611328125,
+            "y": -4.48504638671875
+          }
+        }
+      ],
+      "x": 1105.376953125,
+      "y": 586.4950561523438,
+      "width": 62.7357177734375,
+      "height": 7.4747314453125,
+      "fill": "#1084D7",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 15,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-16",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 20.4393310546875,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 20.4393310546875,
+            "y": 78.27838134765625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 78.27838134765625
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 1291.9405517578125,
+      "y": 670.6171264648438,
+      "width": 20.4393310546875,
+      "height": 78.27838134765625,
+      "fill": "#BCE2FF",
+      "stroke": "#000000",
+      "stroke_width": 2.989799976348877,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 16,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-18",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 20.4393310546875,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 20.4393310546875,
+            "y": 78.2784423828125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 78.2784423828125
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 1291.9405517578125,
+      "y": 592.3386840820312,
+      "width": 20.4393310546875,
+      "height": 78.2784423828125,
+      "fill": "#1084D7",
+      "stroke": "#042433",
+      "stroke_width": 2.989799976348877,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 18,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-20-part-0",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 1.55859375,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 64.4892578125,
+            "y": 38.28045654296875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 62.9375,
+            "y": 40.83349609375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 2.55474853515625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.55859375,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 1219.406005859375,
+      "y": 586.7125244140625,
+      "width": 72.2265625,
+      "height": 44.73577880859375,
+      "fill": "#1084D7",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 20,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-20-part-1",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 65.1142578125,
+            "y": 33.41558837890625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 72.2265625,
+            "y": 44.73577880859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 58.9013671875,
+            "y": 43.630615234375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 65.1142578125,
+            "y": 33.41558837890625
+          }
+        }
+      ],
+      "x": 1219.406005859375,
+      "y": 586.7125244140625,
+      "width": 72.2265625,
+      "height": 44.73577880859375,
+      "fill": "#1084D7",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 20,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-21-part-0",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 1.4263916015625,
+            "y": 40.11566162109375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 64.115234375,
+            "y": 6.0703125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 62.6883544921875,
+            "y": 3.44305419921875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 37.48779296875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.4263916015625,
+            "y": 40.11566162109375
+          }
+        }
+      ],
+      "x": 1219.4720458984375,
+      "y": 709.7539672851562,
+      "width": 72.1605224609375,
+      "height": 40.11566162109375,
+      "fill": "#BCE2FF",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 21,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-21-part-1",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 64.5050048828125,
+            "y": 10.96246337890625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 72.1605224609375,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 58.7969970703125,
+            "y": 0.452880859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 64.5050048828125,
+            "y": 10.96246337890625
+          }
+        }
+      ],
+      "x": 1219.4720458984375,
+      "y": 709.7539672851562,
+      "width": 72.1605224609375,
+      "height": 40.11566162109375,
+      "fill": "#BCE2FF",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 21,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-22",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 56.96929931640625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 41.23876953125,
+            "x2": 10.88525390625,
+            "y2": 28.484619140625,
+            "x": 24.310302734375,
+            "y": 28.484619140625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 54.1854248046875,
+            "y": 28.484619140625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 67.6104736328125,
+            "y1": 28.484619140625,
+            "x2": 78.495849609375,
+            "y2": 15.73046875,
+            "x": 78.495849609375,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 78.495849609375,
+            "y1": 15.73046875,
+            "x2": 89.381103515625,
+            "y2": 28.484619140625,
+            "x": 102.80615234375,
+            "y": 28.484619140625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 132.6812744140625,
+            "y": 28.484619140625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 146.1063232421875,
+            "y1": 28.484619140625,
+            "x2": 156.9915771484375,
+            "y2": 41.23876953125,
+            "x": 156.9915771484375,
+            "y": 56.96929931640625
+          }
+        }
+      ],
+      "x": 946.2109375,
+      "y": 472.7467041015625,
+      "width": 156.9915771484375,
+      "height": 56.96929931640625,
+      "fill": "none",
+      "stroke": "#0070C0",
+      "stroke_width": 2.989799976348877,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 22,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-source-image-6",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-6.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 746.383544921875,
+      "y": 413.82049560546875,
+      "width": 66.1016845703125,
+      "height": 58.708984375
+    },
+    {
+      "id": "pdf-path-24",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 157.4266357421875,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 157.4266357421875,
+            "y1": 18.0133056640625,
+            "x2": 144.96240234375,
+            "y2": 32.615966796875,
+            "x": 129.589599609375,
+            "y": 32.615966796875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 106.55029296875,
+            "y": 32.615966796875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 91.177490234375,
+            "y1": 32.615966796875,
+            "x2": 78.71337890625,
+            "y2": 47.21875,
+            "x": 78.71337890625,
+            "y": 65.23199462890625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 78.71337890625,
+            "y1": 47.21875,
+            "x2": 66.2490234375,
+            "y2": 32.615966796875,
+            "x": 50.8763427734375,
+            "y": 32.615966796875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 27.8370361328125,
+            "y": 32.615966796875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.46435546875,
+            "y1": 32.615966796875,
+            "x2": 0.0,
+            "y2": 18.0133056640625,
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 697.45947265625,
+      "y": 350.54541015625,
+      "width": 157.4266357421875,
+      "height": 65.23199462890625,
+      "fill": "none",
+      "stroke": "#4D9234",
+      "stroke_width": 2.989799976348877,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 24,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-source-image-7",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-7.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 430.2257080078125,
+      "y": 683.880859375,
+      "width": 345.7281494140625,
+      "height": 45.22747802734375
+    },
+    {
+      "id": "pdf-path-26",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 20.4393310546875,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 20.4393310546875,
+            "y": 78.71328735351562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 78.71328735351562
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 1291.9405517578125,
+      "y": 130.06124877929688,
+      "width": 20.4393310546875,
+      "height": 78.71328735351562,
+      "fill": "#3B7D23",
+      "stroke": "#000000",
+      "stroke_width": 2.989799976348877,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 26,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-28",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 20.4393310546875,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 20.4393310546875,
+            "y": 78.2784423828125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 78.2784423828125
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 1291.9405517578125,
+      "y": 208.7745361328125,
+      "width": 20.4393310546875,
+      "height": 78.2784423828125,
+      "fill": "#A4F187",
+      "stroke": "#042433",
+      "stroke_width": 2.989799976348877,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 28,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-30",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 127.41983032226562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 50.0111083984375,
+            "y": 25.4833984375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 50.0111083984375,
+            "y": 101.93646240234375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 127.41983032226562
+          }
+        }
+      ],
+      "x": 1167.347412109375,
+      "y": 64.17694091796875,
+      "width": 50.0111083984375,
+      "height": 127.41983032226562,
+      "fill": "#FFFFFF",
+      "stroke": "#000000",
+      "stroke_width": 5.979599952697754,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 30,
+      "source_even_odd": true
+    },
+    {
+      "id": "pdf-source-image-8",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-8.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 1170.5758056640625,
+      "y": 101.57662963867188,
+      "width": 43.365966796875,
+      "height": 53.055328369140625
+    },
+    {
+      "id": "pdf-path-33",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 127.41986083984375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 50.0111083984375,
+            "y": 25.4833984375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 50.0111083984375,
+            "y": 101.9365234375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 127.41986083984375
+          }
+        }
+      ],
+      "x": 1167.347412109375,
+      "y": 225.08251953125,
+      "width": 50.0111083984375,
+      "height": 127.41986083984375,
+      "fill": "#FFFFFF",
+      "stroke": "#000000",
+      "stroke_width": 5.979599952697754,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 33,
+      "source_even_odd": true
+    },
+    {
+      "id": "pdf-source-image-9",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-9.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 1170.5726318359375,
+      "y": 262.04736328125,
+      "width": 43.3931884765625,
+      "height": 53.0552978515625
+    },
+    {
+      "id": "pdf-path-36-part-0",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 141.9610595703125,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 141.9610595703125,
+            "y": 2.989654541015625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 2.989654541015625
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 1015.3568115234375,
+      "y": 126.826904296875,
+      "width": 151.925048828125,
+      "height": 7.4747314453125,
+      "fill": "#4D9234",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 36,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-36-part-1",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 139.9658203125,
+            "y": -4.48504638671875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 151.925048828125,
+            "y": 1.49481201171875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 139.9658203125,
+            "y": 7.4747314453125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 139.9658203125,
+            "y": -4.48504638671875
+          }
+        }
+      ],
+      "x": 1015.3568115234375,
+      "y": 126.826904296875,
+      "width": 151.925048828125,
+      "height": 7.4747314453125,
+      "fill": "#4D9234",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 36,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-source-image-10",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-10.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 1337.8201904296875,
+      "y": 188.5526123046875,
+      "width": 90.0198974609375,
+      "height": 48.706298828125
+    },
+    {
+      "id": "pdf-path-38-part-0",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 11.075439453125,
+            "y": 17.936767578125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 11.462890625,
+            "y": 394.619384765625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.4708251953125,
+            "y": 394.6240234375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.08349609375,
+            "y": 17.94085693359375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 11.075439453125,
+            "y": 17.936767578125
+          }
+        }
+      ],
+      "x": 1373.70263671875,
+      "y": 237.47662353515625,
+      "width": 19.546875,
+      "height": 412.5584716796875,
+      "fill": "#7D0C71",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 38,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-38-part-1",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": -0.3828125,
+            "y": 19.943603515625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.5626220703125,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 19.546875,
+            "y": 19.9227294921875
+          }
+        },
+        {
+          "lineTo": {
+            "x": -0.3828125,
+            "y": 19.943603515625
+          }
+        }
+      ],
+      "x": 1373.70263671875,
+      "y": 237.47662353515625,
+      "width": 19.546875,
+      "height": 412.5584716796875,
+      "fill": "#7D0C71",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 38,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-38-part-2",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 19.9295654296875,
+            "y": 392.6171875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.9842529296875,
+            "y": 412.5584716796875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 392.6357421875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 19.9295654296875,
+            "y": 392.6171875
+          }
+        }
+      ],
+      "x": 1373.70263671875,
+      "y": 237.47662353515625,
+      "width": 19.546875,
+      "height": 412.5584716796875,
+      "fill": "#7D0C71",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 38,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-39-part-0",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 17.943115234375,
+            "y": 11.7933349609375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 162.4549560546875,
+            "y": 11.45587158203125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 162.4478759765625,
+            "y": 8.46624755859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 17.9344482421875,
+            "y": 8.80364990234375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 17.943115234375,
+            "y": 11.7933349609375
+          }
+        }
+      ],
+      "x": 812.7027587890625,
+      "y": 432.82183837890625,
+      "width": 180.389404296875,
+      "height": 20.26019287109375,
+      "fill": "#7D0C71",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 39,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-39-part-1",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 19.9093017578125,
+            "y": 0.32818603515625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 10.33966064453125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 19.9544677734375,
+            "y": 20.26019287109375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 19.9093017578125,
+            "y": 0.32818603515625
+          }
+        }
+      ],
+      "x": 812.7027587890625,
+      "y": 432.82183837890625,
+      "width": 180.389404296875,
+      "height": 20.26019287109375,
+      "fill": "#7D0C71",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 39,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-39-part-2",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 160.47998046875,
+            "y": 19.93194580078125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 180.389404296875,
+            "y": 9.92047119140625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 160.4342041015625,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 160.47998046875,
+            "y": 19.93194580078125
+          }
+        }
+      ],
+      "x": 812.7027587890625,
+      "y": 432.82183837890625,
+      "width": 180.389404296875,
+      "height": 20.26019287109375,
+      "fill": "#7D0C71",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 39,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-40-part-0",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 1.4541015625,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 66.8560791015625,
+            "y": 36.29449462890625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 65.406494140625,
+            "y": 38.908416748046875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 2.613922119140625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.4541015625,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 1216.8489990234375,
+      "y": 127.0147705078125,
+      "width": 74.844482421875,
+      "height": 42.43731689453125,
+      "fill": "#4D9234",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 40,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-40-part-1",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 67.291015625,
+            "y": 31.406463623046875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 74.844482421875,
+            "y": 42.43731689453125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 61.4832763671875,
+            "y": 41.8638916015625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 67.291015625,
+            "y": 31.406463623046875
+          }
+        }
+      ],
+      "x": 1216.8489990234375,
+      "y": 127.0147705078125,
+      "width": 74.844482421875,
+      "height": 42.43731689453125,
+      "fill": "#4D9234",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 40,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-41-part-0",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 1.4495849609375,
+            "y": 42.43670654296875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 66.8538818359375,
+            "y": 6.14276123046875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 65.40185546875,
+            "y": 3.52886962890625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 39.82342529296875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.4495849609375,
+            "y": 42.43670654296875
+          }
+        }
+      ],
+      "x": 1216.8511962890625,
+      "y": 247.91375732421875,
+      "width": 74.84228515625,
+      "height": 42.43670654296875,
+      "fill": "#A4F187",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 41,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-41-part-1",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 67.286376953125,
+            "y": 11.0302734375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 74.84228515625,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 61.4832763671875,
+            "y": 0.5751953125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 67.286376953125,
+            "y": 11.0302734375
+          }
+        }
+      ],
+      "x": 1216.8511962890625,
+      "y": 247.91375732421875,
+      "width": 74.84228515625,
+      "height": 42.43670654296875,
+      "fill": "#A4F187",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 41,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-source-image-11",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-11.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 431.5303955078125,
+      "y": 673.8787231445312,
+      "width": 41.31365966796875,
+      "height": 57.4039306640625
+    },
+    {
+      "id": "pdf-source-image-12",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-12.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 1339.559814453125,
+      "y": 645.6114501953125,
+      "width": 86.541259765625,
+      "height": 56.5345458984375
+    },
+    {
+      "id": "pdf-path-44",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.1201171875,
+            "y": 59.428955078125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 59.428955078125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 314.3817138671875,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 314.3817138671875,
+            "y": 34.6837158203125
+          }
+        }
+      ],
+      "x": 903.907470703125,
+      "y": 382.833251953125,
+      "width": 314.3817138671875,
+      "height": 59.428955078125,
+      "fill": "none",
+      "stroke": "#7D0C71",
+      "stroke_width": 2.989799976348877,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 44,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-45",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 121.614501953125,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 1261.4989013671875,
+      "y": 449.26318359375,
+      "width": 121.614501953125,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#7D0C71",
+      "stroke_width": 2.989799976348877,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 45,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-text-0-0",
+      "shape": "text",
+      "label": "Eq.3.6",
+      "x": 1161.863525390625,
+      "y": 475.223388671875,
+      "width": 96.265380859375,
+      "height": 36.09503173828125,
+      "font_size": 36.09503936767578,
+      "font_family": "Times New Roman",
+      "bold": true,
+      "italic": true,
+      "text_color": "#7D0C71",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPS-BoldItal",
+      "source_seqno": 46
+    },
+    {
+      "id": "pdf-text-1-0",
+      "shape": "text",
+      "label": "Visuomotor",
+      "x": 443.0546875,
+      "y": 532.3199462890625,
+      "width": 139.6583251953125,
+      "height": 27.83233642578125,
+      "font_size": 27.832321166992188,
+      "font_family": "Times New Roman",
+      "bold": true,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPS-BoldMT",
+      "source_seqno": 47
+    },
+    {
+      "id": "pdf-text-1-1",
+      "shape": "text",
+      "label": "Policy ",
+      "x": 476.4100341796875,
+      "y": 565.8057250976562,
+      "width": 79.6282958984375,
+      "height": 27.83233642578125,
+      "font_size": 27.832321166992188,
+      "font_family": "Times New Roman",
+      "bold": true,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPS-BoldMT",
+      "source_seqno": 47
+    },
+    {
+      "id": "pdf-text-1-2",
+      "shape": "text",
+      "label": "Training Set",
+      "x": 439.0799560546875,
+      "y": 599.29150390625,
+      "width": 147.177490234375,
+      "height": 27.83233642578125,
+      "font_size": 27.832321166992188,
+      "font_family": "Times New Roman",
+      "bold": true,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPS-BoldMT",
+      "source_seqno": 47
+    },
+    {
+      "id": "pdf-path-48",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 42.0361328125,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 50.69775390625,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 50.69775390625,
+            "y": 9.95001220703125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 42.0361328125,
+            "y": 9.95001220703125
+          }
+        },
+        {
+          "close": {}
+        },
+        {
+          "moveTo": {
+            "x": 21.016845703125,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 29.680908203125,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 29.680908203125,
+            "y": 9.95001220703125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 21.016845703125,
+            "y": 9.95001220703125
+          }
+        },
+        {
+          "close": {}
+        },
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.6640625,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.6640625,
+            "y": 9.95001220703125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 9.95001220703125
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 603.20361328125,
+      "y": 230.85369873046875,
+      "width": 50.69775390625,
+      "height": 9.95001220703125,
+      "fill": "#7F7F7F",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 48,
+      "source_even_odd": true
+    },
+    {
+      "id": "pdf-source-image-13",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-13.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 994.7000732421875,
+      "y": 401.64385986328125,
+      "width": 70.0152587890625,
+      "height": 74.79913330078125
+    },
+    {
+      "id": "pdf-source-image-14",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-14.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 592.0009765625,
+      "y": 413.38555908203125,
+      "width": 107.4150390625,
+      "height": 58.708740234375
+    },
+    {
+      "id": "pdf-path-51",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 47.0714111328125,
+            "y": 0.4215087890625
+          }
+        }
+      ],
+      "x": 699.6339111328125,
+      "y": 442.739990234375,
+      "width": 47.0714111328125,
+      "height": 0.4215087890625,
+      "fill": "none",
+      "stroke": "#4D9234",
+      "stroke_width": 2.989799976348877,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 51,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-text-2-0",
+      "shape": "text",
+      "label": "Eq.3.3",
+      "x": 601.0335693359375,
+      "y": 467.3955078125,
+      "width": 96.265380859375,
+      "height": 36.09503173828125,
+      "font_size": 36.09503936767578,
+      "font_family": "Times New Roman",
+      "bold": true,
+      "italic": true,
+      "text_color": "#B94306",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPS-BoldItal",
+      "source_seqno": 52
+    },
+    {
+      "id": "pdf-source-image-15",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-15.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 606.787109375,
+      "y": 686.4902954101562,
+      "width": 73.0594482421875,
+      "height": 39.13922119140625
+    },
+    {
+      "id": "pdf-source-image-16",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-16.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 1131.687255859375,
+      "y": 417.29949951171875,
+      "width": 173.082275390625,
+      "height": 56.96942138671875
+    },
+    {
+      "id": "pdf-source-image-17",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-17.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 1251.714111328125,
+      "y": 417.734375,
+      "width": 40.0089111328125,
+      "height": 54.7947998046875
+    },
+    {
+      "id": "pdf-source-image-18",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-18.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 1204.31201171875,
+      "y": 425.12738037109375,
+      "width": 39.1392822265625,
+      "height": 45.22735595703125
+    },
+    {
+      "id": "pdf-source-image-19",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-19.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 639.837890625,
+      "y": 415.5599365234375,
+      "width": 45.6622314453125,
+      "height": 52.6204833984375
+    },
+    {
+      "id": "pdf-source-image-20",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-20.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 979.0443115234375,
+      "y": 13.2960205078125,
+      "width": 357.471435546875,
+      "height": 46.0970458984375
+    },
+    {
+      "id": "pdf-source-image-21",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-21.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 889.024169921875,
+      "y": 14.165771484375,
+      "width": 90.0198974609375,
+      "height": 48.706298828125
+    },
+    {
+      "id": "pdf-source-image-22",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-22.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 694.197998046875,
+      "y": 64.61181640625,
+      "width": 166.993896484375,
+      "height": 287.4556884765625
+    },
+    {
+      "id": "pdf-source-image-23",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-23.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 851.62451171875,
+      "y": 68.96063232421875,
+      "width": 166.993896484375,
+      "height": 287.89056396484375
+    },
+    {
+      "id": "pdf-source-image-24",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-24.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 91.88909912109375,
+      "y": 65.04669189453125,
+      "width": 166.99395751953125,
+      "height": 287.4556884765625
+    },
+    {
+      "id": "pdf-source-image-25",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-25.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 251.9249267578125,
+      "y": 65.04669189453125,
+      "width": 166.993896484375,
+      "height": 287.4556884765625
+    },
+    {
+      "id": "pdf-source-image-26",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-26.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 410.2213134765625,
+      "y": 63.30718994140625,
+      "width": 166.993896484375,
+      "height": 287.89056396484375
+    },
+    {
+      "id": "pdf-path-65",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 156.99169921875,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 156.99169921875,
+            "y1": 17.89324951171875,
+            "x2": 144.6109619140625,
+            "y2": 32.3985595703125,
+            "x": 129.34259033203125,
+            "y": 32.3985595703125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 106.1448974609375,
+            "y": 32.3985595703125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 90.8765869140625,
+            "y1": 32.3985595703125,
+            "x2": 78.495849609375,
+            "y2": 46.90386962890625,
+            "x": 78.495849609375,
+            "y": 64.797119140625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 78.495849609375,
+            "y1": 46.90386962890625,
+            "x2": 66.1151123046875,
+            "y2": 32.3985595703125,
+            "x": 50.84674072265625,
+            "y": 32.3985595703125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 27.6490478515625,
+            "y": 32.3985595703125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.3807373046875,
+            "y1": 32.3985595703125,
+            "x2": 0.0,
+            "y2": 17.89324951171875,
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 96.8902587890625,
+      "y": 344.45709228515625,
+      "width": 156.99169921875,
+      "height": 64.797119140625,
+      "fill": "none",
+      "stroke": "#B94306",
+      "stroke_width": 2.989799976348877,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 65,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-66",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 156.99169921875,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 156.99169921875,
+            "y1": 18.0133056640625,
+            "x2": 144.5274658203125,
+            "y2": 32.615966796875,
+            "x": 129.1546630859375,
+            "y": 32.615966796875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 106.332763671875,
+            "y": 32.615966796875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 90.9600830078125,
+            "y1": 32.615966796875,
+            "x2": 78.495849609375,
+            "y2": 47.21875,
+            "x": 78.495849609375,
+            "y": 65.23199462890625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 78.495849609375,
+            "y1": 47.21875,
+            "x2": 66.0316162109375,
+            "y2": 32.615966796875,
+            "x": 50.65887451171875,
+            "y": 32.615966796875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 27.8369140625,
+            "y": 32.615966796875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.4642333984375,
+            "y1": 32.615966796875,
+            "x2": 0.0,
+            "y2": 18.0133056640625,
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 254.751708984375,
+      "y": 344.8919677734375,
+      "width": 156.99169921875,
+      "height": 65.23199462890625,
+      "fill": "none",
+      "stroke": "#B94306",
+      "stroke_width": 2.989799976348877,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 66,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-67",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 42.03607177734375,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 50.69775390625,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 50.69775390625,
+            "y": 9.9500732421875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 42.03607177734375,
+            "y": 9.9500732421875
+          }
+        },
+        {
+          "close": {}
+        },
+        {
+          "moveTo": {
+            "x": 21.016845703125,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 29.68084716796875,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 29.68084716796875,
+            "y": 9.9500732421875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 21.016845703125,
+            "y": 9.9500732421875
+          }
+        },
+        {
+          "close": {}
+        },
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.6639404296875,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.6639404296875,
+            "y": 9.9500732421875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 9.9500732421875
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 353.6822509765625,
+      "y": 224.54327392578125,
+      "width": 50.69775390625,
+      "height": 9.9500732421875,
+      "fill": "#7F7F7F",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 67,
+      "source_even_odd": true
+    },
+    {
+      "id": "pdf-path-68",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 42.03375244140625,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 50.7017822265625,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 50.7017822265625,
+            "y": 9.9500732421875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 42.03375244140625,
+            "y": 9.9500732421875
+          }
+        },
+        {
+          "close": {}
+        },
+        {
+          "moveTo": {
+            "x": 21.016845703125,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 29.6849365234375,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 29.6849365234375,
+            "y": 9.9500732421875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 21.016845703125,
+            "y": 9.9500732421875
+          }
+        },
+        {
+          "close": {}
+        },
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.66571044921875,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.66571044921875,
+            "y": 9.9500732421875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 9.9500732421875
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 194.860595703125,
+      "y": 224.3194580078125,
+      "width": 50.7017822265625,
+      "height": 9.9500732421875,
+      "fill": "#7F7F7F",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 68,
+      "source_even_odd": true
+    },
+    {
+      "id": "pdf-source-image-27",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-27.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 116.24237060546875,
+      "y": 411.64605712890625,
+      "width": 107.4146728515625,
+      "height": 58.70855712890625
+    },
+    {
+      "id": "pdf-source-image-28",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-28.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 163.64434814453125,
+      "y": 413.8204345703125,
+      "width": 48.27166748046875,
+      "height": 52.1856689453125
+    },
+    {
+      "id": "pdf-source-image-29",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-29.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 285.8455810546875,
+      "y": 410.77630615234375,
+      "width": 107.415283203125,
+      "height": 59.14337158203125
+    },
+    {
+      "id": "pdf-source-image-30",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-30.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 332.3778076171875,
+      "y": 412.95068359375,
+      "width": 50.88092041015625,
+      "height": 52.6204833984375
+    },
+    {
+      "id": "pdf-path-73",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 42.03607177734375,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 50.7017822265625,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 50.7017822265625,
+            "y": 9.9547119140625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 42.03607177734375,
+            "y": 9.9547119140625
+          }
+        },
+        {
+          "close": {}
+        },
+        {
+          "moveTo": {
+            "x": 21.01922607421875,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 29.68487548828125,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 29.68487548828125,
+            "y": 9.9547119140625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 21.01922607421875,
+            "y": 9.9547119140625
+          }
+        },
+        {
+          "close": {}
+        },
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.66802978515625,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.66802978515625,
+            "y": 9.9547119140625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 9.9547119140625
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 466.9075927734375,
+      "y": 429.928955078125,
+      "width": 50.7017822265625,
+      "height": 9.9547119140625,
+      "fill": "#B94306",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 73,
+      "source_even_odd": true
+    },
+    {
+      "id": "pdf-path-74",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12.729248046875,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16.047607421875,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16.047607421875,
+            "y": 13.4539794921875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 28.77685546875,
+            "y": 13.4539794921875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 28.77685546875,
+            "y": 16.55908203125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16.047607421875,
+            "y": 16.55908203125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16.047607421875,
+            "y": 30.015380859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.729248046875,
+            "y": 30.015380859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.729248046875,
+            "y": 16.55908203125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 16.55908203125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 13.4539794921875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.729248046875,
+            "y": 13.4539794921875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.729248046875,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 544.386474609375,
+      "y": 417.91357421875,
+      "width": 28.77685546875,
+      "height": 30.015380859375,
+      "fill": "#B94306",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 74,
+      "source_even_odd": true
+    },
+    {
+      "id": "pdf-path-75",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12.7269287109375,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16.04473876953125,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16.04473876953125,
+            "y": 13.45635986328125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 28.7745361328125,
+            "y": 13.45635986328125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 28.7745361328125,
+            "y": 16.56658935546875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16.04473876953125,
+            "y": 16.56658935546875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16.04473876953125,
+            "y": 30.01605224609375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.7269287109375,
+            "y": 30.01605224609375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.7269287109375,
+            "y": 16.56658935546875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 16.56658935546875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 13.45635986328125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.7269287109375,
+            "y": 13.45635986328125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.7269287109375,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 411.875,
+      "y": 418.74212646484375,
+      "width": 28.7745361328125,
+      "height": 30.01605224609375,
+      "fill": "#B94306",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 75,
+      "source_even_odd": true
+    },
+    {
+      "id": "pdf-source-image-31",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-31.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 32.310546875,
+      "y": 411.64605712890625,
+      "width": 34.35546875,
+      "height": 46.53204345703125
+    },
+    {
+      "id": "pdf-path-77",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 9.69378662109375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 28.7762451171875,
+            "y": 9.69378662109375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 28.7762451171875,
+            "y": 12.79937744140625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 12.79937744140625
+          }
+        },
+        {
+          "close": {}
+        },
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 28.7762451171875,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 28.7762451171875,
+            "y": 3.10504150390625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 3.10504150390625
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 75.7127685546875,
+      "y": 428.42315673828125,
+      "width": 28.7762451171875,
+      "height": 12.79937744140625,
+      "fill": "#B94306",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 77,
+      "source_even_odd": true
+    },
+    {
+      "id": "pdf-text-3-0",
+      "shape": "text",
+      "label": "Eq.3.2",
+      "x": 5.534576416015625,
+      "y": 467.3955078125,
+      "width": 96.26547241210938,
+      "height": 36.09503173828125,
+      "font_size": 36.09503936767578,
+      "font_family": "Times New Roman",
+      "bold": true,
+      "italic": true,
+      "text_color": "#B94306",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPS-BoldItal",
+      "source_seqno": 78
+    },
+    {
+      "id": "pdf-text-4-0",
+      "shape": "text",
+      "label": "Retrieve       with ANNS",
+      "x": 444.0810546875,
+      "y": 751.934326171875,
+      "width": 282.9197998046875,
+      "height": 27.832275390625,
+      "font_size": 27.832321166992188,
+      "font_family": "Times New Roman",
+      "bold": true,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPS-BoldMT",
+      "source_seqno": 79
+    },
+    {
+      "id": "pdf-source-image-32",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-32.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 548.947998046875,
+      "y": 740.415283203125,
+      "width": 41.7484130859375,
+      "height": 56.9691162109375
+    },
+    {
+      "id": "pdf-source-image-33",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-33.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 595.9150390625,
+      "y": 344.674560546875,
+      "width": 62.62255859375,
+      "height": 56.968994140625
+    },
+    {
+      "id": "pdf-path-82",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 20.9560546875
+          }
+        }
+      ],
+      "x": 629.183349609375,
+      "y": 389.6845703125,
+      "width": 0.01,
+      "height": 20.9560546875,
+      "fill": "none",
+      "stroke": "#7D0C71",
+      "stroke_width": 2.989799976348877,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 82,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-text-5-0",
+      "shape": "text",
+      "label": "Eq.3.5",
+      "x": 1052.1258544921875,
+      "y": 57.3037109375,
+      "width": 96.2655029296875,
+      "height": 36.09503173828125,
+      "font_size": 36.09503936767578,
+      "font_family": "Times New Roman",
+      "bold": true,
+      "italic": true,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPS-BoldItal",
+      "source_seqno": 83
+    },
+    {
+      "id": "pdf-source-image-34",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-34.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 167.5582275390625,
+      "y": 626.91162109375,
+      "width": 170.90673828125,
+      "height": 24.7879638671875
+    },
+    {
+      "id": "pdf-source-image-35",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-35.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 221.0484619140625,
+      "y": 626.91162109375,
+      "width": 20.43939208984375,
+      "height": 22.17877197265625
+    },
+    {
+      "id": "pdf-source-image-36",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-36.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 247.1412353515625,
+      "y": 626.91162109375,
+      "width": 21.30914306640625,
+      "height": 22.1788330078125
+    },
+    {
+      "id": "pdf-source-image-37",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-37.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 306.7198486328125,
+      "y": 628.2162475585938,
+      "width": 21.74395751953125,
+      "height": 24.7882080078125
+    },
+    {
+      "id": "pdf-text-6-0",
+      "shape": "text",
+      "label": "Eq.3.1",
+      "x": 192.5899658203125,
+      "y": 670.0496215820312,
+      "width": 96.26544189453125,
+      "height": 36.09503173828125,
+      "font_size": 36.09503936767578,
+      "font_family": "Times New Roman",
+      "bold": true,
+      "italic": true,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPS-BoldItal",
+      "source_seqno": 88
+    },
+    {
+      "id": "pdf-source-image-38",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-38.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 71.8846435546875,
+      "y": 583.423583984375,
+      "width": 309.19879150390625,
+      "height": 45.6622314453125
+    },
+    {
+      "id": "pdf-source-image-39",
+      "shape": "image",
+      "asset": "rdd-figure-2-source-image-39.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 300.63153076171875,
+      "y": 588.2073364257812,
+      "width": 26.09271240234375,
+      "height": 35.66015625
+    },
+    {
+      "id": "pdf-text-7-0",
+      "shape": "text",
+      "label": "Solve with",
+      "x": 184.8795166015625,
+      "y": 718.4486083984375,
+      "width": 122.9395751953125,
+      "height": 27.83233642578125,
+      "font_size": 27.832321166992188,
+      "font_family": "Times New Roman",
+      "bold": true,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPS-BoldMT",
+      "source_seqno": 91
+    },
+    {
+      "id": "pdf-text-7-1",
+      "shape": "text",
+      "label": "Dynamic Programing",
+      "x": 117.7384033203125,
+      "y": 751.934326171875,
+      "width": 256.920166015625,
+      "height": 27.832275390625,
+      "font_size": 27.832321166992188,
+      "font_family": "Times New Roman",
+      "bold": true,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPS-BoldMT",
+      "source_seqno": 91
+    }
+  ],
+  "edges": []
+}

@@ -1,0 +1,1030 @@
+{
+  "schema_version": 1,
+  "id": "lgsd-figure-2",
+  "title": "Language Guided Skill Discovery · Figure 2",
+  "canvas": {
+    "width": 1137,
+    "height": 417
+  },
+  "provenance": {
+    "paper_title": "Language Guided Skill Discovery",
+    "paper_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/dae30ba63ca043588cdf804bbba295ed-Paper-Conference.pdf",
+    "figure": "Figure 2",
+    "page": 4,
+    "license": "unverified",
+    "notes": "Native source-layout reconstruction of flattened original. Ordinary labels and code are typeable. Diagram shapes and logical arrows are native. Explicitly bounded source photographs, icons and mathematical formula inserts retain raster pixels. Font metrics and path coordinates are measured approximations. LGSD retains the two original robot illustrations and eight isolated formulas; all ordinary language and the graph geometry are native.",
+    "status": "figure_recreation",
+    "source_sha256": "00446089e641e272bf22f5ef4241bfc7a987d87ac7bcbab5fae2cbe55e2780e5",
+    "source_crop_pdf_points": [
+      113,
+      78,
+      492,
+      217
+    ],
+    "raster_details": [
+      {
+        "id": "robot-state-s",
+        "source_pixels": [
+          207,
+          181,
+          260,
+          233
+        ],
+        "detail": "Individual original quadruped illustration"
+      },
+      {
+        "id": "robot-state-sp",
+        "source_pixels": [
+          365,
+          114,
+          418,
+          168
+        ],
+        "detail": "Individual original quadruped illustration"
+      },
+      {
+        "id": "mapping-formula",
+        "source_pixels": [
+          594,
+          13,
+          725,
+          49
+        ],
+        "detail": "Original isolated mathematical expression; formula pixels remain raster"
+      },
+      {
+        "id": "language-far-formula",
+        "source_pixels": [
+          402,
+          163,
+          530,
+          183
+        ],
+        "detail": "Original isolated mathematical expression; formula pixels remain raster"
+      },
+      {
+        "id": "language-near-formula",
+        "source_pixels": [
+          267,
+          241,
+          374,
+          290
+        ],
+        "detail": "Original isolated mathematical expression; formula pixels remain raster"
+      },
+      {
+        "id": "distance-formula",
+        "source_pixels": [
+          568,
+          250,
+          680,
+          286
+        ],
+        "detail": "Original isolated mathematical expression; formula pixels remain raster"
+      },
+      {
+        "id": "latent-s-formula",
+        "source_pixels": [
+          847,
+          251,
+          900,
+          282
+        ],
+        "detail": "Original isolated mathematical expression; formula pixels remain raster"
+      },
+      {
+        "id": "latent-sp-formula",
+        "source_pixels": [
+          968,
+          161,
+          1027,
+          198
+        ],
+        "detail": "Original isolated mathematical expression; formula pixels remain raster"
+      },
+      {
+        "id": "gaussian-prior-formula",
+        "source_pixels": [
+          938,
+          243,
+          1068,
+          280
+        ],
+        "detail": "Original isolated mathematical expression; formula pixels remain raster"
+      },
+      {
+        "id": "distance-constraint",
+        "source_pixels": [
+          796,
+          376,
+          1095,
+          410
+        ],
+        "detail": "Original isolated mathematical expression; formula pixels remain raster"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "state-plane",
+      "shape": "path",
+      "x": 12,
+      "y": 97,
+      "width": 533,
+      "height": 232,
+      "fill": "none",
+      "stroke": "#777777",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 231
+          }
+        },
+        {
+          "lineTo": {
+            "x": 206,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 533,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 325,
+            "y": 232
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 1,
+      "dash": false
+    },
+    {
+      "id": "latent-space",
+      "shape": "ellipse",
+      "x": 762,
+      "y": 101,
+      "width": 357,
+      "height": 250,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.8
+    },
+    {
+      "id": "state-label",
+      "shape": "text",
+      "x": 240,
+      "y": 32,
+      "width": 144,
+      "height": 31,
+      "fill": "none",
+      "stroke": "none",
+      "label": "State space",
+      "font_size": 26,
+      "font_family": "Arial",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "latent-label",
+      "shape": "text",
+      "x": 869,
+      "y": 34,
+      "width": 151,
+      "height": 32,
+      "fill": "none",
+      "stroke": "none",
+      "label": "Latent space",
+      "font_size": 26,
+      "font_family": "Arial",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "robot-state-s",
+      "shape": "image",
+      "x": 207,
+      "y": 181,
+      "width": 53,
+      "height": 52,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "robot-state-s.png",
+      "alt": "Individual original quadruped illustration"
+    },
+    {
+      "id": "robot-state-sp",
+      "shape": "image",
+      "x": 365,
+      "y": 114,
+      "width": 53,
+      "height": 54,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "robot-state-sp.png",
+      "alt": "Individual original quadruped illustration"
+    },
+    {
+      "id": "origin-point",
+      "shape": "ellipse",
+      "x": 123,
+      "y": 263,
+      "width": 9,
+      "height": 9,
+      "fill": "#FFFFFF",
+      "stroke": "#555555",
+      "stroke_width": 1
+    },
+    {
+      "id": "latent-s-point",
+      "shape": "ellipse",
+      "x": 876,
+      "y": 241,
+      "width": 9,
+      "height": 9,
+      "fill": "#FFFFFF",
+      "stroke": "#555555",
+      "stroke_width": 1
+    },
+    {
+      "id": "latent-sp-point",
+      "shape": "ellipse",
+      "x": 969,
+      "y": 153,
+      "width": 9,
+      "height": 9,
+      "fill": "#FFFFFF",
+      "stroke": "#555555",
+      "stroke_width": 1
+    },
+    {
+      "id": "origin-to-s",
+      "shape": "path",
+      "x": 136,
+      "y": 218,
+      "width": 70,
+      "height": 43,
+      "fill": "none",
+      "stroke": "#555555",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 43
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9,
+            "y1": 17,
+            "x2": 43,
+            "y2": 3,
+            "x": 70,
+            "y": 0
+          }
+        }
+      ],
+      "stroke_width": 1.8,
+      "dash": false
+    },
+    {
+      "id": "origin-to-s-tip",
+      "shape": "path",
+      "x": 190.3463311788905,
+      "y": 212.94775768207577,
+      "width": 15.653668821109505,
+      "height": 13.41743041809383,
+      "fill": "none",
+      "stroke": "#555555",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 1.4908256020104318,
+            "y": 13.41743041809383
+          }
+        },
+        {
+          "lineTo": {
+            "x": 15.653668821109505,
+            "y": 5.052242317924225
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      "stroke_width": 1.6,
+      "dash": false
+    },
+    {
+      "id": "s-to-sp",
+      "shape": "path",
+      "x": 260,
+      "y": 151,
+      "width": 100,
+      "height": 37,
+      "fill": "none",
+      "stroke": "#555555",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 37
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 36,
+            "y1": 14,
+            "x2": 60,
+            "y2": 0,
+            "x": 100,
+            "y": 6
+          }
+        }
+      ],
+      "stroke_width": 1.8,
+      "dash": false
+    },
+    {
+      "id": "s-to-sp-tip",
+      "shape": "path",
+      "x": 345.22034620638334,
+      "y": 148.6929346359063,
+      "width": 14.77965379361666,
+      "height": 12.460598046140547,
+      "fill": "none",
+      "stroke": "#555555",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 12.460598046140547
+          }
+        },
+        {
+          "lineTo": {
+            "x": 14.77965379361666,
+            "y": 8.307065364093688
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.869089706921045,
+            "y": 0.0
+          }
+        }
+      ],
+      "stroke_width": 1.6,
+      "dash": false
+    },
+    {
+      "id": "phi-map",
+      "shape": "path",
+      "x": 562,
+      "y": 38,
+      "width": 211,
+      "height": 47,
+      "fill": "none",
+      "stroke": "#555555",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 44
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 46,
+            "y1": 0,
+            "x2": 159,
+            "y2": 18,
+            "x": 211,
+            "y": 47
+          }
+        }
+      ],
+      "stroke_width": 1.6,
+      "dash": false
+    },
+    {
+      "id": "phi-map-tip",
+      "shape": "path",
+      "x": 757.7043753778703,
+      "y": 72.6788511883229,
+      "width": 15.295624622129708,
+      "height": 12.321148811677105,
+      "fill": "none",
+      "stroke": "#555555",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 11.004384816536032
+          }
+        },
+        {
+          "lineTo": {
+            "x": 15.295624622129708,
+            "y": 12.321148811677105
+          }
+        },
+        {
+          "lineTo": {
+            "x": 6.137060763068121,
+            "y": 0.0
+          }
+        }
+      ],
+      "stroke_width": 1.6,
+      "dash": false
+    },
+    {
+      "id": "latent-displacement",
+      "shape": "path",
+      "x": 889,
+      "y": 164,
+      "width": 76,
+      "height": 73,
+      "fill": "none",
+      "stroke": "#555555",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 73
+          }
+        },
+        {
+          "lineTo": {
+            "x": 76,
+            "y": 0
+          }
+        }
+      ],
+      "stroke_width": 1.3,
+      "dash": false
+    },
+    {
+      "id": "latent-displacement-head",
+      "shape": "path",
+      "x": 954.6707413639127,
+      "y": 164,
+      "width": 10.329258636087275,
+      "height": 10.172682827639477,
+      "fill": "none",
+      "stroke": "#555555",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 6.2345640091036785,
+            "y": 10.172682827639477
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.329258636087275,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 3.6819038592575737
+          }
+        }
+      ],
+      "stroke_width": 1.6,
+      "dash": false
+    },
+    {
+      "id": "latent-prior-vector",
+      "shape": "path",
+      "x": 910,
+      "y": 230,
+      "width": 87,
+      "height": 15,
+      "fill": "none",
+      "stroke": "#6EA4DC",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 15
+          }
+        },
+        {
+          "lineTo": {
+            "x": 87,
+            "y": 0
+          }
+        }
+      ],
+      "stroke_width": 1.6,
+      "dash": false
+    },
+    {
+      "id": "latent-prior-head",
+      "shape": "path",
+      "x": 986.3808177182722,
+      "y": 227.26449864422688,
+      "width": 10.61918228172783,
+      "height": 8.869141041699152,
+      "fill": "none",
+      "stroke": "#6EA4DC",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 1.5291622485688094,
+            "y": 8.869141041699152
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.61918228172783,
+            "y": 2.735501355773124
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      "stroke_width": 1.6,
+      "dash": false
+    },
+    {
+      "id": "llm-near-route",
+      "shape": "path",
+      "x": 240,
+      "y": 251,
+      "width": 168,
+      "height": 54,
+      "fill": "none",
+      "stroke": "#555555",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 168,
+            "y": 54
+          }
+        }
+      ],
+      "stroke_width": 1.7,
+      "dash": true,
+      "dash_style": "dotted",
+      "dash_pattern": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "llm-near-route-tip",
+      "shape": "path",
+      "x": 399.2821384602306,
+      "y": 299.1246237360681,
+      "width": 8.717861539769387,
+      "height": 6.854605641253897,
+      "fill": "#555555",
+      "stroke": "#555555",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 6.854605641253897
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.717861539769387,
+            "y": 5.875376263931912
+          }
+        },
+        {
+          "lineTo": {
+            "x": 2.2032660989744954,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "llm-far-route",
+      "shape": "path",
+      "x": 390,
+      "y": 182,
+      "width": 144,
+      "height": 2,
+      "fill": "none",
+      "stroke": "#555555",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 144,
+            "y": 2
+          }
+        }
+      ],
+      "stroke_width": 1.7,
+      "dash": true,
+      "dash_style": "dotted",
+      "dash_pattern": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "llm-far-route-tip",
+      "shape": "path",
+      "x": 525.9507763151569,
+      "y": 180.28924677606955,
+      "width": 8.049223684843128,
+      "height": 7.199305656008789,
+      "fill": "#555555",
+      "stroke": "#555555",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 7.199305656008789
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.049223684843128,
+            "y": 3.7107532239304533
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.09999035633336462,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "language-distance",
+      "shape": "path",
+      "x": 515,
+      "y": 216,
+      "width": 86,
+      "height": 78,
+      "fill": "none",
+      "stroke": "#555555",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 78
+          }
+        },
+        {
+          "lineTo": {
+            "x": 86,
+            "y": 0
+          }
+        }
+      ],
+      "stroke_width": 1.7,
+      "dash": true,
+      "dash_style": "dotted",
+      "dash_pattern": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "language-distance-tip",
+      "shape": "path",
+      "x": 592.6557139435248,
+      "y": 216,
+      "width": 8.344286056475198,
+      "height": 8.041108032953304,
+      "fill": "#555555",
+      "stroke": "#555555",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 4.837067557097953,
+            "y": 8.041108032953304
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.344286056475198,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 2.707930982819761
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "language-distance-head",
+      "shape": "path",
+      "x": 515,
+      "y": 285.95889196704667,
+      "width": 8.344286056475198,
+      "height": 8.041108032953332,
+      "fill": "#555555",
+      "stroke": "#555555",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 3.5072184993772453,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 8.041108032953332
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.344286056475198,
+            "y": 5.3331770501335996
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "origin",
+      "shape": "text",
+      "x": 82,
+      "y": 278,
+      "width": 81,
+      "height": 28,
+      "fill": "none",
+      "stroke": "none",
+      "label": "origin",
+      "font_size": 26,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "state-s",
+      "shape": "text",
+      "x": 213,
+      "y": 233,
+      "width": 26,
+      "height": 23,
+      "fill": "none",
+      "stroke": "none",
+      "label": "s",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "state-sp",
+      "shape": "text",
+      "x": 366,
+      "y": 168,
+      "width": 27,
+      "height": 24,
+      "fill": "none",
+      "stroke": "none",
+      "label": "s′",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "far-description",
+      "shape": "text",
+      "x": 538,
+      "y": 164,
+      "width": 200,
+      "height": 42,
+      "fill": "none",
+      "stroke": "none",
+      "label": "\"Robot is far\nfrom the origin\"",
+      "font_size": 19,
+      "font_family": "Courier New",
+      "text_color": "#000000",
+      "bold": true,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "near-description",
+      "shape": "text",
+      "x": 410,
+      "y": 306,
+      "width": 199,
+      "height": 42,
+      "fill": "none",
+      "stroke": "none",
+      "label": "\"Robot is near\nthe origin\"",
+      "font_size": 19,
+      "font_family": "Courier New",
+      "text_color": "#000000",
+      "bold": true,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "prompt",
+      "shape": "text",
+      "x": 58,
+      "y": 383,
+      "width": 638,
+      "height": 28,
+      "fill": "none",
+      "stroke": "none",
+      "label": "Prompt : How far the robot is from the origin?",
+      "font_size": 22,
+      "font_family": "Courier New",
+      "text_color": "#000000",
+      "bold": true,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "mapping-formula",
+      "shape": "image",
+      "x": 594,
+      "y": 13,
+      "width": 131,
+      "height": 36,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "mapping-formula.png",
+      "alt": "Original isolated mathematical expression; formula pixels remain raster"
+    },
+    {
+      "id": "language-far-formula",
+      "shape": "image",
+      "x": 402,
+      "y": 163,
+      "width": 128,
+      "height": 20,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "language-far-formula.png",
+      "alt": "Original isolated mathematical expression; formula pixels remain raster"
+    },
+    {
+      "id": "language-near-formula",
+      "shape": "image",
+      "x": 267,
+      "y": 241,
+      "width": 107,
+      "height": 49,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "language-near-formula.png",
+      "alt": "Original isolated mathematical expression; formula pixels remain raster"
+    },
+    {
+      "id": "distance-formula",
+      "shape": "image",
+      "x": 568,
+      "y": 250,
+      "width": 112,
+      "height": 36,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "distance-formula.png",
+      "alt": "Original isolated mathematical expression; formula pixels remain raster"
+    },
+    {
+      "id": "latent-s-formula",
+      "shape": "image",
+      "x": 847,
+      "y": 251,
+      "width": 53,
+      "height": 31,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "latent-s-formula.png",
+      "alt": "Original isolated mathematical expression; formula pixels remain raster"
+    },
+    {
+      "id": "latent-sp-formula",
+      "shape": "image",
+      "x": 968,
+      "y": 161,
+      "width": 59,
+      "height": 37,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "latent-sp-formula.png",
+      "alt": "Original isolated mathematical expression; formula pixels remain raster"
+    },
+    {
+      "id": "gaussian-prior-formula",
+      "shape": "image",
+      "x": 938,
+      "y": 243,
+      "width": 130,
+      "height": 37,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "gaussian-prior-formula.png",
+      "alt": "Original isolated mathematical expression; formula pixels remain raster"
+    },
+    {
+      "id": "distance-constraint",
+      "shape": "image",
+      "x": 796,
+      "y": 376,
+      "width": 299,
+      "height": 34,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "distance-constraint.png",
+      "alt": "Original isolated mathematical expression; formula pixels remain raster"
+    }
+  ],
+  "edges": []
+}

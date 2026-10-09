@@ -1,0 +1,138 @@
+{
+  "schema_version": 1,
+  "diagram_id": "tref-figure-1",
+  "source_sha256": "519a261e195cf8259a349887e5efbee877b8fe0d697ad773280ab07e97085704",
+  "assets": [
+    {
+      "name": "assets/influence-photo.png",
+      "sha256": "c653002e1a0ee5e6c4f17c3fb63035a8dc8a0d0f7f9f2f00311fe5d29cdb8a1c"
+    },
+    {
+      "name": "assets/ood-frame-photo.png",
+      "sha256": "09b6b0d80c8dd32b8321afd0209e15221c9fcb4a66de27d469438bf162060f60"
+    },
+    {
+      "name": "assets/ood-rgbd-photo.png",
+      "sha256": "ba7728f7993e9c544574e1de276148905b9391c66c4e41f5c8ea0c862896813f"
+    },
+    {
+      "name": "assets/rollout-photo.png",
+      "sha256": "7a8cd4162e024559134bbf06617ecf33ad961f64ae742c39414c30b54b4481ff"
+    },
+    {
+      "name": "assets/single-demo-photo.png",
+      "sha256": "c39d964e555e5c6ee255ff71d6b033c50406b7844dce0ddef8f2cf1879b5d1c8"
+    },
+    {
+      "name": "assets/task-frame-photo.png",
+      "sha256": "50fc3e3d0e0e82f898b7e635010daecc671b1397c06884d72bb886ab77eec8c5"
+    }
+  ],
+  "provenance": {
+    "paper_title": "TReF-6: Inferring Task-Relevant Frames from a Single Demonstration for One-Shot Skill Generalization",
+    "paper_url": "https://arxiv.org/abs/2509.00310v2",
+    "pdf_url": "https://arxiv.org/pdf/2509.00310v2",
+    "figure": "Figure 1",
+    "page": 2,
+    "license": "unverified Private user-requested adaptation; no public redistribution permission implied.",
+    "status": "figure_recreation",
+    "notes": "Manually reconstructed from the inspected original flattened PDF figure. Ordinary labels are live typeable text; panels, graph geometry and arrows are native editable shapes or paths. Source layout and contents retained; font metrics, line widths and decorative effects approximated. Flattened source reconstructed with native panels, arrows and all ordinary live text. Six isolated source RGB-D photographs retain internal camera/trajectory/coordinate details. Original arrow gradients approximated with solid editable colors.",
+    "source_sha256": "22207c5626b7940b09259125921a5d7cb70f22807eba55488b22a6204aeee009",
+    "source_crop_pdf_points": [
+      111,
+      75,
+      499,
+      303
+    ],
+    "survey_crop_correction": false,
+    "visual_inspection": "Original PDF figure inspected before source-layout reconstruction on 2026-10-09; independent application QA pending.",
+    "raster_details": [
+      {
+        "id": "single-demo-photo",
+        "bounds_source_pixels": [
+          56,
+          80,
+          216,
+          228
+        ],
+        "detail": "Discrete original RGB-D photograph/rendering; internal scene, camera and trajectory overlays remain raster"
+      },
+      {
+        "id": "influence-photo",
+        "bounds_source_pixels": [
+          441,
+          79,
+          612,
+          233
+        ],
+        "detail": "Discrete original RGB-D photograph/rendering; internal scene, camera and trajectory overlays remain raster"
+      },
+      {
+        "id": "task-frame-photo",
+        "bounds_source_pixels": [
+          814,
+          79,
+          980,
+          247
+        ],
+        "detail": "Discrete original RGB-D photograph/rendering; internal scene, camera and trajectory overlays remain raster"
+      },
+      {
+        "id": "ood-rgbd-photo",
+        "bounds_source_pixels": [
+          61,
+          417,
+          263,
+          577
+        ],
+        "detail": "Discrete original RGB-D photograph/rendering; internal scene, camera and trajectory overlays remain raster"
+      },
+      {
+        "id": "ood-frame-photo",
+        "bounds_source_pixels": [
+          507,
+          417,
+          724,
+          581
+        ],
+        "detail": "Discrete original RGB-D photograph/rendering; internal scene, camera and trajectory overlays remain raster"
+      },
+      {
+        "id": "rollout-photo",
+        "bounds_source_pixels": [
+          803,
+          480,
+          980,
+          639
+        ],
+        "detail": "Discrete original RGB-D photograph/rendering; internal scene, camera and trajectory overlays remain raster"
+      }
+    ]
+  },
+  "metrics": {
+    "native_nodes": 63,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 38,
+    "native_text_objects": 25,
+    "raster_images": 6,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "tref-figure-1.drawio",
+      "sha256": "828d115edd312a06b7e1b2a4aa0fa44beb96aef00efbe1337e67ffe690626ffc"
+    },
+    {
+      "name": "tref-figure-1.png",
+      "sha256": "f3a5574ed07e3b0a7b5dd449a160582506e31da2d053355e995ccb7fdb326ced"
+    },
+    {
+      "name": "tref-figure-1.pptx",
+      "sha256": "4aca06db3592f280b94bbc5129cc212a2dd7248be155a94d8eab68ef5e9296fb"
+    }
+  ]
+}

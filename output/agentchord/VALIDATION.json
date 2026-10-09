@@ -1,0 +1,41 @@
+{
+  "diagram_id": "agentchord-figure-2",
+  "source_scene_sha256": "dc2d310134aef67fd1f7ee216478b6f946718c684d05e643853f866facb7516f",
+  "source_pdf_sha256": "56a1a3c839b5850c82f072eea2cbc0f5c7b2da4da864a5b16f8e821d188d6757",
+  "checked_files": [
+    {
+      "name": "agentchord-figure-2.drawio",
+      "sha256": "1ca5c5a783a219112c7dade7f8c0e3e7eccbcc3b732fabe8dfca320f369f951f"
+    },
+    {
+      "name": "agentchord-figure-2.png",
+      "sha256": "3460632f57840969f59b26b22e6133dc61c0e1abbcf2865af07718b710e3a8e9"
+    },
+    {
+      "name": "agentchord-figure-2.pptx",
+      "sha256": "a625e51fb9f6a490b2a15a4415e5014e5275a4ddb9af5bf9e5e3055cd335a491"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 2 PDFpage4 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 333,
+    "p:pic": 19,
+    "a:custGeom": 278,
+    "p:cxnSp": 0,
+    "a:t": 36
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

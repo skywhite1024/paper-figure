@@ -1,0 +1,121 @@
+{
+  "diagram_id": "scaling-up-figure-4",
+  "source_scene_sha256": "ca1bb7f09a5ec3948756c3bcaa9393da4771e6f1c2f42a6d35c25448f9090654",
+  "source_pdf_sha256": "ef8689b7632897425bb0e537c33cd3999fc3d8cc1126fccf65b8e0d612233dce",
+  "checked_files": [
+    {
+      "name": "scaling-up-figure-4.drawio",
+      "sha256": "125015d11d8e6359246c4018479da4377b4f42fd6e419b659566e0f2c9023bf1"
+    },
+    {
+      "name": "scaling-up-figure-4.png",
+      "sha256": "9a516bf1921dbff73a729a3e60563830be1d71e8d3a7c3c7274f63d11d20bc4d"
+    },
+    {
+      "name": "scaling-up-figure-4.pptx",
+      "sha256": "2990ab8e1494f27504aeb77f6c758bd222a729623ea14060af1585cb070c9ab0"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      3.689,
+      3.735,
+      3.522
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_scene_asset_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 14,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; source edition/hash pinned",
+    "source_page_figure": "Independent PDF crop compared with original PNG and delivered preview",
+    "source_preview_visual": "passed with disclosed image/font/math/dash limitations"
+  },
+  "native_xml_counts": {
+    "p:sp": 50,
+    "p:pic": 3,
+    "a:custGeom": 14,
+    "p:cxnSp": 0,
+    "a:t": 36
+  },
+  "source_title": "Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition",
+  "typeable_labels": [
+    "",
+    "CLIP",
+    "text enc",
+    "",
+    "Resnet18",
+    "",
+    "Resnet18",
+    "",
+    "Diffusion",
+    "Policy",
+    "task desc",
+    "“send the package",
+    "for return”",
+    "vision",
+    "",
+    "",
+    "global",
+    "wrist",
+    "proprioception",
+    "gripper pose & command",
+    "concatenate",
+    "",
+    "aₜ",
+    "",
+    "aₜ₊₁",
+    "",
+    "aₜ₊₂",
+    "",
+    "aₜ₊₃",
+    "",
+    "aₜ₊₄",
+    "",
+    "···",
+    "a) Inputs",
+    "b) Networks",
+    "c) Action Sequence"
+  ],
+  "raster_nodes": [
+    {
+      "id": "global-observation",
+      "asset": "global-observation.png",
+      "x": 18,
+      "y": 201,
+      "width": 166,
+      "height": 93,
+      "canvas_area_fraction": 0.024
+    },
+    {
+      "id": "wrist-observation",
+      "asset": "wrist-observation.png",
+      "x": 192,
+      "y": 170,
+      "width": 167,
+      "height": 124,
+      "canvas_area_fraction": 0.032
+    },
+    {
+      "id": "robot-action-visualization",
+      "asset": "robot-action-visualization.png",
+      "x": 775,
+      "y": 3,
+      "width": 420,
+      "height": 411,
+      "canvas_area_fraction": 0.263
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

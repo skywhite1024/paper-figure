@@ -1,0 +1,264 @@
+{
+  "schema_version": 1,
+  "diagram_id": "sage-figure-2",
+  "source_sha256": "95f34076b4674a7da9d7d77b0692426f5a72d4cba45bdb147e202e62e2799e65",
+  "assets": [
+    {
+      "name": "sage-figure-2-raster-0.png",
+      "sha256": "2df1654c1400e2cf0e35513bc21f2926d18dd67c5c73e8d8ea9487af35ce72e2"
+    },
+    {
+      "name": "sage-figure-2-raster-1.png",
+      "sha256": "2d4f726c1ad2d3fa67292a8009e4b17f38ab332a24a69cf7f3947134795f25af"
+    },
+    {
+      "name": "sage-figure-2-raster-2.png",
+      "sha256": "4c97a30d0a2bff804f5f4fd01f9a94f51f442acd7eb7c9d51165fcc7bd6a6b16"
+    },
+    {
+      "name": "sage-figure-2-raster-3.png",
+      "sha256": "582722c8f12b04743c214e03424900a6763e6ed222afc1190df9ef7cce8b3f3c"
+    },
+    {
+      "name": "sage-figure-2-source-image-0.png",
+      "sha256": "6701b048e169e7261a2eaf416cf9440dde32a65f9e5ee604de65522cddff0bb6"
+    },
+    {
+      "name": "sage-figure-2-source-image-10.png",
+      "sha256": "66c2facfc6b6b942794eb3ff2d7a023350d19b06bc595299ccaba715214c36ed"
+    },
+    {
+      "name": "sage-figure-2-source-image-11.png",
+      "sha256": "66c2facfc6b6b942794eb3ff2d7a023350d19b06bc595299ccaba715214c36ed"
+    },
+    {
+      "name": "sage-figure-2-source-image-12.png",
+      "sha256": "66c2facfc6b6b942794eb3ff2d7a023350d19b06bc595299ccaba715214c36ed"
+    },
+    {
+      "name": "sage-figure-2-source-image-13.png",
+      "sha256": "66c2facfc6b6b942794eb3ff2d7a023350d19b06bc595299ccaba715214c36ed"
+    },
+    {
+      "name": "sage-figure-2-source-image-14.png",
+      "sha256": "46d2225495f26711e9a49a87fdb6d6dbbdd5fa4fdf13fd46c447effe56dcd570"
+    },
+    {
+      "name": "sage-figure-2-source-image-15.png",
+      "sha256": "10b76acd45f3f6c3d1185507181029e159bf392b2ea7a66502f6501c998c98f5"
+    },
+    {
+      "name": "sage-figure-2-source-image-16.png",
+      "sha256": "66c2facfc6b6b942794eb3ff2d7a023350d19b06bc595299ccaba715214c36ed"
+    },
+    {
+      "name": "sage-figure-2-source-image-17.png",
+      "sha256": "8a5349e880ed45c2b0baa1c80e85465eee7a004f1186d38b873c595f0fc2635c"
+    },
+    {
+      "name": "sage-figure-2-source-image-18.png",
+      "sha256": "a6e02cc98578fd3fdf44ede7c49411cf5eae07994a85c6c7b0d89d64f47bd0ce"
+    },
+    {
+      "name": "sage-figure-2-source-image-19.png",
+      "sha256": "ad4e6206aa76ebe6e66c29339873f52f1b5b31fa8713b70d411f6e9f1454804f"
+    },
+    {
+      "name": "sage-figure-2-source-image-3.png",
+      "sha256": "3276ccb0ab49de559fb6c7ad164b88eae2735e5bb69f6423f59c0783339ce3f1"
+    },
+    {
+      "name": "sage-figure-2-source-image-4.png",
+      "sha256": "c43d7781f46573d6b88ea854ef091063bd85a0d03b0c106491dfd22bb94c4ed6"
+    },
+    {
+      "name": "sage-figure-2-source-image-8.png",
+      "sha256": "66c2facfc6b6b942794eb3ff2d7a023350d19b06bc595299ccaba715214c36ed"
+    },
+    {
+      "name": "sage-figure-2-source-image-9.png",
+      "sha256": "2d5929728d17e267d64d13c648cc25cb222c7f4bf42ad44c717c514912414feb"
+    }
+  ],
+  "provenance": {
+    "paper_title": "SAGE: Scalable Agentic 3D Scene Generation for Embodied AI",
+    "paper_url": "https://arxiv.org/pdf/2602.10116v2",
+    "figure": "Figure 2",
+    "license": "unverified",
+    "notes": "Native extracted geometry and ordinary live text; source raster photos/icons are separately preserved. Source clipping and cross-format QA pending. Rotated labels reconstructed as native typeable text, duplicated PDF fill/stroke spans deduplicated. Four clipped room/photo insets restored at reviewed source-visible bounds. Photographic interiors and illustrated avatars remain raster assets.",
+    "page": 3,
+    "status": "figure_recreation",
+    "source_sha256": "d4a338d1778121a83866eeea8e9f8b035da05ecc50d94fd7db30f111d4484d67",
+    "source_crop_pdf_points": [
+      64,
+      70,
+      545,
+      248
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "outlined_font_families": [
+      "CMM",
+      "CMSY",
+      "CMEX",
+      "CambriaMath"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "dash_fidelity": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+    "extraction_warnings": [
+      "29 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 0",
+      "path partially intersects raster inset: 8",
+      "path partially intersects raster inset: 13",
+      "path partially intersects raster inset: 108",
+      "path partially intersects raster inset: 112",
+      "path partially intersects raster inset: 137",
+      "path partially intersects raster inset: 138",
+      "path partially intersects raster inset: 145",
+      "path partially intersects raster inset: 146",
+      "path partially intersects raster inset: 173",
+      "rotated text needs manual reconstruction: V",
+      "rotated text needs manual reconstruction: isu",
+      "rotated text needs manual reconstruction: a",
+      "rotated text needs manual reconstruction: l",
+      "rotated text needs manual reconstruction: V",
+      "rotated text needs manual reconstruction: isu",
+      "rotated text needs manual reconstruction: a",
+      "rotated text needs manual reconstruction: l",
+      "rotated text needs manual reconstruction: A",
+      "rotated text needs manual reconstruction: s",
+      "rotated text needs manual reconstruction: s",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: t",
+      "rotated text needs manual reconstruction: A",
+      "rotated text needs manual reconstruction: s",
+      "rotated text needs manual reconstruction: s",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: t",
+      "rotated text needs manual reconstruction: P",
+      "rotated text needs manual reconstruction: la",
+      "rotated text needs manual reconstruction: c",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: r",
+      "rotated text needs manual reconstruction: P",
+      "rotated text needs manual reconstruction: la",
+      "rotated text needs manual reconstruction: c",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: r",
+      "rotated text needs manual reconstruction: V",
+      "rotated text needs manual reconstruction: is",
+      "rotated text needs manual reconstruction: u",
+      "rotated text needs manual reconstruction: a",
+      "rotated text needs manual reconstruction: l",
+      "rotated text needs manual reconstruction: V",
+      "rotated text needs manual reconstruction: is",
+      "rotated text needs manual reconstruction: u",
+      "rotated text needs manual reconstruction: a",
+      "rotated text needs manual reconstruction: l",
+      "rotated text needs manual reconstruction: A",
+      "rotated text needs manual reconstruction: s",
+      "rotated text needs manual reconstruction: s",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: t",
+      "rotated text needs manual reconstruction: A",
+      "rotated text needs manual reconstruction: s",
+      "rotated text needs manual reconstruction: s",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: t",
+      "rotated text needs manual reconstruction: M",
+      "rotated text needs manual reconstruction: o",
+      "rotated text needs manual reconstruction: v",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: r",
+      "rotated text needs manual reconstruction: M",
+      "rotated text needs manual reconstruction: o",
+      "rotated text needs manual reconstruction: v",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: r",
+      "rotated text needs manual reconstruction: S",
+      "rotated text needs manual reconstruction: c",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: n",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: S",
+      "rotated text needs manual reconstruction: c",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: n",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: I",
+      "rotated text needs manual reconstruction: n",
+      "rotated text needs manual reconstruction: i",
+      "rotated text needs manual reconstruction: t",
+      "rotated text needs manual reconstruction: I",
+      "rotated text needs manual reconstruction: n",
+      "rotated text needs manual reconstruction: i",
+      "rotated text needs manual reconstruction: t",
+      "rotated text needs manual reconstruction: V",
+      "rotated text needs manual reconstruction: is",
+      "rotated text needs manual reconstruction: u",
+      "rotated text needs manual reconstruction: a",
+      "rotated text needs manual reconstruction: l",
+      "rotated text needs manual reconstruction: V",
+      "rotated text needs manual reconstruction: is",
+      "rotated text needs manual reconstruction: u",
+      "rotated text needs manual reconstruction: a",
+      "rotated text needs manual reconstruction: l",
+      "rotated text needs manual reconstruction: A",
+      "rotated text needs manual reconstruction: s",
+      "rotated text needs manual reconstruction: s",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: t",
+      "rotated text needs manual reconstruction: A",
+      "rotated text needs manual reconstruction: s",
+      "rotated text needs manual reconstruction: s",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: t",
+      "rotated text needs manual reconstruction: R",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: m",
+      "rotated text needs manual reconstruction: o",
+      "rotated text needs manual reconstruction: v",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: r",
+      "rotated text needs manual reconstruction: R",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: m",
+      "rotated text needs manual reconstruction: o",
+      "rotated text needs manual reconstruction: v",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: r",
+      "unhandled image/shading at seq 2: [454.826904296875, 139.8607177734375, 566.0752563476562, 202.35289001464844]; requires reviewed raster region",
+      "unhandled image/shading at seq 3: [254.4501953125, 184.58998107910156, 365.68035888671875, 247.0821990966797]; requires reviewed raster region",
+      "unhandled image/shading at seq 6: [350.0499572753906, 205.08326721191406, 378.58099365234375, 240.33291625976562]; requires reviewed raster region",
+      "unhandled image/shading at seq 7: [282.3961486816406, 178.78121948242188, 435.5364990234375, 264.87457275390625]; requires reviewed raster region",
+      "unhandled image/shading at seq 9: [45.757694244384766, 145.38282775878906, 157.0401153564453, 207.967041015625]; requires reviewed raster region"
+    ],
+    "ignored_invisible_text_spans": 0
+  },
+  "metrics": {
+    "native_nodes": 156,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 85,
+    "native_text_objects": 71,
+    "raster_images": 19,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "sage-figure-2.drawio",
+      "sha256": "2f703c828177496c4bb6b7180c2d6a40dee919049ba9cff9c2e020217894c7ac"
+    },
+    {
+      "name": "sage-figure-2.png",
+      "sha256": "0a8cfb4d5200f9ffa4b987a14e4c91532a5631079ff9a90e82f76a9543039fcc"
+    },
+    {
+      "name": "sage-figure-2.pptx",
+      "sha256": "1c36e6b6c9c93d7f3c93a5830e671ee316e2c3662544bd2758203f4fb25aa974"
+    }
+  ]
+}

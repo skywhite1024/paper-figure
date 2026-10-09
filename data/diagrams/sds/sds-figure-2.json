@@ -1,0 +1,2156 @@
+{
+  "schema_version": 1,
+  "id": "sds-figure-2",
+  "title": "SDS: See It, Do It, Sorted: Quadruped Skill Synthesis from Single Video Demonstration · Figure 2",
+  "canvas": {
+    "width": 1191,
+    "height": 594
+  },
+  "provenance": {
+    "paper_title": "SDS: See It, Do It, Sorted: Quadruped Skill Synthesis from Single Video Demonstration",
+    "paper_url": "https://arxiv.org/pdf/2410.11571v2",
+    "figure": "Figure 2",
+    "page": 3,
+    "license": "unverified",
+    "notes": "Native source-layout reconstruction of flattened original. Ordinary labels and code are typeable. Diagram shapes and logical arrows are native. Explicitly bounded source photographs, icons and mathematical formula inserts retain raster pixels. Font metrics and path coordinates are measured approximations. SDS contains four isolated original visual inserts: logo, demonstration photo frames, contact-sequence visualization and robot simulation montage. Prompt/code, stage numbers and all loop geometry are typeable/native.",
+    "status": "figure_recreation",
+    "source_sha256": "325aa366b545510fde2a88c25185748746518bfa0876daf654a75a102f117ade",
+    "source_crop_pdf_points": [
+      108,
+      311,
+      505,
+      509
+    ],
+    "raster_details": [
+      {
+        "id": "gpt-logo",
+        "source_pixels": [
+          413,
+          141,
+          471,
+          193
+        ],
+        "detail": "Original GPT-4o logo icon"
+      },
+      {
+        "id": "demonstration-video",
+        "source_pixels": [
+          57,
+          346,
+          244,
+          454
+        ],
+        "detail": "Original layered animal video frames; individual source photo strip"
+      },
+      {
+        "id": "contact-sequence-visualization",
+        "source_pixels": [
+          267,
+          342,
+          457,
+          448
+        ],
+        "detail": "Original frame and contact-sequence visual data; internal pixels remain raster"
+      },
+      {
+        "id": "ppo-training-robots",
+        "source_pixels": [
+          886,
+          299,
+          1086,
+          542
+        ],
+        "detail": "Original simulated quadruped training montage; internal pixels remain raster"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "outer-cycle",
+      "shape": "path",
+      "x": 21,
+      "y": 17,
+      "width": 1148,
+      "height": 566,
+      "fill": "none",
+      "stroke": "#48526E",
+      "stroke_width": 1,
+      "dash": true,
+      "dash_style": "dashed",
+      "dash_pattern": [
+        5,
+        4
+      ],
+      "commands": [
+        {
+          "moveTo": {
+            "x": 46,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1102,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 1127.4050985,
+            "y1": 0,
+            "x2": 1148,
+            "y2": 20.5949015,
+            "x": 1148,
+            "y": 46
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1148,
+            "y": 520
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 1148,
+            "y1": 545.4050985,
+            "x2": 1127.4050985,
+            "y2": 566,
+            "x": 1102,
+            "y": 566
+          }
+        },
+        {
+          "lineTo": {
+            "x": 46,
+            "y": 566
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 20.5949015,
+            "y1": 566,
+            "x2": 0,
+            "y2": 545.4050985,
+            "x": 0,
+            "y": 520
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 46
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 20.5949015,
+            "x2": 20.5949015,
+            "y2": 0,
+            "x": 46,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ]
+    },
+    {
+      "id": "learning-panel",
+      "shape": "path",
+      "x": 517,
+      "y": 28,
+      "width": 639,
+      "height": 538,
+      "fill": "#F0F0F0",
+      "stroke": "#C5C5C5",
+      "stroke_width": 2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 26,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 613,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 627.3594035,
+            "y1": 0,
+            "x2": 639,
+            "y2": 11.640596500000001,
+            "x": 639,
+            "y": 26
+          }
+        },
+        {
+          "lineTo": {
+            "x": 639,
+            "y": 512
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 639,
+            "y1": 526.3594035,
+            "x2": 627.3594035,
+            "y2": 538,
+            "x": 613,
+            "y": 538
+          }
+        },
+        {
+          "lineTo": {
+            "x": 26,
+            "y": 538
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.640596500000001,
+            "y1": 538,
+            "x2": 0,
+            "y2": 526.3594035,
+            "x": 0,
+            "y": 512
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 26
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 11.640596500000001,
+            "x2": 11.640596500000001,
+            "y2": 0,
+            "x": 26,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ]
+    },
+    {
+      "id": "prompt-panel",
+      "shape": "path",
+      "x": 32,
+      "y": 115,
+      "width": 442,
+      "height": 358,
+      "fill": "#A98D69",
+      "stroke": "#BBA78C",
+      "stroke_width": 1,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 18,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 424,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 433.9411255,
+            "y1": 0,
+            "x2": 442,
+            "y2": 8.0588745,
+            "x": 442,
+            "y": 18
+          }
+        },
+        {
+          "lineTo": {
+            "x": 442,
+            "y": 340
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 442,
+            "y1": 349.9411255,
+            "x2": 433.9411255,
+            "y2": 358,
+            "x": 424,
+            "y": 358
+          }
+        },
+        {
+          "lineTo": {
+            "x": 18,
+            "y": 358
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.0588745,
+            "y1": 358,
+            "x2": 0,
+            "y2": 349.9411255,
+            "x": 0,
+            "y": 340
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 18
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 8.0588745,
+            "x2": 8.0588745,
+            "y2": 0,
+            "x": 18,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ]
+    },
+    {
+      "id": "env-code",
+      "shape": "rounded_rect",
+      "x": 45,
+      "y": 140,
+      "width": 240,
+      "height": 155,
+      "fill": "none",
+      "stroke": "#FFFFFF",
+      "stroke_width": 2.5
+    },
+    {
+      "id": "env-label",
+      "shape": "text",
+      "x": 65,
+      "y": 159,
+      "width": 204,
+      "height": 30,
+      "fill": "none",
+      "stroke": "none",
+      "label": "IsaacGym Env Code",
+      "font_size": 20,
+      "font_family": "Times New Roman",
+      "text_color": "#FFFFFF",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "env-code-live",
+      "shape": "text",
+      "x": 87,
+      "y": 199,
+      "width": 191,
+      "height": 76,
+      "fill": "none",
+      "stroke": "none",
+      "label": "def get_observation(self):\n  self.root_states = ...\n  self.dof_states = ...\n  self.contact_force = …",
+      "font_size": 11,
+      "font_family": "Courier New",
+      "text_color": "#FFFFFF",
+      "bold": true,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "gpt-label",
+      "shape": "text",
+      "x": 291,
+      "y": 143,
+      "width": 121,
+      "height": 49,
+      "fill": "none",
+      "stroke": "none",
+      "label": "GPT-4o",
+      "font_size": 34,
+      "font_family": "Times New Roman",
+      "text_color": "#FFFFFF",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "gpt-logo",
+      "shape": "image",
+      "x": 413,
+      "y": 141,
+      "width": 58,
+      "height": 52,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "gpt-logo.png",
+      "alt": "Original GPT-4o logo icon"
+    },
+    {
+      "id": "evolution-prompt",
+      "shape": "path",
+      "x": 299,
+      "y": 217,
+      "width": 165,
+      "height": 69,
+      "fill": "#848485",
+      "stroke": "#E5E5E5",
+      "stroke_width": 1,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 13,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 152,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 159.17970175,
+            "y1": 0,
+            "x2": 165,
+            "y2": 5.8202982500000005,
+            "x": 165,
+            "y": 13
+          }
+        },
+        {
+          "lineTo": {
+            "x": 165,
+            "y": 56
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 165,
+            "y1": 63.17970175,
+            "x2": 159.17970175,
+            "y2": 69,
+            "x": 152,
+            "y": 69
+          }
+        },
+        {
+          "lineTo": {
+            "x": 13,
+            "y": 69
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.8202982500000005,
+            "y1": 69,
+            "x2": 0,
+            "y2": 63.17970175,
+            "x": 0,
+            "y": 56
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 13
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 5.8202982500000005,
+            "x2": 5.8202982500000005,
+            "y2": 0,
+            "x": 13,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ]
+    },
+    {
+      "id": "evolution-label",
+      "shape": "text",
+      "x": 304,
+      "y": 229,
+      "width": 154,
+      "height": 50,
+      "fill": "none",
+      "stroke": "none",
+      "label": "Evolution\nPrompt",
+      "font_size": 21,
+      "font_family": "Times New Roman",
+      "text_color": "#FFFFFF",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "sus-banner",
+      "shape": "rect",
+      "x": 32,
+      "y": 304,
+      "width": 442,
+      "height": 31,
+      "fill": "#936B3C",
+      "stroke": "#E0D7CB",
+      "stroke_width": 1
+    },
+    {
+      "id": "sus-label",
+      "shape": "text",
+      "x": 130,
+      "y": 304,
+      "width": 250,
+      "height": 32,
+      "fill": "none",
+      "stroke": "none",
+      "label": "SUS PROMPT",
+      "font_size": 31,
+      "font_family": "Times New Roman",
+      "text_color": "#FFFFFF",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "demonstration-video",
+      "shape": "image",
+      "x": 57,
+      "y": 346,
+      "width": 187,
+      "height": 108,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "demonstration-video.png",
+      "alt": "Original layered animal video frames; individual source photo strip"
+    },
+    {
+      "id": "contact-sequence-visualization",
+      "shape": "image",
+      "x": 267,
+      "y": 342,
+      "width": 190,
+      "height": 106,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "contact-sequence-visualization.png",
+      "alt": "Original frame and contact-sequence visual data; internal pixels remain raster"
+    },
+    {
+      "id": "generation-dashes",
+      "shape": "rect",
+      "x": 533,
+      "y": 45,
+      "width": 160,
+      "height": 209,
+      "fill": "none",
+      "stroke": "#747474",
+      "stroke_width": 1.8,
+      "dash": true,
+      "dash_style": "dashed",
+      "dash_pattern": [
+        5,
+        4
+      ]
+    },
+    {
+      "id": "filter-dashes",
+      "shape": "rect",
+      "x": 551,
+      "y": 83,
+      "width": 127,
+      "height": 158,
+      "fill": "none",
+      "stroke": "#333333",
+      "stroke_width": 2.7,
+      "dash": true,
+      "dash_style": "dotted",
+      "dash_pattern": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "generation-heading",
+      "shape": "text",
+      "x": 537,
+      "y": 49,
+      "width": 153,
+      "height": 30,
+      "fill": "none",
+      "stroke": "none",
+      "label": "RF Generation",
+      "font_size": 24,
+      "font_family": "Times New Roman",
+      "text_color": "#333333",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "filter-heading",
+      "shape": "text",
+      "x": 555,
+      "y": 84,
+      "width": 120,
+      "height": 28,
+      "fill": "none",
+      "stroke": "none",
+      "label": "RF Filtering",
+      "font_size": 20,
+      "font_family": "Times New Roman",
+      "text_color": "#333333",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "bad-rf",
+      "shape": "rect",
+      "x": 591,
+      "y": 115,
+      "width": 58,
+      "height": 30,
+      "fill": "#DEDEDE",
+      "stroke": "#333333",
+      "stroke_width": 1.5
+    },
+    {
+      "id": "best-rf",
+      "shape": "rect",
+      "x": 591,
+      "y": 177,
+      "width": 58,
+      "height": 32,
+      "fill": "#DEDEDE",
+      "stroke": "#5D5D5D",
+      "stroke_width": 6
+    },
+    {
+      "id": "bad-rf-label",
+      "shape": "text",
+      "x": 594,
+      "y": 117,
+      "width": 52,
+      "height": 27,
+      "fill": "none",
+      "stroke": "none",
+      "label": "{RF₁}",
+      "font_size": 21,
+      "font_family": "Times New Roman",
+      "text_color": "#333333",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "best-rf-label",
+      "shape": "text",
+      "x": 594,
+      "y": 179,
+      "width": 52,
+      "height": 27,
+      "fill": "none",
+      "stroke": "none",
+      "label": "{RF₈}",
+      "font_size": 21,
+      "font_family": "Times New Roman",
+      "text_color": "#666666",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "rf-dots",
+      "shape": "text",
+      "x": 601,
+      "y": 143,
+      "width": 35,
+      "height": 31,
+      "fill": "none",
+      "stroke": "none",
+      "label": "⋮",
+      "font_size": 24,
+      "font_family": "Times New Roman",
+      "text_color": "#333333",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "rf-cross-1",
+      "shape": "path",
+      "x": 568,
+      "y": 123,
+      "width": 16,
+      "height": 14,
+      "fill": "none",
+      "stroke": "#D07D81",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16,
+            "y": 14
+          }
+        }
+      ],
+      "stroke_width": 6,
+      "dash": false
+    },
+    {
+      "id": "rf-cross-2",
+      "shape": "path",
+      "x": 568,
+      "y": 122,
+      "width": 16,
+      "height": 15,
+      "fill": "none",
+      "stroke": "#D07D81",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 16,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 15
+          }
+        }
+      ],
+      "stroke_width": 6,
+      "dash": false
+    },
+    {
+      "id": "rf-check",
+      "shape": "path",
+      "x": 562,
+      "y": 185,
+      "width": 23,
+      "height": 14,
+      "fill": "none",
+      "stroke": "#8D9A7E",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 6
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7,
+            "y": 14
+          }
+        },
+        {
+          "lineTo": {
+            "x": 23,
+            "y": 0
+          }
+        }
+      ],
+      "stroke_width": 6,
+      "dash": false
+    },
+    {
+      "id": "best-rf-tail",
+      "shape": "path",
+      "x": 622,
+      "y": 207,
+      "width": 17,
+      "height": 17,
+      "fill": "#555555",
+      "stroke": "#555555",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 17,
+            "y": 17
+          }
+        },
+        {
+          "lineTo": {
+            "x": 15,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "executable-dashes",
+      "shape": "rect",
+      "x": 720,
+      "y": 41,
+      "width": 414,
+      "height": 216,
+      "fill": "none",
+      "stroke": "#707070",
+      "stroke_width": 1.8,
+      "dash": true,
+      "dash_style": "dashed",
+      "dash_pattern": [
+        5,
+        4
+      ]
+    },
+    {
+      "id": "executable-heading",
+      "shape": "text",
+      "x": 799,
+      "y": 48,
+      "width": 257,
+      "height": 29,
+      "fill": "none",
+      "stroke": "none",
+      "label": "Executable RFs",
+      "font_size": 24,
+      "font_family": "Times New Roman",
+      "text_color": "#333333",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "reward-code",
+      "shape": "text",
+      "x": 739,
+      "y": 82,
+      "width": 390,
+      "height": 166,
+      "fill": "none",
+      "stroke": "none",
+      "label": "def compute_reward(self):\n    env = self.env\n\n    forward_vel_reward = env.base_lin_vel[:,0]\n    angular_vel_penalty = torch.sum(torch.abs(env.base_ang_vel), dim=1)\n\n    ...\n\n    total_reward = forward_vel_reward - angular_vel_penalty + ...\n\n    # return total reward and individual reward components\n    return total_reward, {\n        \"forward_vel_reward\": forward_vel_reward,\n        \"angular_vel_penalty\": angular_vel_penalty,",
+      "font_size": 8.9,
+      "font_family": "Courier New",
+      "text_color": "#333333",
+      "bold": false,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "prompt-generation",
+      "shape": "path",
+      "x": 549,
+      "y": 292,
+      "width": 290,
+      "height": 115,
+      "fill": "#DFD9D5",
+      "stroke": "#C7C4C1",
+      "stroke_width": 2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 20,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 270,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 281.045695,
+            "y1": 0,
+            "x2": 290,
+            "y2": 8.954305,
+            "x": 290,
+            "y": 20
+          }
+        },
+        {
+          "lineTo": {
+            "x": 290,
+            "y": 95
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 290,
+            "y1": 106.045695,
+            "x2": 281.045695,
+            "y2": 115,
+            "x": 270,
+            "y": 115
+          }
+        },
+        {
+          "lineTo": {
+            "x": 20,
+            "y": 115
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.954305,
+            "y1": 115,
+            "x2": 0,
+            "y2": 106.045695,
+            "x": 0,
+            "y": 95
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 20
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 8.954305,
+            "x2": 8.954305,
+            "y2": 0,
+            "x": 20,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ]
+    },
+    {
+      "id": "prompt-generation-heading",
+      "shape": "text",
+      "x": 552,
+      "y": 298,
+      "width": 283,
+      "height": 27,
+      "fill": "none",
+      "stroke": "none",
+      "label": "Evolution Prompt Generation",
+      "font_size": 18,
+      "font_family": "Times New Roman",
+      "text_color": "#333333",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "prompt-generation-row-0",
+      "shape": "rounded_rect",
+      "x": 575,
+      "y": 326,
+      "width": 238,
+      "height": 31,
+      "fill": "#939494",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "prompt-generation-label-0",
+      "shape": "text",
+      "x": 581,
+      "y": 331,
+      "width": 224,
+      "height": 22,
+      "fill": "none",
+      "stroke": "none",
+      "label": "Reward Signal Tracking",
+      "font_size": 16,
+      "font_family": "Times New Roman",
+      "text_color": "#FFFFFF",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "prompt-generation-row-1",
+      "shape": "rounded_rect",
+      "x": 575,
+      "y": 363,
+      "width": 238,
+      "height": 31,
+      "fill": "#939494",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "prompt-generation-label-1",
+      "shape": "text",
+      "x": 581,
+      "y": 368,
+      "width": 224,
+      "height": 22,
+      "fill": "none",
+      "stroke": "none",
+      "label": "Best Reward Function",
+      "font_size": 16,
+      "font_family": "Times New Roman",
+      "text_color": "#FFFFFF",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "reward-evaluation",
+      "shape": "path",
+      "x": 549,
+      "y": 421,
+      "width": 290,
+      "height": 115,
+      "fill": "#DFD9D5",
+      "stroke": "#C7C4C1",
+      "stroke_width": 2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 20,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 270,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 281.045695,
+            "y1": 0,
+            "x2": 290,
+            "y2": 8.954305,
+            "x": 290,
+            "y": 20
+          }
+        },
+        {
+          "lineTo": {
+            "x": 290,
+            "y": 95
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 290,
+            "y1": 106.045695,
+            "x2": 281.045695,
+            "y2": 115,
+            "x": 270,
+            "y": 115
+          }
+        },
+        {
+          "lineTo": {
+            "x": 20,
+            "y": 115
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.954305,
+            "y1": 115,
+            "x2": 0,
+            "y2": 106.045695,
+            "x": 0,
+            "y": 95
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 20
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 8.954305,
+            "x2": 8.954305,
+            "y2": 0,
+            "x": 20,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ]
+    },
+    {
+      "id": "reward-evaluation-heading",
+      "shape": "text",
+      "x": 552,
+      "y": 427,
+      "width": 283,
+      "height": 27,
+      "fill": "none",
+      "stroke": "none",
+      "label": "Reward Function Evaluation",
+      "font_size": 18,
+      "font_family": "Times New Roman",
+      "text_color": "#333333",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "reward-evaluation-row-0",
+      "shape": "rounded_rect",
+      "x": 585,
+      "y": 455,
+      "width": 214,
+      "height": 31,
+      "fill": "#939494",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "reward-evaluation-label-0",
+      "shape": "text",
+      "x": 591,
+      "y": 460,
+      "width": 200,
+      "height": 22,
+      "fill": "none",
+      "stroke": "none",
+      "label": "Contact Sequence",
+      "font_size": 16,
+      "font_family": "Times New Roman",
+      "text_color": "#FFFFFF",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "reward-evaluation-row-1",
+      "shape": "rounded_rect",
+      "x": 585,
+      "y": 492,
+      "width": 214,
+      "height": 31,
+      "fill": "#939494",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "reward-evaluation-label-1",
+      "shape": "text",
+      "x": 591,
+      "y": 497,
+      "width": 200,
+      "height": 22,
+      "fill": "none",
+      "stroke": "none",
+      "label": "Execution Footage",
+      "font_size": 16,
+      "font_family": "Times New Roman",
+      "text_color": "#FFFFFF",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "ppo-training-robots",
+      "shape": "image",
+      "x": 886,
+      "y": 299,
+      "width": 200,
+      "height": 243,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "ppo-training-robots.png",
+      "alt": "Original simulated quadruped training montage; internal pixels remain raster"
+    },
+    {
+      "id": "ppo-label",
+      "shape": "text",
+      "x": 994,
+      "y": 405,
+      "width": 249,
+      "height": 31,
+      "fill": "none",
+      "stroke": "none",
+      "label": "IsaacGym PPO Training",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#333333",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 90
+    },
+    {
+      "id": "step1",
+      "shape": "path",
+      "x": 269,
+      "y": 60,
+      "width": 49,
+      "height": 59,
+      "fill": "none",
+      "stroke": "#000000",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 3,
+            "y": 59
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 18,
+            "x2": 16,
+            "y2": 0,
+            "x": 49,
+            "y": 0
+          }
+        }
+      ],
+      "stroke_width": 5,
+      "dash": false
+    },
+    {
+      "id": "step1-final",
+      "shape": "path",
+      "x": 316,
+      "y": 60,
+      "width": 198,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#000000",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 198,
+            "y": 0
+          }
+        }
+      ],
+      "stroke_width": 5,
+      "dash": false
+    },
+    {
+      "id": "step1-final-tip",
+      "shape": "path",
+      "x": 490.0,
+      "y": 49.2,
+      "width": 24.0,
+      "height": 21.599999999999994,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 21.599999999999994
+          }
+        },
+        {
+          "lineTo": {
+            "x": 24.0,
+            "y": 10.799999999999997
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "rf-execution",
+      "shape": "path",
+      "x": 688,
+      "y": 133,
+      "width": 34,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#333333",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 34,
+            "y": 0
+          }
+        }
+      ],
+      "stroke_width": 2.5,
+      "dash": false
+    },
+    {
+      "id": "rf-execution-tip",
+      "shape": "path",
+      "x": 713.0,
+      "y": 128.95,
+      "width": 9.0,
+      "height": 8.100000000000023,
+      "fill": "#333333",
+      "stroke": "#333333",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 8.100000000000023
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.0,
+            "y": 4.050000000000011
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "step2",
+      "shape": "path",
+      "x": 982,
+      "y": 259,
+      "width": 0.01,
+      "height": 38,
+      "fill": "none",
+      "stroke": "#333333",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 38
+          }
+        }
+      ],
+      "stroke_width": 3,
+      "dash": false
+    },
+    {
+      "id": "step2-tip",
+      "shape": "path",
+      "x": 977.05,
+      "y": 286.0,
+      "width": 9.900000000000091,
+      "height": 11.0,
+      "fill": "#333333",
+      "stroke": "#333333",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 4.9500000000000455,
+            "y": 11.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.900000000000091,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "step3",
+      "shape": "path",
+      "x": 814,
+      "y": 341,
+      "width": 70,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#333333",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 70,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "stroke_width": 3.5,
+      "dash": false
+    },
+    {
+      "id": "step3-tip",
+      "shape": "path",
+      "x": 814,
+      "y": 335.6,
+      "width": 12.0,
+      "height": 10.799999999999955,
+      "fill": "#333333",
+      "stroke": "#333333",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 5.399999999999977
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.0,
+            "y": 10.799999999999955
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "step4",
+      "shape": "path",
+      "x": 835,
+      "y": 478,
+      "width": 50,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#333333",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 50,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "stroke_width": 3.5,
+      "dash": false
+    },
+    {
+      "id": "step4-tip",
+      "shape": "path",
+      "x": 835,
+      "y": 472.6,
+      "width": 12.0,
+      "height": 10.799999999999955,
+      "fill": "#333333",
+      "stroke": "#333333",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 5.399999999999977
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.0,
+            "y": 10.799999999999955
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "step5",
+      "shape": "path",
+      "x": 381,
+      "y": 489,
+      "width": 200,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#000000",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 200,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "stroke_width": 3.5,
+      "dash": false
+    },
+    {
+      "id": "step5-return",
+      "shape": "path",
+      "x": 354,
+      "y": 455,
+      "width": 27,
+      "height": 34,
+      "fill": "none",
+      "stroke": "#000000",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 27,
+            "y": 34
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 34,
+            "x2": 1,
+            "y2": 18,
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "stroke_width": 3.5,
+      "dash": false
+    },
+    {
+      "id": "step5-return-tip",
+      "shape": "path",
+      "x": 347.6986057708814,
+      "y": 455,
+      "width": 14.37782908615793,
+      "height": 16.374749792568764,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 14.37782908615793,
+            "y": 15.575981510004453
+          }
+        },
+        {
+          "lineTo": {
+            "x": 6.301394229118614,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 16.374749792568764
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "step6",
+      "shape": "path",
+      "x": 474,
+      "y": 378,
+      "width": 101,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#333333",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 101,
+            "y": 0
+          }
+        }
+      ],
+      "stroke_width": 3.5,
+      "dash": false
+    },
+    {
+      "id": "step6-tip",
+      "shape": "path",
+      "x": 563.0,
+      "y": 372.6,
+      "width": 12.0,
+      "height": 10.799999999999955,
+      "fill": "#333333",
+      "stroke": "#333333",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 10.799999999999955
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.0,
+            "y": 5.399999999999977
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "step7",
+      "shape": "path",
+      "x": 466,
+      "y": 259,
+      "width": 82,
+      "height": 70,
+      "fill": "none",
+      "stroke": "#000000",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 82,
+            "y": 70
+          }
+        },
+        {
+          "lineTo": {
+            "x": 41,
+            "y": 70
+          }
+        },
+        {
+          "lineTo": {
+            "x": 41,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "stroke_width": 3.5,
+      "dash": false
+    },
+    {
+      "id": "step7-tip",
+      "shape": "path",
+      "x": 466,
+      "y": 253.15,
+      "width": 13.0,
+      "height": 11.700000000000017,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 13.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 5.849999999999994
+          }
+        },
+        {
+          "lineTo": {
+            "x": 13.0,
+            "y": 11.700000000000017
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "step-number-1",
+      "shape": "text",
+      "x": 289,
+      "y": 82,
+      "width": 36,
+      "height": 28,
+      "fill": "none",
+      "stroke": "none",
+      "label": "(1)",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "step-number-2",
+      "shape": "text",
+      "x": 998,
+      "y": 263,
+      "width": 36,
+      "height": 28,
+      "fill": "none",
+      "stroke": "none",
+      "label": "(2)",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "step-number-3",
+      "shape": "text",
+      "x": 852,
+      "y": 313,
+      "width": 36,
+      "height": 28,
+      "fill": "none",
+      "stroke": "none",
+      "label": "(3)",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "step-number-4",
+      "shape": "text",
+      "x": 852,
+      "y": 448,
+      "width": 36,
+      "height": 28,
+      "fill": "none",
+      "stroke": "none",
+      "label": "(4)",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "step-number-5",
+      "shape": "text",
+      "x": 485,
+      "y": 457,
+      "width": 36,
+      "height": 28,
+      "fill": "none",
+      "stroke": "none",
+      "label": "(5)",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "step-number-6",
+      "shape": "text",
+      "x": 485,
+      "y": 340,
+      "width": 36,
+      "height": 28,
+      "fill": "none",
+      "stroke": "none",
+      "label": "(6)",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "step-number-7",
+      "shape": "text",
+      "x": 482,
+      "y": 220,
+      "width": 36,
+      "height": 28,
+      "fill": "none",
+      "stroke": "none",
+      "label": "(7)",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    },
+    {
+      "id": "cycle-top",
+      "shape": "path",
+      "x": 1053,
+      "y": 13,
+      "width": 133,
+      "height": 69,
+      "fill": "#999D9E",
+      "stroke": "#48526E",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 76,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 101,
+            "y1": 0,
+            "x2": 121,
+            "y2": 20,
+            "x": 121,
+            "y": 52
+          }
+        },
+        {
+          "lineTo": {
+            "x": 133,
+            "y": 52
+          }
+        },
+        {
+          "lineTo": {
+            "x": 116,
+            "y": 69
+          }
+        },
+        {
+          "lineTo": {
+            "x": 99,
+            "y": 52
+          }
+        },
+        {
+          "lineTo": {
+            "x": 111,
+            "y": 52
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 111,
+            "y1": 29,
+            "x2": 100,
+            "y2": 9,
+            "x": 75,
+            "y": 9
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 9
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 1.2,
+      "dash": false
+    },
+    {
+      "id": "cycle-bottom",
+      "shape": "path",
+      "x": 8,
+      "y": 528,
+      "width": 143,
+      "height": 59,
+      "fill": "#999D9E",
+      "stroke": "#48526E",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 143,
+            "y": 51
+          }
+        },
+        {
+          "lineTo": {
+            "x": 49,
+            "y": 51
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 26,
+            "y1": 51,
+            "x2": 17,
+            "y2": 32,
+            "x": 17,
+            "y": 14
+          }
+        },
+        {
+          "lineTo": {
+            "x": 29,
+            "y": 14
+          }
+        },
+        {
+          "lineTo": {
+            "x": 14,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 14
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9,
+            "y": 14
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9,
+            "y1": 39,
+            "x2": 21,
+            "y2": 59,
+            "x": 48,
+            "y": 59
+          }
+        },
+        {
+          "lineTo": {
+            "x": 143,
+            "y": 59
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 1.2,
+      "dash": false
+    },
+    {
+      "id": "cycle-label",
+      "shape": "text",
+      "x": 50,
+      "y": 538,
+      "width": 117,
+      "height": 38,
+      "fill": "none",
+      "stroke": "none",
+      "label": "SDS x5",
+      "font_size": 30,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "rotation": 0
+    }
+  ],
+  "edges": []
+}

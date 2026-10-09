@@ -1,0 +1,1155 @@
+{
+  "schema_version": 1,
+  "id": "lifelong-skill-planning-figure-2",
+  "title": "Reset-Free Lifelong Learning with Skill-Space Planning — Figure 2",
+  "canvas": {
+    "width": 1197,
+    "height": 133
+  },
+  "provenance": {
+    "paper_title": "Reset-Free Lifelong Learning with Skill-Space Planning",
+    "paper_url": "https://arxiv.org/pdf/2012.03548v3",
+    "figure": "Figure 2",
+    "page": 5,
+    "license": "unverified",
+    "status": "figure_recreation",
+    "source_sha256": "3d286be5f048686dc54ac73a862d3c3ff83830bffc1ca03036801c13e8833c37",
+    "source_crop_pdf_points": [
+      106,
+      81,
+      505,
+      124
+    ],
+    "notes": "Original compact algorithm schematic manually reconstructed from one flattened raster. All text, colored modules, algorithm containers and arrows are native. Fonts, math-subscript placement, dash cadence and corner radii approximate the original. Arrows are freeform paths, not semantically attached connectors. No raster backdrop or image objects."
+  },
+  "nodes": [
+    {
+      "id": "discriminator",
+      "shape": "rect",
+      "label": "",
+      "x": 9,
+      "y": 6,
+      "width": 245,
+      "height": 32,
+      "fill": "#B49FC5",
+      "stroke": "#666666",
+      "stroke_width": 1.8,
+      "dash": false,
+      "font_family": "Arial",
+      "font_size": 15,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "distribution",
+      "shape": "rect",
+      "label": "",
+      "x": 9,
+      "y": 48,
+      "width": 245,
+      "height": 32,
+      "fill": "#E98A89",
+      "stroke": "#666666",
+      "stroke_width": 1.8,
+      "dash": false,
+      "font_family": "Arial",
+      "font_size": 15,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "algorithm2",
+      "shape": "rounded_rect",
+      "label": "",
+      "x": 330,
+      "y": 6,
+      "width": 233,
+      "height": 116,
+      "fill": "#FFFFFF",
+      "stroke": "#999999",
+      "stroke_width": 1.8,
+      "dash": true,
+      "font_family": "Arial",
+      "font_size": 15,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "algo2-0",
+      "shape": "text",
+      "label": "Algorithm 2",
+      "x": 337,
+      "y": 16,
+      "width": 219,
+      "height": 22,
+      "font_family": "Arial",
+      "font_size": 19,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "algo2-1",
+      "shape": "text",
+      "label": "Generate synthetic",
+      "x": 337,
+      "y": 35,
+      "width": 219,
+      "height": 22,
+      "font_family": "Arial",
+      "font_size": 15.5,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "algo2-2",
+      "shape": "text",
+      "label": "rollouts for training",
+      "x": 337,
+      "y": 54,
+      "width": 219,
+      "height": 22,
+      "font_family": "Arial",
+      "font_size": 15.5,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "algo2-3",
+      "shape": "text",
+      "label": "Train policy on intrinsic",
+      "x": 337,
+      "y": 73,
+      "width": 219,
+      "height": 22,
+      "font_family": "Arial",
+      "font_size": 15.5,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "algo2-4",
+      "shape": "text",
+      "label": "rewards using rollouts",
+      "x": 337,
+      "y": 92,
+      "width": 219,
+      "height": 22,
+      "font_family": "Arial",
+      "font_size": 15.5,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "dynamics",
+      "shape": "rect",
+      "label": "",
+      "x": 637,
+      "y": 6,
+      "width": 245,
+      "height": 32,
+      "fill": "#9CD8E5",
+      "stroke": "#666666",
+      "stroke_width": 1.8,
+      "dash": false,
+      "font_family": "Arial",
+      "font_size": 15,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "policy",
+      "shape": "rect",
+      "label": "",
+      "x": 637,
+      "y": 48,
+      "width": 245,
+      "height": 32,
+      "fill": "#F6A079",
+      "stroke": "#666666",
+      "stroke_width": 1.8,
+      "dash": false,
+      "font_family": "Arial",
+      "font_size": 15,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "algorithm3",
+      "shape": "rounded_rect",
+      "label": "",
+      "x": 957,
+      "y": 6,
+      "width": 232,
+      "height": 74,
+      "fill": "#FFFFFF",
+      "stroke": "#999999",
+      "stroke_width": 1.8,
+      "dash": true,
+      "font_family": "Arial",
+      "font_size": 15,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "algo3-0",
+      "shape": "text",
+      "label": "Algorithm 3",
+      "x": 963,
+      "y": 16,
+      "width": 220,
+      "height": 22,
+      "font_family": "Arial",
+      "font_size": 19,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "algo3-1",
+      "shape": "text",
+      "label": "Plan in skill space to act in",
+      "x": 963,
+      "y": 35,
+      "width": 220,
+      "height": 22,
+      "font_family": "Arial",
+      "font_size": 15.5,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "algo3-2",
+      "shape": "text",
+      "label": "the environment",
+      "x": 963,
+      "y": 54,
+      "width": 220,
+      "height": 22,
+      "font_family": "Arial",
+      "font_size": 15.5,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "disc-out",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 271,
+            "y": 12
+          }
+        },
+        {
+          "lineTo": {
+            "x": 314,
+            "y": 12
+          }
+        }
+      ],
+      "stroke": "#9873B9",
+      "stroke_width": 2.5,
+      "fill": "none"
+    },
+    {
+      "id": "disc-out-head",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 314,
+            "y": 12
+          }
+        },
+        {
+          "lineTo": {
+            "x": 301.0,
+            "y": 7.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 301.0,
+            "y": 17.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke": "none",
+      "stroke_width": 0,
+      "fill": "#9873B9"
+    },
+    {
+      "id": "disc-in",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 314,
+            "y": 31
+          }
+        },
+        {
+          "lineTo": {
+            "x": 271,
+            "y": 31
+          }
+        }
+      ],
+      "stroke": "#9873B9",
+      "stroke_width": 2.5,
+      "fill": "none"
+    },
+    {
+      "id": "disc-in-head",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 271,
+            "y": 31
+          }
+        },
+        {
+          "lineTo": {
+            "x": 284.0,
+            "y": 36.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 284.0,
+            "y": 26.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke": "none",
+      "stroke_width": 0,
+      "fill": "#9873B9"
+    },
+    {
+      "id": "practice-out",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 271,
+            "y": 54
+          }
+        },
+        {
+          "lineTo": {
+            "x": 314,
+            "y": 54
+          }
+        }
+      ],
+      "stroke": "#EC5964",
+      "stroke_width": 2.5,
+      "fill": "none"
+    },
+    {
+      "id": "practice-out-head",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 314,
+            "y": 54
+          }
+        },
+        {
+          "lineTo": {
+            "x": 301.0,
+            "y": 49.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 301.0,
+            "y": 59.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke": "none",
+      "stroke_width": 0,
+      "fill": "#EC5964"
+    },
+    {
+      "id": "practice-in",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 314,
+            "y": 73
+          }
+        },
+        {
+          "lineTo": {
+            "x": 271,
+            "y": 73
+          }
+        }
+      ],
+      "stroke": "#EC5964",
+      "stroke_width": 2.5,
+      "fill": "none"
+    },
+    {
+      "id": "practice-in-head",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 271,
+            "y": 73
+          }
+        },
+        {
+          "lineTo": {
+            "x": 284.0,
+            "y": 78.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 284.0,
+            "y": 68.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke": "none",
+      "stroke_width": 0,
+      "fill": "#EC5964"
+    },
+    {
+      "id": "dynamics-algo",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 621,
+            "y": 13
+          }
+        },
+        {
+          "lineTo": {
+            "x": 577,
+            "y": 13
+          }
+        }
+      ],
+      "stroke": "#77C9DC",
+      "stroke_width": 2.5,
+      "fill": "none"
+    },
+    {
+      "id": "dynamics-algo-head",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 577,
+            "y": 13
+          }
+        },
+        {
+          "lineTo": {
+            "x": 590.0,
+            "y": 18.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 590.0,
+            "y": 7.999999999999998
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke": "none",
+      "stroke_width": 0,
+      "fill": "#77C9DC"
+    },
+    {
+      "id": "policy-algo",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 621,
+            "y": 54
+          }
+        },
+        {
+          "lineTo": {
+            "x": 577,
+            "y": 54
+          }
+        }
+      ],
+      "stroke": "#FB845F",
+      "stroke_width": 2.5,
+      "fill": "none"
+    },
+    {
+      "id": "policy-algo-head",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 577,
+            "y": 54
+          }
+        },
+        {
+          "lineTo": {
+            "x": 590.0,
+            "y": 59.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 590.0,
+            "y": 49.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke": "none",
+      "stroke_width": 0,
+      "fill": "#FB845F"
+    },
+    {
+      "id": "algo-policy",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 578,
+            "y": 73
+          }
+        },
+        {
+          "lineTo": {
+            "x": 621,
+            "y": 73
+          }
+        }
+      ],
+      "stroke": "#FB845F",
+      "stroke_width": 2.5,
+      "fill": "none"
+    },
+    {
+      "id": "algo-policy-head",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 621,
+            "y": 73
+          }
+        },
+        {
+          "lineTo": {
+            "x": 608.0,
+            "y": 68.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 608.0,
+            "y": 78.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke": "none",
+      "stroke_width": 0,
+      "fill": "#FB845F"
+    },
+    {
+      "id": "dynamics-planner",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 898,
+            "y": 13
+          }
+        },
+        {
+          "lineTo": {
+            "x": 941,
+            "y": 13
+          }
+        }
+      ],
+      "stroke": "#77C9DC",
+      "stroke_width": 2.5,
+      "fill": "none"
+    },
+    {
+      "id": "dynamics-planner-head",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 941,
+            "y": 13
+          }
+        },
+        {
+          "lineTo": {
+            "x": 928.0,
+            "y": 8.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 928.0,
+            "y": 18.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke": "none",
+      "stroke_width": 0,
+      "fill": "#77C9DC"
+    },
+    {
+      "id": "planner-dynamics",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 941,
+            "y": 32
+          }
+        },
+        {
+          "lineTo": {
+            "x": 898,
+            "y": 32
+          }
+        }
+      ],
+      "stroke": "#77C9DC",
+      "stroke_width": 2.5,
+      "fill": "none"
+    },
+    {
+      "id": "planner-dynamics-head",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 898,
+            "y": 32
+          }
+        },
+        {
+          "lineTo": {
+            "x": 911.0,
+            "y": 37.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 911.0,
+            "y": 27.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke": "none",
+      "stroke_width": 0,
+      "fill": "#77C9DC"
+    },
+    {
+      "id": "policy-planner",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 898,
+            "y": 55
+          }
+        },
+        {
+          "lineTo": {
+            "x": 941,
+            "y": 55
+          }
+        }
+      ],
+      "stroke": "#FB845F",
+      "stroke_width": 2.5,
+      "fill": "none"
+    },
+    {
+      "id": "policy-planner-head",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 941,
+            "y": 55
+          }
+        },
+        {
+          "lineTo": {
+            "x": 928.0,
+            "y": 50.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 928.0,
+            "y": 60.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke": "none",
+      "stroke_width": 0,
+      "fill": "#FB845F"
+    },
+    {
+      "id": "legend1",
+      "shape": "text",
+      "label": "incoming arrow denotes",
+      "x": 48,
+      "y": 88,
+      "width": 172,
+      "height": 17,
+      "font_family": "Arial",
+      "font_size": 14,
+      "bold": false,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "legend2",
+      "shape": "text",
+      "label": "training from data",
+      "x": 63,
+      "y": 105,
+      "width": 153,
+      "height": 17,
+      "font_family": "Arial",
+      "font_size": 14,
+      "bold": false,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "legend-bend",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 294,
+            "y": 84
+          }
+        },
+        {
+          "lineTo": {
+            "x": 294,
+            "y": 106
+          }
+        },
+        {
+          "lineTo": {
+            "x": 225,
+            "y": 106
+          }
+        }
+      ],
+      "stroke": "#777777",
+      "stroke_width": 1.8,
+      "fill": "none"
+    },
+    {
+      "id": "legend-head",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1197,
+      "height": 133,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 223,
+            "y": 106
+          }
+        },
+        {
+          "lineTo": {
+            "x": 232,
+            "y": 102
+          }
+        },
+        {
+          "lineTo": {
+            "x": 232,
+            "y": 110
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke": "none",
+      "stroke_width": 0,
+      "fill": "#777777"
+    },
+    {
+      "id": "disc-title",
+      "shape": "text",
+      "label": "Skill Discriminator",
+      "x": 51,
+      "y": 12,
+      "width": 142,
+      "height": 22,
+      "font_family": "Arial",
+      "font_size": 15,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "dist-title",
+      "shape": "text",
+      "label": "Skill-Practice Distribution",
+      "x": 24,
+      "y": 54,
+      "width": 197,
+      "height": 22,
+      "font_family": "Arial",
+      "font_size": 15,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "dyn-title",
+      "shape": "text",
+      "label": "Dynamics Model Ensemble",
+      "x": 649,
+      "y": 12,
+      "width": 194,
+      "height": 22,
+      "font_family": "Arial",
+      "font_size": 15,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "pol-title",
+      "shape": "text",
+      "label": "Skill Policy",
+      "x": 712,
+      "y": 54,
+      "width": 77,
+      "height": 22,
+      "font_family": "Arial",
+      "font_size": 15,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "disc-q",
+      "shape": "text",
+      "label": "q",
+      "x": 193,
+      "y": 12,
+      "width": 13,
+      "height": 22,
+      "font_family": "Arial",
+      "font_size": 16,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "dist-p",
+      "shape": "text",
+      "label": "p",
+      "x": 223,
+      "y": 54,
+      "width": 13,
+      "height": 22,
+      "font_family": "Arial",
+      "font_size": 16,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "dyn-f",
+      "shape": "text",
+      "label": "f",
+      "x": 844,
+      "y": 12,
+      "width": 13,
+      "height": 22,
+      "font_family": "Arial",
+      "font_size": 16,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "pol-pi",
+      "shape": "text",
+      "label": "π",
+      "x": 789,
+      "y": 54,
+      "width": 13,
+      "height": 22,
+      "font_family": "Arial",
+      "font_size": 16,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "disc-psi",
+      "shape": "text",
+      "label": "ψ",
+      "x": 204,
+      "y": 23,
+      "width": 12,
+      "height": 14,
+      "font_family": "Arial",
+      "font_size": 10,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "dist-psi",
+      "shape": "text",
+      "label": "ψ",
+      "x": 234,
+      "y": 65,
+      "width": 12,
+      "height": 14,
+      "font_family": "Arial",
+      "font_size": 10,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "dyn-phi",
+      "shape": "text",
+      "label": "φ",
+      "x": 854,
+      "y": 23,
+      "width": 12,
+      "height": 14,
+      "font_family": "Arial",
+      "font_size": 10,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "pol-theta",
+      "shape": "text",
+      "label": "θ",
+      "x": 802,
+      "y": 65,
+      "width": 12,
+      "height": 14,
+      "font_family": "Arial",
+      "font_size": 10,
+      "bold": true,
+      "text_color": "#000000",
+      "align": "center",
+      "no_wrap": true,
+      "text_inset": 0
+    }
+  ],
+  "edges": []
+}

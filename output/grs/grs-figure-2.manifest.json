@@ -1,0 +1,110 @@
+{
+  "schema_version": 1,
+  "diagram_id": "grs-figure-2",
+  "source_sha256": "e5506df63b3558047e93084f888b0dce3fefbfa6ca5b55311720182783a87994",
+  "assets": [
+    {
+      "name": "assets/final-photo.png",
+      "sha256": "b8e13d8ce7880cc4f4b34a9d59eba190f32f17db8e2bdd909742cb5e82fbd944"
+    },
+    {
+      "name": "assets/initial-photo.png",
+      "sha256": "756c32e07cd0058433bd9ff9165be8cd6eda94848484ce7e6c9741c5f07afd8d"
+    },
+    {
+      "name": "assets/scene-photo.png",
+      "sha256": "0c3d4059f08c5850b63393069b098c0269ea8018599ea7f471193f60c0795e04"
+    },
+    {
+      "name": "assets/task-photo.png",
+      "sha256": "ccf5119f17d176f3fdcafd41e578102ea81709fd41bc0fb4d8a0653a871f5275"
+    }
+  ],
+  "provenance": {
+    "paper_title": "GRS: Generating Robotic Simulation Tasks from Real-World Images",
+    "paper_url": "https://arxiv.org/abs/2410.15536v3",
+    "pdf_url": "https://arxiv.org/pdf/2410.15536v3",
+    "figure": "Figure 2",
+    "page": 3,
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/ Private user-requested adaptation; no public redistribution permission implied.",
+    "status": "figure_recreation",
+    "notes": "Manually reconstructed from the inspected original flattened PDF figure. Ordinary labels are live typeable text; panels, graph geometry and arrows are native editable shapes or paths. Source layout and contents retained; font metrics, line widths and decorative effects approximated. Four original scene photographs are isolated raster crops. All stage titles, VLMs, database/document symbols, decision/router shapes, status blocks and connecting arrows are native.",
+    "source_sha256": "e065b5024ce56cb7f44e765f5d44e750392eaea109eac44ee7201e724a3ff03f",
+    "source_crop_pdf_points": [
+      318,
+      71,
+      553,
+      240
+    ],
+    "survey_crop_correction": false,
+    "visual_inspection": "Original PDF figure inspected before source-layout reconstruction on 2026-10-09; independent application QA pending.",
+    "raster_details": [
+      {
+        "id": "scene-photo",
+        "bounds_source_pixels": [
+          16,
+          36,
+          124,
+          144
+        ],
+        "detail": "Original robot scene rendering; objects and small diagnostic overlays remain raster"
+      },
+      {
+        "id": "task-photo",
+        "bounds_source_pixels": [
+          245,
+          37,
+          354,
+          144
+        ],
+        "detail": "Original robot scene rendering; objects and small diagnostic overlays remain raster"
+      },
+      {
+        "id": "initial-photo",
+        "bounds_source_pixels": [
+          440,
+          37,
+          548,
+          144
+        ],
+        "detail": "Original robot scene rendering; objects and small diagnostic overlays remain raster"
+      },
+      {
+        "id": "final-photo",
+        "bounds_source_pixels": [
+          533,
+          310,
+          656,
+          433
+        ],
+        "detail": "Original robot scene rendering; objects and small diagnostic overlays remain raster"
+      }
+    ]
+  },
+  "metrics": {
+    "native_nodes": 68,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 34,
+    "native_text_objects": 24,
+    "raster_images": 4,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "grs-figure-2.drawio",
+      "sha256": "7efb36df9ab8c920bc354b83b6eadf4421dc107d20c74e92533bcdf16c4c37f9"
+    },
+    {
+      "name": "grs-figure-2.png",
+      "sha256": "ee3745b9975f2fbaf59f6a2522dedeb4af4cf3686526463bbd208bc38ac52283"
+    },
+    {
+      "name": "grs-figure-2.pptx",
+      "sha256": "83799cce35214662e8ba3c97eeb9930f500fbc76feb8cc709e5613533695d20b"
+    }
+  ]
+}

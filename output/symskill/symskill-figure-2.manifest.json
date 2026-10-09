@@ -1,0 +1,98 @@
+{
+  "schema_version": 1,
+  "diagram_id": "symskill-figure-2",
+  "source_sha256": "084662a93b8cec29d3a355bc31dc9aee814164f6db8d651f198f3f62ae0186bc",
+  "assets": [
+    {
+      "name": "symskill-source-component-0.png",
+      "sha256": "8b0c99d01b48487dfa47243bd5aa5cf64adca3aa49f84e3e2f9591a9cdbf779e"
+    },
+    {
+      "name": "symskill-source-component-1.png",
+      "sha256": "b32cbc31a1eec554a5b379d1e1ffacc9a21525e20f6e554f303476e251f6e9ce"
+    },
+    {
+      "name": "symskill-source-component-2.png",
+      "sha256": "ab1b851c6ca4b1d8fa2be56379c42bc6d9cad08f2e36f998986b8bfeabeddec0"
+    },
+    {
+      "name": "symskill-source-component-3.png",
+      "sha256": "cf41b61a38856523e4a8afe147d659f9263fea4e0d3f27428b33bfec546ae929"
+    },
+    {
+      "name": "symskill-source-component-5.png",
+      "sha256": "e05ef268a39fc21efc7695acb1704b07bdd5026f6e63af95ce888a9d9237e3f0"
+    },
+    {
+      "name": "symskill-source-component-7.png",
+      "sha256": "f17fa88c1c4553d389b44163d01828bff86cbc5c5ceabbeb14fc0e1d328d86ea"
+    },
+    {
+      "name": "symskill-source-component-9.png",
+      "sha256": "22303b205e300f0b0fd68881ec6545ac20d33e9349b0e9fe2854083773129c7f"
+    }
+  ],
+  "provenance": {
+    "paper_title": "SymSkill: Symbol and Skill Co-Invention for Data-Efficient and Reactive Long-Horizon Manipulation",
+    "paper_url": "https://arxiv.org/abs/2510.01661v3",
+    "figure": "Figure 2",
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "notes": "Source-native SymSkill geometry and typeable ordinary labels with separately isolated source photos/icons/plots. Three mathematical raster labels become editable glyph contours; Gemini logo remains original raster branding.",
+    "page": 2,
+    "status": "figure_recreation",
+    "source_sha256": "29492416ae5fba07b1bf04b89c04234ac675132fe5374bbc34f510ac41638997",
+    "source_crop_pdf_points": [
+      52,
+      49,
+      560,
+      233
+    ],
+    "extraction_review": "Source inspected; generated preview and independent editor QA pending.",
+    "font_substitutions": "Source Helvetica/accessibility labels use width-fitted Arial; visible Replanning heading restored with its source bold appearance.",
+    "extraction_warnings": [
+      "90 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "unhandled image/shading at seq 136: [15.714431762695312, -68.68087768554688, 428.7880859375, 177.11077880859375]; requires reviewed raster region",
+      "unhandled image/shading at seq 496: [84.98480224609375, 41.700172424316406, 153.94442749023438, 110.65980529785156]; requires reviewed raster region",
+      "unhandled image/shading at seq 517: [37.27180099487305, 107.12486267089844, 154.010009765625, 170.75360107421875]; requires reviewed raster region",
+      "unhandled image/shading at seq 556: [210.76272583007812, 110.15522003173828, 232.3343505859375, 118.13732147216797]; requires reviewed raster region",
+      "unhandled image/shading at seq 557: [215.5234832763672, 118.21428680419922, 227.92138671875, 124.81377410888672]; requires reviewed raster region",
+      "unhandled image/shading at seq 558: [205.40335083007812, 54.30047607421875, 310.62451171875, 133.209228515625]; requires reviewed raster region",
+      "unhandled image/shading at seq 561: [266.35235595703125, 97.03321838378906, 284.3634033203125, 104.3739013671875]; requires reviewed raster region",
+      "unhandled image/shading at seq 562: [317.1895446777344, 70.12213897705078, 414.65667724609375, 143.21536254882812]; requires reviewed raster region",
+      "unhandled image/shading at seq 565: [333.0314025878906, 97.68888854980469, 353.00946044921875, 105.02386474609375]; requires reviewed raster region",
+      "unhandled image/shading at seq 611: [476.00787353515625, 62.197059631347656, 563.4403686523438, 135.06222534179688]; requires reviewed raster region"
+    ],
+    "ignored_invisible_text_spans": 40,
+    "text_editability": "Ordinary source labels, including cabinet type and lid type callouts, are typeable text. Three raster math labels are point-editable native contours, not live equations. Source plot and remaining photo-internal annotations remain raster.",
+    "dash_fidelity": "Source custom dashed boundaries expanded into native solid segments with <=0.4 scene-pixel chord sampling.",
+    "extraction_warnings_reviewed": [
+      "Ten source image instances reviewed. Three formula rasters traced to native glyph paths; seven images isolated with exact source transforms, masks and clips, then transparent extents trimmed. The segmentation chart is absent from get_text image blocks but recovered from source image_info and source SVG. Two plots retain source internal data pixels, without invented native plot data."
+    ]
+  },
+  "metrics": {
+    "native_nodes": 186,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 148,
+    "native_text_objects": 38,
+    "raster_images": 7,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "symskill-figure-2.drawio",
+      "sha256": "da38a5b34f546febc907e0656e9eee3216c2c10c635597fedd157faf2b4df679"
+    },
+    {
+      "name": "symskill-figure-2.png",
+      "sha256": "ec4b0df72ceca176ac53f48bc6152ec6d563ea38e2ba55555deb9ccf9bc5e301"
+    },
+    {
+      "name": "symskill-figure-2.pptx",
+      "sha256": "7539d43490ff14b75896796bdfc72563c553ef378245b4798daa81bde72d6d93"
+    }
+  ]
+}

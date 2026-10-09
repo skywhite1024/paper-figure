@@ -1,0 +1,212 @@
+{
+  "diagram_id": "molmobot-figure-2",
+  "source_scene_sha256": "eaeb7a79af89a728b7a52e4a307b3463495f2fc4d149aabc927b95abbb94e78c",
+  "source_pdf_sha256": "55fbccef55184f5a1a257fc8dd497290f63e1b2a10de2e992b3d1c4535821fdf",
+  "checked_files": [
+    {
+      "name": "molmobot-figure-2.drawio",
+      "sha256": "18c9d038d2fb08cf8e8dca5b33eb783b14eb8688271a2de9cc0fe394a841e138"
+    },
+    {
+      "name": "molmobot-figure-2.png",
+      "sha256": "971a6238f728bf8a7661d1dab15312a96ca872075770dd9dc1883761be89db90"
+    },
+    {
+      "name": "molmobot-figure-2.pptx",
+      "sha256": "e41ff9c46d422f4903204696c8d453a064b4c98223038dd612803a09155de7ed"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_scene_asset_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 53,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; source edition/hash pinned",
+    "source_page_figure": "Independent PDF crop compared with original PNG and delivered preview",
+    "source_preview_visual": "passed with disclosed image/font/math/dash limitations"
+  },
+  "native_xml_counts": {
+    "p:sp": 87,
+    "p:pic": 15,
+    "a:custGeom": 53,
+    "p:cxnSp": 0,
+    "a:t": 19
+  },
+  "source_title": "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation",
+  "typeable_labels": [
+    "MolmoSpaces scene",
+    "sample target object",
+    "add placement receptacles",
+    "place robot in scene",
+    "sample camera pose",
+    "randomize scene",
+    "randomize robot joint angles",
+    "pick & place",
+    "Environment Construction",
+    "Randomization",
+    "Data Generation",
+    "fi",
+    "nd grasps",
+    "plan",
+    "trajectory",
+    "execute",
+    "retry/done",
+    "",
+    "pick"
+  ],
+  "raster_nodes": [
+    {
+      "id": "source-raster-0",
+      "asset": "molmobot-source-raster-0.png",
+      "x": 45,
+      "y": 92,
+      "width": 202,
+      "height": 170,
+      "canvas_area_fraction": 0.037
+    },
+    {
+      "id": "source-raster-1",
+      "asset": "molmobot-source-raster-1.png",
+      "x": 351,
+      "y": 92,
+      "width": 201,
+      "height": 170,
+      "canvas_area_fraction": 0.037
+    },
+    {
+      "id": "source-raster-2",
+      "asset": "molmobot-source-raster-2.png",
+      "x": 481,
+      "y": 146,
+      "width": 57,
+      "height": 60,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "source-raster-3",
+      "asset": "molmobot-source-raster-3.png",
+      "x": 497,
+      "y": 163,
+      "width": 23,
+      "height": 26,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "source-raster-4",
+      "asset": "molmobot-source-raster-4.png",
+      "x": 817,
+      "y": 21,
+      "width": 202,
+      "height": 170,
+      "canvas_area_fraction": 0.037
+    },
+    {
+      "id": "source-raster-5",
+      "asset": "molmobot-source-raster-5.png",
+      "x": 939,
+      "y": 114,
+      "width": 80,
+      "height": 77,
+      "canvas_area_fraction": 0.007
+    },
+    {
+      "id": "source-raster-6",
+      "asset": "molmobot-source-raster-6.png",
+      "x": 963,
+      "y": 136,
+      "width": 44,
+      "height": 54,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "source-raster-7",
+      "asset": "molmobot-source-raster-7.png",
+      "x": 342,
+      "y": 413,
+      "width": 263,
+      "height": 188,
+      "canvas_area_fraction": 0.053
+    },
+    {
+      "id": "source-raster-8",
+      "asset": "molmobot-source-raster-8.png",
+      "x": 342,
+      "y": 503,
+      "width": 95,
+      "height": 98,
+      "canvas_area_fraction": 0.01
+    },
+    {
+      "id": "source-raster-9",
+      "asset": "molmobot-source-raster-9.png",
+      "x": 663,
+      "y": 413,
+      "width": 263,
+      "height": 189,
+      "canvas_area_fraction": 0.053
+    },
+    {
+      "id": "source-raster-10",
+      "asset": "molmobot-source-raster-10.png",
+      "x": 663,
+      "y": 504,
+      "width": 95,
+      "height": 98,
+      "canvas_area_fraction": 0.01
+    },
+    {
+      "id": "source-raster-11",
+      "asset": "molmobot-source-raster-11.png",
+      "x": 1119,
+      "y": 22,
+      "width": 279,
+      "height": 240,
+      "canvas_area_fraction": 0.072
+    },
+    {
+      "id": "source-raster-12",
+      "asset": "molmobot-source-raster-12.png",
+      "x": 21,
+      "y": 412,
+      "width": 263,
+      "height": 189,
+      "canvas_area_fraction": 0.053
+    },
+    {
+      "id": "source-raster-13",
+      "asset": "molmobot-source-raster-13.png",
+      "x": 1133,
+      "y": 446,
+      "width": 161,
+      "height": 161,
+      "canvas_area_fraction": 0.028
+    },
+    {
+      "id": "source-raster-14",
+      "asset": "molmobot-source-raster-14.png",
+      "x": 1139,
+      "y": 527,
+      "width": 67,
+      "height": 79,
+      "canvas_area_fraction": 0.006
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

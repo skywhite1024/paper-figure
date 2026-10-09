@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "one-shot-hierarchical-imitation-learning-of-compound-visuomotor-tasks",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.515058Z",
-  "updated_at": "2026-10-09T20:49:29.278244Z",
+  "updated_at": "2026-10-09T21:34:47.847130Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/one-shot-hierarchical/README.md",
+          "output/one-shot-hierarchical/VALIDATION.json"
+        ],
+        "output_directory": "output/one-shot-hierarchical",
+        "source_sha256": "458a9e3e434729981304b09de9eb4fa97f6a79e918b6914755cea77db8dc66ff",
+        "scene_sha256": "8816aff8aab59f921ab5a0abd397077d609b15a880ff80071027ff56e02ba972",
+        "text_editability": {
+          "typeable_text_objects": 27,
+          "native_freeform_paths": 126,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:34:47.847130Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "311eb3be49ec54a27d7234e88c1e340083b69962845895d20dc1ce6357a6cdfb",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/one-shot-hierarchical/README.md",
+                "output/one-shot-hierarchical/VALIDATION.json"
+              ],
+              "output_directory": "output/one-shot-hierarchical",
+              "source_sha256": "458a9e3e434729981304b09de9eb4fa97f6a79e918b6914755cea77db8dc66ff",
+              "scene_sha256": "8816aff8aab59f921ab5a0abd397077d609b15a880ff80071027ff56e02ba972",
+              "text_editability": {
+                "typeable_text_objects": 27,
+                "native_freeform_paths": 126,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

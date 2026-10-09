@@ -1,0 +1,99 @@
+{
+  "diagram_id": "cross-modality-attention-figure-2",
+  "source_scene_sha256": "0c0f77b75086cfdd3e4c6f565c942c2a4f2bcb4636bcab7f9d5e3e1c0911a011",
+  "source_pdf_sha256": "0307974b706b725f0ed06767662309bfbf5e0e0725327387ae0c49cdf9489262",
+  "checked_files": [
+    {
+      "name": "cross-modality-attention-figure-2.drawio",
+      "sha256": "58e8a6c9e8dbf954ee332d286c1c0f2bf1046681f6d88975bfe67b709bf9171e"
+    },
+    {
+      "name": "cross-modality-attention-figure-2.png",
+      "sha256": "16f2de0073cf87b89d1b5fcf25b29280bce1cb9235c72d121bce72bf8b925fd0"
+    },
+    {
+      "name": "cross-modality-attention-figure-2.pptx",
+      "sha256": "738b04655e0517354be72a1bf5e692200febdc914441c7aad30a805755419521"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      4.951,
+      4.988,
+      5.072
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_scene_asset_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 22,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; source edition/hash pinned",
+    "source_page_figure": "Independent PDF crop compared with original PNG and delivered preview",
+    "source_preview_visual": "passed with disclosed image/font/math/dash limitations"
+  },
+  "native_xml_counts": {
+    "p:sp": 61,
+    "p:pic": 0,
+    "a:custGeom": 22,
+    "p:cxnSp": 0,
+    "a:t": 42
+  },
+  "source_title": "Modality Selection and Skill Segmentation via Cross-Modality Attention",
+  "typeable_labels": [
+    "Stage One",
+    "Stage Two",
+    "Stage Three",
+    "Embedding",
+    "CMA",
+    "",
+    "",
+    "",
+    "",
+    "Camera",
+    "State",
+    "Tactile",
+    "Embedding",
+    "CMA",
+    "",
+    "",
+    "",
+    "",
+    "Camera",
+    "State",
+    "Tactile",
+    "Denoised",
+    "Actions",
+    "Noisy",
+    "Actions",
+    "Conditioning",
+    "",
+    "Clustering",
+    "",
+    "Action Label",
+    "Modality Filter",
+    "",
+    "",
+    "",
+    "",
+    "Camera",
+    "State",
+    "Tactile",
+    "",
+    "Actions",
+    "Primitive",
+    "Action Policy"
+  ],
+  "raster_nodes": [],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

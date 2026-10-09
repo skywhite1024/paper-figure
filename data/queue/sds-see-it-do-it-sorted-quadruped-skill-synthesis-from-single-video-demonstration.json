@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "sds-see-it-do-it-sorted-quadruped-skill-synthesis-from-single-video-demonstration",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.512029Z",
-  "updated_at": "2026-10-09T20:49:29.589673Z",
+  "updated_at": "2026-10-09T21:45:40.492976Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/sds/README.md",
+          "output/sds/VALIDATION.json"
+        ],
+        "output_directory": "output/sds",
+        "source_sha256": "325aa366b545510fde2a88c25185748746518bfa0876daf654a75a102f117ade",
+        "scene_sha256": "07b1fa51205018f9316257768e1f9c8b28f4b31f7d3f9aa362c7cfeffb426f21",
+        "text_editability": {
+          "typeable_text_objects": 27,
+          "native_freeform_paths": 30,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:45:40.492976Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "6b5d8b86386b8e819afd95feb99258929be6c1eb7e471c26c86c89bc99ec5c5e",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/sds/README.md",
+                "output/sds/VALIDATION.json"
+              ],
+              "output_directory": "output/sds",
+              "source_sha256": "325aa366b545510fde2a88c25185748746518bfa0876daf654a75a102f117ade",
+              "scene_sha256": "07b1fa51205018f9316257768e1f9c8b28f4b31f7d3f9aa362c7cfeffb426f21",
+              "text_editability": {
+                "typeable_text_objects": 27,
+                "native_freeform_paths": 30,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

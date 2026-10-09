@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "demogen-synthetic-demonstration-generation-for-data-efficient-visuomotor-policy-learning",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.510091Z",
-  "updated_at": "2026-10-09T20:49:28.590328Z",
+  "updated_at": "2026-10-09T21:45:39.141367Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/demogen/README.md",
+          "output/demogen/VALIDATION.json"
+        ],
+        "output_directory": "output/demogen",
+        "source_sha256": "310448233ee36cd4d5637725228450194b6d6443e1518007dbc051115b557e83",
+        "scene_sha256": "9a66ee39ca94e10ae6ab51571100b57b0985f3535325a5b769cc5214823b4376",
+        "text_editability": {
+          "typeable_text_objects": 13,
+          "native_freeform_paths": 29,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:45:39.141367Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "c6532a546bc054c89c72c81c03fa85972a62299469747770abd4bc74613da3d3",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/demogen/README.md",
+                "output/demogen/VALIDATION.json"
+              ],
+              "output_directory": "output/demogen",
+              "source_sha256": "310448233ee36cd4d5637725228450194b6d6443e1518007dbc051115b557e83",
+              "scene_sha256": "9a66ee39ca94e10ae6ab51571100b57b0985f3535325a5b769cc5214823b4376",
+              "text_editability": {
+                "typeable_text_objects": 13,
+                "native_freeform_paths": 29,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

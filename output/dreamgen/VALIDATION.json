@@ -1,0 +1,232 @@
+{
+  "diagram_id": "dreamgen-figure-2",
+  "source_scene_sha256": "d5e7c3bf89bd70f2fb112ba6931c1e432b269552bb5bd8dc40b57f691d7c6809",
+  "source_pdf_sha256": "e4e2c5c9e664d9331adb49c230053a76cf5bb4c3501341f4d9b372ecc585684c",
+  "checked_files": [
+    {
+      "name": "dreamgen-figure-2.drawio",
+      "sha256": "551e25f272c1fc2d036050757a05d1a7f60050f60e8486dbe897d7c4789f4294"
+    },
+    {
+      "name": "dreamgen-figure-2.png",
+      "sha256": "bdbadd1c3751963ee87249b3f29deb801a3bfb876bce5b74d6f578cf5cd7dead"
+    },
+    {
+      "name": "dreamgen-figure-2.pptx",
+      "sha256": "ec45604b8d3b834fce37f7de886cfa9a7193dc9a7b10d7ba50cbcd8f6c53fdde"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      0.194,
+      0.164,
+      0.178
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_scene_asset_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 47,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; source edition/hash pinned",
+    "source_page_figure": "Independent PDF crop compared with original PNG and delivered preview",
+    "source_preview_visual": "passed with disclosed image/font/math/dash limitations"
+  },
+  "native_xml_counts": {
+    "p:sp": 77,
+    "p:pic": 18,
+    "a:custGeom": 47,
+    "p:cxnSp": 0,
+    "a:t": 12
+  },
+  "source_title": "DreamGen: Unlocking Generalization in Robot Learning through Video World Models",
+  "typeable_labels": [
+    "Step 1. Finetune Video World Model",
+    "Step 2. Rollout Video World Model",
+    "Step 3. Label Pseudo Actions",
+    "Step 4. Visuomotor Policy Training",
+    "Human teleoperation data",
+    "Water the flowers",
+    "Automatically Labeled Pseudo Actions",
+    "Pseudo-labeled ",
+    "neural trajectories",
+    "Step 3. Label Pseudo Actions",
+    "“Water the flowers”",
+    "“Pick up the tangerine”"
+  ],
+  "raster_nodes": [
+    {
+      "id": "dreamgen-source-component-0",
+      "asset": "dreamgen-source-component-0.png",
+      "x": 768.6169738769531,
+      "y": 506.8512725830078,
+      "width": 281.7792663574219,
+      "height": 162.5650177001953,
+      "canvas_area_fraction": 0.042
+    },
+    {
+      "id": "dreamgen-source-component-1",
+      "asset": "dreamgen-source-component-1.png",
+      "x": 59.366180419921875,
+      "y": 117.9052505493164,
+      "width": 243.84750366210938,
+      "height": 149.01793670654297,
+      "canvas_area_fraction": 0.033
+    },
+    {
+      "id": "dreamgen-source-component-2",
+      "asset": "dreamgen-source-component-2.png",
+      "x": 402.3049621582031,
+      "y": 117.9052505493164,
+      "width": 243.84750366210938,
+      "height": 149.01793670654297,
+      "canvas_area_fraction": 0.033
+    },
+    {
+      "id": "dreamgen-source-component-3",
+      "asset": "dreamgen-source-component-3.png",
+      "x": 639.7826843261719,
+      "y": 235.70809936523438,
+      "width": 317.001708984375,
+      "height": 182.88560485839844,
+      "canvas_area_fraction": 0.053
+    },
+    {
+      "id": "dreamgen-source-component-4",
+      "asset": "dreamgen-source-component-4.png",
+      "x": 892.7566223144531,
+      "y": 235.70809936523438,
+      "width": 317.001708984375,
+      "height": 182.88560485839844,
+      "canvas_area_fraction": 0.053
+    },
+    {
+      "id": "dreamgen-source-component-5",
+      "asset": "dreamgen-source-component-5.png",
+      "x": 1111.7404174804688,
+      "y": 235.70809936523438,
+      "width": 277.25958251953125,
+      "height": 182.88560485839844,
+      "canvas_area_fraction": 0.047
+    },
+    {
+      "id": "dreamgen-source-component-6",
+      "asset": "dreamgen-source-component-6.png",
+      "x": 640.483154296875,
+      "y": 64.78614807128906,
+      "width": 317.001708984375,
+      "height": 182.88560485839844,
+      "canvas_area_fraction": 0.053
+    },
+    {
+      "id": "dreamgen-source-component-7",
+      "asset": "dreamgen-source-component-7.png",
+      "x": 893.975830078125,
+      "y": 64.78614807128906,
+      "width": 317.001708984375,
+      "height": 182.88560485839844,
+      "canvas_area_fraction": 0.053
+    },
+    {
+      "id": "dreamgen-source-component-8",
+      "asset": "dreamgen-source-component-8.png",
+      "x": 1111.7404174804688,
+      "y": 64.71885681152344,
+      "width": 277.25958251953125,
+      "height": 182.88560485839844,
+      "canvas_area_fraction": 0.047
+    },
+    {
+      "id": "dreamgen-source-component-9",
+      "asset": "dreamgen-source-component-9.png",
+      "x": 0.0,
+      "y": 498.97984313964844,
+      "width": 255.88201904296875,
+      "height": 162.5650177001953,
+      "canvas_area_fraction": 0.038
+    },
+    {
+      "id": "dreamgen-source-component-10",
+      "asset": "dreamgen-source-component-10.png",
+      "x": 194.11065673828125,
+      "y": 499.2773895263672,
+      "width": 281.77931213378906,
+      "height": 162.5650177001953,
+      "canvas_area_fraction": 0.042
+    },
+    {
+      "id": "dreamgen-source-component-11",
+      "asset": "dreamgen-source-component-11.png",
+      "x": 412.14495849609375,
+      "y": 498.97984313964844,
+      "width": 281.77935791015625,
+      "height": 162.5650177001953,
+      "canvas_area_fraction": 0.042
+    },
+    {
+      "id": "dreamgen-source-component-12",
+      "asset": "dreamgen-source-component-12.png",
+      "x": 156.40802764892578,
+      "y": 645.66943359375,
+      "width": 126.7605972290039,
+      "height": 21.503997802734375,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "dreamgen-source-component-13",
+      "asset": "dreamgen-source-component-13.png",
+      "x": 380.5126647949219,
+      "y": 645.66943359375,
+      "width": 126.7606201171875,
+      "height": 21.503997802734375,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "dreamgen-source-component-14",
+      "asset": "dreamgen-source-component-14.png",
+      "x": 736.4277648925781,
+      "y": 527.3157806396484,
+      "width": 281.7792663574219,
+      "height": 162.5650177001953,
+      "canvas_area_fraction": 0.042
+    },
+    {
+      "id": "dreamgen-source-component-15",
+      "asset": "dreamgen-source-component-15.png",
+      "x": 700.1552124023438,
+      "y": 545.0882720947266,
+      "width": 281.77935791015625,
+      "height": 162.5650177001953,
+      "canvas_area_fraction": 0.042
+    },
+    {
+      "id": "dreamgen-source-component-16",
+      "asset": "dreamgen-source-component-16.png",
+      "x": 1165.1683044433594,
+      "y": 567.6788635253906,
+      "width": 97.53900146484375,
+      "height": 91.66122436523438,
+      "canvas_area_fraction": 0.008
+    },
+    {
+      "id": "dreamgen-source-component-17",
+      "asset": "dreamgen-source-component-17.png",
+      "x": 1165.1683044433594,
+      "y": 567.6788635253906,
+      "width": 97.53900146484375,
+      "height": 91.66122436523438,
+      "canvas_area_fraction": 0.008
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

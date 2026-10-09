@@ -1,0 +1,127 @@
+{
+  "diagram_id": "annotation-free-figure-1",
+  "source_scene_sha256": "5bb4c714630a9047526e16ff9337ee0d7f00b32bb8e4ccadfb42c82489f960f1",
+  "source_pdf_sha256": "09d5f8a6ab5241357e07c48d838af7d0fc6d4968c3f6b8a11422f5f31367915b",
+  "checked_files": [
+    {
+      "name": "annotation-free-figure-1.drawio",
+      "sha256": "feb13f2edff97c90c4ee4d463e487ea4962c21f7674d03d09190f2f5a02d80ad"
+    },
+    {
+      "name": "annotation-free-figure-1.png",
+      "sha256": "f44a50b328649799ede3a34c8a18da8e04915daccfd84a2229fbca26505a450a"
+    },
+    {
+      "name": "annotation-free-figure-1.pptx",
+      "sha256": "db7a28c43d3b11aa5da52a2778d4de4e8d1f5056d67ab500e3cf611a0f4c136e"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      2.025,
+      2.112,
+      2.136
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_scene_asset_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 7,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; source edition/hash pinned",
+    "source_page_figure": "Independent PDF crop compared with original PNG and delivered preview",
+    "source_preview_visual": "passed with disclosed image/font/math/dash limitations"
+  },
+  "native_xml_counts": {
+    "p:sp": 20,
+    "p:pic": 7,
+    "a:custGeom": 7,
+    "p:cxnSp": 0,
+    "a:t": 6
+  },
+  "source_title": "Annotation-Free One-Shot Imitation Learning for Multi-Step Manipulation Tasks",
+  "typeable_labels": [
+    "Source",
+    "Target",
+    "u",
+    "u",
+    "ΔT",
+    "cam"
+  ],
+  "raster_nodes": [
+    {
+      "id": "source-observation",
+      "asset": "assets/source-observation.png",
+      "x": 11,
+      "y": 22,
+      "width": 154,
+      "height": 116,
+      "canvas_area_fraction": 0.025
+    },
+    {
+      "id": "target-observation",
+      "asset": "assets/target-observation.png",
+      "x": 545,
+      "y": 22,
+      "width": 154,
+      "height": 116,
+      "canvas_area_fraction": 0.025
+    },
+    {
+      "id": "source-robot",
+      "asset": "assets/robot-silhouette.png",
+      "x": 40,
+      "y": 69,
+      "width": 360,
+      "height": 469,
+      "canvas_area_fraction": 0.241
+    },
+    {
+      "id": "target-robot",
+      "asset": "assets/robot-silhouette.png",
+      "x": 570,
+      "y": 69,
+      "width": 360,
+      "height": 469,
+      "canvas_area_fraction": 0.241
+    },
+    {
+      "id": "adapted-gripper",
+      "asset": "assets/adapted-gripper.png",
+      "x": 1004,
+      "y": 127,
+      "width": 196,
+      "height": 183,
+      "canvas_area_fraction": 0.051
+    },
+    {
+      "id": "source-final-object",
+      "asset": "assets/source-final-object.png",
+      "x": 313,
+      "y": 459,
+      "width": 105,
+      "height": 82,
+      "canvas_area_fraction": 0.012
+    },
+    {
+      "id": "target-final-object",
+      "asset": "assets/target-final-object.png",
+      "x": 918,
+      "y": 459,
+      "width": 109,
+      "height": 83,
+      "canvas_area_fraction": 0.013
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

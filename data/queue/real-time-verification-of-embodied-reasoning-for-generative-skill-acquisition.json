@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "real-time-verification-of-embodied-reasoning-for-generative-skill-acquisition",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.479828Z",
-  "updated_at": "2026-10-09T20:14:36.541973Z",
+  "updated_at": "2026-10-09T21:45:40.877687Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/vergsa/README.md",
+          "output/vergsa/VALIDATION.json"
+        ],
+        "output_directory": "output/vergsa",
+        "source_sha256": "f6cffe99b77adfe2c66b946903e6ec081efd4fa037eb33ec61b6bbccdf641192",
+        "scene_sha256": "c2f7631e0cb8f64ddfaf8b4040a5a77b61a4ff437daafebe0512701fb3fbb853",
+        "text_editability": {
+          "typeable_text_objects": 64,
+          "native_freeform_paths": 46,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -287,6 +301,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T21:45:40.877687Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "428dccb16eb3b13c80cb187e7f74d6bc3825b7a0708af576c60bef82c8f26391",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/vergsa/README.md",
+                "output/vergsa/VALIDATION.json"
+              ],
+              "output_directory": "output/vergsa",
+              "source_sha256": "f6cffe99b77adfe2c66b946903e6ec081efd4fa037eb33ec61b6bbccdf641192",
+              "scene_sha256": "c2f7631e0cb8f64ddfaf8b4040a5a77b61a4ff437daafebe0512701fb3fbb853",
+              "text_editability": {
+                "typeable_text_objects": 64,
+                "native_freeform_paths": 46,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

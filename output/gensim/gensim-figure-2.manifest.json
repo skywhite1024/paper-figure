@@ -1,0 +1,113 @@
+{
+  "schema_version": 1,
+  "diagram_id": "gensim-figure-2",
+  "source_sha256": "e0d740d0be112ebf86e3fa6a4f4c113bb3208542d5e89e69d59696ec1c1dab29",
+  "assets": [
+    {
+      "name": "gensim-figure-2-raster-0.png",
+      "sha256": "0574c47b630c9ca87d08d8467f381d0c0bc9ba644f4721b96b25330610e12624"
+    },
+    {
+      "name": "gensim-figure-2-raster-1.png",
+      "sha256": "50118d4e0e74bd0ebb1ac26411f7520d8c251d40867a5180dfa311f8b183838c"
+    },
+    {
+      "name": "gensim-figure-2-raster-2.png",
+      "sha256": "e3b7d5dccd32425314f7db979d44b95c4150184b9a2775e237bab29e67b4a058"
+    },
+    {
+      "name": "gensim-figure-2-raster-3.png",
+      "sha256": "68717f477dbd82faad621ea2b1401071efc2881ae578dbb7585400c21f0a8f7c"
+    },
+    {
+      "name": "gensim-figure-2-raster-4.png",
+      "sha256": "043c9b76537a7742a38253f3768c5c1d503acdea7457500c84e786f1b17bec13"
+    },
+    {
+      "name": "gensim-figure-2-raster-5.png",
+      "sha256": "5a43473a5299ec75bef2f7f2cb995a63c2ad38af41bca16948c5a92c9cb26bf4"
+    },
+    {
+      "name": "gensim-figure-2-raster-6.png",
+      "sha256": "dfb388f04b3a19a01b76b54d34258e0a65d47d1d803b8bc4255d0bd84abff62a"
+    },
+    {
+      "name": "gensim-figure-2-raster-7.png",
+      "sha256": "7e14541f3ecbd9c270b0a788b882e7a6a196a41e8426182131f50dc0eda5914f"
+    }
+  ],
+  "provenance": {
+    "paper_title": "GenSim: Generating Robotic Simulation Tasks via Large Language Models",
+    "paper_url": "https://arxiv.org/pdf/2310.01361v2",
+    "figure": "Figure 2",
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "notes": "Original task-creation, program-synthesis, simulation, library and transfer layout. Discrete avatar, engine icon and six source robot illustrations remain raster. LLM label and code are manually transcribed as native text; native freeform arrows are not attached connectors. Source mixed clipping requires manually reviewed image crops.",
+    "page": 3,
+    "status": "figure_recreation",
+    "source_sha256": "97b91f5da06223de29b894792f90a00a9c0732bf05df0f92f1d1bddd21332962",
+    "source_crop_pdf_points": [
+      107,
+      62,
+      504,
+      180
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "dash_fidelity": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+    "extraction_warnings": [
+      "27 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 2",
+      "path crosses crop boundary: 3",
+      "path partially intersects raster inset: 27",
+      "path partially intersects raster inset: 60",
+      "path partially intersects raster inset: 61",
+      "path partially intersects raster inset: 65",
+      "path partially intersects raster inset: 66",
+      "path partially intersects raster inset: 68",
+      "unhandled image/shading at seq 9: [447.86846923828125, 66.48382568359375, 521.0802001953125, 124.15036010742188]; requires reviewed raster region",
+      "unhandled image/shading at seq 10: [443.140869140625, 117.84693908691406, 516.3526000976562, 175.5134735107422]; requires reviewed raster region",
+      "unhandled image/shading at seq 11: [438.41339111328125, 169.2100830078125, 511.6250915527344, 226.87661743164062]; requires reviewed raster region",
+      "unhandled image/shading at seq 12: [379.38446044921875, 60.180423736572266, 452.59619140625, 117.84695434570312]; requires reviewed raster region",
+      "unhandled image/shading at seq 13: [374.65692138671875, 111.54353332519531, 447.8686218261719, 169.21006774902344]; requires reviewed raster region",
+      "unhandled image/shading at seq 14: [369.9293212890625, 162.90664672851562, 443.14105224609375, 220.57318115234375]; requires reviewed raster region",
+      "unhandled image/shading at seq 21: [386.06488037109375, 80.73002624511719, 440.94805908203125, 111.60182189941406]; requires reviewed raster region",
+      "unhandled image/shading at seq 22: [396.44482421875, 126.97174835205078, 446.99737548828125, 155.4075469970703]; requires reviewed raster region",
+      "unhandled image/shading at seq 23: [356.3170166015625, 80.120361328125, 413.38232421875, 112.2196044921875]; requires reviewed raster region",
+      "unhandled image/shading at seq 24: [353.8316650390625, 124.06802368164062, 410.89697265625, 156.16726684570312]; requires reviewed raster region",
+      "unhandled image/shading at seq 28: [425.93939208984375, 69.99757385253906, 511.9850769042969, 118.39907836914062]; requires reviewed raster region",
+      "unhandled image/shading at seq 71: [108.00001525878906, 101.03507995605469, 143.43984985351562, 133.31063842773438]; requires reviewed raster region",
+      "unhandled image/shading at seq 72: [165.09860229492188, 104.46420288085938, 208.2288818359375, 134.5177459716797]; requires reviewed raster region",
+      "unhandled image/shading at seq 74: [244.57525634765625, 124.56439208984375, 315.93402099609375, 166.047607421875]; requires reviewed raster region",
+      "unhandled image/shading at seq 75: [204.914306640625, 69.80865478515625, 349.219970703125, 82.49285125732422]; requires reviewed raster region",
+      "unhandled image/shading at seq 76: [210.61085510253906, 89.4070816040039, 314.50921630859375, 109.57781982421875]; requires reviewed raster region"
+    ],
+    "ignored_invisible_text_spans": 0,
+    "manual_text_notes": "Source raster code and LLM words transcribed to native typeable text. Syntax highlighting simplified to whole-line colors for reliable editor spacing."
+  },
+  "metrics": {
+    "native_nodes": 85,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 18,
+    "native_text_objects": 67,
+    "raster_images": 8,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "gensim-figure-2.drawio",
+      "sha256": "08edff0e256f31d4f981d140bf67761421c6ebf21c4135990227b5cf436ececa"
+    },
+    {
+      "name": "gensim-figure-2.png",
+      "sha256": "447e63cbc65c372c6fca3d2a8f6d14d114964e35c71f389deb3e565b003a439f"
+    },
+    {
+      "name": "gensim-figure-2.pptx",
+      "sha256": "2eed8b68e20756c38388726d8e0dbe825a7b0eab56cd8bfbbf2ff400d04fc4ea"
+    }
+  ]
+}

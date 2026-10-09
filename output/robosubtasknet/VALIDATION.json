@@ -1,0 +1,152 @@
+{
+  "diagram_id": "robosubtasknet-figure-2",
+  "source_scene_sha256": "6b0f7f21d33ff06d81ea01a6c113424fcf844b42eac742ca21170a1d02ed5a91",
+  "source_pdf_sha256": "50d3e5433963f630f1917143cf61fa4cd2713150834fa2bb9d3b564364343622",
+  "checked_files": [
+    {
+      "name": "robosubtasknet-figure-2.drawio",
+      "sha256": "cf87bde1a36edad73b4e8718b1e7d5728ec19b23faa99d89923438dab1c5d7db"
+    },
+    {
+      "name": "robosubtasknet-figure-2.png",
+      "sha256": "55cabc9a30c617e1bc6f36a354eef62bba5539d619004328b7ed70b74cc34730"
+    },
+    {
+      "name": "robosubtasknet-figure-2.pptx",
+      "sha256": "8b0007beeffa07a9d54d33f3bf6bf570c0504ce1fe333bf02ac2035b138ccb42"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      4.751,
+      4.725,
+      4.66
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_scene_asset_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 60,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; source edition/hash pinned",
+    "source_page_figure": "Independent PDF crop compared with original PNG and delivered preview",
+    "source_preview_visual": "passed with disclosed image/font/math/dash limitations"
+  },
+  "native_xml_counts": {
+    "p:sp": 106,
+    "p:pic": 3,
+    "a:custGeom": 60,
+    "p:cxnSp": 0,
+    "a:t": 67
+  },
+  "source_title": "RoboSubtaskNet: Temporal Sub-task Segmentation for Human-to-Robot Skill Transfer in Real-World Environments",
+  "typeable_labels": [
+    "",
+    "",
+    "",
+    "",
+    "",
+    "Human",
+    "Demonstration",
+    "RGB",
+    "Video Data",
+    "Optical Flow Data",
+    "Farneback",
+    "Optical",
+    "Flow",
+    "",
+    "Spatial Stream",
+    "Subnetwork",
+    "",
+    "Temporal Stream",
+    "Subnetwork",
+    "Inflated 3-D",
+    "Convolution",
+    "Network",
+    "Inflated 3-D",
+    "Convolution",
+    "Network",
+    "Attention Fusion",
+    "Block",
+    "Fused Feature",
+    "Input Block",
+    "Fusion",
+    "Attention",
+    "Calculation",
+    "Received",
+    "RGB features",
+    "Transpose RGB",
+    "features",
+    "Received",
+    "Flow features",
+    "Transpose Flow",
+    "features",
+    "Linear",
+    "Transform",
+    "RGB",
+    "features",
+    "Linear",
+    "Transform",
+    "Flow",
+    "features",
+    "Sigmoid",
+    "Compute attention weights alpha",
+    "(α)",
+    "",
+    "",
+    "Fused",
+    "features",
+    "Σ",
+    "Σ",
+    "",
+    "",
+    "(a)",
+    "(b)",
+    "Multiply",
+    "with",
+    "Flow features",
+    "Multiply",
+    "with",
+    "RGB Features"
+  ],
+  "raster_nodes": [
+    {
+      "id": "frames0",
+      "asset": "frames-0.png",
+      "x": 8,
+      "y": 42,
+      "width": 87,
+      "height": 81,
+      "canvas_area_fraction": 0.025
+    },
+    {
+      "id": "frames1",
+      "asset": "frames-1.png",
+      "x": 125,
+      "y": 42,
+      "width": 90,
+      "height": 81,
+      "canvas_area_fraction": 0.025
+    },
+    {
+      "id": "frames2",
+      "asset": "frames-2.png",
+      "x": 75,
+      "y": 134,
+      "width": 104,
+      "height": 97,
+      "canvas_area_fraction": 0.035
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

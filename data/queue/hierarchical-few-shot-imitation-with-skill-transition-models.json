@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "hierarchical-few-shot-imitation-with-skill-transition-models",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.513402Z",
-  "updated_at": "2026-10-09T20:49:28.950461Z",
+  "updated_at": "2026-10-09T21:45:39.680833Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/hierarchical-few-shot/README.md",
+          "output/hierarchical-few-shot/VALIDATION.json"
+        ],
+        "output_directory": "output/hierarchical-few-shot",
+        "source_sha256": "0e553d99f207eee8fd2333f63d23d34bf309a2d874798593f65bf35190c83064",
+        "scene_sha256": "4f88efba1e1906c94b770bd6b9b50088a439a68cd5bfe7998016653107903f51",
+        "text_editability": {
+          "typeable_text_objects": 39,
+          "native_freeform_paths": 57,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:45:39.680833Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "957e954322dde10ef3329dd0b9f5956668a3cf2259f2e53f20dc990b97119e9f",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/hierarchical-few-shot/README.md",
+                "output/hierarchical-few-shot/VALIDATION.json"
+              ],
+              "output_directory": "output/hierarchical-few-shot",
+              "source_sha256": "0e553d99f207eee8fd2333f63d23d34bf309a2d874798593f65bf35190c83064",
+              "scene_sha256": "4f88efba1e1906c94b770bd6b9b50088a439a68cd5bfe7998016653107903f51",
+              "text_editability": {
+                "typeable_text_objects": 39,
+                "native_freeform_paths": 57,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

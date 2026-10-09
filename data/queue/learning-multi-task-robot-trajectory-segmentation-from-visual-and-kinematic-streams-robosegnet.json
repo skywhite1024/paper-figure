@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "learning-multi-task-robot-trajectory-segmentation-from-visual-and-kinematic-streams-robosegnet",
-  "revision": 2,
-  "status": "in_progress",
+  "revision": 3,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.484100Z",
-  "updated_at": "2026-10-09T20:49:29.029890Z",
+  "updated_at": "2026-10-09T21:45:40.332477Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -123,8 +123,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/robosegnet/README.md",
+          "output/robosegnet/VALIDATION.json"
+        ],
+        "output_directory": "output/robosegnet",
+        "source_sha256": "68471f599c861ae633565454f5a994846ffa069c780af57bb6d40949f2280fe9",
+        "scene_sha256": "e62fc84c5eeb5c1a7f7c7d7eadff86d326b6ca05cf4697535d1c5ba4f9eb00f7",
+        "text_editability": {
+          "typeable_text_objects": 24,
+          "native_freeform_paths": 87,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -252,6 +266,36 @@
           }
         },
         "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T21:45:40.332477Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "7887314a8058644ef6d7e21f94424090a4d2918d8c397723122f61131b9675db",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/robosegnet/README.md",
+                "output/robosegnet/VALIDATION.json"
+              ],
+              "output_directory": "output/robosegnet",
+              "source_sha256": "68471f599c861ae633565454f5a994846ffa069c780af57bb6d40949f2280fe9",
+              "scene_sha256": "e62fc84c5eeb5c1a7f7c7d7eadff86d326b6ca05cf4697535d1c5ba4f9eb00f7",
+              "text_editability": {
+                "typeable_text_objects": 24,
+                "native_freeform_paths": 87,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
+            }
+          }
+        }
       }
     }
   ]

@@ -6,12 +6,12 @@
   "pdf_path": "build/sources/robogene-boosting-vla-pre-training-via-diversity-driven-agentic-framework-for-real-world-task-generation.pdf",
   "pdf_sha256": "c65de2109ed099e23bfef6f7d7fab0c622371c041d7cf7e852c4f819cc51c151",
   "pdf_title_observed": "RoboGene: Boosting VLA Pre-training via Diversity-Driven Agentic Framework for Real-World Task Generation",
-  "first_page_title_text": "RoboGene: Boosting VLA Pre-training via Diversity-Driven Agentic Framework\nfor Real-World Task Generation\nYixue Zhang1,2,∗, Kun Wu1,∗, Zhi Gao3, Zhen Zhao1, Pei Ren1, Zhiyuan Xu1, Fei Liao1,\nXinhua Wang1, Shichao Fan1,4, Di Wu1,5, Qiuxuan Feng1,5, Meng Li1,\nZhengping Che1,†,\u0000, Chang Liu2,\u0000, Jian Tang1,\u00001Beijing Innovation Center of Humanoid Robotics\n2The School of Advanced Manufacturing and Roboti",
+  "first_page_title_text": "RoboGene: Boosting VLA Pre-training via Diversity-Driven Agentic Framework\nfor Real-World Task Generation\nYixue Zhang1,2,\u2217, Kun Wu1,\u2217, Zhi Gao3, Zhen Zhao1, Pei Ren1, Zhiyuan Xu1, Fei Liao1,\nXinhua Wang1, Shichao Fan1,4, Di Wu1,5, Qiuxuan Feng1,5, Meng Li1,\nZhengping Che1,\u2020,\u0000, Chang Liu2,\u0000, Jian Tang1,\u00001Beijing Innovation Center of Humanoid Robotics\n2The School of Advanced Manufacturing and Roboti",
   "title_match": true,
   "version": "2602.16444v2",
   "page_count": 20,
   "source_status": "accessible",
-  "license_note": "unverified",
+  "license_note": "Reuse license unverified; preserve original authorship and attribution; private user reference only",
   "figure_candidates": [
     {
       "figure": "Figure 2",
@@ -40,7 +40,7 @@
     {
       "figure": "Figure 2",
       "page_1_based": 4,
-      "caption_excerpt": "Figure 2: Overview of RoboGene. The framework comprises three key components: (1) a diversity-driven sampling mechanism based on a Least Frequently Used (LFU) strategy; (2) a self-reflection mechanism that enhances task generation quality; and (3) a long-term memory module that consolidates Human-in-the-Loop (HITL) feedback. (e.g., “folding a microwave in the factory”), we do not sam- ple randomly from the global space. Instead, we first filter a",
+      "caption_excerpt": "Figure 2: Overview of RoboGene. The framework comprises three key components: (1) a diversity-driven sampling mechanism based on a Least Frequently Used (LFU) strategy; (2) a self-reflection mechanism that enhances task generation quality; and (3) a long-term memory module that consolidates Human-in-the-Loop (HITL) feedback. (e.g., \u201cfolding a microwave in the factory\u201d), we do not sam- ple randomly from the global space. Instead, we first filter a",
       "visually_inspected": false
     },
     {
@@ -70,7 +70,7 @@
     {
       "figure": "Figure 6",
       "page_1_based": 6,
-      "caption_excerpt": "Figure 6: Real-world experimental setup. We employ three robots: the Single-arm UR-5e (SUR), the Dual-arm Franka (DFR), and the AgileX Cobot Magic V2.0 (AGX). saturation,” plateauing at approximately 350 and 250 unique objects. RoboGene overcomes this bottleneck through our diversity-driven sampling strategy, covering 719 distinct ob- jects, a 1.7× expansion over the strongest baseline. The re- sulting distribution is significantly flatter, ensur",
+      "caption_excerpt": "Figure 6: Real-world experimental setup. We employ three robots: the Single-arm UR-5e (SUR), the Dual-arm Franka (DFR), and the AgileX Cobot Magic V2.0 (AGX). saturation,\u201d plateauing at approximately 350 and 250 unique objects. RoboGene overcomes this bottleneck through our diversity-driven sampling strategy, covering 719 distinct ob- jects, a 1.7\u00d7 expansion over the strongest baseline. The re- sulting distribution is significantly flatter, ensur",
       "visually_inspected": false
     },
     {
@@ -82,7 +82,7 @@
     {
       "figure": "Figure 6",
       "page_1_based": 7,
-      "caption_excerpt": "Figure 6. For each robot type, we generated three representative tasks using RoboGene and collected 250 tra- jectories per task. We train ACT [Zhao et al., 2023b] for the stationary robots and π0.5 [Intelligence et al., 2025] for the mobile robot and report the average success rates over 20 rollouts for each task. As reported in Table 3, the system achieved robust performance, including a 90% success rate on the SUR-SortButton task. These results",
+      "caption_excerpt": "Figure 6. For each robot type, we generated three representative tasks using RoboGene and collected 250 tra- jectories per task. We train ACT [Zhao et al., 2023b] for the stationary robots and \u03c00.5 [Intelligence et al., 2025] for the mobile robot and report the average success rates over 20 rollouts for each task. As reported in Table 3, the system achieved robust performance, including a 90% success rate on the SUR-SortButton task. These results",
       "visually_inspected": false
     },
     {
@@ -92,5 +92,8 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+  "version_evidence": "Version identifier printed in original PDF: 2602.16444v2",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2602.16444v2",
+  "pdf_url": "https://arxiv.org/pdf/2602.16444v2"
 }

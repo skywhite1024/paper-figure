@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "modality-selection-and-skill-segmentation-via-cross-modality-attention",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.486065Z",
-  "updated_at": "2026-10-09T20:14:36.472209Z",
+  "updated_at": "2026-10-09T21:41:55.179254Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/cross-modality-attention/README.md",
+          "output/cross-modality-attention/VALIDATION.json"
+        ],
+        "output_directory": "output/cross-modality-attention",
+        "source_sha256": "0307974b706b725f0ed06767662309bfbf5e0e0725327387ae0c49cdf9489262",
+        "scene_sha256": "0c0f77b75086cfdd3e4c6f565c942c2a4f2bcb4636bcab7f9d5e3e1c0911a011",
+        "text_editability": {
+          "typeable_text_objects": 24,
+          "native_freeform_paths": 22,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -315,6 +329,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T21:41:55.179254Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "0456584135cbe0f5d07ad1dcb8ff40ab875eed1c71a5c68c72c0567c747f761a",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/cross-modality-attention/README.md",
+                "output/cross-modality-attention/VALIDATION.json"
+              ],
+              "output_directory": "output/cross-modality-attention",
+              "source_sha256": "0307974b706b725f0ed06767662309bfbf5e0e0725327387ae0c49cdf9489262",
+              "scene_sha256": "0c0f77b75086cfdd3e4c6f565c942c2a4f2bcb4636bcab7f9d5e3e1c0911a011",
+              "text_editability": {
+                "typeable_text_objects": 24,
+                "native_freeform_paths": 22,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

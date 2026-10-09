@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "option-discovery-using-deep-skill-chaining",
-  "revision": 2,
-  "status": "in_progress",
+  "revision": 3,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.482597Z",
-  "updated_at": "2026-10-09T20:49:29.290231Z",
+  "updated_at": "2026-10-09T21:45:39.068169Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/deep-skill-chaining/README.md",
+          "output/deep-skill-chaining/VALIDATION.json"
+        ],
+        "output_directory": "output/deep-skill-chaining",
+        "source_sha256": "fb2b42a704404ec5ca14bb77e287c9128f7e85531545c34153c6654f4dcd7c54",
+        "scene_sha256": "fe07857402d4e5c8176cce5e10866c562063090552bcba5378ccabb949a7903e",
+        "text_editability": {
+          "typeable_text_objects": 4,
+          "native_freeform_paths": 541,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -254,6 +268,36 @@
           }
         },
         "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T21:45:39.068169Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "c1bf6365462093b8bf2d4199300e7de538ecf5ea3022db22f219593365b0378c",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/deep-skill-chaining/README.md",
+                "output/deep-skill-chaining/VALIDATION.json"
+              ],
+              "output_directory": "output/deep-skill-chaining",
+              "source_sha256": "fb2b42a704404ec5ca14bb77e287c9128f7e85531545c34153c6654f4dcd7c54",
+              "scene_sha256": "fe07857402d4e5c8176cce5e10866c562063090552bcba5378ccabb949a7903e",
+              "text_editability": {
+                "typeable_text_objects": 4,
+                "native_freeform_paths": 541,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
+            }
+          }
+        }
       }
     }
   ]

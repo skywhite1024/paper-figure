@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "partnr-a-benchmark-for-planning-and-reasoning-in-embodied-multi-agent-tasks",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.500227Z",
-  "updated_at": "2026-10-09T20:49:29.297990Z",
+  "updated_at": "2026-10-09T21:38:37.189451Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/partnr/README.md",
+          "output/partnr/VALIDATION.json"
+        ],
+        "output_directory": "output/partnr",
+        "source_sha256": "7da62f6f2b031d78908d6f063d44b6eaeb491bb31d03536218f6ee61dd300efd",
+        "scene_sha256": "6b78e19fd6174a71cca5f352f039aa794b0a30d376e051728a09781e022e276d",
+        "text_editability": {
+          "typeable_text_objects": 24,
+          "native_freeform_paths": 119,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:38:37.189451Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "112cabee4c8b0ef58133e68f2e04255632bea3f2dc5af0b7540f91ea94f1db58",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/partnr/README.md",
+                "output/partnr/VALIDATION.json"
+              ],
+              "output_directory": "output/partnr",
+              "source_sha256": "7da62f6f2b031d78908d6f063d44b6eaeb491bb31d03536218f6ee61dd300efd",
+              "scene_sha256": "6b78e19fd6174a71cca5f352f039aa794b0a30d376e051728a09781e022e276d",
+              "text_editability": {
+                "typeable_text_objects": 24,
+                "native_freeform_paths": 119,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

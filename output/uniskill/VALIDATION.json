@@ -1,0 +1,545 @@
+{
+  "diagram_id": "uniskill-figure-2",
+  "source_scene_sha256": "24617fb648803dc8aea11a22f4995d2b036adf0d3141d23106959605dfe295f8",
+  "source_pdf_sha256": "4446f50c7995807a7dfa139e8d90fbc244966d232a56e44e2c838940fba85efb",
+  "checked_files": [
+    {
+      "name": "uniskill-figure-2.drawio",
+      "sha256": "5ce3c2d17d13dfe930d967ecda3b315d6eb48da6d5c4536cab51991d1250cea1"
+    },
+    {
+      "name": "uniskill-figure-2.png",
+      "sha256": "b442ef7c5ac849c2dc80138548d804bb4e3057d428117369e4732ebec96124ba"
+    },
+    {
+      "name": "uniskill-figure-2.pptx",
+      "sha256": "01811a67aac549894534d1bacd3e4401482fd202d791477775fd341ff0d1e36c"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      2.577,
+      2.417,
+      2.471
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_scene_asset_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 121,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; source edition/hash pinned",
+    "source_page_figure": "Independent PDF crop compared with original PNG and delivered preview",
+    "source_preview_visual": "passed with disclosed image/font/math/dash limitations"
+  },
+  "native_xml_counts": {
+    "p:sp": 200,
+    "p:pic": 51,
+    "a:custGeom": 121,
+    "p:cxnSp": 0,
+    "a:t": 28
+  },
+  "source_title": "UniSkill: Imitating Human Videos via Cross-Embodiment Skill Representations",
+  "typeable_labels": [
+    "(a)",
+    "(c)",
+    "Universal Skill Representation Learning",
+    "Section 3.2",
+    "Universal Skill-Conditioned Policy",
+    "Section 3.3",
+    "Inference with",
+    "Universal Skill Representations",
+    "Section 3.4",
+    "Actions",
+    "Actions",
+    "Aug",
+    "Actions",
+    "Inverse",
+    "Skill Dynamics",
+    "(b)",
+    "Video Prompt",
+    "Extracted Skills",
+    "Inverse",
+    "Skill Dynamics",
+    "Robot + Human",
+    "Video Dataset",
+    "Forward",
+    "Skill Dynamics",
+    "DROID &",
+    "Target Data",
+    "Inverse",
+    "Skill Dynamics"
+  ],
+  "raster_nodes": [
+    {
+      "id": "uniskill-source-component-0",
+      "asset": "uniskill-source-component-0.png",
+      "x": 10.073410034179688,
+      "y": 241.78802490234375,
+      "width": 142.60267639160156,
+      "height": 80.21401977539062,
+      "canvas_area_fraction": 0.02
+    },
+    {
+      "id": "uniskill-source-component-1",
+      "asset": "uniskill-source-component-1.png",
+      "x": 588.1673583984375,
+      "y": 82.74298095703125,
+      "width": 142.60263061523438,
+      "height": 80.21399688720703,
+      "canvas_area_fraction": 0.02
+    },
+    {
+      "id": "uniskill-source-component-2",
+      "asset": "uniskill-source-component-2.png",
+      "x": 0.0,
+      "y": 255.61798095703125,
+      "width": 140.8267364501953,
+      "height": 80.21401977539062,
+      "canvas_area_fraction": 0.02
+    },
+    {
+      "id": "uniskill-source-component-3",
+      "asset": "uniskill-source-component-3.png",
+      "x": 0.0,
+      "y": 255.61798095703125,
+      "width": 140.8267364501953,
+      "height": 80.21401977539062,
+      "canvas_area_fraction": 0.02
+    },
+    {
+      "id": "uniskill-source-component-4",
+      "asset": "uniskill-source-component-4.png",
+      "x": 295.56907653808594,
+      "y": 81.3599853515625,
+      "width": 142.60267639160156,
+      "height": 80.21399688720703,
+      "canvas_area_fraction": 0.02
+    },
+    {
+      "id": "uniskill-source-component-5",
+      "asset": "uniskill-source-component-5.png",
+      "x": 130.54257202148438,
+      "y": 241.78802490234375,
+      "width": 142.60267639160156,
+      "height": 80.21401977539062,
+      "canvas_area_fraction": 0.02
+    },
+    {
+      "id": "uniskill-source-component-6",
+      "asset": "uniskill-source-component-6.png",
+      "x": 687.8915405273438,
+      "y": 82.74298095703125,
+      "width": 142.60263061523438,
+      "height": 80.21399688720703,
+      "canvas_area_fraction": 0.02
+    },
+    {
+      "id": "uniskill-source-component-7",
+      "asset": "uniskill-source-component-7.png",
+      "x": 115.12559509277344,
+      "y": 255.61798095703125,
+      "width": 140.18568420410156,
+      "height": 80.21401977539062,
+      "canvas_area_fraction": 0.019
+    },
+    {
+      "id": "uniskill-source-component-8",
+      "asset": "uniskill-source-component-8.png",
+      "x": 297.6816101074219,
+      "y": 338.5979461669922,
+      "width": 140.18568420410156,
+      "height": 80.21401977539062,
+      "canvas_area_fraction": 0.019
+    },
+    {
+      "id": "uniskill-source-component-9",
+      "asset": "uniskill-source-component-9.png",
+      "x": 579.0839538574219,
+      "y": 97.95600128173828,
+      "width": 142.60263061523438,
+      "height": 80.21399688720703,
+      "canvas_area_fraction": 0.02
+    },
+    {
+      "id": "uniskill-source-component-10",
+      "asset": "uniskill-source-component-10.png",
+      "x": 676.6235961914062,
+      "y": 97.95600128173828,
+      "width": 140.18572998046875,
+      "height": 80.21399688720703,
+      "canvas_area_fraction": 0.019
+    },
+    {
+      "id": "uniskill-source-component-11",
+      "asset": "uniskill-source-component-11.png",
+      "x": 531.0719604492188,
+      "y": 269.86285400390625,
+      "width": 80.21401977539062,
+      "height": 144.38516235351562,
+      "canvas_area_fraction": 0.02
+    },
+    {
+      "id": "uniskill-source-component-12",
+      "asset": "uniskill-source-component-12.png",
+      "x": 540.7529296875,
+      "y": 322.0019989013672,
+      "width": 16.596038818359375,
+      "height": 16.595993041992188,
+      "canvas_area_fraction": 0.0
+    },
+    {
+      "id": "uniskill-source-component-13",
+      "asset": "uniskill-source-component-13.png",
+      "x": 437.0279846191406,
+      "y": 216.5452423095703,
+      "width": 80.21401977539062,
+      "height": 80.91151428222656,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "uniskill-source-component-14",
+      "asset": "uniskill-source-component-14.png",
+      "x": 422.80503845214844,
+      "y": 216.89401245117188,
+      "width": 142.60267639160156,
+      "height": 80.21401977539062,
+      "canvas_area_fraction": 0.02
+    },
+    {
+      "id": "uniskill-source-component-15",
+      "asset": "uniskill-source-component-15.png",
+      "x": 879.5879516601562,
+      "y": 246.35183715820312,
+      "width": 80.21401977539062,
+      "height": 144.38516235351562,
+      "canvas_area_fraction": 0.02
+    },
+    {
+      "id": "uniskill-source-component-16",
+      "asset": "uniskill-source-component-16.png",
+      "x": 886.5030212402344,
+      "y": 299.8739776611328,
+      "width": 16.596038818359375,
+      "height": 16.595993041992188,
+      "canvas_area_fraction": 0.0
+    },
+    {
+      "id": "uniskill-source-component-17",
+      "asset": "uniskill-source-component-17.png",
+      "x": 1020.6539611816406,
+      "y": 246.35183715820312,
+      "width": 80.21401977539062,
+      "height": 144.38516235351562,
+      "canvas_area_fraction": 0.02
+    },
+    {
+      "id": "uniskill-source-component-18",
+      "asset": "uniskill-source-component-18.png",
+      "x": 1027.5690307617188,
+      "y": 299.8739776611328,
+      "width": 16.596038818359375,
+      "height": 16.595993041992188,
+      "canvas_area_fraction": 0.0
+    },
+    {
+      "id": "uniskill-source-component-19",
+      "asset": "uniskill-source-component-19.png",
+      "x": 1059.9927062988281,
+      "y": 357.96002197265625,
+      "width": 128.00729370117188,
+      "height": 80.21401977539062,
+      "canvas_area_fraction": 0.018
+    },
+    {
+      "id": "uniskill-source-component-20",
+      "asset": "uniskill-source-component-20.png",
+      "x": 918.9266967773438,
+      "y": 357.96002197265625,
+      "width": 142.60263061523438,
+      "height": 80.21401977539062,
+      "canvas_area_fraction": 0.02
+    },
+    {
+      "id": "uniskill-source-component-21",
+      "asset": "uniskill-source-component-21.png",
+      "x": 777.8606872558594,
+      "y": 357.96002197265625,
+      "width": 142.60263061523438,
+      "height": 80.21401977539062,
+      "canvas_area_fraction": 0.02
+    },
+    {
+      "id": "uniskill-source-component-22",
+      "asset": "uniskill-source-component-22.png",
+      "x": 822.2807006835938,
+      "y": 95.1899642944336,
+      "width": 109.08251953125,
+      "height": 80.21399688720703,
+      "canvas_area_fraction": 0.015
+    },
+    {
+      "id": "uniskill-source-component-23",
+      "asset": "uniskill-source-component-23.png",
+      "x": 819.3506469726562,
+      "y": 95.1899642944336,
+      "width": 142.60263061523438,
+      "height": 80.21399688720703,
+      "canvas_area_fraction": 0.02
+    },
+    {
+      "id": "uniskill-source-component-24",
+      "asset": "uniskill-source-component-24.png",
+      "x": 821.0447387695312,
+      "y": 95.1899642944336,
+      "width": 139.21435546875,
+      "height": 80.21399688720703,
+      "canvas_area_fraction": 0.019
+    },
+    {
+      "id": "uniskill-source-component-25",
+      "asset": "uniskill-source-component-25.png",
+      "x": 837.4937438964844,
+      "y": 82.74298095703125,
+      "width": 109.08251953125,
+      "height": 80.21399688720703,
+      "canvas_area_fraction": 0.015
+    },
+    {
+      "id": "uniskill-source-component-26",
+      "asset": "uniskill-source-component-26.png",
+      "x": 834.5636901855469,
+      "y": 82.74298095703125,
+      "width": 142.60263061523438,
+      "height": 80.21399688720703,
+      "canvas_area_fraction": 0.02
+    },
+    {
+      "id": "uniskill-source-component-27",
+      "asset": "uniskill-source-component-27.png",
+      "x": 806.3762512207031,
+      "y": 107.63701629638672,
+      "width": 109.08251953125,
+      "height": 80.21399688720703,
+      "canvas_area_fraction": 0.015
+    },
+    {
+      "id": "uniskill-source-component-28",
+      "asset": "uniskill-source-component-28.png",
+      "x": 804.1376953125,
+      "y": 107.63701629638672,
+      "width": 142.60263061523438,
+      "height": 80.21399688720703,
+      "canvas_area_fraction": 0.02
+    },
+    {
+      "id": "uniskill-source-component-29",
+      "asset": "uniskill-source-component-29.png",
+      "x": 805.831787109375,
+      "y": 107.63701629638672,
+      "width": 139.21435546875,
+      "height": 80.21399688720703,
+      "canvas_area_fraction": 0.019
+    },
+    {
+      "id": "uniskill-source-component-30",
+      "asset": "uniskill-source-component-30.png",
+      "x": 791.1632080078125,
+      "y": 120.08397674560547,
+      "width": 109.08251953125,
+      "height": 80.21399688720703,
+      "canvas_area_fraction": 0.015
+    },
+    {
+      "id": "uniskill-source-component-31",
+      "asset": "uniskill-source-component-31.png",
+      "x": 790.6187438964844,
+      "y": 120.08397674560547,
+      "width": 139.21435546875,
+      "height": 80.21399688720703,
+      "canvas_area_fraction": 0.019
+    },
+    {
+      "id": "uniskill-source-component-32",
+      "asset": "uniskill-source-component-32.png",
+      "x": 1059.3780212402344,
+      "y": 88.27498626708984,
+      "width": 16.596038818359375,
+      "height": 16.595993041992188,
+      "canvas_area_fraction": 0.0
+    },
+    {
+      "id": "uniskill-source-component-33",
+      "asset": "uniskill-source-component-33.png",
+      "x": 1044.1649780273438,
+      "y": 99.33899688720703,
+      "width": 16.596038818359375,
+      "height": 16.595993041992188,
+      "canvas_area_fraction": 0.0
+    },
+    {
+      "id": "uniskill-source-component-34",
+      "asset": "uniskill-source-component-34.png",
+      "x": 1028.9520263671875,
+      "y": 110.40298461914062,
+      "width": 16.596038818359375,
+      "height": 16.595993041992188,
+      "canvas_area_fraction": 0.0
+    },
+    {
+      "id": "uniskill-source-component-35",
+      "asset": "uniskill-source-component-35.png",
+      "x": 59.468994140625,
+      "y": 89.6579818725586,
+      "width": 37.34101867675781,
+      "height": 37.34099578857422,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "uniskill-source-component-36",
+      "asset": "uniskill-source-component-36.png",
+      "x": 18.670509338378906,
+      "y": 89.6579818725586,
+      "width": 37.34099578857422,
+      "height": 37.34099578857422,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "uniskill-source-component-37",
+      "asset": "uniskill-source-component-37.png",
+      "x": 67.76701354980469,
+      "y": 152.66184997558594,
+      "width": 15.880233764648438,
+      "height": 41.3353271484375,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "uniskill-source-component-38",
+      "asset": "uniskill-source-component-38.png",
+      "x": 80.84490966796875,
+      "y": 152.9897232055664,
+      "width": 15.880233764648438,
+      "height": 40.67951202392578,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "uniskill-source-component-39",
+      "asset": "uniskill-source-component-39.png",
+      "x": 93.92266845703125,
+      "y": 152.66184997558594,
+      "width": 15.880233764648438,
+      "height": 41.3353271484375,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "uniskill-source-component-40",
+      "asset": "uniskill-source-component-40.png",
+      "x": 107.00056457519531,
+      "y": 152.66184997558594,
+      "width": 15.880233764648438,
+      "height": 41.3353271484375,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "uniskill-source-component-41",
+      "asset": "uniskill-source-component-41.png",
+      "x": 120.078369140625,
+      "y": 152.66184997558594,
+      "width": 15.880233764648438,
+      "height": 41.3353271484375,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "uniskill-source-component-42",
+      "asset": "uniskill-source-component-42.png",
+      "x": 133.1561737060547,
+      "y": 152.70726013183594,
+      "width": 15.880233764648438,
+      "height": 41.2445068359375,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "uniskill-source-component-43",
+      "asset": "uniskill-source-component-43.png",
+      "x": 133.1561737060547,
+      "y": 152.66184997558594,
+      "width": 15.880233764648438,
+      "height": 41.3353271484375,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "uniskill-source-component-44",
+      "asset": "uniskill-source-component-44.png",
+      "x": 146.01219177246094,
+      "y": 153.27598571777344,
+      "width": 15.389877319335938,
+      "height": 40.10700988769531,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "uniskill-source-component-45",
+      "asset": "uniskill-source-component-45.png",
+      "x": 145.9860076904297,
+      "y": 153.27598571777344,
+      "width": 15.442245483398438,
+      "height": 40.10700988769531,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "uniskill-source-component-46",
+      "asset": "uniskill-source-component-46.png",
+      "x": 158.3777618408203,
+      "y": 152.66184997558594,
+      "width": 15.880233764648438,
+      "height": 41.3353271484375,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "uniskill-source-component-47",
+      "asset": "uniskill-source-component-47.png",
+      "x": 60.85198974609375,
+      "y": 364.875,
+      "width": 16.595993041992188,
+      "height": 16.595993041992188,
+      "canvas_area_fraction": 0.0
+    },
+    {
+      "id": "uniskill-source-component-48",
+      "asset": "uniskill-source-component-48.png",
+      "x": 300.1110076904297,
+      "y": 222.42599487304688,
+      "width": 16.595993041992188,
+      "height": 16.595993041992188,
+      "canvas_area_fraction": 0.0
+    },
+    {
+      "id": "uniskill-source-component-49",
+      "asset": "uniskill-source-component-49.png",
+      "x": 433.57049560546875,
+      "y": 91.04100036621094,
+      "width": 37.340972900390625,
+      "height": 37.34099578857422,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "uniskill-source-component-50",
+      "asset": "uniskill-source-component-50.png",
+      "x": 629.2650146484375,
+      "y": 218.27696228027344,
+      "width": 16.596038818359375,
+      "height": 16.595993041992188,
+      "canvas_area_fraction": 0.0
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

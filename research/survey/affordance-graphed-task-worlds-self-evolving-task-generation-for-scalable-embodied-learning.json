@@ -6,12 +6,12 @@
   "pdf_path": "build/sources/affordance-graphed-task-worlds-self-evolving-task-generation-for-scalable-embodied-learning.pdf",
   "pdf_sha256": "b674fcff9f5ac42c4f950ed94e2f37077468b383b4f77878a59060d4c212475d",
   "pdf_title_observed": "Scene2Demo: Self-Evolving Embodied Data Generation via Object-Action Graph",
-  "first_page_title_text": "SCENE2DEMO: Self-Evolving Embodied Data Generation\nvia Object-Action Graph\nXiang Liu∗\nSen Cui∗,†\nGuocai Yao\nZhong Cao\nJingheng Ma\nMin Zhang\nChangshui Zhang†\n∗Equal contribution\n†Corresponding authors\ncuis@mail.tsinghua.edu.cn\nzcs@mail.tsinghua.edu.cn\nAbstract\nWe present SCENE2DEMO, a self-evolving framework\nfor offline embodied data generation. Given a single real-\nworld RGB image and a user query",
-  "title_match": true,
+  "first_page_title_text": "SCENE2DEMO: Self-Evolving Embodied Data Generation\nvia Object-Action Graph\nXiang Liu\u2217\nSen Cui\u2217,\u2020\nGuocai Yao\nZhong Cao\nJingheng Ma\nMin Zhang\nChangshui Zhang\u2020\n\u2217Equal contribution\n\u2020Corresponding authors\ncuis@mail.tsinghua.edu.cn\nzcs@mail.tsinghua.edu.cn\nAbstract\nWe present SCENE2DEMO, a self-evolving framework\nfor offline embodied data generation. Given a single real-\nworld RGB image and a user query",
+  "title_match": false,
   "version": "2602.12065v2",
   "page_count": 30,
   "source_status": "accessible",
-  "license_note": "unverified",
+  "license_note": "Reuse license unverified; preserve original authorship and attribution; private user reference only",
   "figure_candidates": [
     {
       "figure": "Figure 1",
@@ -40,13 +40,13 @@
     {
       "figure": "Figure 2",
       "page_1_based": 4,
-      "caption_excerpt": "Figure 2. Universal object-action graph. Universal object-action graph. Let O denote the set of all manipulable objects, A denote the universal set of atomic actions, and N+ denote the discrete temporal order within a simple task. We define a universal directed graph G = (V, E), V = O × A × N+, (5) where E ⊂V ×V represents physically or semantically fea- sible transitions between object-action-time configurations. 4 ",
+      "caption_excerpt": "Figure 2. Universal object-action graph. Universal object-action graph. Let O denote the set of all manipulable objects, A denote the universal set of atomic actions, and N+ denote the discrete temporal order within a simple task. We define a universal directed graph G = (V, E), V = O \u00d7 A \u00d7 N+, (5) where E \u2282V \u00d7V represents physically or semantically fea- sible transitions between object-action-time configurations. 4 ",
       "visually_inspected": false
     },
     {
       "figure": "Figure 3",
       "page_1_based": 6,
-      "caption_excerpt": "Figure 3. Graph-Based Task Generation with Self-Evolution. For details, see Appendix A.2,A.3. 4.1. Experimental Setup We first evaluate primitive task generation on 102 automati- cally generated scene-task pairs reconstructed from 34 real- world scenes. These tasks include articulated-object oper- ations (T5: open/close) and rigid-object manipulation (T6: pick/place). We then evaluate long-horizon execution on four representative tasks: T1: “Put ",
+      "caption_excerpt": "Figure 3. Graph-Based Task Generation with Self-Evolution. For details, see Appendix A.2,A.3. 4.1. Experimental Setup We first evaluate primitive task generation on 102 automati- cally generated scene-task pairs reconstructed from 34 real- world scenes. These tasks include articulated-object oper- ations (T5: open/close) and rigid-object manipulation (T6: pick/place). We then evaluate long-horizon execution on four representative tasks: T1: \u201cPut ",
       "visually_inspected": false
     },
     {
@@ -58,7 +58,7 @@
     {
       "figure": "Figure 4",
       "page_1_based": 7,
-      "caption_excerpt": "Figure 4. Detailed Action Display of Self-Evolution. We take the task T1 (Glass→Refrigerator) as an example. The task is always decomposed into four subtasks: “open refrigerator”, “pick up glass”, “put glass into refrigerator”, and “close refrigerator”. the edges, and these situations are usually difficult to cor- rect within a few steps. For detailed failure analysis, see Appendix C.7. 4.4. Repeated Decomposition and Ablation Studies We also ana",
+      "caption_excerpt": "Figure 4. Detailed Action Display of Self-Evolution. We take the task T1 (Glass\u2192Refrigerator) as an example. The task is always decomposed into four subtasks: \u201copen refrigerator\u201d, \u201cpick up glass\u201d, \u201cput glass into refrigerator\u201d, and \u201cclose refrigerator\u201d. the edges, and these situations are usually difficult to cor- rect within a few steps. For detailed failure analysis, see Appendix C.7. 4.4. Repeated Decomposition and Ablation Studies We also ana",
       "visually_inspected": false
     },
     {
@@ -68,5 +68,16 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+  "review_notes": "Catalog retains v1 title; converted source is the same paper\u2019s v2 renamed Scene2Demo. Literal title differs; identity verified through official arXiv linked version history.",
+  "version_evidence": "Version identifier printed in original PDF: 2602.12065v2",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2602.12065v2",
+  "pdf_url": "https://arxiv.org/pdf/2602.12065v2",
+  "paper_identity_match": true,
+  "title_change_evidence": {
+    "v1_url": "https://arxiv.org/abs/2602.12065v1",
+    "v1_title": "Affordance-Graphed Task Worlds: Self-Evolving Task Generation for Scalable Embodied Learning",
+    "v2_url": "https://arxiv.org/abs/2602.12065v2",
+    "v2_title": "Scene2Demo: Self-Evolving Embodied Data Generation via Object-Action Graph",
+    "verification": "Official arXiv version pages inspected2026-10-09 show same identifier, same seven authors, linked submission history. v1 submitted12Feb2026; v2 revised26Aug2026."
+  }
 }

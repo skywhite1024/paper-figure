@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "molmob0t-large-scale-simulation-enables-zero-shot-manipulation",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.504838Z",
-  "updated_at": "2026-10-09T20:49:29.237477Z",
+  "updated_at": "2026-10-09T21:45:40.037365Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -123,8 +123,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/molmobot/README.md",
+          "output/molmobot/VALIDATION.json"
+        ],
+        "output_directory": "output/molmobot",
+        "source_sha256": "55fbccef55184f5a1a257fc8dd497290f63e1b2a10de2e992b3d1c4535821fdf",
+        "scene_sha256": "eaeb7a79af89a728b7a52e4a307b3463495f2fc4d149aabc927b95abbb94e78c",
+        "text_editability": {
+          "typeable_text_objects": 18,
+          "native_freeform_paths": 53,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -351,6 +365,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:45:40.037365Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "81924eb833c8514adc8d77684a0e94e2b4a35b1e1b401b132b774d442ae3d072",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/molmobot/README.md",
+                "output/molmobot/VALIDATION.json"
+              ],
+              "output_directory": "output/molmobot",
+              "source_sha256": "55fbccef55184f5a1a257fc8dd497290f63e1b2a10de2e992b3d1c4535821fdf",
+              "scene_sha256": "eaeb7a79af89a728b7a52e4a307b3463495f2fc4d149aabc927b95abbb94e78c",
+              "text_editability": {
+                "typeable_text_objects": 18,
+                "native_freeform_paths": 53,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

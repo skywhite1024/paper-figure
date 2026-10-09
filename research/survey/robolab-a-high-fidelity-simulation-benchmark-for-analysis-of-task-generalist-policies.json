@@ -40,7 +40,7 @@
     {
       "figure": "Figure 2",
       "page_1_based": 2,
-      "caption_excerpt": "Fig. 2: Three approaches for robotic benchmarks. LEFT: To date, pure simulation based benchmarks have exhibited low visual quality, creating a large sim2real transfer gap. MIDDLE: Real2sim benchmarks address this issue by using techniques to bring real-world visual texture into simulation. However, these environments are extremely costly with reported per-scene generation time of ∼1hr [9]. RIGHT: Our approach achieves a high degree of realism wit",
+      "caption_excerpt": "Fig. 2: Three approaches for robotic benchmarks. LEFT: To date, pure simulation based benchmarks have exhibited low visual quality, creating a large sim2real transfer gap. MIDDLE: Real2sim benchmarks address this issue by using techniques to bring real-world visual texture into simulation. However, these environments are extremely costly with reported per-scene generation time of \u223c1hr [9]. RIGHT: Our approach achieves a high degree of realism wit",
       "visually_inspected": false
     },
     {
@@ -70,13 +70,13 @@
     {
       "figure": "Figure 7",
       "page_1_based": 6,
-      "caption_excerpt": "Fig. 7: Examples of language ablation experiments. Top: Same scene and goal, but the instruction wording ranges from precise to increasingly vague. Middle: Same scene, but the instruction specifies different tasks to perform. Bottom: Same instruction, but the scene becomes progressively more complex. dataset [12]: π0.5 [26], π0-FAST [25], π0 [4], PaliGemma [3], GR00T N1.6 [22]. The action space is 7-DOF Franka joint positions and a 1- DOF binary ",
+      "caption_excerpt": "Fig. 7: Examples of language ablation experiments. Top: Same scene and goal, but the instruction wording ranges from precise to increasingly vague. Middle: Same scene, but the instruction specifies different tasks to perform. Bottom: Same instruction, but the scene becomes progressively more complex. dataset [12]: \u03c00.5 [26], \u03c00-FAST [25], \u03c00 [4], PaliGemma [3], GR00T N1.6 [22]. The action space is 7-DOF Franka joint positions and a 1- DOF binary ",
       "visually_inspected": false
     },
     {
       "figure": "Figure 7",
       "page_1_based": 6,
-      "caption_excerpt": "Fig. 7. Performance relative to instruction specificity. Fig. 8a reports overall RoboLab-120 success rates under three levels of instruction specificity (vague, default, specific) for the same underlying tasks and scenes. We observe degradation as instructions become more abstract (e.g., π0.5 drops from 28.0% on default to 15.3% on vague) This sensitivity reveals that current models lack robust reasoning against the task goal. A truly generalist ",
+      "caption_excerpt": "Fig. 7. Performance relative to instruction specificity. Fig. 8a reports overall RoboLab-120 success rates under three levels of instruction specificity (vague, default, specific) for the same underlying tasks and scenes. We observe degradation as instructions become more abstract (e.g., \u03c00.5 drops from 28.0% on default to 15.3% on vague) This sensitivity reveals that current models lack robust reasoning against the task goal. A truly generalist ",
       "visually_inspected": false
     },
     {
@@ -100,9 +100,12 @@
     {
       "figure": "Figure 10",
       "page_1_based": 8,
-      "caption_excerpt": "Fig. 10: Correlation between RoboLab-120 success rate and RoboArena Elo score across the four policies with both measurements available (π0.5, π0-FAST, π0, PaliGemma). Rankings are preserved (Spearman ρ = 1.00) and the scores are positively correlated (Pearson r = 0.68), suggesting RoboLab-120 performance is a useful proxy for real-world policy quality. TABLE II: Robustness to controlled environmental variations over two simple tasks (BananaInBow",
+      "caption_excerpt": "Fig. 10: Correlation between RoboLab-120 success rate and RoboArena Elo score across the four policies with both measurements available (\u03c00.5, \u03c00-FAST, \u03c00, PaliGemma). Rankings are preserved (Spearman \u03c1 = 1.00) and the scores are positively correlated (Pearson r = 0.68), suggesting RoboLab-120 performance is a useful proxy for real-world policy quality. TABLE II: Robustness to controlled environmental variations over two simple tasks (BananaInBow",
       "visually_inspected": false
     }
   ],
-  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+  "version_evidence": "Version identifier printed in original PDF: 2604.09860v4",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2604.09860v4",
+  "pdf_url": "https://arxiv.org/pdf/2604.09860v4"
 }

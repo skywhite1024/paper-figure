@@ -1,0 +1,41 @@
+{
+  "diagram_id": "boss-figure-1",
+  "source_scene_sha256": "b40e9095b80d8ce1e4edb7fa8b4b5cd1fcc77fdd5c813a0752c7089ca3dbfe77",
+  "source_pdf_sha256": "8f3e5ae033bcfce30ef469ff1b1d4011e2d9ce806a2d76733b47b0d358e4a171",
+  "checked_files": [
+    {
+      "name": "boss-figure-1.drawio",
+      "sha256": "d4718f874f0763875cb12ac37b4e56f8395ea3269473a83048bde25e7fe93434"
+    },
+    {
+      "name": "boss-figure-1.png",
+      "sha256": "f0304046415aad3147f97e9542fa1c03ba14092c09315fa32bee9035b85d2ed6"
+    },
+    {
+      "name": "boss-figure-1.pptx",
+      "sha256": "9ff31b9369489b9c1e0708381e3e884245b3b8595a1fb62702c309d08d4bc803"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 1 PDFpage2 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 241,
+    "p:pic": 19,
+    "a:custGeom": 182,
+    "p:cxnSp": 0,
+    "a:t": 40
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

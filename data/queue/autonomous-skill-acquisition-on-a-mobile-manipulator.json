@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "autonomous-skill-acquisition-on-a-mobile-manipulator",
-  "revision": 2,
-  "status": "in_progress",
+  "revision": 3,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.483178Z",
-  "updated_at": "2026-10-09T20:49:28.390825Z",
+  "updated_at": "2026-10-09T21:45:39.984677Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/mobile-skill/README.md",
+          "output/mobile-skill/VALIDATION.json"
+        ],
+        "output_directory": "output/mobile-skill",
+        "source_sha256": "bc868e1bda49db20312948a14276bbfc81e7250fb6bfb8e7a272055dd8aaaee2",
+        "scene_sha256": "44d779ddcad4c38ac22b3a2be37e004f7e5ee2e2e227e5a4755f7c1806d641bb",
+        "text_editability": {
+          "typeable_text_objects": 5,
+          "native_freeform_paths": 60,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -254,6 +268,36 @@
           }
         },
         "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T21:45:39.984677Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "9f714cf46c1564481a05bd07c7bb55211ebe4c0535fbc70611363436e0228455",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/mobile-skill/README.md",
+                "output/mobile-skill/VALIDATION.json"
+              ],
+              "output_directory": "output/mobile-skill",
+              "source_sha256": "bc868e1bda49db20312948a14276bbfc81e7250fb6bfb8e7a272055dd8aaaee2",
+              "scene_sha256": "44d779ddcad4c38ac22b3a2be37e004f7e5ee2e2e227e5a4755f7c1806d641bb",
+              "text_editability": {
+                "typeable_text_objects": 5,
+                "native_freeform_paths": 60,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
+            }
+          }
+        }
       }
     }
   ]

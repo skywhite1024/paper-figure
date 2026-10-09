@@ -1,0 +1,62 @@
+{
+  "diagram_id": "trajectory-segmentation-figure-2",
+  "source_scene_sha256": "6be13aa3184fa4e366b5cb95ec61338a6998831142a9ae017c92c1800e364d9d",
+  "source_pdf_sha256": "7397912c2775dabd082d0898e24bbc755ba52a3783d6c0e8d2266385aaa69799",
+  "checked_files": [
+    {
+      "name": "trajectory-segmentation-figure-2.drawio",
+      "sha256": "031e102a127292b243f2c60b2d3940dea6185602dd6f32d9cb4eca54d6182344"
+    },
+    {
+      "name": "trajectory-segmentation-figure-2.png",
+      "sha256": "254f8c3dace64af1d4043911e8eee507e91b8b0bc0706e7e446f447c6a09e3f1"
+    },
+    {
+      "name": "trajectory-segmentation-figure-2.pptx",
+      "sha256": "7257b001c0cc875302875f64a85d7f8b10ec54d6a5aabc9ba6051212040aa8c5"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      2.997,
+      2.997,
+      2.997
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 41,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; embedded version matches",
+    "source_page_figure": "Independent PDF source crop compared with provided original and delivered preview",
+    "source_preview_visual": "passed with disclosed raster/font/math limitations",
+    "all_scene_asset_hashes": "passed",
+    "source_crop_same_size_channel_mae": 0.0
+  },
+  "native_xml_counts": {
+    "p:sp": 45,
+    "p:pic": 0,
+    "a:custGeom": 41,
+    "p:cxnSp": 0,
+    "a:t": 4
+  },
+  "source_title": "Data Augmentation for Instruction Following Policies via Trajectory Segmentation",
+  "typeable_labels": [
+    "TriDet",
+    "UnLoc",
+    "Play",
+    "Segmentation"
+  ],
+  "raster_nodes": [],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

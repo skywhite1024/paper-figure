@@ -1,0 +1,1565 @@
+{
+  "schema_version": 1,
+  "id": "anytask-figure-2",
+  "title": "AnyTask: An Automated Task and Data Generation Framework for Advancing Sim-to-Real Policy Learning · Figure 2",
+  "canvas": {
+    "width": 1443,
+    "height": 402
+  },
+  "provenance": {
+    "paper_title": "AnyTask: An Automated Task and Data Generation Framework for Advancing Sim-to-Real Policy Learning",
+    "paper_url": "https://arxiv.org/abs/2512.17853v2",
+    "figure": "Figure 2",
+    "page": 2,
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "status": "figure_recreation",
+    "source_sha256": "511df38af5995725333fbcce983419388c9a747955be1b20bfc52af5ae029741",
+    "source_crop_pdf_points": [
+      70,
+      62,
+      551,
+      196
+    ],
+    "notes": "Manually reconstructed after inspecting actual source pixels. Original source is a flattened raster. Layout, native panels, labels and connecting geometry are recreated; no whole-figure raster backdrop. Font metrics and curve/arrow geometry approximated. Small original mathematical/photo details retained only where explicitly noted. Independent target-application QA pending. Manually reconstructed stacked stage panels, stage routes, labels and monospaced code names. Only ten bounded photographic/icon assets remain raster; code and ordinary labels typeable."
+  },
+  "nodes": [
+    {
+      "id": "card-0-2",
+      "shape": "rounded_rect",
+      "x": 450,
+      "y": 7,
+      "width": 200,
+      "height": 368,
+      "fill": "#F0CDEF",
+      "stroke": "#333333",
+      "stroke_width": 1.6,
+      "dash": false
+    },
+    {
+      "id": "card-0-1",
+      "shape": "rounded_rect",
+      "x": 443,
+      "y": 16,
+      "width": 200,
+      "height": 368,
+      "fill": "#F0CDEF",
+      "stroke": "#333333",
+      "stroke_width": 1.6,
+      "dash": false
+    },
+    {
+      "id": "card-0-0",
+      "shape": "rounded_rect",
+      "x": 436,
+      "y": 25,
+      "width": 200,
+      "height": 368,
+      "fill": "#F0CDEF",
+      "stroke": "#333333",
+      "stroke_width": 1.6,
+      "dash": false
+    },
+    {
+      "id": "card-badge-0",
+      "shape": "rounded_rect",
+      "x": 466,
+      "y": 29,
+      "width": 157,
+      "height": 49,
+      "fill": "#DDA2DE",
+      "stroke": "none",
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "card-1-2",
+      "shape": "rounded_rect",
+      "x": 673,
+      "y": 7,
+      "width": 200,
+      "height": 368,
+      "fill": "#C9EEF9",
+      "stroke": "#333333",
+      "stroke_width": 1.6,
+      "dash": false
+    },
+    {
+      "id": "card-1-1",
+      "shape": "rounded_rect",
+      "x": 666,
+      "y": 16,
+      "width": 200,
+      "height": 368,
+      "fill": "#C9EEF9",
+      "stroke": "#333333",
+      "stroke_width": 1.6,
+      "dash": false
+    },
+    {
+      "id": "card-1-0",
+      "shape": "rounded_rect",
+      "x": 659,
+      "y": 25,
+      "width": 200,
+      "height": 368,
+      "fill": "#C9EEF9",
+      "stroke": "#333333",
+      "stroke_width": 1.6,
+      "dash": false
+    },
+    {
+      "id": "card-badge-1",
+      "shape": "rounded_rect",
+      "x": 689,
+      "y": 29,
+      "width": 157,
+      "height": 49,
+      "fill": "#88D4F0",
+      "stroke": "none",
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "card-2-2",
+      "shape": "rounded_rect",
+      "x": 894,
+      "y": 7,
+      "width": 201,
+      "height": 368,
+      "fill": "#F7F0C7",
+      "stroke": "#333333",
+      "stroke_width": 1.6,
+      "dash": false
+    },
+    {
+      "id": "card-2-1",
+      "shape": "rounded_rect",
+      "x": 887,
+      "y": 16,
+      "width": 201,
+      "height": 368,
+      "fill": "#F7F0C7",
+      "stroke": "#333333",
+      "stroke_width": 1.6,
+      "dash": false
+    },
+    {
+      "id": "card-2-0",
+      "shape": "rounded_rect",
+      "x": 880,
+      "y": 25,
+      "width": 201,
+      "height": 368,
+      "fill": "#F7F0C7",
+      "stroke": "#333333",
+      "stroke_width": 1.6,
+      "dash": false
+    },
+    {
+      "id": "card-badge-2",
+      "shape": "rounded_rect",
+      "x": 910,
+      "y": 29,
+      "width": 158,
+      "height": 49,
+      "fill": "#F5CF52",
+      "stroke": "none",
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "python-icon",
+      "shape": "image",
+      "x": 477,
+      "y": 24,
+      "width": 54,
+      "height": 55,
+      "asset": "python-icon.png",
+      "alt": "Original discrete source icon/photo inset; its internal pixels remain raster"
+    },
+    {
+      "id": "simulation-icon",
+      "shape": "image",
+      "x": 681,
+      "y": 33,
+      "width": 47,
+      "height": 43,
+      "asset": "simulation-icon.png",
+      "alt": "Original discrete source icon/photo inset; its internal pixels remain raster"
+    },
+    {
+      "id": "data-icon",
+      "shape": "image",
+      "x": 898,
+      "y": 37,
+      "width": 48,
+      "height": 31,
+      "asset": "data-icon.png",
+      "alt": "Original discrete source icon/photo inset; its internal pixels remain raster"
+    },
+    {
+      "id": "raw-assets-icon",
+      "shape": "image",
+      "x": 41,
+      "y": 20,
+      "width": 63,
+      "height": 61,
+      "asset": "raw-assets-icon.png",
+      "alt": "Original discrete source icon/photo inset; its internal pixels remain raster"
+    },
+    {
+      "id": "database-icon",
+      "shape": "image",
+      "x": 302,
+      "y": 39,
+      "width": 31,
+      "height": 46,
+      "asset": "database-icon.png",
+      "alt": "Original discrete source icon/photo inset; its internal pixels remain raster"
+    },
+    {
+      "id": "objects-photo",
+      "shape": "image",
+      "x": 53,
+      "y": 270,
+      "width": 98,
+      "height": 40,
+      "asset": "objects-photo.png",
+      "alt": "Original discrete source icon/photo inset; its internal pixels remain raster"
+    },
+    {
+      "id": "simulation-photos",
+      "shape": "image",
+      "x": 671,
+      "y": 96,
+      "width": 177,
+      "height": 123,
+      "asset": "simulation-photos.png",
+      "alt": "Original discrete source icon/photo inset; its internal pixels remain raster"
+    },
+    {
+      "id": "collection-photos",
+      "shape": "image",
+      "x": 898,
+      "y": 93,
+      "width": 168,
+      "height": 62,
+      "asset": "collection-photos.png",
+      "alt": "Original discrete source icon/photo inset; its internal pixels remain raster"
+    },
+    {
+      "id": "real-policy-photos",
+      "shape": "image",
+      "x": 1108,
+      "y": 100,
+      "width": 327,
+      "height": 220,
+      "asset": "real-policy-photos.png",
+      "alt": "Original discrete source icon/photo inset; its internal pixels remain raster"
+    },
+    {
+      "id": "robot-arm-icon",
+      "shape": "image",
+      "x": 1169,
+      "y": 38,
+      "width": 51,
+      "height": 48,
+      "asset": "robot-arm-icon.png",
+      "alt": "Original discrete source icon/photo inset; its internal pixels remain raster"
+    },
+    {
+      "id": "vlm-panel",
+      "shape": "rounded_rect",
+      "x": 145,
+      "y": 38,
+      "width": 106,
+      "height": 43,
+      "fill": "#FCE4D5",
+      "stroke": "none",
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "task-generator",
+      "shape": "rounded_rect",
+      "x": 233,
+      "y": 153,
+      "width": 172,
+      "height": 44,
+      "fill": "#DCF2CE",
+      "stroke": "none",
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "simulation-generator",
+      "shape": "rounded_rect",
+      "x": 233,
+      "y": 331,
+      "width": 171,
+      "height": 57,
+      "fill": "#F0CDEE",
+      "stroke": "none",
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "policy-panel",
+      "shape": "rounded_rect",
+      "x": 1160,
+      "y": 27,
+      "width": 174,
+      "height": 58,
+      "fill": "#F2AE86",
+      "stroke": "none",
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "policy-arm-icon-visible",
+      "shape": "image",
+      "x": 1169,
+      "y": 38,
+      "width": 41,
+      "height": 43,
+      "asset": "policy-arm-icon-visible.png",
+      "alt": "Original small robot arm pictogram only"
+    },
+    {
+      "id": "code-title",
+      "shape": "text",
+      "x": 542,
+      "y": 39,
+      "width": 68,
+      "height": 26,
+      "label": "Code",
+      "font_size": 20,
+      "text_color": "#000000",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "simulation-title",
+      "shape": "text",
+      "x": 732,
+      "y": 42,
+      "width": 122,
+      "height": 26,
+      "label": "Simulation",
+      "font_size": 20,
+      "text_color": "#000000",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "data-title",
+      "shape": "text",
+      "x": 946,
+      "y": 30,
+      "width": 122,
+      "height": 49,
+      "label": "Data\nCollection",
+      "font_size": 20,
+      "text_color": "#000000",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "raw-title",
+      "shape": "text",
+      "x": 26,
+      "y": 78,
+      "width": 125,
+      "height": 24,
+      "label": "Raw Assets",
+      "font_size": 18,
+      "text_color": "#000000",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "vlm",
+      "shape": "text",
+      "x": 155,
+      "y": 49,
+      "width": 88,
+      "height": 24,
+      "label": "VLM+LLM",
+      "font_size": 18,
+      "text_color": "#000000",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "database",
+      "shape": "text",
+      "x": 237,
+      "y": 88,
+      "width": 167,
+      "height": 24,
+      "label": "Object Database",
+      "font_size": 18,
+      "text_color": "#000000",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "taskgen",
+      "shape": "text",
+      "x": 242,
+      "y": 163,
+      "width": 160,
+      "height": 24,
+      "label": "Task Generator",
+      "font_size": 18,
+      "text_color": "#000000",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "objectlist",
+      "shape": "text",
+      "x": 43,
+      "y": 241,
+      "width": 126,
+      "height": 24,
+      "label": "Object List",
+      "font_size": 18,
+      "text_color": "#000000",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "taskdescription",
+      "shape": "text",
+      "x": 226,
+      "y": 241,
+      "width": 183,
+      "height": 24,
+      "label": "Task Description",
+      "font_size": 18,
+      "text_color": "#000000",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "simgen",
+      "shape": "text",
+      "x": 251,
+      "y": 339,
+      "width": 132,
+      "height": 46,
+      "label": "Simulation\nGenerator",
+      "font_size": 18,
+      "text_color": "#000000",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "policy",
+      "shape": "text",
+      "x": 1210,
+      "y": 32,
+      "width": 117,
+      "height": 47,
+      "label": "(Sim2Real)\nPolicy",
+      "font_size": 19,
+      "text_color": "#000000",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "code1",
+      "shape": "text",
+      "x": 445,
+      "y": 110,
+      "width": 183,
+      "height": 47,
+      "label": "Scene Generation/\nreset()",
+      "font_size": 18,
+      "text_color": "#000000",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "code2",
+      "shape": "text",
+      "x": 453,
+      "y": 188,
+      "width": 176,
+      "height": 24,
+      "label": "check_success()",
+      "font_size": 18,
+      "text_color": "#000000",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "code3",
+      "shape": "text",
+      "x": 443,
+      "y": 241,
+      "width": 188,
+      "height": 25,
+      "label": "scripted_policy()",
+      "font_size": 18,
+      "text_color": "#000000",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "code4",
+      "shape": "text",
+      "x": 446,
+      "y": 295,
+      "width": 184,
+      "height": 25,
+      "label": "reward_function()",
+      "font_size": 18,
+      "text_color": "#000000",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "code5",
+      "shape": "text",
+      "x": 453,
+      "y": 349,
+      "width": 172,
+      "height": 25,
+      "label": "compose_state()",
+      "font_size": 18,
+      "text_color": "#000000",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "simlist",
+      "shape": "text",
+      "x": 663,
+      "y": 234,
+      "width": 193,
+      "height": 70,
+      "label": "• Parallelized Sim\n• Domain\n  Randomization",
+      "font_size": 18,
+      "text_color": "#000000",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "simdetails",
+      "shape": "text",
+      "x": 699,
+      "y": 301,
+      "width": 121,
+      "height": 80,
+      "label": "Lighting\nTexture\nMaterial\nObject pose\nJoint state",
+      "font_size": 13,
+      "text_color": "#000000",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "datalist",
+      "shape": "text",
+      "x": 895,
+      "y": 186,
+      "width": 177,
+      "height": 183,
+      "label": "• Agents\n  ViPR\n  ViPR Eureka\n  ViPR RL\n\n• Data\n  RGB\n  Point Cloud\n  Dense language\n    annotation",
+      "font_size": 16,
+      "text_color": "#000000",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "high-task",
+      "shape": "text",
+      "x": 18,
+      "y": 124,
+      "width": 173,
+      "height": 25,
+      "label": "High-level Task",
+      "font_size": 18,
+      "text_color": "#EE0909",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "scenario",
+      "shape": "text",
+      "x": 67,
+      "y": 167,
+      "width": 100,
+      "height": 24,
+      "label": "Scenario",
+      "font_size": 18,
+      "text_color": "#EE0909",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "apis",
+      "shape": "text",
+      "x": 27,
+      "y": 339,
+      "width": 167,
+      "height": 24,
+      "label": "Simulation APIs",
+      "font_size": 18,
+      "text_color": "#EE0909",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "api-detail",
+      "shape": "text",
+      "x": 54,
+      "y": 361,
+      "width": 142,
+      "height": 30,
+      "label": "Environment APIs\nRobot Skill APIs",
+      "font_size": 13,
+      "text_color": "#B6481F",
+      "font_family": "Courier New",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "high-example",
+      "shape": "text",
+      "x": 15,
+      "y": 146,
+      "width": 194,
+      "height": 19,
+      "label": "“put the item into the drawer”",
+      "font_size": 12,
+      "text_color": "#909090",
+      "font_family": "Arial",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "scene-example",
+      "shape": "text",
+      "x": 4,
+      "y": 187,
+      "width": 219,
+      "height": 18,
+      "label": "Table-top, Franka robot, workspace",
+      "font_size": 12,
+      "text_color": "#909090",
+      "font_family": "Arial",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "task-example",
+      "shape": "text",
+      "x": 194,
+      "y": 263,
+      "width": 239,
+      "height": 34,
+      "label": "“open the drawer, pick up the strawberry,\nand put it into the drawer”",
+      "font_size": 12,
+      "text_color": "#909090",
+      "font_family": "Arial",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "route-0",
+      "shape": "path",
+      "x": 115,
+      "y": 58,
+      "width": 22,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 22,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-0-head",
+      "shape": "path",
+      "x": 129.0,
+      "y": 54.4,
+      "width": 8.0,
+      "height": 7.200000000000003,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 8.0,
+            "y": 3.6000000000000014
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 7.200000000000003
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-1",
+      "shape": "path",
+      "x": 267,
+      "y": 58,
+      "width": 23,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 23,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-1-head",
+      "shape": "path",
+      "x": 282.0,
+      "y": 54.4,
+      "width": 8.0,
+      "height": 7.200000000000003,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 8.0,
+            "y": 3.6000000000000014
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 7.200000000000003
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-2",
+      "shape": "path",
+      "x": 318,
+      "y": 120,
+      "width": 0.01,
+      "height": 22,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 22
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-2-head",
+      "shape": "path",
+      "x": 314.4,
+      "y": 134.0,
+      "width": 7.2000000000000455,
+      "height": 8.0,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 3.6000000000000227,
+            "y": 8.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.2000000000000455,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-3",
+      "shape": "path",
+      "x": 198,
+      "y": 172,
+      "width": 20,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 20,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-3-head",
+      "shape": "path",
+      "x": 210.0,
+      "y": 168.4,
+      "width": 8.0,
+      "height": 7.199999999999989,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 8.0,
+            "y": 3.5999999999999943
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 7.199999999999989
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-4",
+      "shape": "path",
+      "x": 204,
+      "y": 218,
+      "width": 27,
+      "height": 13,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 27,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 13
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-4-head",
+      "shape": "path",
+      "x": 204,
+      "y": 224.28586903868404,
+      "width": 8.769749585655234,
+      "height": 6.714130961315959,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 6.714130961315959
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.646277130490375,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.769749585655234,
+            "y": 6.48721202226551
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-5",
+      "shape": "path",
+      "x": 317,
+      "y": 218,
+      "width": 0.01,
+      "height": 17,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 17
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-5-head",
+      "shape": "path",
+      "x": 313.4,
+      "y": 227.0,
+      "width": 7.2000000000000455,
+      "height": 8.0,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 3.6000000000000227,
+            "y": 8.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.2000000000000455,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-6",
+      "shape": "path",
+      "x": 169,
+      "y": 310,
+      "width": 46,
+      "height": 14,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 46,
+            "y": 14
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-6-head",
+      "shape": "path",
+      "x": 206.29842713975142,
+      "y": 318.22668110419454,
+      "width": 8.701572860248575,
+      "height": 6.888051939087745,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 8.701572860248575,
+            "y": 5.77331889580546
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 6.888051939087745
+          }
+        },
+        {
+          "lineTo": {
+            "x": 2.0963636336354057,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-7",
+      "shape": "path",
+      "x": 316,
+      "y": 302,
+      "width": 0.01,
+      "height": 20,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 20
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-7-head",
+      "shape": "path",
+      "x": 312.4,
+      "y": 314.0,
+      "width": 7.2000000000000455,
+      "height": 8.0,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 3.6000000000000227,
+            "y": 8.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.2000000000000455,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-8",
+      "shape": "path",
+      "x": 201,
+      "y": 352,
+      "width": 18,
+      "height": 10,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 10
+          }
+        },
+        {
+          "lineTo": {
+            "x": 18,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-8-head",
+      "shape": "path",
+      "x": 210.25842723878463,
+      "y": 352,
+      "width": 8.741572761215366,
+      "height": 7.032109643466583,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 8.741572761215366,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 3.4966291044861464,
+            "y": 7.032109643466583
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.7381772553915198
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-9",
+      "shape": "path",
+      "x": 410,
+      "y": 360,
+      "width": 20,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 20,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-9-head",
+      "shape": "path",
+      "x": 422.0,
+      "y": 356.4,
+      "width": 8.0,
+      "height": 7.2000000000000455,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 8.0,
+            "y": 3.6000000000000227
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 7.2000000000000455
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-10",
+      "shape": "path",
+      "x": 638,
+      "y": 216,
+      "width": 20,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 20,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-10-head",
+      "shape": "path",
+      "x": 650.0,
+      "y": 212.4,
+      "width": 8.0,
+      "height": 7.199999999999989,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 8.0,
+            "y": 3.5999999999999943
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 7.199999999999989
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-11",
+      "shape": "path",
+      "x": 865,
+      "y": 216,
+      "width": 23,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 23,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-11-head",
+      "shape": "path",
+      "x": 880.0,
+      "y": 212.4,
+      "width": 8.0,
+      "height": 7.199999999999989,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 8.0,
+            "y": 3.5999999999999943
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 7.199999999999989
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-12",
+      "shape": "path",
+      "x": 1092,
+      "y": 216,
+      "width": 16,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "route-12-head",
+      "shape": "path",
+      "x": 1100.0,
+      "y": 212.4,
+      "width": 8.0,
+      "height": 7.199999999999989,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 8.0,
+            "y": 3.5999999999999943
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 7.199999999999989
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    }
+  ],
+  "edges": []
+}

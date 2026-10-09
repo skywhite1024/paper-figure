@@ -69,3 +69,10 @@ class ExtractionTests(unittest.TestCase):
         scene=extract(pdf,self.config,self.root/'scene')
         self.assertFalse(any('HIDDEN' in n.get('label','') for n in scene['nodes']))
         self.assertGreater(scene['provenance']['ignored_invisible_text_spans'],0)
+
+    def test_abnormal_stroke_units_warn_instead_of_guessing(self):
+        doc=fitz.open();page=doc.new_page(width=300,height=200)
+        page.draw_rect(fitz.Rect(40,40,120,100),color=(0,0,0),width=100)
+        pdf=self.root/'wide-stroke.pdf';doc.save(pdf);doc.close()
+        scene=extract(pdf,self.config,self.root/'scene')
+        self.assertTrue(any('suspicious source stroke width' in w for w in scene['provenance']['extraction_warnings']))

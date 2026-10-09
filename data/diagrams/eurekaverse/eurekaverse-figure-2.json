@@ -1,0 +1,2235 @@
+{
+  "schema_version": 1,
+  "id": "eurekaverse-figure-2",
+  "title": "Eurekaverse: Environment Curriculum Generation via Large Language Models — source-layout editable reconstruction",
+  "canvas": {
+    "width": 1203,
+    "height": 357
+  },
+  "provenance": {
+    "paper_title": "Eurekaverse: Environment Curriculum Generation via Large Language Models",
+    "paper_url": "https://arxiv.org/abs/2411.01775v1",
+    "pdf_url": "https://arxiv.org/pdf/2411.01775v1",
+    "figure": "Figure 2",
+    "page": 2,
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/ Private user-requested adaptation; no public redistribution permission implied.",
+    "status": "figure_recreation",
+    "notes": "Manually reconstructed from the inspected original flattened PDF figure. Ordinary labels are live typeable text; panels, graph geometry and arrows are native editable shapes or paths. Source layout and contents retained; font metrics, line widths and decorative effects approximated. Seven photo crops retain robot and simulated terrain examples; small branding/status icons are separate raster crops. Prompts, message bubbles, titles, training/evaluation panels and loop arrows are native.",
+    "source_sha256": "ab63c77ce4dd8cae2ebd03594cca5140e90a8c9c6f9daf791badf79208e14459",
+    "source_crop_pdf_points": [
+      105,
+      71,
+      506,
+      190
+    ],
+    "survey_crop_correction": false,
+    "visual_inspection": "Original PDF figure inspected before source-layout reconstruction on 2026-10-09; independent application QA pending.",
+    "raster_details": [
+      {
+        "id": "robot-photo",
+        "bounds_source_pixels": [
+          9,
+          127,
+          245,
+          274
+        ],
+        "detail": "Original quadruped robot parkour photograph"
+      },
+      {
+        "id": "train-top",
+        "bounds_source_pixels": [
+          959,
+          57,
+          1182,
+          149
+        ],
+        "detail": "Original simulated terrain example; terrain and robot pixels remain raster"
+      },
+      {
+        "id": "train-middle",
+        "bounds_source_pixels": [
+          959,
+          153,
+          1182,
+          245
+        ],
+        "detail": "Original simulated terrain example; terrain and robot pixels remain raster"
+      },
+      {
+        "id": "train-bottom",
+        "bounds_source_pixels": [
+          959,
+          249,
+          1182,
+          341
+        ],
+        "detail": "Original simulated terrain example; terrain and robot pixels remain raster"
+      },
+      {
+        "id": "evaluate-left",
+        "bounds_source_pixels": [
+          624,
+          186,
+          732,
+          341
+        ],
+        "detail": "Original simulated terrain example; terrain and robot pixels remain raster"
+      },
+      {
+        "id": "evaluate-right",
+        "bounds_source_pixels": [
+          736,
+          186,
+          847,
+          341
+        ],
+        "detail": "Original simulated terrain example; terrain and robot pixels remain raster"
+      },
+      {
+        "id": "clipboard",
+        "bounds_source_pixels": [
+          18,
+          12,
+          46,
+          46
+        ],
+        "detail": "Original small decorative/branding icon; internal artwork remains raster"
+      },
+      {
+        "id": "parkour-robot",
+        "bounds_source_pixels": [
+          18,
+          87,
+          47,
+          118
+        ],
+        "detail": "Original small decorative/branding icon; internal artwork remains raster"
+      },
+      {
+        "id": "llm-icon",
+        "bounds_source_pixels": [
+          335,
+          241,
+          361,
+          267
+        ],
+        "detail": "Original small decorative/branding icon; internal artwork remains raster"
+      },
+      {
+        "id": "training-icon",
+        "bounds_source_pixels": [
+          963,
+          20,
+          994,
+          52
+        ],
+        "detail": "Original small decorative/branding icon; internal artwork remains raster"
+      },
+      {
+        "id": "code-icon",
+        "bounds_source_pixels": [
+          507,
+          22,
+          536,
+          49
+        ],
+        "detail": "Original small decorative/branding icon; internal artwork remains raster"
+      },
+      {
+        "id": "evaluation-icon",
+        "bounds_source_pixels": [
+          630,
+          152,
+          664,
+          181
+        ],
+        "detail": "Original small decorative/branding icon; internal artwork remains raster"
+      },
+      {
+        "id": "best-policy-icon",
+        "bounds_source_pixels": [
+          571,
+          102,
+          598,
+          127
+        ],
+        "detail": "Original small decorative/branding icon; internal artwork remains raster"
+      },
+      {
+        "id": "evolution-icon",
+        "bounds_source_pixels": [
+          510,
+          241,
+          537,
+          267
+        ],
+        "detail": "Original small decorative/branding icon; internal artwork remains raster"
+      },
+      {
+        "id": "brain-icon",
+        "bounds_source_pixels": [
+          913,
+          240,
+          945,
+          272
+        ],
+        "detail": "Original small decorative/branding icon; internal artwork remains raster"
+      },
+      {
+        "id": "logo",
+        "bounds_source_pixels": [
+          23,
+          288,
+          84,
+          351
+        ],
+        "detail": "Original small decorative/branding icon; internal artwork remains raster"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "framework",
+      "shape": "path",
+      "label": "",
+      "x": 272,
+      "y": 3,
+      "width": 926,
+      "height": 353,
+      "fill": "#FFFFFF",
+      "stroke": "#DDDDDD",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 5,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 921,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 923.76142375,
+            "y1": 0,
+            "x2": 926,
+            "y2": 2.23857625,
+            "x": 926,
+            "y": 5
+          }
+        },
+        {
+          "lineTo": {
+            "x": 926,
+            "y": 348
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 926,
+            "y1": 350.76142375,
+            "x2": 923.76142375,
+            "y2": 353,
+            "x": 921,
+            "y": 353
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5,
+            "y": 353
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 2.23857625,
+            "y1": 353,
+            "x2": 0,
+            "y2": 350.76142375,
+            "x": 0,
+            "y": 348
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 5
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 2.23857625,
+            "x2": 2.23857625,
+            "y2": 0,
+            "x": 5,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 1.3,
+      "dash": false
+    },
+    {
+      "id": "initial-prompt",
+      "shape": "path",
+      "label": "",
+      "x": 9,
+      "y": 8,
+      "width": 236,
+      "height": 46,
+      "fill": "#D5E3FE",
+      "stroke": "none",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 4,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 232,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 234.209139,
+            "y1": 0,
+            "x2": 236,
+            "y2": 1.790861,
+            "x": 236,
+            "y": 4
+          }
+        },
+        {
+          "lineTo": {
+            "x": 236,
+            "y": 42
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 236,
+            "y1": 44.209139,
+            "x2": 234.209139,
+            "y2": 46,
+            "x": 232,
+            "y": 46
+          }
+        },
+        {
+          "lineTo": {
+            "x": 4,
+            "y": 46
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 1.790861,
+            "y1": 46,
+            "x2": 0,
+            "y2": 44.209139,
+            "x": 0,
+            "y": 42
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 4
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 1.790861,
+            "x2": 1.790861,
+            "y2": 0,
+            "x": 4,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "parkour",
+      "shape": "path",
+      "label": "",
+      "x": 9,
+      "y": 75,
+      "width": 236,
+      "height": 47,
+      "fill": "#F1F1F1",
+      "stroke": "none",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 4,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 232,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 234.209139,
+            "y1": 0,
+            "x2": 236,
+            "y2": 1.790861,
+            "x": 236,
+            "y": 4
+          }
+        },
+        {
+          "lineTo": {
+            "x": 236,
+            "y": 43
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 236,
+            "y1": 45.209139,
+            "x2": 234.209139,
+            "y2": 47,
+            "x": 232,
+            "y": 47
+          }
+        },
+        {
+          "lineTo": {
+            "x": 4,
+            "y": 47
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 1.790861,
+            "y1": 47,
+            "x2": 0,
+            "y2": 45.209139,
+            "x": 0,
+            "y": 43
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 4
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 1.790861,
+            "x2": 1.790861,
+            "y2": 0,
+            "x": 4,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "coding-model",
+      "shape": "path",
+      "label": "",
+      "x": 281,
+      "y": 12,
+      "width": 214,
+      "height": 261,
+      "fill": "#FFFFFF",
+      "stroke": "#D7D7D7",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 5,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 209,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 211.76142375,
+            "y1": 0,
+            "x2": 214,
+            "y2": 2.23857625,
+            "x": 214,
+            "y": 5
+          }
+        },
+        {
+          "lineTo": {
+            "x": 214,
+            "y": 256
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 214,
+            "y1": 258.76142375,
+            "x2": 211.76142375,
+            "y2": 261,
+            "x": 209,
+            "y": 261
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5,
+            "y": 261
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 2.23857625,
+            "y1": 261,
+            "x2": 0,
+            "y2": 258.76142375,
+            "x": 0,
+            "y": 256
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 5
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 2.23857625,
+            "x2": 2.23857625,
+            "y2": 0,
+            "x": 5,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 1.3,
+      "dash": false
+    },
+    {
+      "id": "training-panel",
+      "shape": "path",
+      "label": "",
+      "x": 953,
+      "y": 12,
+      "width": 235,
+      "height": 336,
+      "fill": "#FFFFFF",
+      "stroke": "#EDBF21",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 6,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 229,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 232.3137085,
+            "y1": 0,
+            "x2": 235,
+            "y2": 2.6862915000000003,
+            "x": 235,
+            "y": 6
+          }
+        },
+        {
+          "lineTo": {
+            "x": 235,
+            "y": 330
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 235,
+            "y1": 333.3137085,
+            "x2": 232.3137085,
+            "y2": 336,
+            "x": 229,
+            "y": 336
+          }
+        },
+        {
+          "lineTo": {
+            "x": 6,
+            "y": 336
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 2.6862915000000003,
+            "y1": 336,
+            "x2": 0,
+            "y2": 333.3137085,
+            "x": 0,
+            "y": 330
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 6
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 2.6862915000000003,
+            "x2": 2.6862915000000003,
+            "y2": 0,
+            "x": 6,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 1,
+      "dash": false
+    },
+    {
+      "id": "evaluation-panel",
+      "shape": "path",
+      "label": "",
+      "x": 621,
+      "y": 144,
+      "width": 231,
+      "height": 202,
+      "fill": "#FFFFFF",
+      "stroke": "#FF3B45",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 5,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 226,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 228.76142375,
+            "y1": 0,
+            "x2": 231,
+            "y2": 2.23857625,
+            "x": 231,
+            "y": 5
+          }
+        },
+        {
+          "lineTo": {
+            "x": 231,
+            "y": 197
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 231,
+            "y1": 199.76142375,
+            "x2": 228.76142375,
+            "y2": 202,
+            "x": 226,
+            "y": 202
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5,
+            "y": 202
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 2.23857625,
+            "y1": 202,
+            "x2": 0,
+            "y2": 199.76142375,
+            "x": 0,
+            "y": 197
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 5
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 2.23857625,
+            "x2": 2.23857625,
+            "y2": 0,
+            "x": 5,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 1,
+      "dash": false
+    },
+    {
+      "id": "robot-photo",
+      "shape": "image",
+      "label": "",
+      "x": 9,
+      "y": 127,
+      "width": 236,
+      "height": 147,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/robot-photo.png",
+      "alt": "Original quadruped robot parkour photograph"
+    },
+    {
+      "id": "train-top",
+      "shape": "image",
+      "label": "",
+      "x": 959,
+      "y": 57,
+      "width": 223,
+      "height": 92,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/train-top.png",
+      "alt": "Original simulated terrain example; terrain and robot pixels remain raster"
+    },
+    {
+      "id": "train-middle",
+      "shape": "image",
+      "label": "",
+      "x": 959,
+      "y": 153,
+      "width": 223,
+      "height": 92,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/train-middle.png",
+      "alt": "Original simulated terrain example; terrain and robot pixels remain raster"
+    },
+    {
+      "id": "train-bottom",
+      "shape": "image",
+      "label": "",
+      "x": 959,
+      "y": 249,
+      "width": 223,
+      "height": 92,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/train-bottom.png",
+      "alt": "Original simulated terrain example; terrain and robot pixels remain raster"
+    },
+    {
+      "id": "evaluate-left",
+      "shape": "image",
+      "label": "",
+      "x": 624,
+      "y": 186,
+      "width": 108,
+      "height": 155,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/evaluate-left.png",
+      "alt": "Original simulated terrain example; terrain and robot pixels remain raster"
+    },
+    {
+      "id": "evaluate-right",
+      "shape": "image",
+      "label": "",
+      "x": 736,
+      "y": 186,
+      "width": 111,
+      "height": 155,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/evaluate-right.png",
+      "alt": "Original simulated terrain example; terrain and robot pixels remain raster"
+    },
+    {
+      "id": "clipboard",
+      "shape": "image",
+      "label": "",
+      "x": 18,
+      "y": 12,
+      "width": 28,
+      "height": 34,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/clipboard.png",
+      "alt": "Original small decorative/branding icon; internal artwork remains raster"
+    },
+    {
+      "id": "parkour-robot",
+      "shape": "image",
+      "label": "",
+      "x": 18,
+      "y": 87,
+      "width": 29,
+      "height": 31,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/parkour-robot.png",
+      "alt": "Original small decorative/branding icon; internal artwork remains raster"
+    },
+    {
+      "id": "llm-icon",
+      "shape": "image",
+      "label": "",
+      "x": 335,
+      "y": 241,
+      "width": 26,
+      "height": 26,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/llm-icon.png",
+      "alt": "Original small decorative/branding icon; internal artwork remains raster"
+    },
+    {
+      "id": "training-icon",
+      "shape": "image",
+      "label": "",
+      "x": 963,
+      "y": 20,
+      "width": 31,
+      "height": 32,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/training-icon.png",
+      "alt": "Original small decorative/branding icon; internal artwork remains raster"
+    },
+    {
+      "id": "code-icon",
+      "shape": "image",
+      "label": "",
+      "x": 507,
+      "y": 22,
+      "width": 29,
+      "height": 27,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/code-icon.png",
+      "alt": "Original small decorative/branding icon; internal artwork remains raster"
+    },
+    {
+      "id": "evaluation-icon",
+      "shape": "image",
+      "label": "",
+      "x": 630,
+      "y": 152,
+      "width": 34,
+      "height": 29,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/evaluation-icon.png",
+      "alt": "Original small decorative/branding icon; internal artwork remains raster"
+    },
+    {
+      "id": "best-policy-icon",
+      "shape": "image",
+      "label": "",
+      "x": 571,
+      "y": 102,
+      "width": 27,
+      "height": 25,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/best-policy-icon.png",
+      "alt": "Original small decorative/branding icon; internal artwork remains raster"
+    },
+    {
+      "id": "evolution-icon",
+      "shape": "image",
+      "label": "",
+      "x": 510,
+      "y": 241,
+      "width": 27,
+      "height": 26,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/evolution-icon.png",
+      "alt": "Original small decorative/branding icon; internal artwork remains raster"
+    },
+    {
+      "id": "brain-icon",
+      "shape": "image",
+      "label": "",
+      "x": 913,
+      "y": 240,
+      "width": 32,
+      "height": 32,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/brain-icon.png",
+      "alt": "Original small decorative/branding icon; internal artwork remains raster"
+    },
+    {
+      "id": "logo",
+      "shape": "image",
+      "label": "",
+      "x": 23,
+      "y": 288,
+      "width": 61,
+      "height": 63,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/logo.png",
+      "alt": "Original small decorative/branding icon; internal artwork remains raster"
+    },
+    {
+      "id": "initial-label",
+      "shape": "text",
+      "label": "Initial Prompt",
+      "x": 54,
+      "y": 14,
+      "width": 182,
+      "height": 36,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 25,
+      "font_family": "Arial",
+      "text_color": "#327FF0",
+      "bold": false,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "parkour-label",
+      "shape": "text",
+      "label": "Robot Parkour",
+      "x": 54,
+      "y": 80,
+      "width": 182,
+      "height": 35,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 25,
+      "font_family": "Arial",
+      "text_color": "#606060",
+      "bold": false,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "code-label",
+      "shape": "text",
+      "label": "Environment Code",
+      "x": 545,
+      "y": 16,
+      "width": 244,
+      "height": 35,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 25,
+      "font_family": "Arial",
+      "text_color": "#A966ED",
+      "bold": false,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "training-label",
+      "shape": "text",
+      "label": "Policy Training",
+      "x": 1001,
+      "y": 21,
+      "width": 179,
+      "height": 34,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 25,
+      "font_family": "Arial",
+      "text_color": "#FF9100",
+      "bold": false,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "evaluation-label",
+      "shape": "text",
+      "label": "Policy Evaluation",
+      "x": 667,
+      "y": 151,
+      "width": 176,
+      "height": 32,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 23,
+      "font_family": "Arial",
+      "text_color": "#FF3B45",
+      "bold": false,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "llm-label",
+      "shape": "text",
+      "label": "Coding LLM",
+      "x": 366,
+      "y": 236,
+      "width": 122,
+      "height": 36,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 22,
+      "font_family": "Arial",
+      "text_color": "#606060",
+      "bold": false,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "best-policy",
+      "shape": "text",
+      "label": "Best\nPolicy",
+      "x": 528,
+      "y": 127,
+      "width": 80,
+      "height": 61,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 25,
+      "font_family": "Arial",
+      "text_color": "#FF3B45",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "evolution-prompt",
+      "shape": "text",
+      "label": "Evolution\nPrompt",
+      "x": 505,
+      "y": 271,
+      "width": 111,
+      "height": 64,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 25,
+      "font_family": "Arial",
+      "text_color": "#FF3B45",
+      "bold": false,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "policies",
+      "shape": "text",
+      "label": "Policies",
+      "x": 867,
+      "y": 268,
+      "width": 83,
+      "height": 35,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 23,
+      "font_family": "Arial",
+      "text_color": "#FF9100",
+      "bold": false,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "logo-label",
+      "shape": "text",
+      "label": "Eurekaverse",
+      "x": 88,
+      "y": 295,
+      "width": 267,
+      "height": 51,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 44,
+      "font_family": "Arial",
+      "text_color": "#4B4B4B",
+      "bold": true,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "initial-message",
+      "shape": "path",
+      "label": "",
+      "x": 300,
+      "y": 21,
+      "width": 70,
+      "height": 23,
+      "fill": "#3586F1",
+      "stroke": "none",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 58,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 64.627417,
+            "y1": 0,
+            "x2": 70,
+            "y2": 5.3725830000000006,
+            "x": 70,
+            "y": 12
+          }
+        },
+        {
+          "lineTo": {
+            "x": 70,
+            "y": 11
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 70,
+            "y1": 17.627417,
+            "x2": 64.627417,
+            "y2": 23,
+            "x": 58,
+            "y": 23
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12,
+            "y": 23
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.3725830000000006,
+            "y1": 23,
+            "x2": 0,
+            "y2": 17.627417,
+            "x": 0,
+            "y": 11
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 12
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 5.3725830000000006,
+            "x2": 5.3725830000000006,
+            "y2": 0,
+            "x": 12,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "initial-message-tail",
+      "shape": "path",
+      "label": "",
+      "x": 290,
+      "y": 26,
+      "width": 13,
+      "height": 9,
+      "fill": "#327FF0",
+      "stroke": "#327FF0",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 11,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 7
+          }
+        },
+        {
+          "lineTo": {
+            "x": 13,
+            "y": 9
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "code-message-0",
+      "shape": "path",
+      "label": "",
+      "x": 373,
+      "y": 47,
+      "width": 106,
+      "height": 23,
+      "fill": "#AC6EEF",
+      "stroke": "none",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 94,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 100.627417,
+            "y1": 0,
+            "x2": 106,
+            "y2": 5.3725830000000006,
+            "x": 106,
+            "y": 12
+          }
+        },
+        {
+          "lineTo": {
+            "x": 106,
+            "y": 11
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 106,
+            "y1": 17.627417,
+            "x2": 100.627417,
+            "y2": 23,
+            "x": 94,
+            "y": 23
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12,
+            "y": 23
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.3725830000000006,
+            "y1": 23,
+            "x2": 0,
+            "y2": 17.627417,
+            "x": 0,
+            "y": 11
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 12
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 5.3725830000000006,
+            "x2": 5.3725830000000006,
+            "y2": 0,
+            "x": 12,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "code-message-tail-0",
+      "shape": "path",
+      "label": "",
+      "x": 476,
+      "y": 53,
+      "width": 11,
+      "height": 11,
+      "fill": "#AC6EEF",
+      "stroke": "#A966ED",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 11,
+            "y": 5
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 11
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "code-message-1",
+      "shape": "path",
+      "label": "",
+      "x": 373,
+      "y": 78,
+      "width": 106,
+      "height": 23,
+      "fill": "#AC6EEF",
+      "stroke": "none",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 94,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 100.627417,
+            "y1": 0,
+            "x2": 106,
+            "y2": 5.3725830000000006,
+            "x": 106,
+            "y": 12
+          }
+        },
+        {
+          "lineTo": {
+            "x": 106,
+            "y": 11
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 106,
+            "y1": 17.627417,
+            "x2": 100.627417,
+            "y2": 23,
+            "x": 94,
+            "y": 23
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12,
+            "y": 23
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.3725830000000006,
+            "y1": 23,
+            "x2": 0,
+            "y2": 17.627417,
+            "x": 0,
+            "y": 11
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 12
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 5.3725830000000006,
+            "x2": 5.3725830000000006,
+            "y2": 0,
+            "x": 12,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "code-message-tail-1",
+      "shape": "path",
+      "label": "",
+      "x": 476,
+      "y": 84,
+      "width": 11,
+      "height": 11,
+      "fill": "#AC6EEF",
+      "stroke": "#A966ED",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 11,
+            "y": 5
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 11
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "code-message-2",
+      "shape": "path",
+      "label": "",
+      "x": 373,
+      "y": 108,
+      "width": 106,
+      "height": 23,
+      "fill": "#AC6EEF",
+      "stroke": "none",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 94,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 100.627417,
+            "y1": 0,
+            "x2": 106,
+            "y2": 5.3725830000000006,
+            "x": 106,
+            "y": 12
+          }
+        },
+        {
+          "lineTo": {
+            "x": 106,
+            "y": 11
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 106,
+            "y1": 17.627417,
+            "x2": 100.627417,
+            "y2": 23,
+            "x": 94,
+            "y": 23
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12,
+            "y": 23
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.3725830000000006,
+            "y1": 23,
+            "x2": 0,
+            "y2": 17.627417,
+            "x": 0,
+            "y": 11
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 12
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 5.3725830000000006,
+            "x2": 5.3725830000000006,
+            "y2": 0,
+            "x": 12,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "code-message-tail-2",
+      "shape": "path",
+      "label": "",
+      "x": 476,
+      "y": 114,
+      "width": 11,
+      "height": 11,
+      "fill": "#AC6EEF",
+      "stroke": "#A966ED",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 11,
+            "y": 5
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 11
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "code-message-3",
+      "shape": "path",
+      "label": "",
+      "x": 373,
+      "y": 139,
+      "width": 106,
+      "height": 23,
+      "fill": "#AC6EEF",
+      "stroke": "none",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 94,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 100.627417,
+            "y1": 0,
+            "x2": 106,
+            "y2": 5.3725830000000006,
+            "x": 106,
+            "y": 12
+          }
+        },
+        {
+          "lineTo": {
+            "x": 106,
+            "y": 11
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 106,
+            "y1": 17.627417,
+            "x2": 100.627417,
+            "y2": 23,
+            "x": 94,
+            "y": 23
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12,
+            "y": 23
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.3725830000000006,
+            "y1": 23,
+            "x2": 0,
+            "y2": 17.627417,
+            "x": 0,
+            "y": 11
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 12
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 5.3725830000000006,
+            "x2": 5.3725830000000006,
+            "y2": 0,
+            "x": 12,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "code-message-tail-3",
+      "shape": "path",
+      "label": "",
+      "x": 476,
+      "y": 145,
+      "width": 11,
+      "height": 11,
+      "fill": "#AC6EEF",
+      "stroke": "#A966ED",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 1,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 11,
+            "y": 5
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 11
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "feedback-message",
+      "shape": "path",
+      "label": "",
+      "x": 302,
+      "y": 176,
+      "width": 68,
+      "height": 23,
+      "fill": "#FF424B",
+      "stroke": "none",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 56,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 62.627417,
+            "y1": 0,
+            "x2": 68,
+            "y2": 5.3725830000000006,
+            "x": 68,
+            "y": 12
+          }
+        },
+        {
+          "lineTo": {
+            "x": 68,
+            "y": 11
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 68,
+            "y1": 17.627417,
+            "x2": 62.627417,
+            "y2": 23,
+            "x": 56,
+            "y": 23
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12,
+            "y": 23
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.3725830000000006,
+            "y1": 23,
+            "x2": 0,
+            "y2": 17.627417,
+            "x": 0,
+            "y": 11
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 12
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 5.3725830000000006,
+            "x2": 5.3725830000000006,
+            "y2": 0,
+            "x": 12,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 0,
+      "dash": false
+    },
+    {
+      "id": "feedback-tail",
+      "shape": "path",
+      "label": "",
+      "x": 292,
+      "y": 182,
+      "width": 12,
+      "height": 11,
+      "fill": "#FF424B",
+      "stroke": "#FF3B45",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 11,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 6
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12,
+            "y": 11
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "initial-flow",
+      "shape": "path",
+      "label": "",
+      "x": 245,
+      "y": 32,
+      "width": 53,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#327FF0",
+      "stroke_width": 2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 53,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "initial-flow-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 288.0,
+      "y": 27.3,
+      "width": 10.0,
+      "height": 9.400000000000002,
+      "fill": "none",
+      "stroke": "#327FF0",
+      "stroke_width": 2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 9.400000000000002
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.0,
+            "y": 4.699999999999999
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "code-to-training",
+      "shape": "path",
+      "label": "",
+      "x": 487,
+      "y": 58,
+      "width": 466,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#A966ED",
+      "stroke_width": 2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 466,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "code-to-training-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 943.0,
+      "y": 53.3,
+      "width": 10.0,
+      "height": 9.400000000000006,
+      "fill": "none",
+      "stroke": "#A966ED",
+      "stroke_width": 2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 9.400000000000006
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.0,
+            "y": 4.700000000000003
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "deploy-parkour",
+      "shape": "path",
+      "label": "",
+      "x": 245,
+      "y": 102,
+      "width": 28,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#606060",
+      "stroke_width": 2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 28,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "deploy-parkour-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 245,
+      "y": 97.3,
+      "width": 10.0,
+      "height": 9.400000000000006,
+      "fill": "none",
+      "stroke": "#606060",
+      "stroke_width": 2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 10.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 4.700000000000003
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.0,
+            "y": 9.400000000000006
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "best-to-training",
+      "shape": "path",
+      "label": "",
+      "x": 605,
+      "y": 77,
+      "width": 348,
+      "height": 138,
+      "fill": "none",
+      "stroke": "#FF3B45",
+      "stroke_width": 2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 16,
+            "y": 138
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 138
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 348,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "best-to-training-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 943.0,
+      "y": 72.3,
+      "width": 10.0,
+      "height": 9.400000000000006,
+      "fill": "none",
+      "stroke": "#FF3B45",
+      "stroke_width": 2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 9.400000000000006
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.0,
+            "y": 4.700000000000003
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "evaluation-feedback",
+      "shape": "path",
+      "label": "",
+      "x": 495,
+      "y": 224,
+      "width": 126,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#FF3B45",
+      "stroke_width": 2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 126,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "evaluation-feedback-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 495,
+      "y": 219.3,
+      "width": 10.0,
+      "height": 9.399999999999977,
+      "fill": "none",
+      "stroke": "#FF3B45",
+      "stroke_width": 2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 10.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 4.699999999999989
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.0,
+            "y": 9.399999999999977
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "training-to-evaluation",
+      "shape": "path",
+      "label": "",
+      "x": 852,
+      "y": 306,
+      "width": 101,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#FF9100",
+      "stroke_width": 2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 101,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "training-to-evaluation-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 852,
+      "y": 301.3,
+      "width": 10.0,
+      "height": 9.399999999999977,
+      "fill": "none",
+      "stroke": "#FF9100",
+      "stroke_width": 2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 10.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 4.699999999999989
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.0,
+            "y": 9.399999999999977
+          }
+        }
+      ],
+      "dash": false
+    }
+  ],
+  "edges": []
+}

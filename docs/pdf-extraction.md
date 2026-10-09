@@ -20,3 +20,13 @@ Scene nodes accept `rotation` in clockwise degrees (−360…360). The node's x/
 ## Source asset integrity
 
 New export manifests bind both the scene JSON and every referenced raster asset. An input modified while a multi-format export is running cancels publication, leaving prior files intact. Paper-bundle validation also compares draw.io's actual embedded image bytes with scene assets, including older manifests, so replacing an asset without changing its filename cannot silently inherit old QA.
+
+## Manual mathematical transcription
+
+For flattened sources, `research/math_glyph.py` and selected paper-specific reconstructors use Matplotlib/STIX to turn **manually checked LaTeX transcriptions** into native glyph-outline paths. Install the optional `.[math]` extra to rerun those scripts. The resulting formulas support path editing, not live equation editing; their LaTeX is retained in scene metadata. This is not automatic equation recognition. Ordinary prose labels remain native typeable text.
+
+Source stroke widths larger than one tenth of the figure extent now emit a transform-unit warning. Some source PDFs expose Office/EMU-scale widths or rotated-transform artifacts through their drawing API. Review the PDF/SVG paint geometry before applying a paper-specific correction; the generic extractor does not guess a scale.
+
+## Publishing multiple reviewed candidates
+
+`python research/refresh_outputs.py --add-paper build/candidates/a --add-paper build/candidates/b` validates the entire proposed batch before moving any complete paper folder into output. It stages the existing output tree once, avoiding one full archival copy per candidate. Existing paper replacement remains a separate explicit `--from-build ... --paper ...` operation; regeneration invalidates previous QA until the new bytes are reviewed.

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "do-s-and-don-ts-learning-desirable-skills-with-instruction-videos",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.480277Z",
-  "updated_at": "2026-10-09T20:14:36.116701Z",
+  "updated_at": "2026-10-09T21:45:39.356033Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/dodont/README.md",
+          "output/dodont/VALIDATION.json"
+        ],
+        "output_directory": "output/dodont",
+        "source_sha256": "12c2c7aecd19d7301ab5dcaa23aebbfac2e53bcc77f8272421e4839e5840e788",
+        "scene_sha256": "b38549901c37c25027ff04b332161a31d321a3c6ac4e82a049f978c2221307dd",
+        "text_editability": {
+          "typeable_text_objects": 22,
+          "native_freeform_paths": 283,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -287,6 +301,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T21:45:39.356033Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "c680b55f249a8b2c33e16f8e85cc29630b6806e2fcda70dbfd0d33cd58c4149f",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/dodont/README.md",
+                "output/dodont/VALIDATION.json"
+              ],
+              "output_directory": "output/dodont",
+              "source_sha256": "12c2c7aecd19d7301ab5dcaa23aebbfac2e53bcc77f8272421e4839e5840e788",
+              "scene_sha256": "b38549901c37c25027ff04b332161a31d321a3c6ac4e82a049f978c2221307dd",
+              "text_editability": {
+                "typeable_text_objects": 22,
+                "native_freeform_paths": 283,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

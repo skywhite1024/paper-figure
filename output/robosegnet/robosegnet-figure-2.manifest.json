@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "diagram_id": "robosegnet-figure-2",
+  "source_sha256": "e62fc84c5eeb5c1a7f7c7d7eadff86d326b6ca05cf4697535d1c5ba4f9eb00f7",
+  "assets": [
+    {
+      "name": "source-inset-0.png",
+      "sha256": "51b1d7b43ad9900c145c8585e2f2959d62edbfbda1aabab14bae695446774856"
+    },
+    {
+      "name": "source-inset-1.png",
+      "sha256": "49080ed2ee0aa85d9dbb5905e89c78c89d21482eb4d23581bea9040655a0fb1f"
+    },
+    {
+      "name": "source-inset-2.png",
+      "sha256": "4d98f1102addbac7af899333b7783e88b580d4f8af3f43f51b3100817c037142"
+    },
+    {
+      "name": "source-inset-3.png",
+      "sha256": "44f76cb040aade9421d35b28d7e0fad61e4ac7d6f137ff916306c9d488cf87f2"
+    },
+    {
+      "name": "source-inset-4.png",
+      "sha256": "d811010cc861b6001962c85ab7951eb5681d0ae50f9f510be35131adf232f7ba"
+    }
+  ],
+  "provenance": {
+    "paper_title": "Learning Multi-Task Robot Trajectory Segmentation from Visual and Kinematic Streams (RoboSegNet)",
+    "paper_url": "https://openaccess.thecvf.com/content/CVPR2026F/papers/Chen_Learning_Multi-Task_Robot_Trajectory_Segmentation_from_Visual_and_Kinematic_Streams_CVPRF_2026_paper.pdf",
+    "figure": "Figure 2",
+    "page": 4,
+    "license": "unverified",
+    "status": "figure_recreation",
+    "source_sha256": "68471f599c861ae633565454f5a994846ffa069c780af57bb6d40949f2280fe9",
+    "source_crop_pdf_points": [
+      62,
+      73,
+      549,
+      243
+    ],
+    "notes": "Manual source-layout reconstruction of the flattened architecture. All major labels, modules, DCT bars/wave schematics, token tiles, cross-attention links and prediction routes are native. Three kinematic chart crops with internal tiny labels and two observation patch-grid crops remain raster. Colors and topology retained; exact source fonts, shadow blur, waveform traces and small transition-label typography are approximated. Native freeform routes lack semantic attachment."
+  },
+  "metrics": {
+    "native_nodes": 166,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 87,
+    "native_text_objects": 18,
+    "raster_images": 5,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "robosegnet-figure-2.drawio",
+      "sha256": "9c6710c68406ef1adb1f1855375f7cc043fcee4ec67040620d28d47f3de9218f"
+    },
+    {
+      "name": "robosegnet-figure-2.png",
+      "sha256": "62c09e80924fd97716e24c26015729f06f12f25644b4c4ab717c0df26e8c3607"
+    },
+    {
+      "name": "robosegnet-figure-2.pptx",
+      "sha256": "ea5a35ed128ae1504ac91301f39ff2c0166d0a1e81041561b8001c26040ad23c"
+    }
+  ]
+}

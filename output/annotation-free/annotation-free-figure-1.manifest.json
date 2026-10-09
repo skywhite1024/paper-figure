@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "diagram_id": "annotation-free-figure-1",
+  "source_sha256": "5bb4c714630a9047526e16ff9337ee0d7f00b32bb8e4ccadfb42c82489f960f1",
+  "assets": [
+    {
+      "name": "assets/adapted-gripper.png",
+      "sha256": "0d0c120d7f3d131502688474714d7887c8556108eba241e99f3fd7d6acb309ef"
+    },
+    {
+      "name": "assets/robot-silhouette.png",
+      "sha256": "0ff37423ff80587695bf100f823ed17f60f1d6feef72add88b9f98b282472225"
+    },
+    {
+      "name": "assets/source-final-object.png",
+      "sha256": "7970d6cdc580b9d90e15f0e558e2689962368a63e1a4a64eec04a6562008b0e3"
+    },
+    {
+      "name": "assets/source-observation.png",
+      "sha256": "44d8f753639f30ab084ab74be343312222e4ce05b529eee9035b069fe7581232"
+    },
+    {
+      "name": "assets/target-final-object.png",
+      "sha256": "567beb9bebf68bf1a140ef28a5726353eb3b4b80f1c745a4c9efa7cef5d41519"
+    },
+    {
+      "name": "assets/target-observation.png",
+      "sha256": "fa57e3f6f28b60812173e5963328a975feebc8e1c1082303a8fae257f01b77b8"
+    }
+  ],
+  "provenance": {
+    "paper_title": "Annotation-Free One-Shot Imitation Learning for Multi-Step Manipulation Tasks",
+    "paper_url": "https://arxiv.org/abs/2509.24972v1",
+    "pdf_url": "https://arxiv.org/pdf/2509.24972v1",
+    "figure": "Figure 1",
+    "page": 2,
+    "license": "unverified Private user-requested adaptation; no public redistribution permission implied.",
+    "status": "figure_recreation",
+    "notes": "Manually reconstructed from the inspected original flattened PDF figure. Ordinary labels are live typeable text; panels, graph geometry and arrows are native editable shapes or paths. Source layout and contents retained; font metrics, line widths and decorative effects approximated. Source is flattened. Ordinary labels, motion arrows and divider manually recreated as live text/native paths. Six isolated photographic details retain original pixels. The robot silhouette photo is reused at the two original diagram positions.",
+    "source_sha256": "09d5f8a6ab5241357e07c48d838af7d0fc6d4968c3f6b8a11422f5f31367915b",
+    "source_crop_pdf_points": [
+      311,
+      391,
+      559,
+      504
+    ],
+    "survey_crop_correction": true,
+    "visual_inspection": "Original PDF figure inspected before source-layout reconstruction on 2026-10-09; independent application QA pending.",
+    "raster_details": [
+      {
+        "id": "source-observation",
+        "bounds_source_pixels": [
+          11,
+          22,
+          165,
+          138
+        ],
+        "detail": "Original source RGB camera view"
+      },
+      {
+        "id": "target-observation",
+        "bounds_source_pixels": [
+          545,
+          22,
+          699,
+          138
+        ],
+        "detail": "Original target RGB camera view"
+      },
+      {
+        "id": "source-robot",
+        "bounds_source_pixels": [
+          40,
+          69,
+          400,
+          538
+        ],
+        "detail": "Original isolated robot photograph silhouette"
+      },
+      {
+        "id": "target-robot",
+        "bounds_source_pixels": [
+          570,
+          69,
+          930,
+          538
+        ],
+        "detail": "Original isolated robot photograph silhouette"
+      },
+      {
+        "id": "adapted-gripper",
+        "bounds_source_pixels": [
+          1004,
+          127,
+          1200,
+          310
+        ],
+        "detail": "Original isolated transformed gripper photograph"
+      },
+      {
+        "id": "source-final-object",
+        "bounds_source_pixels": [
+          313,
+          459,
+          418,
+          541
+        ],
+        "detail": "Original blue object photograph"
+      },
+      {
+        "id": "target-final-object",
+        "bounds_source_pixels": [
+          918,
+          459,
+          1027,
+          542
+        ],
+        "detail": "Original blue object photograph"
+      }
+    ]
+  },
+  "metrics": {
+    "native_nodes": 13,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 7,
+    "native_text_objects": 6,
+    "raster_images": 7,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "annotation-free-figure-1.drawio",
+      "sha256": "feb13f2edff97c90c4ee4d463e487ea4962c21f7674d03d09190f2f5a02d80ad"
+    },
+    {
+      "name": "annotation-free-figure-1.png",
+      "sha256": "f44a50b328649799ede3a34c8a18da8e04915daccfd84a2229fbca26505a450a"
+    },
+    {
+      "name": "annotation-free-figure-1.pptx",
+      "sha256": "db7a28c43d3b11aa5da52a2778d4de4e8d1f5056d67ab500e3cf611a0f4c136e"
+    }
+  ]
+}

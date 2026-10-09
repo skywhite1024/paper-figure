@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "uniskill-imitating-human-videos-via-cross-embodiment-skill-representations",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.485768Z",
-  "updated_at": "2026-10-09T20:14:36.820430Z",
+  "updated_at": "2026-10-09T21:45:40.826094Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/uniskill/README.md",
+          "output/uniskill/VALIDATION.json"
+        ],
+        "output_directory": "output/uniskill",
+        "source_sha256": "4446f50c7995807a7dfa139e8d90fbc244966d232a56e44e2c838940fba85efb",
+        "scene_sha256": "24617fb648803dc8aea11a22f4995d2b036adf0d3141d23106959605dfe295f8",
+        "text_editability": {
+          "typeable_text_objects": 28,
+          "native_freeform_paths": 121,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -287,6 +301,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T21:45:40.826094Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "47d3efb67bb4a70476fad40be9e1ce8cbf362c792eb9c21c4ab27418fcd12bd8",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/uniskill/README.md",
+                "output/uniskill/VALIDATION.json"
+              ],
+              "output_directory": "output/uniskill",
+              "source_sha256": "4446f50c7995807a7dfa139e8d90fbc244966d232a56e44e2c838940fba85efb",
+              "scene_sha256": "24617fb648803dc8aea11a22f4995d2b036adf0d3141d23106959605dfe295f8",
+              "text_editability": {
+                "typeable_text_objects": 28,
+                "native_freeform_paths": 121,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "diagram_id": "sds-figure-2",
+  "source_sha256": "07b1fa51205018f9316257768e1f9c8b28f4b31f7d3f9aa362c7cfeffb426f21",
+  "assets": [
+    {
+      "name": "contact-sequence-visualization.png",
+      "sha256": "4d698d262fc6b79a681476e5e7ca29083f8841fb1b92a5c6bb122a74c3b75b4a"
+    },
+    {
+      "name": "demonstration-video.png",
+      "sha256": "1c5412e869e72c30632ef0e75a52440682214171244a08b56725be78c8995ea5"
+    },
+    {
+      "name": "gpt-logo.png",
+      "sha256": "d7218d2f8abbfb00efd419a5787d22ec38f5c143121250f2d918a350471dd809"
+    },
+    {
+      "name": "ppo-training-robots.png",
+      "sha256": "46ca55f6b334678f196b0197a9437bd31222f8c7479626bc62ffe0ddbd9df15c"
+    }
+  ],
+  "provenance": {
+    "paper_title": "SDS: See It, Do It, Sorted: Quadruped Skill Synthesis from Single Video Demonstration",
+    "paper_url": "https://arxiv.org/pdf/2410.11571v2",
+    "figure": "Figure 2",
+    "page": 3,
+    "license": "unverified",
+    "notes": "Native source-layout reconstruction of flattened original. Ordinary labels and code are typeable. Diagram shapes and logical arrows are native. Explicitly bounded source photographs, icons and mathematical formula inserts retain raster pixels. Font metrics and path coordinates are measured approximations. SDS contains four isolated original visual inserts: logo, demonstration photo frames, contact-sequence visualization and robot simulation montage. Prompt/code, stage numbers and all loop geometry are typeable/native.",
+    "status": "figure_recreation",
+    "source_sha256": "325aa366b545510fde2a88c25185748746518bfa0876daf654a75a102f117ade",
+    "source_crop_pdf_points": [
+      108,
+      311,
+      505,
+      509
+    ],
+    "raster_details": [
+      {
+        "id": "gpt-logo",
+        "source_pixels": [
+          413,
+          141,
+          471,
+          193
+        ],
+        "detail": "Original GPT-4o logo icon"
+      },
+      {
+        "id": "demonstration-video",
+        "source_pixels": [
+          57,
+          346,
+          244,
+          454
+        ],
+        "detail": "Original layered animal video frames; individual source photo strip"
+      },
+      {
+        "id": "contact-sequence-visualization",
+        "source_pixels": [
+          267,
+          342,
+          457,
+          448
+        ],
+        "detail": "Original frame and contact-sequence visual data; internal pixels remain raster"
+      },
+      {
+        "id": "ppo-training-robots",
+        "source_pixels": [
+          886,
+          299,
+          1086,
+          542
+        ],
+        "detail": "Original simulated quadruped training montage; internal pixels remain raster"
+      }
+    ]
+  },
+  "metrics": {
+    "native_nodes": 68,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 30,
+    "native_text_objects": 27,
+    "raster_images": 4,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "sds-figure-2.drawio",
+      "sha256": "83215aeb594c57328b6ae92c70569a7d82ab7f802f9418a152c93e40e9cad49f"
+    },
+    {
+      "name": "sds-figure-2.png",
+      "sha256": "76789b08cee4638dd53729592f6e3783f9440691acee466cade13baab01d8265"
+    },
+    {
+      "name": "sds-figure-2.pptx",
+      "sha256": "ffb2a9cc1ca4c45ecf402541940b0e4d1ae955f710968c1c96b78c3098630e8b"
+    }
+  ]
+}

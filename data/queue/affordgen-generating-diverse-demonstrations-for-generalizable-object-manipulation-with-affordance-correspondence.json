@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "affordgen-generating-diverse-demonstrations-for-generalizable-object-manipulation-with-affordance-correspondence",
-  "revision": 5,
-  "status": "in_progress",
+  "revision": 6,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.504193Z",
-  "updated_at": "2026-10-09T20:49:28.321437Z",
+  "updated_at": "2026-10-09T21:45:38.293873Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/affordgen/README.md",
+          "output/affordgen/VALIDATION.json"
+        ],
+        "output_directory": "output/affordgen",
+        "source_sha256": "5a09d77acf94de283636145754492b3ca9bbb3d08ed51e87960820f2c4f8f0c7",
+        "scene_sha256": "ec426ee5ec4c4d5d804c744bde366427770a3c792b902e6ce16f299921a5199e",
+        "text_editability": {
+          "typeable_text_objects": 11,
+          "native_freeform_paths": 28,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -444,6 +458,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 6,
+      "at": "2026-10-09T21:45:38.293873Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "012160080972767be3aa72a35fc137183af927a62e3aaa024c88a50014783247",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/affordgen/README.md",
+                "output/affordgen/VALIDATION.json"
+              ],
+              "output_directory": "output/affordgen",
+              "source_sha256": "5a09d77acf94de283636145754492b3ca9bbb3d08ed51e87960820f2c4f8f0c7",
+              "scene_sha256": "ec426ee5ec4c4d5d804c744bde366427770a3c792b902e6ce16f299921a5199e",
+              "text_editability": {
+                "typeable_text_objects": 11,
+                "native_freeform_paths": 28,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

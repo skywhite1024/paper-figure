@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "affordance-graphed-task-worlds-self-evolving-task-generation-for-scalable-embodied-learning",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.495018Z",
-  "updated_at": "2026-10-09T20:49:28.290560Z",
+  "updated_at": "2026-10-09T21:34:46.813707Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -123,8 +123,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/affordance-worlds/README.md",
+          "output/affordance-worlds/VALIDATION.json"
+        ],
+        "output_directory": "output/affordance-worlds",
+        "source_sha256": "b674fcff9f5ac42c4f950ed94e2f37077468b383b4f77878a59060d4c212475d",
+        "scene_sha256": "7601c9708cff1830afd28740d6cd857d4970e432086189b5972e0436b2383006",
+        "text_editability": {
+          "typeable_text_objects": 107,
+          "native_freeform_paths": 134,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -351,6 +365,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:34:46.813707Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "c458a375673547741c5a84d554b91461885bf328e16ce853acb129cfa6a9619b",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/affordance-worlds/README.md",
+                "output/affordance-worlds/VALIDATION.json"
+              ],
+              "output_directory": "output/affordance-worlds",
+              "source_sha256": "b674fcff9f5ac42c4f950ed94e2f37077468b383b4f77878a59060d4c212475d",
+              "scene_sha256": "7601c9708cff1830afd28740d6cd857d4970e432086189b5972e0436b2383006",
+              "text_editability": {
+                "typeable_text_objects": 107,
+                "native_freeform_paths": 134,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "gensim-generating-robotic-simulation-tasks-via-large-language-models",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.502075Z",
-  "updated_at": "2026-10-09T20:49:28.891168Z",
+  "updated_at": "2026-10-09T21:34:47.573001Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/gensim/README.md",
+          "output/gensim/VALIDATION.json"
+        ],
+        "output_directory": "output/gensim",
+        "source_sha256": "97b91f5da06223de29b894792f90a00a9c0732bf05df0f92f1d1bddd21332962",
+        "scene_sha256": "e0d740d0be112ebf86e3fa6a4f4c113bb3208542d5e89e69d59696ec1c1dab29",
+        "text_editability": {
+          "typeable_text_objects": 67,
+          "native_freeform_paths": 18,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:34:47.573001Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "7e59805e1183147e3ebf9ad814266708f6a63036e4137588776d0116e1a8d2b4",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/gensim/README.md",
+                "output/gensim/VALIDATION.json"
+              ],
+              "output_directory": "output/gensim",
+              "source_sha256": "97b91f5da06223de29b894792f90a00a9c0732bf05df0f92f1d1bddd21332962",
+              "scene_sha256": "e0d740d0be112ebf86e3fa6a4f4c113bb3208542d5e89e69d59696ec1c1dab29",
+              "text_editability": {
+                "typeable_text_objects": 67,
+                "native_freeform_paths": 18,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

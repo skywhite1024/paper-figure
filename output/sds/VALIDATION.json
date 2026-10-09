@@ -1,0 +1,149 @@
+{
+  "diagram_id": "sds-figure-2",
+  "source_scene_sha256": "07b1fa51205018f9316257768e1f9c8b28f4b31f7d3f9aa362c7cfeffb426f21",
+  "source_pdf_sha256": "325aa366b545510fde2a88c25185748746518bfa0876daf654a75a102f117ade",
+  "checked_files": [
+    {
+      "name": "sds-figure-2.drawio",
+      "sha256": "83215aeb594c57328b6ae92c70569a7d82ab7f802f9418a152c93e40e9cad49f"
+    },
+    {
+      "name": "sds-figure-2.png",
+      "sha256": "76789b08cee4638dd53729592f6e3783f9440691acee466cade13baab01d8265"
+    },
+    {
+      "name": "sds-figure-2.pptx",
+      "sha256": "ffb2a9cc1ca4c45ecf402541940b0e4d1ae955f710968c1c96b78c3098630e8b"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_scene_asset_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 30,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; source edition/hash pinned",
+    "source_page_figure": "Independent PDF crop compared with original PNG and delivered preview",
+    "source_preview_visual": "passed with disclosed image/font/math/dash limitations"
+  },
+  "native_xml_counts": {
+    "p:sp": 72,
+    "p:pic": 4,
+    "a:custGeom": 30,
+    "p:cxnSp": 0,
+    "a:t": 55
+  },
+  "source_title": "SDS: See It, Do It, Sorted: Quadruped Skill Synthesis from Single Video Demonstration",
+  "typeable_labels": [
+    "",
+    "IsaacGym Env Code",
+    "def get_observation(self):",
+    "  self.root_states = ...",
+    "  self.dof_states = ...",
+    "  self.contact_force = …",
+    "GPT-4o",
+    "Evolution",
+    "Prompt",
+    "",
+    "SUS PROMPT",
+    "",
+    "",
+    "RF Generation",
+    "RF Filtering",
+    "",
+    "",
+    "{RF₁}",
+    "{RF₈}",
+    "⋮",
+    "",
+    "Executable RFs",
+    "def compute_reward(self):",
+    "    env = self.env",
+    "",
+    "    forward_vel_reward = env.base_lin_vel[:,0]",
+    "    angular_vel_penalty = torch.sum(torch.abs(env.base_ang_vel), dim=1)",
+    "",
+    "    ...",
+    "",
+    "    total_reward = forward_vel_reward - angular_vel_penalty + ...",
+    "",
+    "    # return total reward and individual reward components",
+    "    return total_reward, {",
+    "        \"forward_vel_reward\": forward_vel_reward,",
+    "        \"angular_vel_penalty\": angular_vel_penalty,",
+    "Evolution Prompt Generation",
+    "",
+    "Reward Signal Tracking",
+    "",
+    "Best Reward Function",
+    "Reward Function Evaluation",
+    "",
+    "Contact Sequence",
+    "",
+    "Execution Footage",
+    "IsaacGym PPO Training",
+    "(1)",
+    "(2)",
+    "(3)",
+    "(4)",
+    "(5)",
+    "(6)",
+    "(7)",
+    "SDS x5"
+  ],
+  "raster_nodes": [
+    {
+      "id": "gpt-logo",
+      "asset": "gpt-logo.png",
+      "x": 413,
+      "y": 141,
+      "width": 58,
+      "height": 52,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "demonstration-video",
+      "asset": "demonstration-video.png",
+      "x": 57,
+      "y": 346,
+      "width": 187,
+      "height": 108,
+      "canvas_area_fraction": 0.029
+    },
+    {
+      "id": "contact-sequence-visualization",
+      "asset": "contact-sequence-visualization.png",
+      "x": 267,
+      "y": 342,
+      "width": 190,
+      "height": 106,
+      "canvas_area_fraction": 0.028
+    },
+    {
+      "id": "ppo-training-robots",
+      "asset": "ppo-training-robots.png",
+      "x": 886,
+      "y": 299,
+      "width": 200,
+      "height": 243,
+      "canvas_area_fraction": 0.069
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

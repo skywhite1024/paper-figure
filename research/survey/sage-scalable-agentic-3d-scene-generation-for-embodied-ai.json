@@ -6,12 +6,12 @@
   "pdf_path": "build/sources/sage-scalable-agentic-3d-scene-generation-for-embodied-ai.pdf",
   "pdf_sha256": "d4a338d1778121a83866eeea8e9f8b035da05ecc50d94fd7db30f111d4484d67",
   "pdf_title_observed": "SAGE: Scalable Agentic 3D Scene Generation for Embodied AI",
-  "first_page_title_text": "SAGE: Scalable Agentic 3D Scene Generation for Embodied AI\nHongchi Xia1,2* Xuan Li1 Zhaoshuo Li1 Qianli Ma1 Jiashu Xu1 Ming-Yu Liu1 Yin Cui1\nTsung-Yi Lin1 Wei-Chiu Ma3 Shenlong Wang2 Shuran Song1,4 Fangyin Wei1\n1NVIDIA\n2University of Illinois Urbana-Champaign\n3Cornell University\n4Stanford University\nCan you generate some bedrooms to train a policy on the task of …?\nMobile Manipulation: \npick up a ",
+  "first_page_title_text": "SAGE: Scalable Agentic 3D Scene Generation for Embodied AI\nHongchi Xia1,2* Xuan Li1 Zhaoshuo Li1 Qianli Ma1 Jiashu Xu1 Ming-Yu Liu1 Yin Cui1\nTsung-Yi Lin1 Wei-Chiu Ma3 Shenlong Wang2 Shuran Song1,4 Fangyin Wei1\n1NVIDIA\n2University of Illinois Urbana-Champaign\n3Cornell University\n4Stanford University\nCan you generate some bedrooms to train a policy on the task of \u2026?\nMobile Manipulation: \npick up a ",
   "title_match": true,
   "version": "2602.10116v2",
   "page_count": 18,
   "source_status": "accessible",
-  "license_note": "unverified",
+  "license_note": "Reuse license unverified; preserve original authorship and attribution; private user reference only",
   "figure_candidates": [
     {
       "figure": "Figure 2",
@@ -46,7 +46,7 @@
     {
       "figure": "Figure 3",
       "page_1_based": 6,
-      "caption_excerpt": "Figure 3. Common and open-vocabulary scene generation comparison. Compared with baselines, SAGE produces more complete scenes with more realistic layouts on common room types, while following the style prompts more faithfully on open-vocabulary queries. Room Type Method Visual Physics #Obj ↑Real. ↑Func. ↑Lay.↑Comp. ↑Coll. % ↓Stab. % ↑ Bedroom Holodeck[62] 28.5 7.4 6.8 5.0 6.1 29.1 51.0 SceneWeaver[63] 17.5 9.0 9.7 7.8 7.5 31.0 58.8 SAGE (Ours) 48",
+      "caption_excerpt": "Figure 3. Common and open-vocabulary scene generation comparison. Compared with baselines, SAGE produces more complete scenes with more realistic layouts on common room types, while following the style prompts more faithfully on open-vocabulary queries. Room Type Method Visual Physics #Obj \u2191Real. \u2191Func. \u2191Lay.\u2191Comp. \u2191Coll. % \u2193Stab. % \u2191 Bedroom Holodeck[62] 28.5 7.4 6.8 5.0 6.1 29.1 51.0 SceneWeaver[63] 17.5 9.0 9.7 7.8 7.5 31.0 58.8 SAGE (Ours) 48",
       "visually_inspected": false
     },
     {
@@ -58,7 +58,7 @@
     {
       "figure": "Figure 4",
       "page_1_based": 7,
-      "caption_excerpt": "Figure 4. Additional open-vocabulary generation. SAGE produces diverse, semantically coherent scenes spanning various styles and functionalities, from Gym and Office spaces to creative themes like “Cyberpunk game den” and “Starry-night bedroom”. Holodeck [62] SceneWeaver [63] SAGE (Ours) Before After Figure 5. Stability verification. Generated scenes are loaded into IsaacSim for physical validation. Both baselines exhibit displaced objects due to",
+      "caption_excerpt": "Figure 4. Additional open-vocabulary generation. SAGE produces diverse, semantically coherent scenes spanning various styles and functionalities, from Gym and Office spaces to creative themes like \u201cCyberpunk game den\u201d and \u201cStarry-night bedroom\u201d. Holodeck [62] SceneWeaver [63] SAGE (Ours) Before After Figure 5. Stability verification. Generated scenes are loaded into IsaacSim for physical validation. Both baselines exhibit displaced objects due to",
       "visually_inspected": false
     },
     {
@@ -76,7 +76,7 @@
     {
       "figure": "Figure 6",
       "page_1_based": 8,
-      "caption_excerpt": "Figure 6. SAGE-10k Dataset: We pre-generated a 10k-scene dataset named SAGE-10k Dataset across 50 room types and 50 styles, including 565K uniquely generated 3D objects. We include the statistics of room types, room examples, and objects per scene in the figure as well. The dataset can be accessed via this link. “Multilingual teacher’s apartment” “A student apartment with one bedroom” “Mid-century modern family home” Figure 7. Multi-room open-voc",
+      "caption_excerpt": "Figure 6. SAGE-10k Dataset: We pre-generated a 10k-scene dataset named SAGE-10k Dataset across 50 room types and 50 styles, including 565K uniquely generated 3D objects. We include the statistics of room types, room examples, and objects per scene in the figure as well. The dataset can be accessed via this link. \u201cMultilingual teacher\u2019s apartment\u201d \u201cA student apartment with one bedroom\u201d \u201cMid-century modern family home\u201d Figure 7. Multi-room open-voc",
       "visually_inspected": false
     },
     {
@@ -100,7 +100,7 @@
     {
       "figure": "Figure 9",
       "page_1_based": 9,
-      "caption_excerpt": "Figure 9. Articulated Objects: SAGE can be extended with articulated objects using retrieval from PartNet-Mobility [59]. Top: we show two scenes with multiple articulated objects at closed and open states. Bottom: an action sequence generated with grasp pose prediction and motion planning( Sec.3.2.2) for “pick up the bowl, place it in the drawer, and close the drawer”. Please visit website for full video. Critics Setting Visual Physics Visual Phy",
+      "caption_excerpt": "Figure 9. Articulated Objects: SAGE can be extended with articulated objects using retrieval from PartNet-Mobility [59]. Top: we show two scenes with multiple articulated objects at closed and open states. Bottom: an action sequence generated with grasp pose prediction and motion planning( Sec.3.2.2) for \u201cpick up the bowl, place it in the drawer, and close the drawer\u201d. Please visit website for full video. Critics Setting Visual Physics Visual Phy",
       "visually_inspected": false
     },
     {
@@ -110,5 +110,8 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+  "version_evidence": "Version identifier printed in original PDF: 2602.10116v2",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2602.10116v2",
+  "pdf_url": "https://arxiv.org/pdf/2602.10116v2"
 }

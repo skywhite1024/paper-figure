@@ -2,6 +2,8 @@
 
 将论文结构图转换成可编辑 PowerPoint / draw.io。v0.2 优先尽量保持原图布局、配色和细节。
 
+批量目录处理结果以 [按论文结果索引](output/README.md) 和 [处理状态](output/PROCESSING.json) 为准；每篇都有独立来源、可编辑性说明和实际完成/待完成的检查记录。
+
 ## 这版有什么变化
 
 - ASPIRE Fig. 1：从真实 PDF 保留原生曲线路径、颜色、布局、图中文字；逐张提取照片并保留原裁切/遮罩，恢复缩略放大框和弧形箭头
@@ -59,9 +61,11 @@ PAPER_FIGURE_TEST_PPTX=1 python -m unittest discover -s tests -v
 
 `paper_figure/` 为 CLI/导出器；`data/diagrams/` 是完整 JSON 和图像资产；`research/` 是特定来源重建程序；`tests/` 是校验与集成测试。
 
-重新导出既有 JSON 不需要原 PDF。重新提取 ASPIRE 需 PyMuPDF、Pillow、lxml（`pip install -e '.[pdf]'`）以及现有 Node.js `sharp`（用于保留 SVG 遮罩/裁切）；`research/extract_aspire_fidelity.py --pdf /path/to/aspire.pdf` 是针对该固定版本论文的受测提取器，不能宣传为任意 PDF 通用转换。
+重新导出既有 JSON 不需要原 PDF。人工数学转录程序另需 `pip install -e '.[math]'`，公式以保留 LaTeX 的原生字形轮廓表示，不是可输入的公式框。重新提取 ASPIRE 需 PyMuPDF、Pillow、lxml（`pip install -e '.[pdf]'`）以及现有 Node.js `sharp`（用于保留 SVG 遮罩/裁切）；`research/extract_aspire_fidelity.py --pdf /path/to/aspire.pdf` 是针对该固定版本论文的受测提取器，不能宣传为任意 PDF 通用转换。
 
 RoboReact 的人工坐标程序 `research/build_roboreact_faithful.py` 使用原图像素作为参考，输入路径详见程序参数。源图和可编辑输出的对照位于各论文文件夹的 `comparison.html`。
+
+原文 PDF 已按论文归档。全新克隆后，可先运行 `python research/restore_source_cache.py` 只读检查，再运行 `python research/restore_source_cache.py --apply` 恢复忽略的 `build/sources/` 缓存；脚本核对 SHA256，拒绝覆盖不同版本。也可加 `--paper <结果目录名>` 仅恢复一篇。
 
 ## 按论文查看结果
 

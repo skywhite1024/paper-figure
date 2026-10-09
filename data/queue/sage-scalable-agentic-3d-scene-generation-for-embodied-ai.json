@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "sage-scalable-agentic-3d-scene-generation-for-embodied-ai",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.492525Z",
-  "updated_at": "2026-10-09T20:49:29.563452Z",
+  "updated_at": "2026-10-09T21:38:37.440693Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/sage/README.md",
+          "output/sage/VALIDATION.json"
+        ],
+        "output_directory": "output/sage",
+        "source_sha256": "d4a338d1778121a83866eeea8e9f8b035da05ecc50d94fd7db30f111d4484d67",
+        "scene_sha256": "95f34076b4674a7da9d7d77b0692426f5a72d4cba45bdb147e202e62e2799e65",
+        "text_editability": {
+          "typeable_text_objects": 71,
+          "native_freeform_paths": 85,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:38:37.440693Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "1ceeda7657a2f2782b1963dc9907f6755f1d405b3c5fdbfee31a44677587db5b",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/sage/README.md",
+                "output/sage/VALIDATION.json"
+              ],
+              "output_directory": "output/sage",
+              "source_sha256": "d4a338d1778121a83866eeea8e9f8b035da05ecc50d94fd7db30f111d4484d67",
+              "scene_sha256": "95f34076b4674a7da9d7d77b0692426f5a72d4cba45bdb147e202e62e2799e65",
+              "text_editability": {
+                "typeable_text_objects": 71,
+                "native_freeform_paths": 85,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

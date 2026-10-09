@@ -1,0 +1,41 @@
+{
+  "diagram_id": "diffskill-figure-2",
+  "source_scene_sha256": "34072b470144b0c30c1223153d03e0a84f23778a511ae5b1051bee32f6747abb",
+  "source_pdf_sha256": "40a6a7e1a8f021ea1016cdac2f7ff38740ec833fbd696adf994f08d61f3074d1",
+  "checked_files": [
+    {
+      "name": "diffskill-figure-2.drawio",
+      "sha256": "f634169ab54cde562584e0473d1352442b6dfa257c06c1248a678086af0dc1be"
+    },
+    {
+      "name": "diffskill-figure-2.png",
+      "sha256": "00e3cb45ae9f1db9946f37d4bd9bf8d9fff3fc5271b936c1b35dbc593f6814b3"
+    },
+    {
+      "name": "diffskill-figure-2.pptx",
+      "sha256": "0f44fd84ad9ebd947a80887863d7458a527c380b42dabfdaf3c9679231346949"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 2 PDFpage3 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 220,
+    "p:pic": 10,
+    "a:custGeom": 161,
+    "p:cxnSp": 0,
+    "a:t": 49
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

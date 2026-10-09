@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "symskill-symbol-and-skill-co-invention-for-data-efficient-and-reactive-long-horizon-manipulation",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.485258Z",
-  "updated_at": "2026-10-09T20:14:36.803075Z",
+  "updated_at": "2026-10-09T21:45:40.680342Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/symskill/README.md",
+          "output/symskill/VALIDATION.json"
+        ],
+        "output_directory": "output/symskill",
+        "source_sha256": "29492416ae5fba07b1bf04b89c04234ac675132fe5374bbc34f510ac41638997",
+        "scene_sha256": "084662a93b8cec29d3a355bc31dc9aee814164f6db8d651f198f3f62ae0186bc",
+        "text_editability": {
+          "typeable_text_objects": 38,
+          "native_freeform_paths": 148,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -287,6 +301,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T21:45:40.680342Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "d3220e83830d90d959936007e954e46f8d4a18f70234bb15348a49279ce297de",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/symskill/README.md",
+                "output/symskill/VALIDATION.json"
+              ],
+              "output_directory": "output/symskill",
+              "source_sha256": "29492416ae5fba07b1bf04b89c04234ac675132fe5374bbc34f510ac41638997",
+              "scene_sha256": "084662a93b8cec29d3a355bc31dc9aee814164f6db8d651f198f3f62ae0186bc",
+              "text_editability": {
+                "typeable_text_objects": 38,
+                "native_freeform_paths": 148,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

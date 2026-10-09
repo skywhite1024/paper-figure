@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "diagram_id": "trajectory-segmentation-figure-2",
+  "source_sha256": "6be13aa3184fa4e366b5cb95ec61338a6998831142a9ae017c92c1800e364d9d",
+  "assets": [],
+  "provenance": {
+    "paper_title": "Data Augmentation for Instruction Following Policies via Trajectory Segmentation",
+    "paper_url": "https://arxiv.org/pdf/2503.01871v1",
+    "figure": "Figure 2",
+    "page": 3,
+    "license": "unverified",
+    "status": "figure_recreation",
+    "source_sha256": "7397912c2775dabd082d0898e24bbc755ba52a3783d6c0e8d2266385aaa69799",
+    "source_crop_pdf_points": [
+      318,
+      54,
+      557,
+      210
+    ],
+    "notes": "Source flattened mathematical comparison manually reconstructed as native paths and typeable headings. All formulas are smooth editable STIX glyph outlines, not raster and not live equation fields; their LaTeX transcription is retained in scene provenance. Timeline/segmentation lines and braces are native. Font metrics and spacing approximate source; original unusual lower-right interval notation retained without silently correcting it.",
+    "formula_transcriptions": [
+      {
+        "id": "tridet-row0",
+        "latex": "(t_0-t_0^{'},t_1-t_0^{'},c)"
+      },
+      {
+        "id": "start0",
+        "latex": "t_1^{'}"
+      },
+      {
+        "id": "end0",
+        "latex": "t_1^{'}"
+      },
+      {
+        "id": "unloc-row0",
+        "latex": "\\tau=(bg,\\ldots,bg,c,\\ldots,c,bg,\\ldots,bg)"
+      },
+      {
+        "id": "tridet-row1",
+        "latex": "(t_0-t_0^{''},t_1-t_0^{''},c)"
+      },
+      {
+        "id": "start1",
+        "latex": "t_0^{''}"
+      },
+      {
+        "id": "end1",
+        "latex": "t_1^{''}"
+      },
+      {
+        "id": "unloc-row1",
+        "latex": "\\tau=(bg,\\ldots,bg,c,\\ldots,c,bg,\\ldots,bg)"
+      },
+      {
+        "id": "tridet-row2",
+        "latex": "(t_0-t_0^{'''},t_1-t_0^{'''},c)"
+      },
+      {
+        "id": "start2",
+        "latex": "t_0^{'''}"
+      },
+      {
+        "id": "end2",
+        "latex": "t_1^{'''}"
+      },
+      {
+        "id": "unloc-row2",
+        "latex": "\\tau=(bg,\\ldots,bg,c,\\ldots,c,bg,\\ldots,bg)"
+      },
+      {
+        "id": "duration0",
+        "latex": "t_0-t_0^{\\prime}"
+      },
+      {
+        "id": "duration1",
+        "latex": "t_1-t_0"
+      },
+      {
+        "id": "duration2",
+        "latex": "t_1-t_1^{\\prime}"
+      },
+      {
+        "id": "c",
+        "latex": "c"
+      },
+      {
+        "id": "t0-label",
+        "latex": "t_0"
+      },
+      {
+        "id": "t1-label",
+        "latex": "t_1"
+      },
+      {
+        "id": "obs1",
+        "latex": "(o_{t_0:t_1\\pm k_1},0)"
+      },
+      {
+        "id": "obs2",
+        "latex": "(o_{t_0\\pm k_2:t_1},0)"
+      },
+      {
+        "id": "obs3",
+        "latex": "(o_{t_0-k_3:t_1+k_4},0)"
+      },
+      {
+        "id": "obs4",
+        "latex": "(o_{t_0:+k_5t_1+k_5},0)"
+      },
+      {
+        "id": "obs5",
+        "latex": "(o_{t_0-k_6:t_1-k_6},0)"
+      }
+    ]
+  },
+  "metrics": {
+    "native_nodes": 45,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 41,
+    "native_text_objects": 4,
+    "raster_images": 0,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "trajectory-segmentation-figure-2.drawio",
+      "sha256": "031e102a127292b243f2c60b2d3940dea6185602dd6f32d9cb4eca54d6182344"
+    },
+    {
+      "name": "trajectory-segmentation-figure-2.png",
+      "sha256": "254f8c3dace64af1d4043911e8eee507e91b8b0bc0706e7e446f447c6a09e3f1"
+    },
+    {
+      "name": "trajectory-segmentation-figure-2.pptx",
+      "sha256": "7257b001c0cc875302875f64a85d7f8b10ec54d6a5aabc9ba6051212040aa8c5"
+    }
+  ]
+}

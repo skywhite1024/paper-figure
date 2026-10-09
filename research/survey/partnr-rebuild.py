@@ -34,6 +34,21 @@ s['provenance']['notes']+=' Original source image transparency and reviewed rect
 s['provenance']['original_extraction_warnings']=s['provenance'].get('extraction_warnings',[])
 s['provenance']['extraction_warnings']=[w for w in s['provenance'].get('extraction_warnings',[]) if not w.startswith('unhandled image/shading') and not w.startswith('rotated text needs')]
 s['provenance']['manual_image_review']='All displayed source images handled explicitly using isolated alpha assets and reviewed clips; source versus generated preview inspected.'
+# Replace the tiny raster gradient fill with seventy native gradient strips and smooth rounded outer contours.
+import math
+from PIL import Image
+bg=next(n for n in s['nodes'] if n['id']=='reviewed-image-1');im=Image.open(D/bg['asset']).convert('RGB');s['nodes']=[n for n in s['nodes'] if n['id']!='reviewed-image-1']
+w,h=bg['width'],bg['height'];radius=13.2;count=70
+for j in range(count):
+ x0=j*w/count;x1=min(w,(j+1)*w/count+1.2)
+ def top(x):
+  q=min(x,w-x)
+  return radius-math.sqrt(max(0,radius*radius-(radius-q)**2)) if q<radius else 0
+ xs=[x0+(x1-x0)*k/5 for k in range(6)];points=[(x,top(x)) for x in xs]+[(x,h-top(x)) for x in reversed(xs)]
+ color=im.getpixel((min(im.width-1,int((j+.5)*im.width/count)),im.height//2));commands=[{'moveTo':{'x':points[0][0]-x0,'y':points[0][1]}}]+[{'lineTo':{'x':x-x0,'y':y}} for x,y in points[1:]]+[{'close':{}}]
+ s['nodes'].append({'id':f'native-gradient-strip-{j}','shape':'path','label':'','x':bg['x']+x0,'y':bg['y'],'width':x1-x0,'height':h,'fill':'#%02X%02X%02X'%color,'stroke':'none','stroke_width':0,'commands':commands,'source_seqno':50})
+s['nodes'].sort(key=lambda n:n.get('source_seqno',100000));s['provenance']['notes']+=' World Graph gradient reconstructed as70 native colored strips with rounded outer contours; its label remains live text.'
+
 # PAPER_SPECIFIC_POSTPROCESS
 scene.write_text(json.dumps(s,ensure_ascii=False,indent=2)+'\n')
 subprocess.run([sys.executable,'-m','paper_figure','export',str(scene),'--out',str(B),'--preview','--force'],cwd=R,check=True)

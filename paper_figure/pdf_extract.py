@@ -149,6 +149,8 @@ def extract(pdf, config, destination):
         if not crop.contains(rect):
             warnings.append('path crosses crop boundary: ' + str(drawing['seqno']))
             continue
+        if drawing.get('color') is not None and (drawing.get('width') or 0) > max(crop.width, crop.height) / 10:
+            warnings.append('suspicious source stroke width at seq ' + str(drawing['seqno']) + ': verify PDF/SVG transform units before rendering')
         if any(rect.intersects(region) and not rect.contains(region) for region, _ in regions):
             warnings.append('path partially intersects raster inset: ' + str(drawing['seqno']))
         commands, last = [], None

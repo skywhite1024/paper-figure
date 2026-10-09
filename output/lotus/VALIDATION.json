@@ -1,0 +1,399 @@
+{
+  "diagram_id": "lotus-figure-2",
+  "source_scene_sha256": "5350b561ea46e86693f5e81478bd5c050db9717f7034f6e34ec4b61b43114f53",
+  "source_pdf_sha256": "150ebaa87d207930853ef55ccaa1caba82e85bd76cf9dd1de5f0564ef06a8d16",
+  "checked_files": [
+    {
+      "name": "lotus-figure-2.drawio",
+      "sha256": "7bedba55b3555956fba8e167325331bfaf20981f882a25db0be3f3002809ebbc"
+    },
+    {
+      "name": "lotus-figure-2.png",
+      "sha256": "39a6275123c802786c46dc89bcefb7b8231f85568c51e2f1600fcc0e220ef654"
+    },
+    {
+      "name": "lotus-figure-2.pptx",
+      "sha256": "6f81b126ba9d721120f167bd8563ced5915e04040c93137841d720b4d21bf005"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      2.232,
+      2.324,
+      2.309
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_scene_asset_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 482,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; source edition/hash pinned",
+    "source_page_figure": "Independent PDF crop compared with original PNG and delivered preview",
+    "source_preview_visual": "passed with disclosed image/font/math/dash limitations"
+  },
+  "native_xml_counts": {
+    "p:sp": 559,
+    "p:pic": 33,
+    "a:custGeom": 482,
+    "p:cxnSp": 0,
+    "a:t": 44
+  },
+  "source_title": "LOTUS: Continual Imitation Learning for Robot Manipulation through Unsupervised Skill Discovery",
+  "typeable_labels": [
+    "Skill Policy",
+    "Meta-Controller",
+    "Feature Space of ",
+    "Temporal Segments",
+    "Update Existing ",
+    "Skills",
+    "Discover",
+    "New Skills",
+    "Demonstration of",
+    "A New Task",
+    "Hierarchical Clustering with DINOv2",
+    "Global Pooling",
+    "DINOv2",
+    "Features",
+    "Temporal Segment",
+    "Features",
+    "cVAE",
+    "Select",
+    "Skill k",
+    "Subgoal Param",
+    "Task-Space",
+    "Command",
+    "Skill Library",
+    "Transformer",
+    "Encoder",
+    "GMM",
+    "MLP",
+    "Workspace ",
+    "Image",
+    "Wrist ",
+    "Image",
+    "Task ",
+    "Description",
+    "Proprioception",
+    "Hierarchical Policy",
+    "Observation",
+    "Encoding",
+    "Continual Skill Discovery",
+    "Fine-tune",
+    "Frozen",
+    "New",
+    "Skill Library",
+    "Transformer",
+    "Encoder"
+  ],
+  "raster_nodes": [
+    {
+      "id": "lotus-source-component-0",
+      "asset": "lotus-source-component-0.png",
+      "x": 1264.3184509277344,
+      "y": 129.9154815673828,
+      "width": 222.92330932617188,
+      "height": 57.452728271484375,
+      "canvas_area_fraction": 0.016
+    },
+    {
+      "id": "lotus-source-component-1",
+      "asset": "lotus-source-component-1.png",
+      "x": 449.0609893798828,
+      "y": 227.1819076538086,
+      "width": 115.24140930175781,
+      "height": 242.41014862060547,
+      "canvas_area_fraction": 0.035
+    },
+    {
+      "id": "lotus-source-component-2",
+      "asset": "lotus-source-component-2.png",
+      "x": 68.73069763183594,
+      "y": 283.96270751953125,
+      "width": 119.27316284179688,
+      "height": 32.590118408203125,
+      "canvas_area_fraction": 0.005
+    },
+    {
+      "id": "lotus-source-component-3",
+      "asset": "lotus-source-component-3.png",
+      "x": 187.83590698242188,
+      "y": 273.2113037109375,
+      "width": 10.919357299804688,
+      "height": 43.341522216796875,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "lotus-source-component-4",
+      "asset": "lotus-source-component-4.png",
+      "x": 68.73069763183594,
+      "y": 273.2113494873047,
+      "width": 130.02456665039062,
+      "height": 10.919357299804688,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "lotus-source-component-5",
+      "asset": "lotus-source-component-5.png",
+      "x": 65.08634948730469,
+      "y": 291.54981994628906,
+      "width": 33.07701873779297,
+      "height": 33.07695007324219,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "lotus-source-component-6",
+      "asset": "lotus-source-component-6.png",
+      "x": 105.43185424804688,
+      "y": 291.61949157714844,
+      "width": 33.07701873779297,
+      "height": 33.07695007324219,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "lotus-source-component-7",
+      "asset": "lotus-source-component-7.png",
+      "x": 145.77740478515625,
+      "y": 291.5496826171875,
+      "width": 33.07701873779297,
+      "height": 33.076904296875,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "lotus-source-component-8",
+      "asset": "lotus-source-component-8.png",
+      "x": 269.3112487792969,
+      "y": 283.626708984375,
+      "width": 119.10520935058594,
+      "height": 32.590118408203125,
+      "canvas_area_fraction": 0.005
+    },
+    {
+      "id": "lotus-source-component-9",
+      "asset": "lotus-source-component-9.png",
+      "x": 388.2484588623047,
+      "y": 272.87530517578125,
+      "width": 11.087356567382812,
+      "height": 43.341522216796875,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "lotus-source-component-10",
+      "asset": "lotus-source-component-10.png",
+      "x": 269.3112487792969,
+      "y": 272.87535095214844,
+      "width": 130.02456665039062,
+      "height": 10.919357299804688,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "lotus-source-component-11",
+      "asset": "lotus-source-component-11.png",
+      "x": 267.08775329589844,
+      "y": 291.85340881347656,
+      "width": 33.076904296875,
+      "height": 33.076904296875,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "lotus-source-component-12",
+      "asset": "lotus-source-component-12.png",
+      "x": 307.3970947265625,
+      "y": 291.85340881347656,
+      "width": 33.076904296875,
+      "height": 33.076904296875,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "lotus-source-component-13",
+      "asset": "lotus-source-component-13.png",
+      "x": 347.7063903808594,
+      "y": 291.85340881347656,
+      "width": 33.076904296875,
+      "height": 33.076904296875,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "lotus-source-component-14",
+      "asset": "lotus-source-component-14.png",
+      "x": 60.4365234375,
+      "y": 415.34339904785156,
+      "width": 44.79743957519531,
+      "height": 44.79743957519531,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "lotus-source-component-15",
+      "asset": "lotus-source-component-15.png",
+      "x": 119.44134521484375,
+      "y": 415.34339904785156,
+      "width": 44.79743957519531,
+      "height": 44.79743957519531,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "lotus-source-component-16",
+      "asset": "lotus-source-component-16.png",
+      "x": 175.5549545288086,
+      "y": 415.34339904785156,
+      "width": 44.797462463378906,
+      "height": 44.79743957519531,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "lotus-source-component-17",
+      "asset": "lotus-source-component-17.png",
+      "x": 237.92367553710938,
+      "y": 415.34339904785156,
+      "width": 44.79743957519531,
+      "height": 44.79743957519531,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "lotus-source-component-18",
+      "asset": "lotus-source-component-18.png",
+      "x": 287.64459228515625,
+      "y": 415.34339904785156,
+      "width": 44.79743957519531,
+      "height": 44.79743957519531,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "lotus-source-component-19",
+      "asset": "lotus-source-component-19.png",
+      "x": 333.67359924316406,
+      "y": 415.34339904785156,
+      "width": 44.79743957519531,
+      "height": 44.79743957519531,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "lotus-source-component-20",
+      "asset": "lotus-source-component-20.png",
+      "x": 1311.4130859375,
+      "y": 299.2167663574219,
+      "width": 141.9609375,
+      "height": 156.00448608398438,
+      "canvas_area_fraction": 0.028
+    },
+    {
+      "id": "lotus-source-component-21",
+      "asset": "lotus-source-component-21.png",
+      "x": 804.8765258789062,
+      "y": 214.23218536376953,
+      "width": 29.762054443359375,
+      "height": 29.76207733154297,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "lotus-source-component-22",
+      "asset": "lotus-source-component-22.png",
+      "x": 804.8765258789062,
+      "y": 283.99974060058594,
+      "width": 29.762054443359375,
+      "height": 29.762100219726562,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "lotus-source-component-23",
+      "asset": "lotus-source-component-23.png",
+      "x": 804.8765258789062,
+      "y": 143.45267486572266,
+      "width": 29.762054443359375,
+      "height": 29.76207733154297,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "lotus-source-component-24",
+      "asset": "lotus-source-component-24.png",
+      "x": 804.8765258789062,
+      "y": 338.2854766845703,
+      "width": 29.762054443359375,
+      "height": 29.762100219726562,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "lotus-source-component-25",
+      "asset": "lotus-source-component-25.png",
+      "x": 843.3071594238281,
+      "y": 151.8324966430664,
+      "width": 17.889129638671875,
+      "height": 17.889015197753906,
+      "canvas_area_fraction": 0.0
+    },
+    {
+      "id": "lotus-source-component-26",
+      "asset": "lotus-source-component-26.png",
+      "x": 577.7024688720703,
+      "y": 409.2389831542969,
+      "width": 28.538040161132812,
+      "height": 28.537948608398438,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "lotus-source-component-27",
+      "asset": "lotus-source-component-27.png",
+      "x": 576.1981201171875,
+      "y": 438.1337585449219,
+      "width": 28.5380859375,
+      "height": 28.537948608398438,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "lotus-source-component-28",
+      "asset": "lotus-source-component-28.png",
+      "x": 574.7291564941406,
+      "y": 463.8881378173828,
+      "width": 32.864776611328125,
+      "height": 32.86491394042969,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "lotus-source-component-29",
+      "asset": "lotus-source-component-29.png",
+      "x": 580.9883422851562,
+      "y": 193.4722137451172,
+      "width": 32.864776611328125,
+      "height": 32.86493682861328,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "lotus-source-component-30",
+      "asset": "lotus-source-component-30.png",
+      "x": 455.6491241455078,
+      "y": 260.326904296875,
+      "width": 28.5380859375,
+      "height": 28.537948608398438,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "lotus-source-component-31",
+      "asset": "lotus-source-component-31.png",
+      "x": 454.610595703125,
+      "y": 316.7834930419922,
+      "width": 28.5380859375,
+      "height": 28.537948608398438,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "lotus-source-component-32",
+      "asset": "lotus-source-component-32.png",
+      "x": 453.85084533691406,
+      "y": 427.59901428222656,
+      "width": 28.537948608398438,
+      "height": 28.537857055664062,
+      "canvas_area_fraction": 0.001
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

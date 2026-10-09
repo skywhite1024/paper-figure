@@ -9,5 +9,7 @@ for span in page.get_texttrace():
  seen.add(key);dx,dy=span['dir'];rotation=math.degrees(math.atan2(dy,dx));h=span['size']*scale;w=max(h,(b.width*scale-h*abs(dy))/abs(dx));cx=((b.x0+b.x1)/2-crop.x0)*scale;cy=((b.y0+b.y1)/2-crop.y0)*scale
  rotated.append({'id':'rotated-'+str(span['seqno']),'shape':'text','x':cx-w/2,'y':cy-h/2,'width':w,'height':h,'rotation':rotation,'label':label,'font_size':h,'font_family':'Arial','fill':'none','stroke':'none','text_color':'#000000','text_inset':0,'no_wrap':True,'align':'center'})
 s['nodes']=[n for n in s['nodes']if not(n['shape']=='text'and n.get('source_seqno')in seqs)]+rotated
+for n in s['nodes']:
+ if n['shape']=='text' and n.get('source_font')=='SegoePrint-Bold':n['italic']=True;n['bold']=False
 s['provenance']['notes']+=' Rotated labels reconstructed as native typeable text, duplicated PDF fill/stroke spans deduplicated. Four clipped room/photo insets restored at reviewed source-visible bounds. Photographic interiors and illustrated avatars remain raster assets.'
 f=out/(cfg['id']+'.json');f.write_text(json.dumps(s,indent=2));subprocess.run([sys.executable,'-m','paper_figure','export',str(f),'--out',str(R/'build'/slug),'--preview','--force'],cwd=R,check=True)

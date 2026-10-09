@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "diagram_id": "atr-figure-1",
+  "source_sha256": "8e2af5427742d22b242027c6c50c2c070e8cfea1fa0a709a4c08abc9c1e74adb",
+  "assets": [
+    {
+      "name": "assets/earth.png",
+      "sha256": "a71301b8d52adbc348c51fa369937a26c6c13144094968d398a006ec22bd689c"
+    },
+    {
+      "name": "assets/failure.png",
+      "sha256": "0c2a5f06df0c9e103e53a8b398742b89a551be3f047297453dd5cdcff81832db"
+    },
+    {
+      "name": "assets/success-one.png",
+      "sha256": "52f9beb245489f0322e6220c2400892c2348f0d65b25058708b936e3710116b2"
+    },
+    {
+      "name": "assets/success-two.png",
+      "sha256": "ad316a411561b4de955ae4b73f4293ef603edbd2dca93d3a3596f21995e7a74d"
+    },
+    {
+      "name": "assets/testing-photo.png",
+      "sha256": "29bb6eaee88ca6a0a85a977756f718811837755dfacd7102bcbf902fd76d2401"
+    }
+  ],
+  "provenance": {
+    "paper_title": "Active Task Randomization: Learning Robust Skills via Unsupervised Generation of Diverse and Feasible Tasks",
+    "paper_url": "https://arxiv.org/abs/2211.06134v2",
+    "pdf_url": "https://arxiv.org/pdf/2211.06134v2",
+    "figure": "Figure 1",
+    "page": 1,
+    "license": "unverified Private user-requested adaptation; no public redistribution permission implied.",
+    "status": "figure_recreation",
+    "notes": "Manually reconstructed from the inspected original flattened PDF figure. Ordinary labels are live typeable text; panels, graph geometry and arrows are native editable shapes or paths. Source layout and contents retained; font metrics, line widths and decorative effects approximated. Source ordinary labels were outlines, so they are manually replaced by native typeable text. Four original robot/task photos plus the small globe icon remain raster. All task-space dots, links, modules, plans and arrows are native; source layout retained.",
+    "source_sha256": "c13ef30ae59aad2323d16791e9cfbaf22ad416aeaceb5062d054e93e9fe0556c",
+    "source_crop_pdf_points": [
+      311,
+      146,
+      559,
+      380
+    ],
+    "survey_crop_correction": false,
+    "visual_inspection": "Original PDF figure inspected before source-layout reconstruction on 2026-10-09; independent application QA pending.",
+    "raster_details": [
+      {
+        "id": "success-one",
+        "bounds_source_pixels": [
+          20,
+          52,
+          160,
+          148
+        ],
+        "detail": "Original training-task robot rendering; internal task objects remain raster"
+      },
+      {
+        "id": "success-two",
+        "bounds_source_pixels": [
+          20,
+          152,
+          160,
+          248
+        ],
+        "detail": "Original training-task robot rendering; internal task objects remain raster"
+      },
+      {
+        "id": "failure",
+        "bounds_source_pixels": [
+          20,
+          252,
+          160,
+          348
+        ],
+        "detail": "Original training-task robot rendering; internal task objects remain raster"
+      },
+      {
+        "id": "earth",
+        "bounds_source_pixels": [
+          634,
+          76,
+          696,
+          139
+        ],
+        "detail": "Original small globe/environment icon"
+      },
+      {
+        "id": "testing-photo",
+        "bounds_source_pixels": [
+          20.87999999999994,
+          411.40919999999994,
+          293.805,
+          631.7763
+        ],
+        "detail": "Original real-robot testing photograph; native caption overlay is separate"
+      }
+    ]
+  },
+  "metrics": {
+    "native_nodes": 73,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 22,
+    "native_text_objects": 24,
+    "raster_images": 5,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "atr-figure-1.drawio",
+      "sha256": "e355448358bde113dd62904d8ae21bf95ed5aa23f1baf424a6f633cd7c637d83"
+    },
+    {
+      "name": "atr-figure-1.png",
+      "sha256": "725552739580c361b98f9ecfdcaffb9ee2398a7a2fd8cf7819e5c61a80d7b90a"
+    },
+    {
+      "name": "atr-figure-1.pptx",
+      "sha256": "457511717d39761829e0fdfd62f7f466927ebedcdad6c0dcc0d4af5f28d96781"
+    }
+  ]
+}

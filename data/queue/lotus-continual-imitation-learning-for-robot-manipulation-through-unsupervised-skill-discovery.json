@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.487860Z",
-  "updated_at": "2026-10-09T20:14:36.439578Z",
+  "updated_at": "2026-10-09T21:45:39.926025Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/lotus/README.md",
+          "output/lotus/VALIDATION.json"
+        ],
+        "output_directory": "output/lotus",
+        "source_sha256": "150ebaa87d207930853ef55ccaa1caba82e85bd76cf9dd1de5f0564ef06a8d16",
+        "scene_sha256": "5350b561ea46e86693f5e81478bd5c050db9717f7034f6e34ec4b61b43114f53",
+        "text_editability": {
+          "typeable_text_objects": 44,
+          "native_freeform_paths": 482,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -315,6 +329,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T21:45:39.926025Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "d5842524524508f9a0c218e2353cce14292f0d4d48f4406533f929f81727c2c6",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/lotus/README.md",
+                "output/lotus/VALIDATION.json"
+              ],
+              "output_directory": "output/lotus",
+              "source_sha256": "150ebaa87d207930853ef55ccaa1caba82e85bd76cf9dd1de5f0564ef06a8d16",
+              "scene_sha256": "5350b561ea46e86693f5e81478bd5c050db9717f7034f6e34ec4b61b43114f53",
+              "text_editability": {
+                "typeable_text_objects": 44,
+                "native_freeform_paths": 482,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

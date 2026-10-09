@@ -1,0 +1,2381 @@
+{
+  "schema_version": 1,
+  "id": "gensim-figure-2",
+  "title": "GenSim: Generating Robotic Simulation Tasks via Large Language Models · Figure 2",
+  "canvas": {
+    "width": 1588.0,
+    "height": 472.0
+  },
+  "provenance": {
+    "paper_title": "GenSim: Generating Robotic Simulation Tasks via Large Language Models",
+    "paper_url": "https://arxiv.org/pdf/2310.01361v2",
+    "figure": "Figure 2",
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "notes": "Original task-creation, program-synthesis, simulation, library and transfer layout. Discrete avatar, engine icon and six source robot illustrations remain raster. LLM label and code are manually transcribed as native text; native freeform arrows are not attached connectors. Source mixed clipping requires manually reviewed image crops.",
+    "page": 3,
+    "status": "figure_recreation",
+    "source_sha256": "97b91f5da06223de29b894792f90a00a9c0732bf05df0f92f1d1bddd21332962",
+    "source_crop_pdf_points": [
+      107,
+      62,
+      504,
+      180
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "dash_fidelity": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+    "extraction_warnings": [
+      "27 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 2",
+      "path crosses crop boundary: 3",
+      "path partially intersects raster inset: 27",
+      "path partially intersects raster inset: 60",
+      "path partially intersects raster inset: 61",
+      "path partially intersects raster inset: 65",
+      "path partially intersects raster inset: 66",
+      "path partially intersects raster inset: 68",
+      "unhandled image/shading at seq 9: [447.86846923828125, 66.48382568359375, 521.0802001953125, 124.15036010742188]; requires reviewed raster region",
+      "unhandled image/shading at seq 10: [443.140869140625, 117.84693908691406, 516.3526000976562, 175.5134735107422]; requires reviewed raster region",
+      "unhandled image/shading at seq 11: [438.41339111328125, 169.2100830078125, 511.6250915527344, 226.87661743164062]; requires reviewed raster region",
+      "unhandled image/shading at seq 12: [379.38446044921875, 60.180423736572266, 452.59619140625, 117.84695434570312]; requires reviewed raster region",
+      "unhandled image/shading at seq 13: [374.65692138671875, 111.54353332519531, 447.8686218261719, 169.21006774902344]; requires reviewed raster region",
+      "unhandled image/shading at seq 14: [369.9293212890625, 162.90664672851562, 443.14105224609375, 220.57318115234375]; requires reviewed raster region",
+      "unhandled image/shading at seq 21: [386.06488037109375, 80.73002624511719, 440.94805908203125, 111.60182189941406]; requires reviewed raster region",
+      "unhandled image/shading at seq 22: [396.44482421875, 126.97174835205078, 446.99737548828125, 155.4075469970703]; requires reviewed raster region",
+      "unhandled image/shading at seq 23: [356.3170166015625, 80.120361328125, 413.38232421875, 112.2196044921875]; requires reviewed raster region",
+      "unhandled image/shading at seq 24: [353.8316650390625, 124.06802368164062, 410.89697265625, 156.16726684570312]; requires reviewed raster region",
+      "unhandled image/shading at seq 28: [425.93939208984375, 69.99757385253906, 511.9850769042969, 118.39907836914062]; requires reviewed raster region",
+      "unhandled image/shading at seq 71: [108.00001525878906, 101.03507995605469, 143.43984985351562, 133.31063842773438]; requires reviewed raster region",
+      "unhandled image/shading at seq 72: [165.09860229492188, 104.46420288085938, 208.2288818359375, 134.5177459716797]; requires reviewed raster region",
+      "unhandled image/shading at seq 74: [244.57525634765625, 124.56439208984375, 315.93402099609375, 166.047607421875]; requires reviewed raster region",
+      "unhandled image/shading at seq 75: [204.914306640625, 69.80865478515625, 349.219970703125, 82.49285125732422]; requires reviewed raster region",
+      "unhandled image/shading at seq 76: [210.61085510253906, 89.4070816040039, 314.50921630859375, 109.57781982421875]; requires reviewed raster region"
+    ],
+    "ignored_invisible_text_spans": 0,
+    "manual_text_notes": "Source raster code and LLM words transcribed to native typeable text. Syntax highlighting simplified to whole-line colors for reliable editor spacing."
+  },
+  "nodes": [
+    {
+      "id": "pdf-path-4",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 117.6837158203125,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 117.6837158203125,
+            "y": 5.7509765625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 5.7509765625
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 1467.9002685546875,
+      "y": 459.2545166015625,
+      "width": 117.6837158203125,
+      "height": 5.7509765625,
+      "fill": "#FFFFFF",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 4,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-5",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 117.683837890625,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 117.683837890625,
+            "y": 5.7509765625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 5.7509765625
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 1467.9002685546875,
+      "y": 459.2545166015625,
+      "width": 117.683837890625,
+      "height": 5.7509765625,
+      "fill": "none",
+      "stroke": "#FFFFFF",
+      "stroke_width": 0.7611600160598755,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 5,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-text-1-0",
+      "shape": "text",
+      "label": "Task",
+      "x": 1359.1251220703125,
+      "y": 207.18142700195312,
+      "width": 39.905517578125,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Times-Roman",
+      "source_seqno": 6
+    },
+    {
+      "id": "pdf-text-2-0",
+      "shape": "text",
+      "label": "-",
+      "x": 1399.025146484375,
+      "y": 207.18142700195312,
+      "width": 7.09716796875,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Times-Roman",
+      "source_seqno": 7
+    },
+    {
+      "id": "pdf-text-3-0",
+      "shape": "text",
+      "label": "Level Generalization",
+      "x": 1406.1610107421875,
+      "y": 207.18142700195312,
+      "width": 178.9737548828125,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Times-Roman",
+      "source_seqno": 8
+    },
+    {
+      "id": "pdf-raster-7",
+      "shape": "image",
+      "asset": "gensim-figure-2-raster-7.png",
+      "alt": "Original real robot photo",
+      "x": 1388.0,
+      "y": 236.0,
+      "width": 192.0,
+      "height": 208.0
+    },
+    {
+      "id": "pdf-text-4-0",
+      "shape": "text",
+      "label": "Can you generate ",
+      "x": 9.4803466796875,
+      "y": 55.994781494140625,
+      "width": 209.10577392578125,
+      "height": 24.35711669921875,
+      "font_size": 24.357112884521484,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 15
+    },
+    {
+      "id": "pdf-text-5-0",
+      "shape": "text",
+      "label": "the task “build",
+      "x": 9.4803466796875,
+      "y": 85.58871459960938,
+      "width": 164.045166015625,
+      "height": 24.35711669921875,
+      "font_size": 24.357112884521484,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 16
+    },
+    {
+      "id": "pdf-text-6-0",
+      "shape": "text",
+      "label": "-",
+      "x": 173.60546875,
+      "y": 85.58871459960938,
+      "width": 8.13525390625,
+      "height": 24.35711669921875,
+      "font_size": 24.357112884521484,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 17
+    },
+    {
+      "id": "pdf-text-7-0",
+      "shape": "text",
+      "label": "car”?",
+      "x": 181.7879638671875,
+      "y": 85.58871459960938,
+      "width": 58.6324462890625,
+      "height": 24.35711669921875,
+      "font_size": 24.357112884521484,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 18
+    },
+    {
+      "id": "pdf-text-8-0",
+      "shape": "text",
+      "label": "Can you generate a new task that is ",
+      "x": 8.55059814453125,
+      "y": 358.3275146484375,
+      "width": 411.1846923828125,
+      "height": 24.35711669921875,
+      "font_size": 24.357112884521484,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 19
+    },
+    {
+      "id": "pdf-text-9-0",
+      "shape": "text",
+      "label": "different from the existing ones?",
+      "x": 8.55059814453125,
+      "y": 387.9215087890625,
+      "width": 371.80645751953125,
+      "height": 24.35711669921875,
+      "font_size": 24.357112884521484,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 20
+    },
+    {
+      "id": "pdf-raster-2",
+      "shape": "image",
+      "asset": "gensim-figure-2-raster-2.png",
+      "alt": "Original construct-corner-blocks simulation image",
+      "x": 1068.0,
+      "y": 72.0,
+      "width": 116.0,
+      "height": 112.0
+    },
+    {
+      "id": "pdf-raster-4",
+      "shape": "image",
+      "asset": "gensim-figure-2-raster-4.png",
+      "alt": "Original ball-on-box-in-container simulation image",
+      "x": 1060.0,
+      "y": 248.0,
+      "width": 124.0,
+      "height": 112.0
+    },
+    {
+      "id": "pdf-raster-5",
+      "shape": "image",
+      "asset": "gensim-figure-2-raster-5.png",
+      "alt": "Original pyramid-on-pallet simulation image",
+      "x": 1204.0,
+      "y": 264.0,
+      "width": 120.0,
+      "height": 104.0
+    },
+    {
+      "id": "pdf-text-10-0",
+      "shape": "text",
+      "label": "Distillation / Retrieval",
+      "x": 637.32421875,
+      "y": 6.103271484375,
+      "width": 211.381591796875,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 25
+    },
+    {
+      "id": "pdf-text-11-0",
+      "shape": "text",
+      "label": "Task Library",
+      "x": 1141.6182861328125,
+      "y": 48.6673583984375,
+      "width": 119.3392333984375,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 26
+    },
+    {
+      "id": "pdf-path-27-part-0",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 2.3253173828125,
+            "y": 28.2894287109375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 36.9931640625,
+            "y": 7.7789306640625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 34.6678466796875,
+            "y": 3.848358154296875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 24.358795166015625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 2.3253173828125,
+            "y": 28.2894287109375
+          }
+        }
+      ],
+      "x": 1347.76025390625,
+      "y": 148.30535888671875,
+      "width": 45.65673828125,
+      "height": 28.2894287109375,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 27,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-27-part-1",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 37.3531494140625,
+            "y": 12.872222900390625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 45.65673828125,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 30.3770751953125,
+            "y": 1.080474853515625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 37.3531494140625,
+            "y": 12.872222900390625
+          }
+        }
+      ],
+      "x": 1347.76025390625,
+      "y": 148.30535888671875,
+      "width": 45.65673828125,
+      "height": 28.2894287109375,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 27,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-raster-3",
+      "shape": "image",
+      "asset": "gensim-figure-2-raster-3.png",
+      "alt": "Original color-ordered-insertion simulation image",
+      "x": 1188.0,
+      "y": 72.0,
+      "width": 140.0,
+      "height": 112.0
+    },
+    {
+      "id": "pdf-raster-6",
+      "shape": "image",
+      "asset": "gensim-figure-2-raster-6.png",
+      "alt": "Original task generalization simulation image",
+      "x": 1388.0,
+      "y": 40.0,
+      "width": 192.0,
+      "height": 164.0
+    },
+    {
+      "id": "pdf-text-12-0",
+      "shape": "text",
+      "label": "…",
+      "x": 1122.8770751953125,
+      "y": 227.64144897460938,
+      "width": 27.4017333984375,
+      "height": 27.401763916015625,
+      "font_size": 27.40176010131836,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Times-Roman",
+      "source_seqno": 29
+    },
+    {
+      "id": "pdf-text-13-0",
+      "shape": "text",
+      "label": "pyramid",
+      "x": 1199.4664306640625,
+      "y": 363.78759765625,
+      "width": 82.2662353515625,
+      "height": 21.31243896484375,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 30
+    },
+    {
+      "id": "pdf-text-14-0",
+      "shape": "text",
+      "label": "-",
+      "x": 1281.6717529296875,
+      "y": 363.78759765625,
+      "width": 7.118408203125,
+      "height": 21.31243896484375,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 31
+    },
+    {
+      "id": "pdf-text-15-0",
+      "shape": "text",
+      "label": "on",
+      "x": 1288.8076171875,
+      "y": 363.78759765625,
+      "width": 25.5899658203125,
+      "height": 21.31243896484375,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 32
+    },
+    {
+      "id": "pdf-text-16-0",
+      "shape": "text",
+      "label": "-",
+      "x": 1314.401611328125,
+      "y": 363.78759765625,
+      "width": 7.118408203125,
+      "height": 21.31243896484375,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 33
+    },
+    {
+      "id": "pdf-text-17-0",
+      "shape": "text",
+      "label": "pallet",
+      "x": 1232.8167724609375,
+      "y": 389.7279052734375,
+      "width": 55.3485107421875,
+      "height": 21.31243896484375,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 34
+    },
+    {
+      "id": "pdf-text-18-0",
+      "shape": "text",
+      "label": "ball",
+      "x": 1024.8541259765625,
+      "y": 365.797119140625,
+      "width": 35.7198486328125,
+      "height": 21.31243896484375,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 35
+    },
+    {
+      "id": "pdf-text-19-0",
+      "shape": "text",
+      "label": "-",
+      "x": 1060.533447265625,
+      "y": 365.797119140625,
+      "width": 7.118408203125,
+      "height": 21.31243896484375,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 36
+    },
+    {
+      "id": "pdf-text-20-0",
+      "shape": "text",
+      "label": "on",
+      "x": 1067.6693115234375,
+      "y": 365.797119140625,
+      "width": 25.5899658203125,
+      "height": 21.31243896484375,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 37
+    },
+    {
+      "id": "pdf-text-21-0",
+      "shape": "text",
+      "label": "-",
+      "x": 1093.263427734375,
+      "y": 365.797119140625,
+      "width": 7.118408203125,
+      "height": 21.31243896484375,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 38
+    },
+    {
+      "id": "pdf-text-22-0",
+      "shape": "text",
+      "label": "box",
+      "x": 1100.3992919921875,
+      "y": 365.797119140625,
+      "width": 37.4248046875,
+      "height": 21.31243896484375,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 39
+    },
+    {
+      "id": "pdf-text-23-0",
+      "shape": "text",
+      "label": "-",
+      "x": 1137.791259765625,
+      "y": 365.797119140625,
+      "width": 7.118408203125,
+      "height": 21.31243896484375,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 40
+    },
+    {
+      "id": "pdf-text-24-0",
+      "shape": "text",
+      "label": "in",
+      "x": 1144.9271240234375,
+      "y": 365.797119140625,
+      "width": 18.1689453125,
+      "height": 21.31243896484375,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 41
+    },
+    {
+      "id": "pdf-text-25-0",
+      "shape": "text",
+      "label": "-",
+      "x": 1163.099853515625,
+      "y": 365.797119140625,
+      "width": 7.118408203125,
+      "height": 21.31243896484375,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 42
+    },
+    {
+      "id": "pdf-text-26-0",
+      "shape": "text",
+      "label": "container",
+      "x": 1049.972412109375,
+      "y": 391.5546875,
+      "width": 95.1859130859375,
+      "height": 21.31243896484375,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 43
+    },
+    {
+      "id": "pdf-text-27-0",
+      "shape": "text",
+      "label": "color",
+      "x": 1186.28857421875,
+      "y": 191.88720703125,
+      "width": 51.2906494140625,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 44
+    },
+    {
+      "id": "pdf-text-28-0",
+      "shape": "text",
+      "label": "-",
+      "x": 1237.5716552734375,
+      "y": 191.88720703125,
+      "width": 7.118408203125,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 45
+    },
+    {
+      "id": "pdf-text-29-0",
+      "shape": "text",
+      "label": "ordered",
+      "x": 1244.70751953125,
+      "y": 191.88720703125,
+      "width": 79.6490478515625,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 46
+    },
+    {
+      "id": "pdf-text-30-0",
+      "shape": "text",
+      "label": "-",
+      "x": 1324.3438720703125,
+      "y": 191.88720703125,
+      "width": 7.118408203125,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 47
+    },
+    {
+      "id": "pdf-text-31-0",
+      "shape": "text",
+      "label": "insertion",
+      "x": 1215.3077392578125,
+      "y": 217.82757568359375,
+      "width": 87.146728515625,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 48
+    },
+    {
+      "id": "pdf-text-32-0",
+      "shape": "text",
+      "label": "construct",
+      "x": 1042.5335693359375,
+      "y": 192.0699462890625,
+      "width": 96.0596923828125,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 49
+    },
+    {
+      "id": "pdf-text-33-0",
+      "shape": "text",
+      "label": "-",
+      "x": 1138.630126953125,
+      "y": 192.0699462890625,
+      "width": 7.118408203125,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 50
+    },
+    {
+      "id": "pdf-text-34-0",
+      "shape": "text",
+      "label": "corner",
+      "x": 1025.1220703125,
+      "y": 217.82757568359375,
+      "width": 65.876953125,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 51
+    },
+    {
+      "id": "pdf-text-35-0",
+      "shape": "text",
+      "label": "-",
+      "x": 1090.96240234375,
+      "y": 217.82757568359375,
+      "width": 7.118408203125,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 52
+    },
+    {
+      "id": "pdf-text-36-0",
+      "shape": "text",
+      "label": "blocks",
+      "x": 1098.0982666015625,
+      "y": 217.82757568359375,
+      "width": 65.045654296875,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 53
+    },
+    {
+      "id": "pdf-raster-1",
+      "shape": "image",
+      "asset": "gensim-figure-2-raster-1.png",
+      "alt": "Original simulation engine icon",
+      "x": 879.5999999999999,
+      "y": 106.80000000000001,
+      "width": 84.80000000000018,
+      "height": 85.19999999999999
+    },
+    {
+      "id": "pdf-text-37-0",
+      "shape": "text",
+      "label": "Simulation ",
+      "x": 877.374755859375,
+      "y": 242.671875,
+      "width": 112.06103515625,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 55
+    },
+    {
+      "id": "pdf-text-38-0",
+      "shape": "text",
+      "label": "Engine",
+      "x": 896.3551025390625,
+      "y": 268.6121826171875,
+      "width": 68.4130859375,
+      "height": 21.31243896484375,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 56
+    },
+    {
+      "id": "pdf-text-39-0",
+      "shape": "text",
+      "label": "Program ",
+      "x": 435.45751953125,
+      "y": 244.86395263671875,
+      "width": 91.10662841796875,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 57
+    },
+    {
+      "id": "pdf-text-40-0",
+      "shape": "text",
+      "label": "Synthesis",
+      "x": 430.3197021484375,
+      "y": 270.8043212890625,
+      "width": 95.6717529296875,
+      "height": 21.31243896484375,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 58
+    },
+    {
+      "id": "pdf-path-59-part-0",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 78.93853759765625,
+            "y": 6.103515625e-05
+          }
+        },
+        {
+          "lineTo": {
+            "x": 78.93853759765625,
+            "y": 4.567047119140625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 4.56695556640625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 424.6279296875,
+      "y": 221.10430908203125,
+      "width": 90.35595703125,
+      "height": 9.134002685546875,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 59,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-59-part-1",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 76.655029296875,
+            "y": -4.56689453125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 90.35595703125,
+            "y": 2.2835693359375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 76.6549072265625,
+            "y": 9.134002685546875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 76.655029296875,
+            "y": -4.56689453125
+          }
+        }
+      ],
+      "x": 424.6279296875,
+      "y": 221.10430908203125,
+      "width": 90.35595703125,
+      "height": 9.134002685546875,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 59,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-60-part-0",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 2.43505859375,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 38.5938720703125,
+            "y": 22.7894287109375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 36.158935546875,
+            "y": 26.65301513671875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 3.863525390625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 2.43505859375,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 1353.335693359375,
+      "y": 342.82135009765625,
+      "width": 47.0360107421875,
+      "height": 30.80889892578125,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 60,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-60-part-1",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 39.097900390625,
+            "y": 17.70819091796875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 47.0360107421875,
+            "y": 30.80889892578125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 31.792236328125,
+            "y": 29.299072265625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 39.097900390625,
+            "y": 17.70819091796875
+          }
+        }
+      ],
+      "x": 1353.335693359375,
+      "y": 342.82135009765625,
+      "width": 47.0360107421875,
+      "height": 30.80889892578125,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 60,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-61",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 340.4373779296875,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 340.4373779296875,
+            "y": 342.55712890625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 342.55712890625
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 1005.69189453125,
+      "y": 73.7008056640625,
+      "width": 340.4373779296875,
+      "height": 342.55712890625,
+      "fill": "none",
+      "stroke": "#92D050",
+      "stroke_width": 3.425220012664795,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": true,
+      "dash_style": "dashed",
+      "source_dash": "[ 3.42522 2.5689152 ] 0",
+      "dash_pattern": [
+        13.70088,
+        10.2756608
+      ],
+      "dash_phase": 0.0,
+      "dash_approximation": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+      "source_seqno": 61,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-62-part-0",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 86.464599609375,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 86.464599609375,
+            "y": 4.56695556640625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 4.56695556640625
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 879.68115234375,
+      "y": 218.75271606445312,
+      "width": 97.882080078125,
+      "height": 9.1339111328125,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 62,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-62-part-1",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 84.18115234375,
+            "y": -4.566986083984375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 97.882080078125,
+            "y": 2.283477783203125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 84.18115234375,
+            "y": 9.1339111328125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 84.18115234375,
+            "y": -4.566986083984375
+          }
+        }
+      ],
+      "x": 879.68115234375,
+      "y": 218.75271606445312,
+      "width": 97.882080078125,
+      "height": 9.1339111328125,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 62,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-63-part-0",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 9.1339111328125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 74.36602783203125,
+            "y": 9.1339111328125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 74.36602783203125,
+            "y": 4.56695556640625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 4.56695556640625
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 136.09588623046875,
+      "y": 217.5325927734375,
+      "width": 85.783447265625,
+      "height": 9.1339111328125,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 63,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-63-part-1",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 72.08258056640625,
+            "y": 13.70086669921875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 85.783447265625,
+            "y": 6.85040283203125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 72.08258056640625,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 72.08258056640625,
+            "y": 13.70086669921875
+          }
+        }
+      ],
+      "x": 136.09588623046875,
+      "y": 217.5325927734375,
+      "width": 85.783447265625,
+      "height": 9.1339111328125,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 63,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-text-41-0",
+      "shape": "text",
+      "label": "Task Creator",
+      "x": 248.7711181640625,
+      "y": 299.66748046875,
+      "width": 126.0953369140625,
+      "height": 21.31243896484375,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 64
+    },
+    {
+      "id": "pdf-path-65",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 2.708251953125,
+            "y": 32.4381103515625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 12.2373046875,
+            "x2": 16.2828369140625,
+            "y2": 0.0,
+            "x": 39.076416015625,
+            "y": 5.1053466796875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 61.8709716796875,
+            "y1": 10.2105712890625,
+            "x2": 82.5447998046875,
+            "y2": 30.72528076171875,
+            "x": 85.2530517578125,
+            "y": 50.92608642578125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 85.9281005859375,
+            "y1": 55.965728759765625,
+            "x2": 85.4219970703125,
+            "y2": 60.687896728515625,
+            "x": 83.76416015625,
+            "y": 64.79617309570312
+          }
+        },
+        {
+          "lineTo": {
+            "x": 84.7384033203125,
+            "y": 66.99868774414062
+          }
+        },
+        {
+          "lineTo": {
+            "x": 59.6871337890625,
+            "y": 77.19500732421875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 80.12890625,
+            "y": 56.577178955078125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 80.8968505859375,
+            "y": 58.314056396484375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 83.1507568359375,
+            "y1": 42.3663330078125,
+            "x2": 68.4488525390625,
+            "y2": 21.991729736328125,
+            "x": 48.0604248046875,
+            "y": 12.806182861328125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 27.672119140625,
+            "y1": 3.620697021484375,
+            "x2": 9.316650390625,
+            "y2": 9.102508544921875,
+            "x": 7.0635986328125,
+            "y": 25.050262451171875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 6.690673828125,
+            "y1": 27.688812255859375,
+            "x2": 6.781982421875,
+            "y2": 30.523284912109375,
+            "x": 7.3345947265625,
+            "y": 33.474456787109375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 2.708251953125,
+            "y": 32.4381103515625
+          }
+        }
+      ],
+      "x": 1307.3175048828125,
+      "y": 31.816070556640625,
+      "width": 85.9281005859375,
+      "height": 77.19500732421875,
+      "fill": "#4472C4",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 65,
+      "source_even_odd": true
+    },
+    {
+      "id": "pdf-path-66",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 2.7081298828125,
+            "y": 32.438140869140625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 12.237335205078125,
+            "x2": 16.2828369140625,
+            "y2": 0.0,
+            "x": 39.076904296875,
+            "y": 5.10528564453125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 61.87109375,
+            "y1": 10.2105712890625,
+            "x2": 82.5447998046875,
+            "y2": 30.7252197265625,
+            "x": 85.2530517578125,
+            "y": 50.926055908203125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 85.9287109375,
+            "y1": 55.96575927734375,
+            "x2": 85.421875,
+            "y2": 60.687896728515625,
+            "x": 83.764404296875,
+            "y": 64.79620361328125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 84.738525390625,
+            "y": 66.99871826171875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 59.687255859375,
+            "y": 77.19500732421875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 80.1292724609375,
+            "y": 56.57720947265625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 80.8973388671875,
+            "y": 58.31402587890625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 83.1507568359375,
+            "y1": 42.366302490234375,
+            "x2": 68.4490966796875,
+            "y2": 21.99176025390625,
+            "x": 48.060546875,
+            "y": 12.80621337890625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 27.671875,
+            "y1": 3.62066650390625,
+            "x2": 9.3170166015625,
+            "y2": 9.10247802734375,
+            "x": 7.0635986328125,
+            "y": 25.050201416015625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 6.6907958984375,
+            "y1": 27.688812255859375,
+            "x2": 6.7821044921875,
+            "y2": 30.523284912109375,
+            "x": 7.3349609375,
+            "y": 33.4744873046875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 2.7081298828125,
+            "y": 32.438140869140625
+          }
+        }
+      ],
+      "x": 1307.3173828125,
+      "y": 31.81610107421875,
+      "width": 85.9287109375,
+      "height": 77.19500732421875,
+      "fill": "none",
+      "stroke": "#172C51",
+      "stroke_width": 0.6045556664466858,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 66,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-text-42-0",
+      "shape": "text",
+      "label": "Reflection",
+      "x": 1282.29443359375,
+      "y": 12.3143310546875,
+      "width": 101.2236328125,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Graphik-Regular",
+      "source_seqno": 67
+    },
+    {
+      "id": "pdf-path-68-part-0",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 808.5926513671875,
+            "y": 45.402069091796875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 808.5926513671875,
+            "y": 1.807769775390625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 810.400390625,
+            "y": 3.615509033203125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.4232177734375,
+            "y": 3.615509033203125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.23101806640625,
+            "y": 1.807769775390625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.23101806640625,
+            "y": 128.84902954101562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 3.6156005859375,
+            "y": 128.84902954101562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 3.6156005859375,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 812.2081298828125,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 812.2081298828125,
+            "y": 45.402069091796875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 808.5926513671875,
+            "y": 45.402069091796875
+          }
+        }
+      ],
+      "x": 300.9984130859375,
+      "y": 27.07928466796875,
+      "width": 812.2081298828125,
+      "height": 137.88772583007812,
+      "fill": "#4472C4",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 68,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-path-68-part-1",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 10.8465576171875,
+            "y": 127.04119873046875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.4232177734375,
+            "y": 137.88772583007812
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 127.04119873046875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.8465576171875,
+            "y": 127.04119873046875
+          }
+        }
+      ],
+      "x": 300.9984130859375,
+      "y": 27.07928466796875,
+      "width": 812.2081298828125,
+      "height": 137.88772583007812,
+      "fill": "#4472C4",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 68,
+      "source_even_odd": false,
+      "reviewed_compound_union": true
+    },
+    {
+      "id": "pdf-text-43-0",
+      "shape": "text",
+      "label": "…",
+      "x": 572.5001220703125,
+      "y": 192.20187377929688,
+      "width": 27.4017333984375,
+      "height": 27.401763916015625,
+      "font_size": 27.40176010131836,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Times-Roman",
+      "source_seqno": 69
+    },
+    {
+      "id": "pdf-text-44-0",
+      "shape": "text",
+      "label": "…",
+      "x": 482.6614990234375,
+      "y": 81.31607055664062,
+      "width": 27.4017333984375,
+      "height": 27.401763916015625,
+      "font_size": 27.40176010131836,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Times-Roman",
+      "source_seqno": 70
+    },
+    {
+      "id": "pdf-raster-0",
+      "shape": "image",
+      "asset": "gensim-figure-2-raster-0.png",
+      "alt": "Original person avatar",
+      "x": 36.0,
+      "y": 180.0,
+      "width": 88.0,
+      "height": 88.0
+    },
+    {
+      "id": "pdf-path-73",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 175.9462890625,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 175.9462890625,
+            "y": 123.639404296875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 123.639404296875
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 230.68182373046875,
+      "y": 168.1441650390625,
+      "width": 175.9462890625,
+      "height": 123.639404296875,
+      "fill": "none",
+      "stroke": "#4472C4",
+      "stroke_width": 3.425220012664795,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": true,
+      "dash_style": "dashed",
+      "source_dash": "[ 3.42522 2.5689152 ] 0",
+      "dash_pattern": [
+        13.70088,
+        10.2756608
+      ],
+      "dash_phase": 0.0,
+      "dash_approximation": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+      "source_seqno": 73,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-text-45-0",
+      "shape": "text",
+      "label": "Sim",
+      "x": 1371.6195068359375,
+      "y": 444.1153564453125,
+      "width": 34.3734130859375,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Times-Roman",
+      "source_seqno": 77
+    },
+    {
+      "id": "pdf-text-46-0",
+      "shape": "text",
+      "label": "-",
+      "x": 1405.9669189453125,
+      "y": 444.1153564453125,
+      "width": 7.09716796875,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Times-Roman",
+      "source_seqno": 78
+    },
+    {
+      "id": "pdf-text-47-0",
+      "shape": "text",
+      "label": "to",
+      "x": 1413.102783203125,
+      "y": 444.1153564453125,
+      "width": 16.5555419921875,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Times-Roman",
+      "source_seqno": 79
+    },
+    {
+      "id": "pdf-text-48-0",
+      "shape": "text",
+      "label": "-",
+      "x": 1429.657958984375,
+      "y": 444.1153564453125,
+      "width": 7.09716796875,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Times-Roman",
+      "source_seqno": 80
+    },
+    {
+      "id": "pdf-text-49-0",
+      "shape": "text",
+      "label": "Real Adaptation",
+      "x": 1436.7938232421875,
+      "y": 444.1153564453125,
+      "width": 137.6573486328125,
+      "height": 21.3125,
+      "font_size": 21.31248664855957,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "Times-Roman",
+      "source_seqno": 81
+    },
+    {
+      "id": "llm-initial-0",
+      "shape": "text",
+      "label": "L",
+      "x": 244,
+      "y": 168,
+      "width": 28,
+      "height": 36,
+      "font_size": 29.6,
+      "font_family": "Arial",
+      "text_color": "#0055BB",
+      "bold": true,
+      "align": "left",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "llm-rest-0",
+      "shape": "text",
+      "label": "arge",
+      "x": 262.0,
+      "y": 168,
+      "width": 144,
+      "height": 36,
+      "font_size": 29.6,
+      "font_family": "Arial",
+      "text_color": "#111111",
+      "bold": true,
+      "align": "left",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "llm-initial-1",
+      "shape": "text",
+      "label": "L",
+      "x": 244,
+      "y": 204,
+      "width": 28,
+      "height": 36,
+      "font_size": 29.6,
+      "font_family": "Arial",
+      "text_color": "#0055BB",
+      "bold": true,
+      "align": "left",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "llm-rest-1",
+      "shape": "text",
+      "label": "anguage",
+      "x": 262.0,
+      "y": 204,
+      "width": 144,
+      "height": 36,
+      "font_size": 29.6,
+      "font_family": "Arial",
+      "text_color": "#111111",
+      "bold": true,
+      "align": "left",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "llm-initial-2",
+      "shape": "text",
+      "label": "M",
+      "x": 244,
+      "y": 240,
+      "width": 28,
+      "height": 36,
+      "font_size": 29.6,
+      "font_family": "Arial",
+      "text_color": "#0055BB",
+      "bold": true,
+      "align": "left",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "llm-rest-2",
+      "shape": "text",
+      "label": "odel",
+      "x": 268.79999999999995,
+      "y": 240,
+      "width": 144,
+      "height": 36,
+      "font_size": 29.6,
+      "font_family": "Arial",
+      "text_color": "#111111",
+      "bold": true,
+      "align": "left",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "code-0",
+      "shape": "text",
+      "label": "class BuildCar(Task):",
+      "x": 392,
+      "y": 36,
+      "width": 260,
+      "height": 20,
+      "font_size": 13.0,
+      "font_family": "Courier New",
+      "text_color": "#294E82",
+      "bold": false,
+      "align": "left",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "code-1",
+      "shape": "text",
+      "label": "    \"\"\"Construct a simple car structure using blocks and cylinders.\"\"\"",
+      "x": 392,
+      "y": 60,
+      "width": 440,
+      "height": 20,
+      "font_size": 13.0,
+      "font_family": "Courier New",
+      "text_color": "#294E82",
+      "bold": false,
+      "align": "left",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "code-2",
+      "shape": "text",
+      "label": "# Add wheels.",
+      "x": 428,
+      "y": 124,
+      "width": 440,
+      "height": 20,
+      "font_size": 13.0,
+      "font_family": "Courier New",
+      "text_color": "#333333",
+      "bold": false,
+      "align": "left",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "code-3",
+      "shape": "text",
+      "label": "wheel_size = (0.02, 0.02, 0.02)",
+      "x": 428,
+      "y": 148,
+      "width": 440,
+      "height": 20,
+      "font_size": 13.0,
+      "font_family": "Courier New",
+      "text_color": "#333333",
+      "bold": false,
+      "align": "left",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "code-4",
+      "shape": "text",
+      "label": "wheel_urdf = 'cylinder/cylinder-template.urdf'",
+      "x": 428,
+      "y": 172,
+      "width": 440,
+      "height": 20,
+      "font_size": 13.0,
+      "font_family": "Courier New",
+      "text_color": "#333333",
+      "bold": false,
+      "align": "left",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "code-5",
+      "shape": "text",
+      "label": "self.add_goal(",
+      "x": 552,
+      "y": 252,
+      "width": 440,
+      "height": 20,
+      "font_size": 13.0,
+      "font_family": "Courier New",
+      "text_color": "#333333",
+      "bold": false,
+      "align": "left",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "code-6",
+      "shape": "text",
+      "label": "  objs=wheels,",
+      "x": 552,
+      "y": 276,
+      "width": 440,
+      "height": 20,
+      "font_size": 13.0,
+      "font_family": "Courier New",
+      "text_color": "#333333",
+      "bold": false,
+      "align": "left",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "code-7",
+      "shape": "text",
+      "label": "  matches=np.ones((4, 4)),",
+      "x": 552,
+      "y": 300,
+      "width": 440,
+      "height": 20,
+      "font_size": 13.0,
+      "font_family": "Courier New",
+      "text_color": "#333333",
+      "bold": false,
+      "align": "left",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "code-8",
+      "shape": "text",
+      "label": "...",
+      "x": 552,
+      "y": 324,
+      "width": 440,
+      "height": 20,
+      "font_size": 13.0,
+      "font_family": "Courier New",
+      "text_color": "#333333",
+      "bold": false,
+      "align": "left",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "code-9",
+      "shape": "text",
+      "label": "  language_goal=\"For the wheels,",
+      "x": 552,
+      "y": 348,
+      "width": 440,
+      "height": 20,
+      "font_size": 13.0,
+      "font_family": "Courier New",
+      "text_color": "#294E82",
+      "bold": false,
+      "align": "left",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "code-10",
+      "shape": "text",
+      "label": "  place a black cylinder on each",
+      "x": 552,
+      "y": 372,
+      "width": 440,
+      "height": 20,
+      "font_size": 13.0,
+      "font_family": "Courier New",
+      "text_color": "#294E82",
+      "bold": false,
+      "align": "left",
+      "no_wrap": true,
+      "text_inset": 0
+    },
+    {
+      "id": "code-11",
+      "shape": "text",
+      "label": "  side of the base blocks.\")",
+      "x": 552,
+      "y": 396,
+      "width": 440,
+      "height": 20,
+      "font_size": 13.0,
+      "font_family": "Courier New",
+      "text_color": "#294E82",
+      "bold": false,
+      "align": "left",
+      "no_wrap": true,
+      "text_inset": 0
+    }
+  ],
+  "edges": []
+}

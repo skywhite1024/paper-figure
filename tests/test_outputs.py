@@ -204,6 +204,22 @@ class OutputTests(unittest.TestCase):
         from paper_figure.outputs import add_paper
         with self.assertRaises(ValidationError):add_paper(self.root,self.output/'aspire')
 
+    def test_batch_add_validates_all_before_publication(self):
+        from paper_figure.outputs import add_papers
+        good=self.root/'build/new-paper';good.parent.mkdir(parents=True)
+        shutil.copytree(self.output/'aspire',good)
+        metadata=json.loads((good/'sources.json').read_text());metadata['papers'][0]['id']='new-paper'
+        (good/'sources.json').write_text(json.dumps(metadata));(good/'aspire-original.png').rename(good/'new-paper-original.png')
+        bad=self.root/'build/bad-paper';bad.mkdir();(bad/'sources.json').write_text('{"papers":[]}')
+        before=(self.output/'README.md').read_bytes()
+        with self.assertRaises(ValidationError):add_papers(self.root,[good,bad])
+        self.assertFalse((self.output/'new-paper').exists());self.assertEqual(before,(self.output/'README.md').read_bytes())
+        result=add_papers(self.root,[good]);self.assertEqual(result[0]['paper'],'new-paper')
+        self.assertTrue((self.output/'new-paper/sources.json').exists())
+    def test_duplicate_batch_slug_rejected(self):
+        from paper_figure.outputs import add_papers
+        with self.assertRaises(ValidationError):add_papers(self.root,[self.root/'a/new',self.root/'b/new'])
+
     def test_stale_qa_hash_rejected(self):
         path=self.output/'aspire/VALIDATION.json'
         path.write_text(json.dumps({'source_scene_sha256':'0'*64}))

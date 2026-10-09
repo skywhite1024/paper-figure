@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "annotation-free-one-shot-imitation-learning-for-multi-step-manipulation-tasks",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.506312Z",
-  "updated_at": "2026-10-09T20:49:28.359351Z",
+  "updated_at": "2026-10-09T21:45:38.346424Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/annotation-free/README.md",
+          "output/annotation-free/VALIDATION.json"
+        ],
+        "output_directory": "output/annotation-free",
+        "source_sha256": "09d5f8a6ab5241357e07c48d838af7d0fc6d4968c3f6b8a11422f5f31367915b",
+        "scene_sha256": "5bb4c714630a9047526e16ff9337ee0d7f00b32bb8e4ccadfb42c82489f960f1",
+        "text_editability": {
+          "typeable_text_objects": 6,
+          "native_freeform_paths": 7,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:45:38.346424Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "fd13dfb0c9099414b2baeba9acd1edf76f79ca401478239d8dfdd4576a7e3f44",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/annotation-free/README.md",
+                "output/annotation-free/VALIDATION.json"
+              ],
+              "output_directory": "output/annotation-free",
+              "source_sha256": "09d5f8a6ab5241357e07c48d838af7d0fc6d4968c3f6b8a11422f5f31367915b",
+              "scene_sha256": "5bb4c714630a9047526e16ff9337ee0d7f00b32bb8e4ccadfb42c82489f960f1",
+              "text_editability": {
+                "typeable_text_objects": 6,
+                "native_freeform_paths": 7,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

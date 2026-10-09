@@ -1,0 +1,2819 @@
+{
+  "schema_version": 1,
+  "id": "steerable-scene-figure-1",
+  "title": "Steerable Scene Generation with Post Training and Inference-Time Search · Figure 1",
+  "canvas": {
+    "width": 1200.0,
+    "height": 570.0
+  },
+  "provenance": {
+    "paper_title": "Steerable Scene Generation with Post Training and Inference-Time Search",
+    "paper_url": "https://arxiv.org/abs/2505.04831v2",
+    "figure": "Figure 1",
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/; private user-requested adaptation, no public redistribution authorization.",
+    "notes": "Source-native figure paths and typeable labels reconstructed from the inspected original PDF; source photo/icon details remain separate raster subassets. Independent target-application QA pending. Original source image transparency and reviewed rectangular clips retained; CMYK photos converted to RGB. Reviewed source text rotation preserved as native rotated text; curved wording remains separate typeable characters at source positions.",
+    "page": 1,
+    "status": "figure_recreation",
+    "source_sha256": "1be87c7dfc90c7e831ff530934aa81295833e9b151bd327658e413b73c8149b6",
+    "source_crop_pdf_points": [
+      107,
+      200,
+      507,
+      390
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "extraction_warnings": [
+      "18 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path partially intersects raster inset: 30",
+      "path partially intersects raster inset: 31",
+      "path partially intersects raster inset: 57"
+    ],
+    "ignored_invisible_text_spans": 0,
+    "original_extraction_warnings": [
+      "18 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path partially intersects raster inset: 30",
+      "path partially intersects raster inset: 31",
+      "path partially intersects raster inset: 57",
+      "rotated text needs manual reconstruction: R",
+      "rotated text needs manual reconstruction: L",
+      "rotated text needs manual reconstruction: P",
+      "rotated text needs manual reconstruction: o",
+      "rotated text needs manual reconstruction: s",
+      "rotated text needs manual reconstruction: t",
+      "rotated text needs manual reconstruction: T",
+      "rotated text needs manual reconstruction: r",
+      "rotated text needs manual reconstruction: a",
+      "rotated text needs manual reconstruction: i",
+      "rotated text needs manual reconstruction: n",
+      "rotated text needs manual reconstruction: i",
+      "rotated text needs manual reconstruction: n",
+      "rotated text needs manual reconstruction: g",
+      "rotated text needs manual reconstruction: (",
+      "rotated text needs manual reconstruction: C",
+      "rotated text needs manual reconstruction: l",
+      "rotated text needs manual reconstruction: u",
+      "rotated text needs manual reconstruction: t",
+      "rotated text needs manual reconstruction: t",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: r",
+      "rotated text needs manual reconstruction: R",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: w",
+      "rotated text needs manual reconstruction: a",
+      "rotated text needs manual reconstruction: r",
+      "rotated text needs manual reconstruction: d",
+      "rotated text needs manual reconstruction: )",
+      "rotated text needs manual reconstruction: M",
+      "rotated text needs manual reconstruction: C",
+      "rotated text needs manual reconstruction: T",
+      "rotated text needs manual reconstruction: S",
+      "rotated text needs manual reconstruction: (",
+      "rotated text needs manual reconstruction: C",
+      "rotated text needs manual reconstruction: l",
+      "rotated text needs manual reconstruction: u",
+      "rotated text needs manual reconstruction: t",
+      "rotated text needs manual reconstruction: t",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: r",
+      "rotated text needs manual reconstruction: O",
+      "rotated text needs manual reconstruction: b",
+      "rotated text needs manual reconstruction: j",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: c",
+      "rotated text needs manual reconstruction: t",
+      "rotated text needs manual reconstruction: i",
+      "rotated text needs manual reconstruction: v",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: )",
+      "unhandled image/shading at seq 1: [368.9147033691406, 288.0768127441406, 503.9979248046875, 364.1679992675781]; requires reviewed raster region",
+      "unhandled image/shading at seq 2: [282.78363037109375, 340.6026306152344, 371.89154052734375, 388.67401123046875]; requires reviewed raster region",
+      "unhandled image/shading at seq 3: [141.85308837890625, 341.2420654296875, 203.76278686523438, 376.0662841796875]; requires reviewed raster region",
+      "unhandled image/shading at seq 4: [280.30950927734375, 280.3716125488281, 371.83026123046875, 331.85205078125]; requires reviewed raster region",
+      "unhandled image/shading at seq 5: [436.0189208984375, 224.37008666992188, 514.5173950195312, 302.8685607910156]; requires reviewed raster region",
+      "unhandled image/shading at seq 7: [367.2444152832031, 217.9186248779297, 455.94622802734375, 306.62042236328125]; requires reviewed raster region",
+      "unhandled image/shading at seq 9: [108.66935729980469, 265.8834533691406, 167.4164581298828, 324.63055419921875]; requires reviewed raster region",
+      "unhandled image/shading at seq 10: [150.10997009277344, 223.31324768066406, 198.89102172851562, 272.09429931640625]; requires reviewed raster region",
+      "unhandled image/shading at seq 11: [108.0, 224.88519287109375, 147.5980224609375, 277.68255615234375]; requires reviewed raster region",
+      "unhandled image/shading at seq 12: [108.0, 304.429931640625, 147.5980224609375, 357.227294921875]; requires reviewed raster region",
+      "unhandled image/shading at seq 15: [304.049072265625, 223.02825927734375, 354.4465637207031, 276.6418762207031]; requires reviewed raster region",
+      "unhandled image/shading at seq 20: [277.96319580078125, 312.28338623046875, 375.1583251953125, 345.1617431640625]; requires reviewed raster region"
+    ],
+    "manual_image_review": "All displayed source images handled explicitly using isolated alpha assets and reviewed clips; source versus generated preview inspected."
+  },
+  "nodes": [
+    {
+      "id": "reviewed-image-0",
+      "shape": "image",
+      "label": "",
+      "asset": "steerable-scene-source-image-0.png",
+      "alt": "Original isolated photo/icon/background asset with original transparency; internal pixels remain raster",
+      "x": 785.7441101074219,
+      "y": 264.2304382324219,
+      "width": 405.2496643066406,
+      "height": 228.2735595703125,
+      "source_seqno": 1
+    },
+    {
+      "id": "reviewed-image-1",
+      "shape": "image",
+      "label": "",
+      "asset": "steerable-scene-source-image-1.png",
+      "alt": "Original isolated photo/icon/background asset with original transparency; internal pixels remain raster",
+      "x": 527.3508911132812,
+      "y": 421.8078918457031,
+      "width": 267.32373046875,
+      "height": 144.21414184570312,
+      "source_seqno": 2
+    },
+    {
+      "id": "reviewed-image-2",
+      "shape": "image",
+      "label": "",
+      "asset": "steerable-scene-source-image-2.png",
+      "alt": "Original isolated photo/icon/background asset with original transparency; internal pixels remain raster",
+      "x": 104.55926513671875,
+      "y": 423.7261962890625,
+      "width": 185.72909545898438,
+      "height": 104.47265625,
+      "source_seqno": 3
+    },
+    {
+      "id": "reviewed-image-3",
+      "shape": "image",
+      "label": "",
+      "asset": "steerable-scene-source-image-3.png",
+      "alt": "Original isolated photo/icon/background asset with original transparency; internal pixels remain raster",
+      "x": 519.9285278320312,
+      "y": 241.11483764648438,
+      "width": 274.562255859375,
+      "height": 154.44131469726562,
+      "source_seqno": 4
+    },
+    {
+      "id": "pdf-raster-1",
+      "shape": "image",
+      "asset": "steerable-scene-figure-1-raster-1.png",
+      "alt": "Original circular robot-gripper close-up and frame; internal pixels remain raster",
+      "x": 1047.3000000000002,
+      "y": 115.79999999999998,
+      "width": 125.39999999999986,
+      "height": 125.39999999999995,
+      "source_seqno": 5
+    },
+    {
+      "id": "pdf-raster-0",
+      "shape": "image",
+      "asset": "steerable-scene-figure-1-raster-0.png",
+      "alt": "Original tilted-ellipse robot scene photo and frame; internal photographic pixels remain raster",
+      "x": 788.4000000000001,
+      "y": 86.70000000000002,
+      "width": 242.69999999999993,
+      "height": 177.60000000000005,
+      "source_seqno": 7
+    },
+    {
+      "id": "reviewed-image-6",
+      "shape": "image",
+      "label": "",
+      "asset": "steerable-scene-source-image-6.png",
+      "alt": "Original isolated photo/icon/background asset with original transparency; internal pixels remain raster",
+      "x": 5.0080718994140625,
+      "y": 197.65036010742188,
+      "width": 176.24130249023438,
+      "height": 176.24130249023438,
+      "source_seqno": 9
+    },
+    {
+      "id": "reviewed-image-7",
+      "shape": "image",
+      "label": "",
+      "asset": "steerable-scene-source-image-7.png",
+      "alt": "Original isolated photo/icon/background asset with original transparency; internal pixels remain raster",
+      "x": 129.3299102783203,
+      "y": 69.93974304199219,
+      "width": 146.34315490722656,
+      "height": 146.34315490722656,
+      "source_seqno": 10
+    },
+    {
+      "id": "reviewed-image-8",
+      "shape": "image",
+      "label": "",
+      "asset": "steerable-scene-source-image-8.png",
+      "alt": "Original isolated photo/icon/background asset with original transparency; internal pixels remain raster",
+      "x": 3.0,
+      "y": 74.65557861328125,
+      "width": 118.7940673828125,
+      "height": 158.39208984375,
+      "source_seqno": 11
+    },
+    {
+      "id": "reviewed-image-9",
+      "shape": "image",
+      "label": "",
+      "asset": "steerable-scene-source-image-9.png",
+      "alt": "Original isolated photo/icon/background asset with original transparency; internal pixels remain raster",
+      "x": 3.0,
+      "y": 313.289794921875,
+      "width": 118.7940673828125,
+      "height": 158.39208984375,
+      "source_seqno": 12
+    },
+    {
+      "id": "pdf-text-20-0",
+      "shape": "text",
+      "label": "SE(3) Scene ",
+      "x": 248.51010131835938,
+      "y": 256.4120178222656,
+      "width": 125.29774475097656,
+      "height": 23.998809814453125,
+      "font_size": 23.998799800872803,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 13
+    },
+    {
+      "id": "pdf-text-20-1",
+      "shape": "text",
+      "label": "Generative ",
+      "x": 255.51773071289062,
+      "y": 285.2105712890625,
+      "width": 111.28248596191406,
+      "height": 23.998809814453125,
+      "font_size": 23.998799800872803,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 13
+    },
+    {
+      "id": "pdf-text-20-2",
+      "shape": "text",
+      "label": "Model",
+      "x": 276.8286895751953,
+      "y": 314.0091247558594,
+      "width": 62.6568603515625,
+      "height": 23.998809814453125,
+      "font_size": 23.998799800872803,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 13
+    },
+    {
+      "id": "pdf-text-21-0",
+      "shape": "text",
+      "label": "(Sec. 2.2)",
+      "x": 262.52540588378906,
+      "y": 342.74029541015625,
+      "width": 91.2916259765625,
+      "height": 23.998809814453125,
+      "font_size": 23.998799800872803,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": true,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPS-ItalicMT",
+      "source_seqno": 13
+    },
+    {
+      "id": "pdf-path-14",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 139.541015625,
+            "y": 162.39688110351562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 22.858840942382812,
+            "y": 162.39688110351562
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.235504150390625,
+            "y1": 162.39688110351562,
+            "x2": 0.0,
+            "y2": 152.16439819335938,
+            "x": 0.0,
+            "y": 139.541015625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 22.855865478515625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 10.23248291015625,
+            "x2": 10.235504150390625,
+            "y2": 0.0,
+            "x": 22.858840942382812,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 139.541015625,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 152.16439819335938,
+            "y1": 0.0,
+            "x2": 162.39688110351562,
+            "y2": 10.23248291015625,
+            "x": 162.39688110351562,
+            "y": 22.855865478515625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 162.39688110351562,
+            "y": 139.541015625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 162.39688110351562,
+            "y1": 152.16439819335938,
+            "x2": 152.16439819335938,
+            "y2": 162.39688110351562,
+            "x": 139.541015625,
+            "y": 162.39688110351562
+          }
+        }
+      ],
+      "x": 226.95318603515625,
+      "y": 230.08895874023438,
+      "width": 162.39688110351562,
+      "height": 162.39688110351562,
+      "fill": "none",
+      "stroke": "#231F20",
+      "stroke_width": 2.9998499751091003,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 14,
+      "source_even_odd": false
+    },
+    {
+      "id": "reviewed-image-10",
+      "shape": "image",
+      "label": "",
+      "asset": "steerable-scene-source-image-10.png",
+      "alt": "Original isolated photo/icon/background asset with original transparency; internal pixels remain raster",
+      "x": 591.147216796875,
+      "y": 69.08477783203125,
+      "width": 151.19247436523438,
+      "height": 160.84085083007812,
+      "source_seqno": 15
+    },
+    {
+      "id": "pdf-text-22-0",
+      "shape": "text",
+      "label": "Conditioning",
+      "x": 399.5837860107422,
+      "y": 284.0580139160156,
+      "width": 126.68962097167969,
+      "height": 23.998809814453125,
+      "font_size": 23.998799800872803,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 16
+    },
+    {
+      "id": "pdf-path-17",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 125.85868835449219,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 402.0724639892578,
+      "y": 318.3355407714844,
+      "width": 125.85868835449219,
+      "height": 0.01,
+      "fill": "#231F20",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 17,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-18",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 115.09519958496094,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 402.0724639892578,
+      "y": 318.3355407714844,
+      "width": 115.09519958496094,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#231F20",
+      "stroke_width": 2.9998499751091003,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 18,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-19",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 14.957244873046875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.9503173828125,
+            "y": 7.47857666015625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 14.957244873046875
+          }
+        }
+      ],
+      "x": 514.9793701171875,
+      "y": 310.8565979003906,
+      "width": 12.9503173828125,
+      "height": 14.957244873046875,
+      "fill": "#231F20",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 19,
+      "source_even_odd": false
+    },
+    {
+      "id": "reviewed-image-11",
+      "shape": "image",
+      "label": "",
+      "asset": "steerable-scene-source-image-11.png",
+      "alt": "Original isolated photo/icon/background asset with original transparency; internal pixels remain raster",
+      "x": 512.8895874023438,
+      "y": 336.85015869140625,
+      "width": 291.58538818359375,
+      "height": 98.63507080078125,
+      "source_seqno": 20
+    },
+    {
+      "id": "pdf-path-21",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 64.60775756835938
+          }
+        },
+        {
+          "lineTo": {
+            "x": 257.3630676269531,
+            "y": 64.60775756835938
+          }
+        },
+        {
+          "lineTo": {
+            "x": 257.3630676269531,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 528.5287170410156,
+      "y": 353.0206604003906,
+      "width": 257.3630676269531,
+      "height": 64.60775756835938,
+      "fill": "#FFFFFF",
+      "stroke": "#231F20",
+      "stroke_width": 0.7499624937772751,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 21,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-text-23-0",
+      "shape": "text",
+      "label": "“A scene with four tables, ",
+      "x": 532.1306762695312,
+      "y": 362.5038757324219,
+      "width": 254.59844970703125,
+      "height": 23.998809814453125,
+      "font_size": 23.998799800872803,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 23
+    },
+    {
+      "id": "pdf-text-23-1",
+      "shape": "text",
+      "label": "two shelves, and ...”",
+      "x": 559.4412231445312,
+      "y": 391.30242919921875,
+      "width": 193.95465087890625,
+      "height": 23.998809814453125,
+      "font_size": 23.998799800872803,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 23
+    },
+    {
+      "id": "pdf-path-24",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 86.023681640625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 15.176239013671875,
+            "y1": 69.2215576171875,
+            "x2": 43.563812255859375,
+            "y2": 42.2288818359375,
+            "x": 87.06463623046875,
+            "y": 23.230819702148438
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 116.81414794921875,
+            "y1": 10.235458374023438,
+            "x2": 155.50625610351562,
+            "y2": 2.6848297119140625,
+            "x": 179.12704467773438,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 397.37677001953125,
+      "y": 144.06463623046875,
+      "width": 179.12704467773438,
+      "height": 86.023681640625,
+      "fill": "none",
+      "stroke": "#231F20",
+      "stroke_width": 2.9998499751091003,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 24,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-25",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 1.601898193359375,
+            "y": 14.870269775390625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 13.67926025390625,
+            "y": 6.047698974609375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.601898193359375,
+            "y": 14.870269775390625
+          }
+        }
+      ],
+      "x": 573.5420837402344,
+      "y": 137.06295776367188,
+      "width": 13.67926025390625,
+      "height": 14.870269775390625,
+      "fill": "#231F20",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 25,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-text-24-0",
+      "shape": "text",
+      "label": "R",
+      "x": 395.2151007020451,
+      "y": 182.51309895515442,
+      "width": 16.007298595909816,
+      "height": 23.998948574066162,
+      "font_size": 23.998948574066162,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -42.17198870711184
+    },
+    {
+      "id": "pdf-text-25-0",
+      "shape": "text",
+      "label": "L",
+      "x": 407.69126273059936,
+      "y": 172.4375581741333,
+      "width": 14.66322038841065,
+      "height": 23.99872398376465,
+      "font_size": 23.99872398376465,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -38.7906744106164
+    },
+    {
+      "id": "pdf-text-27-0",
+      "shape": "text",
+      "label": "P",
+      "x": 423.73897905063285,
+      "y": 160.9688708782196,
+      "width": 13.343330961234301,
+      "height": 23.998796939849854,
+      "font_size": 23.998796939849854,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -34.596095060862744
+    },
+    {
+      "id": "pdf-text-28-0",
+      "shape": "text",
+      "label": "o",
+      "x": 435.1335357427597,
+      "y": 153.95570826530457,
+      "width": 11.999392747879028,
+      "height": 23.998785495758057,
+      "font_size": 23.998785495758057,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -31.776036495369702
+    },
+    {
+      "id": "pdf-text-29-0",
+      "shape": "text",
+      "label": "s",
+      "x": 445.72268472218434,
+      "y": 148.48164010047913,
+      "width": 9.335575379850042,
+      "height": 23.998908519744873,
+      "font_size": 23.998908519744873,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -29.402071404400225
+    },
+    {
+      "id": "pdf-text-30-0",
+      "shape": "text",
+      "label": "t",
+      "x": 454.16223669862586,
+      "y": 144.6223075389862,
+      "width": 6.671681387904584,
+      "height": 23.998854160308838,
+      "font_size": 23.998854160308838,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -27.61150163979684
+    },
+    {
+      "id": "pdf-text-32-0",
+      "shape": "text",
+      "label": "T",
+      "x": 464.90278658294767,
+      "y": 137.49838829040527,
+      "width": 14.66323786926091,
+      "height": 23.99875259399414,
+      "font_size": 23.99875259399414,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -23.986776407880186
+    },
+    {
+      "id": "pdf-text-33-0",
+      "shape": "text",
+      "label": "r",
+      "x": 477.96839739203745,
+      "y": 133.40555262565613,
+      "width": 7.991549942487637,
+      "height": 23.998648166656494,
+      "font_size": 23.998648166656494,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -21.65178931061176
+    },
+    {
+      "id": "pdf-text-34-0",
+      "shape": "text",
+      "label": "a",
+      "x": 485.40336103821164,
+      "y": 130.1074619293213,
+      "width": 10.655436126701716,
+      "height": 23.998729705810547,
+      "font_size": 23.998729705810547,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -19.579439596670056
+    },
+    {
+      "id": "pdf-text-35-0",
+      "shape": "text",
+      "label": "i",
+      "x": 495.6702002477628,
+      "y": 127.31939363479614,
+      "width": 6.671653947833761,
+      "height": 23.99875545501709,
+      "font_size": 23.99875545501709,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -17.64993887094788
+    },
+    {
+      "id": "pdf-text-36-0",
+      "shape": "text",
+      "label": "n",
+      "x": 502.0281833410263,
+      "y": 124.63023447990417,
+      "width": 11.999449968338013,
+      "height": 23.998899936676025,
+      "font_size": 23.998899936676025,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -15.574217530582864
+    },
+    {
+      "id": "pdf-text-37-0",
+      "shape": "text",
+      "label": "i",
+      "x": 513.875706466196,
+      "y": 122.24862027168274,
+      "width": 6.671621735576707,
+      "height": 23.998639583587646,
+      "font_size": 23.998639583587646,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -13.484896465896584
+    },
+    {
+      "id": "pdf-text-38-0",
+      "shape": "text",
+      "label": "n",
+      "x": 520.3799035549164,
+      "y": 120.22386503219604,
+      "width": 11.999317646026611,
+      "height": 23.998635292053223,
+      "font_size": 23.998635292053223,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -11.422299874744258
+    },
+    {
+      "id": "pdf-text-39-0",
+      "shape": "text",
+      "label": "g",
+      "x": 532.2335067987442,
+      "y": 118.11038517951965,
+      "width": 11.999417066574097,
+      "height": 23.998834133148193,
+      "font_size": 23.998834133148193,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -8.78776346963851
+    },
+    {
+      "id": "pdf-text-40-0",
+      "shape": "text",
+      "label": "(",
+      "x": 420.84312181163085,
+      "y": 226.59689497947693,
+      "width": 7.991612822050826,
+      "height": 23.998836994171143,
+      "font_size": 23.998836994171143,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -42.91002435745124
+    },
+    {
+      "id": "pdf-text-41-0",
+      "shape": "text",
+      "label": "C",
+      "x": 425.8927635691141,
+      "y": 218.56098818778992,
+      "width": 16.007227988724907,
+      "height": 23.99884271621704,
+      "font_size": 23.99884271621704,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -40.27627244041224
+    },
+    {
+      "id": "pdf-text-42-0",
+      "shape": "text",
+      "label": "l",
+      "x": 439.3862530946714,
+      "y": 211.4035620689392,
+      "width": 6.671661901477478,
+      "height": 23.998784065246582,
+      "font_size": 23.998784065246582,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -37.80042202229698
+    },
+    {
+      "id": "pdf-text-43-0",
+      "shape": "text",
+      "label": "u",
+      "x": 444.3192894458771,
+      "y": 205.7286057472229,
+      "width": 11.99936056137085,
+      "height": 23.9987211227417,
+      "font_size": 23.9987211227417,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -35.72633532782468
+    },
+    {
+      "id": "pdf-text-44-0",
+      "shape": "text",
+      "label": "t",
+      "x": 454.66766211891,
+      "y": 200.40537357330322,
+      "width": 6.671664287570593,
+      "height": 23.99879264831543,
+      "font_size": 23.99879264831543,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -33.674575501410054
+    },
+    {
+      "id": "pdf-text-45-0",
+      "shape": "text",
+      "label": "t",
+      "x": 460.3301362609848,
+      "y": 196.73748207092285,
+      "width": 6.671697692874204,
+      "height": 23.998912811279297,
+      "font_size": 23.998912811279297,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -32.192972305385965
+    },
+    {
+      "id": "pdf-text-46-0",
+      "shape": "text",
+      "label": "e",
+      "x": 465.8086367139851,
+      "y": 192.20701146125793,
+      "width": 10.655462167732935,
+      "height": 23.998788356781006,
+      "font_size": 23.998788356781006,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -30.26252081290067
+    },
+    {
+      "id": "pdf-text-47-0",
+      "shape": "text",
+      "label": "r",
+      "x": 475.3773806512381,
+      "y": 187.60019946098328,
+      "width": 7.991607105726899,
+      "height": 23.998819828033447,
+      "font_size": 23.998819828033447,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -28.174734620254
+    },
+    {
+      "id": "pdf-text-49-0",
+      "shape": "text",
+      "label": "R",
+      "x": 487.64133785319046,
+      "y": 179.60510659217834,
+      "width": 16.0071192154941,
+      "height": 23.998679637908936,
+      "font_size": 23.998679637908936,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -24.16021454852426
+    },
+    {
+      "id": "pdf-text-50-0",
+      "shape": "text",
+      "label": "e",
+      "x": 502.7103745737109,
+      "y": 174.4269425868988,
+      "width": 10.655483762734434,
+      "height": 23.998836994171143,
+      "font_size": 23.998836994171143,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -21.18616738126915
+    },
+    {
+      "id": "pdf-text-51-0",
+      "shape": "text",
+      "label": "w",
+      "x": 512.6856153173464,
+      "y": 169.6826720237732,
+      "width": 17.327072587963244,
+      "height": 23.9987154006958,
+      "font_size": 23.9987154006958,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -18.06306297892231
+    },
+    {
+      "id": "pdf-text-52-0",
+      "shape": "text",
+      "label": "a",
+      "x": 529.4787419815102,
+      "y": 165.69304275512695,
+      "width": 10.655400558463953,
+      "height": 23.99864959716797,
+      "font_size": 23.99864959716797,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -14.965605139223674
+    },
+    {
+      "id": "pdf-text-53-0",
+      "shape": "text",
+      "label": "r",
+      "x": 539.9849705958394,
+      "y": 163.41883420944214,
+      "width": 7.991576142305632,
+      "height": 23.998726844787598,
+      "font_size": 23.998726844787598,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -12.886073402315523
+    },
+    {
+      "id": "pdf-text-54-0",
+      "shape": "text",
+      "label": "d",
+      "x": 547.806002497673,
+      "y": 161.3689248561859,
+      "width": 11.99938416481018,
+      "height": 23.99876832962036,
+      "font_size": 23.99876832962036,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -10.688113389526373
+    },
+    {
+      "id": "pdf-text-55-0",
+      "shape": "text",
+      "label": ")",
+      "x": 559.8162615487604,
+      "y": 159.67991137504578,
+      "width": 7.99156137513549,
+      "height": 23.998682498931885,
+      "font_size": 23.998682498931885,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 26,
+      "rotation": -8.465462752799
+    },
+    {
+      "id": "pdf-path-27",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 6.086700439453125,
+            "y1": 11.213470458984375,
+            "x2": 18.9620361328125,
+            "y2": 31.345458984375,
+            "x": 42.72386169433594,
+            "y": 48.0845947265625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 65.50474548339844,
+            "y1": 64.13076782226562,
+            "x2": 100.72892761230469,
+            "y2": 74.22528076171875,
+            "x": 120.14094543457031,
+            "y": 78.07406616210938
+          }
+        }
+      ],
+      "x": 392.9550018310547,
+      "y": 398.7173767089844,
+      "width": 120.14094543457031,
+      "height": 78.07406616210938,
+      "fill": "none",
+      "stroke": "#231F20",
+      "stroke_width": 2.9998499751091003,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 27,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-28",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 14.753265380859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 14.00628662109375,
+            "y": 9.51251220703125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 2.462860107421875,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 14.753265380859375
+          }
+        }
+      ],
+      "x": 509.71307373046875,
+      "y": 468.951416015625,
+      "width": 14.00628662109375,
+      "height": 14.753265380859375,
+      "fill": "#231F20",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 28,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-text-56-0",
+      "shape": "text",
+      "label": "M",
+      "x": 417.20568146753226,
+      "y": 404.61683320999146,
+      "width": 21.334974955560426,
+      "height": 23.998847007751465,
+      "font_size": 23.998847007751465,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 43.038223691155025
+    },
+    {
+      "id": "pdf-text-57-0",
+      "shape": "text",
+      "label": "C",
+      "x": 434.88153359269825,
+      "y": 416.7293086051941,
+      "width": 16.007165968900324,
+      "height": 23.99874973297119,
+      "font_size": 23.99874973297119,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 34.74071977030456
+    },
+    {
+      "id": "pdf-text-58-0",
+      "shape": "text",
+      "label": "T",
+      "x": 449.04236437082375,
+      "y": 424.9462866783142,
+      "width": 14.663257098196198,
+      "height": 23.998784065246582,
+      "font_size": 23.998784065246582,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 27.950775988566154
+    },
+    {
+      "id": "pdf-text-59-0",
+      "shape": "text",
+      "label": "S",
+      "x": 462.81629728030765,
+      "y": 431.02148509025574,
+      "width": 13.343235517509697,
+      "height": 23.9986252784729,
+      "font_size": 23.9986252784729,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 21.769757886075734
+    },
+    {
+      "id": "pdf-text-60-0",
+      "shape": "text",
+      "label": "(",
+      "x": 365.18356183004653,
+      "y": 397.13098669052124,
+      "width": 7.99157995318825,
+      "height": 23.998738288879395,
+      "font_size": 23.998738288879395,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 59.80454905049522
+    },
+    {
+      "id": "pdf-text-61-0",
+      "shape": "text",
+      "label": "C",
+      "x": 367.5501079044318,
+      "y": 407.50686264038086,
+      "width": 16.007251842503592,
+      "height": 23.998878479003906,
+      "font_size": 23.998878479003906,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 57.034381013496
+    },
+    {
+      "id": "pdf-text-62-0",
+      "shape": "text",
+      "label": "l",
+      "x": 378.73057669114894,
+      "y": 417.0300929546356,
+      "width": 6.671659117702177,
+      "height": 23.99877405166626,
+      "font_size": 23.99877405166626,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 54.19873374378612
+    },
+    {
+      "id": "pdf-text-63-0",
+      "shape": "text",
+      "label": "u",
+      "x": 381.82386696338654,
+      "y": 424.65807938575745,
+      "width": 11.999345541000366,
+      "height": 23.998691082000732,
+      "font_size": 23.998691082000732,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 51.69096263765719
+    },
+    {
+      "id": "pdf-text-64-0",
+      "shape": "text",
+      "label": "t",
+      "x": 390.54541468763193,
+      "y": 431.9785244464874,
+      "width": 6.67169809055639,
+      "height": 23.99891424179077,
+      "font_size": 23.99891424179077,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 49.05783449112137
+    },
+    {
+      "id": "pdf-text-65-0",
+      "shape": "text",
+      "label": "t",
+      "x": 395.1467398595792,
+      "y": 437.09727144241333,
+      "width": 6.671653947833761,
+      "height": 23.99875545501709,
+      "font_size": 23.99875545501709,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 47.05654447995006
+    },
+    {
+      "id": "pdf-text-66-0",
+      "shape": "text",
+      "label": "e",
+      "x": 399.3095099887879,
+      "y": 443.4105792045593,
+      "width": 10.655516155236683,
+      "height": 23.998909950256348,
+      "font_size": 23.998909950256348,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 44.3806282699467
+    },
+    {
+      "id": "pdf-text-67-0",
+      "shape": "text",
+      "label": "r",
+      "x": 407.6277685518291,
+      "y": 449.89958095550537,
+      "width": 7.991594243998065,
+      "height": 23.998781204223633,
+      "font_size": 23.998781204223633,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 41.33805688629394
+    },
+    {
+      "id": "pdf-text-69-0",
+      "shape": "text",
+      "label": "O",
+      "x": 418.1054653615968,
+      "y": 461.7428641319275,
+      "width": 17.327155214306345,
+      "height": 23.99882984161377,
+      "font_size": 23.99882984161377,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 34.28340673921079
+    },
+    {
+      "id": "pdf-text-70-0",
+      "shape": "text",
+      "label": "b",
+      "x": 433.7879844903946,
+      "y": 469.5457413196564,
+      "width": 11.999348402023315,
+      "height": 23.99869680404663,
+      "font_size": 23.99869680404663,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 27.643224017783663
+    },
+    {
+      "id": "pdf-text-71-0",
+      "shape": "text",
+      "label": "j",
+      "x": 445.079056466101,
+      "y": 473.68657636642456,
+      "width": 6.671690534594859,
+      "height": 23.998887062072754,
+      "font_size": 23.998887062072754,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 23.69691974535532
+    },
+    {
+      "id": "pdf-text-72-0",
+      "shape": "text",
+      "label": "e",
+      "x": 451.3694159488715,
+      "y": 477.0239939689636,
+      "width": 10.655424694053863,
+      "height": 23.998703956604004,
+      "font_size": 23.998703956604004,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 20.223089349679967
+    },
+    {
+      "id": "pdf-text-73-0",
+      "shape": "text",
+      "label": "c",
+      "x": 461.7734849252734,
+      "y": 480.44845747947693,
+      "width": 10.655483762734434,
+      "height": 23.998836994171143,
+      "font_size": 23.998836994171143,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 16.275847481169873
+    },
+    {
+      "id": "pdf-text-74-0",
+      "shape": "text",
+      "label": "t",
+      "x": 472.3448672604542,
+      "y": 482.7145278453827,
+      "width": 6.671624121669822,
+      "height": 23.998648166656494,
+      "font_size": 23.998648166656494,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 13.3398448691663
+    },
+    {
+      "id": "pdf-text-75-0",
+      "shape": "text",
+      "label": "i",
+      "x": 479.02043329667856,
+      "y": 484.16641116142273,
+      "width": 6.671627303127309,
+      "height": 23.99865961074829,
+      "font_size": 23.99865961074829,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 11.255014217624284
+    },
+    {
+      "id": "pdf-text-76-0",
+      "shape": "text",
+      "label": "v",
+      "x": 485.72487616539,
+      "y": 485.80378675460815,
+      "width": 11.99946641921997,
+      "height": 23.99893283843994,
+      "font_size": 23.99893283843994,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 8.618909579973081
+    },
+    {
+      "id": "pdf-text-77-0",
+      "shape": "text",
+      "label": "e",
+      "x": 497.822647155765,
+      "y": 487.2516918182373,
+      "width": 10.655486938469949,
+      "height": 23.998844146728516,
+      "font_size": 23.998844146728516,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 5.92345961041918
+    },
+    {
+      "id": "pdf-text-78-0",
+      "shape": "text",
+      "label": ")",
+      "x": 508.5215492477445,
+      "y": 488.08026695251465,
+      "width": 7.991569473261052,
+      "height": 23.998706817626953,
+      "font_size": 23.998706817626953,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 29,
+      "rotation": 4.3048300904886965
+    },
+    {
+      "id": "pdf-path-30",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 8.636581420898438
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4.56280517578125,
+            "y1": 6.6956634521484375,
+            "x2": 21.826904296875,
+            "y2": 0.0,
+            "x": 42.222930908203125,
+            "y": 6.6056671142578125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 51.666412353515625,
+            "y1": 9.665542602539062,
+            "x2": 58.761016845703125,
+            "y2": 14.594284057617188,
+            "x": 63.70477294921875,
+            "y": 19.037063598632812
+          }
+        }
+      ],
+      "x": 996.4474182128906,
+      "y": 95.77001953125,
+      "width": 63.70477294921875,
+      "height": 19.037063598632812,
+      "fill": "none",
+      "stroke": "#231F20",
+      "stroke_width": 2.9998499751091003,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 30,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-31",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 10.415496826171875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 14.387237548828125,
+            "y": 14.501312255859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.73345947265625,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 10.415496826171875
+          }
+        }
+      ],
+      "x": 1053.1097717285156,
+      "y": 108.17532348632812,
+      "width": 14.387237548828125,
+      "height": 14.501312255859375,
+      "fill": "#231F20",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 31,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-text-79-0",
+      "shape": "text",
+      "label": "Fully Interactable, Simulatable",
+      "x": 853.3111267089844,
+      "y": 463.1553955078125,
+      "width": 296.6214294433594,
+      "height": 23.998809814453125,
+      "font_size": 23.998799800872803,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 32
+    },
+    {
+      "id": "pdf-text-79-1",
+      "shape": "text",
+      "label": "SE(3) Scene",
+      "x": 941.9386596679688,
+      "y": 491.9539489746094,
+      "width": 119.29440307617188,
+      "height": 23.998809814453125,
+      "font_size": 23.998799800872803,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 32
+    },
+    {
+      "id": "pdf-path-33",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 98.52108764648438,
+            "y": 42.180908203125
+          }
+        }
+      ],
+      "x": 115.440673828125,
+      "y": 203.06295776367188,
+      "width": 98.52108764648438,
+      "height": 42.180908203125,
+      "fill": "#231F20",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 33,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-34",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 88.62757873535156,
+            "y": 37.942108154296875
+          }
+        }
+      ],
+      "x": 115.440673828125,
+      "y": 203.06295776367188,
+      "width": 88.62757873535156,
+      "height": 37.942108154296875,
+      "fill": "none",
+      "stroke": "#231F20",
+      "stroke_width": 2.9998499751091003,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 34,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-35",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 13.748291015625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 14.849258422851562,
+            "y": 11.97235107421875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.8856964111328125,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 13.748291015625
+          }
+        }
+      ],
+      "x": 199.11245727539062,
+      "y": 233.27178955078125,
+      "width": 14.849258422851562,
+      "height": 13.748291015625,
+      "fill": "#231F20",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 35,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-36",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 18.809051513671875,
+            "y": 30.38250732421875
+          }
+        }
+      ],
+      "x": 222.21913146972656,
+      "y": 190.00222778320312,
+      "width": 18.809051513671875,
+      "height": 30.38250732421875,
+      "fill": "#231F20",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 36,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-37",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 13.142349243164062,
+            "y": 21.23291015625
+          }
+        }
+      ],
+      "x": 222.21913146972656,
+      "y": 190.00222778320312,
+      "width": 13.142349243164062,
+      "height": 21.23291015625,
+      "fill": "none",
+      "stroke": "#231F20",
+      "stroke_width": 2.9998499751091003,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 37,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-38",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 7.871612548828125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 13.17535400390625,
+            "y": 14.948272705078125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.716354370117188,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 7.871612548828125
+          }
+        }
+      ],
+      "x": 227.85223388671875,
+      "y": 205.43801879882812,
+      "width": 13.17535400390625,
+      "height": 14.948272705078125,
+      "fill": "#231F20",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 38,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-39",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 40.93894958496094,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 173.02432250976562,
+      "y": 285.7709655761719,
+      "width": 40.93894958496094,
+      "height": 0.01,
+      "fill": "#231F20",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 39,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-40",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 30.175506591796875,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 173.02432250976562,
+      "y": 285.7709655761719,
+      "width": 30.175506591796875,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#231F20",
+      "stroke_width": 2.9998499751091003,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 40,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-41",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 14.957244873046875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.950363159179688,
+            "y": 7.47857666015625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 14.957244873046875
+          }
+        }
+      ],
+      "x": 201.01048278808594,
+      "y": 278.2920227050781,
+      "width": 12.950363159179688,
+      "height": 14.957244873046875,
+      "fill": "#231F20",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 41,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-42",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 43.4798583984375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 89.80650329589844,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 124.15525817871094,
+      "y": 344.3484191894531,
+      "width": 89.80650329589844,
+      "height": 43.4798583984375,
+      "fill": "#231F20",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 42,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-43",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 38.788055419921875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 80.1199951171875,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 124.15525817871094,
+      "y": 349.04022216796875,
+      "width": 80.1199951171875,
+      "height": 38.788055419921875,
+      "fill": "none",
+      "stroke": "#231F20",
+      "stroke_width": 2.9998499751091003,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 43,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-44",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 6.5186920166015625,
+            "y": 13.463287353515625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 14.918289184570312,
+            "y": 1.08892822265625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 6.5186920166015625,
+            "y": 13.463287353515625
+          }
+        }
+      ],
+      "x": 199.04493713378906,
+      "y": 343.2604064941406,
+      "width": 14.918289184570312,
+      "height": 13.463287353515625,
+      "fill": "#231F20",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 44,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-45",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 30.3134765625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 29.530517578125,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 197.42385864257812,
+      "y": 396.31695556640625,
+      "width": 29.530517578125,
+      "height": 30.3134765625,
+      "fill": "#231F20",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 45,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-46",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 22.603912353515625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 22.018890380859375,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 197.42385864257812,
+      "y": 404.0265197753906,
+      "width": 22.018890380859375,
+      "height": 22.603912353515625,
+      "fill": "none",
+      "stroke": "#231F20",
+      "stroke_width": 2.9998499751091003,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 46,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-47",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 10.712448120117188,
+            "y": 14.495269775390625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 14.393280029296875,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 4.058807373046875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.712448120117188,
+            "y": 14.495269775390625
+          }
+        }
+      ],
+      "x": 212.56114196777344,
+      "y": 396.3163146972656,
+      "width": 14.393280029296875,
+      "height": 14.495269775390625,
+      "fill": "#231F20",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 47,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-text-80-0",
+      "shape": "text",
+      "label": "Procedurally Generated",
+      "x": 55.421173095703125,
+      "y": 8.67242431640625,
+      "width": 227.24464416503906,
+      "height": 23.998764038085938,
+      "font_size": 23.998799800872803,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 48
+    },
+    {
+      "id": "pdf-text-81-0",
+      "shape": "text",
+      "label": "Training Scenes ",
+      "x": 43.16979217529297,
+      "y": 37.47129821777344,
+      "width": 160.44879913330078,
+      "height": 23.998764038085938,
+      "font_size": 23.998799800872803,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 49
+    },
+    {
+      "id": "pdf-text-82-0",
+      "shape": "text",
+      "label": "(Sec. 2.1)",
+      "x": 203.60174560546875,
+      "y": 37.40382385253906,
+      "width": 91.29167175292969,
+      "height": 23.998809814453125,
+      "font_size": 23.998799800872803,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": true,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPS-ItalicMT",
+      "source_seqno": 49
+    },
+    {
+      "id": "pdf-text-83-0",
+      "shape": "text",
+      "label": "Flexible Scene Generation via",
+      "x": 502.66552734375,
+      "y": 8.795425415039062,
+      "width": 289.9259033203125,
+      "height": 23.998764038085938,
+      "font_size": 23.998799800872803,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 50
+    },
+    {
+      "id": "pdf-text-84-0",
+      "shape": "text",
+      "label": "Model Steering ",
+      "x": 524.6487121582031,
+      "y": 37.59429931640625,
+      "width": 154.6483154296875,
+      "height": 23.998764038085938,
+      "font_size": 23.998799800872803,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 51
+    },
+    {
+      "id": "pdf-text-85-0",
+      "shape": "text",
+      "label": "(Sec. 2.4)",
+      "x": 679.27294921875,
+      "y": 37.526824951171875,
+      "width": 91.29171752929688,
+      "height": 23.998809814453125,
+      "font_size": 23.998799800872803,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": true,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPS-ItalicMT",
+      "source_seqno": 51
+    },
+    {
+      "id": "pdf-text-86-0",
+      "shape": "text",
+      "label": "Robot Data Collection",
+      "x": 893.6170349121094,
+      "y": 8.673934936523438,
+      "width": 215.98919677734375,
+      "height": 23.998764038085938,
+      "font_size": 23.998799800872803,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 52
+    },
+    {
+      "id": "pdf-text-87-0",
+      "shape": "text",
+      "label": "in Simulation",
+      "x": 936.5935363769531,
+      "y": 37.47276306152344,
+      "width": 130.02548217773438,
+      "height": 23.998764038085938,
+      "font_size": 23.998799800872803,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#231F20",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "TimesNewRomanPSMT",
+      "source_seqno": 53
+    },
+    {
+      "id": "pdf-path-54",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.148529052734375,
+            "y1": 0.167999267578125,
+            "x2": 19.6490478515625,
+            "y2": 1.31689453125,
+            "x": 34.36029052734375,
+            "y": 5.045745849609375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 43.506866455078125,
+            "y1": 7.364593505859375,
+            "x2": 51.5914306640625,
+            "y2": 10.24749755859375,
+            "x": 58.53607177734375,
+            "y": 13.20831298828125
+          }
+        }
+      ],
+      "x": 779.50634765625,
+      "y": 300.589599609375,
+      "width": 58.53607177734375,
+      "height": 13.20831298828125,
+      "fill": "none",
+      "stroke": "#231F20",
+      "stroke_width": 2.9998499751091003,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 54,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-55",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 13.6673583984375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 14.873291015625,
+            "y": 12.09246826171875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 6.07470703125,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 13.6673583984375
+          }
+        }
+      ],
+      "x": 832.92626953125,
+      "y": 306.2430725097656,
+      "width": 14.873291015625,
+      "height": 13.6673583984375,
+      "fill": "#231F20",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 55,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-56",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 81.27191162109375,
+            "y": 20.779998779296875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 78.65304565429688,
+            "y1": 7.400665283203125,
+            "x2": 58.923065185546875,
+            "y2": 0.0,
+            "x": 37.2041015625,
+            "y": 4.25079345703125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 15.482208251953125,
+            "y1": 8.504608154296875,
+            "x2": 0.0,
+            "y2": 22.798919677734375,
+            "x": 2.618865966796875,
+            "y": 36.178253173828125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.23773193359375,
+            "y1": 49.557586669921875,
+            "x2": 24.96771240234375,
+            "y2": 56.958160400390625,
+            "x": 46.689605712890625,
+            "y": 52.704437255859375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 68.4085693359375,
+            "y1": 48.453643798828125,
+            "x2": 83.89077758789062,
+            "y2": 34.159332275390625,
+            "x": 81.27191162109375,
+            "y": 20.779998779296875
+          }
+        }
+      ],
+      "x": 1090.5801086425781,
+      "y": 368.3376159667969,
+      "width": 83.89077758789062,
+      "height": 56.958160400390625,
+      "fill": "none",
+      "stroke": "#231F20",
+      "stroke_width": 2.9998499751091003,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 56,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-57",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 107.73660278320312,
+            "y": 154.20730590820312
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 103.75579833984375,
+            "y1": 136.49322509765625,
+            "x2": 90.63748168945312,
+            "y2": 94.90631103515625,
+            "x": 63.8367919921875,
+            "y": 61.907958984375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 40.282012939453125,
+            "y1": 32.90533447265625,
+            "x2": 16.889190673828125,
+            "y2": 10.799468994140625,
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 1020.0464172363281,
+      "y": 218.38265991210938,
+      "width": 107.73660278320312,
+      "height": 154.20730590820312,
+      "fill": "none",
+      "stroke": "#231F20",
+      "stroke_width": 2.9998499751091003,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 57,
+      "source_even_odd": false
+    }
+  ],
+  "edges": []
+}

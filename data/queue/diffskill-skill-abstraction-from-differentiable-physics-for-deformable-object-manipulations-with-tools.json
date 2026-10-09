@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "diffskill-skill-abstraction-from-differentiable-physics-for-deformable-object-manipulations-with-tools",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.512939Z",
-  "updated_at": "2026-10-09T20:49:28.630153Z",
+  "updated_at": "2026-10-09T21:34:47.386849Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/diffskill/README.md",
+          "output/diffskill/VALIDATION.json"
+        ],
+        "output_directory": "output/diffskill",
+        "source_sha256": "40a6a7e1a8f021ea1016cdac2f7ff38740ec833fbd696adf994f08d61f3074d1",
+        "scene_sha256": "34072b470144b0c30c1223153d03e0a84f23778a511ae5b1051bee32f6747abb",
+        "text_editability": {
+          "typeable_text_objects": 49,
+          "native_freeform_paths": 161,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:34:47.386849Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "597c25eb8b5cafd82858eaf7346807857350848e6e0a4807e769e30da19f9620",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/diffskill/README.md",
+                "output/diffskill/VALIDATION.json"
+              ],
+              "output_directory": "output/diffskill",
+              "source_sha256": "40a6a7e1a8f021ea1016cdac2f7ff38740ec833fbd696adf994f08d61f3074d1",
+              "scene_sha256": "34072b470144b0c30c1223153d03e0a84f23778a511ae5b1051bee32f6747abb",
+              "text_editability": {
+                "typeable_text_objects": 49,
+                "native_freeform_paths": 161,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

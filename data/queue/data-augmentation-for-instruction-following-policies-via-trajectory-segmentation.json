@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "data-augmentation-for-instruction-following-policies-via-trajectory-segmentation",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.486324Z",
-  "updated_at": "2026-10-09T20:14:36.039320Z",
+  "updated_at": "2026-10-09T21:38:37.636809Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/trajectory-segmentation/README.md",
+          "output/trajectory-segmentation/VALIDATION.json"
+        ],
+        "output_directory": "output/trajectory-segmentation",
+        "source_sha256": "7397912c2775dabd082d0898e24bbc755ba52a3783d6c0e8d2266385aaa69799",
+        "scene_sha256": "6be13aa3184fa4e366b5cb95ec61338a6998831142a9ae017c92c1800e364d9d",
+        "text_editability": {
+          "typeable_text_objects": 4,
+          "native_freeform_paths": 41,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -315,6 +329,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T21:38:37.636809Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "36786ad97c046d8325aad427bebd6394568fc76993a18044a2dc00e626f3197d",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/trajectory-segmentation/README.md",
+                "output/trajectory-segmentation/VALIDATION.json"
+              ],
+              "output_directory": "output/trajectory-segmentation",
+              "source_sha256": "7397912c2775dabd082d0898e24bbc755ba52a3783d6c0e8d2266385aaa69799",
+              "scene_sha256": "6be13aa3184fa4e366b5cb95ec61338a6998831142a9ae017c92c1800e364d9d",
+              "text_editability": {
+                "typeable_text_objects": 4,
+                "native_freeform_paths": 41,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

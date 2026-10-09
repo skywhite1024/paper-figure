@@ -46,19 +46,19 @@
     {
       "figure": "Figure 2",
       "page_1_based": 4,
-      "caption_excerpt": "Figure 2. Visualization of the Hierarchical Feasibility Alignment Process. The optimization trajectory evolves in the joint task space τ = (I, S, Π). (Left) Static Alignment (Aperc): The Ante- Auditor corrects Scene (S) and Instruction (I) incompatibilities via discrete repairs (e.g., RESCALE), projecting τinit onto the per- ceptually valid manifold. (Right) Dynamic Alignment (Aexec): Targeting the Policy (Π), the system refines the solver config",
+      "caption_excerpt": "Figure 2. Visualization of the Hierarchical Feasibility Alignment Process. The optimization trajectory evolves in the joint task space \u03c4 = (I, S, \u03a0). (Left) Static Alignment (Aperc): The Ante- Auditor corrects Scene (S) and Instruction (I) incompatibilities via discrete repairs (e.g., RESCALE), projecting \u03c4init onto the per- ceptually valid manifold. (Right) Dynamic Alignment (Aexec): Targeting the Policy (\u03a0), the system refines the solver config",
       "visually_inspected": false
     },
     {
       "figure": "Figure 3",
       "page_1_based": 6,
-      "caption_excerpt": "Figure 3. Evolutionary Trajectory of the ”Heat Food” Task. Starting from a chaotic initialization (τinit), FATE applies Static Repair to rearrange objects and correct affordances (swapping an egg for a meal). During execution, the system autonomously detects and repairs dynamic failures: a grasp failure is resolved via Motion Re-planning, and an insertion collision is fixed via Asset Resizing. The gray curved arrows illustrate our Sub-step Rollba",
+      "caption_excerpt": "Figure 3. Evolutionary Trajectory of the \u201dHeat Food\u201d Task. Starting from a chaotic initialization (\u03c4init), FATE applies Static Repair to rearrange objects and correct affordances (swapping an egg for a meal). During execution, the system autonomously detects and repairs dynamic failures: a grasp failure is resolved via Motion Re-planning, and an insertion collision is fixed via Asset Resizing. The gray curved arrows illustrate our Sub-step Rollba",
       "visually_inspected": false
     },
     {
       "figure": "Figure 1",
       "page_1_based": 7,
-      "caption_excerpt": "Figure 1. To quantify this reliability, we measure Auditor Efficacy using the F1-score against a human-labeled ground truth dataset. This metric directly captures the discriminator’s accuracy in identifying these diverse failure types while minimizing false positives. Results. Table 3 confirms the Embodied Brain as a high-precision filter. The Ante-Auditor achieves F1-scores of 0.95 (Semantic) and 0.86 (Geomet- ric), effectively pruning static ha",
+      "caption_excerpt": "Figure 1. To quantify this reliability, we measure Auditor Efficacy using the F1-score against a human-labeled ground truth dataset. This metric directly captures the discriminator\u2019s accuracy in identifying these diverse failure types while minimizing false positives. Results. Table 3 confirms the Embodied Brain as a high-precision filter. The Ante-Auditor achieves F1-scores of 0.95 (Semantic) and 0.86 (Geomet- ric), effectively pruning static ha",
       "visually_inspected": false
     },
     {
@@ -68,5 +68,8 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+  "version_evidence": "Version identifier printed in original PDF: 2603.01505v1",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2603.01505v1",
+  "pdf_url": "https://arxiv.org/pdf/2603.01505v1"
 }

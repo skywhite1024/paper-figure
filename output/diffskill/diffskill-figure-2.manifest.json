@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "diagram_id": "diffskill-figure-2",
+  "source_sha256": "34072b470144b0c30c1223153d03e0a84f23778a511ae5b1051bee32f6747abb",
+  "assets": [
+    {
+      "name": "diffskill-figure-2-raster-0.png",
+      "sha256": "bd7ab0b4c6b48d0c2fb94221109678df9a822d8a229e762b317661078b0d6f4f"
+    },
+    {
+      "name": "diffskill-figure-2-raster-1.png",
+      "sha256": "40b16273372dfce33e51d6f877c3ce24c232a49777f0da4d0d3c1438be01cf98"
+    },
+    {
+      "name": "diffskill-figure-2-raster-2.png",
+      "sha256": "732e6a745003aef396ba7cfdb076980e45ca8786d3e877f58d90a8395d5677f2"
+    },
+    {
+      "name": "diffskill-figure-2-raster-3.png",
+      "sha256": "d57e533f3ac84bf4f51439ff7444236676555234b654c26b52460d6f1b669d62"
+    },
+    {
+      "name": "diffskill-figure-2-raster-4.png",
+      "sha256": "d9011abc9d3efc69c33d607a1b48b157ae8e604d555e381789b539b938514942"
+    },
+    {
+      "name": "diffskill-figure-2-raster-5.png",
+      "sha256": "6fa2dacad0a82482411611ea03b23974430cc8513a376ab644c8434770a684c9"
+    },
+    {
+      "name": "diffskill-figure-2-raster-6.png",
+      "sha256": "29bf6809b2213813545ae7225c3db617478fdd8f5598c23f7d5eeebbaa4d4c30"
+    },
+    {
+      "name": "diffskill-figure-2-raster-7.png",
+      "sha256": "b38f1ceb68b6848ee1fd3652a933a2f240180bf9f2fa38b3583a8309bb77afaf"
+    },
+    {
+      "name": "diffskill-figure-2-raster-8.png",
+      "sha256": "4011ef63435b7c069797ac1352a259342ffdcd16dd00ba7e28181c84341a03be"
+    },
+    {
+      "name": "diffskill-figure-2-raster-9.png",
+      "sha256": "520fd06fca82db1e16791285aa4ee032585906ab9ea8303fcb8d8ea666c4b869"
+    }
+  ],
+  "provenance": {
+    "paper_title": "DiffSkill: Skill Abstraction from Differentiable Physics for Deformable Object Manipulations with Tools",
+    "paper_url": "https://arxiv.org/pdf/2203.17275v1",
+    "figure": "Figure 2",
+    "license": "unverified",
+    "notes": "Original differentiable demonstration collection, neural skill abstraction and latent skill planning method. Native workflow geometry, networks, formula glyph outlines and ordinary labels; ten original simulation observation frames remain discrete raster images.",
+    "page": 3,
+    "status": "figure_recreation",
+    "source_sha256": "40a6a7e1a8f021ea1016cdac2f7ff38740ec833fbd696adf994f08d61f3074d1",
+    "source_crop_pdf_points": [
+      107,
+      83,
+      499,
+      309
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "outlined_font_families": [
+      "CMMI",
+      "CMSY",
+      "CMR",
+      "CMEX"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "extraction_warnings": [
+      "38 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 2",
+      "path crosses crop boundary: 3",
+      "path partially intersects raster inset: 113",
+      "path partially intersects raster inset: 116",
+      "path partially intersects raster inset: 117"
+    ],
+    "ignored_invisible_text_spans": 0
+  },
+  "metrics": {
+    "native_nodes": 210,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 161,
+    "native_text_objects": 49,
+    "raster_images": 10,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "diffskill-figure-2.drawio",
+      "sha256": "f634169ab54cde562584e0473d1352442b6dfa257c06c1248a678086af0dc1be"
+    },
+    {
+      "name": "diffskill-figure-2.png",
+      "sha256": "00e3cb45ae9f1db9946f37d4bd9bf8d9fff3fc5271b936c1b35dbc593f6814b3"
+    },
+    {
+      "name": "diffskill-figure-2.pptx",
+      "sha256": "0f44fd84ad9ebd947a80887863d7458a527c380b42dabfdaf3c9679231346949"
+    }
+  ]
+}

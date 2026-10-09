@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "scaling-up-and-distilling-down-language-guided-robot-skill-acquisition",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.482071Z",
-  "updated_at": "2026-10-09T20:14:36.710548Z",
+  "updated_at": "2026-10-09T21:45:40.460768Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/scaling-up/README.md",
+          "output/scaling-up/VALIDATION.json"
+        ],
+        "output_directory": "output/scaling-up",
+        "source_sha256": "ef8689b7632897425bb0e537c33cd3999fc3d8cc1126fccf65b8e0d612233dce",
+        "scene_sha256": "ca1bb7f09a5ec3948756c3bcaa9393da4771e6f1c2f42a6d35c25448f9090654",
+        "text_editability": {
+          "typeable_text_objects": 21,
+          "native_freeform_paths": 14,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -287,6 +301,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T21:45:40.460768Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "c65a6cbc3c363c0b1c768f6c7d42aaf7cae591c35eca8a23864ca4a9b36e7fe3",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/scaling-up/README.md",
+                "output/scaling-up/VALIDATION.json"
+              ],
+              "output_directory": "output/scaling-up",
+              "source_sha256": "ef8689b7632897425bb0e537c33cd3999fc3d8cc1126fccf65b8e0d612233dce",
+              "scene_sha256": "ca1bb7f09a5ec3948756c3bcaa9393da4771e6f1c2f42a6d35c25448f9090654",
+              "text_editability": {
+                "typeable_text_objects": 21,
+                "native_freeform_paths": 14,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

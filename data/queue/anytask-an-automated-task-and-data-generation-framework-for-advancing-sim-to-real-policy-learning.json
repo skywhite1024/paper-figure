@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "anytask-an-automated-task-and-data-generation-framework-for-advancing-sim-to-real-policy-learning",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.496422Z",
-  "updated_at": "2026-10-09T20:49:28.369110Z",
+  "updated_at": "2026-10-09T21:38:35.978159Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/anytask/README.md",
+          "output/anytask/VALIDATION.json"
+        ],
+        "output_directory": "output/anytask",
+        "source_sha256": "511df38af5995725333fbcce983419388c9a747955be1b20bfc52af5ae029741",
+        "scene_sha256": "75a76f88df13e8faf1286c9ebec399cf94b9ef24da16d6ac299fa1997d086974",
+        "text_editability": {
+          "typeable_text_objects": 26,
+          "native_freeform_paths": 26,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:38:35.978159Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "c90594b168ebea2d1187fa6cd15de8099748d394c8d4571d82a986a0155bb377",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/anytask/README.md",
+                "output/anytask/VALIDATION.json"
+              ],
+              "output_directory": "output/anytask",
+              "source_sha256": "511df38af5995725333fbcce983419388c9a747955be1b20bfc52af5ae029741",
+              "scene_sha256": "75a76f88df13e8faf1286c9ebec399cf94b9ef24da16d6ac299fa1997d086974",
+              "text_editability": {
+                "typeable_text_objects": 26,
+                "native_freeform_paths": 26,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

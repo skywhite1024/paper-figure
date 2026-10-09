@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "video2policy-scaling-up-manipulation-tasks-in-simulation-through-internet-videos",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.498952Z",
-  "updated_at": "2026-10-09T20:49:29.799424Z",
+  "updated_at": "2026-10-09T21:38:37.714734Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/video2policy/README.md",
+          "output/video2policy/VALIDATION.json"
+        ],
+        "output_directory": "output/video2policy",
+        "source_sha256": "780490cdf94fb207440f0552ef753929142dd61a3fbda60921e708dfcad1e257",
+        "scene_sha256": "e2f3ac84765e4ec27c94c17131bdc8b3792e8e4479f289040d556e54b74ee596",
+        "text_editability": {
+          "typeable_text_objects": 45,
+          "native_freeform_paths": 169,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:38:37.714734Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "856fac79d13cf3ac9a08dc261a282ccf5662ab2a3e67f4d33ce430b7d53b4077",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/video2policy/README.md",
+                "output/video2policy/VALIDATION.json"
+              ],
+              "output_directory": "output/video2policy",
+              "source_sha256": "780490cdf94fb207440f0552ef753929142dd61a3fbda60921e708dfcad1e257",
+              "scene_sha256": "e2f3ac84765e4ec27c94c17131bdc8b3792e8e4479f289040d556e54b74ee596",
+              "text_editability": {
+                "typeable_text_objects": 45,
+                "native_freeform_paths": 169,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

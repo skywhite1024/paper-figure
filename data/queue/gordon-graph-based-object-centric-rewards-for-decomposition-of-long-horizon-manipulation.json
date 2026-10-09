@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "gordon-graph-based-object-centric-rewards-for-decomposition-of-long-horizon-manipulation",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.483776Z",
-  "updated_at": "2026-10-09T20:14:36.292014Z",
+  "updated_at": "2026-10-09T21:38:36.965968Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/gordon/README.md",
+          "output/gordon/VALIDATION.json"
+        ],
+        "output_directory": "output/gordon",
+        "source_sha256": "2b068c624a58db12eae36bc71d54709395df888ad56ced794eacafe9a93a0725",
+        "scene_sha256": "d45f228f334faacfab5b98967c2b415904598e0514af193289c2b6a7a9cf6484",
+        "text_editability": {
+          "typeable_text_objects": 31,
+          "native_freeform_paths": 227,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -287,6 +301,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T21:38:36.965968Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "43880bd0d63d984d4cee89839e92cfe6745788e45592121865383cb85aad5352",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/gordon/README.md",
+                "output/gordon/VALIDATION.json"
+              ],
+              "output_directory": "output/gordon",
+              "source_sha256": "2b068c624a58db12eae36bc71d54709395df888ad56ced794eacafe9a93a0725",
+              "scene_sha256": "d45f228f334faacfab5b98967c2b415904598e0514af193289c2b6a7a9cf6484",
+              "text_editability": {
+                "typeable_text_objects": 31,
+                "native_freeform_paths": 227,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

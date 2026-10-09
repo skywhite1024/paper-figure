@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "automatic-cognitive-task-generation-for-in-situ-evaluation-of-embodied-agents",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.495341Z",
-  "updated_at": "2026-10-09T20:49:28.386973Z",
+  "updated_at": "2026-10-09T21:38:36.320288Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/cognitive-tasks/README.md",
+          "output/cognitive-tasks/VALIDATION.json"
+        ],
+        "output_directory": "output/cognitive-tasks",
+        "source_sha256": "5ce5e9d22cc3bb50b1119408d319cf6b5cf2107e824579f33d542f7db9609747",
+        "scene_sha256": "2d0110f5e0ac9733f5047056ccdf9ece471f121b3e9749b17490919e3c954117",
+        "text_editability": {
+          "typeable_text_objects": 70,
+          "native_freeform_paths": 169,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:38:36.320288Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "0d28135d48c2a5dfd31713e0918087fa0ca6544cd7a529c7d8b07d646422357a",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/cognitive-tasks/README.md",
+                "output/cognitive-tasks/VALIDATION.json"
+              ],
+              "output_directory": "output/cognitive-tasks",
+              "source_sha256": "5ce5e9d22cc3bb50b1119408d319cf6b5cf2107e824579f33d542f7db9609747",
+              "scene_sha256": "2d0110f5e0ac9733f5047056ccdf9ece471f121b3e9749b17490919e3c954117",
+              "text_editability": {
+                "typeable_text_objects": 70,
+                "native_freeform_paths": 169,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

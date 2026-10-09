@@ -1,0 +1,214 @@
+{
+  "diagram_id": "eurekaverse-figure-2",
+  "source_scene_sha256": "80dc64a088d1c93cc1a6710d4eb6c6d5006cd7f0f007319998955887e2ad056a",
+  "source_pdf_sha256": "ab63c77ce4dd8cae2ebd03594cca5140e90a8c9c6f9daf791badf79208e14459",
+  "checked_files": [
+    {
+      "name": "eurekaverse-figure-2.drawio",
+      "sha256": "f2364c90dcdd9f96802de57b0afbb9136a7ead53b3ef4da2432571380bfa1755"
+    },
+    {
+      "name": "eurekaverse-figure-2.png",
+      "sha256": "b10bd8b12dda7bb877de2d6ff2d6cfd7d4bb13db54b66928398f750a9dc5dd34"
+    },
+    {
+      "name": "eurekaverse-figure-2.pptx",
+      "sha256": "39ede21e2b6026339b43c9fce3b55aa22d780bd805c017bdddf89421d37296d2"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 30,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; embedded version matches",
+    "source_page_figure": "Independent PDF source crop compared with provided original and delivered preview",
+    "source_preview_visual": "passed with disclosed raster/font/math limitations",
+    "all_scene_asset_hashes": "passed"
+  },
+  "native_xml_counts": {
+    "p:sp": 56,
+    "p:pic": 16,
+    "a:custGeom": 30,
+    "p:cxnSp": 0,
+    "a:t": 12
+  },
+  "source_title": "Eurekaverse: Environment Curriculum Generation via Large Language Models",
+  "typeable_labels": [
+    "Initial Prompt",
+    "Robot Parkour",
+    "Environment Code",
+    "Policy Training",
+    "Policy Evaluation",
+    "Coding LLM",
+    "Best",
+    "Policy",
+    "Evolution",
+    "Prompt",
+    "Policies",
+    "Eurekaverse"
+  ],
+  "raster_nodes": [
+    {
+      "id": "robot-photo",
+      "asset": "assets/robot-photo.png",
+      "x": 9,
+      "y": 127,
+      "width": 236,
+      "height": 147,
+      "canvas_area_fraction": 0.081
+    },
+    {
+      "id": "train-top",
+      "asset": "assets/train-top.png",
+      "x": 959,
+      "y": 57,
+      "width": 223,
+      "height": 92,
+      "canvas_area_fraction": 0.048
+    },
+    {
+      "id": "train-middle",
+      "asset": "assets/train-middle.png",
+      "x": 959,
+      "y": 153,
+      "width": 223,
+      "height": 92,
+      "canvas_area_fraction": 0.048
+    },
+    {
+      "id": "train-bottom",
+      "asset": "assets/train-bottom.png",
+      "x": 959,
+      "y": 249,
+      "width": 223,
+      "height": 92,
+      "canvas_area_fraction": 0.048
+    },
+    {
+      "id": "evaluate-left",
+      "asset": "assets/evaluate-left.png",
+      "x": 624,
+      "y": 186,
+      "width": 108,
+      "height": 155,
+      "canvas_area_fraction": 0.039
+    },
+    {
+      "id": "evaluate-right",
+      "asset": "assets/evaluate-right.png",
+      "x": 736,
+      "y": 186,
+      "width": 111,
+      "height": 155,
+      "canvas_area_fraction": 0.04
+    },
+    {
+      "id": "clipboard",
+      "asset": "assets/clipboard.png",
+      "x": 18,
+      "y": 12,
+      "width": 28,
+      "height": 34,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "parkour-robot",
+      "asset": "assets/parkour-robot.png",
+      "x": 18,
+      "y": 87,
+      "width": 29,
+      "height": 31,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "llm-icon",
+      "asset": "assets/llm-icon.png",
+      "x": 335,
+      "y": 241,
+      "width": 26,
+      "height": 26,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "training-icon",
+      "asset": "assets/training-icon.png",
+      "x": 963,
+      "y": 20,
+      "width": 31,
+      "height": 32,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "code-icon",
+      "asset": "assets/code-icon.png",
+      "x": 507,
+      "y": 22,
+      "width": 29,
+      "height": 27,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "evaluation-icon",
+      "asset": "assets/evaluation-icon.png",
+      "x": 630,
+      "y": 152,
+      "width": 34,
+      "height": 29,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "best-policy-icon",
+      "asset": "assets/best-policy-icon.png",
+      "x": 571,
+      "y": 102,
+      "width": 27,
+      "height": 25,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "evolution-icon",
+      "asset": "assets/evolution-icon.png",
+      "x": 510,
+      "y": 241,
+      "width": 27,
+      "height": 26,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "brain-icon",
+      "asset": "assets/brain-icon.png",
+      "x": 913,
+      "y": 240,
+      "width": 32,
+      "height": 32,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "logo",
+      "asset": "assets/logo.png",
+      "x": 23,
+      "y": 288,
+      "width": 61,
+      "height": 63,
+      "canvas_area_fraction": 0.009
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

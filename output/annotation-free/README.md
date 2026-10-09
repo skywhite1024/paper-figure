@@ -1,0 +1,31 @@
+# Annotation-Free One-Shot Imitation Learning for Multi-Step Manipulation Tasks
+
+Figure 1 · PDF 第 2 页 · 2509.24972v1
+
+- [PowerPoint](annotation-free-figure-1.pptx)
+- [draw.io](annotation-free-figure-1.drawio)
+- [重建预览](annotation-free-figure-1.png)
+- [论文原图](annotation-free-original.png)
+- [原图与重建离线对照](comparison.html)
+- [原文 PDF](annotation-free-2509.24972v1.pdf)
+- [来源与版本记录](sources.json)
+- [导出清单与原生对象统计](annotation-free-figure-1.manifest.json)
+- [本文件夹 SHA256 清单](bundle.manifest.json)
+- [验证记录](VALIDATION.json)
+
+## 来源与编辑边界
+
+可直接键入修改的文字对象：6；原生自由路径：7；独立栅格对象：7（内部像素不可编辑，可能包含照片、图标或源图公式，详见下方说明）。字形轮廓可移动/改色/编辑点，但不能像文本框一样直接改字；数学轮廓不是可输入新公式的公式对象。
+
+官方固定版本：https://arxiv.org/pdf/2509.24972v1
+
+Manually reconstructed from the inspected original flattened PDF figure. Ordinary labels are live typeable text; panels, graph geometry and arrows are native editable shapes or paths. Source layout and contents retained; font metrics, line widths and decorative effects approximated. Source is flattened. Ordinary labels, motion arrows and divider manually recreated as live text/native paths. Six isolated photographic details retain original pixels. The robot silhouette photo is reused at the two original diagram positions.
+
+unverified Private user-requested adaptation; no public redistribution permission implied.
+
+自由路径可编辑，但不会自动吸附到语义节点。独立栅格照片/图标的内部像素不是可编辑对象。
+这是用户要求的私有仓库对照副本，不代表取得公开再发布许可。
+
+原文 SHA256：`09d5f8a6ab5241357e07c48d838af7d0fc6d4968c3f6b8a11422f5f31367915b`
+
+[返回论文索引](../README.md)

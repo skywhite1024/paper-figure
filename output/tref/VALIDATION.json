@@ -1,0 +1,154 @@
+{
+  "diagram_id": "tref-figure-1",
+  "source_scene_sha256": "519a261e195cf8259a349887e5efbee877b8fe0d697ad773280ab07e97085704",
+  "source_pdf_sha256": "22207c5626b7940b09259125921a5d7cb70f22807eba55488b22a6204aeee009",
+  "checked_files": [
+    {
+      "name": "tref-figure-1.drawio",
+      "sha256": "828d115edd312a06b7e1b2a4aa0fa44beb96aef00efbe1337e67ffe690626ffc"
+    },
+    {
+      "name": "tref-figure-1.png",
+      "sha256": "f3a5574ed07e3b0a7b5dd449a160582506e31da2d053355e995ccb7fdb326ced"
+    },
+    {
+      "name": "tref-figure-1.pptx",
+      "sha256": "4aca06db3592f280b94bbc5129cc212a2dd7248be155a94d8eab68ef5e9296fb"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_scene_asset_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 38,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; source edition/hash pinned",
+    "source_page_figure": "Independent PDF crop compared with original PNG and delivered preview",
+    "source_preview_visual": "passed with disclosed image/font/math/dash limitations"
+  },
+  "native_xml_counts": {
+    "p:sp": 69,
+    "p:pic": 6,
+    "a:custGeom": 38,
+    "p:cxnSp": 0,
+    "a:t": 42
+  },
+  "source_title": "TReF-6: Inferring Task-Relevant Frames from a Single Demonstration for One-Shot Skill Generalization",
+  "typeable_labels": [
+    "Single Demonstration",
+    "(Trajectory + RGB-D Frame)",
+    "Inferred Influence Point",
+    "Task-Relevant Frame",
+    "Influence",
+    "Point",
+    "Detection",
+    "Semantic",
+    "Grounding",
+    "DMP",
+    "Learned in",
+    "Task-",
+    "Relevant",
+    "Fame",
+    "Minimum Assumption",
+    "No",
+    "Pretraining",
+    "No CAD",
+    "Model",
+    "No Human",
+    "Label",
+    "VLM",
+    "Grounded-",
+    "SAM",
+    "VLM",
+    "Grounded-",
+    "SAM",
+    "Input",
+    "Input",
+    "DMP Reparameterization to OOD Scenes",
+    "RGB-D Image",
+    "OOD Frame Extraction",
+    "Semantic",
+    "Grounding",
+    "DMP",
+    "Reparameterization",
+    "Roll Out",
+    "Robust Generalization",
+    "Semantic",
+    "Anchoring",
+    "Unified Pose",
+    "Adaptation"
+  ],
+  "raster_nodes": [
+    {
+      "id": "single-demo-photo",
+      "asset": "assets/single-demo-photo.png",
+      "x": 56,
+      "y": 80,
+      "width": 160,
+      "height": 148,
+      "canvas_area_fraction": 0.03
+    },
+    {
+      "id": "influence-photo",
+      "asset": "assets/influence-photo.png",
+      "x": 441,
+      "y": 79,
+      "width": 171,
+      "height": 154,
+      "canvas_area_fraction": 0.033
+    },
+    {
+      "id": "task-frame-photo",
+      "asset": "assets/task-frame-photo.png",
+      "x": 814,
+      "y": 79,
+      "width": 166,
+      "height": 168,
+      "canvas_area_fraction": 0.035
+    },
+    {
+      "id": "ood-rgbd-photo",
+      "asset": "assets/ood-rgbd-photo.png",
+      "x": 61,
+      "y": 417,
+      "width": 202,
+      "height": 160,
+      "canvas_area_fraction": 0.041
+    },
+    {
+      "id": "ood-frame-photo",
+      "asset": "assets/ood-frame-photo.png",
+      "x": 507,
+      "y": 417,
+      "width": 217,
+      "height": 164,
+      "canvas_area_fraction": 0.045
+    },
+    {
+      "id": "rollout-photo",
+      "asset": "assets/rollout-photo.png",
+      "x": 803,
+      "y": 480,
+      "width": 177,
+      "height": 159,
+      "canvas_area_fraction": 0.035
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

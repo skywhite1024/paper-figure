@@ -37,6 +37,12 @@ with tempfile.TemporaryDirectory(prefix='conquer-isolated-') as tmp:
         else:cursor.append(copy.deepcopy(element))
         src=tmp/f'{i}.svg';src.write_bytes(ET.tostring(isolated));name=f'conquer-source-component-{i}.png'
         subprocess.run([os.environ.get('CODEX_PRIMARY_RUNTIME_NODE','node'),str(ROOT/'research/render-isolated-svg.cjs'),str(src),str(a.out/name)],check=True,env=dict(os.environ,NODE_PATH=os.environ.get('CODEX_PRIMARY_RUNTIME_NODE_MODULES','')),stdout=subprocess.DEVNULL)
+        # These original gradient arrows sit on a uniform #F2F2F2 surface.
+        # Precompose only nonzero-alpha arrow pixels to avoid LibreOffice's
+        # grainy semi-transparent mask rendering; transparent exterior stays empty.
+        if i in {13,14,15,18,26,27,28,29,39}:
+            arr=np.asarray(Image.open(a.out/name).convert('RGBA')).copy();alpha=arr[:,:,3:4].astype(float)/255
+            arr[:,:,:3]=np.rint(arr[:,:,:3]*alpha+242*(1-alpha)).astype('uint8');arr[:,:,3]=np.where(arr[:,:,3]>0,255,0).astype('uint8');Image.fromarray(arr).save(a.out/name)
         s['nodes'].append(dict(id=f'conquer-source-component-{i}',shape='image',asset=name,alt='Isolated original photograph, VLM icon, gradient arrow or transparent shadow with original source clipping; internal pixels remain raster',x=(rect.x0-crop.x0)*scale,y=(rect.y0-crop.y0)*scale,width=rect.width*scale,height=rect.height*scale,source_seqno=seq))
 # Rejoin contiguous source text fragments so ordinary headings/descriptors can
 # be edited as whole words. No mathematical outline is duplicated underneath.
@@ -195,6 +201,8 @@ for n in list(s['nodes']):
         # Fill remains a separate native silhouette below the dashed boundary.
         fill=copy.deepcopy(n);fill['id']+='-fill';fill['stroke']='none';fill['dash']=False;fill.pop('dash_pattern');s['nodes'].insert(s['nodes'].index(n),fill);n['fill']='none'
     n['commands']=commands;n['reviewed_source_dash_pattern']=n.pop('dash_pattern');n.pop('dash_phase',None);n['dash_style']='solid';n['dash']=False;n['dash_approximation']='Source dash spacing expanded into editable native solid segments; cubic paths sampled at <=0.4 scene-pixel chord spacing'
+s['provenance']['editor_fixes']='Eight reviewed black open shaft/head compounds split to avoid even-odd cutouts. Original individual gradient-arrow pixels precomposed over their verified uniform #F2F2F2 surface while retaining transparent exterior.'
+s['provenance']['extraction_review']='Source pixels and final generated PNG inspected; isolated images and rotated text reviewed; independent editor QA pending.'
 s['provenance']['text_editability']='Ordinary source captions/labels and reconstructed SAG labels are native typeable text; Timeline is native rotated text. Cambria Math and reconstructed SAG math remain editable glyph paths, not live equations.'
 s['provenance']['font_substitutions']='Times New Roman ordinary labels with source weight/italic retained. Reconstructed SAG labels use source-measured Times New Roman sizing.'
 s['provenance']['dash_fidelity']='Source custom dash patterns expanded as native solid path segments; no Office dash preset approximation remains in this figure.'

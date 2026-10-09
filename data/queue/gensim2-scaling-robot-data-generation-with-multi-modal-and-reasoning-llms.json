@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "gensim2-scaling-robot-data-generation-with-multi-modal-and-reasoning-llms",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.499489Z",
-  "updated_at": "2026-10-09T20:49:28.919931Z",
+  "updated_at": "2026-10-09T21:34:47.614016Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/gensim2/README.md",
+          "output/gensim2/VALIDATION.json"
+        ],
+        "output_directory": "output/gensim2",
+        "source_sha256": "f42d44427b8c7e4a4027bc6057d432e8c2a9dc72e7cba3e57629562d211d7ddb",
+        "scene_sha256": "3db8c425ba42c953937196041384216b46050d270dd1af2b314f991c5547b266",
+        "text_editability": {
+          "typeable_text_objects": 76,
+          "native_freeform_paths": 37,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:34:47.614016Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "363a5fc19132df308f5927f79effb877b830510539674b07c2c3bcb655a05c9c",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/gensim2/README.md",
+                "output/gensim2/VALIDATION.json"
+              ],
+              "output_directory": "output/gensim2",
+              "source_sha256": "f42d44427b8c7e4a4027bc6057d432e8c2a9dc72e7cba3e57629562d211d7ddb",
+              "scene_sha256": "3db8c425ba42c953937196041384216b46050d270dd1af2b314f991c5547b266",
+              "text_editability": {
+                "typeable_text_objects": 76,
+                "native_freeform_paths": 37,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

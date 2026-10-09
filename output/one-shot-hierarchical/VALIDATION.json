@@ -1,0 +1,43 @@
+{
+  "diagram_id": "one-shot-hierarchical-figure-2",
+  "source_scene_sha256": "8816aff8aab59f921ab5a0abd397077d609b15a880ff80071027ff56e02ba972",
+  "source_pdf_sha256": "458a9e3e434729981304b09de9eb4fa97f6a79e918b6914755cea77db8dc66ff",
+  "checked_files": [
+    {
+      "name": "one-shot-hierarchical-figure-2.drawio",
+      "sha256": "3e43c8b4324650a39dc59138da232e355b56244abb890e70760773c680ac56db"
+    },
+    {
+      "name": "one-shot-hierarchical-figure-2.png",
+      "sha256": "82f3aff4351c8d3275f71cae4a7a2ef1e1a2748644b6b848dab1f53c689dd7eb"
+    },
+    {
+      "name": "one-shot-hierarchical-figure-2.pptx",
+      "sha256": "5f486ef9e34c2a5010593cb30859a85b537b17fd87e178d00432251392a7921a"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 2 PDFpage3 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 176,
+    "p:pic": 21,
+    "a:custGeom": 126,
+    "p:cxnSp": 0,
+    "a:t": 29
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment",
+    "Twenty source video frames and one objective formula are individual raster objects; objective formula is not typeable",
+    "Native reconstructed wireframe networks approximate original mini-diagram geometry"
+  ]
+}

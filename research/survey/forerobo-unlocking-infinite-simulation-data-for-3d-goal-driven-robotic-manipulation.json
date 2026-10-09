@@ -6,7 +6,7 @@
   "pdf_path": "build/sources/forerobo-unlocking-infinite-simulation-data-for-3d-goal-driven-robotic-manipulation.pdf",
   "pdf_sha256": "3bdb1dd33b86dd992851ef2d2c84c77d2e6a10c39c3134cc5ede3d36005cb193",
   "pdf_title_observed": "ForeRobo: Unlocking Infinite Simulation Data for 3D Goal-driven Robotic Manipulation",
-  "first_page_title_text": "1\nForeRobo: Unlocking Infinite Simulation Data for 3D Goal-driven\nRobotic Manipulation\nDexin Wang, Faliang Chang, Chunsheng Liu\nAbstract—Efficiently leveraging simulation to acquire ad-\nvanced manipulation skills is both challenging and highly sig-\nnificant. We introduce ForeRobo, a generative robotic agent\nthat utilizes generative simulations to autonomously acquire\nmanipulation skills driven by ",
+  "first_page_title_text": "1\nForeRobo: Unlocking Infinite Simulation Data for 3D Goal-driven\nRobotic Manipulation\nDexin Wang, Faliang Chang, Chunsheng Liu\nAbstract\u2014Efficiently leveraging simulation to acquire ad-\nvanced manipulation skills is both challenging and highly sig-\nnificant. We introduce ForeRobo, a generative robotic agent\nthat utilizes generative simulations to autonomously acquire\nmanipulation skills driven by ",
   "title_match": true,
   "version": "2511.04381v1",
   "page_count": 15,
@@ -46,19 +46,19 @@
     {
       "figure": "Figure 2",
       "page_1_based": 4,
-      "caption_excerpt": "Fig. 2: Overview of ForeGen and ForeMani-v1. ForeGen consists of the following stages: a) task proposal, b) scene generation, and c) state generation. ForeMani-v1 encompasses 1,536 objects and 106 tasks, with each task containing an average of 21 scenarios and 394 goal states. into the corresponding object point cloud to obtain a point cloud representation P ∈RN×(3+d) enriched with semantic features. Subsequently, CPCA applies the Coherent Point ",
+      "caption_excerpt": "Fig. 2: Overview of ForeGen and ForeMani-v1. ForeGen consists of the following stages: a) task proposal, b) scene generation, and c) state generation. ForeMani-v1 encompasses 1,536 objects and 106 tasks, with each task containing an average of 21 scenarios and 394 goal states. into the corresponding object point cloud to obtain a point cloud representation P \u2208RN\u00d7(3+d) enriched with semantic features. Subsequently, CPCA applies the Coherent Point ",
       "visually_inspected": false
     },
     {
       "figure": "Figure 3",
       "page_1_based": 5,
-      "caption_excerpt": "Fig. 3: Pipeline of Cross-instance Proximity Contact Align- ment (CPCA). Given the demonstrated goal state in a task’s demonstration scene, CPCA can generate the corresponding goal states for all augmented scenes of that task. computes the rotation RA′ and translation tA′ of object B′ based on the invariance of the relative rotation between A′ and B′ and the alignment of proximal contact centers, as expressed in the following equation: R−1 A RB =",
+      "caption_excerpt": "Fig. 3: Pipeline of Cross-instance Proximity Contact Align- ment (CPCA). Given the demonstrated goal state in a task\u2019s demonstration scene, CPCA can generate the corresponding goal states for all augmented scenes of that task. computes the rotation RA\u2032 and translation tA\u2032 of object B\u2032 based on the invariance of the relative rotation between A\u2032 and B\u2032 and the alignment of proximal contact centers, as expressed in the following equation: R\u22121 A RB =",
       "visually_inspected": false
     },
     {
       "figure": "Figure 4",
       "page_1_based": 6,
-      "caption_excerpt": "Fig. 4: Overview of ForeFormer and robot motion plan- ning. PTv3 refers to PointTransformer-v3, and SAT refers to the Self-Attention Transformer. In the task ”Lift the kettle above the cup and tilt it to pour water” depicted in the figure, the kettle is the object to be manipulated, which is embedded into the network via the object point cloud encoder (comprising SAT and two MLPs). The cup, being the task- relevant object, is embedded into the ne",
+      "caption_excerpt": "Fig. 4: Overview of ForeFormer and robot motion plan- ning. PTv3 refers to PointTransformer-v3, and SAT refers to the Self-Attention Transformer. In the task \u201dLift the kettle above the cup and tilt it to pour water\u201d depicted in the figure, the kettle is the object to be manipulated, which is embedded into the network via the object point cloud encoder (comprising SAT and two MLPs). The cup, being the task- relevant object, is embedded into the ne",
       "visually_inspected": false
     },
     {
@@ -86,5 +86,8 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+  "version_evidence": "Version identifier printed in original PDF: 2511.04381v1",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2511.04381v1",
+  "pdf_url": "https://arxiv.org/pdf/2511.04381v1"
 }

@@ -1,0 +1,31 @@
+# Language Guided Skill Discovery
+
+Figure 2 · PDF 第 4 页 · official-proceedings
+
+- [PowerPoint](lgsd-figure-2.pptx)
+- [draw.io](lgsd-figure-2.drawio)
+- [重建预览](lgsd-figure-2.png)
+- [论文原图](lgsd-original.png)
+- [原图与重建离线对照](comparison.html)
+- [原文 PDF](lgsd-official-proceedings.pdf)
+- [来源与版本记录](sources.json)
+- [导出清单与原生对象统计](lgsd-figure-2.manifest.json)
+- [本文件夹 SHA256 清单](bundle.manifest.json)
+- [验证记录](VALIDATION.json)
+
+## 来源与编辑边界
+
+可直接键入修改的文字对象：8；原生自由路径：18；独立栅格对象：10（内部像素不可编辑，可能包含照片、图标或源图公式，详见下方说明）。字形轮廓可移动/改色/编辑点，但不能像文本框一样直接改字；数学轮廓不是可输入新公式的公式对象。
+
+官方固定版本：https://proceedings.iclr.cc/paper_files/paper/2025/file/dae30ba63ca043588cdf804bbba295ed-Paper-Conference.pdf
+
+Native source-layout reconstruction of flattened original. Ordinary labels and code are typeable. Diagram shapes and logical arrows are native. Explicitly bounded source photographs, icons and mathematical formula inserts retain raster pixels. Font metrics and path coordinates are measured approximations. LGSD retains the two original robot illustrations and eight isolated formulas; all ordinary language and the graph geometry are native.
+
+unverified
+
+自由路径可编辑，但不会自动吸附到语义节点。独立栅格照片/图标的内部像素不是可编辑对象。
+这是用户要求的私有仓库对照副本，不代表取得公开再发布许可。
+
+原文 SHA256：`00446089e641e272bf22f5ef4241bfc7a987d87ac7bcbab5fae2cbe55e2780e5`
+
+[返回论文索引](../README.md)

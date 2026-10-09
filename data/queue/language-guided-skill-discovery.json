@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "language-guided-skill-discovery",
-  "revision": 2,
-  "status": "in_progress",
+  "revision": 3,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.480717Z",
-  "updated_at": "2026-10-09T20:49:28.985262Z",
+  "updated_at": "2026-10-09T21:45:39.817817Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -123,8 +123,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/lgsd/README.md",
+          "output/lgsd/VALIDATION.json"
+        ],
+        "output_directory": "output/lgsd",
+        "source_sha256": "00446089e641e272bf22f5ef4241bfc7a987d87ac7bcbab5fae2cbe55e2780e5",
+        "scene_sha256": "3f874eee69219e04ca2fa9abee83b5da1d6823357aa3d299ab128307f7545c8e",
+        "text_editability": {
+          "typeable_text_objects": 8,
+          "native_freeform_paths": 18,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -252,6 +266,36 @@
           }
         },
         "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T21:45:39.817817Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "13b73032286fe14ae1426377d3aee6d7c8bdf66397f15be783272732603a9363",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/lgsd/README.md",
+                "output/lgsd/VALIDATION.json"
+              ],
+              "output_directory": "output/lgsd",
+              "source_sha256": "00446089e641e272bf22f5ef4241bfc7a987d87ac7bcbab5fae2cbe55e2780e5",
+              "scene_sha256": "3f874eee69219e04ca2fa9abee83b5da1d6823357aa3d299ab128307f7545c8e",
+              "text_editability": {
+                "typeable_text_objects": 8,
+                "native_freeform_paths": 18,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
+            }
+          }
+        }
       }
     }
   ]

@@ -1,0 +1,41 @@
+{
+  "diagram_id": "affordance-worlds-figure-1",
+  "source_scene_sha256": "7601c9708cff1830afd28740d6cd857d4970e432086189b5972e0436b2383006",
+  "source_pdf_sha256": "b674fcff9f5ac42c4f950ed94e2f37077468b383b4f77878a59060d4c212475d",
+  "checked_files": [
+    {
+      "name": "affordance-worlds-figure-1.drawio",
+      "sha256": "403b50e29687e3d6fbd6e045ce1bd08a4aa7b0924e1cd05e6de4fc1ec4cf0412"
+    },
+    {
+      "name": "affordance-worlds-figure-1.png",
+      "sha256": "6d72bbcf889001bb1bc50f9d0e37fad7767a8ee4a9272273b9fb88234421605a"
+    },
+    {
+      "name": "affordance-worlds-figure-1.pptx",
+      "sha256": "3d5c461fc7ce78e74e7ff7d6461c15af1b3eb2b9b35f56ca201ec53ddfb28655"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 1 PDFpage2 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 314,
+    "p:pic": 73,
+    "a:custGeom": 134,
+    "p:cxnSp": 0,
+    "a:t": 107
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

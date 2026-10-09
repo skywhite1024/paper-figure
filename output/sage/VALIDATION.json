@@ -1,0 +1,301 @@
+{
+  "diagram_id": "sage-figure-2",
+  "source_scene_sha256": "95f34076b4674a7da9d7d77b0692426f5a72d4cba45bdb147e202e62e2799e65",
+  "source_pdf_sha256": "d4a338d1778121a83866eeea8e9f8b035da05ecc50d94fd7db30f111d4484d67",
+  "checked_files": [
+    {
+      "name": "sage-figure-2.drawio",
+      "sha256": "2f703c828177496c4bb6b7180c2d6a40dee919049ba9cff9c2e020217894c7ac"
+    },
+    {
+      "name": "sage-figure-2.png",
+      "sha256": "0a8cfb4d5200f9ffa4b987a14e4c91532a5631079ff9a90e82f76a9543039fcc"
+    },
+    {
+      "name": "sage-figure-2.pptx",
+      "sha256": "1c36e6b6c9c93d7f3c93a5830e671ee316e2c3662544bd2758203f4fb25aa974"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      0.808,
+      0.756,
+      0.718
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 85,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; embedded version matches",
+    "source_page_figure": "Independent PDF source crop compared with provided original and delivered preview",
+    "source_preview_visual": "passed with disclosed raster/font/math limitations",
+    "all_scene_asset_hashes": "passed",
+    "source_crop_same_size_channel_mae": 0.76106
+  },
+  "native_xml_counts": {
+    "p:sp": 175,
+    "p:pic": 19,
+    "a:custGeom": 85,
+    "p:cxnSp": 0,
+    "a:t": 71
+  },
+  "source_title": "SAGE: Scalable Agentic 3D Scene Generation for Embodied AI",
+  "typeable_labels": [
+    "Agent",
+    "End",
+    "Object Proposals",
+    "Object Proposals",
+    "+",
+    "Visual",
+    "Visual",
+    "Physics",
+    "Physics",
+    "Critic",
+    "Critic",
+    "Generator",
+    "Generator",
+    "Scene Init",
+    "Scene Init",
+    "Asset Placer",
+    "Asset Placer",
+    "Asset Mover",
+    "Asset Mover",
+    "Asset Remover",
+    "Asset Remover",
+    "Input O",
+    "pen",
+    "-",
+    "vocabulary ",
+    "T",
+    "ext",
+    "Asset ",
+    "Asset ",
+    "Placer",
+    "Placer",
+    "Physics",
+    "Physics",
+    "Output 3D ",
+    "Scene",
+    "Can you generate ",
+    "some ",
+    "bedrooms ",
+    "to train a ",
+    "policy on the task of …?",
+    "Physics",
+    "Physics",
+    "I will move the floor ",
+    "lamp to the corner.",
+    "The floor lamp is blocking ",
+    "the bookshelf access.",
+    "The room lacks details and ",
+    "needs to be complete.",
+    "I will add more floor objects ",
+    "and small objects on top.",
+    "The ottoman makes the ",
+    "layout look overcrowded.",
+    "I’ll remove ",
+    "the ottoman.",
+    "I will add those ",
+    "objects as proposed.",
+    "The scene is complete ",
+    "now, let me end it.",
+    "Physics",
+    "Physics",
+    "Visual",
+    "Asset ",
+    "Placer",
+    "Visual",
+    "Asset ",
+    "Mover",
+    "Scene ",
+    "Init",
+    "Visual",
+    "Asset ",
+    "Remover"
+  ],
+  "raster_nodes": [
+    {
+      "id": "pdf-source-image-0",
+      "asset": "sage-figure-2-source-image-0.png",
+      "x": 351.21766662597656,
+      "y": 177.18548583984375,
+      "width": 53.28863525390625,
+      "height": 53.28863525390625,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "pdf-source-image-3",
+      "asset": "sage-figure-2-source-image-3.png",
+      "x": 390.5741729736328,
+      "y": 65.73037719726562,
+      "width": 250.4974822998047,
+      "height": 140.81460571289062,
+      "canvas_area_fraction": 0.046
+    },
+    {
+      "id": "pdf-source-image-4",
+      "asset": "sage-figure-2-source-image-4.png",
+      "x": 696.4951171875,
+      "y": 34.254180908203125,
+      "width": 333.4547424316406,
+      "height": 187.47665405273438,
+      "canvas_area_fraction": 0.081
+    },
+    {
+      "id": "pdf-source-image-8",
+      "asset": "sage-figure-2-source-image-8.png",
+      "x": 263.3235626220703,
+      "y": 181.69532775878906,
+      "width": 125.90478515625,
+      "height": 125.62857055664062,
+      "canvas_area_fraction": 0.021
+    },
+    {
+      "id": "pdf-source-image-9",
+      "asset": "sage-figure-2-source-image-9.png",
+      "x": 5.1636199951171875,
+      "y": 83.12503051757812,
+      "width": 51.631988525390625,
+      "height": 51.908111572265625,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "pdf-source-image-10",
+      "asset": "sage-figure-2-source-image-10.png",
+      "x": 1047.7433166503906,
+      "y": 112.39251708984375,
+      "width": 93.8763427734375,
+      "height": 93.8763427734375,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "pdf-source-image-11",
+      "asset": "sage-figure-2-source-image-11.png",
+      "x": 575.6004180908203,
+      "y": 65.17806243896484,
+      "width": 93.87629699707031,
+      "height": 93.8763427734375,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "pdf-source-image-12",
+      "asset": "sage-figure-2-source-image-12.png",
+      "x": 1039.7362060546875,
+      "y": 361.16473388671875,
+      "width": 93.87643432617188,
+      "height": 93.8763427734375,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "pdf-source-image-13",
+      "asset": "sage-figure-2-source-image-13.png",
+      "x": 430.64442443847656,
+      "y": 349.29217529296875,
+      "width": 93.8763427734375,
+      "height": 93.8763427734375,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "pdf-source-image-14",
+      "asset": "sage-figure-2-source-image-14.png",
+      "x": 498.6587677001953,
+      "y": 347.54351806640625,
+      "width": 38.65498352050781,
+      "height": 38.654937744140625,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "pdf-source-image-15",
+      "asset": "sage-figure-2-source-image-15.png",
+      "x": 654.6591796875,
+      "y": 65.08614349365234,
+      "width": 38.654937744140625,
+      "height": 38.65496063232422,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "pdf-source-image-16",
+      "asset": "sage-figure-2-source-image-16.png",
+      "x": 1.2981033325195312,
+      "y": 438.198486328125,
+      "width": 93.8763427734375,
+      "height": 93.8763427734375,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "pdf-source-image-17",
+      "asset": "sage-figure-2-source-image-17.png",
+      "x": 69.86469268798828,
+      "y": 439.7632141113281,
+      "width": 38.65496063232422,
+      "height": 38.654937744140625,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "pdf-source-image-18",
+      "asset": "sage-figure-2-source-image-18.png",
+      "x": 1111.6159973144531,
+      "y": 108.15872955322266,
+      "width": 38.654937744140625,
+      "height": 38.65496063232422,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "pdf-source-image-19",
+      "asset": "sage-figure-2-source-image-19.png",
+      "x": 1093.6690979003906,
+      "y": 349.4761962890625,
+      "width": 38.654937744140625,
+      "height": 38.654937744140625,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "pdf-raster-0",
+      "asset": "sage-figure-2-raster-0.png",
+      "x": 1227.0,
+      "y": 219.0,
+      "width": 216.0,
+      "height": 183.0,
+      "canvas_area_fraction": 0.051
+    },
+    {
+      "id": "pdf-raster-1",
+      "asset": "sage-figure-2-raster-1.png",
+      "x": 627.0,
+      "y": 351.0,
+      "width": 219.0,
+      "height": 180.0,
+      "canvas_area_fraction": 0.051
+    },
+    {
+      "id": "pdf-raster-2",
+      "asset": "sage-figure-2-raster-2.png",
+      "x": 0,
+      "y": 231.0,
+      "width": 228.0,
+      "height": 183.0,
+      "canvas_area_fraction": 0.054
+    },
+    {
+      "id": "pdf-raster-3",
+      "asset": "sage-figure-2-raster-3.png",
+      "x": 861.0,
+      "y": 411.0,
+      "width": 72.0,
+      "height": 90.0,
+      "canvas_area_fraction": 0.008
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

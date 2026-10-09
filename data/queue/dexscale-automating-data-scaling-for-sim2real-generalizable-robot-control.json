@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "dexscale-automating-data-scaling-for-sim2real-generalizable-robot-control",
-  "revision": 2,
-  "status": "in_progress",
+  "revision": 3,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.509293Z",
-  "updated_at": "2026-10-09T20:49:28.624104Z",
+  "updated_at": "2026-10-09T21:34:47.339767Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -123,8 +123,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/dexscale/README.md",
+          "output/dexscale/VALIDATION.json"
+        ],
+        "output_directory": "output/dexscale",
+        "source_sha256": "62ca03103d51755623b6a1fd23e777f22186c29c679650621b0a8c3bea579c67",
+        "scene_sha256": "49840fb683ceb9ccdf79b26044585b5ed829cfefaf38309fdbc7473570e89da6",
+        "text_editability": {
+          "typeable_text_objects": 36,
+          "native_freeform_paths": 67,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -252,6 +266,36 @@
           }
         },
         "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T21:34:47.339767Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "5b34f4c8117166aa801045c688d068611286ab853f95bffe898e66945854420a",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/dexscale/README.md",
+                "output/dexscale/VALIDATION.json"
+              ],
+              "output_directory": "output/dexscale",
+              "source_sha256": "62ca03103d51755623b6a1fd23e777f22186c29c679650621b0a8c3bea579c67",
+              "scene_sha256": "49840fb683ceb9ccdf79b26044585b5ed829cfefaf38309fdbc7473570e89da6",
+              "text_editability": {
+                "typeable_text_objects": 36,
+                "native_freeform_paths": 67,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
+            }
+          }
+        }
       }
     }
   ]

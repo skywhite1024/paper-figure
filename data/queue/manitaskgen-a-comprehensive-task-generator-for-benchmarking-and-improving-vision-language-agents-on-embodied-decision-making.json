@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "manitaskgen-a-comprehensive-task-generator-for-benchmarking-and-improving-vision-language-agents-on-embodied-decision-making",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.498197Z",
-  "updated_at": "2026-10-09T20:49:29.188465Z",
+  "updated_at": "2026-10-09T21:34:47.702816Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/manitaskgen/README.md",
+          "output/manitaskgen/VALIDATION.json"
+        ],
+        "output_directory": "output/manitaskgen",
+        "source_sha256": "4fe910d1391f4f4ab5763684b88f180a4e61502d5ac27aefc41b572cd613f64f",
+        "scene_sha256": "e2c8f2c738581cdef7a525afd81d4cc631ff16aba14716a4d142fee0192b12a2",
+        "text_editability": {
+          "typeable_text_objects": 36,
+          "native_freeform_paths": 46,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:34:47.702816Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "ec4f72959135b1e335b28e42209ad00edc53b8d5e95b0b7b0db860171938b6fe",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/manitaskgen/README.md",
+                "output/manitaskgen/VALIDATION.json"
+              ],
+              "output_directory": "output/manitaskgen",
+              "source_sha256": "4fe910d1391f4f4ab5763684b88f180a4e61502d5ac27aefc41b572cd613f64f",
+              "scene_sha256": "e2c8f2c738581cdef7a525afd81d4cc631ff16aba14716a4d142fee0192b12a2",
+              "text_editability": {
+                "typeable_text_objects": 36,
+                "native_freeform_paths": 46,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

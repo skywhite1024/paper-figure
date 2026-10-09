@@ -1,0 +1,159 @@
+{
+  "diagram_id": "symskill-figure-2",
+  "source_scene_sha256": "084662a93b8cec29d3a355bc31dc9aee814164f6db8d651f198f3f62ae0186bc",
+  "source_pdf_sha256": "29492416ae5fba07b1bf04b89c04234ac675132fe5374bbc34f510ac41638997",
+  "checked_files": [
+    {
+      "name": "symskill-figure-2.drawio",
+      "sha256": "da38a5b34f546febc907e0656e9eee3216c2c10c635597fedd157faf2b4df679"
+    },
+    {
+      "name": "symskill-figure-2.png",
+      "sha256": "ec4b0df72ceca176ac53f48bc6152ec6d563ea38e2ba55555deb9ccf9bc5e301"
+    },
+    {
+      "name": "symskill-figure-2.pptx",
+      "sha256": "7539d43490ff14b75896796bdfc72563c553ef378245b4798daa81bde72d6d93"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      3.028,
+      3.038,
+      2.949
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_scene_asset_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 148,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; source edition/hash pinned",
+    "source_page_figure": "Independent PDF crop compared with original PNG and delivered preview",
+    "source_preview_visual": "passed with disclosed image/font/math/dash limitations"
+  },
+  "native_xml_counts": {
+    "p:sp": 193,
+    "p:pic": 7,
+    "a:custGeom": 148,
+    "p:cxnSp": 0,
+    "a:t": 38
+  },
+  "source_title": "SymSkill: Symbol and Skill Co-Invention for Data-Efficient and Reactive Long-Horizon Manipulation",
+  "typeable_labels": [
+    "Operator 0: Pick Lid",
+    "Pick Lid SE(3) Policy",
+    "Complete",
+    "Operator 1: Place Lid",
+    "Place Lid SE(3) Policy",
+    "Executing",
+    "Segmentation",
+    "PreMotion",
+    "Motion",
+    "PreMotion",
+    "Motion",
+    "Operator Learning",
+    "Pre: RelPose(",
+    ")",
+    "Eff: RelPose(",
+    ")",
+    "Maintain: RelPose(",
+    ")",
+    "Skill:",
+    "Operator 1: Place Lid",
+    "A*",
+    "Symbolic ",
+    "Planner",
+    "Replanning",
+    "Symbolic Monitoring",
+    "Auto Skill Recovery",
+    "Obstacle Avoidance",
+    "Attractor Resampling",
+    "cabinet type",
+    "lid type",
+    "Pose & Type",
+    "Selection",
+    "Predicate Learning ",
+    "Policy Learning",
+    "Place Lid SE(3) Policy",
+    "Goal",
+    "RelPose(",
+    ")"
+  ],
+  "raster_nodes": [
+    {
+      "id": "symskill-source-component-0",
+      "asset": "symskill-source-component-0.png",
+      "x": 392.1263620022124,
+      "y": 52.0450038909912,
+      "width": 130.04190576603986,
+      "height": 98.0848150253296,
+      "canvas_area_fraction": 0.015
+    },
+    {
+      "id": "symskill-source-component-1",
+      "asset": "symskill-source-component-1.png",
+      "x": 113.94562961744226,
+      "y": 11.998664814717067,
+      "width": 176.89642997409982,
+      "height": 134.98497916556693,
+      "canvas_area_fraction": 0.028
+    },
+    {
+      "id": "symskill-source-component-2",
+      "asset": "symskill-source-component-2.png",
+      "x": 6.000588809742638,
+      "y": 174.3745880126953,
+      "width": 285.02796846277573,
+      "height": 190.88621520996094,
+      "canvas_area_fraction": 0.065
+    },
+    {
+      "id": "symskill-source-component-3",
+      "asset": "symskill-source-component-3.png",
+      "x": 476.2881774902344,
+      "y": 183.46566009521484,
+      "width": 64.71487426757812,
+      "height": 23.946304321289062,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "symskill-source-component-5",
+      "asset": "symskill-source-component-5.png",
+      "x": 601.059897603868,
+      "y": 82.82404105270966,
+      "width": 174.8136375523821,
+      "height": 169.80364449416533,
+      "canvas_area_fraction": 0.035
+    },
+    {
+      "id": "symskill-source-component-7",
+      "asset": "symskill-source-component-7.png",
+      "x": 795.5686340332031,
+      "y": 81.38940356528921,
+      "width": 169.2323157950624,
+      "height": 172.21965005953012,
+      "canvas_area_fraction": 0.035
+    },
+    {
+      "id": "symskill-source-component-9",
+      "asset": "symskill-source-component-9.png",
+      "x": 1329.01827784947,
+      "y": 67.53946163229746,
+      "width": 176.98340933663502,
+      "height": 171.68230824927764,
+      "canvas_area_fraction": 0.036
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

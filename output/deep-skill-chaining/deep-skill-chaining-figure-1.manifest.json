@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "diagram_id": "deep-skill-chaining-figure-1",
+  "source_sha256": "fe07857402d4e5c8176cce5e10866c562063090552bcba5378ccabb949a7903e",
+  "assets": [
+    {
+      "name": "deep-skill-chaining-source-component-11.png",
+      "sha256": "c08a138233fd76f99b92b0e458204ca51e6b87f13eaa26b958a908d9ce977d7a"
+    },
+    {
+      "name": "deep-skill-chaining-source-component-12.png",
+      "sha256": "715d1913fe9ec52a069b08a6f988f61763d9cb32150827b22042ae6236eeca6f"
+    },
+    {
+      "name": "deep-skill-chaining-source-component-13.png",
+      "sha256": "e1c011d0db3e39ae897c876de5dffc22173de846a85b7830875f5cdc98fa84e9"
+    },
+    {
+      "name": "deep-skill-chaining-source-component-14.png",
+      "sha256": "08ca781be98eb8008b04d95e44fc1417ab2192e532a7c9fcb52a806be9fbe0b9"
+    },
+    {
+      "name": "deep-skill-chaining-source-component-15.png",
+      "sha256": "5a0d9fab690cf7e7c835507bf2bc28599ae7a57e03f17101f913dae072d283d4"
+    },
+    {
+      "name": "deep-skill-chaining-source-component-16.png",
+      "sha256": "fcd0330fb027a075c85566c22f39afdb05d800df7c96b1424ab1f21c93c7024e"
+    },
+    {
+      "name": "deep-skill-chaining-source-component-6.png",
+      "sha256": "0ac8c0654246d4fada9aa3baeaec75492ca02b2c3dc94b8ec02d4008e3992cd4"
+    },
+    {
+      "name": "deep-skill-chaining-source-component-7.png",
+      "sha256": "d01ad3c52bad8f6cfe0d50be83c1d210e12a03267a84514a7beba481dfecbff5"
+    }
+  ],
+  "provenance": {
+    "paper_title": "Option Discovery Using Deep Skill Chaining",
+    "paper_url": "https://cs.brown.edu/people/gdk/pubs/dsc_deeprl_ws.pdf",
+    "figure": "Figure 1",
+    "license": "unverified",
+    "notes": "Source-layout reconstruction using native PDF paths and live ordinary labels. Each source photograph, illustration or mathematical bitmap is an isolated insert with original clipping. No whole-figure raster backdrop. Native paths are not semantically attached connectors.",
+    "page": 14,
+    "status": "figure_recreation",
+    "source_sha256": "fb2b42a704404ec5ca14bb77e287c9128f7e85531545c34153c6654f4dcd7c54",
+    "source_crop_pdf_points": [
+      105,
+      85,
+      506,
+      236
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "outlined_font_families": [
+      "CMM",
+      "CMSY",
+      "CMEX",
+      "CambriaMath"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "dash_fidelity": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+    "extraction_warnings": [
+      "19 source clipping groups intersect crop; extracted paths require explicit clipping review"
+    ],
+    "ignored_invisible_text_spans": 0,
+    "extraction_warnings_reviewed": [
+      "Source clipping and reconstructed preview inspected. Individual source image instances use original SVG clips and masks. Identified diagram arrows and gradient ovals are now native editable contours, ordinary panel labels typeable. Font-based checkmarks repaired against original source pixels."
+    ],
+    "text_editability": "Ordinary source labels are live text; selected mathematical fonts are native outlines. Source image inserts retain internal raster pixels.",
+    "image_reconstruction": "Each source raster instance is isolated with complete source SVG ancestry, source clipping, mask and paint order. No full-figure image is used.",
+    "native_raster_repairs": "Nine source skill-region gradient ovals rebuilt with nested native grayscale contour layers. Four panel letters are live text; the original small robot illustrations remain individual source raster pieces."
+  },
+  "metrics": {
+    "native_nodes": 545,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 541,
+    "native_text_objects": 4,
+    "raster_images": 8,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "deep-skill-chaining-figure-1.drawio",
+      "sha256": "73fc37c6a370eba286ac71545916553884fd7390e04b177b8ddcf5e6ba97d43d"
+    },
+    {
+      "name": "deep-skill-chaining-figure-1.png",
+      "sha256": "6158d62d1623502897ff5591b6b95b4a6faa3f740c6656cbae008d829e1b4e3c"
+    },
+    {
+      "name": "deep-skill-chaining-figure-1.pptx",
+      "sha256": "9c9284718bb0c4f32f8cdeeb4141f51448edf382616ef986cf169dfd654a3956"
+    }
+  ]
+}

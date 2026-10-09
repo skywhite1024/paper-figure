@@ -1,0 +1,387 @@
+{
+  "diagram_id": "gordon-figure-2",
+  "source_scene_sha256": "d45f228f334faacfab5b98967c2b415904598e0514af193289c2b6a7a9cf6484",
+  "source_pdf_sha256": "2b068c624a58db12eae36bc71d54709395df888ad56ced794eacafe9a93a0725",
+  "checked_files": [
+    {
+      "name": "gordon-figure-2.drawio",
+      "sha256": "1ab5e8d8c23a883aa12dedae6da4a0d49fb5c86ab1d11215cdc7ccc6bc38e381"
+    },
+    {
+      "name": "gordon-figure-2.png",
+      "sha256": "5d5f38519c11cbee17132a9c9f929744880bed5af9a12bd0c87d95d85da706e1"
+    },
+    {
+      "name": "gordon-figure-2.pptx",
+      "sha256": "9dbe5050e0ef65543d363d70bc92be040cdc951870327882f42118289f51aa96"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      2.935,
+      2.841,
+      2.794
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 227,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; embedded version matches",
+    "source_page_figure": "Independent PDF source crop compared with provided original and delivered preview",
+    "source_preview_visual": "passed with disclosed raster/font/math limitations",
+    "all_scene_asset_hashes": "passed",
+    "source_crop_same_size_channel_mae": 0.0271
+  },
+  "native_xml_counts": {
+    "p:sp": 291,
+    "p:pic": 33,
+    "a:custGeom": 227,
+    "p:cxnSp": 0,
+    "a:t": 31
+  },
+  "source_title": "GORDON: Graph-based Object-centric Rewards for Decomposition of Long-Horizon Manipulation",
+  "typeable_labels": [
+    "Object Features",
+    "Object-Centric ",
+    "Graph ",
+    "Construction",
+    "GNN",
+    "Encoder",
+    "GNN pretraining",
+    "TCC Loss",
+    "Reconstruction ",
+    "Loss",
+    "Video demonstrations",
+    "Video Seq #1",
+    "Video Seq #2",
+    "Encoder",
+    "RL w/ Learned Reward",
+    "Policy Rollout",
+    "Task Progress",
+    "Temporal ",
+    "Alignment",
+    "Encoder",
+    "Encoder",
+    "Encoder",
+    "Goal frame",
+    "Encoder",
+    "Distance Estimator",
+    "Weighted ",
+    "Mean ",
+    "Pooling",
+    "MLP",
+    "Graph",
+    "Decoder"
+  ],
+  "raster_nodes": [
+    {
+      "id": "gordon-source-component-0",
+      "asset": "gordon-source-component-0.png",
+      "x": 556.1549835205078,
+      "y": 53.19353485107422,
+      "width": 118.38313293457031,
+      "height": 82.81906127929688,
+      "canvas_area_fraction": 0.013
+    },
+    {
+      "id": "gordon-source-component-2",
+      "asset": "gordon-source-component-2.png",
+      "x": 558.0,
+      "y": 54.0,
+      "width": 108.0,
+      "height": 75.0,
+      "canvas_area_fraction": 0.01
+    },
+    {
+      "id": "gordon-source-component-3",
+      "asset": "gordon-source-component-3.png",
+      "x": 549.9694061279297,
+      "y": 430.34161376953125,
+      "width": 129.20924377441406,
+      "height": 48.45918273925781,
+      "canvas_area_fraction": 0.008
+    },
+    {
+      "id": "gordon-source-component-5",
+      "asset": "gordon-source-component-5.png",
+      "x": 552.0,
+      "y": 432.0,
+      "width": 120.0,
+      "height": 39.0,
+      "canvas_area_fraction": 0.006
+    },
+    {
+      "id": "gordon-source-component-6",
+      "asset": "gordon-source-component-6.png",
+      "x": 764.05810546875,
+      "y": 312.3007049560547,
+      "width": 163.40158081054688,
+      "height": 65.46372985839844,
+      "canvas_area_fraction": 0.014
+    },
+    {
+      "id": "gordon-source-component-8",
+      "asset": "gordon-source-component-8.png",
+      "x": 765.0,
+      "y": 315.0,
+      "width": 156.0,
+      "height": 54.0,
+      "canvas_area_fraction": 0.011
+    },
+    {
+      "id": "gordon-source-component-9",
+      "asset": "gordon-source-component-9.png",
+      "x": 1018.6965637207031,
+      "y": 261.43748474121094,
+      "width": 119.93234252929688,
+      "height": 57.736083984375,
+      "canvas_area_fraction": 0.009
+    },
+    {
+      "id": "gordon-source-component-11",
+      "asset": "gordon-source-component-11.png",
+      "x": 1028.1180725097656,
+      "y": 248.95614624023438,
+      "width": 29.381378173828125,
+      "height": 30.412261962890625,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "gordon-source-component-12",
+      "asset": "gordon-source-component-12.png",
+      "x": 1144.8130187988281,
+      "y": 248.55235290527344,
+      "width": 121.82235717773438,
+      "height": 73.19851684570312,
+      "canvas_area_fraction": 0.012
+    },
+    {
+      "id": "gordon-source-component-13",
+      "asset": "gordon-source-component-13.png",
+      "x": 1154.2774658203125,
+      "y": 251.44757080078125,
+      "width": 29.896820068359375,
+      "height": 30.412261962890625,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "gordon-source-component-14",
+      "asset": "gordon-source-component-14.png",
+      "x": 1270.9293823242188,
+      "y": 248.55235290527344,
+      "width": 121.82244873046875,
+      "height": 73.19851684570312,
+      "canvas_area_fraction": 0.012
+    },
+    {
+      "id": "gordon-source-component-15",
+      "asset": "gordon-source-component-15.png",
+      "x": 1280.3366088867188,
+      "y": 251.44757080078125,
+      "width": 29.896820068359375,
+      "height": 30.412261962890625,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "gordon-source-component-16",
+      "asset": "gordon-source-component-16.png",
+      "x": 1424.8809814453125,
+      "y": 256.2828369140625,
+      "width": 89.51715087890625,
+      "height": 59.797943115234375,
+      "canvas_area_fraction": 0.007
+    },
+    {
+      "id": "gordon-source-component-17",
+      "asset": "gordon-source-component-17.png",
+      "x": 1432.3837280273438,
+      "y": 259.351318359375,
+      "width": 21.3057861328125,
+      "height": 23.711288452148438,
+      "canvas_area_fraction": 0.001
+    },
+    {
+      "id": "gordon-source-component-18",
+      "asset": "gordon-source-component-18.png",
+      "x": 278.435302734375,
+      "y": 11.213424682617188,
+      "width": 53.7799072265625,
+      "height": 53.7799072265625,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "gordon-source-component-19",
+      "asset": "gordon-source-component-19.png",
+      "x": 1020.5435485839844,
+      "y": 374.8618469238281,
+      "width": 108.97732543945312,
+      "height": 112.05436706542969,
+      "canvas_area_fraction": 0.016
+    },
+    {
+      "id": "gordon-source-component-20",
+      "asset": "gordon-source-component-20.png",
+      "x": 1151.8289794921875,
+      "y": 374.53981018066406,
+      "width": 109.01605224609375,
+      "height": 112.03861999511719,
+      "canvas_area_fraction": 0.016
+    },
+    {
+      "id": "gordon-source-component-21",
+      "asset": "gordon-source-component-21.png",
+      "x": 1274.1940612792969,
+      "y": 374.53981018066406,
+      "width": 110.15716552734375,
+      "height": 112.03861999511719,
+      "canvas_area_fraction": 0.016
+    },
+    {
+      "id": "gordon-source-component-22",
+      "asset": "gordon-source-component-22.png",
+      "x": 70.58367919921875,
+      "y": 85.53739929199219,
+      "width": 108.23995971679688,
+      "height": 126.53457641601562,
+      "canvas_area_fraction": 0.018
+    },
+    {
+      "id": "gordon-source-component-23",
+      "asset": "gordon-source-component-23.png",
+      "x": 70.50920104980469,
+      "y": 218.2188491821289,
+      "width": 107.91920471191406,
+      "height": 126.2267074584961,
+      "canvas_area_fraction": 0.018
+    },
+    {
+      "id": "gordon-source-component-24",
+      "asset": "gordon-source-component-24.png",
+      "x": 70.50920104980469,
+      "y": 349.8765106201172,
+      "width": 107.91920471191406,
+      "height": 126.36273193359375,
+      "canvas_area_fraction": 0.018
+    },
+    {
+      "id": "gordon-source-component-25",
+      "asset": "gordon-source-component-25.png",
+      "x": 190.94984436035156,
+      "y": 85.51446533203125,
+      "width": 109.27944946289062,
+      "height": 126.41427612304688,
+      "canvas_area_fraction": 0.018
+    },
+    {
+      "id": "gordon-source-component-26",
+      "asset": "gordon-source-component-26.png",
+      "x": 191.15029907226562,
+      "y": 218.2474594116211,
+      "width": 109.16203308105469,
+      "height": 126.2267074584961,
+      "canvas_area_fraction": 0.018
+    },
+    {
+      "id": "gordon-source-component-27",
+      "asset": "gordon-source-component-27.png",
+      "x": 191.15029907226562,
+      "y": 349.6989440917969,
+      "width": 109.44841003417969,
+      "height": 126.54029846191406,
+      "canvas_area_fraction": 0.018
+    },
+    {
+      "id": "gordon-source-component-28",
+      "asset": "gordon-source-component-28.png",
+      "x": 1428.8615112304688,
+      "y": 366.2309875488281,
+      "width": 79.00469970703125,
+      "height": 85.68557739257812,
+      "canvas_area_fraction": 0.009
+    },
+    {
+      "id": "gordon-source-component-29",
+      "asset": "gordon-source-component-29.png",
+      "x": 1483.84423828125,
+      "y": 403.49317932128906,
+      "width": 44.15789794921875,
+      "height": 44.15794372558594,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "gordon-source-component-30",
+      "asset": "gordon-source-component-30.png",
+      "x": 1018.5247192382812,
+      "y": 185.8406524658203,
+      "width": 461.51055908203125,
+      "height": 42.78337097167969,
+      "canvas_area_fraction": 0.026
+    },
+    {
+      "id": "gordon-source-component-33",
+      "asset": "gordon-source-component-33.png",
+      "x": 555.9831390380859,
+      "y": 183.09148406982422,
+      "width": 118.38313293457031,
+      "height": 77.8348159790039,
+      "canvas_area_fraction": 0.012
+    },
+    {
+      "id": "gordon-source-component-35",
+      "asset": "gordon-source-component-35.png",
+      "x": 558.0,
+      "y": 186.0,
+      "width": 108.0,
+      "height": 66.0,
+      "canvas_area_fraction": 0.009
+    },
+    {
+      "id": "gordon-source-component-36",
+      "asset": "gordon-source-component-36.png",
+      "x": 555.9831390380859,
+      "y": 294.94683837890625,
+      "width": 118.21128845214844,
+      "height": 84.36259460449219,
+      "canvas_area_fraction": 0.013
+    },
+    {
+      "id": "gordon-source-component-38",
+      "asset": "gordon-source-component-38.png",
+      "x": 558.0,
+      "y": 297.0,
+      "width": 108.0,
+      "height": 75.0,
+      "canvas_area_fraction": 0.01
+    },
+    {
+      "id": "gordon-source-component-39",
+      "asset": "gordon-source-component-39.png",
+      "x": 770.7592163085938,
+      "y": 56.45812225341797,
+      "width": 148.96865844726562,
+      "height": 83.67816925048828,
+      "canvas_area_fraction": 0.016
+    },
+    {
+      "id": "gordon-source-component-41",
+      "asset": "gordon-source-component-41.png",
+      "x": 774.0,
+      "y": 57.0,
+      "width": 138.0,
+      "height": 75.0,
+      "canvas_area_fraction": 0.013
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

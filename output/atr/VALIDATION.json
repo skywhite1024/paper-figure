@@ -1,0 +1,164 @@
+{
+  "diagram_id": "atr-figure-1",
+  "source_scene_sha256": "8e2af5427742d22b242027c6c50c2c070e8cfea1fa0a709a4c08abc9c1e74adb",
+  "source_pdf_sha256": "c13ef30ae59aad2323d16791e9cfbaf22ad416aeaceb5062d054e93e9fe0556c",
+  "checked_files": [
+    {
+      "name": "atr-figure-1.drawio",
+      "sha256": "e355448358bde113dd62904d8ae21bf95ed5aa23f1baf424a6f633cd7c637d83"
+    },
+    {
+      "name": "atr-figure-1.png",
+      "sha256": "725552739580c361b98f9ecfdcaffb9ee2398a7a2fd8cf7819e5c61a80d7b90a"
+    },
+    {
+      "name": "atr-figure-1.pptx",
+      "sha256": "457511717d39761829e0fdfd62f7f466927ebedcdad6c0dcc0d4af5f28d96781"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "version_embedded": true,
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_scene_asset_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 22,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; source edition/hash pinned",
+    "source_page_figure": "Independent PDF crop compared with original PNG and delivered preview",
+    "source_preview_visual": "passed with disclosed image/font/math/dash limitations"
+  },
+  "native_xml_counts": {
+    "p:sp": 78,
+    "p:pic": 5,
+    "a:custGeom": 22,
+    "p:cxnSp": 0,
+    "a:t": 61
+  },
+  "source_title": "Active Task Randomization: Learning Robust Skills via Unsupervised Generation of Diverse and Feasible Tasks",
+  "typeable_labels": [
+    "",
+    "Training",
+    "",
+    "",
+    "",
+    "successful",
+    "tasks",
+    "failed",
+    "tasks",
+    "task space",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "",
+    "task",
+    "sampler",
+    "environment",
+    "",
+    "skill",
+    "policy",
+    "task",
+    "parameter",
+    "return",
+    "Testing",
+    "",
+    "",
+    "goal:",
+    "in(salt, ctr) and",
+    "under(container, rack)",
+    "",
+    "",
+    "task",
+    "planner",
+    "",
+    "skill",
+    "policies",
+    "",
+    "task plan",
+    "1",
+    "pull-with",
+    "(salt, hook)",
+    "2",
+    "place-onto",
+    "(salt, container)",
+    "3",
+    "push-under",
+    "(container, rack)",
+    "state",
+    "action"
+  ],
+  "raster_nodes": [
+    {
+      "id": "success-one",
+      "asset": "assets/success-one.png",
+      "x": 20,
+      "y": 52,
+      "width": 140,
+      "height": 96,
+      "canvas_area_fraction": 0.026
+    },
+    {
+      "id": "success-two",
+      "asset": "assets/success-two.png",
+      "x": 20,
+      "y": 152,
+      "width": 140,
+      "height": 96,
+      "canvas_area_fraction": 0.026
+    },
+    {
+      "id": "failure",
+      "asset": "assets/failure.png",
+      "x": 20,
+      "y": 252,
+      "width": 140,
+      "height": 96,
+      "canvas_area_fraction": 0.026
+    },
+    {
+      "id": "earth",
+      "asset": "assets/earth.png",
+      "x": 634,
+      "y": 76,
+      "width": 62,
+      "height": 63,
+      "canvas_area_fraction": 0.007
+    },
+    {
+      "id": "testing-photo",
+      "asset": "assets/testing-photo.png",
+      "x": 20.87999999999994,
+      "y": 411.40919999999994,
+      "width": 272.92500000000007,
+      "height": 220.3671000000001,
+      "canvas_area_fraction": 0.115
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}

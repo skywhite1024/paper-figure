@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "from-reaction-to-anticipation-proactive-failure-recovery-through-agentic-task-graph-for-robotic-manipulation-agentchord",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.503651Z",
-  "updated_at": "2026-10-09T20:49:28.834938Z",
+  "updated_at": "2026-10-09T21:34:46.852553Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -123,8 +123,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/agentchord/README.md",
+          "output/agentchord/VALIDATION.json"
+        ],
+        "output_directory": "output/agentchord",
+        "source_sha256": "56a1a3c839b5850c82f072eea2cbc0f5c7b2da4da864a5b16f8e821d188d6757",
+        "scene_sha256": "dc2d310134aef67fd1f7ee216478b6f946718c684d05e643853f866facb7516f",
+        "text_editability": {
+          "typeable_text_objects": 36,
+          "native_freeform_paths": 278,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -351,6 +365,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:34:46.852553Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "4afaf8df585c02dc3efb34beb2fce1a4b681686e403489a5388cc59c96e79fdb",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/agentchord/README.md",
+                "output/agentchord/VALIDATION.json"
+              ],
+              "output_directory": "output/agentchord",
+              "source_sha256": "56a1a3c839b5850c82f072eea2cbc0f5c7b2da4da864a5b16f8e821d188d6757",
+              "scene_sha256": "dc2d310134aef67fd1f7ee216478b6f946718c684d05e643853f866facb7516f",
+              "text_editability": {
+                "typeable_text_objects": 36,
+                "native_freeform_paths": 278,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

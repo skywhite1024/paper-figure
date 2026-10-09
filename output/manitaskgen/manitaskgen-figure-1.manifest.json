@@ -1,0 +1,222 @@
+{
+  "schema_version": 1,
+  "diagram_id": "manitaskgen-figure-1",
+  "source_sha256": "e2c8f2c738581cdef7a525afd81d4cc631ff16aba14716a4d142fee0192b12a2",
+  "assets": [
+    {
+      "name": "assets/benchmark-robot.png",
+      "sha256": "0206fbce10caa1cdfd1f53a9a82f6a3f0ff8fda7d2891f35f712fbe310b5e033"
+    },
+    {
+      "name": "assets/deployment-notepad.png",
+      "sha256": "53bee4713c30a5cf8e437503788d9293e7066bbca0cda32b385b73543fc64610"
+    },
+    {
+      "name": "assets/deployment-robot.png",
+      "sha256": "b9d9dfee899861a601544d6fbd89d99c49d0c5384319a74481f13aae428f06d2"
+    },
+    {
+      "name": "assets/gear-logo.png",
+      "sha256": "a539e221905e7f2c577a6f93cc54ed4dea87991abe4806b528624ed0e8db6f88"
+    },
+    {
+      "name": "assets/grasp-end.png",
+      "sha256": "7939419f966151aa986cd897c34e3e55fe7b78341a30e6034944e62fc3fb9a98"
+    },
+    {
+      "name": "assets/grasp-start.png",
+      "sha256": "f330046bf702fd6e3c14e251d2cc5a3c9cf4020f2e43b0b5d1f61c7e3134bd43"
+    },
+    {
+      "name": "assets/memory-notepad.png",
+      "sha256": "e6bb644b961656c25ae3be3ed8c340fb68f55de86ef2bd4e2807022220602dd8"
+    },
+    {
+      "name": "assets/place-end.png",
+      "sha256": "ce9435a420f0428e727349661889d7e22018f96a90fbc36d20308ddaaee8ff71"
+    },
+    {
+      "name": "assets/place-start.png",
+      "sha256": "4a0e3aabd20597f76627a938149a6270414c11e06a0b591ac905a59b6fa7c700"
+    },
+    {
+      "name": "assets/reflection-robot.png",
+      "sha256": "be68a23b7b31034b69914006158451bd79b0552d595faa25039c13883e71c371"
+    },
+    {
+      "name": "assets/scene-photo.png",
+      "sha256": "821cbb83e695c19706bb6132bc8ba1fdbe213061318184765732bba4ffd6ee27"
+    },
+    {
+      "name": "assets/sofa.png",
+      "sha256": "a9643e24fbeeb9b3d5cbb701ec501bc31ee9f6f4412cbc083588320b40601058"
+    }
+  ],
+  "provenance": {
+    "paper_title": "ManiTaskGen: A Comprehensive Task Generator for Benchmarking and Improving Vision-Language Agents on Embodied Decision-Making",
+    "paper_url": "https://arxiv.org/abs/2505.20726v2",
+    "pdf_url": "https://arxiv.org/pdf/2505.20726v2",
+    "figure": "Figure 1",
+    "page": 2,
+    "license": "unverified Private user-requested adaptation; no public redistribution permission implied.",
+    "status": "figure_recreation",
+    "notes": "Manually reconstructed from the inspected original flattened PDF figure. Ordinary labels are live typeable text; panels, graph geometry and arrows are native editable shapes or paths. Source layout and contents retained; font metrics, line widths and decorative effects approximated. Five manipulation benchmark snapshots, the scene photograph, gear brand icon and five small robot/notepad illustrations remain isolated raster crops. All task cards, task examples, labels, flow arrows, status legend, improvement-loop geometry and deployment trend are native.",
+    "source_sha256": "4fe910d1391f4f4ab5763684b88f180a4e61502d5ac27aefc41b572cd613f64f",
+    "source_crop_pdf_points": [
+      107,
+      71,
+      506,
+      182
+    ],
+    "survey_crop_correction": false,
+    "visual_inspection": "Original PDF figure inspected before source-layout reconstruction on 2026-10-09; independent application QA pending.",
+    "raster_details": [
+      {
+        "id": "scene-photo",
+        "bounds_source_pixels": [
+          6,
+          22,
+          159,
+          118
+        ],
+        "detail": "Original furnished-scene overhead image"
+      },
+      {
+        "id": "gear-logo",
+        "bounds_source_pixels": [
+          264,
+          36,
+          327,
+          96
+        ],
+        "detail": "Original ManiTaskGen gear mark; its internal artwork remains raster"
+      },
+      {
+        "id": "sofa",
+        "bounds_source_pixels": [
+          548,
+          94,
+          679,
+          156
+        ],
+        "detail": "Original robot task benchmark snapshot; tiny numbered segmentation overlays remain raster"
+      },
+      {
+        "id": "grasp-start",
+        "bounds_source_pixels": [
+          699,
+          94,
+          798,
+          156
+        ],
+        "detail": "Original robot task benchmark snapshot; tiny numbered segmentation overlays remain raster"
+      },
+      {
+        "id": "grasp-end",
+        "bounds_source_pixels": [
+          839,
+          94,
+          938,
+          156
+        ],
+        "detail": "Original robot task benchmark snapshot; tiny numbered segmentation overlays remain raster"
+      },
+      {
+        "id": "place-start",
+        "bounds_source_pixels": [
+          949,
+          94,
+          1046,
+          156
+        ],
+        "detail": "Original robot task benchmark snapshot; tiny numbered segmentation overlays remain raster"
+      },
+      {
+        "id": "place-end",
+        "bounds_source_pixels": [
+          1088,
+          94,
+          1185,
+          156
+        ],
+        "detail": "Original robot task benchmark snapshot; tiny numbered segmentation overlays remain raster"
+      },
+      {
+        "id": "benchmark-robot",
+        "bounds_source_pixels": [
+          434,
+          94,
+          476,
+          151
+        ],
+        "detail": "Original small robot/notepad icon; internal line-art pixels remain raster"
+      },
+      {
+        "id": "reflection-robot",
+        "bounds_source_pixels": [
+          434,
+          250,
+          476,
+          309
+        ],
+        "detail": "Original small robot/notepad icon; internal line-art pixels remain raster"
+      },
+      {
+        "id": "memory-notepad",
+        "bounds_source_pixels": [
+          808,
+          253,
+          845,
+          300
+        ],
+        "detail": "Original small robot/notepad icon; internal line-art pixels remain raster"
+      },
+      {
+        "id": "deployment-robot",
+        "bounds_source_pixels": [
+          956,
+          245,
+          999,
+          309
+        ],
+        "detail": "Original small robot/notepad icon; internal line-art pixels remain raster"
+      },
+      {
+        "id": "deployment-notepad",
+        "bounds_source_pixels": [
+          1027,
+          253,
+          1063,
+          302
+        ],
+        "detail": "Original small robot/notepad icon; internal line-art pixels remain raster"
+      }
+    ]
+  },
+  "metrics": {
+    "native_nodes": 100,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 46,
+    "native_text_objects": 36,
+    "raster_images": 12,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "manitaskgen-figure-1.drawio",
+      "sha256": "949fd7d8a77603e9e57ab3a06f90c82285332bf25f46bcd925f8e69175d07d7f"
+    },
+    {
+      "name": "manitaskgen-figure-1.png",
+      "sha256": "3e20ced6238efe1b2bd0040c2d54bfb073b027c7d7f84dc72736f948607b2825"
+    },
+    {
+      "name": "manitaskgen-figure-1.pptx",
+      "sha256": "15ebec9514b86f8ef2443d3ea47fe12a06c0633879dda15cd81d164b1efbbe02"
+    }
+  ]
+}

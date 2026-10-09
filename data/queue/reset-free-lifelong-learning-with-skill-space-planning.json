@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "reset-free-lifelong-learning-with-skill-space-planning",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.514201Z",
-  "updated_at": "2026-10-09T20:49:29.352059Z",
+  "updated_at": "2026-10-09T21:38:37.021463Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/lifelong-skill-planning/README.md",
+          "output/lifelong-skill-planning/VALIDATION.json"
+        ],
+        "output_directory": "output/lifelong-skill-planning",
+        "source_sha256": "3d286be5f048686dc54ac73a862d3c3ff83830bffc1ca03036801c13e8833c37",
+        "scene_sha256": "7f07637d5d75d024e9ec8df1abb676d95f6855bcb63a79d8aed20e7ca0b81cf5",
+        "text_editability": {
+          "typeable_text_objects": 22,
+          "native_freeform_paths": 22,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:38:37.021463Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "28ef0101757d5b20bc93995feb0375e439f114424a43f1f22520775a1e786922",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/lifelong-skill-planning/README.md",
+                "output/lifelong-skill-planning/VALIDATION.json"
+              ],
+              "output_directory": "output/lifelong-skill-planning",
+              "source_sha256": "3d286be5f048686dc54ac73a862d3c3ff83830bffc1ca03036801c13e8833c37",
+              "scene_sha256": "7f07637d5d75d024e9ec8df1abb676d95f6855bcb63a79d8aed20e7ca0b81cf5",
+              "text_editability": {
+                "typeable_text_objects": 22,
+                "native_freeform_paths": 22,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

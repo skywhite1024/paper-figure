@@ -1,0 +1,544 @@
+{
+  "schema_version": 1,
+  "id": "annotation-free-figure-1",
+  "title": "Annotation-Free One-Shot Imitation Learning for Multi-Step Manipulation Tasks — source-layout editable reconstruction",
+  "canvas": {
+    "width": 1240,
+    "height": 565
+  },
+  "provenance": {
+    "paper_title": "Annotation-Free One-Shot Imitation Learning for Multi-Step Manipulation Tasks",
+    "paper_url": "https://arxiv.org/abs/2509.24972v1",
+    "pdf_url": "https://arxiv.org/pdf/2509.24972v1",
+    "figure": "Figure 1",
+    "page": 2,
+    "license": "unverified Private user-requested adaptation; no public redistribution permission implied.",
+    "status": "figure_recreation",
+    "notes": "Manually reconstructed from the inspected original flattened PDF figure. Ordinary labels are live typeable text; panels, graph geometry and arrows are native editable shapes or paths. Source layout and contents retained; font metrics, line widths and decorative effects approximated. Source is flattened. Ordinary labels, motion arrows and divider manually recreated as live text/native paths. Six isolated photographic details retain original pixels. The robot silhouette photo is reused at the two original diagram positions.",
+    "source_sha256": "09d5f8a6ab5241357e07c48d838af7d0fc6d4968c3f6b8a11422f5f31367915b",
+    "source_crop_pdf_points": [
+      311,
+      391,
+      559,
+      504
+    ],
+    "survey_crop_correction": true,
+    "visual_inspection": "Original PDF figure inspected before source-layout reconstruction on 2026-10-09; independent application QA pending.",
+    "raster_details": [
+      {
+        "id": "source-observation",
+        "bounds_source_pixels": [
+          11,
+          22,
+          165,
+          138
+        ],
+        "detail": "Original source RGB camera view"
+      },
+      {
+        "id": "target-observation",
+        "bounds_source_pixels": [
+          545,
+          22,
+          699,
+          138
+        ],
+        "detail": "Original target RGB camera view"
+      },
+      {
+        "id": "source-robot",
+        "bounds_source_pixels": [
+          40,
+          69,
+          400,
+          538
+        ],
+        "detail": "Original isolated robot photograph silhouette"
+      },
+      {
+        "id": "target-robot",
+        "bounds_source_pixels": [
+          570,
+          69,
+          930,
+          538
+        ],
+        "detail": "Original isolated robot photograph silhouette"
+      },
+      {
+        "id": "adapted-gripper",
+        "bounds_source_pixels": [
+          1004,
+          127,
+          1200,
+          310
+        ],
+        "detail": "Original isolated transformed gripper photograph"
+      },
+      {
+        "id": "source-final-object",
+        "bounds_source_pixels": [
+          313,
+          459,
+          418,
+          541
+        ],
+        "detail": "Original blue object photograph"
+      },
+      {
+        "id": "target-final-object",
+        "bounds_source_pixels": [
+          918,
+          459,
+          1027,
+          542
+        ],
+        "detail": "Original blue object photograph"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "source-observation",
+      "shape": "image",
+      "label": "",
+      "x": 11,
+      "y": 22,
+      "width": 154,
+      "height": 116,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/source-observation.png",
+      "alt": "Original source RGB camera view"
+    },
+    {
+      "id": "target-observation",
+      "shape": "image",
+      "label": "",
+      "x": 545,
+      "y": 22,
+      "width": 154,
+      "height": 116,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/target-observation.png",
+      "alt": "Original target RGB camera view"
+    },
+    {
+      "id": "source-robot",
+      "shape": "image",
+      "label": "",
+      "x": 40,
+      "y": 69,
+      "width": 360,
+      "height": 469,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/robot-silhouette.png",
+      "alt": "Original isolated robot photograph silhouette; no labels or arrows baked in"
+    },
+    {
+      "id": "target-robot",
+      "shape": "image",
+      "label": "",
+      "x": 570,
+      "y": 69,
+      "width": 360,
+      "height": 469,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/robot-silhouette.png",
+      "alt": "Original isolated robot photograph silhouette; no labels or arrows baked in"
+    },
+    {
+      "id": "adapted-gripper",
+      "shape": "image",
+      "label": "",
+      "x": 1004,
+      "y": 127,
+      "width": 196,
+      "height": 183,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/adapted-gripper.png",
+      "alt": "Original isolated transformed gripper photograph"
+    },
+    {
+      "id": "source-final-object",
+      "shape": "image",
+      "label": "",
+      "x": 313,
+      "y": 459,
+      "width": 105,
+      "height": 82,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/source-final-object.png",
+      "alt": "Original blue object photograph"
+    },
+    {
+      "id": "target-final-object",
+      "shape": "image",
+      "label": "",
+      "x": 918,
+      "y": 459,
+      "width": 109,
+      "height": 83,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/target-final-object.png",
+      "alt": "Original blue object photograph"
+    },
+    {
+      "id": "source-label",
+      "shape": "text",
+      "label": "Source",
+      "x": 29,
+      "y": 135,
+      "width": 139,
+      "height": 49,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 39,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "target-label",
+      "shape": "text",
+      "label": "Target",
+      "x": 558,
+      "y": 135,
+      "width": 141,
+      "height": 49,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 39,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "panel-divider",
+      "shape": "path",
+      "label": "",
+      "x": 507,
+      "y": 4,
+      "width": 0.1,
+      "height": 555,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.8,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 555
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "source-action-arc",
+      "shape": "path",
+      "label": "",
+      "x": 194,
+      "y": 312,
+      "width": 133,
+      "height": 147,
+      "fill": "none",
+      "stroke": "#FF4249",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 39,
+            "y": 2
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": -35,
+            "y1": 85,
+            "x2": 4,
+            "y2": 153,
+            "x": 126,
+            "y": 145
+          }
+        }
+      ],
+      "stroke_width": 3.3,
+      "dash": false
+    },
+    {
+      "id": "source-action-head",
+      "shape": "path",
+      "label": "",
+      "x": 308,
+      "y": 446,
+      "width": 19,
+      "height": 21,
+      "fill": "#FF4249",
+      "stroke": "#FF4249",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 19,
+            "y": 11
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 4,
+            "y": 11
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 21
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "target-action-arc",
+      "shape": "path",
+      "label": "",
+      "x": 906,
+      "y": 274,
+      "width": 98,
+      "height": 170,
+      "fill": "none",
+      "stroke": "#FF4249",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 97,
+            "y": 2
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": -11,
+            "y1": 1,
+            "x2": -35,
+            "y2": 71,
+            "x": 59,
+            "y": 166
+          }
+        }
+      ],
+      "stroke_width": 3.3,
+      "dash": false
+    },
+    {
+      "id": "target-action-head",
+      "shape": "path",
+      "label": "",
+      "x": 950,
+      "y": 423,
+      "width": 20,
+      "height": 21,
+      "fill": "#FF4249",
+      "stroke": "#FF4249",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 20,
+            "y": 21
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 13
+          }
+        },
+        {
+          "lineTo": {
+            "x": 11,
+            "y": 11
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "source-action-label",
+      "shape": "text",
+      "label": "u",
+      "x": 168,
+      "y": 405,
+      "width": 32,
+      "height": 47,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 40,
+      "font_family": "Times New Roman",
+      "text_color": "#FF4249",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "target-action-label",
+      "shape": "text",
+      "label": "u",
+      "x": 874,
+      "y": 326,
+      "width": 32,
+      "height": 47,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 40,
+      "font_family": "Times New Roman",
+      "text_color": "#FF4249",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "camera-displacement",
+      "shape": "path",
+      "label": "",
+      "x": 874,
+      "y": 156,
+      "width": 113,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#369FFF",
+      "stroke_width": 3.5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 113,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "camera-displacement-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 966.0,
+      "y": 146.13,
+      "width": 21.0,
+      "height": 19.74000000000001,
+      "fill": "#369FFF",
+      "stroke": "#369FFF",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 21.0,
+            "y": 9.870000000000005
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 19.74000000000001
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "camera-delta",
+      "shape": "text",
+      "label": "ΔT",
+      "x": 884,
+      "y": 104,
+      "width": 66,
+      "height": 48,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 42,
+      "font_family": "Times New Roman",
+      "text_color": "#369FFF",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "camera-superscript",
+      "shape": "text",
+      "label": "cam",
+      "x": 949,
+      "y": 102,
+      "width": 56,
+      "height": 28,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 29,
+      "font_family": "Times New Roman",
+      "text_color": "#369FFF",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    }
+  ],
+  "edges": []
+}

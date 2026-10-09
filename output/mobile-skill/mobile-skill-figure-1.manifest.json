@@ -1,0 +1,107 @@
+{
+  "schema_version": 1,
+  "diagram_id": "mobile-skill-figure-1",
+  "source_sha256": "44d779ddcad4c38ac22b3a2be37e004f7e5ee2e2e227e5a4755f7c1806d641bb",
+  "assets": [
+    {
+      "name": "mobile-skill-source-component-0.png",
+      "sha256": "d28f5b785e2e5245e46da39ed93d606dc9da834a03d554cbf3caa973d05f7f9b"
+    },
+    {
+      "name": "mobile-skill-source-component-1.png",
+      "sha256": "21a2a96637768a74111c6511230a119732fa09329a3fafc22e9fb9afd6c8579e"
+    },
+    {
+      "name": "mobile-skill-source-component-2.png",
+      "sha256": "8dd307781370859849bb9b84604faf55d7af97950ff2f3d38f4bdbc179714311"
+    },
+    {
+      "name": "mobile-skill-source-component-3.png",
+      "sha256": "9a1a21eebc4c6d9f0de66345eb31f5029c818e042e09d6daaba9484a74d0b6c8"
+    },
+    {
+      "name": "mobile-skill-source-component-4.png",
+      "sha256": "28fedd1d9f0238fc40d6fae0070f70def1baa05b3ed661be09c39542efb90067"
+    }
+  ],
+  "provenance": {
+    "paper_title": "Autonomous Skill Acquisition on a Mobile Manipulator",
+    "paper_url": "https://lis.csail.mit.edu/pubs/konidaris-aaai11b.pdf",
+    "figure": "Figure 1",
+    "license": "Copyright2011AAAI; all rights reserved. Private authorized reference copy.",
+    "notes": "Source-layout reconstruction using native PDF paths and live ordinary labels. Each source photograph, illustration or mathematical bitmap is an isolated insert with original clipping. No whole-figure raster backdrop. Native paths are not semantically attached connectors.",
+    "page": 2,
+    "status": "figure_recreation",
+    "source_sha256": "bc868e1bda49db20312948a14276bbfc81e7250fb6bfb8e7a272055dd8aaaee2",
+    "source_crop_pdf_points": [
+      78,
+      204,
+      271,
+      444
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "outlined_font_families": [
+      "CMM",
+      "CMSY",
+      "CMEX",
+      "CambriaMath"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "dash_fidelity": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+    "extraction_warnings": [
+      "11 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "rotated text needs manual reconstruction: R",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: t",
+      "rotated text needs manual reconstruction: u",
+      "rotated text needs manual reconstruction: r",
+      "rotated text needs manual reconstruction: n",
+      "rotated text needs manual reconstruction: F",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: a",
+      "rotated text needs manual reconstruction: t",
+      "rotated text needs manual reconstruction: u",
+      "rotated text needs manual reconstruction: r",
+      "rotated text needs manual reconstruction: e",
+      "rotated text needs manual reconstruction: s",
+      "unhandled image/shading at seq 1: [209.8751220703125, 426.87701416015625, 222.3875274658203, 439.389404296875]; requires reviewed raster region",
+      "unhandled image/shading at seq 2: [214.56622314453125, 428.3795471191406, 232.29212951660156, 438.8065490722656]; requires reviewed raster region",
+      "unhandled image/shading at seq 3: [223.20706176757812, 428.3795471191406, 233.63406372070312, 440.8919372558594]; requires reviewed raster region",
+      "unhandled image/shading at seq 4: [221.12167358398438, 428.5098876953125, 231.54867553710938, 438.9368896484375]; requires reviewed raster region",
+      "unhandled image/shading at seq 5: [249.22222900390625, 359.3264465332031, 269.0335388183594, 379.13775634765625]; requires reviewed raster region"
+    ],
+    "ignored_invisible_text_spans": 0,
+    "text_editability": "Ordinary source labels are live text; selected mathematical fonts are native outlines. Source image inserts retain internal raster pixels.",
+    "image_reconstruction": "Each source raster instance is isolated with complete source SVG ancestry, source clipping, mask and paint order. No full-figure image is used.",
+    "extraction_warnings_reviewed": [
+      "Source image/shading warnings resolved by isolated source SVG inserts preserving alpha, clip and paint order. Source pixels and final reconstruction preview inspected side by side; original native paths retained. Rotated ordinary labels restored as single native text boxes. Source clipping is preserved for images; crop-crossing background paths omitted. PowerPoint dash length/cap rendering uses closest native preset."
+    ]
+  },
+  "metrics": {
+    "native_nodes": 65,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 60,
+    "native_text_objects": 5,
+    "raster_images": 5,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "mobile-skill-figure-1.drawio",
+      "sha256": "9f72c01d640e683dffe05a24b945f8cf789c2676034232bb9183bbaeae384a9c"
+    },
+    {
+      "name": "mobile-skill-figure-1.png",
+      "sha256": "97bee2b337a7c28cdfc501d5c413ab060732411aa271da9e9f439feea8e05b0b"
+    },
+    {
+      "name": "mobile-skill-figure-1.pptx",
+      "sha256": "8d60fe481d6ebbdf3b6a02c58b4dcfe52a7ad07149f144dc72714cd3c28d9700"
+    }
+  ]
+}

@@ -54,3 +54,41 @@ def finish():
  validation={'diagram_id':s['id'],'source_scene_sha256':sha(scene),'source_pdf_sha256':sha(pdf),'checked_files':[{'name':s['id']+'.'+ext,'sha256':sha(C/(s['id']+'.'+ext))} for ext in ['drawio','png','pptx']],'review_status':'source pixels inspected; reconstruction preview review pending; independent application QA pending','native_xml_counts':counts,'editability':{'live_typeable_labels':sum(bool(z.get('label')) for z in s['nodes']),'native_paths':sum(z['shape']=='path' for z in s['nodes']),'raster_images':sum(z['shape']=='image' for z in s['nodes']),'raster_boundaries':s['provenance']['raster_details']},'checks':{'source_title':'Verified PDF title and fixed version from survey evidence; PDF hash rechecked','source_figure':'Actual PDF figure inspected; crop includes complete source diagram','drawio':'Native XML generated; draw.io application editing not tested','powerpoint':'Native XML counts inspected; PowerPoint GUI editing not tested'},'limitations':['Flattened source manually rebuilt; font metrics, arrowheads and stroke widths approximate original','Native paths are independently editable but not semantically attached connectors','No PowerPoint or draw.io GUI edit validation claimed']}
  (C/'VALIDATION.json').write_text(json.dumps(validation,indent=2,ensure_ascii=False)+'\n')
  print(SLUG,counts,validation['editability'])
+FONT='Arial'
+s['provenance']['notes']+=' Four original scene photographs are isolated raster crops. All stage titles, VLMs, database/document symbols, decision/router shapes, status blocks and connecting arrows are native.'
+blue='#263E60';doccol='#5D858C';purple='#BA91C0';sim='#881963';tests='#D6312B';vlm='#EFF3D9'
+for id,x,y,w,h,title in [('scene',8,30,222,229,'1) Scene Comprehension'),('task',239,30,191,229,'2) Task Generation'),('initial',436,30,263,229,'3) Initial Simulation'),('refinement',8,286,691,215,'4) Simulation Refinement')]:
+ rect(id+'-panel',x,y,w,h,'#FFFFFF',blue,1.7);text(id+'-title',title,x,y-27,w,24,15,align='left')
+for id,box in [('scene-photo',(16,36,124,144)),('task-photo',(245,37,354,144)),('initial-photo',(440,37,548,144)),('final-photo',(533,310,656,433))]:image(id,box,'Original robot scene rendering; objects and small diagnostic overlays remain raster')
+# Native database cylinder.
+rect('database-body',129,55,92,71,'#FFFFFF',blue,1.8)
+ellipse('database-bottom',129,114,92,24,'#FFFFFF',blue,1.8)
+rect('database-center',130,57,90,68,'#FFFFFF','none',0)
+ellipse('database-top',129,45,92,23,'#FFFFFF',blue,1.8)
+text('database-label','asset\ndatabase',135,77,80,42,16)
+def document(id,x,y,w,h,color,label,fs=14):
+ cmds=[{'moveTo':{'x':0,'y':0}},{'lineTo':{'x':w,'y':0}},{'lineTo':{'x':w,'y':h-12}},{'cubicBezTo':{'x1':w*.6,'y1':h-13,'x2':w*.4,'y2':h+5,'x':0,'y':h-5}},{'close':{}}]
+ curve(id,x,y,w,h,cmds,blue,1,color);text(id+'-label',label,x+1,y+10,w-2,h-21,fs,'#FFFFFF')
+def trapezoid(id,x,y,w,h):poly(id,[(x,y),(x+w,y),(x+w-24,y+h),(x+24,y+h)],blue,1,vlm,True);text(id+'-label','VLM',x,y+5,w,h-9,16)
+trapezoid('scene-vlm',59,149,125,33);trapezoid('task-vlm',275,150,125,34);trapezoid('initial-vlm',504,149,125,33)
+document('scene-description',90,186,62,70,doccol,'scene\ndescription',12)
+document('task-scene-description',360,54,62,70,doccol,'scene\ndescription',12)
+document('task-output',306,188,62,66,purple,'task',16)
+document('initial-scene-description',556,54,62,70,doccol,'scene\ndescription',12)
+document('initial-task',628,53,62,70,purple,'task',16)
+for id,x,y,w,h,c,label in [('initial-simulation',476,194,83,39,sim,'simulation'),('initial-tests',575,194,83,39,tests,'tests'),('refine-simulation',53,345,84,39,sim,'simulation'),('refine-tests',53,399,84,39,tests,'tests'),('final-simulation',551,441,84,39,sim,'simulation')]:
+ rounded(id,x,y,w,h,7,c,blue,1);text(id+'-label',label,x+2,y+5,w-4,h-10,14,'#FFFFFF')
+poly('execute',[(152,361),(255,391),(152,421)],blue,1,'#FFFFFF',True);text('execute-label','execute',153,375,76,32,16)
+document('error-document',272,357,62,70,'#DFDEE1','error',16)
+for n in s['nodes']:
+ if n['id']=='error-document-label':n['text_color']='#000000'
+poly('router',[(351,328),(413,351),(413,422),(351,445)],blue,1,vlm,True);text('router-label','router',353,371,58,33,16)
+rect('router-status',360,397,13,13,purple,blue,1)
+for id,y,label in [('simulation',300,'fix\nsimulation'),('tests',441,'fix\ntests')]:
+ poly('fix-'+id,[(166,y+2),(254,y-10),(254,y+52),(166,y+42)],blue,1,vlm,True);text('fix-'+id+'-label',label,169,y+3,61,39,14)
+ for k,col in enumerate([sim,'#F6C27C','#D4E6EE'] if id=='simulation' else [purple,'#D4E6EE',tests]):
+  poly(f'fix-{id}-token-{k}',[(238,y-5+k*19),(251,y-7+k*19),(251,y+6+k*19),(238,y+8+k*19)],blue,.8,col,True)
+ if id=='simulation':rect('fix-simulation-token-main',220,y+2,14,14,sim,blue,1)
+for id,pts in [('fix-sim-return',[(166,320),(95,320),(95,344)]),('fix-tests-return',[(166,462),(95,462),(95,439)]),('router-fix-sim',[(414,368),(458,368),(458,320),(255,320)]),('router-fix-tests',[(414,403),(458,403),(458,462),(255,462)]),('router-success',[(414,386),(482,386),(482,460),(550,460)])]:line(id,pts,'#808080',1.8,True,size=8)
+text('no-error-label','no error',488,460,52,18,11)
+finish()

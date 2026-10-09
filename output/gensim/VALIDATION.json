@@ -1,0 +1,41 @@
+{
+  "diagram_id": "gensim-figure-2",
+  "source_scene_sha256": "e0d740d0be112ebf86e3fa6a4f4c113bb3208542d5e89e69d59696ec1c1dab29",
+  "source_pdf_sha256": "97b91f5da06223de29b894792f90a00a9c0732bf05df0f92f1d1bddd21332962",
+  "checked_files": [
+    {
+      "name": "gensim-figure-2.drawio",
+      "sha256": "08edff0e256f31d4f981d140bf67761421c6ebf21c4135990227b5cf436ececa"
+    },
+    {
+      "name": "gensim-figure-2.png",
+      "sha256": "447e63cbc65c372c6fca3d2a8f6d14d114964e35c71f389deb3e565b003a439f"
+    },
+    {
+      "name": "gensim-figure-2.pptx",
+      "sha256": "2eed8b68e20756c38388726d8e0dbe825a7b0eab56cd8bfbbf2ff400d04fc4ea"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 2 PDFpage3 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 93,
+    "p:pic": 8,
+    "a:custGeom": 18,
+    "p:cxnSp": 0,
+    "a:t": 67
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

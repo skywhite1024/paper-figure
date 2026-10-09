@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "lodestar-long-horizon-dexterity-via-synthetic-data-augmentation-from-human-demonstrations",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.485514Z",
-  "updated_at": "2026-10-09T20:14:36.435681Z",
+  "updated_at": "2026-10-09T21:45:39.900341Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/lodestar/README.md",
+          "output/lodestar/VALIDATION.json"
+        ],
+        "output_directory": "output/lodestar",
+        "source_sha256": "168186b6e75d1ce28e7cfaf06428404d46c81a9fcc1e96e4a787caa58161fa05",
+        "scene_sha256": "3a6a4aac6ddba87f8346addaa99ee02bd4b21e36c079f6460b206883751b5083",
+        "text_editability": {
+          "typeable_text_objects": 34,
+          "native_freeform_paths": 130,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -287,6 +301,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T21:45:39.900341Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "4f66fe198bc696bb3d044aed99a7e840ecd0c8f8cf6f3cbeb7a3ba2871ae28ca",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/lodestar/README.md",
+                "output/lodestar/VALIDATION.json"
+              ],
+              "output_directory": "output/lodestar",
+              "source_sha256": "168186b6e75d1ce28e7cfaf06428404d46c81a9fcc1e96e4a787caa58161fa05",
+              "scene_sha256": "3a6a4aac6ddba87f8346addaa99ee02bd4b21e36c079f6460b206883751b5083",
+              "text_editability": {
+                "typeable_text_objects": 34,
+                "native_freeform_paths": 130,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

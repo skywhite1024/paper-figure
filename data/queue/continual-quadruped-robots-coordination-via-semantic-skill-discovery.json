@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "continual-quadruped-robots-coordination-via-semantic-skill-discovery",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.476179Z",
-  "updated_at": "2026-10-09T20:14:36.020133Z",
+  "updated_at": "2026-10-09T21:38:36.439440Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/conquer/README.md",
+          "output/conquer/VALIDATION.json"
+        ],
+        "output_directory": "output/conquer",
+        "source_sha256": "c19f9b1df96865992892f4fac84506eb1a16edac32c170b00a539470cc2d69b6",
+        "scene_sha256": "70f6aab19d5930a4e5b0a04289ce69a9067500379a59b2aaf423cd22b55094b1",
+        "text_editability": {
+          "typeable_text_objects": 63,
+          "native_freeform_paths": 281,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -287,6 +301,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T21:38:36.439440Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "a92863c48de0368c8bc0aa041dfd67730e8e4e00f52c3fee068d2fe9708dc1de",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/conquer/README.md",
+                "output/conquer/VALIDATION.json"
+              ],
+              "output_directory": "output/conquer",
+              "source_sha256": "c19f9b1df96865992892f4fac84506eb1a16edac32c170b00a539470cc2d69b6",
+              "scene_sha256": "70f6aab19d5930a4e5b0a04289ce69a9067500379a59b2aaf423cd22b55094b1",
+              "text_editability": {
+                "typeable_text_objects": 63,
+                "native_freeform_paths": 281,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

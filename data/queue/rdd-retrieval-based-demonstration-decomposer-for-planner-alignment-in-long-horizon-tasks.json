@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "rdd-retrieval-based-demonstration-decomposer-for-planner-alignment-in-long-horizon-tasks",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.484994Z",
-  "updated_at": "2026-10-09T20:14:36.537303Z",
+  "updated_at": "2026-10-09T21:34:48.001388Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/rdd/README.md",
+          "output/rdd/VALIDATION.json"
+        ],
+        "output_directory": "output/rdd",
+        "source_sha256": "f3e2f02817b13118305ca649ff31713bc04d1c6be4374ebb104acaca4156daf3",
+        "scene_sha256": "05def3d195b618beee8a7376390aea949f43cfd79a6724380eab2db6ce3fbf50",
+        "text_editability": {
+          "typeable_text_objects": 11,
+          "native_freeform_paths": 46,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -287,6 +301,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T21:34:48.001388Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "5d0ca83e76cca38189c588fa12822bb59a1f867bbb88080a74e3e9fa591194b8",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/rdd/README.md",
+                "output/rdd/VALIDATION.json"
+              ],
+              "output_directory": "output/rdd",
+              "source_sha256": "f3e2f02817b13118305ca649ff31713bc04d1c6be4374ebb104acaca4156daf3",
+              "scene_sha256": "05def3d195b618beee8a7376390aea949f43cfd79a6724380eab2db6ce3fbf50",
+              "text_editability": {
+                "typeable_text_objects": 11,
+                "native_freeform_paths": 46,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

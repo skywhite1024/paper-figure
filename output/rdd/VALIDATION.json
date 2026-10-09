@@ -1,0 +1,42 @@
+{
+  "diagram_id": "rdd-figure-2",
+  "source_scene_sha256": "05def3d195b618beee8a7376390aea949f43cfd79a6724380eab2db6ce3fbf50",
+  "source_pdf_sha256": "f3e2f02817b13118305ca649ff31713bc04d1c6be4374ebb104acaca4156daf3",
+  "checked_files": [
+    {
+      "name": "rdd-figure-2.drawio",
+      "sha256": "cb6b397efd1c39e5d183770dd524112f8d2b69bc15f7af19c49169c09d33f61b"
+    },
+    {
+      "name": "rdd-figure-2.png",
+      "sha256": "c5b9a198806397fc65c0535d3f815723bde16b230c16905d836d94619a4284b0"
+    },
+    {
+      "name": "rdd-figure-2.pptx",
+      "sha256": "b67b6d83d44ed316f5f49cbd6c962c53d9d604cc487dd492a6432bd9225a88a8"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 2 PDFpage4 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 97,
+    "p:pic": 40,
+    "a:custGeom": 46,
+    "p:cxnSp": 0,
+    "a:t": 11
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment",
+    "40 separate original raster components include math formulas and symbols as well as observations/icons; math editability is partial"
+  ]
+}

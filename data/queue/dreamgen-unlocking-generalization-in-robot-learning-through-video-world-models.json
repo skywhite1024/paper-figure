@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "dreamgen-unlocking-generalization-in-robot-learning-through-video-world-models",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.509745Z",
-  "updated_at": "2026-10-09T20:49:28.720293Z",
+  "updated_at": "2026-10-09T21:45:39.405248Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/dreamgen/README.md",
+          "output/dreamgen/VALIDATION.json"
+        ],
+        "output_directory": "output/dreamgen",
+        "source_sha256": "e4e2c5c9e664d9331adb49c230053a76cf5bb4c3501341f4d9b372ecc585684c",
+        "scene_sha256": "d5e7c3bf89bd70f2fb112ba6931c1e432b269552bb5bd8dc40b57f691d7c6809",
+        "text_editability": {
+          "typeable_text_objects": 12,
+          "native_freeform_paths": 47,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T21:45:39.405248Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "523728a6fe6e599dd5790cd3d9bcdcf31393504b14e710ab62b5285b7b8f2f1e",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/dreamgen/README.md",
+                "output/dreamgen/VALIDATION.json"
+              ],
+              "output_directory": "output/dreamgen",
+              "source_sha256": "e4e2c5c9e664d9331adb49c230053a76cf5bb4c3501341f4d9b372ecc585684c",
+              "scene_sha256": "d5e7c3bf89bd70f2fb112ba6931c1e432b269552bb5bd8dc40b57f691d7c6809",
+              "text_editability": {
+                "typeable_text_objects": 12,
+                "native_freeform_paths": 47,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

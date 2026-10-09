@@ -1,0 +1,108 @@
+{
+  "diagram_id": "mobile-skill-figure-1",
+  "source_scene_sha256": "44d779ddcad4c38ac22b3a2be37e004f7e5ee2e2e227e5a4755f7c1806d641bb",
+  "source_pdf_sha256": "bc868e1bda49db20312948a14276bbfc81e7250fb6bfb8e7a272055dd8aaaee2",
+  "checked_files": [
+    {
+      "name": "mobile-skill-figure-1.drawio",
+      "sha256": "9f72c01d640e683dffe05a24b945f8cf789c2676034232bb9183bbaeae384a9c"
+    },
+    {
+      "name": "mobile-skill-figure-1.png",
+      "sha256": "97bee2b337a7c28cdfc501d5c413ab060732411aa271da9e9f439feea8e05b0b"
+    },
+    {
+      "name": "mobile-skill-figure-1.pptx",
+      "sha256": "8d60fe481d6ebbdf3b6a02c58b4dcfe52a7ad07149f144dc72714cd3c28d9700"
+    }
+  ],
+  "review_status": "Independent source/preview and native structure passed; actual application rendering pending",
+  "checks": {
+    "source_pdf_hash": "passed",
+    "source_crop_normalized_channel_mae": [
+      0.0,
+      0.0,
+      0.0
+    ],
+    "version_embedded": "Not applicable: official author-hosted AAAI 2011 PDF; source URL and SHA256 pin exact edition",
+    "all_pages_text_readable": true,
+    "all_export_hashes": "passed",
+    "all_scene_asset_hashes": "passed",
+    "all_pptx_xml": "passed",
+    "decoded_drawio_stencils": 60,
+    "drawio_app_render": "not performed: isolated display socket restrictions",
+    "pptx_app_render": "pending: current isolated LibreOffice startup exits 1 without diagnostic output",
+    "source_title": "Actual PDF first-page title checked against catalog; source edition/hash pinned",
+    "source_page_figure": "Independent PDF crop compared with original PNG and delivered preview",
+    "source_preview_visual": "passed with disclosed image/font/math/dash limitations"
+  },
+  "native_xml_counts": {
+    "p:sp": 70,
+    "p:pic": 5,
+    "a:custGeom": 60,
+    "p:cxnSp": 0,
+    "a:t": 5
+  },
+  "source_title": "Autonomous Skill Acquisition on a Mobile Manipulator",
+  "typeable_labels": [
+    "Return",
+    "Features",
+    "Door",
+    "Key",
+    "Lock"
+  ],
+  "raster_nodes": [
+    {
+      "id": "mobile-skill-source-component-0",
+      "asset": "mobile-skill-source-component-0.png",
+      "x": 395.6253662109375,
+      "y": 668.6310424804688,
+      "width": 37.53721618652344,
+      "height": 37.53717041015625,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "mobile-skill-source-component-1",
+      "asset": "mobile-skill-source-component-1.png",
+      "x": 409.69866943359375,
+      "y": 673.1386413574219,
+      "width": 53.17771911621094,
+      "height": 31.281005859375,
+      "canvas_area_fraction": 0.004
+    },
+    {
+      "id": "mobile-skill-source-component-2",
+      "asset": "mobile-skill-source-component-2.png",
+      "x": 435.6211853027344,
+      "y": 673.1386413574219,
+      "width": 31.281005859375,
+      "height": 37.53717041015625,
+      "canvas_area_fraction": 0.003
+    },
+    {
+      "id": "mobile-skill-source-component-3",
+      "asset": "mobile-skill-source-component-3.png",
+      "x": 429.3650207519531,
+      "y": 673.5296630859375,
+      "width": 31.281005859375,
+      "height": 31.281005859375,
+      "canvas_area_fraction": 0.002
+    },
+    {
+      "id": "mobile-skill-source-component-4",
+      "asset": "mobile-skill-source-component-4.png",
+      "x": 513.6666870117188,
+      "y": 465.9793395996094,
+      "width": 59.433929443359375,
+      "height": 59.433929443359375,
+      "canvas_area_fraction": 0.008
+    }
+  ],
+  "limitations": [
+    "Actual new LibreOffice/PowerPoint rendering not verified",
+    "Actual draw.io application rendering not verified",
+    "Source math may be editable outline paths rather than typeable equations",
+    "Freeform paths lack semantic attachment"
+  ],
+  "issues": []
+}
