@@ -12,7 +12,24 @@
   "page_count": 10,
   "source_status": "accessible",
   "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-  "figure_candidates": [],
+  "figure_candidates": [
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption": "Overview of the Collaborative Multi-Agent Search Tree Framework.",
+      "crop_pdf_points": [
+        318,
+        52,
+        559,
+        200
+      ],
+      "vector_paths": 52,
+      "native_text_spans": 25,
+      "raster_images": 0,
+      "visually_inspected": true,
+      "notes": "Seven-agent search tree framework with native tree and stage labels."
+    }
+  ],
   "caption_search_cues": [
     {
       "figure": "Figure 1",
@@ -93,5 +110,5 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
 }

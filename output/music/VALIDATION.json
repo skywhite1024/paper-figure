@@ -1,0 +1,48 @@
+{
+  "diagram_id": "music-figure-1",
+  "source_scene_sha256": "c8ca49a460b0523d44dc1cacc9ac640dbc549549faf718089614e85f0c040574",
+  "source_pdf_sha256": "fccb2c6c2463b42da75df0d35bb7f58a39be81b5a4544f2b1ab00b6e70e5fb17",
+  "checked_files": [
+    {
+      "name": "music-figure-1.drawio",
+      "sha256": "a1fade847b4b440942fb8ab20de116e7534d8720a5ab52d8cc1f1cba94799385"
+    },
+    {
+      "name": "music-figure-1.png",
+      "sha256": "84352a776ee34cc3b8109386d322144c6fb4455cf977edfd119261a41825019c"
+    },
+    {
+      "name": "music-figure-1.pptx",
+      "sha256": "bdc18cdae37c6c9d81f58d6a7e2abbc9f97e79c702764ef04bf180e39debf821"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 1 PDFpage3 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 279,
+    "p:pic": 0,
+    "a:custGeom": 245,
+    "p:cxnSp": 0,
+    "a:t": 34
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ],
+  "drawio_layout_revalidation": {
+    "previous_sha256": "7a885a0c7198953fa2718b244184cf38b9ad8a292c16774af2b2ea36ad5318ca",
+    "current_sha256": "a1fade847b4b440942fb8ab20de116e7534d8720a5ab52d8cc1f1cba94799385",
+    "xml_parse": "passed",
+    "change": "Exporter now honors source no_wrap and text_inset. Source nodes/labels/paths and PPTX/PNG bytes unchanged.",
+    "application_render": "not performed; isolated application display unavailable"
+  }
+}

@@ -33,7 +33,11 @@ class OutputTests(unittest.TestCase):
         self.addCleanup(self.tmp.cleanup)
         self.root = Path(self.tmp.name) / 'repository'
         self.root.mkdir()
-        shutil.copytree(ROOT / 'output', self.root / 'output')
+        (self.root / 'output').mkdir()
+        for path in (ROOT / 'output').iterdir():
+            if path.is_file(): shutil.copy2(path, self.root / 'output' / path.name)
+        for slug in ['aspire', 'roboreact']:
+            shutil.copytree(ROOT / 'output' / slug, self.root / 'output' / slug)
         shutil.copytree(ROOT / 'data/diagrams', self.root / 'data/diagrams')
         self.output = self.root / 'output'
 
@@ -198,3 +202,21 @@ class OutputTests(unittest.TestCase):
         path=self.output/'aspire/VALIDATION.json'
         path.write_text(json.dumps({'source_scene_sha256':'0'*64}))
         with self.assertRaises(ValidationError):refresh_output(self.root)
+
+
+class PublishedOutputIntegrityTests(unittest.TestCase):
+    def test_every_published_bundle_binds_current_source_and_qa(self):
+        from paper_figure.outputs import read_paper
+        for metadata in (ROOT/'output').glob('*/sources.json'):
+            with self.subTest(paper=metadata.parent.name): read_paper(metadata.parent, ROOT)
+
+    def test_every_published_local_link_resolves(self):
+        for path in (ROOT/'output').rglob('*'):
+            if path.suffix=='.html':
+                parser=Links();parser.feed(path.read_text());links=parser.links
+            elif path.suffix=='.md':links=re.findall(r'\]\(([^)]+)\)',path.read_text())
+            else:continue
+            for link in links:
+                parsed=urlsplit(link)
+                if not parsed.scheme and parsed.path:
+                    self.assertTrue((path.parent/unquote(parsed.path)).resolve().is_file(),(path,link))

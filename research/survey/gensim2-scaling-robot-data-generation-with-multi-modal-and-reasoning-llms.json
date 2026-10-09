@@ -12,7 +12,24 @@
   "page_count": 38,
   "source_status": "accessible",
   "license_note": "unverified",
-  "figure_candidates": [],
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "Overview of GenSim2 framework.",
+      "crop_pdf_points": [
+        106,
+        70,
+        506,
+        242
+      ],
+      "vector_paths": 37,
+      "native_text_spans": 45,
+      "raster_images": 31,
+      "visually_inspected": true,
+      "notes": "Four-stage task proposal, demonstration generation, multitask training and transfer architecture."
+    }
+  ],
   "caption_search_cues": [
     {
       "figure": "Figure 1",
@@ -75,5 +92,5 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
 }

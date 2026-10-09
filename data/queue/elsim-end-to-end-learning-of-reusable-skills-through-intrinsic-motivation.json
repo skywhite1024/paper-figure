@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "elsim-end-to-end-learning-of-reusable-skills-through-intrinsic-motivation",
-  "revision": 4,
+  "revision": 5,
   "status": "recreated",
   "created_at": "2026-10-09T20:04:59.470667Z",
-  "updated_at": "2026-10-09T20:14:58.174946Z",
+  "updated_at": "2026-10-09T20:20:44.439929Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -134,7 +134,12 @@
         ],
         "output_directory": "output/elsim",
         "source_sha256": "b4d8d200e4bdf748a5f3b8522425e545e3b325015aca8bb1a7287c8025a40279",
-        "scene_sha256": "34f07edd148b00d8214b8368ea21c1cf32d20d543c08be15d49e0f2cef3ca3e0"
+        "scene_sha256": "34f07edd148b00d8214b8368ea21c1cf32d20d543c08be15d49e0f2cef3ca3e0",
+        "text_editability": {
+          "typeable_text_objects": 1,
+          "native_freeform_paths": 155,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
       }
     },
     "qa": {
@@ -323,6 +328,36 @@
               "output_directory": "output/elsim",
               "source_sha256": "b4d8d200e4bdf748a5f3b8522425e545e3b325015aca8bb1a7287c8025a40279",
               "scene_sha256": "34f07edd148b00d8214b8368ea21c1cf32d20d543c08be15d49e0f2cef3ca3e0"
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T20:20:44.439929Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "2b5ac85c4f22d4d13cf9f035350778f67ab990e9feba2a302c6f95f5fbe2e87b",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/elsim/README.md",
+                "output/elsim/VALIDATION.json"
+              ],
+              "output_directory": "output/elsim",
+              "source_sha256": "b4d8d200e4bdf748a5f3b8522425e545e3b325015aca8bb1a7287c8025a40279",
+              "scene_sha256": "34f07edd148b00d8214b8368ea21c1cf32d20d543c08be15d49e0f2cef3ca3e0",
+              "text_editability": {
+                "typeable_text_objects": 1,
+                "native_freeform_paths": 155,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

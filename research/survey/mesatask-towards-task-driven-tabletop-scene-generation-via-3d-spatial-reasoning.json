@@ -12,7 +12,24 @@
   "page_count": 39,
   "source_status": "accessible",
   "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-  "figure_candidates": [],
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 5,
+      "caption": "Dataset construction pipeline.",
+      "crop_pdf_points": [
+        62,
+        89,
+        530,
+        319
+      ],
+      "vector_paths": 63,
+      "native_text_spans": 67,
+      "raster_images": 43,
+      "visually_inspected": true,
+      "notes": "Scene image generation, coarse reconstruction, human-assisted refinement and dataset-statistic panels."
+    }
+  ],
   "caption_search_cues": [
     {
       "figure": "Figure 1",
@@ -57,5 +74,5 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
 }

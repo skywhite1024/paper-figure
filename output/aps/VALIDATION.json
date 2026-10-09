@@ -1,0 +1,48 @@
+{
+  "diagram_id": "aps-figure-2",
+  "source_scene_sha256": "0a8d0cfe21b934b1d6ecbade6b6c66f5e116ff5eb60c1a1e13f514af4282c63d",
+  "source_pdf_sha256": "4ec6775b24f294d39f97feb8d9954c5184c90faeab9563d385e3f32b3c1a436a",
+  "checked_files": [
+    {
+      "name": "aps-figure-2.drawio",
+      "sha256": "0fd952b34f1c13f446f1dcc2b21d101f50b1bdbbd2c24d67ec083458da1717c1"
+    },
+    {
+      "name": "aps-figure-2.png",
+      "sha256": "760d73d8c1531383f3903d3cba7066016fbb43d1849b82a4b34dc0fbb710cb6d"
+    },
+    {
+      "name": "aps-figure-2.pptx",
+      "sha256": "b8bb324e4a13a23dd1ad4ee157a62c0755410c3991bfb250014df2de1ba5d2f1"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 2 PDFpage4 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 64,
+    "p:pic": 0,
+    "a:custGeom": 48,
+    "p:cxnSp": 0,
+    "a:t": 16
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ],
+  "drawio_layout_revalidation": {
+    "previous_sha256": "452e1bcb67683f8532c53bbfa65fddfaa6bc4df1e8c886e4ed1efa2f7a5f24e1",
+    "current_sha256": "0fd952b34f1c13f446f1dcc2b21d101f50b1bdbbd2c24d67ec083458da1717c1",
+    "xml_parse": "passed",
+    "change": "Exporter now honors source no_wrap and text_inset. Source nodes/labels/paths and PPTX/PNG bytes unchanged.",
+    "application_render": "not performed; isolated application display unavailable"
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "diagram_id": "divide-discover-deploy-figure-2",
+  "source_scene_sha256": "0f73037c7e8155c0ac462efcb5a73372678d6615764808cfd17218d8c64337fa",
+  "source_pdf_sha256": "20d7dceb084e20ac7537d9ff1bac804e258f0e6e44d106006f91e0cf92b8bfd9",
+  "checked_files": [
+    {
+      "name": "divide-discover-deploy-figure-2.drawio",
+      "sha256": "129ce9ae77c4ceb56f9d55c2ca6dae9e81526b0516ac4dc9616a835816f1e44f"
+    },
+    {
+      "name": "divide-discover-deploy-figure-2.png",
+      "sha256": "c3c84e5de6abcc6a7278a1bc689c547cdf55e9a6f045cbe8a26764c1501869ca"
+    },
+    {
+      "name": "divide-discover-deploy-figure-2.pptx",
+      "sha256": "f5370a6afcbb25a60683ff589fd588450b0c77c8c4a0db1b828839533294d54b"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 2 PDFpage4 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 330,
+    "p:pic": 0,
+    "a:custGeom": 282,
+    "p:cxnSp": 0,
+    "a:t": 48
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ],
+  "drawio_layout_revalidation": {
+    "previous_sha256": "1f7512430fdea609d982976997537d344dd10ccba34038e987ecf20be1f08c3e",
+    "current_sha256": "129ce9ae77c4ceb56f9d55c2ca6dae9e81526b0516ac4dc9616a835816f1e44f",
+    "xml_parse": "passed",
+    "change": "Exporter now honors source no_wrap and text_inset. Source nodes/labels/paths and PPTX/PNG bytes unchanged.",
+    "application_render": "not performed; isolated application display unavailable"
+  }
+}

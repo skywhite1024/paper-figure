@@ -12,7 +12,24 @@
   "page_count": 23,
   "source_status": "accessible",
   "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-  "figure_candidates": [],
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 5,
+      "caption": "Option keyboard mediates between player and environment.",
+      "crop_pdf_points": [
+        287,
+        234,
+        498,
+        300
+      ],
+      "vector_paths": 22,
+      "native_text_spans": 14,
+      "raster_images": 0,
+      "visually_inspected": true,
+      "notes": "Compact native architecture: player, option keyboard, environment and abstraction boundary."
+    }
+  ],
   "caption_search_cues": [
     {
       "figure": "Figure 1",
@@ -39,5 +56,5 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
 }

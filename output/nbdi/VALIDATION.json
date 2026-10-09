@@ -1,0 +1,48 @@
+{
+  "diagram_id": "nbdi-figure-13",
+  "source_scene_sha256": "cfc69d8f6dd1df6953da236ed92655f408dbbbec17936022f6cd030005945b59",
+  "source_pdf_sha256": "57e1d6ffc34c92b5bb3dfe99d6df272e103161893d6607e4a0214d8ce5808109",
+  "checked_files": [
+    {
+      "name": "nbdi-figure-13.drawio",
+      "sha256": "66724f11726dcd1c134aecdb22b94ff7c7109385cf8922db7991bd1b76013ec2"
+    },
+    {
+      "name": "nbdi-figure-13.png",
+      "sha256": "38d8ce2642d171c10cbf409c17bd7660a12167025afb3389ca6f76e578cd5af9"
+    },
+    {
+      "name": "nbdi-figure-13.pptx",
+      "sha256": "5141c02852cb14c82edf9ad225ceb14ff728a160ef0a99caba95ebcd53b743e8"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 13 PDFpage14 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 404,
+    "p:pic": 0,
+    "a:custGeom": 384,
+    "p:cxnSp": 0,
+    "a:t": 20
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ],
+  "drawio_layout_revalidation": {
+    "previous_sha256": "0c7385791481c35e2b794f8dbdc847c386cc4b448d72b56584058eeb2fd21380",
+    "current_sha256": "66724f11726dcd1c134aecdb22b94ff7c7109385cf8922db7991bd1b76013ec2",
+    "xml_parse": "passed",
+    "change": "Exporter now honors source no_wrap and text_inset. Source nodes/labels/paths and PPTX/PNG bytes unchanged.",
+    "application_render": "not performed; isolated application display unavailable"
+  }
+}

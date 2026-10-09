@@ -5,7 +5,7 @@
   "checked_files": [
     {
       "name": "psd-figure-1.drawio",
-      "sha256": "ddeb13e5eb082b7494dd366ab7ca947514185b01792972577d1143cc3facc720"
+      "sha256": "5f59d4a90687146f1eaafe5b75a8fb57a35a36321ad03c0312eec76eb57cd699"
     },
     {
       "name": "psd-figure-1.png",
@@ -37,5 +37,12 @@
     "Some formulas/Type3 glyphs are outline paths rather than live text",
     "Source dash cadence and thin-line anti-aliasing vary by editor",
     "Freeform paths lack semantic endpoint attachment"
-  ]
+  ],
+  "drawio_layout_revalidation": {
+    "previous_sha256": "937335ed6f05471233c2bda8edc1450218147b2c5422060bdcaa35404c4975e2",
+    "current_sha256": "5f59d4a90687146f1eaafe5b75a8fb57a35a36321ad03c0312eec76eb57cd699",
+    "xml_parse": "passed",
+    "change": "Exporter now honors source no_wrap and text_inset. Source nodes/labels/paths and PPTX/PNG bytes unchanged.",
+    "application_render": "not performed; isolated application display unavailable"
+  }
 }

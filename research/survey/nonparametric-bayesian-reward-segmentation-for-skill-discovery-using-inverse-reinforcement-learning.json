@@ -1,0 +1,33 @@
+{
+  "catalog_index": 81,
+  "catalog_id": "nonparametric-bayesian-reward-segmentation-for-skill-discovery-using-inverse-reinforcement-learning",
+  "title_expected": "Nonparametric Bayesian Reward Segmentation for Skill Discovery Using Inverse Reinforcement Learning",
+  "source_url": "https://cs.brown.edu/people/gdk/pubs/npbrs.pdf",
+  "pdf_path": "build/sources/nonparametric-bayesian-reward-segmentation-for-skill-discovery-using-inverse-reinforcement-learning.pdf",
+  "pdf_sha256": "35b386763a5be453eab9f8b9a8b74409cf859d352c6acd0e2b932673e52abedc",
+  "pdf_title_observed": "Nonparametric Bayesian Reward Segmentation for Skill Discovery Using Inverse Reinforcement Learning",
+  "title_match": true,
+  "version": "official-proceedings",
+  "page_count": 7,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [
+    {
+      "figure": "Figure 3",
+      "page_1_based": 3,
+      "caption": "Graphical model of BP-HMM applied to MDPs.",
+      "crop_pdf_points": [
+        321,
+        300,
+        552,
+        440
+      ],
+      "vector_paths": 43,
+      "native_text_spans": 50,
+      "raster_images": 0,
+      "visually_inspected": true,
+      "notes": "Original probabilistic model with latent reward-function dependencies; mostly mathematical nodes, no ordinary labels."
+    }
+  ],
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+}

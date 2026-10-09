@@ -12,7 +12,24 @@
   "page_count": 15,
   "source_status": "accessible",
   "license_note": "unverified",
-  "figure_candidates": [],
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption": "AffordGen demonstration preprocessing, correspondence prediction and diverse demonstration generation.",
+      "crop_pdf_points": [
+        108,
+        82,
+        502,
+        297
+      ],
+      "vector_paths": 45,
+      "native_text_spans": 17,
+      "raster_images": 31,
+      "visually_inspected": true,
+      "notes": "Three-stage method overview dominated by object/robot renderings; source title manually verified."
+    }
+  ],
   "caption_search_cues": [
     {
       "figure": "Figure 1",
@@ -111,7 +128,7 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "ArXiv HTML citation_title uses Afford Correspondence; actual versionedPDF title prints Affordance Correspondence and exactly matches catalog. Figure inspection still pending.",
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
   "arxiv_metadata_title": "AffordGen: Generating Diverse Demonstrations for Generalizable Object Manipulation with Afford Correspondence",
   "title_review": "First-page pixels manually inspected2026-10-09"
 }

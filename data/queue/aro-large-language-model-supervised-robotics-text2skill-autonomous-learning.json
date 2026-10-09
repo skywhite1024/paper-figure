@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "aro-large-language-model-supervised-robotics-text2skill-autonomous-learning",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.481445Z",
-  "updated_at": "2026-10-09T20:14:35.903228Z",
+  "updated_at": "2026-10-09T20:20:44.308251Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/aro/README.md",
+          "output/aro/VALIDATION.json"
+        ],
+        "output_directory": "output/aro",
+        "source_sha256": "0ab55e2e71676eee57bb6970e7dcf7d0960080c0bd55991667b2f7aea1d2df69",
+        "scene_sha256": "756a2e0599582d7d04235ced03f8016a72e9b280c6736198f0945547cee07bef",
+        "text_editability": {
+          "typeable_text_objects": 17,
+          "native_freeform_paths": 14,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -287,6 +301,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:20:44.308251Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "848c07d513190bbd8b1e133b39a94f2afc3d5d9ad777f1e800b5715d0a4df964",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/aro/README.md",
+                "output/aro/VALIDATION.json"
+              ],
+              "output_directory": "output/aro",
+              "source_sha256": "0ab55e2e71676eee57bb6970e7dcf7d0960080c0bd55991667b2f7aea1d2df69",
+              "scene_sha256": "756a2e0599582d7d04235ced03f8016a72e9b280c6736198f0945547cee07bef",
+              "text_editability": {
+                "typeable_text_objects": 17,
+                "native_freeform_paths": 14,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

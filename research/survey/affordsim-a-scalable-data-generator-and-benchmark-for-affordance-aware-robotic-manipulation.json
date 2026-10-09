@@ -12,7 +12,24 @@
   "page_count": 26,
   "source_status": "accessible",
   "license_note": "unverified",
-  "figure_candidates": [],
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "Affordance-guided data generation pipeline of AffordSim.",
+      "crop_pdf_points": [
+        110,
+        70,
+        501,
+        175
+      ],
+      "vector_paths": 74,
+      "native_text_spans": 82,
+      "raster_images": 24,
+      "visually_inspected": true,
+      "notes": "VLM scene generation, affordance estimation and two-stage grasp pose selection."
+    }
+  ],
   "caption_search_cues": [
     {
       "figure": "Figure 1",
@@ -51,5 +68,5 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
 }

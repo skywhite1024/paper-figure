@@ -1,0 +1,33 @@
+{
+  "catalog_index": 74,
+  "catalog_id": "xskill-cross-embodiment-skill-discovery",
+  "title_expected": "XSkill: Cross Embodiment Skill Discovery",
+  "source_url": "https://proceedings.mlr.press/v229/xu23a/xu23a.pdf",
+  "pdf_path": "build/sources/xskill-cross-embodiment-skill-discovery.pdf",
+  "pdf_sha256": "c99c21d537d98e14430b650ed0b02eee012a932b349f53ba08a977e1ab30f5ca",
+  "pdf_title_observed": "XSkill: Cross Embodiment Skill Discovery\nMengda Xu 1, 2, Zhenjia Xu 1, Cheng Chi 1, Manuela Veloso 2,3, Shuran Song 1\n1 Department of Computer Science, Columbia University\n2 J.P. Morgan AI Research 3 School of Computer Science, Carnegie Mellon University (emeritus)\nAbstract: Human demonstration videos are a widely available data source for\nrobot learning and an intuitive user interface for express",
+  "title_match": true,
+  "version": "official-proceedings",
+  "page_count": 20,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption": "XSkill Discover.",
+      "crop_pdf_points": [
+        110,
+        71,
+        499,
+        161
+      ],
+      "vector_paths": 71,
+      "native_text_spans": 39,
+      "raster_images": 4,
+      "visually_inspected": true,
+      "notes": "Twin temporal encoders with skill prototypes and Sinkhorn clustering; human/robot video montage remains raster."
+    }
+  ],
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+}

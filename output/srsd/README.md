@@ -15,6 +15,8 @@ Figure 2 · PDF 第 4 页 · 2604.24127v1
 
 ## 来源与编辑边界
 
+可直接键入修改的文字对象：18；原生自由路径：133；独立栅格对象：3（内部像素不可编辑，可能包含照片、图标或源图公式，详见下方说明）。字形轮廓可移动/改色/编辑点，但不能像文本框一样直接改字；数学轮廓不是可输入新公式的公式对象。
+
 官方固定版本：https://arxiv.org/pdf/2604.24127v1
 
 Source crop visually inspected; faithful source extraction draft. Clear three-stage architecture. Reward math partly outlined paths; three raster human/world/robot icons.

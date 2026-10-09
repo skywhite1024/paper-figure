@@ -11,7 +11,7 @@
   "version": "2501.12668v3",
   "page_count": 25,
   "source_status": "accessible",
-  "license_note": "unverified",
+  "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
   "figure_candidates": [
     {
       "figure": "Figure 13",
@@ -40,7 +40,7 @@
     {
       "figure": "Figure 2",
       "page_1_based": 4,
-      "caption_excerpt": "Figure 2. Visualization of prediction error of ICM in maze and block stacking environment. Note the same offline data that is used to train ICM was used to compute this prediction error. (A), (B) and (C) are the state-action pairs with the highest prediction error, while (D), (E) and (F) are the ones with the lowest. Critical decision points—such as crossroads or states involving block manipulation—are typically associated with high prediction er",
+      "caption_excerpt": "Figure 2. Visualization of prediction error of ICM in maze and block stacking environment. Note the same offline data that is used to train ICM was used to compute this prediction error. (A), (B) and (C) are the state-action pairs with the highest prediction error, while (D), (E) and (F) are the ones with the lowest. Critical decision points\u2014such as crossroads or states involving block manipulation\u2014are typically associated with high prediction er",
       "visually_inspected": false
     },
     {
@@ -52,13 +52,13 @@
     {
       "figure": "Figure 5",
       "page_1_based": 6,
-      "caption_excerpt": "Figure 5. Performances of our method and baselines in solving downstream tasks. The shaded region represents 95% confidence interval across five different seeds. The last column of the table below illustrates the percentage improvement of our method over SPiRL. which is an extended version of MDP that supports ac- tions of different execution lengths. We aim to maxi- mize discounted sum of rewards P t∈T ˜r(st, zt) where T is set of time steps whe",
+      "caption_excerpt": "Figure 5. Performances of our method and baselines in solving downstream tasks. The shaded region represents 95% confidence interval across five different seeds. The last column of the table below illustrates the percentage improvement of our method over SPiRL. which is an extended version of MDP that supports ac- tions of different execution lengths. We aim to maxi- mize discounted sum of rewards P t\u2208T \u02dcr(st, zt) where T is set of time steps whe",
       "visually_inspected": false
     },
     {
       "figure": "Figure 6",
       "page_1_based": 7,
-      "caption_excerpt": "Figure 6. Performances of our method and baselines in solving downstream tasks. The shaded region and error bar represents 95% confidence interval across five different seeds. Thus, our findings validate that ICM can serve as an effec- tive state-action novelty estimator when pre-trained with offline trajectory datasets. 6.2. Environments Two navigation tasks (Mazes sized 30×30 and 40×40) and two simulated robot manipulation tasks (Kitchen, Spars",
+      "caption_excerpt": "Figure 6. Performances of our method and baselines in solving downstream tasks. The shaded region and error bar represents 95% confidence interval across five different seeds. Thus, our findings validate that ICM can serve as an effec- tive state-action novelty estimator when pre-trained with offline trajectory datasets. 6.2. Environments Two navigation tasks (Mazes sized 30\u00d730 and 40\u00d740) and two simulated robot manipulation tasks (Kitchen, Spars",
       "visually_inspected": false
     },
     {

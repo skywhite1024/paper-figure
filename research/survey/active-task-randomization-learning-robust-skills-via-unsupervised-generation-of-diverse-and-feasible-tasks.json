@@ -12,7 +12,24 @@
   "page_count": 8,
   "source_status": "accessible",
   "license_note": "unverified",
-  "figure_candidates": [],
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption": "Overview of ATR.",
+      "crop_pdf_points": [
+        311,
+        146,
+        559,
+        380
+      ],
+      "vector_paths": 111,
+      "native_text_spans": 0,
+      "raster_images": 5,
+      "visually_inspected": true,
+      "notes": "Task sampling and skill-policy training plus task-planned skill composition at test time."
+    }
+  ],
   "caption_search_cues": [
     {
       "figure": "Figure 1",
@@ -63,5 +80,5 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
 }

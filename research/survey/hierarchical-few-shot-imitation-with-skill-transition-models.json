@@ -12,7 +12,24 @@
   "page_count": 19,
   "source_status": "accessible",
   "license_note": "unverified",
-  "figure_candidates": [],
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "Few-shot imitation learning with skill transition models.",
+      "crop_pdf_points": [
+        131,
+        105,
+        470,
+        248
+      ],
+      "vector_paths": 0,
+      "native_text_spans": 0,
+      "raster_images": 1,
+      "visually_inspected": true,
+      "notes": "Skill extraction/adaptation and few-shot inference with LSTM encoder, decoder and inverse skill dynamics."
+    }
+  ],
   "caption_search_cues": [
     {
       "figure": "Figure 1",
@@ -45,5 +62,5 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
 }

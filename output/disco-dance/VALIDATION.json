@@ -1,0 +1,49 @@
+{
+  "diagram_id": "disco-dance-figure-3",
+  "source_scene_sha256": "6f8a6b98c87853f242e1a6bdf401013dea4b553fce547d68a572d05662341200",
+  "source_pdf_sha256": "5c2d09affab42d3ca4b46642312fd4835bfd5f4fd22a1f4791c4a30eacf5e8c6",
+  "checked_files": [
+    {
+      "name": "disco-dance-figure-3.drawio",
+      "sha256": "6df2aa126e692854919aa5a67f88dd0aa4524ff5a2deba7e9397731b9b20ce47"
+    },
+    {
+      "name": "disco-dance-figure-3.png",
+      "sha256": "42143b3264a489ef85e80723bae0837a3bdc777a1b3ed401c034998c7b154ca2"
+    },
+    {
+      "name": "disco-dance-figure-3.pptx",
+      "sha256": "437591f03eaf3216de841e7999adde58c5587777060a7a498beecfe223dd0292"
+    }
+  ],
+  "review_status": "Source versus independent LibreOffice PPTX render passed; partially editable with explicit raster limitations",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 3 PDFpage5 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 56,
+    "p:pic": 7,
+    "a:custGeom": 31,
+    "p:cxnSp": 0,
+    "a:t": 18
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment",
+    "Clipped maze/scatter plot pixels and cheetah photo remain raster assets; legend/captions/arrows/native frame editable."
+  ],
+  "drawio_layout_revalidation": {
+    "previous_sha256": "8e8f2bfeaeb2f6dca7ed521fca620681f37c658ae5eb8ae33a4e00d4b65133ad",
+    "current_sha256": "6df2aa126e692854919aa5a67f88dd0aa4524ff5a2deba7e9397731b9b20ce47",
+    "xml_parse": "passed",
+    "change": "Exporter now honors source no_wrap and text_inset. Source nodes/labels/paths and PPTX/PNG bytes unchanged.",
+    "application_render": "not performed; isolated application display unavailable"
+  }
+}

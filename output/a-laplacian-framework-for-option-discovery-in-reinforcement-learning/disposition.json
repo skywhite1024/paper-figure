@@ -1,0 +1,146 @@
+{
+  "catalog_id": "a-laplacian-framework-for-option-discovery-in-reinforcement-learning",
+  "delivery_kind": "source_only_disposition",
+  "editable_deliverable_count": 0,
+  "identity_evidence": {
+    "first_page_title_text_verified": true,
+    "first_page_version_verified": true,
+    "observed_title": "A Laplacian Framework for Option Discovery in Reinforcement Learning",
+    "review_basis": "full_visual_scan_including_first_page",
+    "title_match": true
+  },
+  "inspected_at": "2026-10-09",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "page_count": 16,
+  "reason": "All 16 PDF pages visually scanned via contact sheet. Figures are evaluation domains, eigenvectors/eigenoptions visualized on gridworlds, and performance plots. Figure2page3 illustrates an eigenvector and corresponding option but is not an architecture diagram. A conceptual mathematical example does exist (Figure2page3); no_method_figure here means no architecture/process diagram, not no illustrations.",
+  "references": [
+    "https://arxiv.org/pdf/1703.00956v2",
+    "research/survey/a-laplacian-framework-for-option-discovery-in-reinforcement-learning.json"
+  ],
+  "reviewed_pages": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "schema_version": 1,
+  "scope": "No architecture, block, or algorithm-process diagram located in full source. Photographs, result plots, trajectory maps and experimental visualizations are not silently converted into invented architecture.",
+  "source_file": "paper-1703.00956v2.pdf",
+  "source_sha256": "a32045a50809e5fce5c3032fce9573c15f43c26e3f78e6e3e4894309e52feda1",
+  "source_url": "https://arxiv.org/pdf/1703.00956v2",
+  "status": "no_suitable_figure",
+  "survey": {
+    "repository_path": "research/survey/a-laplacian-framework-for-option-discovery-in-reinforcement-learning.json",
+    "review_sha256": "cee8c633b9255e2831565d1e22f5fefa71d60af2a1c7198943a9443389d23552",
+    "sha256": "2c70ebcb474cc3f6f08fd9cee783678bfaa193331045099159a18f12cf7c3e28"
+  },
+  "title": "A Laplacian Framework for Option Discovery in Reinforcement Learning",
+  "version": "1703.00956v2",
+  "visual_scan_coverage": {
+    "contact_sheet_inspected": true,
+    "distinct_numbered_figure_captions_extracted": 14,
+    "figure_caption_inventory": [
+      {
+        "caption": "Figure 1. Domains used for evaluation.",
+        "figure": 1,
+        "page_1_based": 3
+      },
+      {
+        "caption": "Figure 2. Second PVF (left) and its corresponding option (right)\nin the 4-room domain. Action terminate is depicted in red (top\nright corner), other actions are depicted as arrows.",
+        "figure": 2,
+        "page_1_based": 3
+      },
+      {
+        "caption": "Figure 3. Options obtained from the four smallest eigenvectors in the 10×10 grid. Action terminate is depicted in red.",
+        "figure": 3,
+        "page_1_based": 4
+      },
+      {
+        "caption": "Figure 4. Options obtained from the four smallest eigenvectors in the I-Maze domain. Action terminate is depicted in red.",
+        "figure": 4,
+        "page_1_based": 4
+      },
+      {
+        "caption": "Figure 5. Options obtained from the four smallest eigenvectors in the 4-room domain. Action terminate is depicted in red.",
+        "figure": 5,
+        "page_1_based": 5
+      },
+      {
+        "caption": "Figure 6. Expected number of steps between any two states when following a random walk. Figure 6d shows the performance of options\nthat look for doorways in the 4-room domain.",
+        "figure": 6,
+        "page_1_based": 5
+      },
+      {
+        "caption": "Figure 7. The agents’ performance accumulating reward as options are added to the action set in their behavior policy. These results use\nthe eigenpurposes directly obtained from the eigendecomposition as well as their negation.",
+        "figure": 7,
+        "page_1_based": 6
+      },
+      {
+        "caption": "Figure 8. Options in FREEWAY (c.f. text for details).",
+        "figure": 8,
+        "page_1_based": 7
+      },
+      {
+        "caption": "Figure 9. Options in MONTEZUMA’S REV. (c.f. text for details).",
+        "figure": 9,
+        "page_1_based": 7
+      },
+      {
+        "caption": "Figure 10. Options leading to bottleneck states. Each option is deﬁned in a single room, moving the agent to the closest doorway.",
+        "figure": 10,
+        "page_1_based": 13
+      },
+      {
+        "caption": "Figure 11. Diffusion time and learning performance of eigenoptions and of random options in the 4-room domain.",
+        "figure": 11,
+        "page_1_based": 14
+      },
+      {
+        "caption": "Figure 12. Pre-deﬁned start states in Atari 2600 games.",
+        "figure": 12,
+        "page_1_based": 15
+      },
+      {
+        "caption": "Figure 13. Options in MS. PAC-MAN (c.f. text for de-\ntails).",
+        "figure": 13,
+        "page_1_based": 15
+      },
+      {
+        "caption": "Figure 14. Agents performance in different tasks when using eigenoptions, bottleneck options, and primitive actions.",
+        "figure": 14,
+        "page_1_based": 16
+      }
+    ],
+    "page_count": 16,
+    "pages_scanned_1_based": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16
+    ]
+  }
+}

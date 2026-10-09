@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "diagram_id": "slide-figure-2",
+  "source_sha256": "3f2ecc4e4125d9397e17da1c24763fe5cd5c2d25761553aa319e19167489970b",
+  "provenance": {
+    "paper_title": "Discovering Generalizable Skills via Automated Generation of Diverse Tasks",
+    "paper_url": "https://arxiv.org/pdf/2106.13935v1",
+    "figure": "Figure 2",
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "notes": "Original SLIDE skill prior/generator/discriminator/policy architecture. Source mathematical glyphs retained as editable freeform outlines; other labels remain native text. Dependency paths preserve exact geometry without semantic endpoint attachment. Source clipping groups visually reviewed. Crossing-crop path is a transparent source rectangle, not omitted visible content.",
+    "page": 3,
+    "status": "figure_recreation",
+    "source_sha256": "72a97883f914888c9d753d0c1e79f0c1efab865ece1ab652961d82804166711e",
+    "source_crop_pdf_points": [
+      325,
+      57,
+      545,
+      228
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "outlined_font_families": [
+      "Cambria",
+      "Cambria-Italic",
+      "TimesNewRomanPS-ItalicMT",
+      "TimesNewRomanPSMT"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "extraction_warnings": [
+      "2 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 9"
+    ]
+  },
+  "metrics": {
+    "native_nodes": 100,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 92,
+    "native_text_objects": 8,
+    "raster_images": 0,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "slide-figure-2.drawio",
+      "sha256": "94d5e41baa887b7e96db278adda65632e0c5f37118fe3a8a7c289ced24306c46"
+    },
+    {
+      "name": "slide-figure-2.png",
+      "sha256": "ecc1f938970ecfd09baa4e78b67dad82c1b20a4e623de8e22ab75159ae5d3258"
+    },
+    {
+      "name": "slide-figure-2.pptx",
+      "sha256": "230b4c5c37c7a2f1199d65b9c64bc666fc36bef349e126bccb861a9919c8294b"
+    }
+  ]
+}

@@ -12,7 +12,24 @@
   "page_count": 36,
   "source_status": "accessible",
   "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-  "figure_candidates": [],
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption": "GenSim framework for scaling simulation task diversity.",
+      "crop_pdf_points": [
+        107,
+        62,
+        502,
+        180
+      ],
+      "vector_paths": 14,
+      "native_text_spans": 25,
+      "raster_images": 17,
+      "visually_inspected": true,
+      "notes": "Prompted LLM program synthesis, simulation and task library with reflection/distillation loops."
+    }
+  ],
   "caption_search_cues": [
     {
       "figure": "Figure 1",
@@ -75,5 +92,5 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
 }

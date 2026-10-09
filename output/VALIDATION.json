@@ -2,24 +2,40 @@
   "version": "0.2.0",
   "catalog": {
     "total": 137,
-    "not_reviewed": 126,
-    "recreated": 10,
+    "not_reviewed": 105,
+    "recreated": 25,
+    "no_suitable_figure": 6,
     "blocked": 1
   },
   "tests": {
-    "unittest_passed": 114,
+    "unittest_passed": 151,
     "unittest_failed": 0,
     "pptx_integration": true
   },
   "papers": {
+    "aps": "aps/VALIDATION.json",
+    "aro": "aro/VALIDATION.json",
     "aspire": "aspire/VALIDATION.json",
+    "bnpo": "bnpo/VALIDATION.json",
+    "cic": "cic/VALIDATION.json",
+    "compile": "compile/VALIDATION.json",
     "comsd": "comsd/VALIDATION.json",
     "constrained-skill": "constrained-skill/VALIDATION.json",
+    "csd": "csd/VALIDATION.json",
+    "diayn": "diayn/VALIDATION.json",
+    "disco-dance": "disco-dance/VALIDATION.json",
+    "divide-discover-deploy": "divide-discover-deploy/VALIDATION.json",
     "elsim": "elsim/VALIDATION.json",
     "gisd": "gisd/VALIDATION.json",
+    "ibol": "ibol/VALIDATION.json",
+    "music": "music/VALIDATION.json",
+    "nbdi": "nbdi/VALIDATION.json",
+    "option-keyboard": "option-keyboard/VALIDATION.json",
     "psd": "psd/VALIDATION.json",
+    "rest": "rest/VALIDATION.json",
     "rgsd": "rgsd/VALIDATION.json",
     "roboreact": "roboreact/VALIDATION.json",
+    "slide": "slide/VALIDATION.json",
     "srsd": "srsd/VALIDATION.json",
     "ugl": "ugl/VALIDATION.json"
   },
@@ -34,5 +50,15 @@
     "relative_links_resolve": true,
     "complete_archive_repository_layout_tested": true,
     "regeneration_staging_and_review_reset_tested": true
+  },
+  "processing_queue_status": {
+    "blocked": 1,
+    "completed": 0,
+    "in_progress": 91,
+    "inaccessible": 0,
+    "no_suitable_figure": 6,
+    "not_reviewed": 14,
+    "recreated": 25,
+    "source_mismatch": 0
   }
 }

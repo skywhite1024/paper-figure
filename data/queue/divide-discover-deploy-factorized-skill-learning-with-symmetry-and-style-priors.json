@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "divide-discover-deploy-factorized-skill-learning-with-symmetry-and-style-priors",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.462393Z",
-  "updated_at": "2026-10-09T20:14:36.112412Z",
+  "updated_at": "2026-10-09T20:20:44.429938Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -125,8 +125,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/divide-discover-deploy/README.md",
+          "output/divide-discover-deploy/VALIDATION.json"
+        ],
+        "output_directory": "output/divide-discover-deploy",
+        "source_sha256": "20d7dceb084e20ac7537d9ff1bac804e258f0e6e44d106006f91e0cf92b8bfd9",
+        "scene_sha256": "0f73037c7e8155c0ac462efcb5a73372678d6615764808cfd17218d8c64337fa",
+        "text_editability": {
+          "typeable_text_objects": 48,
+          "native_freeform_paths": 282,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -289,6 +303,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:20:44.429938Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "81a1bb49d312c05d08883ccb53bad1b571d009fe16b017674c194b2611388143",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/divide-discover-deploy/README.md",
+                "output/divide-discover-deploy/VALIDATION.json"
+              ],
+              "output_directory": "output/divide-discover-deploy",
+              "source_sha256": "20d7dceb084e20ac7537d9ff1bac804e258f0e6e44d106006f91e0cf92b8bfd9",
+              "scene_sha256": "0f73037c7e8155c0ac462efcb5a73372678d6615764808cfd17218d8c64337fa",
+              "text_editability": {
+                "typeable_text_objects": 48,
+                "native_freeform_paths": 282,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

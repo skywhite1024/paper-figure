@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "no_suitable_figure",
   "created_at": "2026-10-09T20:04:59.471912Z",
-  "updated_at": "2026-10-09T20:14:36.135822Z",
+  "updated_at": "2026-10-09T20:22:54.436398Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -55,7 +55,7 @@
       }
     },
     "source_access": {
-      "status": "reported",
+      "status": "passed",
       "evidence": {
         "references": [
           "research/survey/dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery.json",
@@ -64,26 +64,22 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery.json",
-          "sha256": "a7294f2740b8a7ffc8239c4f2cb282b3e1a0471447e16e09d73b6c06976458f6"
+          "sha256": "0405a04793334b8e9f26f8cb30ab3f7f7aa0ab716bc1450a22a6a1b3574ed25e"
         },
         "version": "1907.08225v4",
         "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
         "review_notes": "All 17 PDF pages visually scanned via contact sheet; pages2 and5 inspected full-size. Main figures are demonstration photo sequence and result plots. Algorithm1page5 is pseudocode. No architecture/method diagram located; do not fabricate one from algorithm text.",
         "inspected_at": "2026-10-09",
-        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
-        "observed_source": {
-          "reported_path": "/tmp/paper-figure-survey/dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery/original.pdf",
-          "reported_sha256": "49bbd4e3a3d01da23e8ef0b849f7a99aff139989586d40e252117dde5b86fac4",
-          "verified_locally": true,
-          "durable": false,
-          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        "summary": "PDF bytes and SHA256 verified in a durable paper-scoped output directory.",
+        "source": {
+          "path": "output/dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery/paper-1907.08225v4.pdf",
+          "sha256": "49bbd4e3a3d01da23e8ef0b849f7a99aff139989586d40e252117dde5b86fac4"
         },
-        "page_count": 17,
-        "source_status": "accessible"
+        "page_count": 17
       }
     },
     "figure_selection": {
-      "status": "reported",
+      "status": "failed",
       "evidence": {
         "references": [
           "research/survey/dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery.json",
@@ -92,14 +88,13 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery.json",
-          "sha256": "a7294f2740b8a7ffc8239c4f2cb282b3e1a0471447e16e09d73b6c06976458f6"
+          "sha256": "0405a04793334b8e9f26f8cb30ab3f7f7aa0ab716bc1450a22a6a1b3574ed25e"
         },
         "version": "1907.08225v4",
         "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
         "review_notes": "All 17 PDF pages visually scanned via contact sheet; pages2 and5 inspected full-size. Main figures are demonstration photo sequence and result plots. Algorithm1page5 is pseudocode. No architecture/method diagram located; do not fabricate one from algorithm text.",
         "inspected_at": "2026-10-09",
-        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
-        "figure_candidates": [],
+        "summary": "All 17 PDF pages visually scanned via contact sheet; pages2 and5 inspected full-size. Main figures are demonstration photo sequence and result plots. Algorithm1page5 is pseudocode. No architecture/method diagram located; do not fabricate one from algorithm text.",
         "reviewed_pages": [
           1,
           2,
@@ -119,7 +114,7 @@
           16,
           17
         ],
-        "no_method_figure_reported": true,
+        "scope": "No architecture, block, or algorithm-process diagram located in full source. Photographs, result plots, trajectory maps and experimental visualizations are not silently converted into invented architecture.",
         "visual_scan_coverage": {
           "pages_scanned_1_based": [
             1,
@@ -185,8 +180,7 @@
               "caption": "Figure 8: Human preference queries for the vision-based DClaw experiment presented in Sec-\ntion 6.1. Each image row presents the set of images shown to the human operator on a single query\nround. On each row, the ﬁrst 10 images correspond to the last states of the most recent rollouts and\nthe right-most image corresponds to the last goal. For each query, the human operator picks a new\ngoal by inputting its index (between 0-10) into a text-based interface. The goals selected by human\nare highlighted with white borders."
             }
           ]
-        },
-        "scope": "No architecture, block, or algorithm-process diagram located in full source. Photographs, result plots, trajectory maps and experimental visualizations are not silently converted into invented architecture."
+        }
       }
     },
     "recreation": {
@@ -202,7 +196,34 @@
       "evidence": null
     }
   },
-  "terminal_evidence": null,
+  "terminal_evidence": {
+    "references": [
+      "research/survey/dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery.json",
+      "https://arxiv.org/pdf/1907.08225v4"
+    ],
+    "survey_import": true,
+    "survey": {
+      "path": "research/survey/dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery.json",
+      "sha256": "0405a04793334b8e9f26f8cb30ab3f7f7aa0ab716bc1450a22a6a1b3574ed25e"
+    },
+    "version": "1907.08225v4",
+    "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+    "review_notes": "All 17 PDF pages visually scanned via contact sheet; pages2 and5 inspected full-size. Main figures are demonstration photo sequence and result plots. Algorithm1page5 is pseudocode. No architecture/method diagram located; do not fabricate one from algorithm text.",
+    "inspected_at": "2026-10-09",
+    "summary": "All 17 PDF pages visually scanned via contact sheet; pages2 and5 inspected full-size. Main figures are demonstration photo sequence and result plots. Algorithm1page5 is pseudocode. No architecture/method diagram located; do not fabricate one from algorithm text.",
+    "outcome": "no_suitable_figure",
+    "observed_source": {
+      "reported_path": "output/dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery/paper-1907.08225v4.pdf",
+      "reported_sha256": "49bbd4e3a3d01da23e8ef0b849f7a99aff139989586d40e252117dde5b86fac4",
+      "verified_locally": true,
+      "durable": true,
+      "reason": "PDF bytes and SHA256 verified in a durable paper-scoped output directory.",
+      "source": {
+        "path": "output/dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery/paper-1907.08225v4.pdf",
+        "sha256": "49bbd4e3a3d01da23e8ef0b849f7a99aff139989586d40e252117dde5b86fac4"
+      }
+    }
+  },
   "history": [
     {
       "revision": 1,
@@ -419,6 +440,175 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:22:54.436398Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "7ae89af415be73267cc87fe5f21ebe5420421828ff60f46bfe65fda4e7cb8350",
+      "patch": {
+        "stages": {
+          "source_access": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery.json",
+                "https://arxiv.org/pdf/1907.08225v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery.json",
+                "sha256": "0405a04793334b8e9f26f8cb30ab3f7f7aa0ab716bc1450a22a6a1b3574ed25e"
+              },
+              "version": "1907.08225v4",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "All 17 PDF pages visually scanned via contact sheet; pages2 and5 inspected full-size. Main figures are demonstration photo sequence and result plots. Algorithm1page5 is pseudocode. No architecture/method diagram located; do not fabricate one from algorithm text.",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in a durable paper-scoped output directory.",
+              "source": {
+                "path": "output/dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery/paper-1907.08225v4.pdf",
+                "sha256": "49bbd4e3a3d01da23e8ef0b849f7a99aff139989586d40e252117dde5b86fac4"
+              },
+              "page_count": 17
+            }
+          },
+          "figure_selection": {
+            "status": "failed",
+            "evidence": {
+              "references": [
+                "research/survey/dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery.json",
+                "https://arxiv.org/pdf/1907.08225v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery.json",
+                "sha256": "0405a04793334b8e9f26f8cb30ab3f7f7aa0ab716bc1450a22a6a1b3574ed25e"
+              },
+              "version": "1907.08225v4",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "All 17 PDF pages visually scanned via contact sheet; pages2 and5 inspected full-size. Main figures are demonstration photo sequence and result plots. Algorithm1page5 is pseudocode. No architecture/method diagram located; do not fabricate one from algorithm text.",
+              "inspected_at": "2026-10-09",
+              "summary": "All 17 PDF pages visually scanned via contact sheet; pages2 and5 inspected full-size. Main figures are demonstration photo sequence and result plots. Algorithm1page5 is pseudocode. No architecture/method diagram located; do not fabricate one from algorithm text.",
+              "reviewed_pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "scope": "No architecture, block, or algorithm-process diagram located in full source. Photographs, result plots, trajectory maps and experimental visualizations are not silently converted into invented architecture.",
+              "visual_scan_coverage": {
+                "pages_scanned_1_based": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "page_count": 17,
+                "contact_sheet_inspected": true,
+                "distinct_numbered_figure_captions_extracted": 8,
+                "figure_caption_inventory": [
+                  {
+                    "figure": 1,
+                    "page_1_based": 2,
+                    "caption": "Figure 1: We present a dynamical distance learning (DDL) method that can learn a 9-DoF real-world\ndexterous manipulation task directly from raw image observations. DDL does not assume access to\nthe true reward function and solves the 180 degree valve-rotation task in 8 hours by relying only on\n10 human-provided preference labels."
+                  },
+                  {
+                    "figure": 2,
+                    "page_1_based": 6,
+                    "caption": "Figure 2: We evaluate our method both in simulation and on a real-world robot. We show that our\nmethod can learn to turn a valve with a real-world 9-DoF hand (a), and run ablations in the simulated\nversion of the same task (b). We also demonstrate that our method can learn pole balancing (c) and\nlocomotion (d, e, f) skills in simulation."
+                  },
+                  {
+                    "figure": 3,
+                    "page_1_based": 7,
+                    "caption": "Figure 3: (Left) learning curves for the valve ro-\ntation task learned from state. (Right) Same task\nfrom vision. The curves correspond to the ﬁnal\ndistance (measured in radians) of the valve from\nthe target angle during a rollout.\nOur method\n(DDLfP, orange) solves the task in 8 hours. Its\nperformance is comparable to that of SAC with\ntrue rewards, and VICE with example outcome\nimages.\nDDLfP only requires 10 preference\nqueries, and learns without true rewards or out-\ncome images. We compare our method in the sim-\nulated version of this task in Figure 5."
+                  },
+                  {
+                    "figure": 4,
+                    "page_1_based": 8,
+                    "caption": "Figure 4: Learning curves for MuJoCo tasks with DDLfP. The y-axis presents the true return of the\ntask. We compare DDLfP to SAC trained directly from the true reward function, which provides\nan oracle upper bound baseline, and the prior method proposed by Christiano et al. (2017). The\nprior method uses an on-policy RL algorithm which typically requires more samples than off-policy\nalgorithms, and thus we also plot its ﬁnal performance after 20M training steps with red star. At the\ntime of the submission, the Ant-v3 run is still in progress and the complete learning curve will be\nincluded in the ﬁnal."
+                  },
+                  {
+                    "figure": 5,
+                    "page_1_based": 8,
+                    "caption": "Figure 5: We compare DDL against alternative\nmethods for learning distances on the simulated\nvalve turning task, when learning from the under-\nlying low-dimensional state (left) and from im-\nages (right).\nDynamical distances used greed-\nily (orange) or learned with TD (green) generally\nperform poorly. HER (red) can learn from low-\ndimensional states, but fails to learn from images.\nOur method, DDLfP (blue) successfully learns the\ntask from either states or images."
+                  },
+                  {
+                    "figure": 6,
+                    "page_1_based": 9,
+                    "caption": "Figure 6: (Top) Learning curves for DDLUS. The y-axis plots the environment return (not accessible\nduring the training) for InvertedDoublePendulum-v3, and the L2-distance travelled from the origin\nfor Hopper-v3, HalfCheetah-v3, and Ant-v3. (Bottom) Frequency histograms of skills learned with\nDDLUS (blue) and DIAYN (orange) (Eysenbach et al., 2018) across different training runs, evalu-\nated according to the travelled L2-distance from the origin."
+                  },
+                  {
+                    "figure": 7,
+                    "page_1_based": 15,
+                    "caption": "Figure 7: Evaluation of the learned distance in a 2D point environment.\nThe state is the xy-\ncoordinates of the point, and action corresponds to 2D velocities. The black bars denote walls,\nblue star is a goal state, and the heat map denotes the estimated distance to the goal. (a) Our method\nlearns an accurate estimate of the shape of the distance function. (b) Ground-truth distance."
+                  },
+                  {
+                    "figure": 8,
+                    "page_1_based": 16,
+                    "caption": "Figure 8: Human preference queries for the vision-based DClaw experiment presented in Sec-\ntion 6.1. Each image row presents the set of images shown to the human operator on a single query\nround. On each row, the ﬁrst 10 images correspond to the last states of the most recent rollouts and\nthe right-most image corresponds to the last goal. For each query, the human operator picks a new\ngoal by inputting its index (between 0-10) into a text-based interface. The goals selected by human\nare highlighted with white borders."
+                  }
+                ]
+              }
+            }
+          }
+        },
+        "status": "no_suitable_figure",
+        "terminal_evidence": {
+          "references": [
+            "research/survey/dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery.json",
+            "https://arxiv.org/pdf/1907.08225v4"
+          ],
+          "survey_import": true,
+          "survey": {
+            "path": "research/survey/dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery.json",
+            "sha256": "0405a04793334b8e9f26f8cb30ab3f7f7aa0ab716bc1450a22a6a1b3574ed25e"
+          },
+          "version": "1907.08225v4",
+          "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+          "review_notes": "All 17 PDF pages visually scanned via contact sheet; pages2 and5 inspected full-size. Main figures are demonstration photo sequence and result plots. Algorithm1page5 is pseudocode. No architecture/method diagram located; do not fabricate one from algorithm text.",
+          "inspected_at": "2026-10-09",
+          "summary": "All 17 PDF pages visually scanned via contact sheet; pages2 and5 inspected full-size. Main figures are demonstration photo sequence and result plots. Algorithm1page5 is pseudocode. No architecture/method diagram located; do not fabricate one from algorithm text.",
+          "outcome": "no_suitable_figure",
+          "observed_source": {
+            "reported_path": "output/dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery/paper-1907.08225v4.pdf",
+            "reported_sha256": "49bbd4e3a3d01da23e8ef0b849f7a99aff139989586d40e252117dde5b86fac4",
+            "verified_locally": true,
+            "durable": true,
+            "reason": "PDF bytes and SHA256 verified in a durable paper-scoped output directory.",
+            "source": {
+              "path": "output/dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery/paper-1907.08225v4.pdf",
+              "sha256": "49bbd4e3a3d01da23e8ef0b849f7a99aff139989586d40e252117dde5b86fac4"
             }
           }
         }

@@ -15,6 +15,8 @@ Figure 1 · PDF 第 5 页 · 2006.12903v1
 
 ## 来源与编辑边界
 
+可直接键入修改的文字对象：1；原生自由路径：155；独立栅格对象：0（内部像素不可编辑，可能包含照片、图标或源图公式，详见下方说明）。字形轮廓可移动/改色/编辑点，但不能像文本框一样直接改字；数学轮廓不是可输入新公式的公式对象。
+
 官方固定版本：https://arxiv.org/pdf/2006.12903v1
 
 Original vector geometry with native editable text and outline glyph paths for mathematical fonts. Native paths are not semantically attached connectors. Source comparison pending; no target application editing QA claimed. Type3 font text records removed because their original glyph outlines are already emitted as editable source paths; this prevents duplicate garbled text.

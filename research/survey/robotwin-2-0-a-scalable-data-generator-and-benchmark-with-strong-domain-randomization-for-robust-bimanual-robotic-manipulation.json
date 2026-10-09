@@ -12,7 +12,24 @@
   "page_count": 24,
   "source_status": "accessible",
   "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-  "figure_candidates": [],
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption": "RoboTwin2.0 pipeline.",
+      "crop_pdf_points": [
+        108,
+        253,
+        504,
+        402
+      ],
+      "vector_paths": 26,
+      "native_text_spans": 18,
+      "raster_images": 17,
+      "visually_inspected": true,
+      "notes": "Closed-loop MLLM expert code generation plus domain-randomized demonstration generation/training."
+    }
+  ],
   "caption_search_cues": [
     {
       "figure": "Figure 1",
@@ -87,5 +104,5 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
 }

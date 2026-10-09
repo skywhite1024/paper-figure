@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "discovering-generalizable-skills-via-automated-generation-of-diverse-tasks",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.502590Z",
-  "updated_at": "2026-10-09T20:14:36.073889Z",
+  "updated_at": "2026-10-09T20:26:31.171403Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -86,8 +86,22 @@
       "evidence": null
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/slide/README.md",
+          "output/slide/VALIDATION.json"
+        ],
+        "output_directory": "output/slide",
+        "source_sha256": "72a97883f914888c9d753d0c1e79f0c1efab865ece1ab652961d82804166711e",
+        "scene_sha256": "3f2ecc4e4125d9397e17da1c24763fe5cd5c2d25761553aa319e19167489970b",
+        "text_editability": {
+          "typeable_text_objects": 8,
+          "native_freeform_paths": 92,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -207,6 +221,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:26:31.171403Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "e6a3fe012a3b34c595bd1e87cc592a175bff37f5b0a7db883b2f2384acc40cc4",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/slide/README.md",
+                "output/slide/VALIDATION.json"
+              ],
+              "output_directory": "output/slide",
+              "source_sha256": "72a97883f914888c9d753d0c1e79f0c1efab865ece1ab652961d82804166711e",
+              "scene_sha256": "3f2ecc4e4125d9397e17da1c24763fe5cd5c2d25761553aa319e19167489970b",
+              "text_editability": {
+                "typeable_text_objects": 8,
+                "native_freeform_paths": 92,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

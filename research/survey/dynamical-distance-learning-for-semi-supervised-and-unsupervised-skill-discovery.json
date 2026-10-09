@@ -3,7 +3,7 @@
   "title_expected": "Dynamical Distance Learning for Semi-Supervised and Unsupervised Skill Discovery",
   "source_url": "https://arxiv.org/abs/1907.08225",
   "pdf_url": "https://arxiv.org/pdf/1907.08225",
-  "pdf_path": "/tmp/paper-figure-survey/dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery/original.pdf",
+  "pdf_path": "output/dynamical-distance-learning-for-semi-supervised-and-unsupervised-skill-discovery/paper-1907.08225v4.pdf",
   "pdf_sha256": "49bbd4e3a3d01da23e8ef0b849f7a99aff139989586d40e252117dde5b86fac4",
   "pdf_title_observed": "Dynamical Distance Learning for Semi-Supervised and Unsupervised Skill Discovery",
   "title_match": true,
@@ -55,12 +55,12 @@
       {
         "figure": 3,
         "page_1_based": 7,
-        "caption": "Figure 3: (Left) learning curves for the valve ro-\ntation task learned from state. (Right) Same task\nfrom vision. The curves correspond to the \ufb01nal\ndistance (measured in radians) of the valve from\nthe target angle during a rollout.\nOur method\n(DDLfP, orange) solves the task in 8 hours. Its\nperformance is comparable to that of SAC with\ntrue rewards, and VICE with example outcome\nimages.\nDDLfP only requires 10 preference\nqueries, and learns without true rewards or out-\ncome images. We compare our method in the sim-\nulated version of this task in Figure 5."
+        "caption": "Figure 3: (Left) learning curves for the valve ro-\ntation task learned from state. (Right) Same task\nfrom vision. The curves correspond to the ﬁnal\ndistance (measured in radians) of the valve from\nthe target angle during a rollout.\nOur method\n(DDLfP, orange) solves the task in 8 hours. Its\nperformance is comparable to that of SAC with\ntrue rewards, and VICE with example outcome\nimages.\nDDLfP only requires 10 preference\nqueries, and learns without true rewards or out-\ncome images. We compare our method in the sim-\nulated version of this task in Figure 5."
       },
       {
         "figure": 4,
         "page_1_based": 8,
-        "caption": "Figure 4: Learning curves for MuJoCo tasks with DDLfP. The y-axis presents the true return of the\ntask. We compare DDLfP to SAC trained directly from the true reward function, which provides\nan oracle upper bound baseline, and the prior method proposed by Christiano et al. (2017). The\nprior method uses an on-policy RL algorithm which typically requires more samples than off-policy\nalgorithms, and thus we also plot its \ufb01nal performance after 20M training steps with red star. At the\ntime of the submission, the Ant-v3 run is still in progress and the complete learning curve will be\nincluded in the \ufb01nal."
+        "caption": "Figure 4: Learning curves for MuJoCo tasks with DDLfP. The y-axis presents the true return of the\ntask. We compare DDLfP to SAC trained directly from the true reward function, which provides\nan oracle upper bound baseline, and the prior method proposed by Christiano et al. (2017). The\nprior method uses an on-policy RL algorithm which typically requires more samples than off-policy\nalgorithms, and thus we also plot its ﬁnal performance after 20M training steps with red star. At the\ntime of the submission, the Ant-v3 run is still in progress and the complete learning curve will be\nincluded in the ﬁnal."
       },
       {
         "figure": 5,
@@ -80,7 +80,7 @@
       {
         "figure": 8,
         "page_1_based": 16,
-        "caption": "Figure 8: Human preference queries for the vision-based DClaw experiment presented in Sec-\ntion 6.1. Each image row presents the set of images shown to the human operator on a single query\nround. On each row, the \ufb01rst 10 images correspond to the last states of the most recent rollouts and\nthe right-most image corresponds to the last goal. For each query, the human operator picks a new\ngoal by inputting its index (between 0-10) into a text-based interface. The goals selected by human\nare highlighted with white borders."
+        "caption": "Figure 8: Human preference queries for the vision-based DClaw experiment presented in Sec-\ntion 6.1. Each image row presents the set of images shown to the human operator on a single query\nround. On each row, the ﬁrst 10 images correspond to the last states of the most recent rollouts and\nthe right-most image corresponds to the last goal. For each query, the human operator picks a new\ngoal by inputting its index (between 0-10) into a text-based interface. The goals selected by human\nare highlighted with white borders."
       }
     ]
   },

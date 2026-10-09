@@ -1,0 +1,33 @@
+{
+  "catalog_index": 124,
+  "catalog_id": "dexscale-automating-data-scaling-for-sim2real-generalizable-robot-control",
+  "title_expected": "DexScale: Automating Data Scaling for Sim2Real Generalizable Robot Control",
+  "source_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/liu25k/liu25k.pdf",
+  "pdf_path": "build/sources/dexscale-automating-data-scaling-for-sim2real-generalizable-robot-control.pdf",
+  "pdf_sha256": "62ca03103d51755623b6a1fd23e777f22186c29c679650621b0a8c3bea579c67",
+  "pdf_title_observed": "DexScale: Automating Data Scaling for Sim2Real Generalizable Robot Control\nGuiliang Liu * 1 Yueci Deng * 2 Runyi Zhao 1 Huayi Zhou 1 Jian Chen 2 Jietao Chen 2 Ruiyan Xu 1\nYunxin Tai 2 Kui Jia 1 2\nAbstract\nA critical prerequisite for achieving generalizable\nrobot control is the availability of a large-scale\nrobot training dataset. Due to the expense of\ncollecting realistic robotic data, recent stud",
+  "title_match": true,
+  "version": "official-proceedings",
+  "page_count": 19,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "The pipeline of DexScale operates as a data engine.",
+      "crop_pdf_points": [
+        77,
+        66,
+        518,
+        226
+      ],
+      "vector_paths": 50,
+      "native_text_spans": 36,
+      "raster_images": 15,
+      "visually_inspected": true,
+      "notes": "Four-stage data projection, environment simulation, LLM-assisted scaling and deployment pipeline with source photos/icons."
+    }
+  ],
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+}

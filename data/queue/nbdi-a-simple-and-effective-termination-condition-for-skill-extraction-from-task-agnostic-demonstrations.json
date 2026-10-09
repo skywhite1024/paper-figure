@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "nbdi-a-simple-and-effective-termination-condition-for-skill-extraction-from-task-agnostic-demonstrations",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.486749Z",
-  "updated_at": "2026-10-09T20:14:36.506661Z",
+  "updated_at": "2026-10-09T20:26:31.089860Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/nbdi/README.md",
+          "output/nbdi/VALIDATION.json"
+        ],
+        "output_directory": "output/nbdi",
+        "source_sha256": "57e1d6ffc34c92b5bb3dfe99d6df272e103161893d6607e4a0214d8ce5808109",
+        "scene_sha256": "cfc69d8f6dd1df6953da236ed92655f408dbbbec17936022f6cd030005945b59",
+        "text_editability": {
+          "typeable_text_objects": 20,
+          "native_freeform_paths": 384,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -315,6 +329,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:26:31.089860Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "e5d8d69a71feba7a681e58579647df19636fa95cc4642a4f37b4abf799a50323",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/nbdi/README.md",
+                "output/nbdi/VALIDATION.json"
+              ],
+              "output_directory": "output/nbdi",
+              "source_sha256": "57e1d6ffc34c92b5bb3dfe99d6df272e103161893d6607e4a0214d8ce5808109",
+              "scene_sha256": "cfc69d8f6dd1df6953da236ed92655f408dbbbec17936022f6cd030005945b59",
+              "text_editability": {
+                "typeable_text_objects": 20,
+                "native_freeform_paths": 384,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

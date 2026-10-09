@@ -5,7 +5,7 @@
   "checked_files": [
     {
       "name": "constrained-skill-figure-2.drawio",
-      "sha256": "45b9b0edef62a18823669dbfcb0a413de6d0d2bf7720c3bca5664d146eba5354"
+      "sha256": "3ef8457e0098d0eb9e0ac947f51ccbe8b3810c6e06fdc812a426c67b65cdadb1"
     },
     {
       "name": "constrained-skill-figure-2.png",
@@ -37,5 +37,12 @@
     "Math glyphs are editable outline paths rather than live equation text",
     "Minor font/dash/arrowhead renderer differences",
     "Freeform paths lack automatic semantic attachment"
-  ]
+  ],
+  "drawio_layout_revalidation": {
+    "previous_sha256": "45b9b0edef62a18823669dbfcb0a413de6d0d2bf7720c3bca5664d146eba5354",
+    "current_sha256": "3ef8457e0098d0eb9e0ac947f51ccbe8b3810c6e06fdc812a426c67b65cdadb1",
+    "xml_parse": "passed",
+    "change": "Exporter now honors source no_wrap and text_inset. Source nodes/labels/paths and PPTX/PNG bytes unchanged.",
+    "application_render": "not performed; isolated application display unavailable"
+  }
 }

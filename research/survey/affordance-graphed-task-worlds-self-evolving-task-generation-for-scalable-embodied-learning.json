@@ -12,7 +12,24 @@
   "page_count": 30,
   "source_status": "accessible",
   "license_note": "unverified",
-  "figure_candidates": [],
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption": "An introduction of our pipeline.",
+      "crop_pdf_points": [
+        69,
+        64,
+        539,
+        305
+      ],
+      "vector_paths": 109,
+      "native_text_spans": 99,
+      "raster_images": 73,
+      "visually_inspected": true,
+      "notes": "Four-stage Scene2Demo pipeline with graph task generation, self-evolution and expert demonstrations."
+    }
+  ],
   "caption_search_cues": [
     {
       "figure": "Figure 1",
@@ -51,5 +68,5 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
 }

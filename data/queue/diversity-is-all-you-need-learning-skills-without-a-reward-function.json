@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "diversity-is-all-you-need-learning-skills-without-a-reward-function",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.473607Z",
-  "updated_at": "2026-10-09T20:14:36.106188Z",
+  "updated_at": "2026-10-09T20:32:20.998744Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -125,8 +125,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/diayn/README.md",
+          "output/diayn/VALIDATION.json"
+        ],
+        "output_directory": "output/diayn",
+        "source_sha256": "af9965836b917def393670da0258d76c31787076c19ad7cbf46a7a7eda510624",
+        "scene_sha256": "6c1672afbc297c340c993602171c02603afdfc0634f61320ddb9b9c208947e0b",
+        "text_editability": {
+          "typeable_text_objects": 38,
+          "native_freeform_paths": 143,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -289,6 +303,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:32:20.998744Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "6ceffa7eb06133abbb8fd0164e9425e805df86daad17ef0d7115cabd3ebdb847",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/diayn/README.md",
+                "output/diayn/VALIDATION.json"
+              ],
+              "output_directory": "output/diayn",
+              "source_sha256": "af9965836b917def393670da0258d76c31787076c19ad7cbf46a7a7eda510624",
+              "scene_sha256": "6c1672afbc297c340c993602171c02603afdfc0634f61320ddb9b9c208947e0b",
+              "text_editability": {
+                "typeable_text_objects": 38,
+                "native_freeform_paths": 143,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

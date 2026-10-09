@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "diagram_id": "music-figure-1",
+  "source_sha256": "c8ca49a460b0523d44dc1cacc9ac640dbc549549faf718089614e85f0c040574",
+  "provenance": {
+    "paper_title": "Mutual Information State Intrinsic Control",
+    "paper_url": "https://arxiv.org/abs/2103.08107v1",
+    "figure": "Figure 1",
+    "license": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+    "notes": "Original MUSIC algorithm composite: ordinary labels and pseudocode prose are typeable text interleaved with source mathematical glyph outlines. Left-panel formula bitmaps are traced from original alpha masks into individual editable contours. No full-figure or formula raster background remains. Native math paths are not live equations or semantic connectors.",
+    "page": 3,
+    "status": "figure_recreation",
+    "source_sha256": "fccb2c6c2463b42da75df0d35bb7f58a39be81b5a4544f2b1ab00b6e70e5fb17",
+    "source_crop_pdf_points": [
+      106,
+      80,
+      505,
+      205
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Ordinary labels/prose use Arial or Times New Roman, with explicit source-baseline adjustment. Source mathematical fonts and raster formulas use native glyph outlines.",
+    "outlined_font_families": [
+      "CMM",
+      "CMSY",
+      "CMEX",
+      "CMR"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "extraction_warnings": [
+      "8 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "unhandled image/shading at seq 8: [196.89224243164062, 85.2252197265625, 203.75604248046875, 90.7690658569336]; requires reviewed raster region",
+      "unhandled image/shading at seq 11: [147.87142944335938, 96.48431396484375, 230.50108337402344, 105.98804473876953]; requires reviewed raster region",
+      "unhandled image/shading at seq 16: [118.65917205810547, 156.86976623535156, 174.8895721435547, 165.8455047607422]; requires reviewed raster region",
+      "unhandled image/shading at seq 24: [166.279541015625, 119.38119506835938, 173.14334106445312, 124.66104125976562]; requires reviewed raster region",
+      "unhandled image/shading at seq 32: [210.75843811035156, 119.44290161132812, 215.24630737304688, 123.40278625488281]; requires reviewed raster region",
+      "unhandled image/shading at seq 33: [215.7121124267578, 156.96304321289062, 269.83056640625, 166.73077392578125]; requires reviewed raster region",
+      "unhandled image/shading at seq 34: [165.52638244628906, 186.06124877929688, 222.28477478027344, 196.09295654296875]; requires reviewed raster region"
+    ],
+    "raster_formula_reconstruction": "Seven original transparent formula bitmaps individually traced as native editable glyph contours; antialias transitions approximated. No formula bitmap or panel screenshot retained.",
+    "extraction_warnings_reviewed": [
+      "Seven source image warnings resolved by editable point-path contours of their original masks. Clipping and source geometry reviewed against the original crop."
+    ],
+    "text_editability": "Ordinary labels and prose remain native typeable text. Mathematical expressions are editable glyph-outline paths, not live equations."
+  },
+  "metrics": {
+    "native_nodes": 279,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 245,
+    "native_text_objects": 34,
+    "raster_images": 0,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "music-figure-1.drawio",
+      "sha256": "a1fade847b4b440942fb8ab20de116e7534d8720a5ab52d8cc1f1cba94799385"
+    },
+    {
+      "name": "music-figure-1.png",
+      "sha256": "84352a776ee34cc3b8109386d322144c6fb4455cf977edfd119261a41825019c"
+    },
+    {
+      "name": "music-figure-1.pptx",
+      "sha256": "bdc18cdae37c6c9d81f58d6a7e2abbc9f97e79c702764ef04bf180e39debf821"
+    }
+  ]
+}

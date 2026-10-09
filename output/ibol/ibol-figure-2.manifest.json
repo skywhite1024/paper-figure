@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "diagram_id": "ibol-figure-2",
+  "source_sha256": "bbc27c91bbe498ee81479a00d6a79ba1e20627ea7303d46e6c3a0f81f1b7d684",
+  "provenance": {
+    "paper_title": "Unsupervised Skill Discovery with Bottleneck Option Learning",
+    "paper_url": "https://arxiv.org/abs/2106.14305v1",
+    "figure": "Figure 2",
+    "license": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+    "notes": "Source-native architecture geometry and arrows preserve the inspected original three-panel arrangement. All ordinary labels and panel headings remain typeable text, using a Times New Roman substitute for embedded CMU Serif. Four isolated MDP joystick icons remain transparent raster images. Freeform arrows are editable points, not attached connectors.",
+    "page": 3,
+    "status": "figure_recreation",
+    "source_sha256": "6d36494ae7ce92b16672752d6f9f8da693c9bdf8aa831c682ffe348993f7050b",
+    "source_crop_pdf_points": [
+      66,
+      68,
+      539,
+      157
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "CMU Serif and Nimbus Roman ordinary labels use Times New Roman or the editor Times-compatible fallback. Original geometry and math outlines retained.",
+    "extraction_warnings": [
+      "14 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 2",
+      "path crosses crop boundary: 49",
+      "path crosses crop boundary: 104"
+    ],
+    "text_editability": "Ordinary diagram labels and panel/callout prose are native typeable text. Mathematical glyph outlines, where present, remain editable point paths, not live equations."
+  },
+  "metrics": {
+    "native_nodes": 152,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 116,
+    "native_text_objects": 36,
+    "raster_images": 4,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "ibol-figure-2.drawio",
+      "sha256": "87bca08f00cf6869ad41c93b3ba34f02cd88f15ea3ca0ffbfa3dbd338104ae87"
+    },
+    {
+      "name": "ibol-figure-2.png",
+      "sha256": "0c0f2b5ee31e72a79e4bca7a49ec16ec53153595150d3fd7c5a9da04d7a687c4"
+    },
+    {
+      "name": "ibol-figure-2.pptx",
+      "sha256": "f16eaad936d23753b315513ac9027d04b34e38ec02b99f0cc30acd94b8d46671"
+    }
+  ]
+}

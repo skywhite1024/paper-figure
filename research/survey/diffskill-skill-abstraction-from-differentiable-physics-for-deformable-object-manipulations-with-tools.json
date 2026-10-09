@@ -12,7 +12,24 @@
   "page_count": 14,
   "source_status": "accessible",
   "license_note": "unverified",
-  "figure_candidates": [],
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption": "DiffSkill demonstration collection, neural skill abstraction and planning.",
+      "crop_pdf_points": [
+        107,
+        83,
+        497,
+        309
+      ],
+      "vector_paths": 70,
+      "native_text_spans": 88,
+      "raster_images": 10,
+      "visually_inspected": true,
+      "notes": "Differentiable simulator demonstrations feed skill policies/feasibility/reward predictors and latent planning."
+    }
+  ],
   "caption_search_cues": [
     {
       "figure": "Figure 1",
@@ -51,5 +68,5 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
 }

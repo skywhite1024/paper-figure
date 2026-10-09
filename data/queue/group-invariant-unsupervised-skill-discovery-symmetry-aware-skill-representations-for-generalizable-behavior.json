@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "group-invariant-unsupervised-skill-discovery-symmetry-aware-skill-representations-for-generalizable-behavior",
-  "revision": 4,
+  "revision": 5,
   "status": "recreated",
   "created_at": "2026-10-09T20:04:59.460560Z",
-  "updated_at": "2026-10-09T20:14:36.296212Z",
+  "updated_at": "2026-10-09T20:20:44.450140Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -134,7 +134,12 @@
         ],
         "output_directory": "output/gisd",
         "source_sha256": "f6a7684b7949c7856c05577ce2293fe25fe48bd6a0179499624f063745b7d298",
-        "scene_sha256": "74ab3e4f37d8719c0e141b148ed9629630933615f789ceca302ad3095ad964ed"
+        "scene_sha256": "74ab3e4f37d8719c0e141b148ed9629630933615f789ceca302ad3095ad964ed",
+        "text_editability": {
+          "typeable_text_objects": 10,
+          "native_freeform_paths": 32,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
       }
     },
     "qa": {
@@ -323,6 +328,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T20:20:44.450140Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "c35dd940357fc81803a83a2be4472197e55829b3f43866e1de9ed1d134f93a0d",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/gisd/README.md",
+                "output/gisd/VALIDATION.json"
+              ],
+              "output_directory": "output/gisd",
+              "source_sha256": "f6a7684b7949c7856c05577ce2293fe25fe48bd6a0179499624f063745b7d298",
+              "scene_sha256": "74ab3e4f37d8719c0e141b148ed9629630933615f789ceca302ad3095ad964ed",
+              "text_editability": {
+                "typeable_text_objects": 10,
+                "native_freeform_paths": 32,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

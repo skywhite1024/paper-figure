@@ -5,7 +5,7 @@
   "checked_files": [
     {
       "name": "comsd-figure-3.drawio",
-      "sha256": "8263390a320b51431c6cb234bcac4899084bdf75a9612a26303c1e8fc03e956f"
+      "sha256": "03b23d42da536a6d5aa7812e2ef6ff6022aaba0ccc4a7b3b84c41d04d649e961"
     },
     {
       "name": "comsd-figure-3.png",
@@ -37,5 +37,12 @@
     "Math glyphs are editable outline paths rather than live equation text",
     "Minor font/dash/arrowhead renderer differences",
     "Freeform paths lack automatic semantic attachment"
-  ]
+  ],
+  "drawio_layout_revalidation": {
+    "previous_sha256": "8263390a320b51431c6cb234bcac4899084bdf75a9612a26303c1e8fc03e956f",
+    "current_sha256": "03b23d42da536a6d5aa7812e2ef6ff6022aaba0ccc4a7b3b84c41d04d649e961",
+    "xml_parse": "passed",
+    "change": "Exporter now honors source no_wrap and text_inset. Source nodes/labels/paths and PPTX/PNG bytes unchanged.",
+    "application_render": "not performed; isolated application display unavailable"
+  }
 }

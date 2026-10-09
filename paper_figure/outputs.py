@@ -94,12 +94,25 @@ def refresh_output(repository, output=None):
     folders = sorted(p.parent for p in output.glob('*/sources.json'))
     require(folders, 'No paper directories containing sources.json')
     records = [(folder, *read_paper(folder, repository)) for folder in folders]
+    dispositions = []
+    for path in sorted(output.glob('*/disposition.json')):
+        disposition = json_file(path)
+        require(disposition.get('status') == 'no_suitable_figure' and disposition.get('editable_deliverable_count') == 0, 'Invalid source-only disposition')
+        source_pdf = local_file(path.parent, disposition['source_file'])
+        require(sha256(source_pdf) == disposition['source_sha256'], 'Disposition source PDF hash mismatch')
+        require(disposition.get('catalog_id') == path.parent.name and re.fullmatch(r'[a-z0-9_-]+', path.parent.name), 'Disposition directory identity mismatch')
+        require(set(disposition['reviewed_pages']) == set(range(1, disposition['page_count']+1)), 'Disposition lacks full source coverage')
+        local_file(path.parent, 'README.md')
+        dispositions.append((path.parent.name, disposition['title']))
     links = []
     for folder, paper, scene, manifest, original in records:
         stem = scene['id']
         title = paper['title']
         figure = paper['figure']
         page = paper['pdf_page_1_based']
+        typeable_text = sum(bool(n.get('label', '').strip()) and n['shape'] != 'image' for n in scene['nodes']) + sum(bool(e.get('label', '').strip()) for e in scene['edges'])
+        native_paths = sum(n['shape'] == 'path' for n in scene['nodes'])
+        raster_count = sum(n['shape'] == 'image' for n in scene['nodes'])
         source_version = paper.get('arxiv_id_version') or paper.get('source_version') or 'source version recorded in sources.json'
         text = [f'# {title}', '', f'{figure} · PDF 第 {page} 页 · {source_version}', '',
                 f'- [PowerPoint]({stem}.pptx)', f'- [draw.io]({stem}.drawio)',
@@ -107,7 +120,7 @@ def refresh_output(repository, output=None):
                 '- [原图与重建离线对照](comparison.html)', f'- [原文 PDF]({paper["file"]})',
                 '- [来源与版本记录](sources.json)', f'- [导出清单与原生对象统计]({stem}.manifest.json)',
                 '- [本文件夹 SHA256 清单](bundle.manifest.json)', '- [验证记录](VALIDATION.json)', '',
-                '## 来源与编辑边界', '', f'官方固定版本：{paper["source_url"]}', '',
+                '## 来源与编辑边界', '', f'可直接键入修改的文字对象：{typeable_text}；原生自由路径：{native_paths}；独立栅格对象：{raster_count}（内部像素不可编辑，可能包含照片、图标或源图公式，详见下方说明）。字形轮廓可移动/改色/编辑点，但不能像文本框一样直接改字；数学轮廓不是可输入新公式的公式对象。', '', f'官方固定版本：{paper["source_url"]}', '',
                 scene['provenance']['notes'], '', scene['provenance']['license'], '',
                 '自由路径可编辑，但不会自动吸附到语义节点。独立栅格照片/图标的内部像素不是可编辑对象。',
                 '这是用户要求的私有仓库对照副本，不代表取得公开再发布许可。', '',
@@ -135,6 +148,9 @@ def refresh_output(repository, output=None):
     index = ['# 论文结果索引', '', '每篇论文单独一个文件夹，包含 PPTX、draw.io、预览、论文原图、原文 PDF、离线对照及来源/校验记录。', '']
     index.extend(f'- [{title}]({slug}/README.md)：{figure}，PDF 第 {page} 页 · [离线对照]({slug}/comparison.html)'
                  for slug, title, figure, page in links)
+    if dispositions:
+        index += ['', '## 已核查原文但未发现适合转换的方法结构图', '', '这些仅归档原文与逐页核查说明，不计入可编辑图交付数。']
+        index.extend(f'- [{title}]({slug}/README.md)' for slug, title in dispositions)
     if (output / 'PROCESSING.json').exists():
         index += ['', '[逐篇处理进度（已交付与待审查分开计数）](PROCESSING.json)']
     index += ['', '[验证汇总](VALIDATION.json) · [本地 HTML 索引](comparison.html)', '',
@@ -144,7 +160,7 @@ def refresh_output(repository, output=None):
     (output / 'comparison.html').write_text(
         f'<!doctype html><html lang="zh"><meta charset="utf-8"><title>论文结果索引</title><style>{STYLE}</style><main><h1>论文结果索引</h1><ul>' +
         ''.join(f'<li><a href="{slug}/comparison.html">{html.escape(title)}</a> · {html.escape(figure)}，PDF 第 {page} 页 · <a href="{slug}/README.md">文件与来源</a></li>'
-                for slug, title, figure, page in links) + '</ul><p>每篇论文的原文 PDF 与可编辑结果保存在同一文件夹。</p></main></html>', encoding='utf-8')
+                for slug, title, figure, page in links) + '</ul>' + ('<h2>未发现适合的方法结构图（仅原文与核查记录）</h2><ul>' + ''.join(f'<li><a href="{slug}/README.md">{html.escape(title)}</a></li>' for slug,title in dispositions) + '</ul>' if dispositions else '') + '<p>每篇论文的原文 PDF 与可编辑结果保存在同一文件夹。</p></main></html>', encoding='utf-8')
     return {'papers': [slug for slug, *_ in links], 'artifacts_modified': False}
 
 

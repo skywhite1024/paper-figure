@@ -1,0 +1,41 @@
+{
+  "diagram_id": "bnpo-figure-1",
+  "source_scene_sha256": "01fe8cea54e57a4d61f23492701ab70509e92d584bfb8e53327ffd3b77f9a974",
+  "source_pdf_sha256": "90d62fe6d521dd25da850e0ef605f2581fa68eb7faa61179e875e96f0c4b2be0",
+  "checked_files": [
+    {
+      "name": "bnpo-figure-1.drawio",
+      "sha256": "bba41c642389d35e475daf1d7f221f091c1b090243341a46ff9dc104e6bb0d6f"
+    },
+    {
+      "name": "bnpo-figure-1.png",
+      "sha256": "a9baf8bd3af479c475de7aa981e2b9122397a63050433889892651dcc5ed1402"
+    },
+    {
+      "name": "bnpo-figure-1.pptx",
+      "sha256": "129860acec3a84751a136cd1d1002645476d75ace2bf0c9865e3ef437b3ebf32"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 1 PDFpage5 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 163,
+    "p:pic": 0,
+    "a:custGeom": 163,
+    "p:cxnSp": 0,
+    "a:t": 0
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

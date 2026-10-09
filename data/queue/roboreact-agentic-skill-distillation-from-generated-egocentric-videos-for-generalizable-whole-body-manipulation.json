@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "roboreact-agentic-skill-distillation-from-generated-egocentric-videos-for-generalizable-whole-body-manipulation",
-  "revision": 2,
+  "revision": 3,
   "status": "recreated",
   "created_at": "2026-10-09T20:04:59.474985Z",
-  "updated_at": "2026-10-09T20:13:38.353057Z",
+  "updated_at": "2026-10-09T20:20:44.501216Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -47,7 +47,12 @@
         ],
         "output_directory": "output/roboreact",
         "source_sha256": "2e87bb2629015735f79cfe7f78aafd7df77e6f73beb91871f9ea32b354ccd527",
-        "scene_sha256": "0289c8e543d10428f6c921e01aceb22e1aab6255435e506a30b92ad609e1934d"
+        "scene_sha256": "0289c8e543d10428f6c921e01aceb22e1aab6255435e506a30b92ad609e1934d",
+        "text_editability": {
+          "typeable_text_objects": 82,
+          "native_freeform_paths": 5,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
       }
     },
     "qa": {
@@ -89,6 +94,36 @@
               "output_directory": "output/roboreact",
               "source_sha256": "2e87bb2629015735f79cfe7f78aafd7df77e6f73beb91871f9ea32b354ccd527",
               "scene_sha256": "0289c8e543d10428f6c921e01aceb22e1aab6255435e506a30b92ad609e1934d"
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:20:44.501216Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "b0cafe8777342b3d6dd1d4a364e0d3a47817be86f067254415933b97fdd83ef4",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/roboreact/README.md",
+                "output/roboreact/VALIDATION.json"
+              ],
+              "output_directory": "output/roboreact",
+              "source_sha256": "2e87bb2629015735f79cfe7f78aafd7df77e6f73beb91871f9ea32b354ccd527",
+              "scene_sha256": "0289c8e543d10428f6c921e01aceb22e1aab6255435e506a30b92ad609e1934d",
+              "text_editability": {
+                "typeable_text_objects": 82,
+                "native_freeform_paths": 5,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

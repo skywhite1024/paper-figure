@@ -12,7 +12,24 @@
   "page_count": 38,
   "source_status": "accessible",
   "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-  "figure_candidates": [],
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "Method overview of HOST.",
+      "crop_pdf_points": [
+        76,
+        80,
+        520,
+        532
+      ],
+      "vector_paths": 432,
+      "native_text_spans": 47,
+      "raster_images": 82,
+      "visually_inspected": true,
+      "notes": "Prediction-target coupling, self-grounded localization/vision/action prediction, and single-human-video skill acquisition architecture."
+    }
+  ],
   "caption_search_cues": [
     {
       "figure": "Figure 2",
@@ -45,5 +62,5 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
 }

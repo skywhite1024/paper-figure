@@ -12,7 +12,24 @@
   "page_count": 20,
   "source_status": "accessible",
   "license_note": "unverified",
-  "figure_candidates": [],
+  "figure_candidates": [
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption": "Primitive skills and transformer-based skill diffusion model.",
+      "crop_pdf_points": [
+        116,
+        70,
+        505,
+        246
+      ],
+      "vector_paths": 80,
+      "native_text_spans": 16,
+      "raster_images": 8,
+      "visually_inspected": true,
+      "notes": "Skill examples on left and native transformer skill score model, input/output tokens and embeddings on right."
+    }
+  ],
   "caption_search_cues": [
     {
       "figure": "Figure 1",
@@ -75,5 +92,5 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
 }

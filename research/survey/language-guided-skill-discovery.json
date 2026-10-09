@@ -1,0 +1,33 @@
+{
+  "catalog_index": 51,
+  "catalog_id": "language-guided-skill-discovery",
+  "title_expected": "Language Guided Skill Discovery",
+  "source_url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/dae30ba63ca043588cdf804bbba295ed-Paper-Conference.pdf",
+  "pdf_path": "build/sources/language-guided-skill-discovery.pdf",
+  "pdf_sha256": "00446089e641e272bf22f5ef4241bfc7a987d87ac7bcbab5fae2cbe55e2780e5",
+  "pdf_title_observed": "Published as a conference paper at ICLR 2025\nLANGUAGE GUIDED SKILL DISCOVERY\nSeungeun Rho\nGeorgia Institute of Technology\nsrho31@gatech.edu\nLaura Smith\nUniversity of California, Berkley\nsmithlaura@berkeley.edu\nTianyu Li\nGeorgia Institute of Technology\ntli471@gatech.edu\nSergey Levine\nUniversity of California, Berkley\nsvlevine@eecs.berkeley.edu\nXue Bin Peng\nSimon Fraser University\nxbpeng@sfu.ca\nSeho",
+  "title_match": true,
+  "version": "official-proceedings",
+  "page_count": 22,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "Overview of how LGSD works.",
+      "crop_pdf_points": [
+        113,
+        78,
+        492,
+        217
+      ],
+      "vector_paths": 0,
+      "native_text_spans": 0,
+      "raster_images": 1,
+      "visually_inspected": true,
+      "notes": "State-space language-distance mapping to latent representation; two robot icons may be raster, geometry and math preserve source."
+    }
+  ],
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+}

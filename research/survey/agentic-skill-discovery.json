@@ -1,0 +1,33 @@
+{
+  "catalog_index": 52,
+  "catalog_id": "agentic-skill-discovery",
+  "title_expected": "Agentic Skill Discovery",
+  "source_url": "https://www2.informatik.uni-hamburg.de/wtm/publications/2026/ZWW26/1-s2.0-S0921889025003458-main.pdf",
+  "pdf_path": "build/sources/agentic-skill-discovery.pdf",
+  "pdf_sha256": "6374fb6056098cd13ec89ff351188529d9af2eabb518707fa6a6428149c6233f",
+  "pdf_title_observed": "Agentic Skill Discovery",
+  "title_match": true,
+  "version": "journal-2026-105248",
+  "page_count": 11,
+  "source_status": "accessible",
+  "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "Contextual skill acquisition loop of ASD.",
+      "crop_pdf_points": [
+        106,
+        52,
+        489,
+        162
+      ],
+      "vector_paths": 88,
+      "native_text_spans": 0,
+      "raster_images": 1,
+      "visually_inspected": true,
+      "notes": "Original propose-learn-collect loop; publisher PDF explicitly CC BY4.0. Fig4 on samepage has detailed evolutionary learning architecture."
+    }
+  ],
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+}

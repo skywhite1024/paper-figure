@@ -1,0 +1,61 @@
+{
+  "schema_version": 1,
+  "diagram_id": "csd-figure-2",
+  "source_sha256": "14ae350efe0b2662202988352bd4fa3cf127a2c46220b36952257b6fc092d1a2",
+  "provenance": {
+    "paper_title": "Controllability-Aware Unsupervised Skill Discovery",
+    "paper_url": "https://arxiv.org/abs/2302.05103v3",
+    "figure": "Figure 2",
+    "license": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+    "notes": "Original vector geometry with native editable text and outline glyph paths for mathematical fonts. Native paths are not semantically attached connectors. Source comparison pending; no target application editing QA claimed. Five reviewed filled line/endpoint compound paths split into independent native subpaths to preserve solid endpoints under Office even-odd fill.",
+    "page": 3,
+    "status": "figure_recreation",
+    "source_sha256": "f585ef4fbfee3bd35b53041ecd36e72f752205a1f1e761c4aee03b09737c3562",
+    "source_crop_pdf_points": [
+      58,
+      62,
+      538,
+      161
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "outlined_font_families": [
+      "CMM",
+      "CMSY",
+      "CMEX",
+      "CMR",
+      "CambriaMath"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "extraction_warnings": [
+      "97 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 2"
+    ]
+  },
+  "metrics": {
+    "native_nodes": 208,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 199,
+    "native_text_objects": 9,
+    "raster_images": 0,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "csd-figure-2.drawio",
+      "sha256": "ebe9f00062444a5e908f1cf809fe2278617be5d62a159ec232cb682274a44675"
+    },
+    {
+      "name": "csd-figure-2.png",
+      "sha256": "1dce9e26246bf87b01cccd52cc1eb8e06281531b54601750e3be1218942d6b86"
+    },
+    {
+      "name": "csd-figure-2.pptx",
+      "sha256": "c34199d7bb0714e3da41240b4d750e9ec9e7d39bcf18e0bfda54c28c6827aade"
+    }
+  ]
+}

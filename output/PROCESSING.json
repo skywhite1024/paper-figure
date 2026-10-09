@@ -1,21 +1,37 @@
 {
   "catalog_total": 137,
-  "delivered_recreations": 10,
+  "delivered_recreations": 25,
   "output_folders": [
+    "aps",
+    "aro",
     "aspire",
+    "bnpo",
+    "cic",
+    "compile",
     "comsd",
     "constrained-skill",
+    "csd",
+    "diayn",
+    "disco-dance",
+    "divide-discover-deploy",
     "elsim",
     "gisd",
+    "ibol",
+    "music",
+    "nbdi",
+    "option-keyboard",
     "psd",
+    "rest",
     "rgsd",
     "roboreact",
+    "slide",
     "srsd",
     "ugl"
   ],
   "catalog_status": {
-    "not_reviewed": 126,
-    "recreated": 10,
+    "not_reviewed": 105,
+    "recreated": 25,
+    "no_suitable_figure": 6,
     "blocked": 1
   },
   "queue": {
@@ -23,11 +39,11 @@
     "status": {
       "blocked": 1,
       "completed": 0,
-      "in_progress": 112,
+      "in_progress": 91,
       "inaccessible": 0,
-      "no_suitable_figure": 0,
+      "no_suitable_figure": 6,
       "not_reviewed": 14,
-      "recreated": 10,
+      "recreated": 25,
       "source_mismatch": 0
     },
     "stages": {
@@ -43,25 +59,25 @@
         "blocked": 0,
         "failed": 0,
         "in_progress": 0,
-        "passed": 0,
+        "passed": 6,
         "pending": 17,
-        "reported": 120
+        "reported": 114
       },
       "figure_selection": {
         "blocked": 0,
-        "failed": 0,
+        "failed": 6,
         "in_progress": 0,
         "passed": 0,
         "pending": 69,
-        "reported": 68
+        "reported": 62
       },
       "recreation": {
         "blocked": 0,
         "failed": 0,
         "in_progress": 0,
         "passed": 0,
-        "pending": 127,
-        "reported": 10
+        "pending": 112,
+        "reported": 25
       },
       "qa": {
         "blocked": 0,

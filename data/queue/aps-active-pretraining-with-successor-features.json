@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "aps-active-pretraining-with-successor-features",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.468607Z",
-  "updated_at": "2026-10-09T20:14:35.899923Z",
+  "updated_at": "2026-10-09T20:32:20.845474Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -125,8 +125,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/aps/README.md",
+          "output/aps/VALIDATION.json"
+        ],
+        "output_directory": "output/aps",
+        "source_sha256": "4ec6775b24f294d39f97feb8d9954c5184c90faeab9563d385e3f32b3c1a436a",
+        "scene_sha256": "0a8d0cfe21b934b1d6ecbade6b6c66f5e116ff5eb60c1a1e13f514af4282c63d",
+        "text_editability": {
+          "typeable_text_objects": 16,
+          "native_freeform_paths": 48,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -289,6 +303,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:32:20.845474Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "875e2f7fefea92f707fce27f14093619abb70f21b42bfbab43bcc24ee3534bcf",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/aps/README.md",
+                "output/aps/VALIDATION.json"
+              ],
+              "output_directory": "output/aps",
+              "source_sha256": "4ec6775b24f294d39f97feb8d9954c5184c90faeab9563d385e3f32b3c1a436a",
+              "scene_sha256": "0a8d0cfe21b934b1d6ecbade6b6c66f5e116ff5eb60c1a1e13f514af4282c63d",
+              "text_editability": {
+                "typeable_text_objects": 16,
+                "native_freeform_paths": 48,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

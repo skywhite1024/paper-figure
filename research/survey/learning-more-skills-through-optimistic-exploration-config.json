@@ -4,9 +4,18 @@
   "paper_url": "https://arxiv.org/abs/2107.14226v6",
   "figure": "Figure 2",
   "page": 5,
-  "crop": [110, 79, 502, 199],
+  "crop": [
+    110,
+    79,
+    502,
+    199
+  ],
   "scale": 3,
   "license": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
-  "notes": "Source-faithful native extraction of the vector left panel. The source right panel is one bitmap; its diagram colors, mathematical glyphs and diagram silhouettes are separately traced into native editable point paths by the per-paper postprocessor. Only the Atari game screen remains an individual source raster. Paths remain freeforms, not semantically attached connectors. Font outlines remain editable points, not live text.",
-  "outline_fonts": ["Arial", "FreeSerif", "DMSans", "NimbusRom"]
+  "notes": "Source-faithful native extraction of the vector left panel. Ordinary labels and panel captions remain typeable text. Source math fonts are glyph outlines. The source right panel is one bitmap: its network is restored as smooth measured native paths and equation glyphs as editable contours. Only the Atari screen remains a separate raster image. Paths remain freeforms, not semantically attached connectors.",
+  "outline_fonts": [
+    "Arial-ItalicMT",
+    "FreeSerif",
+    "DMSans"
+  ]
 }

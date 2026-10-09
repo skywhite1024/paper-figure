@@ -5,7 +5,7 @@
   "checked_files": [
     {
       "name": "gisd-figure-1.drawio",
-      "sha256": "1841b8e0980b4f167c6af9e921a74a261623b889981f7a8295b40d2c00bb18ae"
+      "sha256": "34d7c4ebfb4fd977ddb42355e9c0400ddce1d874ba47a5f3b4a571c263a53a1e"
     },
     {
       "name": "gisd-figure-1.png",
@@ -29,5 +29,12 @@
     "Gradient state-space asset edge is slightly softer/pixelated than original",
     "Source mathematical glyphs are outline shapes",
     "Freeform arrows lack semantic endpoint attachment"
-  ]
+  ],
+  "drawio_layout_revalidation": {
+    "previous_sha256": "d2807d32fec77e26975c875e10137307dafc6b592e827655f6507117931f12a0",
+    "current_sha256": "34d7c4ebfb4fd977ddb42355e9c0400ddce1d874ba47a5f3b4a571c263a53a1e",
+    "xml_parse": "passed",
+    "change": "Exporter now honors source no_wrap and text_inset. Source nodes/labels/paths and PPTX/PNG bytes unchanged.",
+    "application_render": "not performed; isolated application display unavailable"
+  }
 }

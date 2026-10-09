@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "diagram_id": "cic-figure-3",
+  "source_sha256": "a24c89dafb06faeec15b6dfbb06857090380b3b5b34a79eff7aa574243926084",
+  "provenance": {
+    "paper_title": "CIC: Contrastive Intrinsic Control for Unsupervised Skill Discovery",
+    "paper_url": "https://arxiv.org/abs/2202.00161v3",
+    "figure": "Figure 3",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "notes": "Original vector geometry and editable text; source photo/plot/formula assets preserved separately with their transparency. Internal pixels of raster subassets are not editable. Freeform arrows lack semantic endpoint attachment. Independent cross-format QA pending. Source header image fragments1/2 are hidden/clipped in PDF; omit these invisible duplicates. Formula assets remain separate raster images.",
+    "page": 3,
+    "status": "figure_recreation",
+    "source_sha256": "01c118cb18c18693dc033735eae3152cf27d515263c2429b009f5532937fd236",
+    "source_crop_pdf_points": [
+      104,
+      68,
+      493,
+      199
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "outlined_font_families": [
+      "CMM",
+      "CMSY",
+      "CMEX",
+      "CMR",
+      "CambriaMath"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "extraction_warnings": [
+      "9 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 2",
+      "path crosses crop boundary: 3",
+      "unhandled image/shading at seq 59: [243.35211181640625, 69.59344482421875, 267.0877990722656, 81.04873657226562]; requires reviewed raster region",
+      "unhandled image/shading at seq 60: [417.413818359375, 69.44088745117188, 456.9732666015625, 80.50057983398438]; requires reviewed raster region"
+    ]
+  },
+  "metrics": {
+    "native_nodes": 67,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 55,
+    "native_text_objects": 12,
+    "raster_images": 8,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "cic-figure-3.drawio",
+      "sha256": "b87c95b7e80d339e75982246c9f4728ab2b85ef3ae21a6f7defad16edd3c3679"
+    },
+    {
+      "name": "cic-figure-3.png",
+      "sha256": "00bf953d54466960aba991a92fdc7ef35e9b34c04cf42a4555289905f68daa3e"
+    },
+    {
+      "name": "cic-figure-3.pptx",
+      "sha256": "e5890f332d69988d1170455240518ffdaf6ae7d9b1402b8fa4464bc56971c6be"
+    }
+  ]
+}

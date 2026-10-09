@@ -28,11 +28,17 @@ def sync(root=ROOT):
         checkpoint=read_checkpoint(root,row['id'])
         evidence={'summary':'Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.',
                   'references':[str((folder/'README.md').relative_to(root)),str((folder/'VALIDATION.json').relative_to(root))],
-                  'output_directory':str(folder.relative_to(root)), 'source_sha256':paper['sha256'], 'scene_sha256':manifest['source_sha256']}
+                  'output_directory':str(folder.relative_to(root)), 'source_sha256':paper['sha256'], 'scene_sha256':manifest['source_sha256'],
+                  'text_editability': {'typeable_text_objects': sum(bool(n.get('label','').strip()) and n['shape']!='image' for n in scene['nodes']), 'native_freeform_paths':sum(n['shape']=='path' for n in scene['nodes']), 'note':'Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed.'}}
         existing=checkpoint['stages']['recreation']
         if existing.get('evidence')!=evidence or checkpoint['status']!='recreated':
             update_checkpoint(root,row['id'],{'status':'recreated','stages':{'recreation':{'status':'reported','evidence':evidence}}},actor='bundle-integration')
         processed.append(folder.name)
+    for disposition_path in (root/'output').glob('*/disposition.json'):
+        disposition=json.loads(disposition_path.read_text())
+        rows=[p for p in papers if p['id']==disposition['catalog_id']]
+        require(len(rows)==1,'Unknown disposition catalog ID')
+        rows[0].update(status='no_suitable_figure',diagram=None,output_directory=str(disposition_path.parent.relative_to(root)),notes=disposition['reason'])
     catalog_path.write_text(json.dumps(catalog,indent=2,ensure_ascii=False)+'\n')
     refresh_output(root)
     summary={'catalog_total':len(papers),'delivered_recreations':len(processed),'output_folders':processed,

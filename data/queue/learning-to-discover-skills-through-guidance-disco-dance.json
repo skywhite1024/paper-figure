@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "learning-to-discover-skills-through-guidance-disco-dance",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.464078Z",
-  "updated_at": "2026-10-09T20:14:36.361172Z",
+  "updated_at": "2026-10-09T20:32:21.025372Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/disco-dance/README.md",
+          "output/disco-dance/VALIDATION.json"
+        ],
+        "output_directory": "output/disco-dance",
+        "source_sha256": "5c2d09affab42d3ca4b46642312fd4835bfd5f4fd22a1f4791c4a30eacf5e8c6",
+        "scene_sha256": "6f8a6b98c87853f242e1a6bdf401013dea4b553fce547d68a572d05662341200",
+        "text_editability": {
+          "typeable_text_objects": 18,
+          "native_freeform_paths": 31,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -286,6 +300,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:32:21.025372Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "dea3c0a74c71166a684dc36cd36951b725cb53e128f3df1609776a8648ff281f",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/disco-dance/README.md",
+                "output/disco-dance/VALIDATION.json"
+              ],
+              "output_directory": "output/disco-dance",
+              "source_sha256": "5c2d09affab42d3ca4b46642312fd4835bfd5f4fd22a1f4791c4a30eacf5e8c6",
+              "scene_sha256": "6f8a6b98c87853f242e1a6bdf401013dea4b553fce547d68a572d05662341200",
+              "text_editability": {
+                "typeable_text_objects": 18,
+                "native_freeform_paths": 31,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

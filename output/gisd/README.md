@@ -15,6 +15,8 @@ Figure 1 · PDF 第 3 页 · 2601.14000v1
 
 ## 来源与编辑边界
 
+可直接键入修改的文字对象：10；原生自由路径：32；独立栅格对象：2（内部像素不可编辑，可能包含照片、图标或源图公式，详见下方说明）。字形轮廓可移动/改色/编辑点，但不能像文本框一样直接改字；数学轮廓不是可输入新公式的公式对象。
+
 官方固定版本：https://arxiv.org/pdf/2601.14000v1
 
 Source vector geometry and separate native text extracted from the inspected original figure. Two source raster components (gradient state-space illustration and robot) remain raster. Fonts are substituted; curves are editable freeforms without semantic attachments. Original math glyph placement may vary by editor.

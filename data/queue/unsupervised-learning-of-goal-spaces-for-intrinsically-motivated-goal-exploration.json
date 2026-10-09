@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "unsupervised-learning-of-goal-spaces-for-intrinsically-motivated-goal-exploration",
-  "revision": 4,
+  "revision": 5,
   "status": "recreated",
   "created_at": "2026-10-09T20:04:59.473322Z",
-  "updated_at": "2026-10-09T20:14:58.254111Z",
+  "updated_at": "2026-10-09T20:20:44.527832Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -134,7 +134,12 @@
         ],
         "output_directory": "output/ugl",
         "source_sha256": "f972160f7b25e2e646db98cbd719aa36d85445eedd67445fb35d582ce8098917",
-        "scene_sha256": "308887b6f1ca085157f5436251e6d9916d1ccbbe3f40f64b1b4c512c246312fe"
+        "scene_sha256": "308887b6f1ca085157f5436251e6d9916d1ccbbe3f40f64b1b4c512c246312fe",
+        "text_editability": {
+          "typeable_text_objects": 22,
+          "native_freeform_paths": 944,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
       }
     },
     "qa": {
@@ -323,6 +328,36 @@
               "output_directory": "output/ugl",
               "source_sha256": "f972160f7b25e2e646db98cbd719aa36d85445eedd67445fb35d582ce8098917",
               "scene_sha256": "308887b6f1ca085157f5436251e6d9916d1ccbbe3f40f64b1b4c512c246312fe"
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T20:20:44.527832Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "46e2dad28200c2b99d2cb280d1e6bc9144a5dbd5c6fc5e65a6e54a53a082bd5f",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/ugl/README.md",
+                "output/ugl/VALIDATION.json"
+              ],
+              "output_directory": "output/ugl",
+              "source_sha256": "f972160f7b25e2e646db98cbd719aa36d85445eedd67445fb35d582ce8098917",
+              "scene_sha256": "308887b6f1ca085157f5436251e6d9916d1ccbbe3f40f64b1b4c512c246312fe",
+              "text_editability": {
+                "typeable_text_objects": 22,
+                "native_freeform_paths": 944,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

@@ -12,7 +12,24 @@
   "page_count": 25,
   "source_status": "accessible",
   "license_note": "unverified",
-  "figure_candidates": [],
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "Task generation pipeline in RoboCerebra.",
+      "crop_pdf_points": [
+        112,
+        73,
+        498,
+        289
+      ],
+      "vector_paths": 107,
+      "native_text_spans": 155,
+      "raster_images": 66,
+      "visually_inspected": true,
+      "notes": "Object sampler, cascaded LLM task designer, rule-based scene programmer and simulator/verifier loops."
+    }
+  ],
   "caption_search_cues": [
     {
       "figure": "Figure 1",
@@ -39,5 +56,5 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
 }

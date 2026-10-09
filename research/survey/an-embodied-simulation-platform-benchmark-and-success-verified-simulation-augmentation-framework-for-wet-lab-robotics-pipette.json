@@ -12,7 +12,24 @@
   "page_count": 20,
   "source_status": "accessible",
   "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-  "figure_candidates": [],
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 4,
+      "caption": "Overview of Pipette platform for wet-lab robotic simulation, augmentation and evaluation.",
+      "crop_pdf_points": [
+        108,
+        62,
+        501,
+        339
+      ],
+      "vector_paths": 0,
+      "native_text_spans": 0,
+      "raster_images": 1,
+      "visually_inspected": true,
+      "notes": "Asset, platform agent, data augmentation and VLA training/inference pipeline; many laboratory scene thumbnails."
+    }
+  ],
   "caption_search_cues": [
     {
       "figure": "Figure 1",
@@ -45,7 +62,7 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "ArXiv HTML citation_title says Data-Efficient Augmentation, but actual versionedPDF title prints Success-Verified Simulation Augmentation and matches catalog (Pipette prefix/suffix convention only). Figure inspection still pending.",
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
   "arxiv_metadata_title": "Pipette: An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics",
   "title_review": "First-page pixels manually inspected2026-10-09"
 }

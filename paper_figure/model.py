@@ -20,9 +20,27 @@ def local_asset(base,name):
  require(p.is_file(),'missing asset: '+name);require(p.suffix.lower() in {'.png','.jpg','.jpeg'},'PNG/JPEG required')
  magic=p.read_bytes()[:8];require(magic.startswith(b'\x89PNG\r\n\x1a\n') if p.suffix.lower()=='.png' else magic.startswith(b'\xff\xd8\xff'),'invalid image bytes')
  return p
+DASH_STYLES={'solid','dashed','dotted','dash-dot','dash-dot-dot'}
+def validate_dash(value):
+ if 'dash_style' in value:
+  require(isinstance(value['dash_style'],str) and value['dash_style'] in DASH_STYLES,'dash_style must be a supported native preset')
+ if 'dash_pattern' in value:
+  pattern=value['dash_pattern']
+  require(isinstance(pattern,list) and 2<=len(pattern)<=64 and len(pattern)%2==0,'dash_pattern needs 2..64 alternating on/off lengths')
+  for length in pattern:number(length,'dash_pattern length',True)
+  require(value.get('dash_style')!='solid','solid style cannot have a dash_pattern')
+ if 'dash_phase' in value:
+  number(value['dash_phase'],'dash_phase');require('dash_pattern' in value,'dash_phase requires dash_pattern')
+ if 'dash' in value:
+  require(type(value['dash']) is bool,'dash: boolean required')
+  if 'dash_style' in value:require(value['dash']==(value['dash_style']!='solid'),'dash and dash_style conflict')
+  if 'dash_pattern' in value:require(value['dash'],'dash_pattern conflicts with dash=false')
+def dash_style(value):
+ validate_dash(value)
+ return value.get('dash_style', 'dashed' if value.get('dash') or value.get('dash_pattern') else 'solid')
 SHAPES={'rect','rounded_rect','ellipse','diamond','text','image','path'}
 PORTS={'left','right','top','bottom'}
-STATUSES={'not_reviewed','in_progress','recreated','verified','blocked'}
+STATUSES={'not_reviewed','in_progress','recreated','verified','blocked','no_suitable_figure'}
 def validate(d,base=None):
  require(isinstance(d,dict),'scene must be object');xml_safe(d)
  require(type(d.get('schema_version')) is int and d['schema_version']==1,'schema_version must be 1')
@@ -47,6 +65,7 @@ def validate(d,base=None):
    if k in n:require(isinstance(n[k],str) and (n[k]=='none' or re.fullmatch('#[A-Fa-f0-9]{6}',n[k])),k+': #RRGGBB or none required')
   for k in ['font_size','stroke_width']:
    if k in n:number(n[k],k,k=='font_size')
+  validate_dash(n)
   for k in ['bold','italic','dash']:
    if k in n:require(type(n[k]) is bool,k+': boolean required')
   for k in ['fill_opacity','stroke_opacity']:
@@ -71,6 +90,7 @@ def validate(d,base=None):
   require(isinstance(e,dict),'edge must be object');text(e.get('id'),'edge.id');require(e['id'] not in ids|edgeids|{'0','1'},'duplicate edge ID');edgeids.add(e['id'])
   for k in ['source','target']:require(isinstance(e.get(k),str) and e[k] in ids,'unknown endpoint')
   for k in ['source_port','target_port']:require(isinstance(e.get(k,'left'),str) and e.get(k,'left') in PORTS,'invalid port')
+  validate_dash(e)
   for k in ['arrow','dash','head_arrow']:
    if k in e:require(type(e[k]) is bool,k+': boolean required')
   if 'stroke' in e:require(isinstance(e['stroke'],str) and bool(re.fullmatch('#[A-Fa-f0-9]{6}',e['stroke'])),'edge.stroke: #RRGGBB required')

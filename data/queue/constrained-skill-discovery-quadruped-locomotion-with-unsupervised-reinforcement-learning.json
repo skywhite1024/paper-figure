@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "constrained-skill-discovery-quadruped-locomotion-with-unsupervised-reinforcement-learning",
-  "revision": 4,
+  "revision": 5,
   "status": "recreated",
   "created_at": "2026-10-09T20:04:59.463593Z",
-  "updated_at": "2026-10-09T20:14:58.167280Z",
+  "updated_at": "2026-10-09T20:20:44.404484Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -134,7 +134,12 @@
         ],
         "output_directory": "output/constrained-skill",
         "source_sha256": "1c580c84287b0df7a15fe502239c50e18e31ecd89f8708d680b508bf03a2919f",
-        "scene_sha256": "1f49bcf8628d83054c192ac0ca4c4ca01a20cddbba88569e3cc5b49c2407fc74"
+        "scene_sha256": "1f49bcf8628d83054c192ac0ca4c4ca01a20cddbba88569e3cc5b49c2407fc74",
+        "text_editability": {
+          "typeable_text_objects": 14,
+          "native_freeform_paths": 91,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
       }
     },
     "qa": {
@@ -323,6 +328,36 @@
               "output_directory": "output/constrained-skill",
               "source_sha256": "1c580c84287b0df7a15fe502239c50e18e31ecd89f8708d680b508bf03a2919f",
               "scene_sha256": "1f49bcf8628d83054c192ac0ca4c4ca01a20cddbba88569e3cc5b49c2407fc74"
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T20:20:44.404484Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "f9523bee90d189b127e28f4296837693c49bcb5108c631397d51461f6f2e4cd6",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/constrained-skill/README.md",
+                "output/constrained-skill/VALIDATION.json"
+              ],
+              "output_directory": "output/constrained-skill",
+              "source_sha256": "1c580c84287b0df7a15fe502239c50e18e31ecd89f8708d680b508bf03a2919f",
+              "scene_sha256": "1f49bcf8628d83054c192ac0ca4c4ca01a20cddbba88569e3cc5b49c2407fc74",
+              "text_editability": {
+                "typeable_text_objects": 14,
+                "native_freeform_paths": 91,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

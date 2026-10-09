@@ -1,0 +1,31 @@
+# Controllability-Aware Unsupervised Skill Discovery
+
+Figure 2 · PDF 第 3 页 · 2302.05103v3
+
+- [PowerPoint](csd-figure-2.pptx)
+- [draw.io](csd-figure-2.drawio)
+- [重建预览](csd-figure-2.png)
+- [论文原图](csd-original.png)
+- [原图与重建离线对照](comparison.html)
+- [原文 PDF](csd-2302.05103v3.pdf)
+- [来源与版本记录](sources.json)
+- [导出清单与原生对象统计](csd-figure-2.manifest.json)
+- [本文件夹 SHA256 清单](bundle.manifest.json)
+- [验证记录](VALIDATION.json)
+
+## 来源与编辑边界
+
+可直接键入修改的文字对象：9；原生自由路径：199；独立栅格对象：0（内部像素不可编辑，可能包含照片、图标或源图公式，详见下方说明）。字形轮廓可移动/改色/编辑点，但不能像文本框一样直接改字；数学轮廓不是可输入新公式的公式对象。
+
+官方固定版本：https://arxiv.org/pdf/2302.05103v3
+
+Original vector geometry with native editable text and outline glyph paths for mathematical fonts. Native paths are not semantically attached connectors. Source comparison pending; no target application editing QA claimed. Five reviewed filled line/endpoint compound paths split into independent native subpaths to preserve solid endpoints under Office even-odd fill.
+
+No reuse license found in inspected source landing page; retain attribution and review reuse terms
+
+自由路径可编辑，但不会自动吸附到语义节点。独立栅格照片/图标的内部像素不是可编辑对象。
+这是用户要求的私有仓库对照副本，不代表取得公开再发布许可。
+
+原文 SHA256：`f585ef4fbfee3bd35b53041ecd36e72f752205a1f1e761c4aee03b09737c3562`
+
+[返回论文索引](../README.md)

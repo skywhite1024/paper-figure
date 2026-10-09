@@ -1,0 +1,48 @@
+{
+  "diagram_id": "csd-figure-2",
+  "source_scene_sha256": "14ae350efe0b2662202988352bd4fa3cf127a2c46220b36952257b6fc092d1a2",
+  "source_pdf_sha256": "f585ef4fbfee3bd35b53041ecd36e72f752205a1f1e761c4aee03b09737c3562",
+  "checked_files": [
+    {
+      "name": "csd-figure-2.drawio",
+      "sha256": "ebe9f00062444a5e908f1cf809fe2278617be5d62a159ec232cb682274a44675"
+    },
+    {
+      "name": "csd-figure-2.png",
+      "sha256": "1dce9e26246bf87b01cccd52cc1eb8e06281531b54601750e3be1218942d6b86"
+    },
+    {
+      "name": "csd-figure-2.pptx",
+      "sha256": "c34199d7bb0714e3da41240b4d750e9ec9e7d39bcf18e0bfda54c28c6827aade"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 2 PDFpage3 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 208,
+    "p:pic": 0,
+    "a:custGeom": 199,
+    "p:cxnSp": 0,
+    "a:t": 9
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ],
+  "drawio_layout_revalidation": {
+    "previous_sha256": "ddd2daf3c3ba3ad994f7c09ab814f3ca6b0ebc2f88b7902e22167c67a06121d8",
+    "current_sha256": "ebe9f00062444a5e908f1cf809fe2278617be5d62a159ec232cb682274a44675",
+    "xml_parse": "passed",
+    "change": "Exporter now honors source no_wrap and text_inset. Source nodes/labels/paths and PPTX/PNG bytes unchanged.",
+    "application_render": "not performed; isolated application display unavailable"
+  }
+}

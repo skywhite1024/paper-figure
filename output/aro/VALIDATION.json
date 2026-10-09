@@ -1,0 +1,48 @@
+{
+  "diagram_id": "aro-figure-1",
+  "source_scene_sha256": "756a2e0599582d7d04235ced03f8016a72e9b280c6736198f0945547cee07bef",
+  "source_pdf_sha256": "0ab55e2e71676eee57bb6970e7dcf7d0960080c0bd55991667b2f7aea1d2df69",
+  "checked_files": [
+    {
+      "name": "aro-figure-1.drawio",
+      "sha256": "ea67d9ba490796a66d130d7b1a65b998286f0d1a4b0a02ee32e82a008d02a203"
+    },
+    {
+      "name": "aro-figure-1.png",
+      "sha256": "4fad551c996f1daf65d7cffc30c59ad2e2cb6b94b4553572afbadccc1baf1520"
+    },
+    {
+      "name": "aro-figure-1.pptx",
+      "sha256": "799231311428fe3f15c6c4984ff3f23e3bf4b7e80796836f1d9da7a854c44ecc"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page checked",
+    "source_page_figure": "Figure1 PDFpage2 crop/source image compared",
+    "hashes": "all source/export match",
+    "fidelity": "original RFG/EE/training/EFG/PE arrangement and feedback loop retained",
+    "legibility": "all labels and code/text icons readable",
+    "native_editability": "fully native shapes/text/paths/connectors, no image backdrop",
+    "drawio": "XML/stencil review only; actual app rendering unavailable"
+  },
+  "native_xml_counts": {
+    "p:sp": 33,
+    "p:pic": 0,
+    "a:custGeom": 14,
+    "p:cxnSp": 6,
+    "a:t": 25
+  },
+  "limitations": [
+    "Manual icon outlines and typography approximate original",
+    "Arrowheads filled rather than original open outlines",
+    "Attribution footer added outside figure crop"
+  ],
+  "drawio_layout_revalidation": {
+    "previous_sha256": "372f96aeb0ad1c29cc123242333c719a331730614df5802344a85ecbf084f48a",
+    "current_sha256": "ea67d9ba490796a66d130d7b1a65b998286f0d1a4b0a02ee32e82a008d02a203",
+    "xml_parse": "passed",
+    "change": "Exporter now honors source no_wrap and text_inset. Source nodes/labels/paths and PPTX/PNG bytes unchanged.",
+    "application_render": "not performed; isolated application display unavailable"
+  }
+}

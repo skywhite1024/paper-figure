@@ -1,0 +1,49 @@
+{
+  "diagram_id": "cic-figure-3",
+  "source_scene_sha256": "a24c89dafb06faeec15b6dfbb06857090380b3b5b34a79eff7aa574243926084",
+  "source_pdf_sha256": "01c118cb18c18693dc033735eae3152cf27d515263c2429b009f5532937fd236",
+  "checked_files": [
+    {
+      "name": "cic-figure-3.drawio",
+      "sha256": "b87c95b7e80d339e75982246c9f4728ab2b85ef3ae21a6f7defad16edd3c3679"
+    },
+    {
+      "name": "cic-figure-3.png",
+      "sha256": "00bf953d54466960aba991a92fdc7ef35e9b34c04cf42a4555289905f68daa3e"
+    },
+    {
+      "name": "cic-figure-3.pptx",
+      "sha256": "e5890f332d69988d1170455240518ffdaf6ae7d9b1402b8fa4464bc56971c6be"
+    }
+  ],
+  "review_status": "Source versus independent LibreOffice PPTX render passed; partially editable with explicit raster limitations",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 3 PDFpage3 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 75,
+    "p:pic": 8,
+    "a:custGeom": 55,
+    "p:cxnSp": 0,
+    "a:t": 12
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment",
+    "Source formula and glyph labels remain raster images and are not internally editable."
+  ],
+  "drawio_layout_revalidation": {
+    "previous_sha256": "233ce10075cc412033e5b8ad14e3ebe1d96b3c43c657aba78e28cd5f7166b63b",
+    "current_sha256": "b87c95b7e80d339e75982246c9f4728ab2b85ef3ae21a6f7defad16edd3c3679",
+    "xml_parse": "passed",
+    "change": "Exporter now honors source no_wrap and text_inset. Source nodes/labels/paths and PPTX/PNG bytes unchanged.",
+    "application_render": "not performed; isolated application display unavailable"
+  }
+}

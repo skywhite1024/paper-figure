@@ -1,0 +1,33 @@
+{
+  "catalog_index": 77,
+  "catalog_id": "skid-raw-skill-discovery-from-raw-trajectories",
+  "title_expected": "SkiD RAW: Skill Discovery from Raw Trajectories",
+  "source_url": "https://cps.unileoben.ac.at/wp/RAL2021Tanneberg.pdf",
+  "pdf_path": "build/sources/skid-raw-skill-discovery-from-raw-trajectories.pdf",
+  "pdf_sha256": "38604f2d5577496c0aef84b2ab3c953e0d55126834a9409766046716a71c7765",
+  "pdf_title_observed": "SkiD RAW: Skill Discovery from Raw Trajectories",
+  "title_match": true,
+  "version": "official-proceedings",
+  "page_count": 8,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 2,
+      "caption": "Graphical model and SKID framework.",
+      "crop_pdf_points": [
+        137,
+        58,
+        489,
+        177
+      ],
+      "vector_paths": 239,
+      "native_text_spans": 16,
+      "raster_images": 4,
+      "visually_inspected": true,
+      "notes": "Recurrent variational segmentation and skill-library reconstruction with spatial transformers and illustrative mini-curves."
+    }
+  ],
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+}

@@ -98,7 +98,7 @@ class QueueTests(unittest.TestCase):
         (fresh / 'data/catalog.json').write_bytes(self.catalog.read_bytes())
         self.assertEqual(initialize_queue(fresh)['created'], 137)
         self.assertEqual({key: value for key, value in queue_status(fresh)['status'].items() if value},
-                         dict(__import__('collections').Counter(p['status'] for p in json.loads(self.catalog.read_text())['papers'])))
+                         dict(__import__('collections').Counter('in_progress' if p['status']=='no_suitable_figure' else p['status'] for p in json.loads(self.catalog.read_text())['papers'])))
 
     def test_import_preserves_progress_and_source_snapshot(self):
         update_checkpoint(self.root, 'new-paper', {'status': 'in_progress'})

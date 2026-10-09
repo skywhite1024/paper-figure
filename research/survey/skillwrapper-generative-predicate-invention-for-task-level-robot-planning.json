@@ -12,7 +12,24 @@
   "page_count": 66,
   "source_status": "accessible",
   "license_note": "unverified",
-  "figure_candidates": [],
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption": "Overview of SkillWrapper.",
+      "crop_pdf_points": [
+        107,
+        80,
+        504,
+        262
+      ],
+      "vector_paths": 530,
+      "native_text_spans": 95,
+      "raster_images": 27,
+      "visually_inspected": true,
+      "notes": "Active collection, predicate invention and operator learning feeding symbolic planner/inference."
+    }
+  ],
   "caption_search_cues": [
     {
       "figure": "Figure 1",
@@ -45,5 +62,5 @@
       "visually_inspected": false
     }
   ],
-  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
 }

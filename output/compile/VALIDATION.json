@@ -1,0 +1,48 @@
+{
+  "diagram_id": "compile-figure-2",
+  "source_scene_sha256": "1b2aaced2b991410ca13770b9a4a9d8725a74bd1dd7fa4c89021bd82058c16a4",
+  "source_pdf_sha256": "1519b13da250a0fedd635bc3171ede198edb6bb72e9d89042e1454645cbdce32",
+  "checked_files": [
+    {
+      "name": "compile-figure-2.drawio",
+      "sha256": "66697d208bfe38746476d8aae93077c41dd3e9a29dfed188eb23131c21a344c3"
+    },
+    {
+      "name": "compile-figure-2.png",
+      "sha256": "6ffa8cd24f4c341fa9cccda0b7dd743b63e35fdef8f4534ca3a5984e3d2ca73b"
+    },
+    {
+      "name": "compile-figure-2.pptx",
+      "sha256": "09f94d659a22ff649674dbe4465db1ffd698912c72d76d8a553be07baef872fb"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 2 PDFpage4 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 411,
+    "p:pic": 0,
+    "a:custGeom": 396,
+    "p:cxnSp": 0,
+    "a:t": 15
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ],
+  "drawio_layout_revalidation": {
+    "previous_sha256": "1fc648129ca4bed8ce9a0f4550603705be747feabc0c34ae4353b4908288de89",
+    "current_sha256": "66697d208bfe38746476d8aae93077c41dd3e9a29dfed188eb23131c21a344c3",
+    "xml_parse": "passed",
+    "change": "Exporter now honors source no_wrap and text_inset. Source nodes/labels/paths and PPTX/PNG bytes unchanged.",
+    "application_render": "not performed; isolated application display unavailable"
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "schema_version": 1,
+  "diagram_id": "aps-figure-2",
+  "source_sha256": "0a8d0cfe21b934b1d6ecbade6b6c66f5e116ff5eb60c1a1e13f514af4282c63d",
+  "provenance": {
+    "paper_title": "APS: Active Pretraining with Successor Features",
+    "paper_url": "https://arxiv.org/abs/2108.13956v1",
+    "figure": "Figure 2",
+    "license": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+    "notes": "Original vector geometry with native editable text and outline glyph paths for mathematical fonts. Native paths are not semantically attached connectors. Source comparison pending; no target application editing QA claimed. Ordinary Calibri labels reconstructed as16typeable text objects; only mathematical symbols outlined.  Seven reviewed filled arrow shaft/head compound paths split into independent native subpaths to preserve solid arrow joins under Office even-odd fill.",
+    "page": 4,
+    "status": "figure_recreation",
+    "source_sha256": "4ec6775b24f294d39f97feb8d9954c5184c90faeab9563d385e3f32b3c1a436a",
+    "source_crop_pdf_points": [
+      119,
+      65,
+      478,
+      218
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "outlined_font_families": [
+      "CMM",
+      "CMSY",
+      "CMEX",
+      "CMR",
+      "CambriaMath"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "extraction_warnings": [
+      "3 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 2",
+      "path crosses crop boundary: 3"
+    ]
+  },
+  "metrics": {
+    "native_nodes": 64,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 48,
+    "native_text_objects": 16,
+    "raster_images": 0,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "aps-figure-2.drawio",
+      "sha256": "0fd952b34f1c13f446f1dcc2b21d101f50b1bdbbd2c24d67ec083458da1717c1"
+    },
+    {
+      "name": "aps-figure-2.png",
+      "sha256": "760d73d8c1531383f3903d3cba7066016fbb43d1849b82a4b34dc0fbb710cb6d"
+    },
+    {
+      "name": "aps-figure-2.pptx",
+      "sha256": "b8bb324e4a13a23dd1ad4ee157a62c0755410c3991bfb250014df2de1ba5d2f1"
+    }
+  ]
+}

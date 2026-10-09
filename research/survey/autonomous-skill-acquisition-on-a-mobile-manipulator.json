@@ -1,0 +1,33 @@
+{
+  "catalog_index": 58,
+  "catalog_id": "autonomous-skill-acquisition-on-a-mobile-manipulator",
+  "title_expected": "Autonomous Skill Acquisition on a Mobile Manipulator",
+  "source_url": "https://lis.csail.mit.edu/pubs/konidaris-aaai11b.pdf",
+  "pdf_path": "build/sources/autonomous-skill-acquisition-on-a-mobile-manipulator.pdf",
+  "pdf_sha256": "bc868e1bda49db20312948a14276bbfc81e7250fb6bfb8e7a272055dd8aaaee2",
+  "pdf_title_observed": "Autonomous Skill Acquisition on a Mobile Manipulator",
+  "title_match": true,
+  "version": "AAAI-2011-author-copy",
+  "page_count": 6,
+  "source_status": "accessible",
+  "license_note": "Copyright2011AAAI; all rights reserved. Private authorized reference copy.",
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption": "Trajectory segmented into skills by CST.",
+      "crop_pdf_points": [
+        78,
+        204,
+        264,
+        444
+      ],
+      "vector_paths": 55,
+      "native_text_spans": 5,
+      "raster_images": 5,
+      "visually_inspected": true,
+      "notes": "Conceptual method diagram relating return/features and robot trajectory; no neural network architecture implied."
+    }
+  ],
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+}

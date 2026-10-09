@@ -12,7 +12,24 @@
   "page_count": 63,
   "source_status": "accessible",
   "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-  "figure_candidates": [],
+  "figure_candidates": [
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption": "Decentralized architecture.",
+      "crop_pdf_points": [
+        258,
+        382,
+        534,
+        647
+      ],
+      "vector_paths": 43,
+      "native_text_spans": 24,
+      "raster_images": 4,
+      "visually_inspected": true,
+      "notes": "Two-layer human/robot hierarchical LLM architecture with shared perception/world graph. Figure2p4 data-generation architecture is another option."
+    }
+  ],
   "caption_search_cues": [],
-  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
 }

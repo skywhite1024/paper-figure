@@ -1,0 +1,1210 @@
+{
+  "schema_version": 1,
+  "id": "aro-figure-1",
+  "title": "ARO framework — native editable reconstruction",
+  "canvas": {
+    "width": 1380,
+    "height": 375
+  },
+  "provenance": {
+    "paper_title": "ARO: Large Language Model Supervised Robotics Text2Skill Autonomous Learning",
+    "paper_url": "https://arxiv.org/abs/2403.15834v1",
+    "figure": "Figure 1",
+    "page": 2,
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "notes": "Manually recreated from actual original 1380×338 Figure1 raster. All module boxes, labels, document icons, human outlines and arrows are native objects; no full-figure raster backdrop. Font, icon outlines and corner curvature are approximate. Native freeform return loop is not automatically attached to module endpoints.",
+    "status": "figure_recreation",
+    "source_sha256": "0ab55e2e71676eee57bb6970e7dcf7d0960080c0bd55991667b2f7aea1d2df69",
+    "source_crop_pdf_points": [
+      344,
+      429,
+      524,
+      472
+    ],
+    "visual_inspection": "Original PDFpage2 and embedded1380×338 figure pixels inspected2026-10-09"
+  },
+  "nodes": [
+    {
+      "id": "rfg",
+      "label": "RFG\n(LLM-based)",
+      "x": 307,
+      "y": 39,
+      "width": 135,
+      "height": 122,
+      "fill": "#F4F5FC",
+      "stroke": "#111111",
+      "shape": "rounded_rect",
+      "font_size": 17,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "stroke_width": 2.4
+    },
+    {
+      "id": "rl",
+      "label": "Training\n(RL)",
+      "x": 587,
+      "y": 37,
+      "width": 135,
+      "height": 126,
+      "fill": "#F4F5FC",
+      "stroke": "#111111",
+      "shape": "rounded_rect",
+      "font_size": 17,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "stroke_width": 2.4
+    },
+    {
+      "id": "efg",
+      "label": "EFG\n(LLM-based)",
+      "x": 886,
+      "y": 37,
+      "width": 135,
+      "height": 126,
+      "fill": "#F4F5FC",
+      "stroke": "#111111",
+      "shape": "rounded_rect",
+      "font_size": 17,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "stroke_width": 2.4
+    },
+    {
+      "id": "pe",
+      "label": "PE\n(LLM-based)",
+      "x": 1170,
+      "y": 37,
+      "width": 135,
+      "height": 126,
+      "fill": "#F4F5FC",
+      "stroke": "#111111",
+      "shape": "rounded_rect",
+      "font_size": 17,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "stroke_width": 2.4
+    },
+    {
+      "id": "ee",
+      "label": "EE\n(LLM-based)",
+      "x": 307,
+      "y": 194,
+      "width": 135,
+      "height": 72,
+      "fill": "#F4F5FC",
+      "stroke": "#111111",
+      "shape": "rounded_rect",
+      "font_size": 17,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "stroke_width": 2.4
+    },
+    {
+      "id": "task-document",
+      "label": "",
+      "x": 82,
+      "y": 77,
+      "width": 37,
+      "height": 46,
+      "fill": "#BFC3C7",
+      "stroke": "#111111",
+      "shape": "path",
+      "font_size": 18,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 25,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 37,
+            "y": 12
+          }
+        },
+        {
+          "lineTo": {
+            "x": 37,
+            "y": 46
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 46
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 3
+    },
+    {
+      "id": "task-document-fold",
+      "label": "",
+      "x": 107,
+      "y": 77,
+      "width": 12,
+      "height": 12,
+      "fill": "none",
+      "stroke": "#111111",
+      "shape": "path",
+      "font_size": 18,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 12
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12,
+            "y": 12
+          }
+        }
+      ],
+      "stroke_width": 3
+    },
+    {
+      "id": "task-document-label",
+      "label": "T",
+      "x": 88,
+      "y": 90,
+      "width": 27,
+      "height": 29,
+      "fill": "#F4F5FC",
+      "stroke": "#111111",
+      "shape": "text",
+      "font_size": 27,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "align": "left",
+      "no_wrap": true
+    },
+    {
+      "id": "reward-document",
+      "label": "",
+      "x": 457,
+      "y": 111,
+      "width": 37,
+      "height": 46,
+      "fill": "#FFFFFF",
+      "stroke": "#111111",
+      "shape": "path",
+      "font_size": 18,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 25,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 37,
+            "y": 12
+          }
+        },
+        {
+          "lineTo": {
+            "x": 37,
+            "y": 46
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 46
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 3
+    },
+    {
+      "id": "reward-document-fold",
+      "label": "",
+      "x": 482,
+      "y": 111,
+      "width": 12,
+      "height": 12,
+      "fill": "none",
+      "stroke": "#111111",
+      "shape": "path",
+      "font_size": 18,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 12
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12,
+            "y": 12
+          }
+        }
+      ],
+      "stroke_width": 3
+    },
+    {
+      "id": "reward-document-label",
+      "label": "‹›",
+      "x": 463,
+      "y": 124,
+      "width": 27,
+      "height": 29,
+      "fill": "#F4F5FC",
+      "stroke": "#111111",
+      "shape": "text",
+      "font_size": 27,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "align": "left",
+      "no_wrap": true
+    },
+    {
+      "id": "evaluation-document",
+      "label": "",
+      "x": 1032,
+      "y": 111,
+      "width": 37,
+      "height": 46,
+      "fill": "#FFFFFF",
+      "stroke": "#111111",
+      "shape": "path",
+      "font_size": 18,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 25,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 37,
+            "y": 12
+          }
+        },
+        {
+          "lineTo": {
+            "x": 37,
+            "y": 46
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 46
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 3
+    },
+    {
+      "id": "evaluation-document-fold",
+      "label": "",
+      "x": 1057,
+      "y": 111,
+      "width": 12,
+      "height": 12,
+      "fill": "none",
+      "stroke": "#111111",
+      "shape": "path",
+      "font_size": 18,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 12
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12,
+            "y": 12
+          }
+        }
+      ],
+      "stroke_width": 3
+    },
+    {
+      "id": "evaluation-document-label",
+      "label": "‹›",
+      "x": 1038,
+      "y": 124,
+      "width": 27,
+      "height": 29,
+      "fill": "#F4F5FC",
+      "stroke": "#111111",
+      "shape": "text",
+      "font_size": 27,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "align": "left",
+      "no_wrap": true
+    },
+    {
+      "id": "env-document",
+      "label": "",
+      "x": 147,
+      "y": 207,
+      "width": 37,
+      "height": 46,
+      "fill": "#FFFFFF",
+      "stroke": "#111111",
+      "shape": "path",
+      "font_size": 18,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 25,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 37,
+            "y": 12
+          }
+        },
+        {
+          "lineTo": {
+            "x": 37,
+            "y": 46
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 46
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 3
+    },
+    {
+      "id": "env-document-fold",
+      "label": "",
+      "x": 172,
+      "y": 207,
+      "width": 12,
+      "height": 12,
+      "fill": "none",
+      "stroke": "#111111",
+      "shape": "path",
+      "font_size": 18,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 12
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12,
+            "y": 12
+          }
+        }
+      ],
+      "stroke_width": 3
+    },
+    {
+      "id": "env-document-label",
+      "label": "‹›",
+      "x": 153,
+      "y": 220,
+      "width": 27,
+      "height": 29,
+      "fill": "#F4F5FC",
+      "stroke": "#111111",
+      "shape": "text",
+      "font_size": 27,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "align": "left",
+      "no_wrap": true
+    },
+    {
+      "id": "feedback-document",
+      "label": "",
+      "x": 1162,
+      "y": 240,
+      "width": 37,
+      "height": 46,
+      "fill": "#FFFFFF",
+      "stroke": "#111111",
+      "shape": "path",
+      "font_size": 18,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 25,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 37,
+            "y": 12
+          }
+        },
+        {
+          "lineTo": {
+            "x": 37,
+            "y": 46
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 46
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 3
+    },
+    {
+      "id": "feedback-document-fold",
+      "label": "",
+      "x": 1187,
+      "y": 240,
+      "width": 12,
+      "height": 12,
+      "fill": "none",
+      "stroke": "#111111",
+      "shape": "path",
+      "font_size": 18,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 12
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12,
+            "y": 12
+          }
+        }
+      ],
+      "stroke_width": 3
+    },
+    {
+      "id": "feedback-document-label",
+      "label": "T",
+      "x": 1168,
+      "y": 253,
+      "width": 27,
+      "height": 29,
+      "fill": "#F4F5FC",
+      "stroke": "#111111",
+      "shape": "text",
+      "font_size": 27,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "align": "left",
+      "no_wrap": true
+    },
+    {
+      "id": "task-person",
+      "label": "",
+      "x": 23,
+      "y": 76,
+      "width": 46,
+      "height": 47,
+      "fill": "#FFFFFF",
+      "stroke": "#111111",
+      "shape": "path",
+      "font_size": 18,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 46
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1,
+            "y": 39
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4,
+            "y1": 34,
+            "x2": 14,
+            "y2": 35,
+            "x": 15,
+            "y": 30
+          }
+        },
+        {
+          "lineTo": {
+            "x": 15,
+            "y": 25
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9,
+            "y1": 21,
+            "x2": 11,
+            "y2": 16,
+            "x": 12,
+            "y": 14
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11,
+            "y1": 5,
+            "x2": 14,
+            "y2": 2,
+            "x": 20,
+            "y": 2
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 28,
+            "y1": 0,
+            "x2": 36,
+            "y2": 4,
+            "x": 34,
+            "y": 13
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 38,
+            "y1": 19,
+            "x2": 35,
+            "y2": 24,
+            "x": 31,
+            "y": 26
+          }
+        },
+        {
+          "lineTo": {
+            "x": 31,
+            "y": 31
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 34,
+            "y1": 35,
+            "x2": 43,
+            "y2": 35,
+            "x": 45,
+            "y": 41
+          }
+        },
+        {
+          "lineTo": {
+            "x": 46,
+            "y": 46
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 3
+    },
+    {
+      "id": "agent-person",
+      "label": "",
+      "x": 733,
+      "y": 111,
+      "width": 46,
+      "height": 47,
+      "fill": "#FFFFFF",
+      "stroke": "#111111",
+      "shape": "path",
+      "font_size": 18,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 46
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1,
+            "y": 39
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4,
+            "y1": 34,
+            "x2": 14,
+            "y2": 35,
+            "x": 15,
+            "y": 30
+          }
+        },
+        {
+          "lineTo": {
+            "x": 15,
+            "y": 25
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9,
+            "y1": 21,
+            "x2": 11,
+            "y2": 16,
+            "x": 12,
+            "y": 14
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11,
+            "y1": 5,
+            "x2": 14,
+            "y2": 2,
+            "x": 20,
+            "y": 2
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 28,
+            "y1": 0,
+            "x2": 36,
+            "y2": 4,
+            "x": 34,
+            "y": 13
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 38,
+            "y1": 19,
+            "x2": 35,
+            "y2": 24,
+            "x": 31,
+            "y": 26
+          }
+        },
+        {
+          "lineTo": {
+            "x": 31,
+            "y": 31
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 34,
+            "y1": 35,
+            "x2": 43,
+            "y2": 35,
+            "x": 45,
+            "y": 41
+          }
+        },
+        {
+          "lineTo": {
+            "x": 46,
+            "y": 46
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 3
+    },
+    {
+      "id": "task-desc",
+      "label": "Task Description",
+      "x": 135,
+      "y": 108,
+      "width": 169,
+      "height": 29,
+      "fill": "#F4F5FC",
+      "stroke": "#111111",
+      "shape": "text",
+      "font_size": 17,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "align": "left",
+      "no_wrap": true
+    },
+    {
+      "id": "reward-code",
+      "label": "RF Code",
+      "x": 509,
+      "y": 124,
+      "width": 76,
+      "height": 27,
+      "fill": "#F4F5FC",
+      "stroke": "#111111",
+      "shape": "text",
+      "font_size": 17,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "align": "left",
+      "no_wrap": true
+    },
+    {
+      "id": "agent-label",
+      "label": "RL Agent",
+      "x": 784,
+      "y": 124,
+      "width": 99,
+      "height": 27,
+      "fill": "#F4F5FC",
+      "stroke": "#111111",
+      "shape": "text",
+      "font_size": 17,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "align": "left",
+      "no_wrap": true
+    },
+    {
+      "id": "evaluation-code",
+      "label": "EF Code",
+      "x": 1078,
+      "y": 124,
+      "width": 85,
+      "height": 27,
+      "fill": "#F4F5FC",
+      "stroke": "#111111",
+      "shape": "text",
+      "font_size": 17,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "align": "left",
+      "no_wrap": true
+    },
+    {
+      "id": "env-code",
+      "label": "Env Code",
+      "x": 198,
+      "y": 217,
+      "width": 103,
+      "height": 28,
+      "fill": "#F4F5FC",
+      "stroke": "#111111",
+      "shape": "text",
+      "font_size": 17,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "align": "left",
+      "no_wrap": true
+    },
+    {
+      "id": "improvement",
+      "label": "Improvement\nSuggestion",
+      "x": 1213,
+      "y": 248,
+      "width": 134,
+      "height": 47,
+      "fill": "#F4F5FC",
+      "stroke": "#111111",
+      "shape": "text",
+      "font_size": 17,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "align": "left",
+      "no_wrap": true
+    },
+    {
+      "id": "task-start",
+      "label": "",
+      "x": 132,
+      "y": 100,
+      "width": 0.1,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "none",
+      "shape": "rect",
+      "font_size": 18,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "stroke_width": 0
+    },
+    {
+      "id": "env-start",
+      "label": "",
+      "x": 275,
+      "y": 230,
+      "width": 0.1,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "none",
+      "shape": "rect",
+      "font_size": 18,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "stroke_width": 0
+    },
+    {
+      "id": "feedback-return",
+      "label": "",
+      "x": 374,
+      "y": 99,
+      "width": 974,
+      "height": 211,
+      "fill": "none",
+      "stroke": "#111111",
+      "shape": "path",
+      "font_size": 18,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 933,
+            "y": 1
+          }
+        },
+        {
+          "lineTo": {
+            "x": 958,
+            "y": 1
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 971,
+            "y1": 1,
+            "x2": 973,
+            "y2": 8,
+            "x": 973,
+            "y": 16
+          }
+        },
+        {
+          "lineTo": {
+            "x": 973,
+            "y": 194
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 973,
+            "y1": 206,
+            "x2": 970,
+            "y2": 211,
+            "x": 959,
+            "y": 211
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16,
+            "y": 211
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4,
+            "y1": 211,
+            "x2": 0,
+            "y2": 205,
+            "x": 0,
+            "y": 195
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 174
+          }
+        }
+      ],
+      "stroke_width": 2.2
+    },
+    {
+      "id": "feedback-arrow",
+      "label": "",
+      "x": 367,
+      "y": 270,
+      "width": 15,
+      "height": 13,
+      "fill": "none",
+      "stroke": "#111111",
+      "shape": "path",
+      "font_size": 18,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 9
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.5,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 15,
+            "y": 9
+          }
+        }
+      ],
+      "stroke_width": 2.2
+    },
+    {
+      "id": "credit",
+      "label": "Adapted from ARO (2024), Fig.1, p.2 · All diagram elements are native editable objects; typography and icon outlines approximate the source",
+      "x": 22,
+      "y": 345,
+      "width": 1340,
+      "height": 22,
+      "fill": "#F4F5FC",
+      "stroke": "#111111",
+      "shape": "text",
+      "font_size": 12,
+      "font_family": "Arial",
+      "text_color": "#292D32",
+      "bold": true,
+      "text_inset": 0,
+      "align": "left",
+      "no_wrap": true
+    }
+  ],
+  "edges": [
+    {
+      "id": "rfg-train",
+      "source": "rfg",
+      "target": "rl",
+      "source_port": "right",
+      "target_port": "left",
+      "arrow": true,
+      "stroke": "#111111",
+      "stroke_width": 2.2
+    },
+    {
+      "id": "train-efg",
+      "source": "rl",
+      "target": "efg",
+      "source_port": "right",
+      "target_port": "left",
+      "arrow": true,
+      "stroke": "#111111",
+      "stroke_width": 2.2
+    },
+    {
+      "id": "efg-pe",
+      "source": "efg",
+      "target": "pe",
+      "source_port": "right",
+      "target_port": "left",
+      "arrow": true,
+      "stroke": "#111111",
+      "stroke_width": 2.2
+    },
+    {
+      "id": "ee-rfg",
+      "source": "ee",
+      "target": "rfg",
+      "source_port": "top",
+      "target_port": "bottom",
+      "arrow": true,
+      "stroke": "#111111",
+      "stroke_width": 2.2
+    },
+    {
+      "id": "task-rfg",
+      "source": "task-start",
+      "target": "rfg",
+      "source_port": "right",
+      "target_port": "left",
+      "arrow": true,
+      "stroke": "#111111",
+      "stroke_width": 2.2
+    },
+    {
+      "id": "env-ee",
+      "source": "env-start",
+      "target": "ee",
+      "source_port": "right",
+      "target_port": "left",
+      "arrow": true,
+      "stroke": "#111111",
+      "stroke_width": 2.2
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "diagram_id": "nbdi-figure-13",
+  "source_sha256": "cfc69d8f6dd1df6953da236ed92655f408dbbbec17936022f6cd030005945b59",
+  "provenance": {
+    "paper_title": "NBDI: A Simple and Effective Termination Condition for Skill Extraction from Task-Agnostic Demonstrations",
+    "paper_url": "https://arxiv.org/pdf/2501.12668v3",
+    "figure": "Figure 13",
+    "license": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+    "notes": "Original appendix NBDI architecture with source layout/colors. Ordinary labels are typeable native text with reviewed spacing and sizing. Mathematical glyphs preserve embedded Cambria Math outlines, editable freeforms rather than equation text. Dependency curves preserve original geometry without semantic endpoint attachment. Source clipping groups visually reviewed.",
+    "page": 14,
+    "status": "figure_recreation",
+    "source_sha256": "57e1d6ffc34c92b5bb3dfe99d6df272e103161893d6607e4a0214d8ce5808109",
+    "source_crop_pdf_points": [
+      91,
+      88,
+      506,
+      368
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "outlined_font_families": [
+      "CambriaMath"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "extraction_warnings": [
+      "2 source clipping groups intersect crop; extracted paths require explicit clipping review"
+    ],
+    "text_repairs": "Ordinary source Calibri labels remain typeable Arial text. Source split State-Action and Novelty Module fragments merged; font sizes reduced to retain original box fit. Mathematical labels remain exact glyph outlines."
+  },
+  "metrics": {
+    "native_nodes": 404,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 384,
+    "native_text_objects": 20,
+    "raster_images": 0,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "nbdi-figure-13.drawio",
+      "sha256": "66724f11726dcd1c134aecdb22b94ff7c7109385cf8922db7991bd1b76013ec2"
+    },
+    {
+      "name": "nbdi-figure-13.png",
+      "sha256": "38d8ce2642d171c10cbf409c17bd7660a12167025afb3389ca6f76e578cd5af9"
+    },
+    {
+      "name": "nbdi-figure-13.pptx",
+      "sha256": "5141c02852cb14c82edf9ad225ceb14ff728a160ef0a99caba95ebcd53b743e8"
+    }
+  ]
+}

@@ -3,7 +3,7 @@
   "title_expected": "Emergent Real-World Robotic Skills via Unsupervised Off-Policy Reinforcement Learning",
   "source_url": "https://arxiv.org/abs/2004.12974",
   "pdf_url": "https://arxiv.org/pdf/2004.12974",
-  "pdf_path": "/tmp/paper-figure-survey/emergent-real-world-robotic-skills-via-unsupervised-off-policy-reinforcement-learning/original.pdf",
+  "pdf_path": "output/emergent-real-world-robotic-skills-via-unsupervised-off-policy-reinforcement-learning/paper-2004.12974v1.pdf",
   "pdf_sha256": "e8a614ad7b1204e511f56d600951bbe13bd3a62734cd068f11118b68fda13891",
   "pdf_title_observed": "Emergent Real-World Robotic Skills via Unsupervised Off-Policy Reinforcement Learning",
   "title_match": true,
@@ -40,17 +40,17 @@
       {
         "figure": 1,
         "page_1_based": 1,
-        "caption": "Fig. 1. A 12 degree of freedom quadruped (D\u2019Kitty) discovers diverse\nlocomotion skills without any rewards or demonstrations. We develop\noff-DADS, an asynchronous and off-policy version of Dynamics-\nAware Discovery of Skills (DADS) [52], that enables sample-ef\ufb01cient\nskill discovery based on mutual-information based optimization."
+        "caption": "Fig. 1. A 12 degree of freedom quadruped (D’Kitty) discovers diverse\nlocomotion skills without any rewards or demonstrations. We develop\noff-DADS, an asynchronous and off-policy version of Dynamics-\nAware Discovery of Skills (DADS) [52], that enables sample-efﬁcient\nskill discovery based on mutual-information based optimization."
       },
       {
         "figure": 2,
         "page_1_based": 5,
-        "caption": "Fig. 2.\nSample ef\ufb01ciency comparison of off-DADS with DADS\n(red). We control the effect of state-distribution shift using length\nof replay buffers (s implies short and l implies long replay buffer)\nand importance sampling corrections (1 and 10 being the values of\nthe clipping parameter). We observe that all variants of off-DADS\noutperforms DADS in terms of sample ef\ufb01ciency, and using a short\nreplay buffer with importance sampling clip parameter set to 10\nconsistently gives the best performance."
+        "caption": "Fig. 2.\nSample efﬁciency comparison of off-DADS with DADS\n(red). We control the effect of state-distribution shift using length\nof replay buffers (s implies short and l implies long replay buffer)\nand importance sampling corrections (1 and 10 being the values of\nthe clipping parameter). We observe that all variants of off-DADS\noutperforms DADS in terms of sample efﬁciency, and using a short\nreplay buffer with importance sampling clip parameter set to 10\nconsistently gives the best performance."
       },
       {
         "figure": 3,
         "page_1_based": 5,
-        "caption": "Fig. 3.\n(Left) D\u2019Kitty robot from the ROBEL benchmark. (Right)\nD\u2019Kitty with the LED con\ufb01guration for PhaseSpace tracking."
+        "caption": "Fig. 3.\n(Left) D’Kitty robot from the ROBEL benchmark. (Right)\nD’Kitty with the LED conﬁguration for PhaseSpace tracking."
       },
       {
         "figure": 4,
@@ -60,37 +60,37 @@
       {
         "figure": 5,
         "page_1_based": 6,
-        "caption": "Fig. 5.\nDynamixel motor con\ufb01guration for the D\u2019Kitty robots."
+        "caption": "Fig. 5.\nDynamixel motor conﬁguration for the D’Kitty robots."
       },
       {
         "figure": 6,
         "page_1_based": 6,
-        "caption": "Fig. 6.\n(Left) Training curves for D\u2019Kitty in both simulation and\nreal-world. We \ufb01nd the off-DADS with a short replay and importance\nsampling clipping parameter \u03b1 = 10 to be the most suitable for the\nreal-world learning. We \ufb01nd the real-world learning curve closely\nfollows the simulation learning curve."
+        "caption": "Fig. 6.\n(Left) Training curves for D’Kitty in both simulation and\nreal-world. We ﬁnd the off-DADS with a short replay and importance\nsampling clipping parameter α = 10 to be the most suitable for the\nreal-world learning. We ﬁnd the real-world learning curve closely\nfollows the simulation learning curve."
       },
       {
         "figure": 7,
         "page_1_based": 7,
-        "caption": "Fig. 7.\nDiverse gaits learned by the D\u2019Kitty in our real world\nexperiments."
+        "caption": "Fig. 7.\nDiverse gaits learned by the D’Kitty in our real world\nexperiments."
       },
       {
         "figure": 8,
         "page_1_based": 8,
-        "caption": "Fig. 8.\nDistance (in m) travelled by skills sampled randomly from\nthe prior in 100 steps, which is 10s of execution time. We also report\nthe number of times D\u2019Kitty falls before completing 100 steps. The\nresults have been averaged over 20 trials."
+        "caption": "Fig. 8.\nDistance (in m) travelled by skills sampled randomly from\nthe prior in 100 steps, which is 10s of execution time. We also report\nthe number of times D’Kitty falls before completing 100 steps. The\nresults have been averaged over 20 trials."
       },
       {
         "figure": 9,
         "page_1_based": 8,
-        "caption": "Fig. 9.\nNavigation via model-predictive-control over skills learned\nby off-DADS. Using the skill-dynamics learned in the unsupervised\ntraining, the planner composes skills to move towards the goal. The\ntrajectories visualized show movement of D\u2019Kitty towards the goal\nbox, marked by a set of LED markers."
+        "caption": "Fig. 9.\nNavigation via model-predictive-control over skills learned\nby off-DADS. Using the skill-dynamics learned in the unsupervised\ntraining, the planner composes skills to move towards the goal. The\ntrajectories visualized show movement of D’Kitty towards the goal\nbox, marked by a set of LED markers."
       },
       {
         "figure": 10,
         "page_1_based": 12,
-        "caption": "Fig. 10.\nD\u2019Claw from ROBEL [3] is a three-armed manipulatation oriented\nrobotic setup. In this environment, it is provided with a three-pronged valve\nwhich can rotate on its axis. The goal position can be speci\ufb01ed by the motor\nat the top."
+        "caption": "Fig. 10.\nD’Claw from ROBEL [3] is a three-armed manipulatation oriented\nrobotic setup. In this environment, it is provided with a three-pronged valve\nwhich can rotate on its axis. The goal position can be speciﬁed by the motor\nat the top."
       },
       {
         "figure": 11,
         "page_1_based": 12,
-        "caption": "Fig. 11. We use off-DADS to enable skill discovery for D\u2019Claw to manipulate\nthe three-pronged valve. The \ufb01rst row represents a skill which turns the valve\nclockwise and the second row represents a skill which turns the valve counter-\nclockwise."
+        "caption": "Fig. 11. We use off-DADS to enable skill discovery for D’Claw to manipulate\nthe three-pronged valve. The ﬁrst row represents a skill which turns the valve\nclockwise and the second row represents a skill which turns the valve counter-\nclockwise."
       }
     ]
   },

@@ -5,9 +5,52 @@ A draft can be extracted but is not evidence of visual QA or source identity.
 """
 import hashlib
 import json
+import math
 import re
 from pathlib import Path
 from .model import ValidationError, require, validate
+
+
+
+def source_dash(raw, width, scale):
+    """Keep scaled source intervals; PPTX uses an explicitly approximate native preset.
+
+    Draw.io receives absolute intervals normalized to stroke width. Neither backend
+    currently carries PDF dash phase or cap semantics. Zero-length PDF dots become
+    a tiny positive interval for safe dashPattern rendering; raw source is retained.
+    """
+    if raw is None:
+        raw = '[] 0'
+    require(isinstance(raw, str), 'PDF dash pattern must be a string')
+    number = r'[-+]?(?:\d+(?:\.\d*)?|\.\d+)(?:[eE][-+]?\d+)?'
+    match = re.fullmatch(r'\s*\[([^]]*)\]\s*(' + number + r')\s*', raw)
+    require(match, 'Unsupported PDF dash syntax')
+    tokens = match[1].split()
+    require(all(re.fullmatch(number, token) for token in tokens), 'Unsupported PDF dash array syntax')
+    values = [float(token) for token in tokens]
+    require(math.isfinite(width) and width >= 0 and math.isfinite(scale) and scale > 0, 'Invalid dash width/scale')
+    phase = float(match[2])
+    require(all(math.isfinite(value) and value >= 0 for value in values) and math.isfinite(phase) and phase >= 0,
+            'PDF dash intervals/phase must be finite and nonnegative')
+    if not values:
+        return {'dash': False, 'source_dash': raw}
+    require(any(values) and len(values) <= 32, 'Invalid or oversized PDF dash array')
+    if len(values) % 2:
+        values *= 2
+    unit = width if width > 0 else 1
+    on = values[::2]
+    if len(on) == 1:
+        style = 'dotted' if on[0] / unit <= 1.5 else 'dashed'
+    elif len(on) == 2 and on[0] > on[1] * 1.8 and on[1] / unit <= 1.5:
+        style = 'dash-dot'
+    elif len(on) == 3 and on[0] > max(on[1:]) * 1.8 and max(on[1:]) / unit <= 1.5:
+        style = 'dash-dot-dot'
+    else:
+        style = 'dashed'
+    return {'dash': True, 'dash_style': style, 'source_dash': raw,
+            'dash_pattern': [max(value * scale, .001) for value in values], 'dash_phase': phase * scale,
+            'dash_approximation': 'PPTX uses the closest supported native preset, not exact PDF dash lengths. '
+                                  'Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.'}
 
 
 def extract(pdf, config, destination):
@@ -143,8 +186,10 @@ def extract(pdf, config, destination):
                     stroke_width=float(drawing.get('width') or 0)*scale,
                     fill_opacity=drawing.get('fill_opacity', 1) or 0,
                     stroke_opacity=drawing.get('stroke_opacity', 1) or 0,
-                    dash=bool(drawing.get('dashes') and drawing['dashes'] != '[] 0'),
+                    **source_dash(drawing.get('dashes'), float(drawing.get('width') or 0), scale),
                     source_seqno=drawing['seqno'], source_even_odd=bool(drawing.get('even_odd')))
+        if node.get('dash_pattern'):
+            provenance['dash_fidelity'] = node['dash_approximation']
         if drawing['seqno'] in config.get('split_compound_paths', []):
             groups = []
             for command in commands:
@@ -215,6 +260,9 @@ def extract(pdf, config, destination):
         seq = matches[0]; raw_image_sequences.add(seq)
         pix = fitz.Pixmap(block['image'])
         if block.get('mask'):
+            # A separate PDF soft mask requires an alpha-free base pixmap.
+            if pix.alpha:
+                pix = fitz.Pixmap(pix, 0)
             pix = fitz.Pixmap(pix, fitz.Pixmap(block['mask']))
         name = f'{config["id"]}-source-image-{raw_index}.png'; pix.save(destination/name)
         if isinstance(raw_spec, dict) and raw_spec.get('clip_shape') == 'ellipse':

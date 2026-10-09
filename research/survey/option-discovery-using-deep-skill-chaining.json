@@ -1,0 +1,33 @@
+{
+  "catalog_index": 57,
+  "catalog_id": "option-discovery-using-deep-skill-chaining",
+  "title_expected": "Option Discovery Using Deep Skill Chaining",
+  "source_url": "https://cs.brown.edu/people/gdk/pubs/dsc_deeprl_ws.pdf",
+  "pdf_path": "build/sources/option-discovery-using-deep-skill-chaining.pdf",
+  "pdf_sha256": "fb2b42a704404ec5ca14bb77e287c9128f7e85531545c34153c6654f4dcd7c54",
+  "pdf_title_observed": "Option Discovery Using Deep Skill Chaining",
+  "title_match": true,
+  "version": "NeurIPS-2019-workshop-author-copy",
+  "page_count": 20,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 14,
+      "caption": "Illustration of the deep skill chaining algorithm.",
+      "crop_pdf_points": [
+        105,
+        85,
+        506,
+        236
+      ],
+      "vector_paths": 52,
+      "native_text_spans": 0,
+      "raster_images": 17,
+      "visually_inspected": true,
+      "notes": "Appendix Figure1 in author NeurIPS2019workshop version. ICLR2020publisher PDF returned403; title/author equivalent but version explicit. Conceptual skill-chain progression with gradients."
+    }
+  ],
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+}

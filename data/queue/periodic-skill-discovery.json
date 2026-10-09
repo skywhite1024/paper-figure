@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "periodic-skill-discovery",
-  "revision": 4,
+  "revision": 5,
   "status": "recreated",
   "created_at": "2026-10-09T20:04:59.462076Z",
-  "updated_at": "2026-10-09T20:14:58.202183Z",
+  "updated_at": "2026-10-09T20:20:44.468133Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -134,7 +134,12 @@
         ],
         "output_directory": "output/psd",
         "source_sha256": "3d80b6e24e888d7a8498465dccdaf021bd46234ea913de70887c3c9b5b65bb72",
-        "scene_sha256": "2f6bbb3e427d6b63ed5d7bb727bc03a94abcefb21c06b6835d6ec72cecc4a355"
+        "scene_sha256": "2f6bbb3e427d6b63ed5d7bb727bc03a94abcefb21c06b6835d6ec72cecc4a355",
+        "text_editability": {
+          "typeable_text_objects": 1,
+          "native_freeform_paths": 480,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
       }
     },
     "qa": {
@@ -323,6 +328,36 @@
               "output_directory": "output/psd",
               "source_sha256": "3d80b6e24e888d7a8498465dccdaf021bd46234ea913de70887c3c9b5b65bb72",
               "scene_sha256": "2f6bbb3e427d6b63ed5d7bb727bc03a94abcefb21c06b6835d6ec72cecc4a355"
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T20:20:44.468133Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "409c3e82c4113f63f7271c4297b31da40334ee9d965ab3d7bed0b287480e628d",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/psd/README.md",
+                "output/psd/VALIDATION.json"
+              ],
+              "output_directory": "output/psd",
+              "source_sha256": "3d80b6e24e888d7a8498465dccdaf021bd46234ea913de70887c3c9b5b65bb72",
+              "scene_sha256": "2f6bbb3e427d6b63ed5d7bb727bc03a94abcefb21c06b6835d6ec72cecc4a355",
+              "text_editability": {
+                "typeable_text_objects": 1,
+                "native_freeform_paths": 480,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

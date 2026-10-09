@@ -5,7 +5,7 @@
   "checked_files": [
     {
       "name": "rgsd-figure-2.drawio",
-      "sha256": "2a2383e3dffb54436300e8d7989ea6d249ea04d8bcfaf2527a3c8f2c2276802c"
+      "sha256": "dc809c07d57a27f00faab4c3c03d49f80e7dc8db7c2afe6ef8b6f9c62c50a987"
     },
     {
       "name": "rgsd-figure-2.png",
@@ -37,5 +37,12 @@
     "Six separate source raster assets retained; no whole-figure backdrop",
     "Freeform paths have no semantic node attachment",
     "Source dashes and native renderer fonts differ slightly"
-  ]
+  ],
+  "drawio_layout_revalidation": {
+    "previous_sha256": "a162d2433cf4d69951e864bec06c20603a48cd1bd59c4f255fe0fa474499d1b0",
+    "current_sha256": "dc809c07d57a27f00faab4c3c03d49f80e7dc8db7c2afe6ef8b6f9c62c50a987",
+    "xml_parse": "passed",
+    "change": "Exporter now honors source no_wrap and text_inset. Source nodes/labels/paths and PPTX/PNG bytes unchanged.",
+    "application_render": "not performed; isolated application display unavailable"
+  }
 }

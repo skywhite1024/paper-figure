@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "leveraging-human-feedback-for-semantically-relevant-skill-discovery",
-  "revision": 5,
+  "revision": 6,
   "status": "recreated",
   "created_at": "2026-10-09T20:04:59.476492Z",
-  "updated_at": "2026-10-09T20:14:36.368363Z",
+  "updated_at": "2026-10-09T20:20:44.514031Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -133,7 +133,12 @@
         ],
         "output_directory": "output/srsd",
         "source_sha256": "2c4e5aadf82ea5104c0fd52497493ade2fd0e820f51f8d7279d4536db674446a",
-        "scene_sha256": "9f6f58e5881e11572b158a532ef2c83b9c7d2f39508d7c06828fd3f8d2ce75a2"
+        "scene_sha256": "9f6f58e5881e11572b158a532ef2c83b9c7d2f39508d7c06828fd3f8d2ce75a2",
+        "text_editability": {
+          "typeable_text_objects": 18,
+          "native_freeform_paths": 133,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
       }
     },
     "qa": {
@@ -370,6 +375,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 6,
+      "at": "2026-10-09T20:20:44.514031Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "fb14ffa661741d8c7608e4d5c442f4c5ac835b5812d4dd02a41458a2c9569b29",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/srsd/README.md",
+                "output/srsd/VALIDATION.json"
+              ],
+              "output_directory": "output/srsd",
+              "source_sha256": "2c4e5aadf82ea5104c0fd52497493ade2fd0e820f51f8d7279d4536db674446a",
+              "scene_sha256": "9f6f58e5881e11572b158a532ef2c83b9c7d2f39508d7c06828fd3f8d2ce75a2",
+              "text_editability": {
+                "typeable_text_objects": 18,
+                "native_freeform_paths": 133,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

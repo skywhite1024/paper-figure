@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "bayesian-nonparametrics-for-offline-skill-discovery",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.488531Z",
-  "updated_at": "2026-10-09T20:14:35.962652Z",
+  "updated_at": "2026-10-09T20:20:44.335474Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -123,8 +123,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/bnpo/README.md",
+          "output/bnpo/VALIDATION.json"
+        ],
+        "output_directory": "output/bnpo",
+        "source_sha256": "90d62fe6d521dd25da850e0ef605f2581fa68eb7faa61179e875e96f0c4b2be0",
+        "scene_sha256": "01fe8cea54e57a4d61f23492701ab70509e92d584bfb8e53327ffd3b77f9a974",
+        "text_editability": {
+          "typeable_text_objects": 0,
+          "native_freeform_paths": 163,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -312,6 +326,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:20:44.335474Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "4b9d1a3f2f28944e9d1439e560b84cdea740fc44f48169c943554ac09e560c43",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/bnpo/README.md",
+                "output/bnpo/VALIDATION.json"
+              ],
+              "output_directory": "output/bnpo",
+              "source_sha256": "90d62fe6d521dd25da850e0ef605f2581fa68eb7faa61179e875e96f0c4b2be0",
+              "scene_sha256": "01fe8cea54e57a4d61f23492701ab70509e92d584bfb8e53327ffd3b77f9a974",
+              "text_editability": {
+                "typeable_text_objects": 0,
+                "native_freeform_paths": 163,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

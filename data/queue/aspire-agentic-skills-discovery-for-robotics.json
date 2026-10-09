@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "aspire-agentic-skills-discovery-for-robotics",
-  "revision": 2,
+  "revision": 3,
   "status": "recreated",
   "created_at": "2026-10-09T20:04:59.475398Z",
-  "updated_at": "2026-10-09T20:13:38.309190Z",
+  "updated_at": "2026-10-09T20:20:44.323571Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -47,7 +47,12 @@
         ],
         "output_directory": "output/aspire",
         "source_sha256": "9df00979a6d52c7fcfbcc9d17275fc5196e6431d872a0624fea642a63f9beefc",
-        "scene_sha256": "8a4d04064c662cff66edd1c74e19ee33aa6e52f201782e7b56f09b5aa76482b3"
+        "scene_sha256": "8a4d04064c662cff66edd1c74e19ee33aa6e52f201782e7b56f09b5aa76482b3",
+        "text_editability": {
+          "typeable_text_objects": 62,
+          "native_freeform_paths": 66,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
       }
     },
     "qa": {
@@ -89,6 +94,36 @@
               "output_directory": "output/aspire",
               "source_sha256": "9df00979a6d52c7fcfbcc9d17275fc5196e6431d872a0624fea642a63f9beefc",
               "scene_sha256": "8a4d04064c662cff66edd1c74e19ee33aa6e52f201782e7b56f09b5aa76482b3"
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:20:44.323571Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "bc9fc761f8d47b9c245893d1db057e213f501c1f7af19b03b056b312c452f2c0",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/aspire/README.md",
+                "output/aspire/VALIDATION.json"
+              ],
+              "output_directory": "output/aspire",
+              "source_sha256": "9df00979a6d52c7fcfbcc9d17275fc5196e6431d872a0624fea642a63f9beefc",
+              "scene_sha256": "8a4d04064c662cff66edd1c74e19ee33aa6e52f201782e7b56f09b5aa76482b3",
+              "text_editability": {
+                "typeable_text_objects": 62,
+                "native_freeform_paths": 66,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

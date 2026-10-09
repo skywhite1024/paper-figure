@@ -283,7 +283,7 @@ def initialize_queue(repository, catalog='data/catalog.json'):
         require(isinstance(row, dict), 'Catalog paper must be an object')
         ids.append(safe_id(row.get('id')))
         _text(row.get('title'), 'Catalog paper title')
-        require(isinstance(row.get('status'), str) and row['status'] in {'not_reviewed', 'recreated', 'blocked'}, 'Unsupported catalog import status')
+        require(isinstance(row.get('status'), str) and row['status'] in {'not_reviewed', 'recreated', 'blocked', 'no_suitable_figure'}, 'Unsupported catalog import status')
         if row['status'] == 'blocked':
             _text(row.get('notes'), 'Blocked catalog evidence')
     require(len(set(ids)) == len(ids), 'Duplicate catalog paper id')
@@ -302,14 +302,17 @@ def initialize_queue(repository, catalog='data/catalog.json'):
             stages = {name: {'status': 'pending', 'evidence': None} for name in STAGES}
             if row['status'] == 'recreated':
                 stages['recreation'] = {'status': 'reported', 'evidence': copy.deepcopy(evidence)}
+            if row['status'] == 'no_suitable_figure':
+                stages['figure_selection'] = {'status': 'reported', 'evidence': copy.deepcopy(evidence)}
+            imported_status = 'in_progress' if row['status'] == 'no_suitable_figure' else row['status']
             now = _now()
             record = {'schema_version': 1, 'paper_id': row['id'], 'revision': 1,
-                      'status': row['status'], 'created_at': now, 'updated_at': now,
+                      'status': imported_status, 'created_at': now, 'updated_at': now,
                       'catalog': {'path': str(catalog_path.relative_to(root)), 'sha256': digest,
                                   'source_commit': document.get('source_commit'), 'paper': copy.deepcopy(row)},
                       'stages': stages, 'terminal_evidence': evidence if row['status'] == 'blocked' else None,
                       'history': [{'revision': 1, 'at': now, 'actor': 'catalog-import', 'event': 'import',
-                                   'catalog_sha256': digest, 'status': row['status']}]}
+                                   'catalog_sha256': digest, 'status': imported_status}]}
             _validate(root, record)
             _atomic_write(path, record)
             created += 1

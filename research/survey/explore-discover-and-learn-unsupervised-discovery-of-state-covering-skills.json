@@ -3,7 +3,7 @@
   "title_expected": "Explore, Discover and Learn: Unsupervised Discovery of State-Covering Skills",
   "source_url": "https://arxiv.org/abs/2002.03647",
   "pdf_url": "https://arxiv.org/pdf/2002.03647",
-  "pdf_path": "/tmp/paper-figure-survey/explore-discover-and-learn-unsupervised-discovery-of-state-covering-skills/original.pdf",
+  "pdf_path": "output/explore-discover-and-learn-unsupervised-discovery-of-state-covering-skills/paper-2002.03647v4.pdf",
   "pdf_sha256": "2a89ea1ffc49f8e00cf2c0b3481aa5a1d09e955a085fd5235aa7be87dc4573f1",
   "pdf_title_observed": "Explore, Discover and Learn: Unsupervised Discovery of State-Covering Skills",
   "title_match": true,
@@ -65,7 +65,7 @@
       {
         "figure": 5,
         "page_1_based": 7,
-        "caption": "Figure 5. Interpolating skills learned by EDL. Interpolation is per-\nformed at the latent variable level by blending the z vector of two\nskills. The \ufb01rst row and column show the original skills being\ninterpolated, which were selected randomly from the set of learned\noptions. When plotting interpolated skills, we blend the colors\nused for the original skills."
+        "caption": "Figure 5. Interpolating skills learned by EDL. Interpolation is per-\nformed at the latent variable level by blending the z vector of two\nskills. The ﬁrst row and column show the original skills being\ninterpolated, which were selected randomly from the set of learned\noptions. When plotting interpolated skills, we blend the colors\nused for the original skills."
       },
       {
         "figure": 6,
@@ -75,7 +75,7 @@
       {
         "figure": 7,
         "page_1_based": 15,
-        "caption": "Figure 7. Goal states discovered by methods using the forward\nform of the mutual information in Figure 1. We de\ufb01ne a goal\nstate as the most likely state under q\u03c6(s|z) for each skill, i.e. gi =\nargmaxsq\u03c6(s|zi). The baseline method relies on the stationary\nstate-distribution induced by the policy to discover goals. This\npolicy seldom leaves the initial room, limiting the goals that can\nbe discovered. In contrast, the uniform distribution over states in\nEDL enables the discovery of goals across the whole maze."
+        "caption": "Figure 7. Goal states discovered by methods using the forward\nform of the mutual information in Figure 1. We deﬁne a goal\nstate as the most likely state under qφ(s|z) for each skill, i.e. gi =\nargmaxsqφ(s|zi). The baseline method relies on the stationary\nstate-distribution induced by the policy to discover goals. This\npolicy seldom leaves the initial room, limiting the goals that can\nbe discovered. In contrast, the uniform distribution over states in\nEDL enables the discovery of goals across the whole maze."
       },
       {
         "figure": 8,
@@ -85,7 +85,7 @@
       {
         "figure": 9,
         "page_1_based": 16,
-        "caption": "Figure 9. Approximate posterior q\u03c6(z|s) at convergence for the agent in Figure 1 (middle). Recall that the reward function for this agent\nis r(s, z) = log q\u03c6(z|s) \u2212log p(z), and log p(z) is constant in our experiments due to the choice of prior over latent variables. The state\nspace is partitioned in disjoint regions, so that skills only need to enter their corresponding region in order to maximize reward. Note how\nq\u03c6(z|s) extrapolates this partition to states that have never been visited by the policy. When combined with an entropy bonus, this reward\nlandscape results in skills that produce highly entropic trajectories within each region."
+        "caption": "Figure 9. Approximate posterior qφ(z|s) at convergence for the agent in Figure 1 (middle). Recall that the reward function for this agent\nis r(s, z) = log qφ(z|s) −log p(z), and log p(z) is constant in our experiments due to the choice of prior over latent variables. The state\nspace is partitioned in disjoint regions, so that skills only need to enter their corresponding region in order to maximize reward. Note how\nqφ(z|s) extrapolates this partition to states that have never been visited by the policy. When combined with an entropy bonus, this reward\nlandscape results in skills that produce highly entropic trajectories within each region."
       },
       {
         "figure": 10,
@@ -95,7 +95,7 @@
       {
         "figure": 11,
         "page_1_based": 17,
-        "caption": "Figure 11. Interpolating skills learned by EDL. Interpolation is performed at the latent variable level by blending the z vector of two skills.\nThe \ufb01rst row and column show the original skills being interpolated, which were selected randomly from the set of learned options. When\nplotting interpolated skills, we blend the colors used for the original skills."
+        "caption": "Figure 11. Interpolating skills learned by EDL. Interpolation is performed at the latent variable level by blending the z vector of two skills.\nThe ﬁrst row and column show the original skills being interpolated, which were selected randomly from the set of learned options. When\nplotting interpolated skills, we blend the colors used for the original skills."
       }
     ]
   },

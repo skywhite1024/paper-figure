@@ -1,0 +1,48 @@
+{
+  "diagram_id": "option-keyboard-figure-1",
+  "source_scene_sha256": "21f6299bda32a9590b6a8926d6113dcbde59b461310f0c2754479d519a93e9ba",
+  "source_pdf_sha256": "fc226db65fd00e0006ec0ae5f60c524a4d95857e155856485c2b7c013eb19f97",
+  "checked_files": [
+    {
+      "name": "option-keyboard-figure-1.drawio",
+      "sha256": "1b60730dc9fe26a2fe51f88238c6b8ca28427a977e281221b96524700eabc70e"
+    },
+    {
+      "name": "option-keyboard-figure-1.png",
+      "sha256": "696f71324c309566844e65af156e2fef8f2a423928de2fd8a3ba906cdb361c58"
+    },
+    {
+      "name": "option-keyboard-figure-1.pptx",
+      "sha256": "24ab3971d9fa5279072c9d9c8dbc325dbc11b714bf407b1a07c229d7f207cbfa"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 1 PDFpage5 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 43,
+    "p:pic": 0,
+    "a:custGeom": 37,
+    "p:cxnSp": 0,
+    "a:t": 6
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ],
+  "drawio_layout_revalidation": {
+    "previous_sha256": "7024d0bbc3711f92e5fab8e7938348034c751ec97d3eb8541398b4163b507f80",
+    "current_sha256": "1b60730dc9fe26a2fe51f88238c6b8ca28427a977e281221b96524700eabc70e",
+    "xml_parse": "passed",
+    "change": "Exporter now honors source no_wrap and text_inset. Source nodes/labels/paths and PPTX/PNG bytes unchanged.",
+    "application_render": "not performed; isolated application display unavailable"
+  }
+}

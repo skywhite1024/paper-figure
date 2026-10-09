@@ -1,0 +1,48 @@
+{
+  "diagram_id": "slide-figure-2",
+  "source_scene_sha256": "3f2ecc4e4125d9397e17da1c24763fe5cd5c2d25761553aa319e19167489970b",
+  "source_pdf_sha256": "72a97883f914888c9d753d0c1e79f0c1efab865ece1ab652961d82804166711e",
+  "checked_files": [
+    {
+      "name": "slide-figure-2.drawio",
+      "sha256": "94d5e41baa887b7e96db278adda65632e0c5f37118fe3a8a7c289ced24306c46"
+    },
+    {
+      "name": "slide-figure-2.png",
+      "sha256": "ecc1f938970ecfd09baa4e78b67dad82c1b20a4e623de8e22ab75159ae5d3258"
+    },
+    {
+      "name": "slide-figure-2.pptx",
+      "sha256": "230b4c5c37c7a2f1199d65b9c64bc666fc36bef349e126bccb861a9919c8294b"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 2 PDFpage3 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 100,
+    "p:pic": 0,
+    "a:custGeom": 92,
+    "p:cxnSp": 0,
+    "a:t": 8
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ],
+  "drawio_layout_revalidation": {
+    "previous_sha256": "b65913c64473f4ea232c9971f246207dda78cd5d5b496159a28f7e3acd755428",
+    "current_sha256": "94d5e41baa887b7e96db278adda65632e0c5f37118fe3a8a7c289ced24306c46",
+    "xml_parse": "passed",
+    "change": "Exporter now honors source no_wrap and text_inset. Source nodes/labels/paths and PPTX/PNG bytes unchanged.",
+    "application_render": "not performed; isolated application display unavailable"
+  }
+}

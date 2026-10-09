@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "the-option-keyboard-combining-skills-in-reinforcement-learning",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.513671Z",
-  "updated_at": "2026-10-09T20:14:36.806125Z",
+  "updated_at": "2026-10-09T20:30:58.226472Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -86,8 +86,22 @@
       "evidence": null
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/option-keyboard/README.md",
+          "output/option-keyboard/VALIDATION.json"
+        ],
+        "output_directory": "output/option-keyboard",
+        "source_sha256": "fc226db65fd00e0006ec0ae5f60c524a4d95857e155856485c2b7c013eb19f97",
+        "scene_sha256": "21f6299bda32a9590b6a8926d6113dcbde59b461310f0c2754479d519a93e9ba",
+        "text_editability": {
+          "typeable_text_objects": 6,
+          "native_freeform_paths": 37,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -207,6 +221,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:30:58.226472Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "13c2cd3f367eee754bb88c6eb0702edd5b670040a3b37ec6696c3146307d4d05",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/option-keyboard/README.md",
+                "output/option-keyboard/VALIDATION.json"
+              ],
+              "output_directory": "output/option-keyboard",
+              "source_sha256": "fc226db65fd00e0006ec0ae5f60c524a4d95857e155856485c2b7c013eb19f97",
+              "scene_sha256": "21f6299bda32a9590b6a8926d6113dcbde59b461310f0c2754479d519a93e9ba",
+              "text_editability": {
+                "typeable_text_objects": 6,
+                "native_freeform_paths": 37,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

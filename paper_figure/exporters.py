@@ -2,8 +2,20 @@ import base64,hashlib,json,os,shutil,subprocess,tempfile,zlib
 from pathlib import Path
 import xml.etree.ElementTree as ET
 from urllib.parse import quote
-from .model import require,ValidationError,local_asset,metrics
+from .model import require,ValidationError,local_asset,metrics,dash_style
 PORT={'left':(0,.5),'right':(1,.5),'top':(.5,0),'bottom':(.5,1)}
+def drawio_dash(value, default_width):
+ style=dash_style(value)
+ if style=='solid':return 'dashed=0;'
+ result='dashed=1;'
+ pattern=value.get('dash_pattern')
+ if pattern:
+  # mxGraph dashPattern entries are multiples of the rendered stroke width.
+  width=value.get('stroke_width',default_width) or 1
+  pattern=[length/width for length in pattern]
+ else:
+  pattern={'dashed':[3,3],'dotted':[1,1],'dash-dot':[3,2,1,2],'dash-dot-dot':[3,2,1,2,1,2]}[style]
+ return result+'dashPattern='+' '.join(format(length,'.12g') for length in pattern)+';'
 def stencil(n):
  s=ET.Element('shape',name=n['id'],w=str(n['width']),h=str(n['height']),aspect='variable',strokewidth='inherit');fg=ET.SubElement(s,'foreground');path=ET.SubElement(fg,'path')
  for cmd in n['commands']:
@@ -20,14 +32,14 @@ def drawio(d,out,base):
  for n in d['nodes']:
   shape={'rect':'rounded=0','rounded_rect':'rounded=1;arcSize=12','ellipse':'ellipse','diamond':'rhombus','text':'text','image':'shape=image','path':'shape=stencil('+stencil(n)+')' if n['shape']=='path' else ''}[n['shape']]
   fill='none' if n['shape']=='text' else n.get('fill','#FFFFFF');stroke='none' if n['shape']=='text' else n.get('stroke','#334155')
-  style=f"{shape};html=0;whiteSpace=wrap;fillColor={fill};strokeColor={stroke};strokeWidth={n.get('stroke_width',1.5)};fontColor={n.get('text_color','#111111')};fontSize={n.get('font_size',20)};fontFamily={n.get('font_family','Arial')};fontStyle={(1 if n.get('bold') else 0)+(2 if n.get('italic') else 0)};align={n.get('align','center')};verticalAlign=middle;spacing=0;dashed={int(n.get('dash',False))};fillOpacity={100*n.get('fill_opacity',1)};strokeOpacity={100*n.get('stroke_opacity',1)};"
+  style=f"{shape};html=0;whiteSpace={'nowrap' if n.get('no_wrap') else 'wrap'};fillColor={fill};strokeColor={stroke};strokeWidth={n.get('stroke_width',1.5)};fontColor={n.get('text_color','#111111')};fontSize={n.get('font_size',20)};fontFamily={n.get('font_family','Arial')};fontStyle={(1 if n.get('bold') else 0)+(2 if n.get('italic') else 0)};align={n.get('align','center')};verticalAlign=middle;spacing={n.get('text_inset',0)};{drawio_dash(n,1.5)}fillOpacity={100*n.get('fill_opacity',1)};strokeOpacity={100*n.get('stroke_opacity',1)};"
   if n['shape']=='image':
    p=local_asset(base,n['asset']);mime='image/png' if p.suffix.lower()=='.png' else 'image/jpeg';style+=f"image=data:{mime},{base64.b64encode(p.read_bytes()).decode()};imageAspect=0;"
   cell=ET.SubElement(r,'mxCell',id=n['id'],value='' if n['shape']=='image' else n.get('label',''),style=style,vertex='1',parent='1')
   ET.SubElement(cell,'mxGeometry',**{k:str(n[k]) for k in ['x','y','width','height']},**{'as':'geometry'})
  for e in d['edges']:
   a=PORT[e.get('source_port','right')];b=PORT[e.get('target_port','left')]
-  st=f"html=0;endArrow={'block' if e.get('arrow',True) else 'none'};strokeColor={e.get('stroke','#475569')};strokeWidth={e.get('stroke_width',2)};exitX={a[0]};exitY={a[1]};entryX={b[0]};entryY={b[1]};fontSize=16;startArrow={'block' if e.get('head_arrow',False) else 'none'};dashed={int(e.get('dash',False))};"
+  st=f"html=0;endArrow={'block' if e.get('arrow',True) else 'none'};strokeColor={e.get('stroke','#475569')};strokeWidth={e.get('stroke_width',2)};exitX={a[0]};exitY={a[1]};entryX={b[0]};entryY={b[1]};fontSize=16;startArrow={'block' if e.get('head_arrow',False) else 'none'};{drawio_dash(e,2)}"
   if e.get('kind')=='elbow':st+='edgeStyle=orthogonalEdgeStyle;'
   if e.get('kind')=='curved':st+='curved=1;edgeStyle=orthogonalEdgeStyle;'
   c=ET.SubElement(r,'mxCell',id=e['id'],value=e.get('label',''),style=st,edge='1',parent='1',source=e['source'],target=e['target']);geom=ET.SubElement(c,'mxGeometry',relative='1',**{'as':'geometry'})
