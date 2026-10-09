@@ -2,22 +2,28 @@
   "version": "0.2.0",
   "catalog": {
     "total": 137,
-    "not_reviewed": 133,
-    "recreated": 3,
+    "not_reviewed": 126,
+    "recreated": 10,
     "blocked": 1
   },
   "tests": {
-    "unittest_passed": 75,
+    "unittest_passed": 114,
     "unittest_failed": 0,
-    "pptx_integration": true,
-    "note": "Engineering checkpoint; per-paper review limits stored with each paper."
+    "pptx_integration": true
   },
   "papers": {
     "aspire": "aspire/VALIDATION.json",
+    "comsd": "comsd/VALIDATION.json",
+    "constrained-skill": "constrained-skill/VALIDATION.json",
+    "elsim": "elsim/VALIDATION.json",
+    "gisd": "gisd/VALIDATION.json",
+    "psd": "psd/VALIDATION.json",
+    "rgsd": "rgsd/VALIDATION.json",
     "roboreact": "roboreact/VALIDATION.json",
-    "srsd": "srsd/VALIDATION.json"
+    "srsd": "srsd/VALIDATION.json",
+    "ugl": "ugl/VALIDATION.json"
   },
-  "note": "Per-paper source and artifact checks are stored with each paper.",
+  "note": "Per-paper source/editor checks are stored with each paper. Queue/source-readiness counts are separate in PROCESSING.json.",
   "output_layout_validation": {
     "date": "2026-10-09",
     "paper_scoped_directories": [

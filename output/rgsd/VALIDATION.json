@@ -1,0 +1,41 @@
+{
+  "diagram_id": "rgsd-figure-2",
+  "source_scene_sha256": "84cba6ab3c081ff65ae50b5482b36f761890bfda67fe715ec5d3872c4ddf1e6e",
+  "source_pdf_sha256": "b9154ebe8e10474e98ddf70db38a2ec7d45ec5bcd9928987ab50ca8a7bb64717",
+  "checked_files": [
+    {
+      "name": "rgsd-figure-2.drawio",
+      "sha256": "2a2383e3dffb54436300e8d7989ea6d249ea04d8bcfaf2527a3c8f2c2276802c"
+    },
+    {
+      "name": "rgsd-figure-2.png",
+      "sha256": "1ba5c44eddf3bdca3ec467117edffb2291823f2954e7ae4e402640987de3630e"
+    },
+    {
+      "name": "rgsd-figure-2.pptx",
+      "sha256": "4952188b01d8764415b09c1e43f8df7ccc3b2732f33b9efa7080e7822f9ab8ed"
+    }
+  ],
+  "review_status": "source crop versus PNG and independent LibreOffice rendering passed after z-hat correction",
+  "checks": {
+    "source_title": "checked actual first page",
+    "source_page_figure": "Figure2 PDFpage4 matching crop",
+    "hashes": "all source/export match",
+    "labels": "math accents fixed as native outlines, all labels legible",
+    "geometry": "pretraining, imitation,discovery loops and policy/encoder/environment connections retained",
+    "drawio": "XML/stencils only; native app isolated rendering blocked by local display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 280,
+    "p:pic": 6,
+    "a:custGeom": 256,
+    "p:cxnSp": 0,
+    "a:t": 18
+  },
+  "limitations": [
+    "Source math labels editable as native outlines rather than live equation text",
+    "Six separate source raster assets retained; no whole-figure backdrop",
+    "Freeform paths have no semantic node attachment",
+    "Source dashes and native renderer fonts differ slightly"
+  ]
+}

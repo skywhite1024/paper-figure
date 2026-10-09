@@ -1,0 +1,49 @@
+{
+  "catalog_index": 102,
+  "catalog_id": "unsupervised-skill-discovery-for-robotic-manipulation-through-automatic-task-generation",
+  "title_expected": "Unsupervised Skill Discovery for Robotic Manipulation through Automatic Task Generation",
+  "source_url": "https://arxiv.org/pdf/2410.04855v1",
+  "pdf_path": "build/sources/unsupervised-skill-discovery-for-robotic-manipulation-through-automatic-task-generation.pdf",
+  "pdf_sha256": "109e77792932b2cf422f58afad2fe95bb7c6bea37ef6388174a68db039aca5e5",
+  "pdf_title_observed": "Unsupervised Skill Discovery for Robotic Manipulation through Automatic Task Generation",
+  "first_page_title_text": "Unsupervised Skill Discovery for Robotic Manipulation through\nAutomatic Task Generation\nPaul Jansonnie12, Bingbing Wu1, Julien Perez3† and Jan Peters2456\nTrainable\nFrozen\nOrchestrator\nPrimitives\nπ1...πK\nw\nPre-Training Solver\nOrchestrator\nPrimitives\nπ1...πK\nwB\nDownstream Solver B\nOrchestrator\nPrimitives\nπ1...πK\nw A\nDownstream Solver A\nOrchestrator\nPrimitives\nπ1...πK\nwB\nDownstream Solver B\nOrchestra",
+  "title_match": true,
+  "version": "2410.04855v1",
+  "page_count": 8,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Fig. 1: Method Overview: A task solver is pre-trained in simulation to solve tasks that are autonomously proposed by a task generator (left). The solver discovers diverse behaviors and embeds them in its primitives. On each downstream task, an orchestrator is trained to reuse the pre-trained primitives (middle). Downstream agents are transferred to a real robotic platform (right). Abstract— Learning skills that interact with objects is of major i",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 1",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 1. A. Discovering Behaviors through Tasks Diversity The core of our method is the pre-training part. It requires a task generator and a task solver. The role of the generator is to propose tasks that the solver must solve. Our method relies on the hypothesis that if the set of tasks proposed by the generator is large, diverse, and complex, then it induces the discovery of diverse and complex behaviors by the solver. While this idea is comp",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 2: Downstream Tasks: The robot must move the solid red cube to a target position represented as a transparent red cube. The orange zone represents where the initial position of the cube can be sampled, while the green zone represents where the target position of the cube can be sampled. and a set of primitives. Since the primitives only depend on the state s and hence not on task-agnostic information, they can be transferred to any task, e.g",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 3: Per-Skill Trajectories: Trajectories of object positions for Nskills = 32 random compositions of skills. Each color corresponds to a random composition. Our primitives in 3a increasingly learn to cover reachable positions of the object. The baselines partially cover the workspace (3d,3b), push and throw the object to unreachable positions (3b), or very rarely interact with the object (3c). B. Baselines We compare our approach to the follo",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 4: Downstream Learning Curves: Average success rate throughout training on a downstream task. The solid area represents the standard deviation. ”Scratch” baselines are denoted with a ”0” for compactness. Our method is overall the most competitive both in terms of sample efficiency and final performance. . Larger In Air Push Sphere Wall Box Ours (simulation) 0.83 1.00 0.52 1.00 0.98 0.98 ASP only 0.94 0.94 0.02 0.85 0.00 0.27 LSD 0.17 0.17 0.",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

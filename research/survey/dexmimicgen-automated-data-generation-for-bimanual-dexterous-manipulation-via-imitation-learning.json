@@ -1,0 +1,67 @@
+{
+  "catalog_index": 127,
+  "catalog_id": "dexmimicgen-automated-data-generation-for-bimanual-dexterous-manipulation-via-imitation-learning",
+  "title_expected": "DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning",
+  "source_url": "https://arxiv.org/pdf/2410.24185v2",
+  "pdf_path": "build/sources/dexmimicgen-automated-data-generation-for-bimanual-dexterous-manipulation-via-imitation-learning.pdf",
+  "pdf_sha256": "96349aac2708b5637bbbefa9964067b5ed7eac0fb51ba0248b8d8dcbe49352a2",
+  "pdf_title_observed": "DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning",
+  "first_page_title_text": "DexMimicGen: Automated Data Generation for\nBimanual Dexterous Manipulation via Imitation Learning\nZhenyu Jiang∗1,2\nYuqi Xie∗1,2\nKevin Lin∗1,2\nZhenjia Xu1\nWeikang Wan3\nAjay Mandlekar†1\nLinxi “Jim” Fan†1\nYuke Zhu†1,2\nAbstract— Imitation learning from human demonstrations is\nan effective means to teach robots manipulation skills. But data\nacquisition is a major bottleneck in applying this paradigm\nmo",
+  "title_match": true,
+  "version": "2410.24185v2",
+  "page_count": 10,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Fig. 1: DexMimicGen Overview. DexMimicGen offers an efficient pipeline to train capable bimanual dexterous robots. (left) First, a human operator col- lects around five task demonstrations using a teleoperation device. (middle) Next, DexMimicGen automatically generates a large set of demonstration trajectories in simulation. (right) Finally, a policy is trained with imitation learning and deployed in the real world. demonstrations in this setting",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Fig. 2: Subtask Types. We categorize the subtasks into parallel, coor- dination, and sequential subtasks, where the two arms achieve subgoals independently, with coordination, and following a specific order. IV. DEXMIMICGEN METHOD DexMimicGen generates data for bimanual and dexter- ous manipulation — doing so involves handling three key challenges compared to MimicGen. First, each arm must operate independently of the other arm to achieve differe",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 3: DexMimicGen Workflow. Left: segment source demonstrations for each arm through manually defined heuristics or human and records the poses of the reference objects. Right: In a new simulation environment, we generate trajectories by transforming source trajectories with reference object poses and executing them. D. Data Generation for Bimanual Manipulation We outline the overall DexMimicGen data generation workflow using the Tray Lift task",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 4. These tasks involve high-precision manipulation (Threading, Piece Assembly, Box Packing, Coffee), manipulation of articu- lated objects (Drawer), and are long-horizon (Transport). The tasks also require overcoming key challenges in multi- arm interaction. Several of these tasks contain coordination subtasks, where both arms need to cooperate to finish the subtask (Threading, Transport, Box Packing, Tray Lift, Can Sorting). Other tasks nec",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 4: Simulation Tasks. We deploy DexMimicGen on nine simulation tasks across three embodiments — two arms with parallel-jaw grippers (top), two arms with dexterous hands (middle), and a humanoid (bottom) Task Source Demo DP BC-RNN-GMM BC-RNN DP Piece Assembly 3.3 ± 0.9 74.0 ± 2.8 66.0 ± 2.0 80.7 ± 0.9 Threading 1.3 ± 0.9 54.0 ± 4.3 68.0 ± 1.6 69.3 ± 1.9 Transport 52.7 ± 7.7 64.0 ± 3.3 57.3 ± 4.1 83.3 ± 0.9 Box Cleanup 62.0 ± 1.6 64.0 ± 10.0 94",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 5: Dataset Size Comparison. Success rates of policies trained on datasets with different sizes. Task Policy D0 D1 D2 Piece Assembly BC-RNN-GMM 74.0 ± 2.8 67.3 ± 0.9 44.0 ± 3.3 Box Cleanup BCRNN 96.7 ± 2.5 88.0 ± 5.9 78.7 ± 2.5 Pouring DP 79.3 ± 0.9 82.0 ± 2.0 71.3 ± 2.5 TABLE II: Success rates of policy trained on data generated with broader initial distributions, evaluated with same broader initial distributions. performance (Sec. VI-C), an",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 6: Real-World DexMimicGen Deployment. Rollouts of real-world visuomotor policy trained with DexMimicGen data and digital twin. on the datasets generated by DexMimicGen. We found that Diffusion Policy [54] generally outperforms the other architectures. Interestingly, we also found that BC-RNN- GMM generally underperformed BC-RNN and Diffusion Policy, especially on tasks that involve dexterous hands, in contrast to the RoboMimic study [1] whic",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 1",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 1. We generate real-world demonstrations by running DexMimicGen with a digital twin [77] in simulation. Hardware Setup. We use a Fourier GR1 robot equipped with two 6-DoF Inspire dexterous hands. For vision, we use two Intel RealSense D435i cameras: one head-mounted camera provides a first-person view and one camera in front of the robot as a third-person view. Digital Twin Setup. We perform our experiment on the Can Sorting task (Fig. 6), w",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

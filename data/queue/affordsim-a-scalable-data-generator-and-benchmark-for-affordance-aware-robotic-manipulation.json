@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "affordsim-a-scalable-data-generator-and-benchmark-for-affordance-aware-robotic-manipulation",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.504485Z",
-  "updated_at": "2026-10-09T20:04:59.504485Z",
+  "updated_at": "2026-10-09T20:14:35.875244Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/affordsim-a-scalable-data-generator-and-benchmark-for-affordance-aware-robotic-manipulation.json",
+          "https://arxiv.org/pdf/2604.11674v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/affordsim-a-scalable-data-generator-and-benchmark-for-affordance-aware-robotic-manipulation.json",
+          "sha256": "a793d07a66a194e85db54810960299b25cb3c1aeb3f005dde74ec9181d480b77"
+        },
+        "version": "2604.11674v2",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation",
+        "observed_title": "AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation",
+        "source_url": "https://arxiv.org/pdf/2604.11674v2",
+        "source_sha256": "8811e0ccda74dae8722860f1a730c8d7f2bedf13841ef67796ca9bb02399f1de",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/affordsim-a-scalable-data-generator-and-benchmark-for-affordance-aware-robotic-manipulation.json",
+          "https://arxiv.org/pdf/2604.11674v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/affordsim-a-scalable-data-generator-and-benchmark-for-affordance-aware-robotic-manipulation.json",
+          "sha256": "a793d07a66a194e85db54810960299b25cb3c1aeb3f005dde74ec9181d480b77"
+        },
+        "version": "2604.11674v2",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/affordsim-a-scalable-data-generator-and-benchmark-for-affordance-aware-robotic-manipulation.pdf",
+          "reported_sha256": "8811e0ccda74dae8722860f1a730c8d7f2bedf13841ef67796ca9bb02399f1de",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 26,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.409720Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "afe74cda6ee539b168b80305a6194a05bc6d8b589e6f32a1c32610b5dec66b55",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/affordsim-a-scalable-data-generator-and-benchmark-for-affordance-aware-robotic-manipulation.json",
+                "https://arxiv.org/pdf/2604.11674v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/affordsim-a-scalable-data-generator-and-benchmark-for-affordance-aware-robotic-manipulation.json",
+                "sha256": "a793d07a66a194e85db54810960299b25cb3c1aeb3f005dde74ec9181d480b77"
+              },
+              "version": "2604.11674v2",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation",
+              "observed_title": "AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation",
+              "source_url": "https://arxiv.org/pdf/2604.11674v2",
+              "source_sha256": "8811e0ccda74dae8722860f1a730c8d7f2bedf13841ef67796ca9bb02399f1de",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/affordsim-a-scalable-data-generator-and-benchmark-for-affordance-aware-robotic-manipulation.json",
+                "https://arxiv.org/pdf/2604.11674v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/affordsim-a-scalable-data-generator-and-benchmark-for-affordance-aware-robotic-manipulation.json",
+                "sha256": "a793d07a66a194e85db54810960299b25cb3c1aeb3f005dde74ec9181d480b77"
+              },
+              "version": "2604.11674v2",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/affordsim-a-scalable-data-generator-and-benchmark-for-affordance-aware-robotic-manipulation.pdf",
+                "reported_sha256": "8811e0ccda74dae8722860f1a730c8d7f2bedf13841ef67796ca9bb02399f1de",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 26,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:35.875244Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "1b52c0a5687f70782c7916393122fed525c76a0b06036355a3d279ce37eaa1af",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/affordsim-a-scalable-data-generator-and-benchmark-for-affordance-aware-robotic-manipulation.json",
+                "https://arxiv.org/pdf/2604.11674v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/affordsim-a-scalable-data-generator-and-benchmark-for-affordance-aware-robotic-manipulation.json",
+                "sha256": "a793d07a66a194e85db54810960299b25cb3c1aeb3f005dde74ec9181d480b77"
+              },
+              "version": "2604.11674v2",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation",
+              "observed_title": "AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation",
+              "source_url": "https://arxiv.org/pdf/2604.11674v2",
+              "source_sha256": "8811e0ccda74dae8722860f1a730c8d7f2bedf13841ef67796ca9bb02399f1de",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

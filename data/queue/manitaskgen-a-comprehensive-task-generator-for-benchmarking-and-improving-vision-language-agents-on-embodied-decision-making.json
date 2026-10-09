@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "manitaskgen-a-comprehensive-task-generator-for-benchmarking-and-improving-vision-language-agents-on-embodied-decision-making",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.498197Z",
-  "updated_at": "2026-10-09T20:04:59.498197Z",
+  "updated_at": "2026-10-09T20:14:36.455229Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/manitaskgen-a-comprehensive-task-generator-for-benchmarking-and-improving-vision-language-agents-on-embodied-decision-making.json",
+          "https://arxiv.org/pdf/2505.20726v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/manitaskgen-a-comprehensive-task-generator-for-benchmarking-and-improving-vision-language-agents-on-embodied-decision-making.json",
+          "sha256": "22ba9046b6867555128860414a8892faa7bfb1d7f8980cc445e8b408562d3c77"
+        },
+        "version": "2505.20726v2",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "ManiTaskGen: A Comprehensive Task Generator for Benchmarking and Improving Vision-Language Agents on Embodied Decision-Making",
+        "observed_title": "ManiTaskGen: A Comprehensive Task Generator for Benchmarking and Improving Vision-Language Agents on Embodied Decision-Making",
+        "source_url": "https://arxiv.org/pdf/2505.20726v2",
+        "source_sha256": "4fe910d1391f4f4ab5763684b88f180a4e61502d5ac27aefc41b572cd613f64f",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/manitaskgen-a-comprehensive-task-generator-for-benchmarking-and-improving-vision-language-agents-on-embodied-decision-making.json",
+          "https://arxiv.org/pdf/2505.20726v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/manitaskgen-a-comprehensive-task-generator-for-benchmarking-and-improving-vision-language-agents-on-embodied-decision-making.json",
+          "sha256": "22ba9046b6867555128860414a8892faa7bfb1d7f8980cc445e8b408562d3c77"
+        },
+        "version": "2505.20726v2",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/manitaskgen-a-comprehensive-task-generator-for-benchmarking-and-improving-vision-language-agents-on-embodied-decision-making.pdf",
+          "reported_sha256": "4fe910d1391f4f4ab5763684b88f180a4e61502d5ac27aefc41b572cd613f64f",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 67,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.998503Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "1b232670c2604f32a90eac138e3d1d71f89c35e2e356e93016de51b0b1824dea",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/manitaskgen-a-comprehensive-task-generator-for-benchmarking-and-improving-vision-language-agents-on-embodied-decision-making.json",
+                "https://arxiv.org/pdf/2505.20726v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/manitaskgen-a-comprehensive-task-generator-for-benchmarking-and-improving-vision-language-agents-on-embodied-decision-making.json",
+                "sha256": "22ba9046b6867555128860414a8892faa7bfb1d7f8980cc445e8b408562d3c77"
+              },
+              "version": "2505.20726v2",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "ManiTaskGen: A Comprehensive Task Generator for Benchmarking and Improving Vision-Language Agents on Embodied Decision-Making",
+              "observed_title": "ManiTaskGen: A Comprehensive Task Generator for Benchmarking and Improving Vision-Language Agents on Embodied Decision-Making",
+              "source_url": "https://arxiv.org/pdf/2505.20726v2",
+              "source_sha256": "4fe910d1391f4f4ab5763684b88f180a4e61502d5ac27aefc41b572cd613f64f",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/manitaskgen-a-comprehensive-task-generator-for-benchmarking-and-improving-vision-language-agents-on-embodied-decision-making.json",
+                "https://arxiv.org/pdf/2505.20726v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/manitaskgen-a-comprehensive-task-generator-for-benchmarking-and-improving-vision-language-agents-on-embodied-decision-making.json",
+                "sha256": "22ba9046b6867555128860414a8892faa7bfb1d7f8980cc445e8b408562d3c77"
+              },
+              "version": "2505.20726v2",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/manitaskgen-a-comprehensive-task-generator-for-benchmarking-and-improving-vision-language-agents-on-embodied-decision-making.pdf",
+                "reported_sha256": "4fe910d1391f4f4ab5763684b88f180a4e61502d5ac27aefc41b572cd613f64f",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 67,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.455229Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "f630e71afae13f26a7b16f81241f231426286ea7be2b73710281cd15fe24d0d7",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/manitaskgen-a-comprehensive-task-generator-for-benchmarking-and-improving-vision-language-agents-on-embodied-decision-making.json",
+                "https://arxiv.org/pdf/2505.20726v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/manitaskgen-a-comprehensive-task-generator-for-benchmarking-and-improving-vision-language-agents-on-embodied-decision-making.json",
+                "sha256": "22ba9046b6867555128860414a8892faa7bfb1d7f8980cc445e8b408562d3c77"
+              },
+              "version": "2505.20726v2",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "ManiTaskGen: A Comprehensive Task Generator for Benchmarking and Improving Vision-Language Agents on Embodied Decision-Making",
+              "observed_title": "ManiTaskGen: A Comprehensive Task Generator for Benchmarking and Improving Vision-Language Agents on Embodied Decision-Making",
+              "source_url": "https://arxiv.org/pdf/2505.20726v2",
+              "source_sha256": "4fe910d1391f4f4ab5763684b88f180a4e61502d5ac27aefc41b572cd613f64f",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,61 @@
+{
+  "catalog_index": 94,
+  "catalog_id": "mesatask-towards-task-driven-tabletop-scene-generation-via-3d-spatial-reasoning",
+  "title_expected": "MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning",
+  "source_url": "https://arxiv.org/pdf/2509.22281v1",
+  "pdf_path": "build/sources/mesatask-towards-task-driven-tabletop-scene-generation-via-3d-spatial-reasoning.pdf",
+  "pdf_sha256": "45ed869dd42c02f733b74aab7dda7f58c295b12485be0d8f07139a71db585258",
+  "pdf_title_observed": "MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning",
+  "first_page_title_text": "2025-9-29\nMesaTask: Towards Task-Driven Tabletop Scene Generation\nvia 3D Spatial Reasoning\nJinkun Hao1,*, Naifu Liang2,*, Zhen Luo3,4,*, Xudong Xu2,‡, Weipeng Zhong1, Ran Yi1,\nYichen Jin5, Zhaoyang Lyu2, Feng Zheng4, Lizhuang Ma1,† and Jiangmiao Pang2\n1Shanghai Jiao Tong University, 2Shanghai AI Laboratory, 3SII, 4Southern University\nof Science and Technology, 5Peking University, *Equal contributi",
+  "title_match": true,
+  "version": "2509.22281v1",
+  "page_count": 39,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1. We present MesaTask, a novel LLM-based framework for generating task-oriented 3D tabletop scenes directly from high-level human instructions, featuring realistic layouts, articulated objects, and complex inter-object relations like stacking and containment. To support this task, we introduce a large-scale dataset of tabletop scenes, MesaTask-10K, comprising over 12, 000 3D assets, 11, 708 tabletop scenes with manually crafted layouts co",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 2. The dataset construction pipeline. First, an LLM is used to generate diverse tabletop scene descriptions, including relevant object lists and spatial relations. Conditioned on the scene description, a text-to-image model synthesizes reference images, from which coarse 3D layouts are built using depth estimation, object detection, and 3D asset retrieval. These layouts are refined through human annotations and physical simulation to ensur",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 2. To the best of our knowledge, these awkward issues can only be effectively addressed with human assistance. Therefore, 20 expertize annotators undertake a manual layout refinement in Blender, wherein they adjust the object size and positions, as well as eliminate redundant instances, following the reference images. During annotation, annotators are provided with the coarse 3D scene in GLB format, which includes a Unitree H1 robot model ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 2. Moreover, there are roughly 15 objects per tabletop scene on average, and the distribution of the object number is also visualized in Figure 2. We believe that our MesaTask-10K dataset possesses substantial potential to drive research advancements in the realm of task-oriented tabletop scene generation. 5 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 2. We believe that our MesaTask-10K dataset possesses substantial potential to drive research advancements in the realm of task-oriented tabletop scene generation. 5 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 3. Overview of our MesaTask Framework. 1) Task-to-Scene Generation (upper-left). Given a task instruction, we extract detailed task information including environment, sub-goals, and task-relevant objects. A structured spatial reasoning chain performs object list completion, interrelation inference, and scene graph construction, which guides the generation of 3D layouts. Final scenes are obtained via 3D asset retrieval. 2) Reasoning Data Co",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 3. To empower the LLM with 3D spatial reasoning, we propose a novel spatial reasoning chain in Section 4.2 and introduce our model’s training via SFT and DPO algorithms in Section 4.3. 4.1. Problem Formulation Task-oriented tabletop scene generation aims at generating suitable tabletop scenes S from high-level manipulation task instructions T. Following prior works Tang et al. (2024); Yang et al. (2024d,e), a tabletop scene S is a composit",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

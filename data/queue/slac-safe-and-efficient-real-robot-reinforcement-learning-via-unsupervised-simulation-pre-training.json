@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "slac-safe-and-efficient-real-robot-reinforcement-learning-via-unsupervised-simulation-pre-training",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.463280Z",
-  "updated_at": "2026-10-09T20:04:59.463280Z",
+  "updated_at": "2026-10-09T20:14:36.774924Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,103 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/slac-safe-and-efficient-real-robot-reinforcement-learning-via-unsupervised-simulation-pre-training.json",
+          "https://arxiv.org/pdf/2506.04147v5"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/slac-safe-and-efficient-real-robot-reinforcement-learning-via-unsupervised-simulation-pre-training.json",
+          "sha256": "8da26a649e52dc37d742d5d7402c0d181545e5ee5bd94b0690cd005cb385ead6"
+        },
+        "version": "2506.04147v5",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "SLAC: Safe and Efficient Real-Robot Reinforcement Learning via Unsupervised Simulation Pre-Training",
+        "observed_title": "SLAC: Safe and Efficient Real-Robot Reinforcement Learning via Unsupervised Simulation Pre-Training",
+        "source_url": "https://arxiv.org/pdf/2506.04147v5",
+        "source_sha256": "4b5d88741b8729fa81e1042f47874bada21853f811f0f2b9e4cc501f5ce8ee32",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/slac-safe-and-efficient-real-robot-reinforcement-learning-via-unsupervised-simulation-pre-training.json",
+          "https://arxiv.org/pdf/2506.04147v5"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/slac-safe-and-efficient-real-robot-reinforcement-learning-via-unsupervised-simulation-pre-training.json",
+          "sha256": "8da26a649e52dc37d742d5d7402c0d181545e5ee5bd94b0690cd005cb385ead6"
+        },
+        "version": "2506.04147v5",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/slac-safe-and-efficient-real-robot-reinforcement-learning-via-unsupervised-simulation-pre-training/original.pdf",
+          "reported_sha256": "4b5d88741b8729fa81e1042f47874bada21853f811f0f2b9e4cc501f5ce8ee32",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 17,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/slac-safe-and-efficient-real-robot-reinforcement-learning-via-unsupervised-simulation-pre-training.json",
+          "https://arxiv.org/pdf/2506.04147v5"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/slac-safe-and-efficient-real-robot-reinforcement-learning-via-unsupervised-simulation-pre-training.json",
+          "sha256": "8da26a649e52dc37d742d5d7402c0d181545e5ee5bd94b0690cd005cb385ead6"
+        },
+        "version": "2506.04147v5",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 4,
+            "caption": "Figure 2. The two-step SLAC procedure to enable real-world policy learning. (Left) In the first step, SLAC learns a Latent\nAction Decoder that maps each latent action, z ∈Z, to a sequence of low-level robot actions, (a0, . . . , aT ), at ∈A. This\ndecoder is learned in low-fidelity simulation via unsupervised skill discovery with novel objectives that encourage the robot to\nindependently control different state features (e.g., camera directions, contacts with table, base locations) while being safe.\n(Right) In the second step, once the decoder is trained, the robot learns downstream tasks with RL in the real world using the\nSLAC latent action space. The task policy directly takes in the onboard sensor observations of the robot (i.e., images,\nproprioception) and outputs latent actions z that are decoded into safe robot actions. SLAC applies Factorized Latent-Action\nSAC to optimize the policy for downstream tasks with multi-term reward (e.g., look at the objects, keep a bag close, sweep the\ntrash) directly in the real world with very few samples, converging in less than an hour, by taking advantage of high-frequency\noff-policy updates and masked Q decomposition.",
+            "crop_pdf_points": [
+              61,
+              52,
+              534,
+              213
+            ],
+            "vector_paths": 121,
+            "native_text_spans": 81,
+            "raster_images": 18,
+            "source_type": "vector/text with embedded raster components",
+            "visually_inspected": true,
+            "notes": "Two side-by-side rounded panels: unsupervised latent-action-space learning and real-world downstream RL. Many embedded robot photos and task objects need fidelity-preserving image subassets, while labels, decoder boxes and arrows remain editable."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +146,153 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.292566Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "9981bce16b36f88a53e818b9fff7984f4375597fa42025cbe1131dacec00e06e",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/slac-safe-and-efficient-real-robot-reinforcement-learning-via-unsupervised-simulation-pre-training.json",
+                "https://arxiv.org/pdf/2506.04147v5"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/slac-safe-and-efficient-real-robot-reinforcement-learning-via-unsupervised-simulation-pre-training.json",
+                "sha256": "8da26a649e52dc37d742d5d7402c0d181545e5ee5bd94b0690cd005cb385ead6"
+              },
+              "version": "2506.04147v5",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "SLAC: Safe and Efficient Real-Robot Reinforcement Learning via Unsupervised Simulation Pre-Training",
+              "observed_title": "SLAC: Safe and Efficient Real-Robot Reinforcement Learning via Unsupervised Simulation Pre-Training",
+              "source_url": "https://arxiv.org/pdf/2506.04147v5",
+              "source_sha256": "4b5d88741b8729fa81e1042f47874bada21853f811f0f2b9e4cc501f5ce8ee32",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/slac-safe-and-efficient-real-robot-reinforcement-learning-via-unsupervised-simulation-pre-training.json",
+                "https://arxiv.org/pdf/2506.04147v5"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/slac-safe-and-efficient-real-robot-reinforcement-learning-via-unsupervised-simulation-pre-training.json",
+                "sha256": "8da26a649e52dc37d742d5d7402c0d181545e5ee5bd94b0690cd005cb385ead6"
+              },
+              "version": "2506.04147v5",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/slac-safe-and-efficient-real-robot-reinforcement-learning-via-unsupervised-simulation-pre-training/original.pdf",
+                "reported_sha256": "4b5d88741b8729fa81e1042f47874bada21853f811f0f2b9e4cc501f5ce8ee32",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 17,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/slac-safe-and-efficient-real-robot-reinforcement-learning-via-unsupervised-simulation-pre-training.json",
+                "https://arxiv.org/pdf/2506.04147v5"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/slac-safe-and-efficient-real-robot-reinforcement-learning-via-unsupervised-simulation-pre-training.json",
+                "sha256": "8da26a649e52dc37d742d5d7402c0d181545e5ee5bd94b0690cd005cb385ead6"
+              },
+              "version": "2506.04147v5",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 4,
+                  "caption": "Figure 2. The two-step SLAC procedure to enable real-world policy learning. (Left) In the first step, SLAC learns a Latent\nAction Decoder that maps each latent action, z ∈Z, to a sequence of low-level robot actions, (a0, . . . , aT ), at ∈A. This\ndecoder is learned in low-fidelity simulation via unsupervised skill discovery with novel objectives that encourage the robot to\nindependently control different state features (e.g., camera directions, contacts with table, base locations) while being safe.\n(Right) In the second step, once the decoder is trained, the robot learns downstream tasks with RL in the real world using the\nSLAC latent action space. The task policy directly takes in the onboard sensor observations of the robot (i.e., images,\nproprioception) and outputs latent actions z that are decoded into safe robot actions. SLAC applies Factorized Latent-Action\nSAC to optimize the policy for downstream tasks with multi-term reward (e.g., look at the objects, keep a bag close, sweep the\ntrash) directly in the real world with very few samples, converging in less than an hour, by taking advantage of high-frequency\noff-policy updates and masked Q decomposition.",
+                  "crop_pdf_points": [
+                    61,
+                    52,
+                    534,
+                    213
+                  ],
+                  "vector_paths": 121,
+                  "native_text_spans": 81,
+                  "raster_images": 18,
+                  "source_type": "vector/text with embedded raster components",
+                  "visually_inspected": true,
+                  "notes": "Two side-by-side rounded panels: unsupervised latent-action-space learning and real-world downstream RL. Many embedded robot photos and task objects need fidelity-preserving image subassets, while labels, decoder boxes and arrows remain editable."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.774924Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "d21b70f7706073b1d16df884cc61bc5d454cf0ef549965e45a577d46b9a774a5",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/slac-safe-and-efficient-real-robot-reinforcement-learning-via-unsupervised-simulation-pre-training.json",
+                "https://arxiv.org/pdf/2506.04147v5"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/slac-safe-and-efficient-real-robot-reinforcement-learning-via-unsupervised-simulation-pre-training.json",
+                "sha256": "8da26a649e52dc37d742d5d7402c0d181545e5ee5bd94b0690cd005cb385ead6"
+              },
+              "version": "2506.04147v5",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "SLAC: Safe and Efficient Real-Robot Reinforcement Learning via Unsupervised Simulation Pre-Training",
+              "observed_title": "SLAC: Safe and Efficient Real-Robot Reinforcement Learning via Unsupervised Simulation Pre-Training",
+              "source_url": "https://arxiv.org/pdf/2506.04147v5",
+              "source_sha256": "4b5d88741b8729fa81e1042f47874bada21853f811f0f2b9e4cc501f5ce8ee32",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

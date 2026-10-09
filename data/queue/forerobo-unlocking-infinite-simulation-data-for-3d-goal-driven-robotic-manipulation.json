@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "forerobo-unlocking-infinite-simulation-data-for-3d-goal-driven-robotic-manipulation",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.496952Z",
-  "updated_at": "2026-10-09T20:04:59.496952Z",
+  "updated_at": "2026-10-09T20:14:36.228735Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/forerobo-unlocking-infinite-simulation-data-for-3d-goal-driven-robotic-manipulation.json",
+          "https://arxiv.org/pdf/2511.04381v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/forerobo-unlocking-infinite-simulation-data-for-3d-goal-driven-robotic-manipulation.json",
+          "sha256": "5c9d8c1a514b7cb31cb07ad8f50bc6af363ce876f802b23199d067bec0c10d95"
+        },
+        "version": "2511.04381v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "ForeRobo: Unlocking Infinite Simulation Data for 3D Goal-driven Robotic Manipulation",
+        "observed_title": "ForeRobo: Unlocking Infinite Simulation Data for 3D Goal-driven Robotic Manipulation",
+        "source_url": "https://arxiv.org/pdf/2511.04381v1",
+        "source_sha256": "3bdb1dd33b86dd992851ef2d2c84c77d2e6a10c39c3134cc5ede3d36005cb193",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/forerobo-unlocking-infinite-simulation-data-for-3d-goal-driven-robotic-manipulation.json",
+          "https://arxiv.org/pdf/2511.04381v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/forerobo-unlocking-infinite-simulation-data-for-3d-goal-driven-robotic-manipulation.json",
+          "sha256": "5c9d8c1a514b7cb31cb07ad8f50bc6af363ce876f802b23199d067bec0c10d95"
+        },
+        "version": "2511.04381v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/forerobo-unlocking-infinite-simulation-data-for-3d-goal-driven-robotic-manipulation.pdf",
+          "reported_sha256": "3bdb1dd33b86dd992851ef2d2c84c77d2e6a10c39c3134cc5ede3d36005cb193",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 15,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.773599Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "05f3df6fcc6e865f912c596535a13b3166eef4235f64196dea40c691463110e8",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/forerobo-unlocking-infinite-simulation-data-for-3d-goal-driven-robotic-manipulation.json",
+                "https://arxiv.org/pdf/2511.04381v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/forerobo-unlocking-infinite-simulation-data-for-3d-goal-driven-robotic-manipulation.json",
+                "sha256": "5c9d8c1a514b7cb31cb07ad8f50bc6af363ce876f802b23199d067bec0c10d95"
+              },
+              "version": "2511.04381v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "ForeRobo: Unlocking Infinite Simulation Data for 3D Goal-driven Robotic Manipulation",
+              "observed_title": "ForeRobo: Unlocking Infinite Simulation Data for 3D Goal-driven Robotic Manipulation",
+              "source_url": "https://arxiv.org/pdf/2511.04381v1",
+              "source_sha256": "3bdb1dd33b86dd992851ef2d2c84c77d2e6a10c39c3134cc5ede3d36005cb193",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/forerobo-unlocking-infinite-simulation-data-for-3d-goal-driven-robotic-manipulation.json",
+                "https://arxiv.org/pdf/2511.04381v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/forerobo-unlocking-infinite-simulation-data-for-3d-goal-driven-robotic-manipulation.json",
+                "sha256": "5c9d8c1a514b7cb31cb07ad8f50bc6af363ce876f802b23199d067bec0c10d95"
+              },
+              "version": "2511.04381v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/forerobo-unlocking-infinite-simulation-data-for-3d-goal-driven-robotic-manipulation.pdf",
+                "reported_sha256": "3bdb1dd33b86dd992851ef2d2c84c77d2e6a10c39c3134cc5ede3d36005cb193",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 15,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.228735Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "11c1124c9e9391c8c732ef9670bc8d3b734bd556d69da6a66d0a5026fdaec66a",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/forerobo-unlocking-infinite-simulation-data-for-3d-goal-driven-robotic-manipulation.json",
+                "https://arxiv.org/pdf/2511.04381v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/forerobo-unlocking-infinite-simulation-data-for-3d-goal-driven-robotic-manipulation.json",
+                "sha256": "5c9d8c1a514b7cb31cb07ad8f50bc6af363ce876f802b23199d067bec0c10d95"
+              },
+              "version": "2511.04381v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "ForeRobo: Unlocking Infinite Simulation Data for 3D Goal-driven Robotic Manipulation",
+              "observed_title": "ForeRobo: Unlocking Infinite Simulation Data for 3D Goal-driven Robotic Manipulation",
+              "source_url": "https://arxiv.org/pdf/2511.04381v1",
+              "source_sha256": "3bdb1dd33b86dd992851ef2d2c84c77d2e6a10c39c3134cc5ede3d36005cb193",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

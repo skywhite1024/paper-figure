@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "robogen-towards-unleashing-infinite-data-for-automated-robot-learning-via-generative-simulation",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.501507Z",
-  "updated_at": "2026-10-09T20:04:59.501507Z",
+  "updated_at": "2026-10-09T20:14:36.592708Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/robogen-towards-unleashing-infinite-data-for-automated-robot-learning-via-generative-simulation.json",
+          "https://arxiv.org/pdf/2311.01455v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/robogen-towards-unleashing-infinite-data-for-automated-robot-learning-via-generative-simulation.json",
+          "sha256": "d3ac561a615a7336eed228a9b9820fc4408e83da815a53918e664f5ea5e8b51c"
+        },
+        "version": "2311.01455v3",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation",
+        "observed_title": "RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation",
+        "source_url": "https://arxiv.org/pdf/2311.01455v3",
+        "source_sha256": "4146b2443205d6e4f8137e14fb20a91165da9a70c12306a300bc71fcae53b022",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/robogen-towards-unleashing-infinite-data-for-automated-robot-learning-via-generative-simulation.json",
+          "https://arxiv.org/pdf/2311.01455v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/robogen-towards-unleashing-infinite-data-for-automated-robot-learning-via-generative-simulation.json",
+          "sha256": "d3ac561a615a7336eed228a9b9820fc4408e83da815a53918e664f5ea5e8b51c"
+        },
+        "version": "2311.01455v3",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/robogen-towards-unleashing-infinite-data-for-automated-robot-learning-via-generative-simulation.pdf",
+          "reported_sha256": "4146b2443205d6e4f8137e14fb20a91165da9a70c12306a300bc71fcae53b022",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 48,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.118832Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "f2825baa5f99a6e296efe71cbef3ccd89ba1207dfdc713ff64c8e1c86abca536",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/robogen-towards-unleashing-infinite-data-for-automated-robot-learning-via-generative-simulation.json",
+                "https://arxiv.org/pdf/2311.01455v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/robogen-towards-unleashing-infinite-data-for-automated-robot-learning-via-generative-simulation.json",
+                "sha256": "d3ac561a615a7336eed228a9b9820fc4408e83da815a53918e664f5ea5e8b51c"
+              },
+              "version": "2311.01455v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation",
+              "observed_title": "RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation",
+              "source_url": "https://arxiv.org/pdf/2311.01455v3",
+              "source_sha256": "4146b2443205d6e4f8137e14fb20a91165da9a70c12306a300bc71fcae53b022",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/robogen-towards-unleashing-infinite-data-for-automated-robot-learning-via-generative-simulation.json",
+                "https://arxiv.org/pdf/2311.01455v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/robogen-towards-unleashing-infinite-data-for-automated-robot-learning-via-generative-simulation.json",
+                "sha256": "d3ac561a615a7336eed228a9b9820fc4408e83da815a53918e664f5ea5e8b51c"
+              },
+              "version": "2311.01455v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/robogen-towards-unleashing-infinite-data-for-automated-robot-learning-via-generative-simulation.pdf",
+                "reported_sha256": "4146b2443205d6e4f8137e14fb20a91165da9a70c12306a300bc71fcae53b022",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 48,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.592708Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "124989f246809e183b23c6a67208125ba8b68a93e88832b93b84e9ce46cd7331",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/robogen-towards-unleashing-infinite-data-for-automated-robot-learning-via-generative-simulation.json",
+                "https://arxiv.org/pdf/2311.01455v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/robogen-towards-unleashing-infinite-data-for-automated-robot-learning-via-generative-simulation.json",
+                "sha256": "d3ac561a615a7336eed228a9b9820fc4408e83da815a53918e664f5ea5e8b51c"
+              },
+              "version": "2311.01455v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation",
+              "observed_title": "RoboGen: Towards Unleashing Infinite Data for Automated Robot Learning via Generative Simulation",
+              "source_url": "https://arxiv.org/pdf/2311.01455v3",
+              "source_sha256": "4146b2443205d6e4f8137e14fb20a91165da9a70c12306a300bc71fcae53b022",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

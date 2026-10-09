@@ -1,0 +1,84 @@
+{
+  "catalog_index": 70,
+  "catalog_id": "nbdi-a-simple-and-effective-termination-condition-for-skill-extraction-from-task-agnostic-demonstrations",
+  "title_expected": "NBDI: A Simple and Effective Termination Condition for Skill Extraction from Task-Agnostic Demonstrations",
+  "source_url": "https://arxiv.org/pdf/2501.12668v3",
+  "pdf_path": "build/sources/nbdi-a-simple-and-effective-termination-condition-for-skill-extraction-from-task-agnostic-demonstrations.pdf",
+  "pdf_sha256": "57e1d6ffc34c92b5bb3dfe99d6df272e103161893d6607e4a0214d8ce5808109",
+  "pdf_title_observed": "NBDI: A Simple and Effective Termination Condition for Skill Extraction from Task-Agnostic Demonstrations",
+  "first_page_title_text": "NBDI: A Simple and Effective Termination Condition for\nSkill Extraction from Task-Agnostic Demonstrations\nMyunsoo Kim * 1 Hayeong Lee * 1 Seong-Woong Shim 1 JunHo Seo 1 Byung-Jun Lee 1 2\nAbstract\nIntelligent agents are able to make decisions based\non different levels of granularity and duration. Re-\ncent advances in skill learning enabled the agent\nto solve complex, long-horizon tasks by effec-\nti",
+  "title_match": true,
+  "version": "2501.12668v3",
+  "page_count": 25,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [
+    {
+      "figure": "Figure 13",
+      "page_1_based": 14,
+      "caption": "NBDI novelty learning, skill extraction and execution.",
+      "crop_pdf_points": [
+        91,
+        88,
+        506,
+        368
+      ],
+      "vector_paths": 87,
+      "native_text_spans": 146,
+      "raster_images": 0,
+      "visually_inspected": true,
+      "notes": "Appendix contains genuine full framework absent from main method pages. Three network diagrams with mathematical labels; source glyph outlines recommended."
+    }
+  ],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 1. Visualization of an example of critical decision points in the kitchen environment. High state-action novelty can be found in states where a subtask has been completed, and multiple subsequent subtasks are accessible. If termination occurs at a high state-action novelty point, the agent retains multiple plausible options. For example, after moving the kettle, it may choose to open the sliding cabinet or turn the oven knob (Left). Simila",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 2. Visualization of prediction error of ICM in maze and block stacking environment. Note the same offline data that is used to train ICM was used to compute this prediction error. (A), (B) and (C) are the state-action pairs with the highest prediction error, while (D), (E) and (F) are the ones with the lowest. Critical decision points—such as crossroads or states involving block manipulation—are typically associated with high prediction er",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 3. The relative frequency of termination improvement oc- currences (left), conditional action novelty (middle), and state novelty (right) in a small grid with three different goals. Higher percentile colors indicate a relatively greater number of termina- tion improvement occurrences, higher conditional action novelty, and higher state novelty. Further details on the visualization proce- dure are provided in Appendix I.1. action. With the ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 5. Performances of our method and baselines in solving downstream tasks. The shaded region represents 95% confidence interval across five different seeds. The last column of the table below illustrates the percentage improvement of our method over SPiRL. which is an extended version of MDP that supports ac- tions of different execution lengths. We aim to maxi- mize discounted sum of rewards P t∈T ˜r(st, zt) where T is set of time steps whe",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 6. Performances of our method and baselines in solving downstream tasks. The shaded region and error bar represents 95% confidence interval across five different seeds. Thus, our findings validate that ICM can serve as an effec- tive state-action novelty estimator when pre-trained with offline trajectory datasets. 6.2. Environments Two navigation tasks (Mazes sized 30×30 and 40×40) and two simulated robot manipulation tasks (Kitchen, Spars",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 7. Visualization of decision points made by SPiRL and NBDI in the maze environment. We sampled 100 trajectories for each trained policy to observe the points at which they make decisions. Higher percentile colors suggest a relatively greater number of visitation frequencies and termination frequencies. Table 1. Success rate of NBDI and SPiRL with offline trajecto- ries generated by mediocre-level policy with weighted Gaussian random noise ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 8",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 8. Illustration of the impact of varying the width and depth configuration of hidden layer and dataset usage on state-action novelty estimation. (Left) shows how varying hidden layer con- figurations (depth and width) influences the estimated state-action novelty (box plots) and the total number of parameters (blue line). The x-axis lists different hidden layer setups. (Right) illustrates how varying the proportion of dataset usage affects",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 9",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 9. Comparison of success rates in the maze environment during the skill-based meta-training phase of SiMPL across 10 meta-training tasks (10 random goal locations). The shaded regions indicate standard errors over three random seeds. 7, SPiRL fails to reach the goal, while NBDI achieves a success rate of 28% and 22%. However, as the policy gen- erating the trajectory becomes more stochastic (Table 1), it gathers data primarily around the i",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+}

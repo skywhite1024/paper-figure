@@ -48,6 +48,8 @@ def read_paper(folder, repository):
             scene['provenance']['page'] == paper['pdf_page_1_based'], 'Source figure/page mapping differs')
     if paper.get('arxiv_id_version'):
         require(paper['arxiv_id_version'] in scene['provenance']['paper_url'], 'Source paper version differs')
+    if 'source_sha256' in scene['provenance']:
+        require(scene['provenance']['source_sha256'] == paper['sha256'], 'Scene and original PDF hashes differ')
     stem = scene['id']
     require(re.fullmatch(r'[A-Za-z0-9_-]+', stem), 'Invalid diagram id')
     manifest = json_file(folder / (stem + '.manifest.json'))
@@ -59,6 +61,15 @@ def read_paper(folder, repository):
         path = local_file(folder, name)
         require(name in entries and sha256(path) == entries[name]['sha256'],
                 f'{path}: export hash mismatch')
+    qa_path = folder / 'VALIDATION.json'
+    if qa_path.is_file():
+        qa = json_file(qa_path)
+        if 'source_scene_sha256' in qa:
+            require(qa['source_scene_sha256'] == manifest['source_sha256'], 'QA report binds an older scene')
+        if 'source_pdf_sha256' in qa:
+            require(qa['source_pdf_sha256'] == paper['sha256'], 'QA report binds another source PDF')
+        for entry in qa.get('checked_files', []):
+            require(sha256(local_file(folder, entry['name'])) == entry['sha256'], 'QA report binds older exported bytes')
     original = local_file(folder, folder.name + '-original.png')
     require(paper['editable_pptx'] == stem + '.pptx' and
             paper['editable_drawio'] == stem + '.drawio', 'Stale editable-file reference')
@@ -124,6 +135,8 @@ def refresh_output(repository, output=None):
     index = ['# 论文结果索引', '', '每篇论文单独一个文件夹，包含 PPTX、draw.io、预览、论文原图、原文 PDF、离线对照及来源/校验记录。', '']
     index.extend(f'- [{title}]({slug}/README.md)：{figure}，PDF 第 {page} 页 · [离线对照]({slug}/comparison.html)'
                  for slug, title, figure, page in links)
+    if (output / 'PROCESSING.json').exists():
+        index += ['', '[逐篇处理进度（已交付与待审查分开计数）](PROCESSING.json)']
     index += ['', '[验证汇总](VALIDATION.json) · [本地 HTML 索引](comparison.html)', '',
               '仓库不上传 ZIP；源代码位于仓库根目录，旧语义简化版在 data/diagrams/legacy/。',
               '保留来源版权与许可证说明；私有仓库上传不代表公开再发布许可。', '']

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "curricullm-automatic-task-curricula-design-for-learning-complex-robot-skills-using-large-language-models",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.501101Z",
-  "updated_at": "2026-10-09T20:04:59.501101Z",
+  "updated_at": "2026-10-09T20:14:36.034549Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/curricullm-automatic-task-curricula-design-for-learning-complex-robot-skills-using-large-language-models.json",
+          "https://arxiv.org/pdf/2409.18382v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/curricullm-automatic-task-curricula-design-for-learning-complex-robot-skills-using-large-language-models.json",
+          "sha256": "886eaba6619a7a2560a1b669babc0197ab2a7e3752cf9d98df29d722fe74e7a3"
+        },
+        "version": "2409.18382v2",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "CurricuLLM: Automatic Task Curricula Design for Learning Complex Robot Skills Using Large Language Models",
+        "observed_title": "CurricuLLM: Automatic Task Curricula Design for Learning Complex Robot Skills using Large Language Models",
+        "source_url": "https://arxiv.org/pdf/2409.18382v2",
+        "source_sha256": "4a8066640ce00705b2677e548ff5196bd4a1221ecf099e357fb834033a10a142",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/curricullm-automatic-task-curricula-design-for-learning-complex-robot-skills-using-large-language-models.json",
+          "https://arxiv.org/pdf/2409.18382v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/curricullm-automatic-task-curricula-design-for-learning-complex-robot-skills-using-large-language-models.json",
+          "sha256": "886eaba6619a7a2560a1b669babc0197ab2a7e3752cf9d98df29d722fe74e7a3"
+        },
+        "version": "2409.18382v2",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/curricullm-automatic-task-curricula-design-for-learning-complex-robot-skills-using-large-language-models.pdf",
+          "reported_sha256": "4a8066640ce00705b2677e548ff5196bd4a1221ecf099e357fb834033a10a142",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 13,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.572267Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "8f27de0fb22c3398ed838515f312de83ed1762a25d3364387caf0582503467c7",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/curricullm-automatic-task-curricula-design-for-learning-complex-robot-skills-using-large-language-models.json",
+                "https://arxiv.org/pdf/2409.18382v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/curricullm-automatic-task-curricula-design-for-learning-complex-robot-skills-using-large-language-models.json",
+                "sha256": "886eaba6619a7a2560a1b669babc0197ab2a7e3752cf9d98df29d722fe74e7a3"
+              },
+              "version": "2409.18382v2",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "CurricuLLM: Automatic Task Curricula Design for Learning Complex Robot Skills Using Large Language Models",
+              "observed_title": "CurricuLLM: Automatic Task Curricula Design for Learning Complex Robot Skills using Large Language Models",
+              "source_url": "https://arxiv.org/pdf/2409.18382v2",
+              "source_sha256": "4a8066640ce00705b2677e548ff5196bd4a1221ecf099e357fb834033a10a142",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/curricullm-automatic-task-curricula-design-for-learning-complex-robot-skills-using-large-language-models.json",
+                "https://arxiv.org/pdf/2409.18382v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/curricullm-automatic-task-curricula-design-for-learning-complex-robot-skills-using-large-language-models.json",
+                "sha256": "886eaba6619a7a2560a1b669babc0197ab2a7e3752cf9d98df29d722fe74e7a3"
+              },
+              "version": "2409.18382v2",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/curricullm-automatic-task-curricula-design-for-learning-complex-robot-skills-using-large-language-models.pdf",
+                "reported_sha256": "4a8066640ce00705b2677e548ff5196bd4a1221ecf099e357fb834033a10a142",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 13,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.034549Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "8bfa6ac567a76c86572a920561ec77172016595d8a990d3fa9ad112d4043ffa3",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/curricullm-automatic-task-curricula-design-for-learning-complex-robot-skills-using-large-language-models.json",
+                "https://arxiv.org/pdf/2409.18382v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/curricullm-automatic-task-curricula-design-for-learning-complex-robot-skills-using-large-language-models.json",
+                "sha256": "886eaba6619a7a2560a1b669babc0197ab2a7e3752cf9d98df29d722fe74e7a3"
+              },
+              "version": "2409.18382v2",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "CurricuLLM: Automatic Task Curricula Design for Learning Complex Robot Skills Using Large Language Models",
+              "observed_title": "CurricuLLM: Automatic Task Curricula Design for Learning Complex Robot Skills using Large Language Models",
+              "source_url": "https://arxiv.org/pdf/2409.18382v2",
+              "source_sha256": "4a8066640ce00705b2677e548ff5196bd4a1221ecf099e357fb834033a10a142",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

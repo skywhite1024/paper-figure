@@ -1,0 +1,79 @@
+{
+  "catalog_index": 91,
+  "catalog_id": "anytask-an-automated-task-and-data-generation-framework-for-advancing-sim-to-real-policy-learning",
+  "title_expected": "AnyTask: An Automated Task and Data Generation Framework for Advancing Sim-to-Real Policy Learning",
+  "source_url": "https://arxiv.org/pdf/2512.17853v2",
+  "pdf_path": "build/sources/anytask-an-automated-task-and-data-generation-framework-for-advancing-sim-to-real-policy-learning.pdf",
+  "pdf_sha256": "511df38af5995725333fbcce983419388c9a747955be1b20bfc52af5ae029741",
+  "pdf_title_observed": "AnyTask: an Automated Task and Data Generation Framework for Advancing Sim-to-Real Policy Learning",
+  "first_page_title_text": "ANYTASK: an Automated Task and Data Generation Framework for\nAdvancing Sim-to-Real Policy Learning\nRan Gong1∗, Xiaohan Zhang1∗, Jinghuan Shang1∗, Maria Vittoria Minniti1∗,\nJigarkumar Patel1, Valerio Pepe1, Riedana Yan1, Ahmet Gundogdu1, Ivan Kapelyukh1, Ali Abbas1,\nXiaoqiang Yan1, Harsh Patel1, Laura Herlant1, Karl Schmeckpeper1\n         Learn AnyTask with these objects.\nPut object in closed drawe",
+  "title_match": true,
+  "version": "2512.17853v2",
+  "page_count": 28,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Fig. 1: ANYTASK is a framework that automates task design and generates data for robot learning. The resulting data enables training visuomotor policies that can be deployed directly onto a physical robot without requiring any real-world data. Abstract— Generalist robot learning remains constrained by data: large-scale, diverse, and high-quality interaction data are expensive to collect in the real world. While simulation has become a promising w",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 2,
+      "caption_excerpt": "Fig. 2: Overview of ANYTASK. We first generate simulated manipulation tasks from an object database and a high-level task (i.e., task type). Then the pipeline automatically proposes task descriptions, generates the simulation code, and efficiently collects data using different agents, including VIPR, VIPR-RL, and VIPR-EUREKA in massively parallel simulation environments. We apply online domain randomization in the simulation to ensure the diversi",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 2. In the sections below, we introduce Object Database, Task Generator, Simulation Generator, and other key infrastructure components. a) Object Database: We build an object database stor- ing objects’ information so that retrieving objects through natural language is possible. The object database is built based on the available assets before task generation. The database encodes objects and object parts for their names, colors, textures, ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 19",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 19. IV. ANYTASK AGENTS This section describes the agents we developed and evalu- ated for ANYTASK. Our guiding principle is to explore how a robot agent can solve as many generated tasks as possible with no human effort. In this work, we study task and motion planning (TAMP) and reinforcement learning (RL), two commonly used teacher policies in manipulation tasks. TAMP is known for handling long-horizon tasks, while RL excels at dexter- ou",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 19",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 19. B. VIPR-EUREKA To generate demonstrations with reinforcement learning, we use an imporved version of Eureka [56] to iteratively refine and sample reward functions proposed by LLM. Mesh-based Contact Sampling: A core component of our approach is a novel contact sampling algorithm. The sampler generates high-quality grasp candidates by first sampling a triangle on the object mesh and applying barycentric interpolation [59] to determine a",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 20",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 20. C. VIPR-RL We want to combine the strengths of both worlds, RL and motion planning, since RL is good with contact-rich tasks, and motion planning is good at free space movement. Several modifications are needed: 1) The code generation now includes trained RL skills with APIs. 2) For each sub- task, we use motion planning to move the gripper to the object parts of interest, which are sampled by the grasp sampler described above, and the",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 3. Fig. 3: ViPR improvement: Using ViPR leads to an average 12.8% improvement in success rate on 301 tasks 2) Is contact sampling useful?: To demonstrate the ef- fectiveness of LLM-guided contact sampling, we perform ablation studies against the vanilla Eureka. As shown in Table V, VIPR-EUREKA significantly outper- forms the standard Eureka. All experiments are run across 30 tasks within the task family, with 3 Eureka iterations and 3 trie",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 3: ViPR improvement: Using ViPR leads to an average 12.8% improvement in success rate on 301 tasks 2) Is contact sampling useful?: To demonstrate the ef- fectiveness of LLM-guided contact sampling, we perform ablation studies against the vanilla Eureka. As shown in Table V, VIPR-EUREKA significantly outper- forms the standard Eureka. All experiments are run across 30 tasks within the task family, with 3 Eureka iterations and 3 tries each. A ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 4: Action replay enables faster data collection, especially on challenging tasks. Agents and the trajectory length (i.e., the number of simu- lation timesteps) required to complete a task. To optimize throughput, we decompose the pipeline into two stages: (1) demonstration recording and (2) trajectory replay. During the first stage, AnyTask agents attempt tasks without rendering, and only simulator states from successful trajectories are sto",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 5: Zero-shot sim-to-real policy evaluations. TABLE VII: Example task descriptions Grasp the strawberry and lift it vertically off the table by about 10 cm, then hold it steady for a few seconds while ensuring the nearby plate remains undisturbed. Pick up the extra large clamp and place it slightly forward (positive x direction) relative to the cup. Push the pear diagonally (forward and left) so that it settles between the racquetball and the",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

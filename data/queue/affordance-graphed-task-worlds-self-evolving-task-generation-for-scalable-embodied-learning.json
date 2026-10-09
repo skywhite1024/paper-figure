@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "affordance-graphed-task-worlds-self-evolving-task-generation-for-scalable-embodied-learning",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.495018Z",
-  "updated_at": "2026-10-09T20:04:59.495018Z",
+  "updated_at": "2026-10-09T20:14:35.828260Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/affordance-graphed-task-worlds-self-evolving-task-generation-for-scalable-embodied-learning.json",
+          "https://arxiv.org/pdf/2602.12065v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/affordance-graphed-task-worlds-self-evolving-task-generation-for-scalable-embodied-learning.json",
+          "sha256": "285a19b35abbc6045cee7e3e875730a6dd7ab7e4dd2444249ab762b28861c5d0"
+        },
+        "version": "2602.12065v2",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "Affordance-Graphed Task Worlds: Self-Evolving Task Generation for Scalable Embodied Learning",
+        "observed_title": "Scene2Demo: Self-Evolving Embodied Data Generation via Object-Action Graph",
+        "source_url": "https://arxiv.org/pdf/2602.12065v2",
+        "source_sha256": "b674fcff9f5ac42c4f950ed94e2f37077468b383b4f77878a59060d4c212475d",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/affordance-graphed-task-worlds-self-evolving-task-generation-for-scalable-embodied-learning.json",
+          "https://arxiv.org/pdf/2602.12065v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/affordance-graphed-task-worlds-self-evolving-task-generation-for-scalable-embodied-learning.json",
+          "sha256": "285a19b35abbc6045cee7e3e875730a6dd7ab7e4dd2444249ab762b28861c5d0"
+        },
+        "version": "2602.12065v2",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/affordance-graphed-task-worlds-self-evolving-task-generation-for-scalable-embodied-learning.pdf",
+          "reported_sha256": "b674fcff9f5ac42c4f950ed94e2f37077468b383b4f77878a59060d4c212475d",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 30,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,109 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.361706Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "92738b529c6c6c8bd0310d932e0206991db59ddb88d85d81ab8df07df034da05",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/affordance-graphed-task-worlds-self-evolving-task-generation-for-scalable-embodied-learning.json",
+                "https://arxiv.org/pdf/2602.12065v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/affordance-graphed-task-worlds-self-evolving-task-generation-for-scalable-embodied-learning.json",
+                "sha256": "285a19b35abbc6045cee7e3e875730a6dd7ab7e4dd2444249ab762b28861c5d0"
+              },
+              "version": "2602.12065v2",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "Affordance-Graphed Task Worlds: Self-Evolving Task Generation for Scalable Embodied Learning",
+              "observed_title": "Scene2Demo: Self-Evolving Embodied Data Generation via Object-Action Graph",
+              "source_url": "https://arxiv.org/pdf/2602.12065v2",
+              "source_sha256": "b674fcff9f5ac42c4f950ed94e2f37077468b383b4f77878a59060d4c212475d",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/affordance-graphed-task-worlds-self-evolving-task-generation-for-scalable-embodied-learning.json",
+                "https://arxiv.org/pdf/2602.12065v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/affordance-graphed-task-worlds-self-evolving-task-generation-for-scalable-embodied-learning.json",
+                "sha256": "285a19b35abbc6045cee7e3e875730a6dd7ab7e4dd2444249ab762b28861c5d0"
+              },
+              "version": "2602.12065v2",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/affordance-graphed-task-worlds-self-evolving-task-generation-for-scalable-embodied-learning.pdf",
+                "reported_sha256": "b674fcff9f5ac42c4f950ed94e2f37077468b383b4f77878a59060d4c212475d",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 30,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:35.828260Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "c38d4d2a97b7fb61b5ec2855c77010eb321080dbcb4b1b914b3d08c809af5a50",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/affordance-graphed-task-worlds-self-evolving-task-generation-for-scalable-embodied-learning.json",
+                "https://arxiv.org/pdf/2602.12065v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/affordance-graphed-task-worlds-self-evolving-task-generation-for-scalable-embodied-learning.json",
+                "sha256": "285a19b35abbc6045cee7e3e875730a6dd7ab7e4dd2444249ab762b28861c5d0"
+              },
+              "version": "2602.12065v2",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "Affordance-Graphed Task Worlds: Self-Evolving Task Generation for Scalable Embodied Learning",
+              "observed_title": "Scene2Demo: Self-Evolving Embodied Data Generation via Object-Action Graph",
+              "source_url": "https://arxiv.org/pdf/2602.12065v2",
+              "source_sha256": "b674fcff9f5ac42c4f950ed94e2f37077468b383b4f77878a59060d4c212475d",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

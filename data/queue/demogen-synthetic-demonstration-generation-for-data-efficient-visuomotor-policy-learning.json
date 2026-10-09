@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "demogen-synthetic-demonstration-generation-for-data-efficient-visuomotor-policy-learning",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.510091Z",
-  "updated_at": "2026-10-09T20:04:59.510091Z",
+  "updated_at": "2026-10-09T20:14:36.053872Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/demogen-synthetic-demonstration-generation-for-data-efficient-visuomotor-policy-learning.json",
+          "https://arxiv.org/pdf/2502.16932v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/demogen-synthetic-demonstration-generation-for-data-efficient-visuomotor-policy-learning.json",
+          "sha256": "34b1522034c9be510b22e6c27825fdd0596a27b8fa8b4e1f715add3cb52bd4f1"
+        },
+        "version": "2502.16932v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "DemoGen: Synthetic Demonstration Generation for Data-Efficient Visuomotor Policy Learning",
+        "observed_title": "DemoGen: Synthetic Demonstration Generation for Data-Efficient Visuomotor Policy Learning",
+        "source_url": "https://arxiv.org/pdf/2502.16932v1",
+        "source_sha256": "310448233ee36cd4d5637725228450194b6d6443e1518007dbc051115b557e83",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/demogen-synthetic-demonstration-generation-for-data-efficient-visuomotor-policy-learning.json",
+          "https://arxiv.org/pdf/2502.16932v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/demogen-synthetic-demonstration-generation-for-data-efficient-visuomotor-policy-learning.json",
+          "sha256": "34b1522034c9be510b22e6c27825fdd0596a27b8fa8b4e1f715add3cb52bd4f1"
+        },
+        "version": "2502.16932v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/demogen-synthetic-demonstration-generation-for-data-efficient-visuomotor-policy-learning.pdf",
+          "reported_sha256": "310448233ee36cd4d5637725228450194b6d6443e1518007dbc051115b557e83",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 18,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.593068Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "5ad7ac231763bbe7a4f8ee45ebfb0cf3fbda2c7aacc39735bcc225207a7a427f",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/demogen-synthetic-demonstration-generation-for-data-efficient-visuomotor-policy-learning.json",
+                "https://arxiv.org/pdf/2502.16932v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/demogen-synthetic-demonstration-generation-for-data-efficient-visuomotor-policy-learning.json",
+                "sha256": "34b1522034c9be510b22e6c27825fdd0596a27b8fa8b4e1f715add3cb52bd4f1"
+              },
+              "version": "2502.16932v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "DemoGen: Synthetic Demonstration Generation for Data-Efficient Visuomotor Policy Learning",
+              "observed_title": "DemoGen: Synthetic Demonstration Generation for Data-Efficient Visuomotor Policy Learning",
+              "source_url": "https://arxiv.org/pdf/2502.16932v1",
+              "source_sha256": "310448233ee36cd4d5637725228450194b6d6443e1518007dbc051115b557e83",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/demogen-synthetic-demonstration-generation-for-data-efficient-visuomotor-policy-learning.json",
+                "https://arxiv.org/pdf/2502.16932v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/demogen-synthetic-demonstration-generation-for-data-efficient-visuomotor-policy-learning.json",
+                "sha256": "34b1522034c9be510b22e6c27825fdd0596a27b8fa8b4e1f715add3cb52bd4f1"
+              },
+              "version": "2502.16932v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/demogen-synthetic-demonstration-generation-for-data-efficient-visuomotor-policy-learning.pdf",
+                "reported_sha256": "310448233ee36cd4d5637725228450194b6d6443e1518007dbc051115b557e83",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 18,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.053872Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "7f7d725b7e0a00adae4e4f5aff9ed103ac02deb79905c09b2b2d7ecc7b2307d1",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/demogen-synthetic-demonstration-generation-for-data-efficient-visuomotor-policy-learning.json",
+                "https://arxiv.org/pdf/2502.16932v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/demogen-synthetic-demonstration-generation-for-data-efficient-visuomotor-policy-learning.json",
+                "sha256": "34b1522034c9be510b22e6c27825fdd0596a27b8fa8b4e1f715add3cb52bd4f1"
+              },
+              "version": "2502.16932v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "DemoGen: Synthetic Demonstration Generation for Data-Efficient Visuomotor Policy Learning",
+              "observed_title": "DemoGen: Synthetic Demonstration Generation for Data-Efficient Visuomotor Policy Learning",
+              "source_url": "https://arxiv.org/pdf/2502.16932v1",
+              "source_sha256": "310448233ee36cd4d5637725228450194b6d6443e1518007dbc051115b557e83",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

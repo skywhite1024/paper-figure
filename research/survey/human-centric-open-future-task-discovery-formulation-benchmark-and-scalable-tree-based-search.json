@@ -1,0 +1,97 @@
+{
+  "catalog_index": 93,
+  "catalog_id": "human-centric-open-future-task-discovery-formulation-benchmark-and-scalable-tree-based-search",
+  "title_expected": "Human-Centric Open-Future Task Discovery: Formulation, Benchmark, and Scalable Tree-Based Search",
+  "source_url": "https://arxiv.org/pdf/2511.18929v3",
+  "pdf_path": "build/sources/human-centric-open-future-task-discovery-formulation-benchmark-and-scalable-tree-based-search.pdf",
+  "pdf_sha256": "bba9f9d358fd8b8b30a7649a0fc056ef9dba0cf2bba6bb69361148d81002dfb0",
+  "pdf_title_observed": "Human-Centric Open-Future Task Discovery: Formulation, Benchmark, and Scalable Tree-Based Search",
+  "first_page_title_text": "Human-Centric Open-Future Task Discovery: Formulation, Benchmark,\nand Scalable Tree-Based Search\nZijian Song1, Xiaoxin Lin1, Tao Pu1, Zhenlong Yuan4, Guangrun Wang1,2,3*, Liang Lin1,2,3\n1Sun Yat-sen University\n2Guangdong Key Laboratory of Big Data Analysis and Processing\n3X-Era AI Lab\n4AMAP, Alibaba\n{songzj8,linxx76}@mail2.sysu.edu.cn, putao537@gmail.com, yuanzhenlong.yzl@alibaba-inc.com\nwanggrun@",
+  "title_match": true,
+  "version": "2511.18929v3",
+  "page_count": 10,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Figure 1: The illustration of HOTD. Driven by an overall goal, humans often engage in concurrent sub-processes, re- sulting in multiple possible future branches. HOTD aims to identify tasks that remain helpful across diverse and uncer- tain futures. For example, as highlighted by the green box, completing wipe the table in advance saves human effort re- gardless of the order of other steps. 2024b; Bharadhwaj et al. 2024). While recent methods fo-",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 2: The process of simulation-based evaluation (upper) & annotation pipeline (lower). The simulator first takes a discovered task ˆyn, a historical action sequence and its associated goal z as input. Then, it simulates the resulting future trajectory A′ z by accounting for the adjusted human actions until the goal. Finally, it summarizes the overall process to estimate the incurred cost L(A′ z, z) and compares it to the original cost L(Az, ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 2. For sequences without robot intervention, it directly simulates the future processes. For sequences with robot intervention, it models human adaptation and reconstructs the complete sequence. The re- sulting trajectory is then used to estimate the incurred costs. A central strength of this approach lies in its generative na- ture, which allows for evaluating not only observed trajec- tories but also any hypothetical future beyond the data",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 3: The overview of the Collaborative Multi-Agent Search Tree framework. It structures the HOTD reasoning with 7 LMM agents and a scalable search tree module. human-centric tasks. Helpful: A human-centric task should complete actions in advance that humans would otherwise have to do themselves. Non-disruptive: A human-centric task should not conflict with the human’s plan. Executable: A human-centric task must be possible to execute given t",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 3. Our key idea is to decom- pose the complex problem by aligning each agent with a spe- cific stage of a search tree, such as initialization, expansion, pruning, and post-processing. This design not only preserves the generalization ability of LMMs but also enables seam- less integration with various LMMs. First, receiving the input video, the Scene Description Agent digests the video and produces a detailed description s = fs(I0:t0), provi",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 4: Human evaluation of the simulator. Columns indicate how many annotators rated each task as helpful, where 0 means all rated it unhelpful and 5 means all rated it helpful. The distribution shows strong agreement between the simulator and human preferences. Figure 5: The ablation studies on the search tree module and the component agents. We show the results given 40 sec of observations in the TSU, eval- uated by simulator (left) and labe",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 5: The ablation studies on the search tree module and the component agents. We show the results given 40 sec of observations in the TSU, eval- uated by simulator (left) and labels (right). CMAST-beam=1 CMAST-beam=2 CMAST-beam=3 CMAST-beam=4 CMAST-main Figure 6: The ablation study on the search strategy in the TSU subset, 40 sec observation length, evaluated by simulation. The ‘Efficiency’ is mea- sured by the average number of ex- pansions",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 6: The ablation study on the search strategy in the TSU subset, 40 sec observation length, evaluated by simulation. The ‘Efficiency’ is mea- sured by the average number of ex- pansions. TSU subset CHA subset Method vc@40 / vr@40 vc@60 / vr@60 vc@20 / vr@20 Qwen2VL-7B 0.82 / 14.1% 0.82 / 13.9% 0.58 / 13.2% InternVL2-8B 0.50 / 16.0% 0.52 / 17.1% 0.89 / 5.3% Video-LLaVA 0.22 / 20.6% 0.22 / 21.5% 0.09 / 9.2% LLaVA-NV-7B 1.51 / 15.0% 1.61 / 15.",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 5. The ‘CMAST- main’ is our main version. The ‘CMAST w/o tree’ removes the entire search tree module, replacing it with an LMM agent that directly predicts future actions. As can be seen from the results, replacing the entire search tree module re- duces the Valid Task Ratio by 37%. This suggests that a sin- gle LMM agent may produce confined prediction paths. On ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 7: Examples of the simulator’s future deduction and helpfulness judgment. Figure 8: Comparisons against human performance. We show the Valid Task Ratio of 10 samples and the average score. The upper row is evaluated by simulation and the lower row is by labels. the contrary, the search tree module addresses it by provid- ing an explicit and structured procedure space, allowing for a thorough examination of different action procedures. Abla",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 8",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 8: Comparisons against human performance. We show the Valid Task Ratio of 10 samples and the average score. The upper row is evaluated by simulation and the lower row is by labels. the contrary, the search tree module addresses it by provid- ing an explicit and structured procedure space, allowing for a thorough examination of different action procedures. Ablation on the Search Strategy. The results in Fig. 6 com- pare different search str",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 5. Comparing the same LMMs used in iso- Final Search Tree turns on the faucet └── wash their hands     └── use a sponge to clean a dish         └── dry their hands              ├─ open the microwave to check if the food              │   ├─ get some water using a glass              │   │   ├─ start the dishwasher              │   │   └─ place the cleaned dish in the cabinet         │   └─ take out a clean plate from the cabinet           │   ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 9",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 9: The visualization of predictions from CMAST and baseline (Wang et al. 2024). The ✓/ ✗column indicates correct/incorrect predictions. More examples can be found in Appendix. lation, the LMMs within our framework improve the Valid Task Ratio by at least 39%. The results confirm that us- ing different component agents consistently enhances our model’s performance, highlighting its ability to seamlessly integrate with various LMMs. Comparin",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

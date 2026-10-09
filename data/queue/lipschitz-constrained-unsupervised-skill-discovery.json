@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "lipschitz-constrained-unsupervised-skill-discovery",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.467515Z",
-  "updated_at": "2026-10-09T20:04:59.467515Z",
+  "updated_at": "2026-10-09T20:14:36.395655Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,237 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/lipschitz-constrained-unsupervised-skill-discovery.json",
+          "https://arxiv.org/pdf/2202.00914v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/lipschitz-constrained-unsupervised-skill-discovery.json",
+          "sha256": "968bf410fe7d18f84e86b66ff389b20183d4d93667bee9b4f5a89a92f40f226b"
+        },
+        "version": "2202.00914v2",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "All 24 PDF pages visually scanned via contact sheet. Figures are skill trajectories, results plots, and robot demonstrations; no architecture/method diagram located. Figure1page2 is demonstration/results, not architecture.",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Lipschitz-Constrained Unsupervised Skill Discovery",
+        "observed_title": "Lipschitz-constrained Unsupervised Skill Discovery",
+        "source_url": "https://arxiv.org/pdf/2202.00914v2",
+        "source_sha256": "faad7805533b400cddd858cfcaccf6646855739e916bb2604508eb143d51e462",
+        "reported_title_match": true,
+        "identity_review_basis": "full_source_visual_scan",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/lipschitz-constrained-unsupervised-skill-discovery.json",
+          "https://arxiv.org/pdf/2202.00914v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/lipschitz-constrained-unsupervised-skill-discovery.json",
+          "sha256": "968bf410fe7d18f84e86b66ff389b20183d4d93667bee9b4f5a89a92f40f226b"
+        },
+        "version": "2202.00914v2",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "All 24 PDF pages visually scanned via contact sheet. Figures are skill trajectories, results plots, and robot demonstrations; no architecture/method diagram located. Figure1page2 is demonstration/results, not architecture.",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/lipschitz-constrained-unsupervised-skill-discovery/original.pdf",
+          "reported_sha256": "faad7805533b400cddd858cfcaccf6646855739e916bb2604508eb143d51e462",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 24,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/lipschitz-constrained-unsupervised-skill-discovery.json",
+          "https://arxiv.org/pdf/2202.00914v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/lipschitz-constrained-unsupervised-skill-discovery.json",
+          "sha256": "968bf410fe7d18f84e86b66ff389b20183d4d93667bee9b4f5a89a92f40f226b"
+        },
+        "version": "2202.00914v2",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "All 24 PDF pages visually scanned via contact sheet. Figures are skill trajectories, results plots, and robot demonstrations; no architecture/method diagram located. Figure1page2 is demonstration/results, not architecture.",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [],
+        "reviewed_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24
+        ],
+        "no_method_figure_reported": true,
+        "visual_scan_coverage": {
+          "pages_scanned_1_based": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24
+          ],
+          "page_count": 24,
+          "contact_sheet_inspected": true,
+          "distinct_numbered_figure_captions_extracted": 19,
+          "figure_caption_inventory": [
+            {
+              "figure": 1,
+              "page_1_based": 2,
+              "caption": "Figure 1: Skills discovered by LSD can be used to follow goals with no further training or planning."
+            },
+            {
+              "figure": 4,
+              "page_1_based": 8,
+              "caption": "Figure 4: Qualitative results of discrete LSD (Section 4.2). We visualize each skill’s trajectories on\nthe x axis (HalfCheetah) or the x-y plane (Ant and Humanoid). See Appendix J for more results."
+            },
+            {
+              "figure": 5,
+              "page_1_based": 8,
+              "caption": "Figure 5: Performance on downstream tasks after skill discovery (Section 4.3)."
+            },
+            {
+              "figure": 6,
+              "page_1_based": 9,
+              "caption": "Figure 6: Comparisons on the Fetch robotic manipulation environments (Section 4.4)."
+            },
+            {
+              "figure": 7,
+              "page_1_based": 14,
+              "caption": "Figure 7: Ablation study on Ant. See Appendix D."
+            },
+            {
+              "figure": 8,
+              "page_1_based": 15,
+              "caption": "Figure 8: Analysis of 2-D continuous skills discovered by LSD for Ant and Humanoid."
+            },
+            {
+              "figure": 9,
+              "page_1_based": 15,
+              "caption": "Figure 9: Analysis of 3-D, 4-D and 5-D continuous skills discovered by LSD for Ant. We plot only\nthe ﬁrst two latent dimensions for the φ(sT ) −φ(s0) ﬁgures, and each color also represents only the\nﬁrst two dimensions."
+            },
+            {
+              "figure": 10,
+              "page_1_based": 16,
+              "caption": "Figure 10: Analysis of discrete skills discovered by LSD for HalfCheetah."
+            },
+            {
+              "figure": 11,
+              "page_1_based": 16,
+              "caption": "Figure 11: Analysis of discrete skills discovered by LSD for Ant."
+            },
+            {
+              "figure": 12,
+              "page_1_based": 17,
+              "caption": "Figure 12: Analysis of discrete skills discovered by LSD for Humanoid."
+            },
+            {
+              "figure": 13,
+              "page_1_based": 17,
+              "caption": "Figure 13: Zoomed-in version of Figure 2. We visualize 2-D (or 5-D) continuous skills discovered\nby various methods by plotting the x-y trajectories of the agent. Each color represents the direction\nof the skill latent variable z. Note that each plot has different axes. This result shows that most of the\nexisting approaches (DIAYN, VISR, APS, DIAYN-XYO, etc.) cannot learn far-reaching locomotion\nskills, as shown in Figure 17."
+            },
+            {
+              "figure": 14,
+              "page_1_based": 18,
+              "caption": "Figure 14: Training curves of LSD, DIAYN and DADS on three non-locomotion downstream tasks\nafter skill discovery."
+            },
+            {
+              "figure": 15,
+              "page_1_based": 18,
+              "caption": "Figure 15: Training curves of LSD and DIAYN on four goal-following downstream tasks after skill\ndiscovery."
+            },
+            {
+              "figure": 16,
+              "page_1_based": 20,
+              "caption": "Figure 16: Average normalized state difference ∥sT −s0∥of skill discovery methods."
+            },
+            {
+              "figure": 17,
+              "page_1_based": 22,
+              "caption": "Figure 17: 2-D continuous skills for Ant. DIAYN discovers posing skills, as its mutual information\nobjective does not necessarily prefer large state variations. On the other hand, LSD encourages the\nagent to have more variations in the state space, resulting in learning more dynamic behaviors such\nas locomotion skills. Videos are available on our project page."
+            },
+            {
+              "figure": 18,
+              "page_1_based": 23,
+              "caption": "Figure 18: 16 discrete skills discovered by LSD for Ant. Discrete LSD learns a skill set consisting\nof locomotion skills (#1, #6, #7, #12, #16), rotation skills (#2, #3, #4, #8, #10, #15), posing skills\n(#5, #9, #14) and ﬂipping skills (#11, #13). Videos are available on our project page."
+            },
+            {
+              "figure": 19,
+              "page_1_based": 23,
+              "caption": "Figure 19: 2-D continuous skills discovered by LSD for Humanoid. The Humanoid robot can walk\nin various directions speciﬁed by z. Videos are available on our project page."
+            },
+            {
+              "figure": 20,
+              "page_1_based": 24,
+              "caption": "Figure 20: 16 discrete skills discovered by LSD for Humanoid. Videos are available on our project\npage."
+            },
+            {
+              "figure": 21,
+              "page_1_based": 24,
+              "caption": "Figure 21: 8 discrete skills discovered by LSD for HalfCheetah. Videos are available on our project\npage."
+            }
+          ]
+        },
+        "scope": "No architecture, block, or algorithm-process diagram located in full source. Photographs, result plots, trajectory maps and experimental visualizations are not silently converted into invented architecture."
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +280,287 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.936191Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "f9eedb036af314b187ab943e55833c4f4f46f88bfb971b4f2d4afdaa2bf18a5a",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/lipschitz-constrained-unsupervised-skill-discovery.json",
+                "https://arxiv.org/pdf/2202.00914v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/lipschitz-constrained-unsupervised-skill-discovery.json",
+                "sha256": "968bf410fe7d18f84e86b66ff389b20183d4d93667bee9b4f5a89a92f40f226b"
+              },
+              "version": "2202.00914v2",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "All 24 PDF pages visually scanned via contact sheet. Figures are skill trajectories, results plots, and robot demonstrations; no architecture/method diagram located. Figure1page2 is demonstration/results, not architecture.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Lipschitz-Constrained Unsupervised Skill Discovery",
+              "observed_title": "Lipschitz-constrained Unsupervised Skill Discovery",
+              "source_url": "https://arxiv.org/pdf/2202.00914v2",
+              "source_sha256": "faad7805533b400cddd858cfcaccf6646855739e916bb2604508eb143d51e462",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/lipschitz-constrained-unsupervised-skill-discovery.json",
+                "https://arxiv.org/pdf/2202.00914v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/lipschitz-constrained-unsupervised-skill-discovery.json",
+                "sha256": "968bf410fe7d18f84e86b66ff389b20183d4d93667bee9b4f5a89a92f40f226b"
+              },
+              "version": "2202.00914v2",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "All 24 PDF pages visually scanned via contact sheet. Figures are skill trajectories, results plots, and robot demonstrations; no architecture/method diagram located. Figure1page2 is demonstration/results, not architecture.",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/lipschitz-constrained-unsupervised-skill-discovery/original.pdf",
+                "reported_sha256": "faad7805533b400cddd858cfcaccf6646855739e916bb2604508eb143d51e462",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 24,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/lipschitz-constrained-unsupervised-skill-discovery.json",
+                "https://arxiv.org/pdf/2202.00914v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/lipschitz-constrained-unsupervised-skill-discovery.json",
+                "sha256": "968bf410fe7d18f84e86b66ff389b20183d4d93667bee9b4f5a89a92f40f226b"
+              },
+              "version": "2202.00914v2",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "All 24 PDF pages visually scanned via contact sheet. Figures are skill trajectories, results plots, and robot demonstrations; no architecture/method diagram located. Figure1page2 is demonstration/results, not architecture.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [],
+              "reviewed_pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17,
+                18,
+                19,
+                20,
+                21,
+                22,
+                23,
+                24
+              ],
+              "no_method_figure_reported": true,
+              "visual_scan_coverage": {
+                "pages_scanned_1_based": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17,
+                  18,
+                  19,
+                  20,
+                  21,
+                  22,
+                  23,
+                  24
+                ],
+                "page_count": 24,
+                "contact_sheet_inspected": true,
+                "distinct_numbered_figure_captions_extracted": 19,
+                "figure_caption_inventory": [
+                  {
+                    "figure": 1,
+                    "page_1_based": 2,
+                    "caption": "Figure 1: Skills discovered by LSD can be used to follow goals with no further training or planning."
+                  },
+                  {
+                    "figure": 4,
+                    "page_1_based": 8,
+                    "caption": "Figure 4: Qualitative results of discrete LSD (Section 4.2). We visualize each skill’s trajectories on\nthe x axis (HalfCheetah) or the x-y plane (Ant and Humanoid). See Appendix J for more results."
+                  },
+                  {
+                    "figure": 5,
+                    "page_1_based": 8,
+                    "caption": "Figure 5: Performance on downstream tasks after skill discovery (Section 4.3)."
+                  },
+                  {
+                    "figure": 6,
+                    "page_1_based": 9,
+                    "caption": "Figure 6: Comparisons on the Fetch robotic manipulation environments (Section 4.4)."
+                  },
+                  {
+                    "figure": 7,
+                    "page_1_based": 14,
+                    "caption": "Figure 7: Ablation study on Ant. See Appendix D."
+                  },
+                  {
+                    "figure": 8,
+                    "page_1_based": 15,
+                    "caption": "Figure 8: Analysis of 2-D continuous skills discovered by LSD for Ant and Humanoid."
+                  },
+                  {
+                    "figure": 9,
+                    "page_1_based": 15,
+                    "caption": "Figure 9: Analysis of 3-D, 4-D and 5-D continuous skills discovered by LSD for Ant. We plot only\nthe ﬁrst two latent dimensions for the φ(sT ) −φ(s0) ﬁgures, and each color also represents only the\nﬁrst two dimensions."
+                  },
+                  {
+                    "figure": 10,
+                    "page_1_based": 16,
+                    "caption": "Figure 10: Analysis of discrete skills discovered by LSD for HalfCheetah."
+                  },
+                  {
+                    "figure": 11,
+                    "page_1_based": 16,
+                    "caption": "Figure 11: Analysis of discrete skills discovered by LSD for Ant."
+                  },
+                  {
+                    "figure": 12,
+                    "page_1_based": 17,
+                    "caption": "Figure 12: Analysis of discrete skills discovered by LSD for Humanoid."
+                  },
+                  {
+                    "figure": 13,
+                    "page_1_based": 17,
+                    "caption": "Figure 13: Zoomed-in version of Figure 2. We visualize 2-D (or 5-D) continuous skills discovered\nby various methods by plotting the x-y trajectories of the agent. Each color represents the direction\nof the skill latent variable z. Note that each plot has different axes. This result shows that most of the\nexisting approaches (DIAYN, VISR, APS, DIAYN-XYO, etc.) cannot learn far-reaching locomotion\nskills, as shown in Figure 17."
+                  },
+                  {
+                    "figure": 14,
+                    "page_1_based": 18,
+                    "caption": "Figure 14: Training curves of LSD, DIAYN and DADS on three non-locomotion downstream tasks\nafter skill discovery."
+                  },
+                  {
+                    "figure": 15,
+                    "page_1_based": 18,
+                    "caption": "Figure 15: Training curves of LSD and DIAYN on four goal-following downstream tasks after skill\ndiscovery."
+                  },
+                  {
+                    "figure": 16,
+                    "page_1_based": 20,
+                    "caption": "Figure 16: Average normalized state difference ∥sT −s0∥of skill discovery methods."
+                  },
+                  {
+                    "figure": 17,
+                    "page_1_based": 22,
+                    "caption": "Figure 17: 2-D continuous skills for Ant. DIAYN discovers posing skills, as its mutual information\nobjective does not necessarily prefer large state variations. On the other hand, LSD encourages the\nagent to have more variations in the state space, resulting in learning more dynamic behaviors such\nas locomotion skills. Videos are available on our project page."
+                  },
+                  {
+                    "figure": 18,
+                    "page_1_based": 23,
+                    "caption": "Figure 18: 16 discrete skills discovered by LSD for Ant. Discrete LSD learns a skill set consisting\nof locomotion skills (#1, #6, #7, #12, #16), rotation skills (#2, #3, #4, #8, #10, #15), posing skills\n(#5, #9, #14) and ﬂipping skills (#11, #13). Videos are available on our project page."
+                  },
+                  {
+                    "figure": 19,
+                    "page_1_based": 23,
+                    "caption": "Figure 19: 2-D continuous skills discovered by LSD for Humanoid. The Humanoid robot can walk\nin various directions speciﬁed by z. Videos are available on our project page."
+                  },
+                  {
+                    "figure": 20,
+                    "page_1_based": 24,
+                    "caption": "Figure 20: 16 discrete skills discovered by LSD for Humanoid. Videos are available on our project\npage."
+                  },
+                  {
+                    "figure": 21,
+                    "page_1_based": 24,
+                    "caption": "Figure 21: 8 discrete skills discovered by LSD for HalfCheetah. Videos are available on our project\npage."
+                  }
+                ]
+              },
+              "scope": "No architecture, block, or algorithm-process diagram located in full source. Photographs, result plots, trajectory maps and experimental visualizations are not silently converted into invented architecture."
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.395655Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "acf5f408bca694b5804361e6ff42a47a552c3781d457d67b673982610d391dad",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/lipschitz-constrained-unsupervised-skill-discovery.json",
+                "https://arxiv.org/pdf/2202.00914v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/lipschitz-constrained-unsupervised-skill-discovery.json",
+                "sha256": "968bf410fe7d18f84e86b66ff389b20183d4d93667bee9b4f5a89a92f40f226b"
+              },
+              "version": "2202.00914v2",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "All 24 PDF pages visually scanned via contact sheet. Figures are skill trajectories, results plots, and robot demonstrations; no architecture/method diagram located. Figure1page2 is demonstration/results, not architecture.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Lipschitz-Constrained Unsupervised Skill Discovery",
+              "observed_title": "Lipschitz-constrained Unsupervised Skill Discovery",
+              "source_url": "https://arxiv.org/pdf/2202.00914v2",
+              "source_sha256": "faad7805533b400cddd858cfcaccf6646855739e916bb2604508eb143d51e462",
+              "reported_title_match": true,
+              "identity_review_basis": "full_source_visual_scan",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

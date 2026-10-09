@@ -1,0 +1,43 @@
+{
+  "catalog_index": 89,
+  "catalog_id": "automatic-cognitive-task-generation-for-in-situ-evaluation-of-embodied-agents",
+  "title_expected": "Automatic Cognitive Task Generation for In-Situ Evaluation of Embodied Agents",
+  "source_url": "https://arxiv.org/pdf/2602.05249v1",
+  "pdf_path": "build/sources/automatic-cognitive-task-generation-for-in-situ-evaluation-of-embodied-agents.pdf",
+  "pdf_sha256": "5ce5e9d22cc3bb50b1119408d319cf6b5cf2107e824579f33d542f7db9609747",
+  "pdf_title_observed": "Automatic Cognitive Task Generation for In-Situ Evaluation of Embodied Agents",
+  "first_page_title_text": "Automatic Cognitive Task Generation for In-Situ Evaluation of Embodied Agents\nXinyi He1,2, Ying Yang2, Chuanjian Fu2, Sihan Guo1, Songchun Zhu1,2, Lifeng Fan2, Zhenliang Zhang2 &\nYujia Peng1,2\n1Peking University\n2State Key Laboratory of General Artificial Intelligence, BIGAI, Beijing, China\nAbstract\nAs general intelligent agents are poised for widespread de-\nployment in diverse households, evaluat",
+  "title_match": true,
+  "version": "2602.05249v1",
+  "page_count": 8,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1: Overview of two-stage dynamic task generation system and task examples. (a) Samples of UE and real-world scenes, and data returned by the UE simulator. (b) Agent–Environment Interaction (left): The agent executes tasks, collects data, and generates new tasks based on recorded data. A task filter selects a subset of tasks for the next iteration, while an 𝜖-randomwalk ensures diversity. Task Evolution (right): The task recombination and r",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 2: Task evolution visualization: solid arrows represent generating tasks through interaction during the execution of initial tasks, while dashed arrows represent evolving tasks based on existing tasks. For task evolution, blue triangular structures depict the reuse structure between tasks while the red dashed triangular illustrates task recombination which exchange nodes with different attributes (underlined words represent the added eleme",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 3: A Taxonomy of Tasks. Tasks are organized by dimension (2D image vs. 3D physical space) and cognitive load (from perception to reasoning and decision-making). Table 2: Spatial statistics of embodied task instances across 𝝉and 𝝉′, including the enclosing-space volume (𝑉all in m3), per-axis range/standard deviation (Δ/𝜎in m), mean±std of instance volumes ( ¯𝑉inst in m3), and object count (𝑁obj). metrics 𝝉 𝝉′ 1 𝝉′ 2 ··· 𝑉all 744.84 744.84 7",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 4: Comparison of MIR across four VLMs and 10 different scenes. Each point represents one scene and bars show the average MIR over ten scenes. Our methods consistently improve task diversity (t-tests: ∗∗𝑝< 0.01, ∗∗∗𝑝< 0.001). Table 3: Comparison of accuracy and mIoU across models (Achiam et al., 2023; Team et al., 2023; Touvron et al., 2023). The highest result per task is bolded, the second highest is underlined, and the lowest is grayed o",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "cic-contrastive-intrinsic-control-for-unsupervised-skill-discovery",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.467171Z",
-  "updated_at": "2026-10-09T20:04:59.467171Z",
+  "updated_at": "2026-10-09T20:14:35.992676Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,103 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/cic-contrastive-intrinsic-control-for-unsupervised-skill-discovery.json",
+          "https://arxiv.org/pdf/2202.00161v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/cic-contrastive-intrinsic-control-for-unsupervised-skill-discovery.json",
+          "sha256": "b6813eaacf2e80d8affa0ea4722acc072374b4a68cbfc863c1151c12b742e69e"
+        },
+        "version": "2202.00161v3",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "CIC: Contrastive Intrinsic Control for Unsupervised Skill Discovery",
+        "observed_title": "CIC: Contrastive Intrinsic Control for Unsupervised Skill Discovery",
+        "source_url": "https://arxiv.org/pdf/2202.00161v3",
+        "source_sha256": "01c118cb18c18693dc033735eae3152cf27d515263c2429b009f5532937fd236",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/cic-contrastive-intrinsic-control-for-unsupervised-skill-discovery.json",
+          "https://arxiv.org/pdf/2202.00161v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/cic-contrastive-intrinsic-control-for-unsupervised-skill-discovery.json",
+          "sha256": "b6813eaacf2e80d8affa0ea4722acc072374b4a68cbfc863c1151c12b742e69e"
+        },
+        "version": "2202.00161v3",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/cic-contrastive-intrinsic-control-for-unsupervised-skill-discovery/original.pdf",
+          "reported_sha256": "01c118cb18c18693dc033735eae3152cf27d515263c2429b009f5532937fd236",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 17,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/cic-contrastive-intrinsic-control-for-unsupervised-skill-discovery.json",
+          "https://arxiv.org/pdf/2202.00161v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/cic-contrastive-intrinsic-control-for-unsupervised-skill-discovery.json",
+          "sha256": "b6813eaacf2e80d8affa0ea4722acc072374b4a68cbfc863c1151c12b742e69e"
+        },
+        "version": "2202.00161v3",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 3",
+            "page_1_based": 3,
+            "caption": "Figure 3. Architecture illustrating the practical implementation of CIC . During a gradient update step, random τ = (s, s′) tuples are\nsampled from the replay buffer, then a particle estimator is used to compute the entropy and a noise contrastive loss to compute the\nconditional entropy. The contrastive loss is backpropagated through the entire architecture. The entropy and contrastive terms are then\nscaled and added to form the intrinsic reward. The RL agent is optimized with a DDPG (Lillicrap et al., 2016).",
+            "crop_pdf_points": [
+              104,
+              68,
+              493,
+              199
+            ],
+            "vector_paths": 50,
+            "native_text_spans": 10,
+            "raster_images": 10,
+            "source_type": "vector/text with embedded raster components",
+            "visually_inspected": true,
+            "notes": "Three horizontal rounded panels: replay buffer, intrinsic reward with particle/k-NN entropy estimator, representation learning with query/key embedding branches and noise contrastive loss."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +146,153 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.529136Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "6d2d8762172cc86a6bd886f524fabf34ff0049a3b06b2fb37eb265d286afb5ee",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/cic-contrastive-intrinsic-control-for-unsupervised-skill-discovery.json",
+                "https://arxiv.org/pdf/2202.00161v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/cic-contrastive-intrinsic-control-for-unsupervised-skill-discovery.json",
+                "sha256": "b6813eaacf2e80d8affa0ea4722acc072374b4a68cbfc863c1151c12b742e69e"
+              },
+              "version": "2202.00161v3",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "CIC: Contrastive Intrinsic Control for Unsupervised Skill Discovery",
+              "observed_title": "CIC: Contrastive Intrinsic Control for Unsupervised Skill Discovery",
+              "source_url": "https://arxiv.org/pdf/2202.00161v3",
+              "source_sha256": "01c118cb18c18693dc033735eae3152cf27d515263c2429b009f5532937fd236",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/cic-contrastive-intrinsic-control-for-unsupervised-skill-discovery.json",
+                "https://arxiv.org/pdf/2202.00161v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/cic-contrastive-intrinsic-control-for-unsupervised-skill-discovery.json",
+                "sha256": "b6813eaacf2e80d8affa0ea4722acc072374b4a68cbfc863c1151c12b742e69e"
+              },
+              "version": "2202.00161v3",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/cic-contrastive-intrinsic-control-for-unsupervised-skill-discovery/original.pdf",
+                "reported_sha256": "01c118cb18c18693dc033735eae3152cf27d515263c2429b009f5532937fd236",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 17,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/cic-contrastive-intrinsic-control-for-unsupervised-skill-discovery.json",
+                "https://arxiv.org/pdf/2202.00161v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/cic-contrastive-intrinsic-control-for-unsupervised-skill-discovery.json",
+                "sha256": "b6813eaacf2e80d8affa0ea4722acc072374b4a68cbfc863c1151c12b742e69e"
+              },
+              "version": "2202.00161v3",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 3",
+                  "page_1_based": 3,
+                  "caption": "Figure 3. Architecture illustrating the practical implementation of CIC . During a gradient update step, random τ = (s, s′) tuples are\nsampled from the replay buffer, then a particle estimator is used to compute the entropy and a noise contrastive loss to compute the\nconditional entropy. The contrastive loss is backpropagated through the entire architecture. The entropy and contrastive terms are then\nscaled and added to form the intrinsic reward. The RL agent is optimized with a DDPG (Lillicrap et al., 2016).",
+                  "crop_pdf_points": [
+                    104,
+                    68,
+                    493,
+                    199
+                  ],
+                  "vector_paths": 50,
+                  "native_text_spans": 10,
+                  "raster_images": 10,
+                  "source_type": "vector/text with embedded raster components",
+                  "visually_inspected": true,
+                  "notes": "Three horizontal rounded panels: replay buffer, intrinsic reward with particle/k-NN entropy estimator, representation learning with query/key embedding branches and noise contrastive loss."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:35.992676Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "2ae0b235b5cf56c8626e910732b93148c18cb35f3a7b5936c8ce891bbd581ad4",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/cic-contrastive-intrinsic-control-for-unsupervised-skill-discovery.json",
+                "https://arxiv.org/pdf/2202.00161v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/cic-contrastive-intrinsic-control-for-unsupervised-skill-discovery.json",
+                "sha256": "b6813eaacf2e80d8affa0ea4722acc072374b4a68cbfc863c1151c12b742e69e"
+              },
+              "version": "2202.00161v3",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "CIC: Contrastive Intrinsic Control for Unsupervised Skill Discovery",
+              "observed_title": "CIC: Contrastive Intrinsic Control for Unsupervised Skill Discovery",
+              "source_url": "https://arxiv.org/pdf/2202.00161v3",
+              "source_sha256": "01c118cb18c18693dc033735eae3152cf27d515263c2429b009f5532937fd236",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

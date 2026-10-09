@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.488926Z",
-  "updated_at": "2026-10-09T20:04:59.488926Z",
+  "updated_at": "2026-10-09T20:14:35.986462Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,102 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation.json",
+          "https://arxiv.org/pdf/2109.13841v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation.json",
+          "sha256": "949bfdebdefc2f2e3706b7a04f01d8f927de83cd24f0a5b2877d32228ea06e27"
+        },
+        "version": "2109.13841v2",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Bottom-Up Skill Discovery from Unsegmented Demonstrations for Long-Horizon Robot Manipulation",
+        "observed_title": "Bottom-Up Skill Discovery from Unsegmented Demonstrations for Long-Horizon Robot Manipulation",
+        "source_url": "https://arxiv.org/pdf/2109.13841v2",
+        "source_sha256": "150e1c5f5b01487b60519080ddf0cdcb1a888879caf4c3d267bb6f7275d28ead",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation.json",
+          "https://arxiv.org/pdf/2109.13841v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation.json",
+          "sha256": "949bfdebdefc2f2e3706b7a04f01d8f927de83cd24f0a5b2877d32228ea06e27"
+        },
+        "version": "2109.13841v2",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation.pdf",
+          "reported_sha256": "150e1c5f5b01487b60519080ddf0cdcb1a888879caf4c3d267bb6f7275d28ead",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 9,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation.json",
+          "https://arxiv.org/pdf/2109.13841v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation.json",
+          "sha256": "949bfdebdefc2f2e3706b7a04f01d8f927de83cd24f0a5b2877d32228ea06e27"
+        },
+        "version": "2109.13841v2",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 4,
+            "caption": "Overview of the hierarchical policy.",
+            "crop_pdf_points": [
+              98,
+              61,
+              510,
+              182
+            ],
+            "vector_paths": 90,
+            "native_text_spans": 66,
+            "raster_images": 3,
+            "visually_inspected": true,
+            "notes": "BUDS ResNet18/cVAE meta-controller and sensorimotor skill network with observed RGB/proprioception and robot command."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +145,180 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.523375Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "f6af05a52f99e3916062c213725f66b987c3f690ae8d4096a420419987b64dca",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation.json",
+                "https://arxiv.org/pdf/2109.13841v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation.json",
+                "sha256": "5294d1349da064b7f7a92064f379a09240fa361e190b8b3d92e8d566d1c7c2ee"
+              },
+              "version": "2109.13841v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Bottom-Up Skill Discovery from Unsegmented Demonstrations for Long-Horizon Robot Manipulation",
+              "observed_title": "Bottom-Up Skill Discovery from Unsegmented Demonstrations for Long-Horizon Robot Manipulation",
+              "source_url": "https://arxiv.org/pdf/2109.13841v2",
+              "source_sha256": "150e1c5f5b01487b60519080ddf0cdcb1a888879caf4c3d267bb6f7275d28ead",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation.json",
+                "https://arxiv.org/pdf/2109.13841v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation.json",
+                "sha256": "5294d1349da064b7f7a92064f379a09240fa361e190b8b3d92e8d566d1c7c2ee"
+              },
+              "version": "2109.13841v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation.pdf",
+                "reported_sha256": "150e1c5f5b01487b60519080ddf0cdcb1a888879caf4c3d267bb6f7275d28ead",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 9,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:35.986462Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "747d343662848e2daa6f173d44d0c37382c4cf3c3d16665ac33712319d1f6977",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation.json",
+                "https://arxiv.org/pdf/2109.13841v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation.json",
+                "sha256": "949bfdebdefc2f2e3706b7a04f01d8f927de83cd24f0a5b2877d32228ea06e27"
+              },
+              "version": "2109.13841v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Bottom-Up Skill Discovery from Unsegmented Demonstrations for Long-Horizon Robot Manipulation",
+              "observed_title": "Bottom-Up Skill Discovery from Unsegmented Demonstrations for Long-Horizon Robot Manipulation",
+              "source_url": "https://arxiv.org/pdf/2109.13841v2",
+              "source_sha256": "150e1c5f5b01487b60519080ddf0cdcb1a888879caf4c3d267bb6f7275d28ead",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation.json",
+                "https://arxiv.org/pdf/2109.13841v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation.json",
+                "sha256": "949bfdebdefc2f2e3706b7a04f01d8f927de83cd24f0a5b2877d32228ea06e27"
+              },
+              "version": "2109.13841v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation.pdf",
+                "reported_sha256": "150e1c5f5b01487b60519080ddf0cdcb1a888879caf4c3d267bb6f7275d28ead",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 9,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation.json",
+                "https://arxiv.org/pdf/2109.13841v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation.json",
+                "sha256": "949bfdebdefc2f2e3706b7a04f01d8f927de83cd24f0a5b2877d32228ea06e27"
+              },
+              "version": "2109.13841v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 4,
+                  "caption": "Overview of the hierarchical policy.",
+                  "crop_pdf_points": [
+                    98,
+                    61,
+                    510,
+                    182
+                  ],
+                  "vector_paths": 90,
+                  "native_text_spans": 66,
+                  "raster_images": 3,
+                  "visually_inspected": true,
+                  "notes": "BUDS ResNet18/cVAE meta-controller and sensorimotor skill network with observed RGB/proprioception and robot command."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        }
+      }
     }
   ]
 }

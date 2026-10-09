@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "dynamics-aware-unsupervised-discovery-of-skills",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.472195Z",
-  "updated_at": "2026-10-09T20:04:59.472195Z",
+  "updated_at": "2026-10-09T20:14:36.143968Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,103 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/dynamics-aware-unsupervised-discovery-of-skills.json",
+          "https://arxiv.org/pdf/1907.01657v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/dynamics-aware-unsupervised-discovery-of-skills.json",
+          "sha256": "85e7518ad07491b47546ffdbe2fe62c080555edad2dbc5fd32cf9107402c4ccf"
+        },
+        "version": "1907.01657v2",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Dynamics-Aware Unsupervised Discovery of Skills",
+        "observed_title": "Dynamics-Aware Unsupervised Discovery of Skills",
+        "source_url": "https://arxiv.org/pdf/1907.01657v2",
+        "source_sha256": "e13faab20c899f5e49fba9593f62837fc028e16b8787850ed3b1a473e3bd7bb9",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/dynamics-aware-unsupervised-discovery-of-skills.json",
+          "https://arxiv.org/pdf/1907.01657v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/dynamics-aware-unsupervised-discovery-of-skills.json",
+          "sha256": "85e7518ad07491b47546ffdbe2fe62c080555edad2dbc5fd32cf9107402c4ccf"
+        },
+        "version": "1907.01657v2",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/dynamics-aware-unsupervised-discovery-of-skills/original.pdf",
+          "reported_sha256": "e13faab20c899f5e49fba9593f62837fc028e16b8787850ed3b1a473e3bd7bb9",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 21,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/dynamics-aware-unsupervised-discovery-of-skills.json",
+          "https://arxiv.org/pdf/1907.01657v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/dynamics-aware-unsupervised-discovery-of-skills.json",
+          "sha256": "85e7518ad07491b47546ffdbe2fe62c080555edad2dbc5fd32cf9107402c4ccf"
+        },
+        "version": "1907.01657v2",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 3,
+            "caption": "Figure 2: The agent π interacts with the environment to produce a transition s →s′. Intrinsic reward is\ncomputed by computing the transition probability under q for the current skill z, compared to random samples\nfrom the prior p(z). The agent maximizes the intrinsic reward computed for a batch of episodes, while q\nmaximizes the log-probability of the actual transitions of (s, z) →s′.",
+            "crop_pdf_points": [
+              124,
+              147,
+              305,
+              302
+            ],
+            "vector_paths": 0,
+            "native_text_spans": 0,
+            "raster_images": 1,
+            "source_type": "raster",
+            "visually_inspected": true,
+            "notes": "DADS skill-dynamics/agent/environment signal flow and intrinsic-reward ratio. Adjacent Algorithm1 at right is separately numbered; crop selects the actual left graphical diagram only."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +146,153 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.686285Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "8f594aad33490503b7316ab547fffc1f06646e9fa65e0ebfa3d242777c1f7e8c",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/dynamics-aware-unsupervised-discovery-of-skills.json",
+                "https://arxiv.org/pdf/1907.01657v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/dynamics-aware-unsupervised-discovery-of-skills.json",
+                "sha256": "85e7518ad07491b47546ffdbe2fe62c080555edad2dbc5fd32cf9107402c4ccf"
+              },
+              "version": "1907.01657v2",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Dynamics-Aware Unsupervised Discovery of Skills",
+              "observed_title": "Dynamics-Aware Unsupervised Discovery of Skills",
+              "source_url": "https://arxiv.org/pdf/1907.01657v2",
+              "source_sha256": "e13faab20c899f5e49fba9593f62837fc028e16b8787850ed3b1a473e3bd7bb9",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/dynamics-aware-unsupervised-discovery-of-skills.json",
+                "https://arxiv.org/pdf/1907.01657v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/dynamics-aware-unsupervised-discovery-of-skills.json",
+                "sha256": "85e7518ad07491b47546ffdbe2fe62c080555edad2dbc5fd32cf9107402c4ccf"
+              },
+              "version": "1907.01657v2",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/dynamics-aware-unsupervised-discovery-of-skills/original.pdf",
+                "reported_sha256": "e13faab20c899f5e49fba9593f62837fc028e16b8787850ed3b1a473e3bd7bb9",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 21,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/dynamics-aware-unsupervised-discovery-of-skills.json",
+                "https://arxiv.org/pdf/1907.01657v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/dynamics-aware-unsupervised-discovery-of-skills.json",
+                "sha256": "85e7518ad07491b47546ffdbe2fe62c080555edad2dbc5fd32cf9107402c4ccf"
+              },
+              "version": "1907.01657v2",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 3,
+                  "caption": "Figure 2: The agent π interacts with the environment to produce a transition s →s′. Intrinsic reward is\ncomputed by computing the transition probability under q for the current skill z, compared to random samples\nfrom the prior p(z). The agent maximizes the intrinsic reward computed for a batch of episodes, while q\nmaximizes the log-probability of the actual transitions of (s, z) →s′.",
+                  "crop_pdf_points": [
+                    124,
+                    147,
+                    305,
+                    302
+                  ],
+                  "vector_paths": 0,
+                  "native_text_spans": 0,
+                  "raster_images": 1,
+                  "source_type": "raster",
+                  "visually_inspected": true,
+                  "notes": "DADS skill-dynamics/agent/environment signal flow and intrinsic-reward ratio. Adjacent Algorithm1 at right is separately numbered; crop selects the actual left graphical diagram only."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.143968Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "d3798d1d3e8c558af1c3bfa95fda5b3fad1ce9f559946195f7ad1e363b5c2282",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/dynamics-aware-unsupervised-discovery-of-skills.json",
+                "https://arxiv.org/pdf/1907.01657v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/dynamics-aware-unsupervised-discovery-of-skills.json",
+                "sha256": "85e7518ad07491b47546ffdbe2fe62c080555edad2dbc5fd32cf9107402c4ccf"
+              },
+              "version": "1907.01657v2",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Dynamics-Aware Unsupervised Discovery of Skills",
+              "observed_title": "Dynamics-Aware Unsupervised Discovery of Skills",
+              "source_url": "https://arxiv.org/pdf/1907.01657v2",
+              "source_sha256": "e13faab20c899f5e49fba9593f62837fc028e16b8787850ed3b1a473e3bd7bb9",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

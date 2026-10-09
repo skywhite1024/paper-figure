@@ -18,10 +18,10 @@
       "page_1_based": 5,
       "caption": "Figure 1: Representation of a part of the tree of skills with |V | = 2 and the value of tree-policy in each node. White nodes\nare actual leaves of the tree; the discriminator is inactive. Yellow nodes represent nodes for which the discriminator can\nnot differentiate its sub-skills; the tree-policy samples uniformly. Nodes are blue when the discriminator can distinguish its\nsub-skills; the tree-policy samples using Q-values.",
       "crop_pdf_points": [
-        181,
+        167,
         74,
         426,
-        159
+        161
       ],
       "vector_paths": 151,
       "native_text_spans": 69,
@@ -35,5 +35,10 @@
   "version_evidence": "Version identifier printed in first-page PDF margin",
   "versioned_pdf_url": "https://arxiv.org/pdf/2006.12903v1",
   "inspected_at": "2026-10-09",
-  "visual_evidence_cache": "/tmp/paper-figure-survey/29-p5.png"
+  "visual_evidence_cache": "/tmp/paper-figure-survey/29-p5.png",
+  "conversion_candidate": {
+    "scene": "data/diagrams/elsim/elsim-figure-1.json",
+    "package": "build/candidates/elsim",
+    "status": "source_comparison_reviewed_pending_independent_export_qa"
+  }
 }

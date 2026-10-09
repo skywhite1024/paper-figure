@@ -1,0 +1,43 @@
+{
+  "catalog_index": 133,
+  "catalog_id": "the-option-keyboard-combining-skills-in-reinforcement-learning",
+  "title_expected": "The Option Keyboard: Combining Skills in Reinforcement Learning",
+  "source_url": "https://arxiv.org/pdf/2106.13105v1",
+  "pdf_path": "build/sources/the-option-keyboard-combining-skills-in-reinforcement-learning.pdf",
+  "pdf_sha256": "fc226db65fd00e0006ec0ae5f60c524a4d95857e155856485c2b7c013eb19f97",
+  "pdf_title_observed": "The Option Keyboard: Combining Skills in Reinforcement Learning",
+  "first_page_title_text": "The Option Keyboard\nCombining Skills in Reinforcement Learning\nAndré Barreto, Diana Borsa, Shaobo Hou, Gheorghe Comanici, Eser Aygün,\nPhilippe Hamel, Daniel Toyama, Jonathan Hunt, Shibl Mourad, David Silver, Doina Precup\n{andrebarreto,borsa,shaobohou,gcomanici,eser}@google.com\n{hamelphi,kenjitoyama,jjhunt,shibl,davidsilver,doinap}@google.com\nDeepMind\nAbstract\nThe ability to combine known skills to",
+  "title_match": true,
+  "version": "2106.13105v1",
+  "page_count": 23,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 1: OK mediates the interaction between player and environment. The exchange of information between OK and the environment happens at every time step. The interaction between player and OK only happens “inside” the agent when the termination action τ is se- lected by GPE and GPI (see Algorithms 1 and 2). Given a set of extended cumulants E, in order to be able to combine the asso- ciated options using GPE and GPI one only needs the value fu",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 2: Results on the foraging world. The two plots correspond to different conﬁgurations of the environment (see Appendix C.1). Shaded regions are one standard deviation over 10 runs. ability to combine options in cumulant space makes it possible to synthesise useful behaviour from a given set of options even when they are not useful in isolation. 5.2 Moving-target arena As the name suggests, in the moving-target arena the goal is to get to a",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 3: Left: Results on the moving-target arena. All players used the same keyboard, so they share the same OK training phase. Shaded regions are one standard deviation over 10 runs. Right: Histogram of options used by OK to implement directions w. Black lines are the three basic options. these reference points combined options become crucial. This shows how the ability to combine skills can extend the range of behaviours available to an agent",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 4: Left: Comparison of GPE and GPI with AVC on the moving-target arena. Results were obtained by a DPG player using a standard OK and an entropy-regularised counterpart (ENT-OK). We trained several ENT-OK with different regularisation parameters and picked the one leading to the best AVC performance. The same player and keyboards were used for both methods. Shaded regions are one standard deviation over 10 runs. Right: Polar scatter chart ",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

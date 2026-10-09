@@ -1,0 +1,55 @@
+{
+  "catalog_index": 87,
+  "catalog_id": "fate-closed-loop-feasibility-aware-task-generation-with-active-repair-for-physically-grounded-robotic-curricula",
+  "title_expected": "FATE: Closed-Loop Feasibility-Aware Task Generation with Active Repair for Physically Grounded Robotic Curricula",
+  "source_url": "https://arxiv.org/pdf/2603.01505v1",
+  "pdf_path": "build/sources/fate-closed-loop-feasibility-aware-task-generation-with-active-repair-for-physically-grounded-robotic-curricula.pdf",
+  "pdf_sha256": "daedae07f7fbff82cb003d72d8c74e819ce774c10c6ecebcfb7e465176459188",
+  "pdf_title_observed": "FATE: Closed-Loop Feasibility-Aware Task Generation with Active Repair for Physically Grounded Robotic Curricula",
+  "first_page_title_text": "FATE: Closed-Loop Feasibility-Aware Task Generation\nwith Active Repair for Physically Grounded Robotic Curricula\nBingchuan Wei * 1 Bingqi Huang * 1 Jingheng Ma 2 Zeyu Zhang 3 Sen Cui 4\nAbstract\nRecent breakthroughs in generative simulation\nhave harnessed Large Language Models (LLMs)\nto generate diverse robotic task curricula, yet\nthese open-loop paradigms frequently produce\nlinguistically coherent",
+  "title_match": true,
+  "version": "2603.01505v1",
+  "page_count": 16,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Figure 1: static hallucinations (geometric/semantic vio- lations) and dynamic divergences (runtime kinematic or interaction failures). We advance FATE (Feasibility-Aware Task gEneration), brain-in-the-loop framework for hierarchical feasibility alignment with a decoupled strategy: first projecting pro- posals onto a statically valid manifold, then refining the task via in-execution feedback. Specifically, first, a static alignment operator rectif",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1. FATE aligns task feasibility across static and dynamic dimensions. (Left) Static Alignment: The system corrects initial scene priors by resolving semantic violations (e.g., replacing raw eggs), geometric chaos, and precondition conflicts. (Right) Dynamic Alignment: FATE addresses runtime execution failures, such as high-torque grasps, unreachable targets, and collisions, through iterative rollback mechanisms. Red highlights indicate ini",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 2. Visualization of the Hierarchical Feasibility Alignment Process. The optimization trajectory evolves in the joint task space τ = (I, S, Π). (Left) Static Alignment (Aperc): The Ante- Auditor corrects Scene (S) and Instruction (I) incompatibilities via discrete repairs (e.g., RESCALE), projecting τinit onto the per- ceptually valid manifold. (Right) Dynamic Alignment (Aexec): Targeting the Policy (Π), the system refines the solver config",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 3. Evolutionary Trajectory of the ”Heat Food” Task. Starting from a chaotic initialization (τinit), FATE applies Static Repair to rearrange objects and correct affordances (swapping an egg for a meal). During execution, the system autonomously detects and repairs dynamic failures: a grasp failure is resolved via Motion Re-planning, and an insertion collision is fixed via Asset Resizing. The gray curved arrows illustrate our Sub-step Rollba",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 1",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 1. To quantify this reliability, we measure Auditor Efficacy using the F1-score against a human-labeled ground truth dataset. This metric directly captures the discriminator’s accuracy in identifying these diverse failure types while minimizing false positives. Results. Table 3 confirms the Embodied Brain as a high-precision filter. The Ante-Auditor achieves F1-scores of 0.95 (Semantic) and 0.86 (Geomet- ric), effectively pruning static ha",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 4. Task-Wise Success Rate Analysis. We evaluate per- formance across five tasks to disentangle the contributions of the alignment operators. The Static Alignment (Aperc) module excels in geometry-sensitive tasks (e.g., Ingredient into Pot), while the Dynamic Alignment (Aexec) module is critical for contact-rich tasks (e.g., Sliding Window). FATE (Green) combines both to achieve robust performance. 6. Conclusion and Discussion In this work,",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "bayesian-nonparametrics-for-offline-skill-discovery",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.488531Z",
-  "updated_at": "2026-10-09T20:04:59.488531Z",
+  "updated_at": "2026-10-09T20:14:35.962652Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,101 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/bayesian-nonparametrics-for-offline-skill-discovery.json",
+          "https://arxiv.org/pdf/2202.04675v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/bayesian-nonparametrics-for-offline-skill-discovery.json",
+          "sha256": "072f27779972311c15f709f940d99d47701f93cc443927ec0b5a8caa6852020b"
+        },
+        "version": "2202.04675v3",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "Bayesian Nonparametrics for Offline Skill Discovery",
+        "observed_title": "Bayesian Nonparametrics for Offline Skill Discovery",
+        "source_url": "https://arxiv.org/pdf/2202.04675v3",
+        "source_sha256": "90d62fe6d521dd25da850e0ef605f2581fa68eb7faa61179e875e96f0c4b2be0",
+        "reported_title_match": false,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/bayesian-nonparametrics-for-offline-skill-discovery.json",
+          "https://arxiv.org/pdf/2202.04675v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/bayesian-nonparametrics-for-offline-skill-discovery.json",
+          "sha256": "072f27779972311c15f709f940d99d47701f93cc443927ec0b5a8caa6852020b"
+        },
+        "version": "2202.04675v3",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/bayesian-nonparametrics-for-offline-skill-discovery.pdf",
+          "reported_sha256": "90d62fe6d521dd25da850e0ef605f2581fa68eb7faa61179e875e96f0c4b2be0",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 16,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/bayesian-nonparametrics-for-offline-skill-discovery.json",
+          "https://arxiv.org/pdf/2202.04675v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/bayesian-nonparametrics-for-offline-skill-discovery.json",
+          "sha256": "072f27779972311c15f709f940d99d47701f93cc443927ec0b5a8caa6852020b"
+        },
+        "version": "2202.04675v3",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 1",
+            "page_1_based": 5,
+            "caption": "Graphical model for options.",
+            "crop_pdf_points": [
+              103,
+              66,
+              494,
+              212
+            ],
+            "vector_paths": 50,
+            "native_text_spans": 81,
+            "raster_images": 0,
+            "visually_inspected": true,
+            "notes": "Genuine probabilistic graphical model, native circular latent/observed variables and dependency edges; math font outlines may avoid broken text maps."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +144,178 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.497782Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "9108e5399464d602841d1fdcaa505501e9200a41df24b08dcece807a5df32485",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/bayesian-nonparametrics-for-offline-skill-discovery.json",
+                "https://arxiv.org/pdf/2202.04675v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/bayesian-nonparametrics-for-offline-skill-discovery.json",
+                "sha256": "631210873bdde3f0fec7423ab0ccca8fa0d1cdb13023f35232b0657462698e51"
+              },
+              "version": "2202.04675v3",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "Bayesian Nonparametrics for Offline Skill Discovery",
+              "observed_title": "Bayesian Nonparametrics for Offline Skill Discovery",
+              "source_url": "https://arxiv.org/pdf/2202.04675v3",
+              "source_sha256": "90d62fe6d521dd25da850e0ef605f2581fa68eb7faa61179e875e96f0c4b2be0",
+              "reported_title_match": false
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/bayesian-nonparametrics-for-offline-skill-discovery.json",
+                "https://arxiv.org/pdf/2202.04675v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/bayesian-nonparametrics-for-offline-skill-discovery.json",
+                "sha256": "631210873bdde3f0fec7423ab0ccca8fa0d1cdb13023f35232b0657462698e51"
+              },
+              "version": "2202.04675v3",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/bayesian-nonparametrics-for-offline-skill-discovery.pdf",
+                "reported_sha256": "90d62fe6d521dd25da850e0ef605f2581fa68eb7faa61179e875e96f0c4b2be0",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 16,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:35.962652Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "08a64b1145e1b65a10a12fe55d51a6727b604ad3aa28da101aef2e8833df82a3",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/bayesian-nonparametrics-for-offline-skill-discovery.json",
+                "https://arxiv.org/pdf/2202.04675v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/bayesian-nonparametrics-for-offline-skill-discovery.json",
+                "sha256": "072f27779972311c15f709f940d99d47701f93cc443927ec0b5a8caa6852020b"
+              },
+              "version": "2202.04675v3",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "Bayesian Nonparametrics for Offline Skill Discovery",
+              "observed_title": "Bayesian Nonparametrics for Offline Skill Discovery",
+              "source_url": "https://arxiv.org/pdf/2202.04675v3",
+              "source_sha256": "90d62fe6d521dd25da850e0ef605f2581fa68eb7faa61179e875e96f0c4b2be0",
+              "reported_title_match": false,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/bayesian-nonparametrics-for-offline-skill-discovery.json",
+                "https://arxiv.org/pdf/2202.04675v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/bayesian-nonparametrics-for-offline-skill-discovery.json",
+                "sha256": "072f27779972311c15f709f940d99d47701f93cc443927ec0b5a8caa6852020b"
+              },
+              "version": "2202.04675v3",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/bayesian-nonparametrics-for-offline-skill-discovery.pdf",
+                "reported_sha256": "90d62fe6d521dd25da850e0ef605f2581fa68eb7faa61179e875e96f0c4b2be0",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 16,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/bayesian-nonparametrics-for-offline-skill-discovery.json",
+                "https://arxiv.org/pdf/2202.04675v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/bayesian-nonparametrics-for-offline-skill-discovery.json",
+                "sha256": "072f27779972311c15f709f940d99d47701f93cc443927ec0b5a8caa6852020b"
+              },
+              "version": "2202.04675v3",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 1",
+                  "page_1_based": 5,
+                  "caption": "Graphical model for options.",
+                  "crop_pdf_points": [
+                    103,
+                    66,
+                    494,
+                    212
+                  ],
+                  "vector_paths": 50,
+                  "native_text_spans": 81,
+                  "raster_images": 0,
+                  "visually_inspected": true,
+                  "notes": "Genuine probabilistic graphical model, native circular latent/observed variables and dependency edges; math font outlines may avoid broken text maps."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        }
+      }
     }
   ]
 }

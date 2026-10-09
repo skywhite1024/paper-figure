@@ -181,3 +181,20 @@ class OutputTests(unittest.TestCase):
         self.assertEqual(before,self.artifact_hashes())
     def test_unknown_selection_rejected(self):
         with self.assertRaises(ValidationError): publish_build(self.root,self.make_build(),papers=['missing'])
+
+    def test_add_invalid_paper_does_not_touch_outputs(self):
+        from paper_figure.outputs import add_paper
+        candidate=self.root/'build/new-paper';candidate.mkdir(parents=True)
+        (candidate/'sources.json').write_text('{"papers":[]}')
+        before={str(p):sha256(p) for p in self.output.rglob('*') if p.is_file()}
+        with self.assertRaises(ValidationError):add_paper(self.root,candidate)
+        self.assertEqual(before,{str(p):sha256(p) for p in self.output.rglob('*') if p.is_file()})
+
+    def test_add_existing_paper_rejected(self):
+        from paper_figure.outputs import add_paper
+        with self.assertRaises(ValidationError):add_paper(self.root,self.output/'aspire')
+
+    def test_stale_qa_hash_rejected(self):
+        path=self.output/'aspire/VALIDATION.json'
+        path.write_text(json.dumps({'source_scene_sha256':'0'*64}))
+        with self.assertRaises(ValidationError):refresh_output(self.root)

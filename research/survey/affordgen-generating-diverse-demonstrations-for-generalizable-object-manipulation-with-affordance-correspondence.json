@@ -1,0 +1,117 @@
+{
+  "catalog_index": 113,
+  "catalog_id": "affordgen-generating-diverse-demonstrations-for-generalizable-object-manipulation-with-affordance-correspondence",
+  "title_expected": "AffordGen: Generating Diverse Demonstrations for Generalizable Object Manipulation with Affordance Correspondence",
+  "source_url": "https://arxiv.org/pdf/2604.10579v2",
+  "pdf_path": "build/sources/affordgen-generating-diverse-demonstrations-for-generalizable-object-manipulation-with-affordance-correspondence.pdf",
+  "pdf_sha256": "5a09d77acf94de283636145754492b3ca9bbb3d08ed51e87960820f2c4f8f0c7",
+  "pdf_title_observed": "AffordGen: Generating Diverse Demonstrations for Generalizable Object Manipulation with Affordance Correspondence",
+  "first_page_title_text": "AffordGen: Generating Diverse Demonstrations for Generalizable Object\nManipulation with Affordance Correspondence\nJiawei Zhang1*, Kaizhe Hu2,1*, Yingqian Huang1,3, Yuanchen Ju4, Zhengrong Xue2,1, Huazhe Xu2,1†\n1Shanghai Qi Zhi Institute\n2Tsinghua University\n3Fudan University\n4UC Berkeley\nFigure 1. AffordGen overview. (a) Diverse trajectory generation for novel objects via one-shot demonstration. (",
+  "title_match": true,
+  "version": "2604.10579v2",
+  "page_count": 15,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Figure 1. AffordGen overview. (a) Diverse trajectory generation for novel objects via one-shot demonstration. (b) Superior performance against powerful baselines. (c) Real-world generalization to unseen objects from a single source. Abstract Despite the recent success of modern imitation learning methods in robot manipulation, their performance is often constrained by geometric variations due to limited data di- versity. Leveraging powerful 3D ge",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 2. 1. AffordGen takes in a source expert demonstration and splits it into different functioning segments. 2. We extract keypoints on the source object and establish correspondences between them and many target objects in 3D space through visual foundation models. 3. By transferring the task-related segments and planning the transition segments, AffordGen can generate diverse and large-scale trajectories on both in-category and cross-catego",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 3. Keypoints Correspondence in 3D Canonical Space. The keypoints are mapped to the target mesh through DINOv2. To enable the reuse of trajectory information from the source demonstration, we need to establish correspon- dences between the keypoints of the manipulated object in the source demo and those on the new 3D meshes. While semantic correspondence across 2D images has been ex- tensively studied, robotic manipulation tasks require acc",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 4. Figure 4. Trajectory replay for grasp and skill segments. τg and τs remain similar across all meshes. To transfer the grasp segment τg, we first normalize the end-effector segment τg into the local frame of the source mesh by using the initial pose of the source object Tinit. The normalized grasp segment can be expressed as [τg]local = T −1 init · [τg]world. Given a new object mesh Mtg with the associated affording point x′ aff, the new",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 4. Trajectory replay for grasp and skill segments. τg and τs remain similar across all meshes. To transfer the grasp segment τg, we first normalize the end-effector segment τg into the local frame of the source mesh by using the initial pose of the source object Tinit. The normalized grasp segment can be expressed as [τg]local = T −1 init · [τg]world. Given a new object mesh Mtg with the associated affording point x′ aff, the new grasp seg",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 5. Apart from these approaches, we apply special modifi- cations of the skill segment to deal with the occlusion prob- lem. For a detailed discussion of the data generation scheme and the generation quality, please refer to Appendix 9 4. Experiments To validate our claims about the effectiveness of AffordGen in generating data through the transfer of grasp segments and skill segments, we conduct generalization experiments in both simulatio",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 5. Visualization of source and generated trajectory of the teapot pouring task. The upper line is the source trajectory, while the lower line is a generated trajectory. Each trajectory is composed of three types of segments. Figure 6. Simulative experiments setup: (a) Teapot Pouring, (b) Mug Hanging, (c) Knife Cutting, (d) Shoe Organizing. mug hanging, knife cutting and shoe organizing, as illus- trated in Figure 6. For teapot pouring, the",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 6. Simulative experiments setup: (a) Teapot Pouring, (b) Mug Hanging, (c) Knife Cutting, (d) Shoe Organizing. mug hanging, knife cutting and shoe organizing, as illus- trated in Figure 6. For teapot pouring, the robot needs to grasp the handle part of the teapot and then move and tilt the teapot to position its spout above the target cup. For mug hanging, the robot needs to grasp the mug by its handle, move it, and insert the rack prong in",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 6. For teapot pouring, the robot needs to grasp the handle part of the teapot and then move and tilt the teapot to position its spout above the target cup. For mug hanging, the robot needs to grasp the mug by its handle, move it, and insert the rack prong into the hole of the mug handle. For knife cutting, the robot first grasps the handle of the knife and then maneuvers it to make contact between the blade and the target food. For shoe or",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 7. The performance ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 7. Simulative evaluation results on different meshes 4.1.3. Zero-shot Cross-Category Results By establishing correspondences between keypoints, Af- fordGen can repurpose source demonstrations to generate training data for cross-category objects. This synthetically generated data can then be used directly to train policies on novel object categories, as long as they share the same func- tional affordance. To showcase such capability, we con",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 8",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 8. Figure 8. Simulative cross-category tasks: (a) Mug Pouring, (b) Handbag Hanging, (c) Saw Cutting. As shown in Table 3, AffordGen demonstrates impres- sive results in generating effective training data even for out-of-category objects. It is the only method to achieve a meaningful non-zero success rate on these new objects. 4.2. Real World Experiments 4.2.1. Experiment Settings Real-world data generation is the most meaningful use case o",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 8",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 8. Simulative cross-category tasks: (a) Mug Pouring, (b) Handbag Hanging, (c) Saw Cutting. As shown in Table 3, AffordGen demonstrates impres- sive results in generating effective training data even for out-of-category objects. It is the only method to achieve a meaningful non-zero success rate on these new objects. 4.2. Real World Experiments 4.2.1. Experiment Settings Real-world data generation is the most meaningful use case of AffordGe",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 9",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 9. Real-World experiments setup In real-world experiments, we include another planning- based method, FUNCTO [23]. FUNCTO serves as a rep- resentative algorithm based on keypoint correspondence. Similar to AffordGen, FUNCTO generates manipulation ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 10",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 10. The ex- perimental results in Table 3 demonstrate that AffordGen can effectively generate cross-category object manipulation data in the real world, thereby further expanding real-world robot capabilities with low cost. Figure 10. Real cross-category tasks settings: (a) Mug Pouring, (b) Handbag Hanging, (c) Saw Cutting. 5. Conclusion AffordGen addresses the data scarcity and generalization problem in robotic learning. This work present",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 10",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 10. Real cross-category tasks settings: (a) Mug Pouring, (b) Handbag Hanging, (c) Saw Cutting. 5. Conclusion AffordGen addresses the data scarcity and generalization problem in robotic learning. This work presents a new paradigm that leverages affordance correspondence as a generative source to scale minimal demonstrations into thousands of diverse, semantically-grounded, and full 6D trajectories across object categories. Policies trained ",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "ArXiv HTML citation_title uses Afford Correspondence; actual versionedPDF title prints Affordance Correspondence and exactly matches catalog. Figure inspection still pending.",
+  "arxiv_metadata_title": "AffordGen: Generating Diverse Demonstrations for Generalizable Object Manipulation with Afford Correspondence",
+  "title_review": "First-page pixels manually inspected2026-10-09"
+}

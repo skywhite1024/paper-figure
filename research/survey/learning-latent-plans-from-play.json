@@ -1,0 +1,84 @@
+{
+  "catalog_index": 78,
+  "catalog_id": "learning-latent-plans-from-play",
+  "title_expected": "Learning Latent Plans from Play",
+  "source_url": "https://arxiv.org/pdf/1903.01973v2",
+  "pdf_path": "build/sources/learning-latent-plans-from-play.pdf",
+  "pdf_sha256": "4a617a68cc9ed89ebbdff8fdda000f0bb744128bd5e91dca1b2c5594631835b0",
+  "pdf_title_observed": "Learning Latent Plans from Play",
+  "first_page_title_text": "Learning Latent Plans\nfrom Play\nCorey Lynch, Mohi Khansari, Ted Xiao, Vikash Kumar,\nJonathan Tompson, Sergey Levine, Pierre Sermanet\nGoogle Brain\nAbstract: Acquiring a diverse repertoire of general-purpose skills remains an\nopen challenge for robotics. In this work, we propose self-supervising control on\ntop of human teleoperated play data as a way to scale up skill learning. Play has\ntwo properti",
+  "title_match": true,
+  "version": "1903.01973v2",
+  "page_count": 17,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption": "Play-LMP training and task-agnostic policy inference.",
+      "crop_pdf_points": [
+        107,
+        71,
+        508,
+        355
+      ],
+      "vector_paths": 121,
+      "native_text_spans": 53,
+      "raster_images": 5,
+      "visually_inspected": true,
+      "notes": "Latent plan proposal/recognition networks and action decoder with training/inference dataflows;5small source robot images."
+    }
+  ],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1: Play-LMP: A single model that self-supervises control from play data, then generalizes to a wide variety of manipulation tasks. (a) Training: 1) sample a random window of experience from a memory of play data; 2) train to recognize and organize a repertoire of behaviors executed during play in a latent plan space, 3) train a policy, conditioned on current state, goal state, and a sampled latent plan to reconstruct the actions in the sel",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 2: The continuum of skills and its coverage. We advocate for learning the full continuum of skills at once rather than discrete ones. (a) The ideal coverage is dense and broad over all regions of the space, providing statistical support for all pairs of (current state, goal state). (b) We hypothesize different approaches yield different coverages. (c) We observe in real datasets that for the same amount of collection time, play data’s cove",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 3: The Playground environment. Details in A.3.1 button pushing sequences all other play  sequences grasping  sequences drawer sequences sweeping sequences Figure 4: Latent plan space t-SNE Figure 5: Example of a supervised demonstration sequence labeled and segmented for the ”sliding” task. 3 Learning Task-Agnostic Control from Play Data First we give a deﬁnition of the type of data we collect for our experiments and our assumptions about ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 4: Latent plan space t-SNE Figure 5: Example of a supervised demonstration sequence labeled and segmented for the ”sliding” task. 3 Learning Task-Agnostic Control from Play Data First we give a deﬁnition of the type of data we collect for our experiments and our assumptions about its collection. We create a simulated “playground environment” (Fig. 3 and A.3.1) for play collection and task evaluation. In this environment an 8-DOF simulated ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 5: Example of a supervised demonstration sequence labeled and segmented for the ”sliding” task. 3 Learning Task-Agnostic Control from Play Data First we give a deﬁnition of the type of data we collect for our experiments and our assumptions about its collection. We create a simulated “playground environment” (Fig. 3 and A.3.1) for play collection and task evaluation. In this environment an 8-DOF simulated robot (arm and gripper) is situate",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 6: Quantitative task success and robustness. (a) Play-LMP consistently outperforms the baselines, whether trained on groundtruth states or directly on pixels. Success is reported with conﬁdence intervals over 3 seeded training runs for pixel experiments. (b) models trained on play data are more robust to perturbations to the initial position. See Sec. 4 for details. 10 5 0 5 10 15 20 25 Improvement of Play-LMP over Play-GCBC (absolute accu",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 7: Improvement per task of Play-LMP over Play-GCBC (left) and BC baselines (right), in absolute percentage points of accuracy (model trained on states). Task success with play-supervision: We present our main ﬁndings for both experiments in Ta- ble 6a. First, we ﬁnd that despite not being trained on task labels, a single Play-LMP policy out- performs the 18 specialized and supervised BC models (answering experimental questions 1 and 7 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 8",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 8: 18-tasks average success for self-supervised models trained on various amounts of cheap play data (left) vs. expert-trained models trained on expensive task demonstrations (right). A single task-agnostic Play- LMP policy, trained on unlabeled play data generalizes with 85.5% success to the 18 test-time tasks with no ﬁnetuning, outperforming a collection of 18 expert-trained BC policies who reach 70.3% average success. This holds true ev",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+}

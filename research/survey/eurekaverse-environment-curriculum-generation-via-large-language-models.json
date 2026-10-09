@@ -1,0 +1,61 @@
+{
+  "catalog_index": 98,
+  "catalog_id": "eurekaverse-environment-curriculum-generation-via-large-language-models",
+  "title_expected": "Eurekaverse: Environment Curriculum Generation via Large Language Models",
+  "source_url": "https://arxiv.org/pdf/2411.01775v1",
+  "pdf_path": "build/sources/eurekaverse-environment-curriculum-generation-via-large-language-models.pdf",
+  "pdf_sha256": "ab63c77ce4dd8cae2ebd03594cca5140e90a8c9c6f9daf791badf79208e14459",
+  "pdf_title_observed": "Eurekaverse: Environment Curriculum Generation via Large Language Models",
+  "first_page_title_text": "Environment Curriculum Generation\nvia Large Language Models\nWilliam Liang, Sam Wang, Hung-Ju Wang,\nOsbert Bastani, Dinesh Jayaraman†, Yecheng Jason Ma†\nGRASP Laboratory, University of Pennsylvania\nwilljhliang@gmail.com\nhttps://eureka-research.github.io/eurekaverse/\nAbstract: Recent work has demonstrated that a promising strategy for teaching\nrobots a wide range of complex skills is by training the",
+  "title_match": false,
+  "version": "2411.01775v1",
+  "page_count": 23,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Figure 1: Eurekaverse teaches a quadrupedal robot to navigate diverse obstacle courses, including jumps, climbs, and ramps. †Equal Advising arXiv:2411.01775v1  [cs.RO]  4 Nov 2024 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 2: Eurekaverse automatically learns complex skills by performing agent-environment co-evolution, which iterates between evolutionary environment generation and population-based policy training and evaluation. 1 Introduction It is often hypothesized that the evolution of intelligent motor control in biology is driven by the need to habituate in and adapt to varied environment conditions [1, 2]. Inspired by this observation, training robot p",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 3: Our prompt and in-context example (blue), an example LLM response (purple), and its visualization. In the rendering, large red dots indicate goals, and the blue dot is the current goal; small dots indicate heading command (direction to the goal). learn a policy that can zero-shot generalize to unseen environments, maximizing P i V Mi(π) for a set of unseen environments {Mtest,i} parameterized by Θtest = {θtest,i}. Therefore, Λ must be a",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 4: Comparing sim benchmark performance across training steps for Eurekaverse and baselines (left), and final benchmark performance for Eurekaverse and ablations (right). The training curve for ablations is in Appendix. Experiments are run over 3 seeds. Figure 5: Comparison of Eurekaverse’s iterations against Human-Designed, visualized per obstacle type and over each difficulty (easiest to hardest) on sim benchmark. Higher area under the cu",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 5: Comparison of Eurekaverse’s iterations against Human-Designed, visualized per obstacle type and over each difficulty (easiest to hardest) on sim benchmark. Higher area under the curve is better. The latter learns quickly but plateaus; intuitively, though well-designed, the relatively small number of distinct terrains limits the capacity for generalization. On the other hand, while our policy learns slower in the first few iterations due",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 6: Policies trained on Eurekaverse parkour courses significantly outperform those trained on Human-Designed across four distinct real-world tasks, each with a variety of difficulties. increases difficulty. By building a curriculum that bridges the initial and final environments while increasing diversity and taking into account policy feedback, Eurekaverse trains a policy that gradually improves over each iteration; we see evidence of this",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 7: Our policy overcomes challenging obstacle courses unseen during training. Each row is a series of video frames from the same rollout on a course. but have a chance to recover before the environment resets, and during depth distillation, random blackout and noise augmentation increases robustness against out-of-distribution depth readings. To further test the Eurekaverse policy’s versatility, we designed four diverse obstacle courses aft",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

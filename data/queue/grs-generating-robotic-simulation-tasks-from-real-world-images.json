@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "grs-generating-robotic-simulation-tasks-from-real-world-images",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.499744Z",
-  "updated_at": "2026-10-09T20:04:59.499744Z",
+  "updated_at": "2026-10-09T20:14:36.302195Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/grs-generating-robotic-simulation-tasks-from-real-world-images.json",
+          "https://arxiv.org/pdf/2410.15536v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/grs-generating-robotic-simulation-tasks-from-real-world-images.json",
+          "sha256": "9d6eb82a3c2049a065c4a37a0e0a5f37c8efc20b1292c1e864eef28c781dcd09"
+        },
+        "version": "2410.15536v3",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "GRS: Generating Robotic Simulation Tasks from Real-World Images",
+        "observed_title": "GRS: Generating Robotic Simulation Tasks from Real-World Images",
+        "source_url": "https://arxiv.org/pdf/2410.15536v3",
+        "source_sha256": "e065b5024ce56cb7f44e765f5d44e750392eaea109eac44ee7201e724a3ff03f",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/grs-generating-robotic-simulation-tasks-from-real-world-images.json",
+          "https://arxiv.org/pdf/2410.15536v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/grs-generating-robotic-simulation-tasks-from-real-world-images.json",
+          "sha256": "9d6eb82a3c2049a065c4a37a0e0a5f37c8efc20b1292c1e864eef28c781dcd09"
+        },
+        "version": "2410.15536v3",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/grs-generating-robotic-simulation-tasks-from-real-world-images.pdf",
+          "reported_sha256": "e065b5024ce56cb7f44e765f5d44e750392eaea109eac44ee7201e724a3ff03f",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 12,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.845867Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "e0007978c17628926056c80089061639884c4cc1dc2dc982c7284dc760c4b2b8",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/grs-generating-robotic-simulation-tasks-from-real-world-images.json",
+                "https://arxiv.org/pdf/2410.15536v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/grs-generating-robotic-simulation-tasks-from-real-world-images.json",
+                "sha256": "9d6eb82a3c2049a065c4a37a0e0a5f37c8efc20b1292c1e864eef28c781dcd09"
+              },
+              "version": "2410.15536v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "GRS: Generating Robotic Simulation Tasks from Real-World Images",
+              "observed_title": "GRS: Generating Robotic Simulation Tasks from Real-World Images",
+              "source_url": "https://arxiv.org/pdf/2410.15536v3",
+              "source_sha256": "e065b5024ce56cb7f44e765f5d44e750392eaea109eac44ee7201e724a3ff03f",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/grs-generating-robotic-simulation-tasks-from-real-world-images.json",
+                "https://arxiv.org/pdf/2410.15536v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/grs-generating-robotic-simulation-tasks-from-real-world-images.json",
+                "sha256": "9d6eb82a3c2049a065c4a37a0e0a5f37c8efc20b1292c1e864eef28c781dcd09"
+              },
+              "version": "2410.15536v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/grs-generating-robotic-simulation-tasks-from-real-world-images.pdf",
+                "reported_sha256": "e065b5024ce56cb7f44e765f5d44e750392eaea109eac44ee7201e724a3ff03f",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 12,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.302195Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "7df61eb9d888f4dd0243e239a62cfd9b6d4cd44baed1b7b89e263c1aeea45e59",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/grs-generating-robotic-simulation-tasks-from-real-world-images.json",
+                "https://arxiv.org/pdf/2410.15536v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/grs-generating-robotic-simulation-tasks-from-real-world-images.json",
+                "sha256": "9d6eb82a3c2049a065c4a37a0e0a5f37c8efc20b1292c1e864eef28c781dcd09"
+              },
+              "version": "2410.15536v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "GRS: Generating Robotic Simulation Tasks from Real-World Images",
+              "observed_title": "GRS: Generating Robotic Simulation Tasks from Real-World Images",
+              "source_url": "https://arxiv.org/pdf/2410.15536v3",
+              "source_sha256": "e065b5024ce56cb7f44e765f5d44e750392eaea109eac44ee7201e724a3ff03f",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

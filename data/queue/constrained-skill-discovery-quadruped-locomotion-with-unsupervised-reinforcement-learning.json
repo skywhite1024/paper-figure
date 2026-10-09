@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "constrained-skill-discovery-quadruped-locomotion-with-unsupervised-reinforcement-learning",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.463593Z",
-  "updated_at": "2026-10-09T20:04:59.463593Z",
+  "updated_at": "2026-10-09T20:14:58.167280Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,20 +26,116 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/constrained-skill-discovery-quadruped-locomotion-with-unsupervised-reinforcement-learning.json",
+          "https://arxiv.org/pdf/2410.07877v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/constrained-skill-discovery-quadruped-locomotion-with-unsupervised-reinforcement-learning.json",
+          "sha256": "fa0a3fcae9d046cac865f0d903910b81942e01a573fee061bc733a0b9eea8ab4"
+        },
+        "version": "2410.07877v1",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Constrained Skill Discovery: Quadruped Locomotion with Unsupervised Reinforcement Learning",
+        "observed_title": "Constrained Skill Discovery: Quadruped Locomotion with Unsupervised Reinforcement Learning",
+        "source_url": "https://arxiv.org/pdf/2410.07877v1",
+        "source_sha256": "1c580c84287b0df7a15fe502239c50e18e31ecd89f8708d680b508bf03a2919f",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/constrained-skill-discovery-quadruped-locomotion-with-unsupervised-reinforcement-learning.json",
+          "https://arxiv.org/pdf/2410.07877v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/constrained-skill-discovery-quadruped-locomotion-with-unsupervised-reinforcement-learning.json",
+          "sha256": "fa0a3fcae9d046cac865f0d903910b81942e01a573fee061bc733a0b9eea8ab4"
+        },
+        "version": "2410.07877v1",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/constrained-skill-discovery-quadruped-locomotion-with-unsupervised-reinforcement-learning/original.pdf",
+          "reported_sha256": "1c580c84287b0df7a15fe502239c50e18e31ecd89f8708d680b508bf03a2919f",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 18,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/constrained-skill-discovery-quadruped-locomotion-with-unsupervised-reinforcement-learning.json",
+          "https://arxiv.org/pdf/2410.07877v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/constrained-skill-discovery-quadruped-locomotion-with-unsupervised-reinforcement-learning.json",
+          "sha256": "fa0a3fcae9d046cac865f0d903910b81942e01a573fee061bc733a0b9eea8ab4"
+        },
+        "version": "2410.07877v1",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 4,
+            "caption": "Figure 2: Learning scheme for our proposed approach. The encoder ϕ(·) maps state transitions into\na latent space optimized to match the skills (sampled from a predefined distribution p(z)), as shown\nby the MSE loss. An intrinsic reward is given to the agent based on the loss magnitude and an\nextrinsic reward from the environment, which encourages smooth behaviors.",
+            "crop_pdf_points": [
+              145,
+              81,
+              466,
+              215
+            ],
+            "vector_paths": 90,
+            "native_text_spans": 16,
+            "raster_images": 0,
+            "source_type": "vector/text",
+            "visually_inspected": true,
+            "notes": "Two stacked shaded panels for supervised encoder learning and reinforcement learning; skill cylinder, encoder, agent, environment, MSE objective, and color-coded reward/state/skill arrows."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/constrained-skill/README.md",
+          "output/constrained-skill/VALIDATION.json"
+        ],
+        "output_directory": "output/constrained-skill",
+        "source_sha256": "1c580c84287b0df7a15fe502239c50e18e31ecd89f8708d680b508bf03a2919f",
+        "scene_sha256": "1f49bcf8628d83054c192ac0ca4c4ca01a20cddbba88569e3cc5b49c2407fc74"
+      }
     },
     "qa": {
       "status": "pending",
@@ -59,6 +155,178 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.550649Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "650379bb9c0cbd7e59d41902ac4cc373f16f589f5fe1772b3a700c19afff8890",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/constrained-skill-discovery-quadruped-locomotion-with-unsupervised-reinforcement-learning.json",
+                "https://arxiv.org/pdf/2410.07877v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/constrained-skill-discovery-quadruped-locomotion-with-unsupervised-reinforcement-learning.json",
+                "sha256": "fa0a3fcae9d046cac865f0d903910b81942e01a573fee061bc733a0b9eea8ab4"
+              },
+              "version": "2410.07877v1",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Constrained Skill Discovery: Quadruped Locomotion with Unsupervised Reinforcement Learning",
+              "observed_title": "Constrained Skill Discovery: Quadruped Locomotion with Unsupervised Reinforcement Learning",
+              "source_url": "https://arxiv.org/pdf/2410.07877v1",
+              "source_sha256": "1c580c84287b0df7a15fe502239c50e18e31ecd89f8708d680b508bf03a2919f",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/constrained-skill-discovery-quadruped-locomotion-with-unsupervised-reinforcement-learning.json",
+                "https://arxiv.org/pdf/2410.07877v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/constrained-skill-discovery-quadruped-locomotion-with-unsupervised-reinforcement-learning.json",
+                "sha256": "fa0a3fcae9d046cac865f0d903910b81942e01a573fee061bc733a0b9eea8ab4"
+              },
+              "version": "2410.07877v1",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/constrained-skill-discovery-quadruped-locomotion-with-unsupervised-reinforcement-learning/original.pdf",
+                "reported_sha256": "1c580c84287b0df7a15fe502239c50e18e31ecd89f8708d680b508bf03a2919f",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 18,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/constrained-skill-discovery-quadruped-locomotion-with-unsupervised-reinforcement-learning.json",
+                "https://arxiv.org/pdf/2410.07877v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/constrained-skill-discovery-quadruped-locomotion-with-unsupervised-reinforcement-learning.json",
+                "sha256": "fa0a3fcae9d046cac865f0d903910b81942e01a573fee061bc733a0b9eea8ab4"
+              },
+              "version": "2410.07877v1",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 4,
+                  "caption": "Figure 2: Learning scheme for our proposed approach. The encoder ϕ(·) maps state transitions into\na latent space optimized to match the skills (sampled from a predefined distribution p(z)), as shown\nby the MSE loss. An intrinsic reward is given to the agent based on the loss magnitude and an\nextrinsic reward from the environment, which encourages smooth behaviors.",
+                  "crop_pdf_points": [
+                    145,
+                    81,
+                    466,
+                    215
+                  ],
+                  "vector_paths": 90,
+                  "native_text_spans": 16,
+                  "raster_images": 0,
+                  "source_type": "vector/text",
+                  "visually_inspected": true,
+                  "notes": "Two stacked shaded panels for supervised encoder learning and reinforcement learning; skill cylinder, encoder, agent, environment, MSE objective, and color-coded reward/state/skill arrows."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.014254Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "6214ae9a6576fae557816bb005ca990f9060c311cc290f0919f756dfbab51e34",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/constrained-skill-discovery-quadruped-locomotion-with-unsupervised-reinforcement-learning.json",
+                "https://arxiv.org/pdf/2410.07877v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/constrained-skill-discovery-quadruped-locomotion-with-unsupervised-reinforcement-learning.json",
+                "sha256": "fa0a3fcae9d046cac865f0d903910b81942e01a573fee061bc733a0b9eea8ab4"
+              },
+              "version": "2410.07877v1",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Constrained Skill Discovery: Quadruped Locomotion with Unsupervised Reinforcement Learning",
+              "observed_title": "Constrained Skill Discovery: Quadruped Locomotion with Unsupervised Reinforcement Learning",
+              "source_url": "https://arxiv.org/pdf/2410.07877v1",
+              "source_sha256": "1c580c84287b0df7a15fe502239c50e18e31ecd89f8708d680b508bf03a2919f",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:14:58.167280Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "1a620a65541bb05355babe873a400bb7f7fae11e3f87e3cf201a834efa2596b0",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/constrained-skill/README.md",
+                "output/constrained-skill/VALIDATION.json"
+              ],
+              "output_directory": "output/constrained-skill",
+              "source_sha256": "1c580c84287b0df7a15fe502239c50e18e31ecd89f8708d680b508bf03a2919f",
+              "scene_sha256": "1f49bcf8628d83054c192ac0ca4c4ca01a20cddbba88569e3cc5b49c2407fc74"
+            }
+          }
+        }
+      }
     }
   ]
 }

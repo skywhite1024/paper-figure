@@ -19,9 +19,9 @@
       "caption": "Figure 2: Diagram of the proposed method APS. On the left shows the concept of APS, during reward-free pretraining phase, reinforcement\nlearning is deployed to maximize the mutual information between the states induced by policy and the task variables. During testing,\nthe pre-trained state features can identify the downstream task by solving a linear regression problem , the pre-trained task conditioning\nsuccessor features can then quickly adapt to and solve the task. On the right shows the components of APS. APS consists of maximizing\nstate entropy in an abstract representation space (exploration, max H(s)) and leveraging explored data to learn task conditioning behaviors\n(exploitation, max \u2212H(s|z)).",
       "crop_pdf_points": [
         119,
-        67,
+        65,
         478,
-        215
+        218
       ],
       "vector_paths": 28,
       "native_text_spans": 18,
@@ -35,5 +35,10 @@
   "version_evidence": "Version identifier printed in first-page PDF margin",
   "versioned_pdf_url": "https://arxiv.org/pdf/2108.13956v1",
   "inspected_at": "2026-10-09",
-  "visual_evidence_cache": "/tmp/paper-figure-survey/23-p4.png"
+  "visual_evidence_cache": "/tmp/paper-figure-survey/23-p4.png",
+  "conversion_candidate": {
+    "scene": "data/diagrams/aps/aps-figure-2.json",
+    "package": "build/candidates/aps",
+    "status": "source_comparison_reviewed_pending_independent_export_qa"
+  }
 }

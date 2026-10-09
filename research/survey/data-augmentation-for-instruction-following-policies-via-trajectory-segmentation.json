@@ -1,0 +1,78 @@
+{
+  "catalog_index": 69,
+  "catalog_id": "data-augmentation-for-instruction-following-policies-via-trajectory-segmentation",
+  "title_expected": "Data Augmentation for Instruction Following Policies via Trajectory Segmentation",
+  "source_url": "https://arxiv.org/pdf/2503.01871v1",
+  "pdf_path": "build/sources/data-augmentation-for-instruction-following-policies-via-trajectory-segmentation.pdf",
+  "pdf_sha256": "7397912c2775dabd082d0898e24bbc755ba52a3783d6c0e8d2266385aaa69799",
+  "pdf_title_observed": "Data Augmentation for Instruction Following Policies via Trajectory Segmentation",
+  "first_page_title_text": "Data Augmentation for Instruction Following Policies via Trajectory Segmentation\nNiklas Hoepner1, Ilaria Tiddi2, Herke van Hoof1\n1University of Amsterdam\n2Vrije Universiteit Amsterdam\nn.r.hopner@uva.nl, i.tiddi@vu.nl, h.c.vanhoof@uva.nl\nAbstract\nThe scalability of instructable agents in robotics or gaming\nis often hindered by limited data that pairs instructions with\nagent trajectories. However, l",
+  "title_match": true,
+  "version": "2503.01871v1",
+  "page_count": 12,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption": "Training sample generation for segmentation approaches.",
+      "crop_pdf_points": [
+        318,
+        54,
+        557,
+        210
+      ],
+      "vector_paths": 0,
+      "native_text_spans": 0,
+      "raster_images": 1,
+      "visually_inspected": true,
+      "notes": "Method/dataflow schematic comparing TriDet, UnLoc and play segmentation; not a neural network block architecture."
+    }
+  ],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1: Example of play data, where the play trajectory contains sequences of instructable agent behaviour. The trajectory is represented by the observation sequence of the agent. Parts of the trajectory are labelled with the corresponding instructions and form the annotated dataset. Sampling random segments bears the risk to capture incomplete instructions or multiple ones. • Adapting video segmentation methods to play data and analysing their",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 2: Overview of how training samples are generated from a single annotated segment for the different segmenta- tion approaches. Here, c stands for the instruction class of the segment and bg for the background class. CLIP. For each instruction the embedding is concatenated to the end of the observation sequence. Then a self-attention- based architecture outputs the logit of the instruction label for each frame. The usual training data (Shri",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 3: Example observations from the CALVIN environ- ment (left) and the BabyAI environment (right). instruction following agents. Here we choose the GoTo- environment with 7 distractors (Figure 3). The agent needs to navigate to the object described in the instruction. If mul- tiple objects of the same type are present going to any of them solves the task. The objects can be one of three types with six different colours. The discrete action s",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 4: Effect of different amounts of annotated data on policy performance as well as the effect of data augmenta- tion via labelled groundtruth segments and labelled random segment for BabyAI (top) and CALVIN (bottom). imitation learning (MCIL) (Lynch and Sermanet 2021; Mees et al. 2022; Mees, Hermann, and Burgard 2022). Details on the policy training can be found in Appendix B. Does Segmentation Matter? To assess the policy’s performance wit",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 5: Distribution of segment length of the segments present in the groundtruth data (top left) and extracted via Play Segmentation (top right), TriDet (bottom left) and Un- Loc (bottom right). Method Precision Recall F1 Label Acc. PS 0.826 0.627 0.716 0.516 UnLoc 0.283 - - 0.353 TriDet 0.338 - - 0.323 Table 2: Quality of the extracted labelled segments. For Un- Loc and TriDet we do not measure recall as they do not pro- vide a complete segme",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 6: Distribution of labels in the segments extracted via Play Segmentation. Figure 7: Displaying the relation between the number of samples added for a task and the improvement the policy achieves for that specific task in the CALVIN environment. The improvement is measure by the change in task accuracy between the original dataset and the augmented dataset rel- ative to the improvement possible on that task. Discussion We demonstrate the p",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 7: Displaying the relation between the number of samples added for a task and the improvement the policy achieves for that specific task in the CALVIN environment. The improvement is measure by the change in task accuracy between the original dataset and the augmented dataset rel- ative to the improvement possible on that task. Discussion We demonstrate the potential to leverage unsegmented tra- jectories for data augmentation to enhance a",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+}

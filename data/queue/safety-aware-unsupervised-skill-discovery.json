@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "safety-aware-unsupervised-skill-discovery",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.465967Z",
-  "updated_at": "2026-10-09T20:04:59.465967Z",
+  "updated_at": "2026-10-09T20:14:36.683308Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,103 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/safety-aware-unsupervised-skill-discovery.json",
+          "https://safe-skill.github.io/static/pdfs/safe-skill.pdf"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/safety-aware-unsupervised-skill-discovery.json",
+          "sha256": "d9634beae90746dfe40555fefd1f9ae542ef6ccc1c98b6be052ada4af4f84f54"
+        },
+        "version": null,
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "Title verified directly in PDF first-page text.",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Safety-Aware Unsupervised Skill Discovery",
+        "observed_title": "Safety-Aware Unsupervised Skill Discovery",
+        "source_url": "https://safe-skill.github.io/static/pdfs/safe-skill.pdf",
+        "source_sha256": "f0d9b288ad29e95ded451163ebfbddab7ce14f2af8b8ec133d80b1f3e1f9cc42",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/safety-aware-unsupervised-skill-discovery.json",
+          "https://safe-skill.github.io/static/pdfs/safe-skill.pdf"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/safety-aware-unsupervised-skill-discovery.json",
+          "sha256": "d9634beae90746dfe40555fefd1f9ae542ef6ccc1c98b6be052ada4af4f84f54"
+        },
+        "version": null,
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "Title verified directly in PDF first-page text.",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/safety-aware-unsupervised-skill-discovery/original.pdf",
+          "reported_sha256": "f0d9b288ad29e95ded451163ebfbddab7ce14f2af8b8ec133d80b1f3e1f9cc42",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 7,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/safety-aware-unsupervised-skill-discovery.json",
+          "https://safe-skill.github.io/static/pdfs/safe-skill.pdf"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/safety-aware-unsupervised-skill-discovery.json",
+          "sha256": "d9634beae90746dfe40555fefd1f9ae542ef6ccc1c98b6be052ada4af4f84f54"
+        },
+        "version": null,
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "Title verified directly in PDF first-page text.",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 3,
+            "caption": "Fig. 2: An overview of our safe skill discovery framework\nthat consists of two stages: pre-training safe skill policies\nand learning tasks based on the skills. In the first stage, the\nskill policy π is optimized to minimize the failure probability\nthat is estimated by the safety-critic, while maximizing the\nskill discovery reward given by the skill encoder. The task\npolicy is then optimized to maximize the task reward using\nthe skill policy as a low-level controller. While the dotted\nlines denote the computation of the policy losses, the solid\nlines denote the actual control diagram of the policies.",
+            "crop_pdf_points": [
+              333,
+              52,
+              538,
+              290
+            ],
+            "vector_paths": 0,
+            "native_text_spans": 0,
+            "raster_images": 1,
+            "source_type": "raster",
+            "visually_inspected": true,
+            "notes": "Two-stage framework with green safety-aware skill discovery above blue downstream task learning, vertical environment blocks, skill encoder/safety critic, and high/low-level policies."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +146,153 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.207607Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "4b9744cbcc188b8b06fc1a9bd746a5227166a547ac43eebb961ae6fe65c98ff2",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/safety-aware-unsupervised-skill-discovery.json",
+                "https://safe-skill.github.io/static/pdfs/safe-skill.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/safety-aware-unsupervised-skill-discovery.json",
+                "sha256": "d9634beae90746dfe40555fefd1f9ae542ef6ccc1c98b6be052ada4af4f84f54"
+              },
+              "version": null,
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "Title verified directly in PDF first-page text.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Safety-Aware Unsupervised Skill Discovery",
+              "observed_title": "Safety-Aware Unsupervised Skill Discovery",
+              "source_url": "https://safe-skill.github.io/static/pdfs/safe-skill.pdf",
+              "source_sha256": "f0d9b288ad29e95ded451163ebfbddab7ce14f2af8b8ec133d80b1f3e1f9cc42",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/safety-aware-unsupervised-skill-discovery.json",
+                "https://safe-skill.github.io/static/pdfs/safe-skill.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/safety-aware-unsupervised-skill-discovery.json",
+                "sha256": "d9634beae90746dfe40555fefd1f9ae542ef6ccc1c98b6be052ada4af4f84f54"
+              },
+              "version": null,
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "Title verified directly in PDF first-page text.",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/safety-aware-unsupervised-skill-discovery/original.pdf",
+                "reported_sha256": "f0d9b288ad29e95ded451163ebfbddab7ce14f2af8b8ec133d80b1f3e1f9cc42",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 7,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/safety-aware-unsupervised-skill-discovery.json",
+                "https://safe-skill.github.io/static/pdfs/safe-skill.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/safety-aware-unsupervised-skill-discovery.json",
+                "sha256": "d9634beae90746dfe40555fefd1f9ae542ef6ccc1c98b6be052ada4af4f84f54"
+              },
+              "version": null,
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "Title verified directly in PDF first-page text.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 3,
+                  "caption": "Fig. 2: An overview of our safe skill discovery framework\nthat consists of two stages: pre-training safe skill policies\nand learning tasks based on the skills. In the first stage, the\nskill policy π is optimized to minimize the failure probability\nthat is estimated by the safety-critic, while maximizing the\nskill discovery reward given by the skill encoder. The task\npolicy is then optimized to maximize the task reward using\nthe skill policy as a low-level controller. While the dotted\nlines denote the computation of the policy losses, the solid\nlines denote the actual control diagram of the policies.",
+                  "crop_pdf_points": [
+                    333,
+                    52,
+                    538,
+                    290
+                  ],
+                  "vector_paths": 0,
+                  "native_text_spans": 0,
+                  "raster_images": 1,
+                  "source_type": "raster",
+                  "visually_inspected": true,
+                  "notes": "Two-stage framework with green safety-aware skill discovery above blue downstream task learning, vertical environment blocks, skill encoder/safety critic, and high/low-level policies."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.683308Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "3a1eb6e06044fa24381ef2e145eb172891d0ee07924a2bc2da3c7b30b8a056a7",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/safety-aware-unsupervised-skill-discovery.json",
+                "https://safe-skill.github.io/static/pdfs/safe-skill.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/safety-aware-unsupervised-skill-discovery.json",
+                "sha256": "d9634beae90746dfe40555fefd1f9ae542ef6ccc1c98b6be052ada4af4f84f54"
+              },
+              "version": null,
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "Title verified directly in PDF first-page text.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Safety-Aware Unsupervised Skill Discovery",
+              "observed_title": "Safety-Aware Unsupervised Skill Discovery",
+              "source_url": "https://safe-skill.github.io/static/pdfs/safe-skill.pdf",
+              "source_sha256": "f0d9b288ad29e95ded451163ebfbddab7ce14f2af8b8ec133d80b1f3e1f9cc42",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "diagram_id": "elsim-figure-1",
+  "source_sha256": "34f07edd148b00d8214b8368ea21c1cf32d20d543c08be15d49e0f2cef3ca3e0",
+  "provenance": {
+    "paper_title": "ELSIM: End-to-End Learning of Reusable Skills through Intrinsic Motivation",
+    "paper_url": "https://arxiv.org/abs/2006.12903v1",
+    "figure": "Figure 1",
+    "license": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+    "notes": "Original vector geometry with native editable text and outline glyph paths for mathematical fonts. Native paths are not semantically attached connectors. Source comparison pending; no target application editing QA claimed. Type3 font text records removed because their original glyph outlines are already emitted as editable source paths; this prevents duplicate garbled text.",
+    "page": 5,
+    "status": "figure_recreation",
+    "source_sha256": "b4d8d200e4bdf748a5f3b8522425e545e3b325015aca8bb1a7287c8025a40279",
+    "source_crop_pdf_points": [
+      167,
+      74,
+      426,
+      161
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "outlined_font_families": [
+      "CMM",
+      "CMSY",
+      "CMEX",
+      "CMR",
+      "CambriaMath"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "extraction_warnings": [
+      "67 source clipping groups intersect crop; extracted paths require explicit clipping review"
+    ]
+  },
+  "metrics": {
+    "native_nodes": 156,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 155,
+    "native_text_objects": 1,
+    "raster_images": 0,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "elsim-figure-1.drawio",
+      "sha256": "773355d508e98ae98ded70bc7919fd2d5bead38675ae61d3c13b04d7c8e2e69f"
+    },
+    {
+      "name": "elsim-figure-1.png",
+      "sha256": "91cea681a25e7826ade73b5b84874f6a26a3cfd7b41427848995000b2d0a6ac6"
+    },
+    {
+      "name": "elsim-figure-1.pptx",
+      "sha256": "d1464be7fcc087ebddda9b09f57fe03d1647f5e1db0bab8a405d655cfa7bea5a"
+    }
+  ]
+}

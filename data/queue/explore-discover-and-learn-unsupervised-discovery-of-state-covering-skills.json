@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "explore-discover-and-learn-unsupervised-discovery-of-state-covering-skills",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.471432Z",
-  "updated_at": "2026-10-09T20:04:59.471432Z",
+  "updated_at": "2026-10-09T20:14:36.210054Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,183 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/explore-discover-and-learn-unsupervised-discovery-of-state-covering-skills.json",
+          "https://arxiv.org/pdf/2002.03647v4"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/explore-discover-and-learn-unsupervised-discovery-of-state-covering-skills.json",
+          "sha256": "a44d418409be1b9ac377be1ff2dc62c29cb6426d7ae5056b8db83088050aa79e"
+        },
+        "version": "2002.03647v4",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "All 17 PDF pages visually scanned via contact sheet, with Figure1page1 inspected full-size. Figures depict experimental maze trajectories, coverage, and plots; no main architecture/method diagram located. Algorithm1page5 is pseudocode.",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Explore, Discover and Learn: Unsupervised Discovery of State-Covering Skills",
+        "observed_title": "Explore, Discover and Learn: Unsupervised Discovery of State-Covering Skills",
+        "source_url": "https://arxiv.org/pdf/2002.03647v4",
+        "source_sha256": "2a89ea1ffc49f8e00cf2c0b3481aa5a1d09e955a085fd5235aa7be87dc4573f1",
+        "reported_title_match": true,
+        "identity_review_basis": "full_source_visual_scan",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/explore-discover-and-learn-unsupervised-discovery-of-state-covering-skills.json",
+          "https://arxiv.org/pdf/2002.03647v4"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/explore-discover-and-learn-unsupervised-discovery-of-state-covering-skills.json",
+          "sha256": "a44d418409be1b9ac377be1ff2dc62c29cb6426d7ae5056b8db83088050aa79e"
+        },
+        "version": "2002.03647v4",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "All 17 PDF pages visually scanned via contact sheet, with Figure1page1 inspected full-size. Figures depict experimental maze trajectories, coverage, and plots; no main architecture/method diagram located. Algorithm1page5 is pseudocode.",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/explore-discover-and-learn-unsupervised-discovery-of-state-covering-skills/original.pdf",
+          "reported_sha256": "2a89ea1ffc49f8e00cf2c0b3481aa5a1d09e955a085fd5235aa7be87dc4573f1",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 17,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/explore-discover-and-learn-unsupervised-discovery-of-state-covering-skills.json",
+          "https://arxiv.org/pdf/2002.03647v4"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/explore-discover-and-learn-unsupervised-discovery-of-state-covering-skills.json",
+          "sha256": "a44d418409be1b9ac377be1ff2dc62c29cb6426d7ae5056b8db83088050aa79e"
+        },
+        "version": "2002.03647v4",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "All 17 PDF pages visually scanned via contact sheet, with Figure1page1 inspected full-size. Figures depict experimental maze trajectories, coverage, and plots; no main architecture/method diagram located. Algorithm1page5 is pseudocode.",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [],
+        "reviewed_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17
+        ],
+        "no_method_figure_reported": true,
+        "visual_scan_coverage": {
+          "pages_scanned_1_based": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17
+          ],
+          "page_count": 17,
+          "contact_sheet_inspected": true,
+          "distinct_numbered_figure_captions_extracted": 11,
+          "figure_caption_inventory": [
+            {
+              "figure": 1,
+              "page_1_based": 1,
+              "caption": "Figure 1. Skills learned on a maze with bottleneck states. Each\ncolored line represents a trajectory initiated at the black dot by a\ndifferent skill. Multiple rollouts per skill are reported in order to\naccount for the stochasticity of the policy. The bottom left plot\ndepicts states visited by a policy with random weights, showing\nwhich states are reachable by the agent at the beginning of training.\nExisting methods fail at expanding this set of states, and end up\ncommitting to behaviors discovered by the random policy. On the\nother hand, EDL discovers skills that provide a better coverage of\nthe state space."
+            },
+            {
+              "figure": 2,
+              "page_1_based": 6,
+              "caption": "Figure 2. Impact of replacing the oracle with State Marginal Match-\ning (SMM) in the exploration stage. Top: baselines fail at discov-\nering skills that reach the right side of the maze. Bottom: EDL\ndiscovers skills that are spread across the whole maze, even when\nreplacing the oracle with SMM. We observed that SMM tended\nto collect more samples near the walls, which explains the slight\ndifference in the discovered options."
+            },
+            {
+              "figure": 3,
+              "page_1_based": 6,
+              "caption": "Figure 3. Impact of the distribution over initial states, p(s0). Top:\nbaselines are very sensitive to p(s0) and discover very different\nskills depending on this distribution. Bottom: we report two differ-\nent experiments with EDL. The setup on the left performs explo-\nration and skill discovery in Ecenter and then learns skills in both\nEcenter and Eleft. The one on the right performs exploration and\nskill discovery in Eleft instead. Options discovered by EDL are\nvery similar in both setups."
+            },
+            {
+              "figure": 4,
+              "page_1_based": 7,
+              "caption": "Figure 4. Incorporating priors over skills, where we are interested\nin learning skills on the right side of the maze. Top: this type\nof prior cannot be incorporated into baseline methods, whose\ndiscovered options are agnostic to it. Bottom: in the absence of\na prior, EDL learns options across the whole state space. When\nincorporating the prior, the agent devotes all its capacity to learning\nskills within the region of interest."
+            },
+            {
+              "figure": 5,
+              "page_1_based": 7,
+              "caption": "Figure 5. Interpolating skills learned by EDL. Interpolation is per-\nformed at the latent variable level by blending the z vector of two\nskills. The ﬁrst row and column show the original skills being\ninterpolated, which were selected randomly from the set of learned\noptions. When plotting interpolated skills, we blend the colors\nused for the original skills."
+            },
+            {
+              "figure": 6,
+              "page_1_based": 13,
+              "caption": "Figure 6. Analysis of the reward landscape on a toy gridworld\nwith two skills, assuming perfect density estimation. Under this\nassumption, both forms of the mutual information generate the\nsame reward landscape. Each column depicts a different skill, and\nall rollouts always start from the central tile which is highlighted\nin red. Skills are rewarded for visiting known states where they\nare maximally distinguishable, but receive no reward for visiting\nnovel states."
+            },
+            {
+              "figure": 7,
+              "page_1_based": 15,
+              "caption": "Figure 7. Goal states discovered by methods using the forward\nform of the mutual information in Figure 1. We deﬁne a goal\nstate as the most likely state under qφ(s|z) for each skill, i.e. gi =\nargmaxsqφ(s|zi). The baseline method relies on the stationary\nstate-distribution induced by the policy to discover goals. This\npolicy seldom leaves the initial room, limiting the goals that can\nbe discovered. In contrast, the uniform distribution over states in\nEDL enables the discovery of goals across the whole maze."
+            },
+            {
+              "figure": 8,
+              "page_1_based": 16,
+              "caption": "Figure 8. Reward landscape per skill at convergence for the agent in Figure 1 (left). Trajectories from each skill starting from the black\ndot are plotted in gray. The yellow star indicates the point of maximum reward for each skill. For some skills, this point belongs to an\nunexplored region of the state space, contrary to the intuition in Section A. Note that this is due to the Gaussian assumption over p(s|z) in\nthe density model."
+            },
+            {
+              "figure": 9,
+              "page_1_based": 16,
+              "caption": "Figure 9. Approximate posterior qφ(z|s) at convergence for the agent in Figure 1 (middle). Recall that the reward function for this agent\nis r(s, z) = log qφ(z|s) −log p(z), and log p(z) is constant in our experiments due to the choice of prior over latent variables. The state\nspace is partitioned in disjoint regions, so that skills only need to enter their corresponding region in order to maximize reward. Note how\nqφ(z|s) extrapolates this partition to states that have never been visited by the policy. When combined with an entropy bonus, this reward\nlandscape results in skills that produce highly entropic trajectories within each region."
+            },
+            {
+              "figure": 10,
+              "page_1_based": 17,
+              "caption": "Figure 10. Reward landscape per skill at convergence for the agent in Figure 1 (right). The reward functions follow a bell shape centered\nat each of the centroids in Figure 7 (right). These are dense signals that ease optimization, but training is prone to falling in local optima\ndue to their deceptive nature."
+            },
+            {
+              "figure": 11,
+              "page_1_based": 17,
+              "caption": "Figure 11. Interpolating skills learned by EDL. Interpolation is performed at the latent variable level by blending the z vector of two skills.\nThe ﬁrst row and column show the original skills being interpolated, which were selected randomly from the set of learned options. When\nplotting interpolated skills, we blend the colors used for the original skills."
+            }
+          ]
+        },
+        "scope": "No architecture, block, or algorithm-process diagram located in full source. Photographs, result plots, trajectory maps and experimental visualizations are not silently converted into invented architecture."
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +226,233 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.754444Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "00dff4da7904b36098f1280580d73098c7a492b781013f8fb94e3bf2c43770a3",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/explore-discover-and-learn-unsupervised-discovery-of-state-covering-skills.json",
+                "https://arxiv.org/pdf/2002.03647v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/explore-discover-and-learn-unsupervised-discovery-of-state-covering-skills.json",
+                "sha256": "a44d418409be1b9ac377be1ff2dc62c29cb6426d7ae5056b8db83088050aa79e"
+              },
+              "version": "2002.03647v4",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "All 17 PDF pages visually scanned via contact sheet, with Figure1page1 inspected full-size. Figures depict experimental maze trajectories, coverage, and plots; no main architecture/method diagram located. Algorithm1page5 is pseudocode.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Explore, Discover and Learn: Unsupervised Discovery of State-Covering Skills",
+              "observed_title": "Explore, Discover and Learn: Unsupervised Discovery of State-Covering Skills",
+              "source_url": "https://arxiv.org/pdf/2002.03647v4",
+              "source_sha256": "2a89ea1ffc49f8e00cf2c0b3481aa5a1d09e955a085fd5235aa7be87dc4573f1",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/explore-discover-and-learn-unsupervised-discovery-of-state-covering-skills.json",
+                "https://arxiv.org/pdf/2002.03647v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/explore-discover-and-learn-unsupervised-discovery-of-state-covering-skills.json",
+                "sha256": "a44d418409be1b9ac377be1ff2dc62c29cb6426d7ae5056b8db83088050aa79e"
+              },
+              "version": "2002.03647v4",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "All 17 PDF pages visually scanned via contact sheet, with Figure1page1 inspected full-size. Figures depict experimental maze trajectories, coverage, and plots; no main architecture/method diagram located. Algorithm1page5 is pseudocode.",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/explore-discover-and-learn-unsupervised-discovery-of-state-covering-skills/original.pdf",
+                "reported_sha256": "2a89ea1ffc49f8e00cf2c0b3481aa5a1d09e955a085fd5235aa7be87dc4573f1",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 17,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/explore-discover-and-learn-unsupervised-discovery-of-state-covering-skills.json",
+                "https://arxiv.org/pdf/2002.03647v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/explore-discover-and-learn-unsupervised-discovery-of-state-covering-skills.json",
+                "sha256": "a44d418409be1b9ac377be1ff2dc62c29cb6426d7ae5056b8db83088050aa79e"
+              },
+              "version": "2002.03647v4",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "All 17 PDF pages visually scanned via contact sheet, with Figure1page1 inspected full-size. Figures depict experimental maze trajectories, coverage, and plots; no main architecture/method diagram located. Algorithm1page5 is pseudocode.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [],
+              "reviewed_pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15,
+                16,
+                17
+              ],
+              "no_method_figure_reported": true,
+              "visual_scan_coverage": {
+                "pages_scanned_1_based": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15,
+                  16,
+                  17
+                ],
+                "page_count": 17,
+                "contact_sheet_inspected": true,
+                "distinct_numbered_figure_captions_extracted": 11,
+                "figure_caption_inventory": [
+                  {
+                    "figure": 1,
+                    "page_1_based": 1,
+                    "caption": "Figure 1. Skills learned on a maze with bottleneck states. Each\ncolored line represents a trajectory initiated at the black dot by a\ndifferent skill. Multiple rollouts per skill are reported in order to\naccount for the stochasticity of the policy. The bottom left plot\ndepicts states visited by a policy with random weights, showing\nwhich states are reachable by the agent at the beginning of training.\nExisting methods fail at expanding this set of states, and end up\ncommitting to behaviors discovered by the random policy. On the\nother hand, EDL discovers skills that provide a better coverage of\nthe state space."
+                  },
+                  {
+                    "figure": 2,
+                    "page_1_based": 6,
+                    "caption": "Figure 2. Impact of replacing the oracle with State Marginal Match-\ning (SMM) in the exploration stage. Top: baselines fail at discov-\nering skills that reach the right side of the maze. Bottom: EDL\ndiscovers skills that are spread across the whole maze, even when\nreplacing the oracle with SMM. We observed that SMM tended\nto collect more samples near the walls, which explains the slight\ndifference in the discovered options."
+                  },
+                  {
+                    "figure": 3,
+                    "page_1_based": 6,
+                    "caption": "Figure 3. Impact of the distribution over initial states, p(s0). Top:\nbaselines are very sensitive to p(s0) and discover very different\nskills depending on this distribution. Bottom: we report two differ-\nent experiments with EDL. The setup on the left performs explo-\nration and skill discovery in Ecenter and then learns skills in both\nEcenter and Eleft. The one on the right performs exploration and\nskill discovery in Eleft instead. Options discovered by EDL are\nvery similar in both setups."
+                  },
+                  {
+                    "figure": 4,
+                    "page_1_based": 7,
+                    "caption": "Figure 4. Incorporating priors over skills, where we are interested\nin learning skills on the right side of the maze. Top: this type\nof prior cannot be incorporated into baseline methods, whose\ndiscovered options are agnostic to it. Bottom: in the absence of\na prior, EDL learns options across the whole state space. When\nincorporating the prior, the agent devotes all its capacity to learning\nskills within the region of interest."
+                  },
+                  {
+                    "figure": 5,
+                    "page_1_based": 7,
+                    "caption": "Figure 5. Interpolating skills learned by EDL. Interpolation is per-\nformed at the latent variable level by blending the z vector of two\nskills. The ﬁrst row and column show the original skills being\ninterpolated, which were selected randomly from the set of learned\noptions. When plotting interpolated skills, we blend the colors\nused for the original skills."
+                  },
+                  {
+                    "figure": 6,
+                    "page_1_based": 13,
+                    "caption": "Figure 6. Analysis of the reward landscape on a toy gridworld\nwith two skills, assuming perfect density estimation. Under this\nassumption, both forms of the mutual information generate the\nsame reward landscape. Each column depicts a different skill, and\nall rollouts always start from the central tile which is highlighted\nin red. Skills are rewarded for visiting known states where they\nare maximally distinguishable, but receive no reward for visiting\nnovel states."
+                  },
+                  {
+                    "figure": 7,
+                    "page_1_based": 15,
+                    "caption": "Figure 7. Goal states discovered by methods using the forward\nform of the mutual information in Figure 1. We deﬁne a goal\nstate as the most likely state under qφ(s|z) for each skill, i.e. gi =\nargmaxsqφ(s|zi). The baseline method relies on the stationary\nstate-distribution induced by the policy to discover goals. This\npolicy seldom leaves the initial room, limiting the goals that can\nbe discovered. In contrast, the uniform distribution over states in\nEDL enables the discovery of goals across the whole maze."
+                  },
+                  {
+                    "figure": 8,
+                    "page_1_based": 16,
+                    "caption": "Figure 8. Reward landscape per skill at convergence for the agent in Figure 1 (left). Trajectories from each skill starting from the black\ndot are plotted in gray. The yellow star indicates the point of maximum reward for each skill. For some skills, this point belongs to an\nunexplored region of the state space, contrary to the intuition in Section A. Note that this is due to the Gaussian assumption over p(s|z) in\nthe density model."
+                  },
+                  {
+                    "figure": 9,
+                    "page_1_based": 16,
+                    "caption": "Figure 9. Approximate posterior qφ(z|s) at convergence for the agent in Figure 1 (middle). Recall that the reward function for this agent\nis r(s, z) = log qφ(z|s) −log p(z), and log p(z) is constant in our experiments due to the choice of prior over latent variables. The state\nspace is partitioned in disjoint regions, so that skills only need to enter their corresponding region in order to maximize reward. Note how\nqφ(z|s) extrapolates this partition to states that have never been visited by the policy. When combined with an entropy bonus, this reward\nlandscape results in skills that produce highly entropic trajectories within each region."
+                  },
+                  {
+                    "figure": 10,
+                    "page_1_based": 17,
+                    "caption": "Figure 10. Reward landscape per skill at convergence for the agent in Figure 1 (right). The reward functions follow a bell shape centered\nat each of the centroids in Figure 7 (right). These are dense signals that ease optimization, but training is prone to falling in local optima\ndue to their deceptive nature."
+                  },
+                  {
+                    "figure": 11,
+                    "page_1_based": 17,
+                    "caption": "Figure 11. Interpolating skills learned by EDL. Interpolation is performed at the latent variable level by blending the z vector of two skills.\nThe ﬁrst row and column show the original skills being interpolated, which were selected randomly from the set of learned options. When\nplotting interpolated skills, we blend the colors used for the original skills."
+                  }
+                ]
+              },
+              "scope": "No architecture, block, or algorithm-process diagram located in full source. Photographs, result plots, trajectory maps and experimental visualizations are not silently converted into invented architecture."
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.210054Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "46cabb3549541af0eecc998d7bce47416b6ee333ab190547a111e5d256996d18",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/explore-discover-and-learn-unsupervised-discovery-of-state-covering-skills.json",
+                "https://arxiv.org/pdf/2002.03647v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/explore-discover-and-learn-unsupervised-discovery-of-state-covering-skills.json",
+                "sha256": "a44d418409be1b9ac377be1ff2dc62c29cb6426d7ae5056b8db83088050aa79e"
+              },
+              "version": "2002.03647v4",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "All 17 PDF pages visually scanned via contact sheet, with Figure1page1 inspected full-size. Figures depict experimental maze trajectories, coverage, and plots; no main architecture/method diagram located. Algorithm1page5 is pseudocode.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Explore, Discover and Learn: Unsupervised Discovery of State-Covering Skills",
+              "observed_title": "Explore, Discover and Learn: Unsupervised Discovery of State-Covering Skills",
+              "source_url": "https://arxiv.org/pdf/2002.03647v4",
+              "source_sha256": "2a89ea1ffc49f8e00cf2c0b3481aa5a1d09e955a085fd5235aa7be87dc4573f1",
+              "reported_title_match": true,
+              "identity_review_basis": "full_source_visual_scan",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,43 @@
+{
+  "catalog_index": 123,
+  "catalog_id": "robocerebra-a-large-scale-benchmark-for-long-horizon-robotic-manipulation-evaluation",
+  "title_expected": "RoboCerebra: A Large-Scale Benchmark for Long-Horizon Robotic Manipulation Evaluation",
+  "source_url": "https://arxiv.org/pdf/2506.06677v2",
+  "pdf_path": "build/sources/robocerebra-a-large-scale-benchmark-for-long-horizon-robotic-manipulation-evaluation.pdf",
+  "pdf_sha256": "cca6d9a78c2a4768497fba712c96a1434f91e4beb6891fb02c12eed5b53ef90d",
+  "pdf_title_observed": "RoboCerebra: A Large-scale Benchmark for Long-horizon Robotic Manipulation Evaluation",
+  "first_page_title_text": "RoboCerebra: A Large-scale Benchmark for\nLong-horizon Robotic Manipulation Evaluation\nSonghao Han1∗\nBoxiang Qiu1∗\nYue Liao2∗†\nSiyuan Huang3\nChen Gao1\nShuicheng Yan2‡\nSi Liu1‡\n1Beihang University\n2National University of Singapore\n3Shanghai Jiao Tong University\nrobocerebra.github.io\n1\nPick up popcorn \nfrom the \nwooden cabinet\n2\nPour popcorn \ninto black bowl\n3\nPlace popcorn \non coffee table\n4\nOpen th",
+  "title_match": true,
+  "version": "2506.06677v2",
+  "page_count": 25,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Figure 1: We shift the focus of robotic imitation learning from fast, reactive System 1 behavior to slow, deliberative System 2 reasoning. To support this, we introduce RoboCerebra, a benchmark centered on long-horizon tasks composed of extended subtask sequences. (a) A top-down data generation pipeline uses an LLM to produce high-level task instructions and decompose them into subtasks. Human operators execute these in simulation to collect traj",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 2: Task generation pipeline in RoboCerebra. (a) Objects are randomly sampled from Libero’s item library and converted into structured representations based on their categories and attributes. (b) The structured data is fed into an LLM to generate high-level task descriptions, which are hierarchically decomposed into low-level substeps. (c) The resulting task plan is parsed into executable simulator code via rule-based transformations. The ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 3: The statistical analysis of our RoboCerebra dataset. . (a) Distribution of minimum steps per task, highlighting its long-horizon nature. (b) Frequency of action categories, with dominant primitives (place, pick, pour) and rare fine-grained actions. (c) Number of action categories per task, showing high compositional diversity—over 10% of tasks involve five or more action types. interactions across steps, preventing logically invalid or ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 4: Overview of our HPE framework. Left: VLA model training uses paired images and single-step instructions to optimize a visual token policy. VLM training uses execution videos with success-labeled instructions for temporal grounding. Right: During execution, the VLM processes low-frequency observations to update low-level plans stored in memory bank, while the VLA consumes high-frequency observations to execute fine-grained actions based ",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

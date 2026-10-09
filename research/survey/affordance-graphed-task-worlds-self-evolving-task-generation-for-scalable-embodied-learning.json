@@ -1,0 +1,55 @@
+{
+  "catalog_index": 88,
+  "catalog_id": "affordance-graphed-task-worlds-self-evolving-task-generation-for-scalable-embodied-learning",
+  "title_expected": "Affordance-Graphed Task Worlds: Self-Evolving Task Generation for Scalable Embodied Learning",
+  "source_url": "https://arxiv.org/pdf/2602.12065v2",
+  "pdf_path": "build/sources/affordance-graphed-task-worlds-self-evolving-task-generation-for-scalable-embodied-learning.pdf",
+  "pdf_sha256": "b674fcff9f5ac42c4f950ed94e2f37077468b383b4f77878a59060d4c212475d",
+  "pdf_title_observed": "Scene2Demo: Self-Evolving Embodied Data Generation via Object-Action Graph",
+  "first_page_title_text": "SCENE2DEMO: Self-Evolving Embodied Data Generation\nvia Object-Action Graph\nXiang Liu∗\nSen Cui∗,†\nGuocai Yao\nZhong Cao\nJingheng Ma\nMin Zhang\nChangshui Zhang†\n∗Equal contribution\n†Corresponding authors\ncuis@mail.tsinghua.edu.cn\nzcs@mail.tsinghua.edu.cn\nAbstract\nWe present SCENE2DEMO, a self-evolving framework\nfor offline embodied data generation. Given a single real-\nworld RGB image and a user query",
+  "title_match": true,
+  "version": "2602.12065v2",
+  "page_count": 30,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1. An introduction of our pipeline. produce step-wise critiques. The Robotic Task Supervisor then aggregates these critiques with a longer-horizon video context, the current action flow, and previous iteration his- tory. It revises the action flow through sequence modifi- cation or parameter adjustment, while reusing the primi- tive action library as the executable action interface. This closed-loop design follows the broader idea of combi",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 2. Universal object-action graph. Universal object-action graph. Let O denote the set of all manipulable objects, A denote the universal set of atomic actions, and N+ denote the discrete temporal order within a simple task. We define a universal directed graph G = (V, E), V = O × A × N+, (5) where E ⊂V ×V represents physically or semantically fea- sible transitions between object-action-time configurations. 4 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 3. Graph-Based Task Generation with Self-Evolution. For details, see Appendix A.2,A.3. 4.1. Experimental Setup We first evaluate primitive task generation on 102 automati- cally generated scene-task pairs reconstructed from 34 real- world scenes. These tasks include articulated-object oper- ations (T5: open/close) and rigid-object manipulation (T6: pick/place). We then evaluate long-horizon execution on four representative tasks: T1: “Put ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 4. Detailed experimental results can be found in Ap- pendix C.5,C.6. Failures in the later stages mainly stem from situations such as objects falling or getting stuck at 6 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 4. Detailed Action Display of Self-Evolution. We take the task T1 (Glass→Refrigerator) as an example. The task is always decomposed into four subtasks: “open refrigerator”, “pick up glass”, “put glass into refrigerator”, and “close refrigerator”. the edges, and these situations are usually difficult to cor- rect within a few steps. For detailed failure analysis, see Appendix C.7. 4.4. Repeated Decomposition and Ablation Studies We also ana",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 5. Comprehensive Evaluation and Ablation Studies. (a) Automatically generated 102 primitive scene-task pairs. (b) Repeated decomposition study on the same user query. (c) Wall-clock time analysis of SCENE2DEMO. Bars show average time with the observed range. (d) Ablation on visual input views for self-evolution. (e) Ablation on the context window p1. Ablations are conducted on task T1. action MLP to predict 10-DoF actions (7-DoF arm/grippe",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

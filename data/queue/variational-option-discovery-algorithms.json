@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "variational-option-discovery-algorithms",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.473048Z",
-  "updated_at": "2026-10-09T20:04:59.473048Z",
+  "updated_at": "2026-10-09T20:14:36.881623Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,103 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/variational-option-discovery-algorithms.json",
+          "https://arxiv.org/pdf/1807.10299v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/variational-option-discovery-algorithms.json",
+          "sha256": "c2b0cc7160ae1dce2456c4c9a3b712b10a246410a096a30ebf3ea0d955eb0125"
+        },
+        "version": "1807.10299v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Variational Option Discovery Algorithms",
+        "observed_title": "Variational Option Discovery Algorithms",
+        "source_url": "https://arxiv.org/pdf/1807.10299v1",
+        "source_sha256": "a2581310989e6cfc5312e67e74ee288ccf26ab6d066a1057b72192d5de407604",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/variational-option-discovery-algorithms.json",
+          "https://arxiv.org/pdf/1807.10299v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/variational-option-discovery-algorithms.json",
+          "sha256": "c2b0cc7160ae1dce2456c4c9a3b712b10a246410a096a30ebf3ea0d955eb0125"
+        },
+        "version": "1807.10299v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/variational-option-discovery-algorithms/original.pdf",
+          "reported_sha256": "a2581310989e6cfc5312e67e74ee288ccf26ab6d066a1057b72192d5de407604",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 29,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/variational-option-discovery-algorithms.json",
+          "https://arxiv.org/pdf/1807.10299v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/variational-option-discovery-algorithms.json",
+          "sha256": "c2b0cc7160ae1dce2456c4c9a3b712b10a246410a096a30ebf3ea0d955eb0125"
+        },
+        "version": "1807.10299v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 1",
+            "page_1_based": 4,
+            "caption": "Figure 1: Bidirectional LSTM architec-\nture for VALOR decoder. Blue blocks\nare LSTM cells.",
+            "crop_pdf_points": [
+              351,
+              376,
+              487,
+              505
+            ],
+            "vector_paths": 0,
+            "native_text_spans": 0,
+            "raster_images": 1,
+            "source_type": "raster",
+            "visually_inspected": true,
+            "notes": "VALOR bidirectional LSTM decoder: two rows of blue recurrent cells, state-difference inputs, linear projections, average pooling and logits output."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +146,153 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.400621Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "0efb19a53b776daef4820d5e1aa31a75e4976e624fc0c6e6e4397ca535183e7f",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/variational-option-discovery-algorithms.json",
+                "https://arxiv.org/pdf/1807.10299v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/variational-option-discovery-algorithms.json",
+                "sha256": "c2b0cc7160ae1dce2456c4c9a3b712b10a246410a096a30ebf3ea0d955eb0125"
+              },
+              "version": "1807.10299v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Variational Option Discovery Algorithms",
+              "observed_title": "Variational Option Discovery Algorithms",
+              "source_url": "https://arxiv.org/pdf/1807.10299v1",
+              "source_sha256": "a2581310989e6cfc5312e67e74ee288ccf26ab6d066a1057b72192d5de407604",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/variational-option-discovery-algorithms.json",
+                "https://arxiv.org/pdf/1807.10299v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/variational-option-discovery-algorithms.json",
+                "sha256": "c2b0cc7160ae1dce2456c4c9a3b712b10a246410a096a30ebf3ea0d955eb0125"
+              },
+              "version": "1807.10299v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/variational-option-discovery-algorithms/original.pdf",
+                "reported_sha256": "a2581310989e6cfc5312e67e74ee288ccf26ab6d066a1057b72192d5de407604",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 29,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/variational-option-discovery-algorithms.json",
+                "https://arxiv.org/pdf/1807.10299v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/variational-option-discovery-algorithms.json",
+                "sha256": "c2b0cc7160ae1dce2456c4c9a3b712b10a246410a096a30ebf3ea0d955eb0125"
+              },
+              "version": "1807.10299v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 1",
+                  "page_1_based": 4,
+                  "caption": "Figure 1: Bidirectional LSTM architec-\nture for VALOR decoder. Blue blocks\nare LSTM cells.",
+                  "crop_pdf_points": [
+                    351,
+                    376,
+                    487,
+                    505
+                  ],
+                  "vector_paths": 0,
+                  "native_text_spans": 0,
+                  "raster_images": 1,
+                  "source_type": "raster",
+                  "visually_inspected": true,
+                  "notes": "VALOR bidirectional LSTM decoder: two rows of blue recurrent cells, state-difference inputs, linear projections, average pooling and logits output."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.881623Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "f83609196e01a1127a2b72692667099cf1c71f19d80a9468b7ee7267d9619491",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/variational-option-discovery-algorithms.json",
+                "https://arxiv.org/pdf/1807.10299v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/variational-option-discovery-algorithms.json",
+                "sha256": "c2b0cc7160ae1dce2456c4c9a3b712b10a246410a096a30ebf3ea0d955eb0125"
+              },
+              "version": "1807.10299v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Variational Option Discovery Algorithms",
+              "observed_title": "Variational Option Discovery Algorithms",
+              "source_url": "https://arxiv.org/pdf/1807.10299v1",
+              "source_sha256": "a2581310989e6cfc5312e67e74ee288ccf26ab6d066a1057b72192d5de407604",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

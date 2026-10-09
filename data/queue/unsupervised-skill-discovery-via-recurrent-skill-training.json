@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "unsupervised-skill-discovery-via-recurrent-skill-training",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.466543Z",
-  "updated_at": "2026-10-09T20:04:59.466543Z",
+  "updated_at": "2026-10-09T20:14:36.853006Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,103 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/unsupervised-skill-discovery-via-recurrent-skill-training.json",
+          "https://proceedings.neurips.cc/paper_files/paper/2022/file/ff6b031d5bdc552b795175a0f3b35a50-Paper-Conference.pdf"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/unsupervised-skill-discovery-via-recurrent-skill-training.json",
+          "sha256": "68d2c3fba37918a0bec0d7b3e39f4b9351e4e0e5ab86b803199294ef6af6213e"
+        },
+        "version": null,
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "Title verified directly in PDF first-page text.",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Unsupervised Skill Discovery via Recurrent Skill Training",
+        "observed_title": "Unsupervised Skill Discovery via Recurrent Skill Training",
+        "source_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/ff6b031d5bdc552b795175a0f3b35a50-Paper-Conference.pdf",
+        "source_sha256": "41a5560ebdf0f65e6f161b5ae47cfd26786ddb6606eaebc5570e97f723fa7ab3",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/unsupervised-skill-discovery-via-recurrent-skill-training.json",
+          "https://proceedings.neurips.cc/paper_files/paper/2022/file/ff6b031d5bdc552b795175a0f3b35a50-Paper-Conference.pdf"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/unsupervised-skill-discovery-via-recurrent-skill-training.json",
+          "sha256": "68d2c3fba37918a0bec0d7b3e39f4b9351e4e0e5ab86b803199294ef6af6213e"
+        },
+        "version": null,
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "Title verified directly in PDF first-page text.",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/unsupervised-skill-discovery-via-recurrent-skill-training/original.pdf",
+          "reported_sha256": "41a5560ebdf0f65e6f161b5ae47cfd26786ddb6606eaebc5570e97f723fa7ab3",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 13,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/unsupervised-skill-discovery-via-recurrent-skill-training.json",
+          "https://proceedings.neurips.cc/paper_files/paper/2022/file/ff6b031d5bdc552b795175a0f3b35a50-Paper-Conference.pdf"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/unsupervised-skill-discovery-via-recurrent-skill-training.json",
+          "sha256": "68d2c3fba37918a0bec0d7b3e39f4b9351e4e0e5ab86b803199294ef6af6213e"
+        },
+        "version": null,
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "Title verified directly in PDF first-page text.",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 3",
+            "page_1_based": 3,
+            "caption": "Figure 3: Intuitive illustration of the ReST algorithm. Each color represents a skill. The lines in the\nﬁgures represent trajectory rollouts of skills whereas the shaded areas indicate the estimated state\ndistribution of the skills. The ﬁgure on the left demonstrates the initialization of the three skills, where\nall skills’ trajectories are entangled together. Then ReST starts with training skill 1 by optimizing the\nreward function in Equation (7), which encourages the trained skill to stay away from the estimated\nstate visitation distributions of other skills. ReST then continues to optimize skill 2, 3 and goes back\nto optimize skill 1 recurrently. After convergence, the skills would be spreaded out to cover diverse\nstates as shown in the ﬁgure on the right.",
+            "crop_pdf_points": [
+              146,
+              548,
+              465,
+              642
+            ],
+            "vector_paths": 62,
+            "native_text_spans": 16,
+            "raster_images": 14,
+            "source_type": "vector/text with embedded raster components",
+            "visually_inspected": true,
+            "notes": "ReST method sequence of six trajectory panels, initialized through sequential skill updates to convergence, with colored state visitation density clouds and three skill trajectory legends."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +146,153 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.372423Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "68ea62dd139db75a6405bb2a1825ef3572eff9b5640eb17efd9d000a1ce2eaec",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-skill-discovery-via-recurrent-skill-training.json",
+                "https://proceedings.neurips.cc/paper_files/paper/2022/file/ff6b031d5bdc552b795175a0f3b35a50-Paper-Conference.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-skill-discovery-via-recurrent-skill-training.json",
+                "sha256": "68d2c3fba37918a0bec0d7b3e39f4b9351e4e0e5ab86b803199294ef6af6213e"
+              },
+              "version": null,
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "Title verified directly in PDF first-page text.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Unsupervised Skill Discovery via Recurrent Skill Training",
+              "observed_title": "Unsupervised Skill Discovery via Recurrent Skill Training",
+              "source_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/ff6b031d5bdc552b795175a0f3b35a50-Paper-Conference.pdf",
+              "source_sha256": "41a5560ebdf0f65e6f161b5ae47cfd26786ddb6606eaebc5570e97f723fa7ab3",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-skill-discovery-via-recurrent-skill-training.json",
+                "https://proceedings.neurips.cc/paper_files/paper/2022/file/ff6b031d5bdc552b795175a0f3b35a50-Paper-Conference.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-skill-discovery-via-recurrent-skill-training.json",
+                "sha256": "68d2c3fba37918a0bec0d7b3e39f4b9351e4e0e5ab86b803199294ef6af6213e"
+              },
+              "version": null,
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "Title verified directly in PDF first-page text.",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/unsupervised-skill-discovery-via-recurrent-skill-training/original.pdf",
+                "reported_sha256": "41a5560ebdf0f65e6f161b5ae47cfd26786ddb6606eaebc5570e97f723fa7ab3",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 13,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-skill-discovery-via-recurrent-skill-training.json",
+                "https://proceedings.neurips.cc/paper_files/paper/2022/file/ff6b031d5bdc552b795175a0f3b35a50-Paper-Conference.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-skill-discovery-via-recurrent-skill-training.json",
+                "sha256": "68d2c3fba37918a0bec0d7b3e39f4b9351e4e0e5ab86b803199294ef6af6213e"
+              },
+              "version": null,
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "Title verified directly in PDF first-page text.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 3",
+                  "page_1_based": 3,
+                  "caption": "Figure 3: Intuitive illustration of the ReST algorithm. Each color represents a skill. The lines in the\nﬁgures represent trajectory rollouts of skills whereas the shaded areas indicate the estimated state\ndistribution of the skills. The ﬁgure on the left demonstrates the initialization of the three skills, where\nall skills’ trajectories are entangled together. Then ReST starts with training skill 1 by optimizing the\nreward function in Equation (7), which encourages the trained skill to stay away from the estimated\nstate visitation distributions of other skills. ReST then continues to optimize skill 2, 3 and goes back\nto optimize skill 1 recurrently. After convergence, the skills would be spreaded out to cover diverse\nstates as shown in the ﬁgure on the right.",
+                  "crop_pdf_points": [
+                    146,
+                    548,
+                    465,
+                    642
+                  ],
+                  "vector_paths": 62,
+                  "native_text_spans": 16,
+                  "raster_images": 14,
+                  "source_type": "vector/text with embedded raster components",
+                  "visually_inspected": true,
+                  "notes": "ReST method sequence of six trajectory panels, initialized through sequential skill updates to convergence, with colored state visitation density clouds and three skill trajectory legends."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.853006Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "a9b3d29ab8201dcdfc113315ffa4140ce3f79da6f9416c16ad23a8a62de4f30c",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-skill-discovery-via-recurrent-skill-training.json",
+                "https://proceedings.neurips.cc/paper_files/paper/2022/file/ff6b031d5bdc552b795175a0f3b35a50-Paper-Conference.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-skill-discovery-via-recurrent-skill-training.json",
+                "sha256": "68d2c3fba37918a0bec0d7b3e39f4b9351e4e0e5ab86b803199294ef6af6213e"
+              },
+              "version": null,
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "Title verified directly in PDF first-page text.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Unsupervised Skill Discovery via Recurrent Skill Training",
+              "observed_title": "Unsupervised Skill Discovery via Recurrent Skill Training",
+              "source_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/ff6b031d5bdc552b795175a0f3b35a50-Paper-Conference.pdf",
+              "source_sha256": "41a5560ebdf0f65e6f161b5ae47cfd26786ddb6606eaebc5570e97f723fa7ab3",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "variational-intrinsic-control",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.474685Z",
-  "updated_at": "2026-10-09T20:04:59.474685Z",
+  "updated_at": "2026-10-09T20:14:36.875458Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,154 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/variational-intrinsic-control.json",
+          "https://arxiv.org/pdf/1611.07507v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/variational-intrinsic-control.json",
+          "sha256": "e387bef2179ec4b233e9f6c838dbfb160a905f291c04d788171432aa5130e109"
+        },
+        "version": "1611.07507v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "All 15 PDF pages visually scanned via contact sheet. Figures depict gridworld policies, learning curves and navigation results. Algorithm1page4 is pseudocode, not a diagram. No architecture/method diagram located.",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Variational Intrinsic Control",
+        "observed_title": "Variational Intrinsic Control",
+        "source_url": "https://arxiv.org/pdf/1611.07507v1",
+        "source_sha256": "2a483c4f714c343de52c80c3ef3c6c32beb7cc57727508eaefc5d70ed4fa98f5",
+        "reported_title_match": true,
+        "identity_review_basis": "full_source_visual_scan",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/variational-intrinsic-control.json",
+          "https://arxiv.org/pdf/1611.07507v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/variational-intrinsic-control.json",
+          "sha256": "e387bef2179ec4b233e9f6c838dbfb160a905f291c04d788171432aa5130e109"
+        },
+        "version": "1611.07507v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "All 15 PDF pages visually scanned via contact sheet. Figures depict gridworld policies, learning curves and navigation results. Algorithm1page4 is pseudocode, not a diagram. No architecture/method diagram located.",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/variational-intrinsic-control/original.pdf",
+          "reported_sha256": "2a483c4f714c343de52c80c3ef3c6c32beb7cc57727508eaefc5d70ed4fa98f5",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 15,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/variational-intrinsic-control.json",
+          "https://arxiv.org/pdf/1611.07507v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/variational-intrinsic-control.json",
+          "sha256": "e387bef2179ec4b233e9f6c838dbfb160a905f291c04d788171432aa5130e109"
+        },
+        "version": "1611.07507v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "All 15 PDF pages visually scanned via contact sheet. Figures depict gridworld policies, learning curves and navigation results. Algorithm1page4 is pseudocode, not a diagram. No architecture/method diagram located.",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [],
+        "reviewed_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ],
+        "no_method_figure_reported": true,
+        "visual_scan_coverage": {
+          "pages_scanned_1_based": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15
+          ],
+          "page_count": 15,
+          "contact_sheet_inspected": true,
+          "distinct_numbered_figure_captions_extracted": 6,
+          "figure_caption_inventory": [
+            {
+              "figure": 1,
+              "page_1_based": 5,
+              "caption": "Figure 1: Learning to navigate through a grid world. Left: Standard grid world with valid\nactions indicated by green arrows (left, right, up, down) and by a green disc (do nothing). Right:\nEach square corresponds to a different option, and shows the probability of predicting this option\nat different locations in the environment. The negative logarithm of these values is proportional to\nthe intrinsic reward that a given option is trying to maximize, and therefore the locations with large\nintensity show the locations where a given option terminates."
+            },
+            {
+              "figure": 2,
+              "page_1_based": 6,
+              "caption": "Figure 2: Learning to navigate through a grid world with trap states. Left: Dangerous grid\nworld where cells on different checkerboard sub-lattices have different sets of valid actions (green\narrows). Taking the wrong actions (red arrows and red disc) teleports the agent to the top-left corner\nindicated by a cross, from which there is only a small probability of escaping at each time step. The\nblue region represents a barrier, forming a narrow corridor on the top left. Furthermore, when a\nvalid action is taken, with some probability the agent actually does not move. Therefore if the agent\ncommits to a sequence of actions, it will quickly lose track as to which sub-lattice it is on, and fall\ninto the low empowerment top left corner state. On the other hand, if it observes the environment\nit can always take actions to safely navigate the square. Bottom: Classical empowerment, which\nconsiders the effect of (open loop) action sequences, has very small empowerment inside the square\nbecause each sequence does not respond to changes due to environment noise and the agent instead\nprefers to sit in the ‘safe’ top left corridor. This is demonstrated in the bottom ﬁgure, which shows\nthe exact empowerment at different locations for action sequence lengths 1, . . . , 6. We see that not\nonly does the square area have low empowerment, but that the amount of empowerment goes down\nwith increasing sequence length. With closed loop policies, on the other hand, the agent has learned\nto navigate to different locations of the square, as shown in the top right ﬁgure."
+            },
+            {
+              "figure": 3,
+              "page_1_based": 9,
+              "caption": "Figure 3: Intrinsic Control with Implicit Options. Left and Center: The environment is a four\nroom 25 × 25 grid world. Left: Blue denotes the beginning of a trajectory and green the end.\nThe algorithm learns trajectories that extend through the environment and accurately pass through\nthe doors between rooms. Center: Green shows the distribution of end points for trajectories of\nlength 25. A trajectory in a given square starts at a location (3x + 1, 3y + 1) where (x, y) denotes\nthe coordinates of the room in the picture. We see that the end points cover the reachable set of\npoints nearly uniformly. Right: Each column shows a trajectory in a three dimensional simulated\nenvironment. The agent only observes images. Again, we obtain very non-random trajectories that\nrotate or move by a large amount. The average amount of intrinsic control achieved is 5.4 nats,\ncorresponding to exp(5.4) = 221 different states."
+            },
+            {
+              "figure": 4,
+              "page_1_based": 9,
+              "caption": "Figure 4: Pushing blocks. Left: The agent (green) lives in a 6 × 6 grid world and can push blocks\n(blue) around. The image shows a typical trajectory (read left to right). We see that the agent pushes\nblocks to various locations: it pushes the ﬁrst block down, then it goes around the second one and\npushes it up, the goes to the third one pushing it down, and then moves itself up to a ﬁnal position.\nRight: The empowerment as a function of training time in 6 × 6 world, with trajectories of length\n15 actions, with 0, 1, 2, 3 blocks. At the beginning of training, the agent ﬁrst just learns it can go to\ndifferent locations, but then it ‘realizes’ that it can control the blocks. An average empowerment for\nthree blocks reached 7.1 nats which corresponds to being able to reach exp(7.1) ≈1200 states."
+            },
+            {
+              "figure": 5,
+              "page_1_based": 10,
+              "caption": "Figure 5: Left: The environment consists of all possible pairs of MNIST digits. The agent can\ncontrol the classes of the digits, being able to increase or decrease the class of the ﬁrst or the second\ndigit but the speciﬁc instance of a digit is sampled at random. Each two digit column of the ﬁgure\nshows a trajectory. A sample trajectory with the respective actions is shown on the left inset. The\nagent learns to navigate this space, achieving nearly maximum possible control of 100 different\nstates. Note that the agent does not see the digit class, it has to learn to tell different classes apart (to\nclassify) through control. Right: Extrinsic reward as a function training time for pure reinforce (red)\nand after a different amounts of unsupervised interaction with the environment. The environment is\n15 × 15 four room grid world, and the reward is placed at location (3, 3)."
+            },
+            {
+              "figure": 6,
+              "page_1_based": 15,
+              "caption": "Figure 6: Empowerment in grid world with distractors vs grid world without them for different sizes\nand sequence lengths. Distractors move around the environment, the agents sees them but does not\ninteract with them. The curve shows that the agent learns to completely ignore them and focus on\nthe controllable part of the environment."
+            }
+          ]
+        },
+        "scope": "No architecture, block, or algorithm-process diagram located in full source. Photographs, result plots, trajectory maps and experimental visualizations are not silently converted into invented architecture."
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +197,204 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.394975Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "ee938027d73a8b95d5591f36c42134c51fd34ccb913c8741e2a127a5851b0b6d",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/variational-intrinsic-control.json",
+                "https://arxiv.org/pdf/1611.07507v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/variational-intrinsic-control.json",
+                "sha256": "e387bef2179ec4b233e9f6c838dbfb160a905f291c04d788171432aa5130e109"
+              },
+              "version": "1611.07507v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "All 15 PDF pages visually scanned via contact sheet. Figures depict gridworld policies, learning curves and navigation results. Algorithm1page4 is pseudocode, not a diagram. No architecture/method diagram located.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Variational Intrinsic Control",
+              "observed_title": "Variational Intrinsic Control",
+              "source_url": "https://arxiv.org/pdf/1611.07507v1",
+              "source_sha256": "2a483c4f714c343de52c80c3ef3c6c32beb7cc57727508eaefc5d70ed4fa98f5",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/variational-intrinsic-control.json",
+                "https://arxiv.org/pdf/1611.07507v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/variational-intrinsic-control.json",
+                "sha256": "e387bef2179ec4b233e9f6c838dbfb160a905f291c04d788171432aa5130e109"
+              },
+              "version": "1611.07507v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "All 15 PDF pages visually scanned via contact sheet. Figures depict gridworld policies, learning curves and navigation results. Algorithm1page4 is pseudocode, not a diagram. No architecture/method diagram located.",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/variational-intrinsic-control/original.pdf",
+                "reported_sha256": "2a483c4f714c343de52c80c3ef3c6c32beb7cc57727508eaefc5d70ed4fa98f5",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 15,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/variational-intrinsic-control.json",
+                "https://arxiv.org/pdf/1611.07507v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/variational-intrinsic-control.json",
+                "sha256": "e387bef2179ec4b233e9f6c838dbfb160a905f291c04d788171432aa5130e109"
+              },
+              "version": "1611.07507v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "All 15 PDF pages visually scanned via contact sheet. Figures depict gridworld policies, learning curves and navigation results. Algorithm1page4 is pseudocode, not a diagram. No architecture/method diagram located.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [],
+              "reviewed_pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14,
+                15
+              ],
+              "no_method_figure_reported": true,
+              "visual_scan_coverage": {
+                "pages_scanned_1_based": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14,
+                  15
+                ],
+                "page_count": 15,
+                "contact_sheet_inspected": true,
+                "distinct_numbered_figure_captions_extracted": 6,
+                "figure_caption_inventory": [
+                  {
+                    "figure": 1,
+                    "page_1_based": 5,
+                    "caption": "Figure 1: Learning to navigate through a grid world. Left: Standard grid world with valid\nactions indicated by green arrows (left, right, up, down) and by a green disc (do nothing). Right:\nEach square corresponds to a different option, and shows the probability of predicting this option\nat different locations in the environment. The negative logarithm of these values is proportional to\nthe intrinsic reward that a given option is trying to maximize, and therefore the locations with large\nintensity show the locations where a given option terminates."
+                  },
+                  {
+                    "figure": 2,
+                    "page_1_based": 6,
+                    "caption": "Figure 2: Learning to navigate through a grid world with trap states. Left: Dangerous grid\nworld where cells on different checkerboard sub-lattices have different sets of valid actions (green\narrows). Taking the wrong actions (red arrows and red disc) teleports the agent to the top-left corner\nindicated by a cross, from which there is only a small probability of escaping at each time step. The\nblue region represents a barrier, forming a narrow corridor on the top left. Furthermore, when a\nvalid action is taken, with some probability the agent actually does not move. Therefore if the agent\ncommits to a sequence of actions, it will quickly lose track as to which sub-lattice it is on, and fall\ninto the low empowerment top left corner state. On the other hand, if it observes the environment\nit can always take actions to safely navigate the square. Bottom: Classical empowerment, which\nconsiders the effect of (open loop) action sequences, has very small empowerment inside the square\nbecause each sequence does not respond to changes due to environment noise and the agent instead\nprefers to sit in the ‘safe’ top left corridor. This is demonstrated in the bottom ﬁgure, which shows\nthe exact empowerment at different locations for action sequence lengths 1, . . . , 6. We see that not\nonly does the square area have low empowerment, but that the amount of empowerment goes down\nwith increasing sequence length. With closed loop policies, on the other hand, the agent has learned\nto navigate to different locations of the square, as shown in the top right ﬁgure."
+                  },
+                  {
+                    "figure": 3,
+                    "page_1_based": 9,
+                    "caption": "Figure 3: Intrinsic Control with Implicit Options. Left and Center: The environment is a four\nroom 25 × 25 grid world. Left: Blue denotes the beginning of a trajectory and green the end.\nThe algorithm learns trajectories that extend through the environment and accurately pass through\nthe doors between rooms. Center: Green shows the distribution of end points for trajectories of\nlength 25. A trajectory in a given square starts at a location (3x + 1, 3y + 1) where (x, y) denotes\nthe coordinates of the room in the picture. We see that the end points cover the reachable set of\npoints nearly uniformly. Right: Each column shows a trajectory in a three dimensional simulated\nenvironment. The agent only observes images. Again, we obtain very non-random trajectories that\nrotate or move by a large amount. The average amount of intrinsic control achieved is 5.4 nats,\ncorresponding to exp(5.4) = 221 different states."
+                  },
+                  {
+                    "figure": 4,
+                    "page_1_based": 9,
+                    "caption": "Figure 4: Pushing blocks. Left: The agent (green) lives in a 6 × 6 grid world and can push blocks\n(blue) around. The image shows a typical trajectory (read left to right). We see that the agent pushes\nblocks to various locations: it pushes the ﬁrst block down, then it goes around the second one and\npushes it up, the goes to the third one pushing it down, and then moves itself up to a ﬁnal position.\nRight: The empowerment as a function of training time in 6 × 6 world, with trajectories of length\n15 actions, with 0, 1, 2, 3 blocks. At the beginning of training, the agent ﬁrst just learns it can go to\ndifferent locations, but then it ‘realizes’ that it can control the blocks. An average empowerment for\nthree blocks reached 7.1 nats which corresponds to being able to reach exp(7.1) ≈1200 states."
+                  },
+                  {
+                    "figure": 5,
+                    "page_1_based": 10,
+                    "caption": "Figure 5: Left: The environment consists of all possible pairs of MNIST digits. The agent can\ncontrol the classes of the digits, being able to increase or decrease the class of the ﬁrst or the second\ndigit but the speciﬁc instance of a digit is sampled at random. Each two digit column of the ﬁgure\nshows a trajectory. A sample trajectory with the respective actions is shown on the left inset. The\nagent learns to navigate this space, achieving nearly maximum possible control of 100 different\nstates. Note that the agent does not see the digit class, it has to learn to tell different classes apart (to\nclassify) through control. Right: Extrinsic reward as a function training time for pure reinforce (red)\nand after a different amounts of unsupervised interaction with the environment. The environment is\n15 × 15 four room grid world, and the reward is placed at location (3, 3)."
+                  },
+                  {
+                    "figure": 6,
+                    "page_1_based": 15,
+                    "caption": "Figure 6: Empowerment in grid world with distractors vs grid world without them for different sizes\nand sequence lengths. Distractors move around the environment, the agents sees them but does not\ninteract with them. The curve shows that the agent learns to completely ignore them and focus on\nthe controllable part of the environment."
+                  }
+                ]
+              },
+              "scope": "No architecture, block, or algorithm-process diagram located in full source. Photographs, result plots, trajectory maps and experimental visualizations are not silently converted into invented architecture."
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.875458Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "d15dbfb776db3c83a1cbcdf7f72fa1432b87a44bcf5992c2ebfdc01f277feb54",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/variational-intrinsic-control.json",
+                "https://arxiv.org/pdf/1611.07507v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/variational-intrinsic-control.json",
+                "sha256": "e387bef2179ec4b233e9f6c838dbfb160a905f291c04d788171432aa5130e109"
+              },
+              "version": "1611.07507v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "All 15 PDF pages visually scanned via contact sheet. Figures depict gridworld policies, learning curves and navigation results. Algorithm1page4 is pseudocode, not a diagram. No architecture/method diagram located.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Variational Intrinsic Control",
+              "observed_title": "Variational Intrinsic Control",
+              "source_url": "https://arxiv.org/pdf/1611.07507v1",
+              "source_sha256": "2a483c4f714c343de52c80c3ef3c6c32beb7cc57727508eaefc5d70ed4fa98f5",
+              "reported_title_match": true,
+              "identity_review_basis": "full_source_visual_scan",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,67 @@
+{
+  "catalog_index": 136,
+  "catalog_id": "one-shot-hierarchical-imitation-learning-of-compound-visuomotor-tasks",
+  "title_expected": "One-Shot Hierarchical Imitation Learning of Compound Visuomotor Tasks",
+  "source_url": "https://arxiv.org/pdf/1810.11043v1",
+  "pdf_path": "build/sources/one-shot-hierarchical-imitation-learning-of-compound-visuomotor-tasks.pdf",
+  "pdf_sha256": "458a9e3e434729981304b09de9eb4fa97f6a79e918b6914755cea77db8dc66ff",
+  "pdf_title_observed": "One-Shot Hierarchical Imitation Learning of Compound Visuomotor Tasks",
+  "first_page_title_text": "One-Shot Hierarchical Imitation Learning of Compound Visuomotor Tasks\nTianhe Yu1, Pieter Abbeel1, Sergey Levine1, Chelsea Finn1\nAbstract— We consider the problem of learning multi-stage\nvision-based tasks on a real robot from a single video of a\nhuman performing the task, while leveraging demonstration\ndata of subtasks with other objects. This problem presents\na number of major challenges. Video d",
+  "title_match": true,
+  "version": "1810.11043v1",
+  "page_count": 7,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Fig. 1. A robot learns and composes convolutional neural network policies for performing a multi-stage manipulation task by “watching” a human perform the compound task (right), by leveraging data from primitive skills with other objects (left). raw image observations to actions, and the demonstration is provided via an unsegmented raw video of a person performing the entire task. To approach this problem, the key idea in this work is to leverage",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Fig. 2. After learning a phase predictor and meta-learning with human and robot demonstration primitives, the robot temporally segments a human demonstration (just a video) of individual primitives and learns to perform each segmented primitive sequentially. where dh and dr are a human and robot demonstration respectively. In prior work with DAML, different tasks cor- responded to different objects, hence having the robot learn to perform previou",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 2. In the remainder of this section, we discuss how we can learn and compose primitives for completing compound tasks from single demonstrations, and how our two phase predictors can be trained. B. One-Shot Composition of Primitives During meta-training, we train a human phase predictor φh and a robot phase predictor φr (as described in the following section), as well as a DAML one-shot learner πθ, which can learn primitive-speciﬁc robot p",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 3. Across tasks, the particular objects and number of objects to be put in the bin vary. Success is deﬁned as having the correct objects in the bin and the bin at the target. In this experiment, we consider a simpliﬁed setting, where a typical demonstration (with both images and actions) is available at meta-test time. The next section with physical robot experiments will consider learning from human videos. There are two types of primitiv",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 3. We compute success averaged over 10 tasks of each type and 3 trials per task. The results, shown in Table I, indicate that both gradient-based meta-learning and phase prediction are essential for good performance. We also observe that performance drops as the task becomes longer, indicative of compounding errors that are known to be a problem when using behavioral cloning based approaches [37]. Generally, we ﬁnd that the nearly all fail",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 3. Qualitative results of the experiments on the physical PR2 (top) and simulated Sawyer (bottom). The top right shows an example failure case, where the robot successfully picks and places the object into the correct container, but incorrectly pushes between the two objects. The other examples all illustrate successful learning and skill composition of the demonstrated compound task from a single demonstration. Fig. 4. A subset of the meta-",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 4. A subset of the meta-training objects (left) and meta-test objects (right) used in the PR2 experiments. The top of each picture shows placing and pushing target objects and the bottom shows picked objects. We follow the same DAML architectures as in prior work [9] with two small differences. Instead of fully- connected layers, the model uses temporal convolution lay- ers; and rather than using a mixture density network at the output, the ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 3. We summarize the results in Table II. Since this is a challenging task as the robot needs to complete a sequence of control primitives and any small drift during imitation could lead to failure, our approach can only succeed 10 out of 20 trials when pick-and-placing the object into the target the container and pushing the correspond container, and 7 out of 20 trials when pushing the other container without the placed object. However, th",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

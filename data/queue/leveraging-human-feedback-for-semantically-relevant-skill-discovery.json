@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "leveraging-human-feedback-for-semantically-relevant-skill-discovery",
-  "revision": 2,
+  "revision": 5,
   "status": "recreated",
   "created_at": "2026-10-09T20:04:59.476492Z",
-  "updated_at": "2026-10-09T20:08:32.561315Z",
+  "updated_at": "2026-10-09T20:14:36.368363Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,25 +26,114 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/leveraging-human-feedback-for-semantically-relevant-skill-discovery.json",
+          "https://arxiv.org/pdf/2604.24127v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/leveraging-human-feedback-for-semantically-relevant-skill-discovery.json",
+          "sha256": "b6f3bdb5e9dc0b01aa5cc386b243c8dcd458b175f7ed3320a64d69b0b431973f"
+        },
+        "version": "2604.24127v1",
+        "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+        "inspected_at": null,
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Leveraging Human Feedback for Semantically-Relevant Skill Discovery",
+        "observed_title": "Leveraging Human Feedback for Semantically-Relevant Skill Discovery",
+        "source_url": "https://arxiv.org/pdf/2604.24127v1",
+        "source_sha256": "2c4e5aadf82ea5104c0fd52497493ade2fd0e820f51f8d7279d4536db674446a",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/leveraging-human-feedback-for-semantically-relevant-skill-discovery.json",
+          "https://arxiv.org/pdf/2604.24127v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/leveraging-human-feedback-for-semantically-relevant-skill-discovery.json",
+          "sha256": "b6f3bdb5e9dc0b01aa5cc386b243c8dcd458b175f7ed3320a64d69b0b431973f"
+        },
+        "version": "2604.24127v1",
+        "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/leveraging-human-feedback-for-semantically-relevant-skill-discovery.pdf",
+          "reported_sha256": "2c4e5aadf82ea5104c0fd52497493ade2fd0e820f51f8d7279d4536db674446a",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 33,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/leveraging-human-feedback-for-semantically-relevant-skill-discovery.json",
+          "https://arxiv.org/pdf/2604.24127v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/leveraging-human-feedback-for-semantically-relevant-skill-discovery.json",
+          "sha256": "b6f3bdb5e9dc0b01aa5cc386b243c8dcd458b175f7ed3320a64d69b0b431973f"
+        },
+        "version": "2604.24127v1",
+        "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 4,
+            "caption": "Illustration of our method.",
+            "crop_pdf_points": [
+              137,
+              115,
+              476,
+              239
+            ],
+            "vector_paths": 127,
+            "native_text_spans": 17,
+            "raster_images": 3,
+            "visually_inspected": true,
+            "notes": "Clear three-stage architecture. Reward math partly outlined paths; three raster human/world/robot icons."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "reported",
       "evidence": {
-        "summary": "Native reconstruction exported and bundled with source PDF",
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
         "references": [
-          "output/srsd/README.md"
+          "output/srsd/README.md",
+          "output/srsd/VALIDATION.json"
         ],
-        "diagram": "data/diagrams/srsd-figure-2/srsd-figure-2.json"
+        "output_directory": "output/srsd",
+        "source_sha256": "2c4e5aadf82ea5104c0fd52497493ade2fd0e820f51f8d7279d4536db674446a",
+        "scene_sha256": "9f6f58e5881e11572b158a532ef2c83b9c7d2f39508d7c06828fd3f8d2ce75a2"
       }
     },
     "qa": {
@@ -111,6 +200,176 @@
               "references": [
                 "output/srsd/README.md"
               ]
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:12:01.908754Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "b00e581dcf17a06b26ed808bd17ebb950691b8ceea894db4c54fef459f7e1abd",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/leveraging-human-feedback-for-semantically-relevant-skill-discovery.json",
+                "https://arxiv.org/pdf/2604.24127v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/leveraging-human-feedback-for-semantically-relevant-skill-discovery.json",
+                "sha256": "b6f3bdb5e9dc0b01aa5cc386b243c8dcd458b175f7ed3320a64d69b0b431973f"
+              },
+              "version": "2604.24127v1",
+              "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Leveraging Human Feedback for Semantically-Relevant Skill Discovery",
+              "observed_title": "Leveraging Human Feedback for Semantically-Relevant Skill Discovery",
+              "source_url": "https://arxiv.org/pdf/2604.24127v1",
+              "source_sha256": "2c4e5aadf82ea5104c0fd52497493ade2fd0e820f51f8d7279d4536db674446a",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/leveraging-human-feedback-for-semantically-relevant-skill-discovery.json",
+                "https://arxiv.org/pdf/2604.24127v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/leveraging-human-feedback-for-semantically-relevant-skill-discovery.json",
+                "sha256": "b6f3bdb5e9dc0b01aa5cc386b243c8dcd458b175f7ed3320a64d69b0b431973f"
+              },
+              "version": "2604.24127v1",
+              "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/leveraging-human-feedback-for-semantically-relevant-skill-discovery.pdf",
+                "reported_sha256": "2c4e5aadf82ea5104c0fd52497493ade2fd0e820f51f8d7279d4536db674446a",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 33,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/leveraging-human-feedback-for-semantically-relevant-skill-discovery.json",
+                "https://arxiv.org/pdf/2604.24127v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/leveraging-human-feedback-for-semantically-relevant-skill-discovery.json",
+                "sha256": "b6f3bdb5e9dc0b01aa5cc386b243c8dcd458b175f7ed3320a64d69b0b431973f"
+              },
+              "version": "2604.24127v1",
+              "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 4,
+                  "caption": "Illustration of our method.",
+                  "crop_pdf_points": [
+                    137,
+                    115,
+                    476,
+                    239
+                  ],
+                  "vector_paths": 127,
+                  "native_text_spans": 17,
+                  "raster_images": 3,
+                  "visually_inspected": true,
+                  "notes": "Clear three-stage architecture. Reward math partly outlined paths; three raster human/world/robot icons."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:13:38.365674Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "e80491e0ec17bc1d544c94fa5c5d936225bdb1949881251f8076c1392015e794",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/srsd/README.md",
+                "output/srsd/VALIDATION.json"
+              ],
+              "output_directory": "output/srsd",
+              "source_sha256": "2c4e5aadf82ea5104c0fd52497493ade2fd0e820f51f8d7279d4536db674446a",
+              "scene_sha256": "9f6f58e5881e11572b158a532ef2c83b9c7d2f39508d7c06828fd3f8d2ce75a2"
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T20:14:36.368363Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "1fb8d2fb136609f858c1d9a600e7de8c6d27413c2cd549935a27c3161eb8c336",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/leveraging-human-feedback-for-semantically-relevant-skill-discovery.json",
+                "https://arxiv.org/pdf/2604.24127v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/leveraging-human-feedback-for-semantically-relevant-skill-discovery.json",
+                "sha256": "b6f3bdb5e9dc0b01aa5cc386b243c8dcd458b175f7ed3320a64d69b0b431973f"
+              },
+              "version": "2604.24127v1",
+              "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Leveraging Human Feedback for Semantically-Relevant Skill Discovery",
+              "observed_title": "Leveraging Human Feedback for Semantically-Relevant Skill Discovery",
+              "source_url": "https://arxiv.org/pdf/2604.24127v1",
+              "source_sha256": "2c4e5aadf82ea5104c0fd52497493ade2fd0e820f51f8d7279d4536db674446a",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
             }
           }
         }

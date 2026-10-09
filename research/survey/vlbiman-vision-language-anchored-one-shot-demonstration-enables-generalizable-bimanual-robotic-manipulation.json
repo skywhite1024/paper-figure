@@ -1,0 +1,91 @@
+{
+  "catalog_index": 119,
+  "catalog_id": "vlbiman-vision-language-anchored-one-shot-demonstration-enables-generalizable-bimanual-robotic-manipulation",
+  "title_expected": "VLBiMan: Vision-Language Anchored One-Shot Demonstration Enables Generalizable Bimanual Robotic Manipulation",
+  "source_url": "https://arxiv.org/pdf/2509.21723v4",
+  "pdf_path": "build/sources/vlbiman-vision-language-anchored-one-shot-demonstration-enables-generalizable-bimanual-robotic-manipulation.pdf",
+  "pdf_sha256": "6ecb5efd8c040508243e477990fdad996ca6315102ce18e0f884418f69e4561e",
+  "pdf_title_observed": "VLBiMan: Vision-Language Anchored One-Shot Demonstration Enables Generalizable Bimanual Robotic Manipulation",
+  "first_page_title_text": "Published as a conference paper at ICLR 2026\nVLBIMAN:\nVISION-LANGUAGE ANCHORED ONE-\nSHOT DEMONSTRATION ENABLES GENERALIZABLE\nBIMANUAL ROBOTIC MANIPULATION\nHuayi Zhou1\nKui Jia1,2,∗\n1The Chinese University of Hong Kong, Shenzhen\n2DexForce, Shenzhen\nzhouhuayi@cuhk.edu.cn; kuijia@cuhk.edu.cn\nhttps://hnuzhy.github.io/projects/VLBiMan\nABSTRACT\nAchieving generalizable bimanual manipulation requires syste",
+  "title_match": true,
+  "version": "2509.21723v4",
+  "page_count": 31,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1: Left: Taking pouring water as an example, we sketch the entire process of VLBiMan based on the one-shot demonstration. Right: VLBiMan can achieve generalizable bimanual manipulation on a variety of complex contact-rich tasks without retraining, robustly coping with diverse scenarios. (2024); Yang et al. (2024). Reinforcement learning in simulation also serves as a strategy for learn- ing skill-specific controllers Xie et al. (2020); Che",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 2,
+      "caption_excerpt": "Fig. 2. VLBiMan actually is inspired by a key principle: what to achieve matters more than how to execute it. For instance, rather than mim- icking the exact poses or insignificant diversities involved in pouring water, our approach focuses on capturing and re-instantiating the relative spatial relationship between the cup and bottle, empha- sizing coordination rather than absolute motion. We validate VLBiMan across ten diverse bimanual tasks (in",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 2: Framework of Vision-Language Anchored Bimanual Manipulation (VLBiMan). Taking the pouring water as an example, the paradigm consists of three stages (e.g., decomposition, adap- tation, and composition) based on a given demonstration. VLBiMan can achieve generalization of unseen spatial placements and category-level new instances under the same task. 3 METHODOLOGY This section introduces the full pipeline of VLBiMan (Fig. 2), which enabl",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 3: Illustrations of representative points for manipulated objects in three tasks: pouring (left), reorient+unscrew (middle) and tool-use:spoon (right). These points will be used to calculate the change in object position and orientation (not always required). states. This forms a temporally aligned observation-action sequence: D = {(Ot, At)}T t=1, where each action At ∈R14 consisting of 6-DoF for each arm with binary gripper states. We emp",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 2. 3.2 VISION-LANGUAGE ANCHORED ADAPTATION Adaptation of variable modules Mvar j is anchored by semantic perception and geometric reasoning, structured into components: VLM-based scene understanding and VFM-based geometric feasibility. VLM-Based Scene Understanding. We extract task-relevant prompts pk from the text description T , mapping them to object categories. These are passed to the VLMs (e.g., Florence-2 Xiao et al. (2024) and SAM2 Ra",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 3. Let pdemo, pnew denote the representative 3D positions back-projected from 2D points via stereo and calibrated camera intrinsics. The relative position shift 5 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 4: Manipulated object assets involved in each task, and the fixed-base dual-arm platform. Table 1: Quantitative comparison results of success rates on six primary bimanual tasks/skills. new placements + same objects new placements + novel instances Dynamic Inter- ference Manipulation Method plugpen inserting unscrew pouring pressing reorient Average Success Rate plugpen inserting unscrew pouring pressing reorient Average Success Rate No Me",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 5: Visualization of ten tasks executed on real robots. They are designed to validate different aspects, including (a) six dual-arm primary skills, (b) combination of basic skills for two long- horizon tasks, and (c) exploration of two multi-stage tool-use tasks. For example, in six basic tasks, it can correctly handle unseen objects according to the VLMs an- chored adaptation, achieve stable combination of variable modules and readjusted i",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 8,
+      "caption_excerpt": "Fig. 6. Please refer to the Appendix for more details. 4.3 SYSTEM PERFORMANCE ABLATION AND ANALYSIS Our modular solution has good process controllability and theoretical interpretability. We conducted the following two analyses on VLBiMan: ablation studies on module effectiveness and multi-factor statistics on system errors. First, we focused on four core designs (including VLMs type, initial grasp alignment, IK refinement, and collision avoidanc",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 6: Visualization of four cross-embodiment transferred tasks executed on new humanoid arms. semantic AnyGrasp Fang et al. (2023) (where we find the one closest to the demo grasp pose from many proposals for fair comparison). In addition, the kinematic optimization for trajectory synthesis is much better than the trivial module stacking, which is consistent with common sense. Then, we conducted a statistical analysis of failed cases for resu",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 9,
+      "caption_excerpt": "Fig. 7. The most prominent errors come from the initial grasp execut- ing, even though its computing is relatively more reliable (with a lower error rate), which shows that performing task-related grasping in real-world is not easy, and there are a considerable proportion of singularity points or early collision problems. The second most error comes from the dual-arm coordination, which is the most core challenge of bimanual tasks. An optional mi",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 7: Error breakdown of VLBiMan. 5 CONCLUSION AND LIMITATION In this work, we present VLBiMan, a novel framework that enables generalizable bimanual manip- ulation from a single human demonstration, guided by a natural language task description. Through a task-aware decomposition strategy, vision-language grounded scene understanding, and geomet- ric adaptation anchored by visual representations, our approach efficiently composes executable ",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

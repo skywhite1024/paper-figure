@@ -1,0 +1,54 @@
+{
+  "catalog_index": 73,
+  "catalog_id": "lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery",
+  "title_expected": "LOTUS: Continual Imitation Learning for Robot Manipulation through Unsupervised Skill Discovery",
+  "source_url": "https://arxiv.org/pdf/2311.02058v4",
+  "pdf_path": "build/sources/lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery.pdf",
+  "pdf_sha256": "150ebaa87d207930853ef55ccaa1caba82e85bd76cf9dd1de5f0564ef06a8d16",
+  "pdf_title_observed": "LOTUS: Continual Imitation Learning for Robot Manipulation Through Unsupervised Skill Discovery",
+  "first_page_title_text": "LOTUS: Continual Imitation Learning for Robot Manipulation\nThrough Unsupervised Skill Discovery\nWeikang Wan1,2, Yifeng Zhu∗1, Rutav Shah∗1, Yuke Zhu1\nAbstract— We introduce LOTUS, a continual imitation\nlearning algorithm that empowers a physical robot to contin-\nuously and efficiently learn to solve new manipulation tasks\nthroughout its lifespan. The core idea behind LOTUS is\nconstructing an ever-",
+  "title_match": true,
+  "version": "2311.02058v4",
+  "page_count": 8,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "LOTUS continual skill discovery and hierarchical policy.",
+      "crop_pdf_points": [
+        62,
+        49,
+        562,
+        225
+      ],
+      "vector_paths": 431,
+      "native_text_spans": 80,
+      "raster_images": 33,
+      "visually_inspected": true,
+      "notes": "Two detailed architecture panels; DINOv2 clustering/open-world library update and transformer-based hierarchical policy."
+    }
+  ],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Fig. 1: Method Overview. LOTUS is a continual imitation learning algorithm through unsupervised skill discovery. LOTUS starts from the base task stage, where it builds an initial library of sensorimotor skills. In the subsequent lifelong task stage, it continuously discov- ers new skills from a stream of incoming tasks and adds them to its skill library. A high-level meta-controller composes skills from the library to solve new manipulation tasks",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 2: LOTUS consists of two processes: continual skill discovery with open-world perception and hierarchical policy learning with the skill library. For continual skill discovery, we obtain temporal segments from demonstrations using hierarchical clustering with DINOv2 features and incrementally cluster the temporal segments into partitions to either update existing skills or learn new skills. For the hierarchical policy, a meta-controller πH s",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 3: LOTUS continually discovers skills from real-world tasks in the robot’s lifespan of learning (each color represents a skill). The skill (in blue) used for “reaching the bottom drawer” is also used for “pushing the oven tray inside” due to similar motion in action space. It shows the forward transfer of skills enabled by LOTUS. The skill (in purple) discovered in Step 3 of “putting the yellow bowl on the oven tray” is used for a previous t",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+}

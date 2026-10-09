@@ -1,0 +1,25 @@
+{
+  "catalog_index": 115,
+  "catalog_id": "molmob0t-large-scale-simulation-enables-zero-shot-manipulation",
+  "title_expected": "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation",
+  "source_url": "https://arxiv.org/pdf/2603.16861v2",
+  "pdf_path": "build/sources/molmob0t-large-scale-simulation-enables-zero-shot-manipulation.pdf",
+  "pdf_sha256": "55fbccef55184f5a1a257fc8dd497290f63e1b2a10de2e992b3d1c4535821fdf",
+  "pdf_title_observed": "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation",
+  "first_page_title_text": "MolmoB T: Large-Scale Simulation\nEnables Zero-Shot Manipulation\nAbhay Deshpande♥1∗\nMaya Guru♥1∗\nRose Hendrix♥1∗\nSnehal Jauhri♥1,4∗\nAinazEftekhar♥1,2\nRohunTripathi♥1\nMaxArgus♥1\nJordiSalvador♥1\nHaoquanFang♥1,2\nMatthew\nWallingford♥1\nWilbert Pumacay♥1\nYejin Kim♥1\nQuinn Pfeifer2\nYing-Chun Lee2\nPiper Wolters1\nOmar Rayyan3\nMingtong Zhang5\nJiafei Duan1,2\nKaren Farley1\nWinson Han1\nEli Vanderbilt1\nDieter Fo",
+  "title_match": false,
+  "version": "2603.16861v2",
+  "page_count": 33,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 2. Our key insight is that manipulation policies benefit more from diversity across objects, configurations, and viewpoints than from photorealistic rendering. By rendering procedurally generated MolmoSpaces [6] environments in MuJoCo simulator with extensive domain randomization, we generate large-scale demonstration data at a fraction of the cost of real-world collection. We note that MolmoBot-Engine is inherently constrained by the capabi",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

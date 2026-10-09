@@ -1,0 +1,151 @@
+{
+  "catalog_index": 126,
+  "catalog_id": "demogen-synthetic-demonstration-generation-for-data-efficient-visuomotor-policy-learning",
+  "title_expected": "DemoGen: Synthetic Demonstration Generation for Data-Efficient Visuomotor Policy Learning",
+  "source_url": "https://arxiv.org/pdf/2502.16932v1",
+  "pdf_path": "build/sources/demogen-synthetic-demonstration-generation-for-data-efficient-visuomotor-policy-learning.pdf",
+  "pdf_sha256": "310448233ee36cd4d5637725228450194b6d6443e1518007dbc051115b557e83",
+  "pdf_title_observed": "DemoGen: Synthetic Demonstration Generation for Data-Efficient Visuomotor Policy Learning",
+  "first_page_title_text": "DemoGen: Synthetic Demonstration Generation\nfor Data-Efficient Visuomotor Policy Learning\nZhengrong Xue123∗, Shuying Deng1∗, Zhenyang Chen2, Yixuan Wang1, Zhecheng Yuan123, Huazhe Xu123\n1Tsinghua University, 2Shanghai Qi Zhi Institute, 3Shanghai AI Lab,\n∗Equal contribution\ndemo-generation.github.io\nDisturbance Resistance\nObstacle Avoidance\nDexterous Hands\nDeformable\nBimanual\nPoor Generalization\nSt",
+  "title_match": true,
+  "version": "2502.16932v1",
+  "page_count": 18,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Fig. 1: DemoGen is a fully synthetic approach for automatic demonstration generation. DemoGen promotes the spatial generalization ability of visuomotor policies and can facilitate one-shot imitation by adapting one human-collected demonstration into novel object configurations. DemoGen applies to various manipulation tasks and platforms and can be extended to enable additional out-of-distribution capabilities. Abstract—Visuomotor policies have sh",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Fig. 2: Qualitative visualization of the spatial effective range. The grid maps display discretized tabletop workspaces from a bird’s-eye view under different demonstration configurations. Dark green spots mark the locations where buttons are placed during the demonstrations. Each grid cell corresponds to a policy rollout with the button placed at that location. Blue, yellow, green, and gray grids denote successful executions for the Button-Large",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Fig. 2. Key findings. Overall, the spatial effective range of visuo- motor policies is closely tied to the distribution of object configurations seen in the demonstrations. Specifically, the effective range can be approximated by the union of the areas surrounding the demonstrated object placements. Thus, to train ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 3. Key findings. The degree of object randomization significantly influences the required demonstrations. Therefore, an effective evaluation protocol for visuomotor policies must incorporate a sufficiently large workspace to provide enough object ran- domization. On the other hand, both 3D representations and pre-trained 2D visual encoders contribute to improved spatial generalization capabilities. However, none of these methods fundamentall",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 3: Quantitative benchmarking on the spatial generalization capacity. We report the relationship between the agent’s performance in success rates and the number of demonstrations used for training when different visuomotor policies and object randomization ranges are adopted. The results are averaged over 3 seeds. IV. DemoGen METHODS Designed to address the conflict between the substantial data requirements of visuomotor policies and the high",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 4: Pre-processing the source demonstration. The raw point cloud observations are processed by cropping, clustering, and down- sampling. The source action trajectory is parsed into motion and skill segments by referring to the semantic masks of manipulated objects. controlling the joints of a dexterous hand. The observation ot includes both the point cloud data and the proprioceptive feedback from the robot: ot = (opcd t , oarm t , ohand t ),",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 4. Parsing the source trajectory. Following previous work [32, 18], we assume that the execution trajectory can be parsed into a sequence of object-centric segments. Noticing that the robot must initially approach the object in free space before engaging in on-object manipulation through contact, each object-centric segment can be further subdivided into two stages: motion and skill. For example, in the task illustrated in Fig. 4, the trajec",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 4. The intermediate trajectories between two skill segments are classified as motion segments. Formally, we represent an interval of time stamps as τ: τ = (tstart, tstart+1, . . . , tend−1, tend) ⊆(0, 1, . . . , L−1), which can be used as an index sequence for the extrac- tion of the corresponding segments from a sequence of demonstrations, actions, or observations. For instance, d[τ] = (dtstart, dtstart+1, . . . , dtend−1, dtend) represents",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 5. 𝐓! \"! 𝐓! \"!\" 𝐓! \"! 𝐓! \"!\" 𝐀##[𝝉$ %] &𝐀##[𝝉$ %] &𝐀##[𝝉$ &] 𝐀##[𝝉$ &] Fig. 5: Illustrations for action generation. (Left) Actions in the motion stage are planned to connect the neighboring skill segments. (Right) Actions in the skill stage undergo a uniform transformation. ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 5: Illustrations for action generation. (Left) Actions in the motion stage are planned to connect the neighboring skill segments. (Right) Actions in the skill stage undergo a uniform transformation. ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 6: Illustrations for synthetic visual observation generation. Objects in the to-do stage are segmented and transformed by the target object configurations. Objects in the doing stage are merged with the end-effector and transformed according to the proprioceptive states. For the skill segments with dexterous on-object behaviors, the spatial relations between end-effectors and objects must remain relatively static. Thus, the entire skill segm",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 6. More examples of the synthetic trajectories in real-world experiments can be found in Fig. 21 in the appendix. V. EXPERIMENTS IN THE SIMULATOR A. Effectiveness: One-Shot Imitation Before deploying DemoGen to the real world, we evaluate its effectiveness in the simulator by training visuomotor poli- cies on datasets generated by DemoGen from only one source demonstration per task. ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 7: Tasks for simulated evaluation on spatial generalization. Purple and sky-blue rectangles mark the workspaces for demonstration generation and evaluation, respectively. The detailed sizes of these workspaces are listed in Tab. VI in the appendix. TABLE I: Simulated evaluation of DemoGen for spatial generalization. We report the maximum/averaged success rates over 3 seeds. Pick-Cube Button-Small Drawer-Close Faucet-Open Handle-Press Box-Lid",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 7. To strengthen the significance of spatial generalization, we modify these tasks to have enlarged object randomization ranges, as listed in Appendix F. Generation and evaluation. We write scripted policies for these tasks and prepare only 1 source demonstration per task for demonstration generation. We also produce 10 and 25 source demonstrations per task using the scripted policy as a reference for human-collected datasets. Based on the o",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 8",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 8: Illustration for the visual mismatch problem. As objects move through 3D space, their appearance changes due to variations in perspective. Under the constraint of a single-view observation, syn- thetic demonstrations consistently reflect a fixed side of the object’s appearance seen in the source demonstration. This discrepancy causes a visual mismatch between the synthetic and real-captured data. Fig. 9: Performance Saturation. We report ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 9",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 9: Performance Saturation. We report the policy performance boost w.r.t. the increase of synthetic demonstrations over 3 seeds. tured in the real world, under the constraint of a single-view observation perspective. An illustration is provided in Fig. 8. Performance saturation. A notable consequence of the visual mismatch problem is the phenomenon of performance satura- tion. An empirical analysis is conducted on the Pick-Cube task. In Fig. ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 8",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 8. Performance saturation. A notable consequence of the visual mismatch problem is the phenomenon of performance satura- tion. An empirical analysis is conducted on the Pick-Cube task. In Fig. 9(a), we fix the spatial density of target object configurations in the synthetic demonstrations and increase their spatial coverage by adding more synthetic demonstra- tions. The curve indicates that the performance improvement plateaus once the spati",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 10",
+      "page_1_based": 8,
+      "caption_excerpt": "Fig. 10: Protocol for evaluating spatial generalization. (a) Setups on the single-arm platform. (b) Illustration for the full-size evaluation workspace. (c) Illustration for the generation strategy targeting the evaluated configurations along with small-range perturbations. Spatula-Egg Flower-Vase Mug-Rack Dex-Rollup Dex-Drill Dex-Coffee Fig. 11: Tasks for real-world evaluation on spatial generalization. Spatula-Egg and Dex-Rollup are one-stage t",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 11",
+      "page_1_based": 8,
+      "caption_excerpt": "Fig. 11: Tasks for real-world evaluation on spatial generalization. Spatula-Egg and Dex-Rollup are one-stage tasks involving contact-rich behaviors. Flower-Vase, Mug-Rack, Dex-Drill, and Dex-Coffee are two-stage tasks requiring precise manipulation. VI. REAL-WORLD EXPERIMENTS: SPATIAL GENERALIZATION We assess the spatial generalization capability of visuomotor policies enhanced by DemoGen across 8 real-world tasks deployed on 3 different platform",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 12",
+      "page_1_based": 9,
+      "caption_excerpt": "Fig. 12. Spatula-Egg Flower-Vase Mug-Rack Dex-Cube Dex-Rollup Dex-Drill Dex-Coffee Fruit-Basket Averaged Source 10.0 6.3 6.3 10.0 8.3 11.1 11.1 25.0 11.0 DemoGen 88.0 82.5 85.0 78.0 76.7 55.6 40.0 90.8 74.6 Spatula-Egg Flower-Vase Mug-Rack Dex-Cube Dex-Rollup Dex-Drill Dex-Coffee Fruit-Basket = 0% > 0% > 40% > 60% > 80% Fig. 12: Spatial heatmaps for the real-world evaluation results. The success rate for each coordinate is calculated as the avera",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 12",
+      "page_1_based": 9,
+      "caption_excerpt": "Fig. 12: Spatial heatmaps for the real-world evaluation results. The success rate for each coordinate is calculated as the average across all relevant trials. For example, each coordinate of the vase in the Flower-Vase task is in combination with 4 coordinates of the flower, including the one appearing in the source demonstration. This results in a total of 20 trials, given 5 repetitions per combination. task, we perform manual trials using kinem",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 12",
+      "page_1_based": 9,
+      "caption_excerpt": "Fig. 12. The heatmaps reveal high success rates on configurations close to the demonstrated ones, while the performance diminishes as the distance from ",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

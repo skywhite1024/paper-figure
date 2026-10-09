@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "generative-skill-chaining-long-horizon-skill-planning-with-diffusion-models",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.512626Z",
-  "updated_at": "2026-10-09T20:04:59.512626Z",
+  "updated_at": "2026-10-09T20:14:36.261847Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/generative-skill-chaining-long-horizon-skill-planning-with-diffusion-models.json",
+          "https://arxiv.org/pdf/2401.03360v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/generative-skill-chaining-long-horizon-skill-planning-with-diffusion-models.json",
+          "sha256": "e2462ad08a347b9a76f923cb700faf4f4f4687cfc20026767ffda2335cbcabe2"
+        },
+        "version": "2401.03360v1",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "Generative Skill Chaining: Long-Horizon Skill Planning with Diffusion Models",
+        "observed_title": "Generative Skill Chaining: Long-Horizon Skill Planning with Diffusion Models",
+        "source_url": "https://arxiv.org/pdf/2401.03360v1",
+        "source_sha256": "d97f87dd437392ee3efe1b67b90c298723f93770652a7c430af9f79280fb90b2",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/generative-skill-chaining-long-horizon-skill-planning-with-diffusion-models.json",
+          "https://arxiv.org/pdf/2401.03360v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/generative-skill-chaining-long-horizon-skill-planning-with-diffusion-models.json",
+          "sha256": "e2462ad08a347b9a76f923cb700faf4f4f4687cfc20026767ffda2335cbcabe2"
+        },
+        "version": "2401.03360v1",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/generative-skill-chaining-long-horizon-skill-planning-with-diffusion-models.pdf",
+          "reported_sha256": "d97f87dd437392ee3efe1b67b90c298723f93770652a7c430af9f79280fb90b2",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 20,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.804991Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "15027bf05c96ee6da6ee2c2e6ed1763675d9e6f0db2671d14de9f7828d0deefb",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/generative-skill-chaining-long-horizon-skill-planning-with-diffusion-models.json",
+                "https://arxiv.org/pdf/2401.03360v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/generative-skill-chaining-long-horizon-skill-planning-with-diffusion-models.json",
+                "sha256": "e2462ad08a347b9a76f923cb700faf4f4f4687cfc20026767ffda2335cbcabe2"
+              },
+              "version": "2401.03360v1",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Generative Skill Chaining: Long-Horizon Skill Planning with Diffusion Models",
+              "observed_title": "Generative Skill Chaining: Long-Horizon Skill Planning with Diffusion Models",
+              "source_url": "https://arxiv.org/pdf/2401.03360v1",
+              "source_sha256": "d97f87dd437392ee3efe1b67b90c298723f93770652a7c430af9f79280fb90b2",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/generative-skill-chaining-long-horizon-skill-planning-with-diffusion-models.json",
+                "https://arxiv.org/pdf/2401.03360v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/generative-skill-chaining-long-horizon-skill-planning-with-diffusion-models.json",
+                "sha256": "e2462ad08a347b9a76f923cb700faf4f4f4687cfc20026767ffda2335cbcabe2"
+              },
+              "version": "2401.03360v1",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/generative-skill-chaining-long-horizon-skill-planning-with-diffusion-models.pdf",
+                "reported_sha256": "d97f87dd437392ee3efe1b67b90c298723f93770652a7c430af9f79280fb90b2",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 20,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.261847Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "f5ba6b217646ac171891d742371adea9b26ce78fd299de3f588e216938f80564",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/generative-skill-chaining-long-horizon-skill-planning-with-diffusion-models.json",
+                "https://arxiv.org/pdf/2401.03360v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/generative-skill-chaining-long-horizon-skill-planning-with-diffusion-models.json",
+                "sha256": "e2462ad08a347b9a76f923cb700faf4f4f4687cfc20026767ffda2335cbcabe2"
+              },
+              "version": "2401.03360v1",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "Generative Skill Chaining: Long-Horizon Skill Planning with Diffusion Models",
+              "observed_title": "Generative Skill Chaining: Long-Horizon Skill Planning with Diffusion Models",
+              "source_url": "https://arxiv.org/pdf/2401.03360v1",
+              "source_sha256": "d97f87dd437392ee3efe1b67b90c298723f93770652a7c430af9f79280fb90b2",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

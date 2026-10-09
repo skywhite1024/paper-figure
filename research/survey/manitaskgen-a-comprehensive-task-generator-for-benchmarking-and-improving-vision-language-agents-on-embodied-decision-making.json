@@ -1,0 +1,85 @@
+{
+  "catalog_index": 95,
+  "catalog_id": "manitaskgen-a-comprehensive-task-generator-for-benchmarking-and-improving-vision-language-agents-on-embodied-decision-making",
+  "title_expected": "ManiTaskGen: A Comprehensive Task Generator for Benchmarking and Improving Vision-Language Agents on Embodied Decision-Making",
+  "source_url": "https://arxiv.org/pdf/2505.20726v2",
+  "pdf_path": "build/sources/manitaskgen-a-comprehensive-task-generator-for-benchmarking-and-improving-vision-language-agents-on-embodied-decision-making.pdf",
+  "pdf_sha256": "4fe910d1391f4f4ab5763684b88f180a4e61502d5ac27aefc41b572cd613f64f",
+  "pdf_title_observed": "ManiTaskGen: A Comprehensive Task Generator for Benchmarking and Improving Vision-Language Agents on Embodied Decision-Making",
+  "first_page_title_text": "ManiTaskGen: A Comprehensive Task Generator for\nBenchmarking and Improving Vision-Language\nAgents on Embodied Decision-Making\nLiu Dai∗Haina Wang∗Weikang Wan\nHao Su\nUniversity of California, San Diego\n{l2dai, haw120, w2wan, haosu@ucsd.edu}\nProject Website\nAbstract\nBuilding embodied agents capable of accomplishing arbitrary tasks is a core ob-\njective towards achieving embodied artificial general in",
+  "title_match": true,
+  "version": "2505.20726v2",
+  "page_count": 67,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1: Framework Overview. ManiTaskGen is a universal system that generates a comprehensive set of feasible mobile manipulation tasks given arbitrary scene. These tasks facilitate automatic benchmarking and the improvement of embodied decision-making agents. a few scenes and authoring a limited number of scene-specific tasks related to objects within those scenes, which serve as training or testing objectives for embodied agents. Such manual a",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 2,
+      "caption_excerpt": "Fig. 2. Figure 2: Agent-Env Interaction Cycle. This cycle provides a fundamental depiction of how an embodied agent executes a task within a scene. Accordingly, we categorize all tasks into two dis- tinct types: process- and outcome-based tasks. This cycle, where executing atomic actions (e.g., single object relocation) updates the scene state and determines subsequent available actions, in- herently defines the space of all possible tasks. Based",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 2: Agent-Env Interaction Cycle. This cycle provides a fundamental depiction of how an embodied agent executes a task within a scene. Accordingly, we categorize all tasks into two dis- tinct types: process- and outcome-based tasks. This cycle, where executing atomic actions (e.g., single object relocation) updates the scene state and determines subsequent available actions, in- herently defines the space of all possible tasks. Based on this",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 3: Visualization of Segmented Recepta- cle Regions on a Surface. After that, we identify the available receptacles within the scene. Building upon the established ob- ject relationship tree, we characterize receptacles by segmenting the free space of surfaces. Specif- ically, we treat each object as an anchor, and seg- ment the free space around it into eight directional receptacle regions, with boundaries extending un- til they encounter ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 3. Receptacle properties such as location, size, and direction relative to its anchor object or the surface are recorded. We also capture complex cases, such as a single receptacle indexed by multiple objects or the potential for merging adjacent receptacles into larger ones. Finally, all these information are stored as attributes of each node of the scene graph. This representation enables efficient retrieval of any receptacle by querying o",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 4: The \"lightmap\"s Which Show the Diversity of Generated Tasks. Each time an object or location is mentioned in a task, we add a highlight at the corresponding position. The brightness intensity and distribution reveal that our method generates tasks covering more objects and locations. scene graph. These strategies include: move to a named surface, move to a location around a specific object, move to a location with specific direction rel",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 5: Visualization of An Example Testing Episode. The agent is equipped with abstracted navigation (go_to, change_view), grasping (pick) and placing (show_receptacle, place) skills. Blue marks indicate the walkable locations around ground objects involved in this episode. around each ground object, which define possible navigation targets, and also to identify platforms within objects and segment them into receptacle regions. The detailed ac",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 5. At each timestep, the agent receives multimodal observations from the system, including rendered images (with tags for objects or, after show_receptacle, for receptacles), and text information. The system executes the given actions, updates the environment, and provides the next observation. An episode terminates when the agent executes call_end or a preset timestep limit is reached. After termination, the benchmark automatically evaluate",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 6: Success and Failure Modes from Gemini-2.5-pro in each stage of Level 3 tasks. We evaluate existing VLM-based embodied agents in the simulated scenes [23, 24] from ManiTaskGen-RAS-40K. Specifically, we ran- domly sample 1000 tasks for each level of the tasks. A timestep limit of 20 is set for Level 1 & 2 tasks, and 40 for Level 3 tasks. Results are shown in Tab. 3. We observe that all models achieve a low average SR (under 30%), signific",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 7: Improvement of Gemini-2.5-flash Agent. We find that more trial episodes continu- ously contribute to the agent performance. To ensure no data leakage between optimiza- tion and deployment, we select tasks from the ReplicaCAD [23] scene of ManiTaskGen-RAS as source trial episodes, and subsequently tested in the AI2THOR [24] scene. Tab. 4 summarizes the performance improvements of agents after opti- mization. We used 10 trial episodes for",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 9,
+      "caption_excerpt": "Fig. 7. Preliminary results show that agent performance continuously improves with an increasing number of self-reflection trial episodes. Similar findings have been observed in previous work [26]. Therefore, these findings further underscore the significance of ManiTaskGen. Because it can generate and evaluate tasks in arbitrary scenes, thus providing abundant resources for agent improvement. 6 Conclusion and Future Work In this paper, we introd",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

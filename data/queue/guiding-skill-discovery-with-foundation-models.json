@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "guiding-skill-discovery-with-foundation-models",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.478635Z",
-  "updated_at": "2026-10-09T20:04:59.478635Z",
+  "updated_at": "2026-10-09T20:14:36.308227Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,102 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/guiding-skill-discovery-with-foundation-models.json",
+          "https://arxiv.org/pdf/2510.23167v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/guiding-skill-discovery-with-foundation-models.json",
+          "sha256": "8e653921d243d65931184f946703c7fbc730f01f428c8d54c4f59eb1966147e5"
+        },
+        "version": "2510.23167v1",
+        "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+        "inspected_at": null,
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Guiding Skill Discovery with Foundation Models",
+        "observed_title": "Guiding Skill Discovery with Foundation Models",
+        "source_url": "https://arxiv.org/pdf/2510.23167v1",
+        "source_sha256": "522d2ad75780ebfbe265ba729f0e9d901adda3b88ed7524dd388dd4545ba3c9e",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/guiding-skill-discovery-with-foundation-models.json",
+          "https://arxiv.org/pdf/2510.23167v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/guiding-skill-discovery-with-foundation-models.json",
+          "sha256": "8e653921d243d65931184f946703c7fbc730f01f428c8d54c4f59eb1966147e5"
+        },
+        "version": "2510.23167v1",
+        "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/guiding-skill-discovery-with-foundation-models.pdf",
+          "reported_sha256": "522d2ad75780ebfbe265ba729f0e9d901adda3b88ed7524dd388dd4545ba3c9e",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 23,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/guiding-skill-discovery-with-foundation-models.json",
+          "https://arxiv.org/pdf/2510.23167v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/guiding-skill-discovery-with-foundation-models.json",
+          "sha256": "8e653921d243d65931184f946703c7fbc730f01f428c8d54c4f59eb1966147e5"
+        },
+        "version": "2510.23167v1",
+        "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 1",
+            "page_1_based": 2,
+            "caption": "FoG leverages foundation models to score states.",
+            "crop_pdf_points": [
+              72,
+              81,
+              541,
+              209
+            ],
+            "vector_paths": 99,
+            "native_text_spans": 18,
+            "raster_images": 23,
+            "visually_inspected": true,
+            "notes": "Most ordinary labels native; custom embedded font and some outlined mathematical labels. Raster model/environment icons."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +145,152 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.852089Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "e0a8af069056993dd58be577fdae1bc54a4971b8e27a90ae086068192a38ac7e",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/guiding-skill-discovery-with-foundation-models.json",
+                "https://arxiv.org/pdf/2510.23167v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/guiding-skill-discovery-with-foundation-models.json",
+                "sha256": "8e653921d243d65931184f946703c7fbc730f01f428c8d54c4f59eb1966147e5"
+              },
+              "version": "2510.23167v1",
+              "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Guiding Skill Discovery with Foundation Models",
+              "observed_title": "Guiding Skill Discovery with Foundation Models",
+              "source_url": "https://arxiv.org/pdf/2510.23167v1",
+              "source_sha256": "522d2ad75780ebfbe265ba729f0e9d901adda3b88ed7524dd388dd4545ba3c9e",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/guiding-skill-discovery-with-foundation-models.json",
+                "https://arxiv.org/pdf/2510.23167v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/guiding-skill-discovery-with-foundation-models.json",
+                "sha256": "8e653921d243d65931184f946703c7fbc730f01f428c8d54c4f59eb1966147e5"
+              },
+              "version": "2510.23167v1",
+              "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/guiding-skill-discovery-with-foundation-models.pdf",
+                "reported_sha256": "522d2ad75780ebfbe265ba729f0e9d901adda3b88ed7524dd388dd4545ba3c9e",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 23,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/guiding-skill-discovery-with-foundation-models.json",
+                "https://arxiv.org/pdf/2510.23167v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/guiding-skill-discovery-with-foundation-models.json",
+                "sha256": "8e653921d243d65931184f946703c7fbc730f01f428c8d54c4f59eb1966147e5"
+              },
+              "version": "2510.23167v1",
+              "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 1",
+                  "page_1_based": 2,
+                  "caption": "FoG leverages foundation models to score states.",
+                  "crop_pdf_points": [
+                    72,
+                    81,
+                    541,
+                    209
+                  ],
+                  "vector_paths": 99,
+                  "native_text_spans": 18,
+                  "raster_images": 23,
+                  "visually_inspected": true,
+                  "notes": "Most ordinary labels native; custom embedded font and some outlined mathematical labels. Raster model/environment icons."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.308227Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "87a9582143e287696e98a51dd88aa3f19aa5a60bd887856063f995379cda9af7",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/guiding-skill-discovery-with-foundation-models.json",
+                "https://arxiv.org/pdf/2510.23167v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/guiding-skill-discovery-with-foundation-models.json",
+                "sha256": "8e653921d243d65931184f946703c7fbc730f01f428c8d54c4f59eb1966147e5"
+              },
+              "version": "2510.23167v1",
+              "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Guiding Skill Discovery with Foundation Models",
+              "observed_title": "Guiding Skill Discovery with Foundation Models",
+              "source_url": "https://arxiv.org/pdf/2510.23167v1",
+              "source_sha256": "522d2ad75780ebfbe265ba729f0e9d901adda3b88ed7524dd388dd4545ba3c9e",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

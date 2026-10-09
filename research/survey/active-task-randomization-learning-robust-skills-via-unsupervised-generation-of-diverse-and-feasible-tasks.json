@@ -1,0 +1,67 @@
+{
+  "catalog_index": 107,
+  "catalog_id": "active-task-randomization-learning-robust-skills-via-unsupervised-generation-of-diverse-and-feasible-tasks",
+  "title_expected": "Active Task Randomization: Learning Robust Skills via Unsupervised Generation of Diverse and Feasible Tasks",
+  "source_url": "https://arxiv.org/pdf/2211.06134v2",
+  "pdf_path": "build/sources/active-task-randomization-learning-robust-skills-via-unsupervised-generation-of-diverse-and-feasible-tasks.pdf",
+  "pdf_sha256": "c13ef30ae59aad2323d16791e9cfbaf22ad416aeaceb5062d054e93e9fe0556c",
+  "pdf_title_observed": "Active Task Randomization: Learning Robust Skills via Unsupervised Generation of Diverse and Feasible Tasks",
+  "first_page_title_text": "Active Task Randomization: Learning Robust Skills via Unsupervised\nGeneration of Diverse and Feasible Tasks\nKuan Fang∗1, Toki Migimatsu∗2, Ajay Mandlekar3, Li Fei-Fei2, Jeannette Bohg2\nAbstract— Solving real-world manipulation tasks requires\nrobots to have a repertoire of skills applicable to a wide\nrange of circumstances. When using learning-based methods\nto acquire such skills, the key challenge",
+  "title_match": true,
+  "version": "2211.06134v2",
+  "page_count": 8,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Fig. 1. Overview of ATR. We use diverse procedurally generated tasks in simulation to train generalizable skills to solve sequential manipulation tasks in the real world. During training, a task sampler proposes suitable tasks in simulation to efﬁciently train skill policies, by estimating the feasibility and diversity of sampled tasks. During testing, the trained skill policies are composed by a task planner to solve unseen sequential manipulati",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Fig. 1. The sampling is performed in a task space that uses scene graphs to parameterize a wide variety of environment conﬁgurations and goals. To select suitable training tasks, we introduce a ranking score that considers both the feasibility and di- versity of the sampled tasks. Task feasibility is related to the expected return of the current policy. Task diversity is related to the entropy of the task parameters already seen during training. ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Fig. 2. ATR Architecture. We use a task encoder (left) to project each task parameter w into a compact embedding for estimating the feasibility and diversity of sampled tasks (right). The task encoder is implemented with a relational neural network that fuses the information of the initial scene graph, the planned action, and the context variables. Given the computed task embeddings, the task’s feasibility is the expected return estimated by a le",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 3. Skill Learning Performance. The average success rates across ﬁve training runs is shown with the shaded region indicating the standard deviation. The x-axis indicates the number of collected simulation steps. Our method achieves comparable or better performances for all four skills. place-onto(can, container) place-onto(can, box) place-onto(box, rack) place-nextto(box, container) place-nextto(can, rack) place-nextto(can, container) push-u",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 4. Examples of Proposed Tasks. Tasks with various object types, scales, symbolic relationships, and camera conﬁgurations are proposed in simulation. Most of the proposed tasks are feasible and can be solved by the planned actions. The names of the target objects for each skill are color- coded with the same color as they appear in the simulated environment. Sec. IV. PLR [69] re-samples previous tasks stored in the replay buffer based on a sc",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 4. During training, our method successfully proposes tasks with various object types, shapes, and symbolic rela- tionships. In each task, there exists a feasible planned action to achieve the goal state by interacting with the target objects. In contrast, using baseline methods or uniformly sampling from the task space often results in infeasible tasks such as grasping objects that are beyond reach, pulling distant objects with a hook that i",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 5. As shown in the bar charts, our ATR method outperforms baselines on all three evaluation tasks in both simulation and in the real world, given the superior performance of individual learned skills. The baseline methods do not train the skill policies on a diverse enough range of objects and thus often cannot complete the tasks within 10 steps. ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 5. Sequential Manipulation Performance. The video sequences on the left show qualitative results of ATR on the evaluation tasks, and the bar plots on the right show quantitative comparisons with the baselines. The three sequential manipulation tasks require different combinations of the skills and are used for evaluation in both simulation and in the real world. The initial conﬁgurations of the objects are randomized for each trial. Using th",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

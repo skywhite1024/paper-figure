@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "data-augmentation-for-instruction-following-policies-via-trajectory-segmentation",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.486324Z",
-  "updated_at": "2026-10-09T20:04:59.486324Z",
+  "updated_at": "2026-10-09T20:14:36.039320Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,102 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/data-augmentation-for-instruction-following-policies-via-trajectory-segmentation.json",
+          "https://arxiv.org/pdf/2503.01871v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/data-augmentation-for-instruction-following-policies-via-trajectory-segmentation.json",
+          "sha256": "fb1f98664fd0c07733f338e3bc4a99aa8a673f5d7f6d4b69da8e0bf766bc641d"
+        },
+        "version": "2503.01871v1",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Data Augmentation for Instruction Following Policies via Trajectory Segmentation",
+        "observed_title": "Data Augmentation for Instruction Following Policies via Trajectory Segmentation",
+        "source_url": "https://arxiv.org/pdf/2503.01871v1",
+        "source_sha256": "7397912c2775dabd082d0898e24bbc755ba52a3783d6c0e8d2266385aaa69799",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/data-augmentation-for-instruction-following-policies-via-trajectory-segmentation.json",
+          "https://arxiv.org/pdf/2503.01871v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/data-augmentation-for-instruction-following-policies-via-trajectory-segmentation.json",
+          "sha256": "fb1f98664fd0c07733f338e3bc4a99aa8a673f5d7f6d4b69da8e0bf766bc641d"
+        },
+        "version": "2503.01871v1",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/data-augmentation-for-instruction-following-policies-via-trajectory-segmentation.pdf",
+          "reported_sha256": "7397912c2775dabd082d0898e24bbc755ba52a3783d6c0e8d2266385aaa69799",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 12,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/data-augmentation-for-instruction-following-policies-via-trajectory-segmentation.json",
+          "https://arxiv.org/pdf/2503.01871v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/data-augmentation-for-instruction-following-policies-via-trajectory-segmentation.json",
+          "sha256": "fb1f98664fd0c07733f338e3bc4a99aa8a673f5d7f6d4b69da8e0bf766bc641d"
+        },
+        "version": "2503.01871v1",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 3,
+            "caption": "Training sample generation for segmentation approaches.",
+            "crop_pdf_points": [
+              318,
+              54,
+              557,
+              210
+            ],
+            "vector_paths": 0,
+            "native_text_spans": 0,
+            "raster_images": 1,
+            "visually_inspected": true,
+            "notes": "Method/dataflow schematic comparing TriDet, UnLoc and play segmentation; not a neural network block architecture."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +145,180 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.577353Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "806236bbf393d915bf849ad63937f5102bd6d19c07fc3cc02b0e850a6c3d5139",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/data-augmentation-for-instruction-following-policies-via-trajectory-segmentation.json",
+                "https://arxiv.org/pdf/2503.01871v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/data-augmentation-for-instruction-following-policies-via-trajectory-segmentation.json",
+                "sha256": "5943b49b5ad0d43f1407893dd9690ded3076ddda5cc7eccca494e766739b819b"
+              },
+              "version": "2503.01871v1",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Data Augmentation for Instruction Following Policies via Trajectory Segmentation",
+              "observed_title": "Data Augmentation for Instruction Following Policies via Trajectory Segmentation",
+              "source_url": "https://arxiv.org/pdf/2503.01871v1",
+              "source_sha256": "7397912c2775dabd082d0898e24bbc755ba52a3783d6c0e8d2266385aaa69799",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/data-augmentation-for-instruction-following-policies-via-trajectory-segmentation.json",
+                "https://arxiv.org/pdf/2503.01871v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/data-augmentation-for-instruction-following-policies-via-trajectory-segmentation.json",
+                "sha256": "5943b49b5ad0d43f1407893dd9690ded3076ddda5cc7eccca494e766739b819b"
+              },
+              "version": "2503.01871v1",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/data-augmentation-for-instruction-following-policies-via-trajectory-segmentation.pdf",
+                "reported_sha256": "7397912c2775dabd082d0898e24bbc755ba52a3783d6c0e8d2266385aaa69799",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 12,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.039320Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "d90f95cf96357dfea2d514ef20aea12e9fd2a6f428a20dd701d8fffa3397fc0b",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/data-augmentation-for-instruction-following-policies-via-trajectory-segmentation.json",
+                "https://arxiv.org/pdf/2503.01871v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/data-augmentation-for-instruction-following-policies-via-trajectory-segmentation.json",
+                "sha256": "fb1f98664fd0c07733f338e3bc4a99aa8a673f5d7f6d4b69da8e0bf766bc641d"
+              },
+              "version": "2503.01871v1",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Data Augmentation for Instruction Following Policies via Trajectory Segmentation",
+              "observed_title": "Data Augmentation for Instruction Following Policies via Trajectory Segmentation",
+              "source_url": "https://arxiv.org/pdf/2503.01871v1",
+              "source_sha256": "7397912c2775dabd082d0898e24bbc755ba52a3783d6c0e8d2266385aaa69799",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/data-augmentation-for-instruction-following-policies-via-trajectory-segmentation.json",
+                "https://arxiv.org/pdf/2503.01871v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/data-augmentation-for-instruction-following-policies-via-trajectory-segmentation.json",
+                "sha256": "fb1f98664fd0c07733f338e3bc4a99aa8a673f5d7f6d4b69da8e0bf766bc641d"
+              },
+              "version": "2503.01871v1",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/data-augmentation-for-instruction-following-policies-via-trajectory-segmentation.pdf",
+                "reported_sha256": "7397912c2775dabd082d0898e24bbc755ba52a3783d6c0e8d2266385aaa69799",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 12,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/data-augmentation-for-instruction-following-policies-via-trajectory-segmentation.json",
+                "https://arxiv.org/pdf/2503.01871v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/data-augmentation-for-instruction-following-policies-via-trajectory-segmentation.json",
+                "sha256": "fb1f98664fd0c07733f338e3bc4a99aa8a673f5d7f6d4b69da8e0bf766bc641d"
+              },
+              "version": "2503.01871v1",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 3,
+                  "caption": "Training sample generation for segmentation approaches.",
+                  "crop_pdf_points": [
+                    318,
+                    54,
+                    557,
+                    210
+                  ],
+                  "vector_paths": 0,
+                  "native_text_spans": 0,
+                  "raster_images": 1,
+                  "visually_inspected": true,
+                  "notes": "Method/dataflow schematic comparing TriDet, UnLoc and play segmentation; not a neural network block architecture."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        }
+      }
     }
   ]
 }

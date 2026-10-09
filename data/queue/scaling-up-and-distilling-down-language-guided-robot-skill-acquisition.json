@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "scaling-up-and-distilling-down-language-guided-robot-skill-acquisition",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.482071Z",
-  "updated_at": "2026-10-09T20:04:59.482071Z",
+  "updated_at": "2026-10-09T20:14:36.710548Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,102 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition.json",
+          "https://arxiv.org/pdf/2307.14535v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition.json",
+          "sha256": "c005c4face467211165ac352eab3e116c8be50ac8e5f0e8544b70fa14fb41958"
+        },
+        "version": "2307.14535v2",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed.",
+        "inspected_at": null,
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition",
+        "observed_title": "Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition",
+        "source_url": "https://arxiv.org/pdf/2307.14535v2",
+        "source_sha256": "ef8689b7632897425bb0e537c33cd3999fc3d8cc1126fccf65b8e0d612233dce",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition.json",
+          "https://arxiv.org/pdf/2307.14535v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition.json",
+          "sha256": "c005c4face467211165ac352eab3e116c8be50ac8e5f0e8544b70fa14fb41958"
+        },
+        "version": "2307.14535v2",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition.pdf",
+          "reported_sha256": "ef8689b7632897425bb0e537c33cd3999fc3d8cc1126fccf65b8e0d612233dce",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 27,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition.json",
+          "https://arxiv.org/pdf/2307.14535v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition.json",
+          "sha256": "c005c4face467211165ac352eab3e116c8be50ac8e5f0e8544b70fa14fb41958"
+        },
+        "version": "2307.14535v2",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 3",
+            "page_1_based": 4,
+            "caption": "Language-Driven Robot Data Generation.",
+            "crop_pdf_points": [
+              109,
+              70,
+              505,
+              239
+            ],
+            "vector_paths": 0,
+            "native_text_spans": 0,
+            "raster_images": 1,
+            "visually_inspected": true,
+            "notes": "Figure is predominantly full flattened raster; manual source-layout reconstruction needed. Separate policy architecture Figure4page5 may be more source-convertible."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +145,152 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.234203Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "4b00db888dd3856135853d06974c1c0f32f15409b4d61fef86c0632d8b32be55",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition.json",
+                "https://arxiv.org/pdf/2307.14535v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition.json",
+                "sha256": "c005c4face467211165ac352eab3e116c8be50ac8e5f0e8544b70fa14fb41958"
+              },
+              "version": "2307.14535v2",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition",
+              "observed_title": "Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition",
+              "source_url": "https://arxiv.org/pdf/2307.14535v2",
+              "source_sha256": "ef8689b7632897425bb0e537c33cd3999fc3d8cc1126fccf65b8e0d612233dce",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition.json",
+                "https://arxiv.org/pdf/2307.14535v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition.json",
+                "sha256": "c005c4face467211165ac352eab3e116c8be50ac8e5f0e8544b70fa14fb41958"
+              },
+              "version": "2307.14535v2",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition.pdf",
+                "reported_sha256": "ef8689b7632897425bb0e537c33cd3999fc3d8cc1126fccf65b8e0d612233dce",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 27,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition.json",
+                "https://arxiv.org/pdf/2307.14535v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition.json",
+                "sha256": "c005c4face467211165ac352eab3e116c8be50ac8e5f0e8544b70fa14fb41958"
+              },
+              "version": "2307.14535v2",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 3",
+                  "page_1_based": 4,
+                  "caption": "Language-Driven Robot Data Generation.",
+                  "crop_pdf_points": [
+                    109,
+                    70,
+                    505,
+                    239
+                  ],
+                  "vector_paths": 0,
+                  "native_text_spans": 0,
+                  "raster_images": 1,
+                  "visually_inspected": true,
+                  "notes": "Figure is predominantly full flattened raster; manual source-layout reconstruction needed. Separate policy architecture Figure4page5 may be more source-convertible."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.710548Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "7f9d58fdc89dfff0d90441cab9896bd9f1f0169ed35486afc422ce13abbd66a1",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition.json",
+                "https://arxiv.org/pdf/2307.14535v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition.json",
+                "sha256": "c005c4face467211165ac352eab3e116c8be50ac8e5f0e8544b70fa14fb41958"
+              },
+              "version": "2307.14535v2",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition",
+              "observed_title": "Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition",
+              "source_url": "https://arxiv.org/pdf/2307.14535v2",
+              "source_sha256": "ef8689b7632897425bb0e537c33cd3999fc3d8cc1126fccf65b8e0d612233dce",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

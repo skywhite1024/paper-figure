@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "axis-a-growable-community-driven-data-engine-for-scalable-robot-manipulation",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.491640Z",
-  "updated_at": "2026-10-09T20:04:59.491640Z",
+  "updated_at": "2026-10-09T20:14:35.946899Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/axis-a-growable-community-driven-data-engine-for-scalable-robot-manipulation.json",
+          "https://arxiv.org/pdf/2607.21588v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/axis-a-growable-community-driven-data-engine-for-scalable-robot-manipulation.json",
+          "sha256": "25aced0e78f7e852e2439e8f8fc4572118aa0fa0eae7feb802db3dca9acd1374"
+        },
+        "version": "2607.21588v1",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation",
+        "observed_title": "AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation",
+        "source_url": "https://arxiv.org/pdf/2607.21588v1",
+        "source_sha256": "52bedbf53aefd2499910ee182281d1f72d88578ba9cf8451299d48dd3194050e",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/axis-a-growable-community-driven-data-engine-for-scalable-robot-manipulation.json",
+          "https://arxiv.org/pdf/2607.21588v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/axis-a-growable-community-driven-data-engine-for-scalable-robot-manipulation.json",
+          "sha256": "25aced0e78f7e852e2439e8f8fc4572118aa0fa0eae7feb802db3dca9acd1374"
+        },
+        "version": "2607.21588v1",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/axis-a-growable-community-driven-data-engine-for-scalable-robot-manipulation.pdf",
+          "reported_sha256": "52bedbf53aefd2499910ee182281d1f72d88578ba9cf8451299d48dd3194050e",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 25,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.483672Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "07f98b1242c164dc8cf610b0303ee8e8183468c2cc07f27e9fdc187263961ec3",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/axis-a-growable-community-driven-data-engine-for-scalable-robot-manipulation.json",
+                "https://arxiv.org/pdf/2607.21588v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/axis-a-growable-community-driven-data-engine-for-scalable-robot-manipulation.json",
+                "sha256": "25aced0e78f7e852e2439e8f8fc4572118aa0fa0eae7feb802db3dca9acd1374"
+              },
+              "version": "2607.21588v1",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation",
+              "observed_title": "AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation",
+              "source_url": "https://arxiv.org/pdf/2607.21588v1",
+              "source_sha256": "52bedbf53aefd2499910ee182281d1f72d88578ba9cf8451299d48dd3194050e",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/axis-a-growable-community-driven-data-engine-for-scalable-robot-manipulation.json",
+                "https://arxiv.org/pdf/2607.21588v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/axis-a-growable-community-driven-data-engine-for-scalable-robot-manipulation.json",
+                "sha256": "25aced0e78f7e852e2439e8f8fc4572118aa0fa0eae7feb802db3dca9acd1374"
+              },
+              "version": "2607.21588v1",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/axis-a-growable-community-driven-data-engine-for-scalable-robot-manipulation.pdf",
+                "reported_sha256": "52bedbf53aefd2499910ee182281d1f72d88578ba9cf8451299d48dd3194050e",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 25,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:35.946899Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "393bc26dc2c5694f332e243e098cdd5f969659f46dd4a1229208aa790227222b",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/axis-a-growable-community-driven-data-engine-for-scalable-robot-manipulation.json",
+                "https://arxiv.org/pdf/2607.21588v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/axis-a-growable-community-driven-data-engine-for-scalable-robot-manipulation.json",
+                "sha256": "25aced0e78f7e852e2439e8f8fc4572118aa0fa0eae7feb802db3dca9acd1374"
+              },
+              "version": "2607.21588v1",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation",
+              "observed_title": "AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation",
+              "source_url": "https://arxiv.org/pdf/2607.21588v1",
+              "source_sha256": "52bedbf53aefd2499910ee182281d1f72d88578ba9cf8451299d48dd3194050e",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

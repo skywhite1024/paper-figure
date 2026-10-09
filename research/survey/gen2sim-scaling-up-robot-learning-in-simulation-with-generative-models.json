@@ -1,0 +1,55 @@
+{
+  "catalog_index": 105,
+  "catalog_id": "gen2sim-scaling-up-robot-learning-in-simulation-with-generative-models",
+  "title_expected": "Gen2Sim: Scaling Up Robot Learning in Simulation with Generative Models",
+  "source_url": "https://arxiv.org/pdf/2310.18308v1",
+  "pdf_path": "build/sources/gen2sim-scaling-up-robot-learning-in-simulation-with-generative-models.pdf",
+  "pdf_sha256": "618007739203770439d49d86d099cec7428e7aeb7118b07198d255dfd766af38",
+  "pdf_title_observed": "Gen2Sim: Scaling up Robot Learning in Simulation with Generative Models",
+  "first_page_title_text": "Gen2Sim: Scaling up Robot Learning in Simulation\nwith Generative Models\nPushkal Katara∗, Zhou Xian∗, Katerina Fragkiadaki\nCarnegie Mellon University\nhttps://gen2sim.github.io/\nAbstract— Generalist robot manipulators need to learn a\nwide variety of manipulation skills across diverse environments.\nCurrent robot training pipelines rely on humans to provide\nkinesthetic demonstrations or to program sim",
+  "title_match": true,
+  "version": "2310.18308v1",
+  "page_count": 8,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Figure 1. This generative pipeline was first proposed in a recent position paper [22], described as a promising pathway towards generating diverse data for generalist robot learning. In this paper, we present Gen2Sim, the first attempt and realization of such a generative paradigm. We automate 3D object asset generation by combining image diffusion models for 3D mesh and texture generation, and LLMs for querying physical parameters information. W",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Fig. 1: Gen2Sim is an automated generative pipeline of as- sets, tasks, task decompositions and rewards functions for au- tonomous robotic skill reinforcement learning in simulation. Here we show 12 generated tasks, concerning affordances of diverse types of object assets and their combinations. alongside their reward functions. Gen2Sim is able to generate numerous object assets and task variations without any human involvement beyond few LLM pro",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Fig. 2: The Gen2Sim components. Gen2Sim generates 3d assets by lifting object-centric 2D images to 3D. It then uses both generated assets and assets obtained from other publicly available datasets to populate scene environments. Afterwards, it queries LLMs to generate meaningful task descriptions for the assembled scenes, as well as decompose the generated task descriptions to sub-tasks and their reward functions. and reasoning capabilities provi",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 3: 3D asset generation from Gen2Sim, RealFusion [43] and Make-It-3D [44]. Gen2Sim uses a view and camera pose conditioned image generative model during score distillation, which helps generate more accurate 3D geometry in comparison to the baselines. Mass (gram) Length (cm) Width Height Papaya 500-1000 15-20 10-15 10-15 Cucumber 200-300 15-20 5-7 5-7 Watermelon 5000-7000 30-40 20-30 20-30 Raspberry 3-5 2-3 2-3 2-3 Coconut 600-800 10-15 8-12 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 2. We provide our prompts in our project website, alongside examples of the LLM’s responses. We learn policies that optimize LLM generated rewards with PPO, an off-the-shelf model-free RL algorithm [83]. We make use of GPU-parallel data sampling in IsaacGym [87] for reinforcement learning. Our robotic setup uses a Franka Panda arm with a mobile base. It is equipped with a parallel-jaw gripper. Our state representation for PPO includes the ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 4: Twin environments constructed and generated tasks for sim-to-real transfer. Left: real-world. Right: simulated. C. Twin environment construction and sim-to-real world transfer In order to validate the usefulness of the policies trained in simulation, we construct a twin simulated environment of our lab’s real-robot setup (Figure 4). We detect, segment, and estimate the poses of the objects in the scene. For non- articulated assets, we use",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

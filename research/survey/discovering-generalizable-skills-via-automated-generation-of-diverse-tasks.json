@@ -1,0 +1,79 @@
+{
+  "catalog_index": 108,
+  "catalog_id": "discovering-generalizable-skills-via-automated-generation-of-diverse-tasks",
+  "title_expected": "Discovering Generalizable Skills via Automated Generation of Diverse Tasks",
+  "source_url": "https://arxiv.org/pdf/2106.13935v1",
+  "pdf_path": "build/sources/discovering-generalizable-skills-via-automated-generation-of-diverse-tasks.pdf",
+  "pdf_sha256": "72a97883f914888c9d753d0c1e79f0c1efab865ece1ab652961d82804166711e",
+  "pdf_title_observed": "Discovering Generalizable Skills via Automated Generation of Diverse Tasks",
+  "first_page_title_text": "Discovering Generalizable Skills via\nAutomated Generation of Diverse Tasks\nKuan Fang1, Yuke Zhu2,3, Silvio Savarese1, Li Fei-Fei1\n1 Stanford University, 2 UT Austin, 3 Nvidia\nAbstract—The learning efﬁciency and generalization ability of\nan intelligent agent can be greatly improved by utilizing a useful\nset of skills. However, the design of robot skills can often be in-\ntractable in real-world appl",
+  "title_match": true,
+  "version": "2106.13935v1",
+  "page_count": 12,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Fig. 1. The robot skills are learned through automated generation of tasks in our method. Each skill is paired with a unique task produced by the trainable task generator. The skills are trained to specialize in the paired tasks. We propose to discover a diverse set of skills by diversifying the generated tasks. up a promising direction for unsupervised skill discovery. Nonetheless, most of these approaches gauge the diversity of the skills based",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Fig. 2. Skill Learning In Diversiﬁed Environments (SLIDE). Conditioned on the sampled skill index z, the skill policy is trained in tasks procedurally created by the task generator. The task generator is trained to maximize an objective deﬁned by the collected trajectory τ and the task discriminator. Task generators and discriminators are marked in green, the policy is marked in blue, and predeﬁned modules are marked in grey. learns to automatica",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 3. Task discriminator network architecture. The network takes the trajectory collected by each skill as input. It encodes the initial state and each transition and predicts the skill index z from the pooled feature. generalizability to handle the scene variability and task initial- ization. Lastly, we take the feasibility of the tasks into account to prevent learning skills in tasks that are infeasible to solve. Inspired by prior work [19, 3",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 4. Target tasks in the two domains. Goals of different object categories are indicated as: cans (red), boxes (green), and dishware (blue). hierarchical policy to solve each unseen target task by utilizing the skills learned from the same domain. As shown in Fig. 4, our tasks involve a 7-DoF Sawyer robot arm interacting with multiple objects in a conﬁgurable table-top environment. The two task domains, which we name PushEnv and TidyEnv, are a",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 5. Example tasks and skills discovered by SLIDE. We demonstrate the inter-skill and intra-skill diversity by showing two sampled trajectories associated with the same skill index in each grey block. Each column shows the initialization of the generated task (the top tile) and the execution of the skill (the second and the third tiles). Different colors indicate destinations of different object categories including cans (red), boxes (green), ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 5. Each grey block shows two example trajectories associated with a different skill index z in one of the two task domains. The initialization of the generated task (the top tile) and the execution of the skill policy (the second and the third tiles) are demonstrated in each column. Marks of different colors are used to indicate destinations for different object categories including cans (red), boxes (green), and dishware (blue). As shown in",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 6. Quantitative results in the target tasks. Given the skills learned by SLIDE, we train the hierarchical policy to solve unseen target tasks. Our method outperforms multiple reinforcement learning and skill learning baselines in terms of the average return. the notion of the target tasks. Then each method is trained and evaluated in the target tasks for 800k iterations. During training, we evaluate the average return of the trained model fo",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 8,
+      "caption_excerpt": "Fig. 7. Ablation study. We investigate the effects of each term in the object, the number of skills, and the target intra-skill diversity. The training and evaluation of each ablation follow the same protocol as in the quantitative results and the average returns are plotted. D. Ablation Study We run three ablation studies to investigate the importance of each component and hyperparameter to the task perfor- mance in the target tasks. Following t",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 8,
+      "caption_excerpt": "Fig. 7. Effects of each term. To understand the importance of each term in the objective function, we train our method by removing one of the terms in the objective function (Eq. 3) in each ablation. As a result, the average return in the target task at convergence is reduced by 0.1 - 0.3 as shown in Fig. 7. Removing the intra-skill diversity leads to the largest performance regression since each generated task would collapse into a concentrated ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 8,
+      "caption_excerpt": "Fig. 7. Removing the intra-skill diversity leads to the largest performance regression since each generated task would collapse into a concentrated task distribution which causes the corresponding skill to overﬁt to a very speciﬁc scenario. Without considering the inter-skill diversity, the generated tasks associated with different skill indices tend to overlap with each other and therefore the learned skills would have poor coverage of the robot",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

@@ -1,0 +1,97 @@
+{
+  "catalog_index": 85,
+  "catalog_id": "sage-scalable-agentic-3d-scene-generation-for-embodied-ai",
+  "title_expected": "SAGE: Scalable Agentic 3D Scene Generation for Embodied AI",
+  "source_url": "https://arxiv.org/pdf/2602.10116v2",
+  "pdf_path": "build/sources/sage-scalable-agentic-3d-scene-generation-for-embodied-ai.pdf",
+  "pdf_sha256": "d4a338d1778121a83866eeea8e9f8b035da05ecc50d94fd7db30f111d4484d67",
+  "pdf_title_observed": "SAGE: Scalable Agentic 3D Scene Generation for Embodied AI",
+  "first_page_title_text": "SAGE: Scalable Agentic 3D Scene Generation for Embodied AI\nHongchi Xia1,2* Xuan Li1 Zhaoshuo Li1 Qianli Ma1 Jiashu Xu1 Ming-Yu Liu1 Yin Cui1\nTsung-Yi Lin1 Wei-Chiu Ma3 Shenlong Wang2 Shuran Song1,4 Fangyin Wei1\n1NVIDIA\n2University of Illinois Urbana-Champaign\n3Cornell University\n4Stanford University\nCan you generate some bedrooms to train a policy on the task of …?\nMobile Manipulation: \npick up a ",
+  "title_match": true,
+  "version": "2602.10116v2",
+  "page_count": 18,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Figure 1. Overview and example outputs of SAGE. Given an open-ended user request, our system autonomously composes realistic, diverse, and simulation-ready 3D environments. The generated scenes are directly deployable in modern simulators, supporting embodied tasks such as Mobile Manipulation and Pick-and-Place. Through agent-driven reasoning, generator orchestration, and multi-level augmentation, the framework produces interactive environments a",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 2. Overview of SAGE scene generation. Our system converts open-vocabulary text prompts into simulation-ready 3D scenes by orchestrating multiple generator tools and critics. The agent dynamically calls generators (Scene Init, Asset Placer/Mover/Remover) to construct and refine layouts, while visual and physics critics provide iterative feedback for self-improvement. The visual critic suggests semantic corrections (e.g., missing or misplace",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 3. Common and open-vocabulary scene generation comparison. Compared with baselines, SAGE produces more complete scenes with more realistic layouts on common room types, while following the style prompts more faithfully on open-vocabulary queries. Room Type Method Visual Physics #Obj ↑Real. ↑Func. ↑Lay.↑Comp. ↑Coll. % ↓Stab. % ↑ Bedroom Holodeck[62] 28.5 7.4 6.8 5.0 6.1 29.1 51.0 SceneWeaver[63] 17.5 9.0 9.7 7.8 7.5 31.0 58.8 SAGE (Ours) 48",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 3. SAGE achieves the best results across all metrics, in both visual quality and physical stability. Holodeck [62] generates fewer objects with lower realism and functionality, and exhibits frequent collisions due to its rigid, predefined generation pipeline. SceneWeaver [63] achieves moderate visual quality but ex- hibits high collision rates and low stability, mainly due to its absence of simulator-based validation. As illustrated in Fig. ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 4. Additional open-vocabulary generation. SAGE produces diverse, semantically coherent scenes spanning various styles and functionalities, from Gym and Office spaces to creative themes like “Cyberpunk game den” and “Starry-night bedroom”. Holodeck [62] SceneWeaver [63] SAGE (Ours) Before After Figure 5. Stability verification. Generated scenes are loaded into IsaacSim for physical validation. Both baselines exhibit displaced objects due to",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 5. Stability verification. Generated scenes are loaded into IsaacSim for physical validation. Both baselines exhibit displaced objects due to instability, whereas SAGE preserves scene stability before and after simulation. Open-Vocabulary Types We further demonstrate the open-vocabulary generation capability of SAGE across a wide range of scene types. As shown in Fig. 3 and Fig. 4, our method successfully generates highly diverse and styli",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 6. 4.1.3. Additional Capabilities and Extensions In this subsection, we present several straightforward exten- sions of SAGE that demonstrate its flexibility across diverse generation settings. While these capabilities are not the primary focus of this paper, they arise naturally from the modular design of our framework and require minimal adap- tation. These results highlight the generality of SAGE and suggest that further improvements in g",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 6. SAGE-10k Dataset: We pre-generated a 10k-scene dataset named SAGE-10k Dataset across 50 room types and 50 styles, including 565K uniquely generated 3D objects. We include the statistics of room types, room examples, and objects per scene in the figure as well. The dataset can be accessed via this link. “Multilingual teacher’s apartment” “A student apartment with one bedroom” “Mid-century modern family home” Figure 7. Multi-room open-voc",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 7. Multi-room open-vocabulary generation. SAGE can be extended to generate multi-room scenes at scale easily by generating the floor plan and then calling generator MCP tools to fill in multiple rooms in parallel. Ref Image Generated Scene Figure 8. Image-conditioned scene generation. Using Qwen3- VL [48], SAGE extracts style and object attributes from reference images to enable image-conditioned scene generation without archi- tectural mo",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 8",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 8. Image-conditioned scene generation. Using Qwen3- VL [48], SAGE extracts style and object attributes from reference images to enable image-conditioned scene generation without archi- tectural modifications. The generated scenes are not pixel-aligned but remain semantically consistent with the reference images. images, as shown in Fig. 8. While not pixel-aligned, the generated scenes remain semantically coherent. Articulated Objects In ad",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 8",
+      "page_1_based": 8,
+      "caption_excerpt": "Fig. 8. While not pixel-aligned, the generated scenes remain semantically coherent. Articulated Objects In addition to rigid-body objects, our modular design can easily extend the current text-to-3D generation with object retrieval. As Fig. 9 shows, SAGE can be integrated with articulated assets from PartNet-Mobility [59] in the generated scenes. Also, robot actions can be generated by grasp pose prediction and motion planning. 4.2. Embodied AI L",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 9",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 9. Articulated Objects: SAGE can be extended with articulated objects using retrieval from PartNet-Mobility [59]. Top: we show two scenes with multiple articulated objects at closed and open states. Bottom: an action sequence generated with grasp pose prediction and motion planning( Sec.3.2.2) for “pick up the bowl, place it in the drawer, and close the drawer”. Please visit website for full video. Critics Setting Visual Physics Visual Phy",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 11",
+      "page_1_based": 9,
+      "caption_excerpt": "Fig. 11. As the results in Tab. 5, despite a distribution shift favoring baselines, our trained policies achieve higher success rates, indicating robust generalization. This compar- ison highlights that the unique design of SAGE, including agentic orchestration, physics validation, and text-to-3D syn- thesis, is critical for generating effective training data. Our method not only converges significantly faster than the base- lines but also approa",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

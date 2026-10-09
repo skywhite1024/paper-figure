@@ -1,0 +1,84 @@
+{
+  "catalog_index": 79,
+  "catalog_id": "compile-compositional-imitation-learning-and-execution",
+  "title_expected": "CompILE: Compositional Imitation Learning and Execution",
+  "source_url": "https://arxiv.org/pdf/1812.01483v2",
+  "pdf_path": "build/sources/compile-compositional-imitation-learning-and-execution.pdf",
+  "pdf_sha256": "1519b13da250a0fedd635bc3171ede198edb6bb72e9d89042e1454645cbdce32",
+  "pdf_title_observed": "CompILE: Compositional Imitation Learning and Execution",
+  "first_page_title_text": "CompILE: Compositional Imitation Learning and Execution\nThomas Kipf 1 † Yujia Li 2 Hanjun Dai 3 † Vinicius Zambaldi 2 Alvaro Sanchez-Gonzalez 2\nEdward Grefenstette 4 # Pushmeet Kohli 2 Peter Battaglia 2\nAbstract\nWe introduce Compositional Imitation Learn-\ning and Execution (CompILE): a framework for\nlearning reusable, variable-length segments of\nhierarchically-structured behavior from demon-\nstrat",
+  "title_match": true,
+  "version": "1812.01483v2",
+  "page_count": 17,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "Differentiable segmentation encoder and decoder model.",
+      "crop_pdf_points": [
+        55,
+        71,
+        543,
+        182
+      ],
+      "vector_paths": 393,
+      "native_text_spans": 1,
+      "raster_images": 0,
+      "visually_inspected": true,
+      "notes": "CompILE native block/sequence architecture with inference and generation panels. Preserve mathematical labels and dashed masks."
+    }
+  ],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Figure 1: Joint unsupervised learning of task segmenta- tion and encoding in CompILE. CompILE auto-encodes sequential demonstration data by 1) softly breaking an input sequence into segments of variable length, and 2) mapping each such segment into a latent code, which can be executed to reconstruct the input sequence. At test time, the latent code can be re-composed to produce novel behavior. ture into a hot pan and stirring it to form scrambled",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 2: Differentiable segmentation of an input trajectory x composed of a sequence of sub-tasks. The recognition model (encoder, marked as inference) predicts relaxed categorical (Gumbel softmax) boundary distributions q(bi|x) from which we can obtain soft segment masks P(t ∈Ci). Each segment Ci is encoded via q(zi|x). The generative model p(x|zi) is executed once for every latent variable zi. The reconstruction loss is masked with P(t ∈Ci), s",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 3: Example instances of multi-task, instruction- following environments used in our experiments. Left: Grid world with walls. An agent has to pick up or visit certain objects. Right: Continuous control reacher task with multi- ple targets. The tip of the reacher arm has to touch multiple colored spheres in a pre-speciﬁed order. and a continuous control task, where a reacher arm has to reach certain target locations. An example instance for",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 3. See supplementary mate- rial for additional implementation and evaluation details. Grid world The environment is a 10x10 grid world with a single agent, impassable walls, and multiple objects scat- tered throughout the scene. We generate scenes with 6 ob- jects selected uniformly at random from 10 different object types (excl. walls and player) jointly with task lists of 3-5 visit and pick up tasks. A single visit task can be solved by ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 4. For the pick up task, we see that our model reliably ﬁnds the correct boundary positions, i.e., it discovers the correct segments of behavior both in the 3-task ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 4: Imitation learning results in grid world domain. We report accuracy of segmentation boundary recovery, reconstruction accuracy (average over sequence vs. percentage of exact full-sequence matches) and online evaluation: average reward obtained when deploying the generative model (with termination policy) using the inferred latent code from the demonstration sequence in the environment, without re-training. See main text for additional d",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 5: Learning curves for agents trained in the multi-task grid world environment for a single representative seed. We found that the qualitative behavior was consistent across seeds. Original learning curve (reward at every episode) plotted as shaded line; overlaid with solid line using exponential smoothing for easier visibility. BC denotes a VAE-based behavioral cloning baseline that was exposed to the same number of task demonstrations as",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 5. The hierarchical agent with sub-task policies from the Com- pILE model achieves consistent results across all settings and generalizes well to the 5 task setup, even though it has only seen demonstrations of 3 tasks during pre-training. It is the only agent that learns to solve the pick up task setting with sparse reward. The visit task is signiﬁcantly easier to solve as the episode does not end if a wrong object is visited. Nonetheless",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+}

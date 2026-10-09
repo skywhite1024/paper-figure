@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "the-option-keyboard-combining-skills-in-reinforcement-learning",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.513671Z",
-  "updated_at": "2026-10-09T20:04:59.513671Z",
+  "updated_at": "2026-10-09T20:14:36.806125Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/the-option-keyboard-combining-skills-in-reinforcement-learning.json",
+          "https://arxiv.org/pdf/2106.13105v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/the-option-keyboard-combining-skills-in-reinforcement-learning.json",
+          "sha256": "664f146eb75c26d6b55cfee9b1644599d01c17839dc20909b4caefd4e1895281"
+        },
+        "version": "2106.13105v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "The Option Keyboard: Combining Skills in Reinforcement Learning",
+        "observed_title": "The Option Keyboard: Combining Skills in Reinforcement Learning",
+        "source_url": "https://arxiv.org/pdf/2106.13105v1",
+        "source_sha256": "fc226db65fd00e0006ec0ae5f60c524a4d95857e155856485c2b7c013eb19f97",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/the-option-keyboard-combining-skills-in-reinforcement-learning.json",
+          "https://arxiv.org/pdf/2106.13105v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/the-option-keyboard-combining-skills-in-reinforcement-learning.json",
+          "sha256": "664f146eb75c26d6b55cfee9b1644599d01c17839dc20909b4caefd4e1895281"
+        },
+        "version": "2106.13105v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/the-option-keyboard-combining-skills-in-reinforcement-learning.pdf",
+          "reported_sha256": "fc226db65fd00e0006ec0ae5f60c524a4d95857e155856485c2b7c013eb19f97",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 23,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.325250Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "f046280a5766be4cf9b6b9f4490394a566cd9f4462794ac26678597b10edc531",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/the-option-keyboard-combining-skills-in-reinforcement-learning.json",
+                "https://arxiv.org/pdf/2106.13105v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/the-option-keyboard-combining-skills-in-reinforcement-learning.json",
+                "sha256": "664f146eb75c26d6b55cfee9b1644599d01c17839dc20909b4caefd4e1895281"
+              },
+              "version": "2106.13105v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "The Option Keyboard: Combining Skills in Reinforcement Learning",
+              "observed_title": "The Option Keyboard: Combining Skills in Reinforcement Learning",
+              "source_url": "https://arxiv.org/pdf/2106.13105v1",
+              "source_sha256": "fc226db65fd00e0006ec0ae5f60c524a4d95857e155856485c2b7c013eb19f97",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/the-option-keyboard-combining-skills-in-reinforcement-learning.json",
+                "https://arxiv.org/pdf/2106.13105v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/the-option-keyboard-combining-skills-in-reinforcement-learning.json",
+                "sha256": "664f146eb75c26d6b55cfee9b1644599d01c17839dc20909b4caefd4e1895281"
+              },
+              "version": "2106.13105v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/the-option-keyboard-combining-skills-in-reinforcement-learning.pdf",
+                "reported_sha256": "fc226db65fd00e0006ec0ae5f60c524a4d95857e155856485c2b7c013eb19f97",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 23,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.806125Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "cab7016fbe3778ae19480dcf31c6fa4eeacb7d9c2488b5d95642ed5855c8bc57",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/the-option-keyboard-combining-skills-in-reinforcement-learning.json",
+                "https://arxiv.org/pdf/2106.13105v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/the-option-keyboard-combining-skills-in-reinforcement-learning.json",
+                "sha256": "664f146eb75c26d6b55cfee9b1644599d01c17839dc20909b4caefd4e1895281"
+              },
+              "version": "2106.13105v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "The Option Keyboard: Combining Skills in Reinforcement Learning",
+              "observed_title": "The Option Keyboard: Combining Skills in Reinforcement Learning",
+              "source_url": "https://arxiv.org/pdf/2106.13105v1",
+              "source_sha256": "fc226db65fd00e0006ec0ae5f60c524a4d95857e155856485c2b7c013eb19f97",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

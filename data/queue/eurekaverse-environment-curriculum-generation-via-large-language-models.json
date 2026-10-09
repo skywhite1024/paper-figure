@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "eurekaverse-environment-curriculum-generation-via-large-language-models",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.499228Z",
-  "updated_at": "2026-10-09T20:04:59.499228Z",
+  "updated_at": "2026-10-09T20:14:36.201922Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/eurekaverse-environment-curriculum-generation-via-large-language-models.json",
+          "https://arxiv.org/pdf/2411.01775v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/eurekaverse-environment-curriculum-generation-via-large-language-models.json",
+          "sha256": "70b2b0a3559c3ef917a6f0e5c779a7805072e586dedc0821893da6b505878b93"
+        },
+        "version": "2411.01775v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "Eurekaverse: Environment Curriculum Generation via Large Language Models",
+        "observed_title": "Eurekaverse: Environment Curriculum Generation via Large Language Models",
+        "source_url": "https://arxiv.org/pdf/2411.01775v1",
+        "source_sha256": "ab63c77ce4dd8cae2ebd03594cca5140e90a8c9c6f9daf791badf79208e14459",
+        "reported_title_match": false,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/eurekaverse-environment-curriculum-generation-via-large-language-models.json",
+          "https://arxiv.org/pdf/2411.01775v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/eurekaverse-environment-curriculum-generation-via-large-language-models.json",
+          "sha256": "70b2b0a3559c3ef917a6f0e5c779a7805072e586dedc0821893da6b505878b93"
+        },
+        "version": "2411.01775v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/eurekaverse-environment-curriculum-generation-via-large-language-models.pdf",
+          "reported_sha256": "ab63c77ce4dd8cae2ebd03594cca5140e90a8c9c6f9daf791badf79208e14459",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 23,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,109 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.746586Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "5d77704002de24ccd2f69b6645d64e18573df9d69b51e24be1f533c1e8764f7d",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/eurekaverse-environment-curriculum-generation-via-large-language-models.json",
+                "https://arxiv.org/pdf/2411.01775v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/eurekaverse-environment-curriculum-generation-via-large-language-models.json",
+                "sha256": "70b2b0a3559c3ef917a6f0e5c779a7805072e586dedc0821893da6b505878b93"
+              },
+              "version": "2411.01775v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "Eurekaverse: Environment Curriculum Generation via Large Language Models",
+              "observed_title": "Eurekaverse: Environment Curriculum Generation via Large Language Models",
+              "source_url": "https://arxiv.org/pdf/2411.01775v1",
+              "source_sha256": "ab63c77ce4dd8cae2ebd03594cca5140e90a8c9c6f9daf791badf79208e14459",
+              "reported_title_match": false
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/eurekaverse-environment-curriculum-generation-via-large-language-models.json",
+                "https://arxiv.org/pdf/2411.01775v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/eurekaverse-environment-curriculum-generation-via-large-language-models.json",
+                "sha256": "70b2b0a3559c3ef917a6f0e5c779a7805072e586dedc0821893da6b505878b93"
+              },
+              "version": "2411.01775v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/eurekaverse-environment-curriculum-generation-via-large-language-models.pdf",
+                "reported_sha256": "ab63c77ce4dd8cae2ebd03594cca5140e90a8c9c6f9daf791badf79208e14459",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 23,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.201922Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "ed17edff8905c1375c23c642007819e3e442d405d2091e90d04770da1574133a",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/eurekaverse-environment-curriculum-generation-via-large-language-models.json",
+                "https://arxiv.org/pdf/2411.01775v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/eurekaverse-environment-curriculum-generation-via-large-language-models.json",
+                "sha256": "70b2b0a3559c3ef917a6f0e5c779a7805072e586dedc0821893da6b505878b93"
+              },
+              "version": "2411.01775v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "Eurekaverse: Environment Curriculum Generation via Large Language Models",
+              "observed_title": "Eurekaverse: Environment Curriculum Generation via Large Language Models",
+              "source_url": "https://arxiv.org/pdf/2411.01775v1",
+              "source_sha256": "ab63c77ce4dd8cae2ebd03594cca5140e90a8c9c6f9daf791badf79208e14459",
+              "reported_title_match": false,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

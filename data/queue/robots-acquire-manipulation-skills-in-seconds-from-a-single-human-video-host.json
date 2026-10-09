@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.502874Z",
-  "updated_at": "2026-10-09T20:04:59.502874Z",
+  "updated_at": "2026-10-09T20:14:36.669269Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.json",
+          "https://arxiv.org/pdf/2607.20033v4"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.json",
+          "sha256": "9a5677e35acee548ee4e16a5dc1ac542e2a9930f31bb2ca83e157f61afa33549"
+        },
+        "version": "2607.20033v4",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "Robots Acquire Manipulation Skills in Seconds from a Single Human Video (HOST)",
+        "observed_title": "HOST:Robots Acquire Manipulation Skills in Seconds from a Single Human Video",
+        "source_url": "https://arxiv.org/pdf/2607.20033v4",
+        "source_sha256": "630fa9c51170d37768f35d8febd31f2ae28185865271314c884ab1a5f8f0786b",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.json",
+          "https://arxiv.org/pdf/2607.20033v4"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.json",
+          "sha256": "9a5677e35acee548ee4e16a5dc1ac542e2a9930f31bb2ca83e157f61afa33549"
+        },
+        "version": "2607.20033v4",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.pdf",
+          "reported_sha256": "630fa9c51170d37768f35d8febd31f2ae28185865271314c884ab1a5f8f0786b",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 38,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,109 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.192967Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "0a4ae3df854cf6792d03dac9d5477c18c5752c53f5b6d908abf490ad62a3e1ac",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.json",
+                "https://arxiv.org/pdf/2607.20033v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.json",
+                "sha256": "9a5677e35acee548ee4e16a5dc1ac542e2a9930f31bb2ca83e157f61afa33549"
+              },
+              "version": "2607.20033v4",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "Robots Acquire Manipulation Skills in Seconds from a Single Human Video (HOST)",
+              "observed_title": "HOST:Robots Acquire Manipulation Skills in Seconds from a Single Human Video",
+              "source_url": "https://arxiv.org/pdf/2607.20033v4",
+              "source_sha256": "630fa9c51170d37768f35d8febd31f2ae28185865271314c884ab1a5f8f0786b",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.json",
+                "https://arxiv.org/pdf/2607.20033v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.json",
+                "sha256": "9a5677e35acee548ee4e16a5dc1ac542e2a9930f31bb2ca83e157f61afa33549"
+              },
+              "version": "2607.20033v4",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.pdf",
+                "reported_sha256": "630fa9c51170d37768f35d8febd31f2ae28185865271314c884ab1a5f8f0786b",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 38,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.669269Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "16c014bfdc2a6a793610d6f7b3f2ebf1fe669c1fb6ecbf3f89cd3774298fd872",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.json",
+                "https://arxiv.org/pdf/2607.20033v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.json",
+                "sha256": "9a5677e35acee548ee4e16a5dc1ac542e2a9930f31bb2ca83e157f61afa33549"
+              },
+              "version": "2607.20033v4",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "Robots Acquire Manipulation Skills in Seconds from a Single Human Video (HOST)",
+              "observed_title": "HOST:Robots Acquire Manipulation Skills in Seconds from a Single Human Video",
+              "source_url": "https://arxiv.org/pdf/2607.20033v4",
+              "source_sha256": "630fa9c51170d37768f35d8febd31f2ae28185865271314c884ab1a5f8f0786b",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,115 @@
+{
+  "catalog_index": 134,
+  "catalog_id": "reset-free-lifelong-learning-with-skill-space-planning",
+  "title_expected": "Reset-Free Lifelong Learning with Skill-Space Planning",
+  "source_url": "https://arxiv.org/pdf/2012.03548v3",
+  "pdf_path": "build/sources/reset-free-lifelong-learning-with-skill-space-planning.pdf",
+  "pdf_sha256": "3d286be5f048686dc54ac73a862d3c3ff83830bffc1ca03036801c13e8833c37",
+  "pdf_title_observed": "Reset-Free Lifelong Learning with Skill-Space Planning",
+  "first_page_title_text": "Published as a conference paper at ICLR 2021\nRESET-FREE LIFELONG LEARNING WITH\nSKILL-SPACE PLANNING\nKevin Lu\nUC Berkeley\nkzl@berkeley.edu\nPieter Abbeel\nUC Berkeley\npabbeel@cs.berkeley.edu\nAditya Grover\nUC Berkeley\nadityag@cs.stanford.edu\nIgor Mordatch\nGoogle Brain\nimordatch@google.com\nABSTRACT\nThe objective of lifelong reinforcement learning (RL) is to optimize agents which\ncan continuously adapt ",
+  "title_match": true,
+  "version": "2012.03548v3",
+  "page_count": 20,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Figure 1: RL without plan- ning fails without resets. Each line is one seed. The red line shows reward with no updates (i.e. frozen weights). However, the performance of standard RL algorithms drops signif- icantly in non-episodic settings. To illustrate this issue, we ﬁrst pre-train agents to convergence in the episodic Hopper environ- ment (Brockman et al., 2016) with state-of-the-art model-free and model-based RL algorithms: Soft Actor Critic ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Figure 1. In spite of near-perfect initialization, all agents proceed to fail catastrophically, suggesting that current gradient- based RL methods are inherently unstable in non-episodic settings. 1Project website and materials: https://sites.google.com/berkeley.edu/reset-free-lifelong-learning 1 arXiv:2012.03548v3  [cs.LG]  15 Jun 2021 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 2: Schematic for Lifelong Skill Planning (LiSP). LiSP learns a set of skills using synthetic model rollouts and performs long-horizon planning in the skill-space for stable, safe lifelong acting. for sample-efﬁcient policy optimization (as in MBPO), but also that the model be used to safely act in the environment. The method in which acting is performed is important, serving both to exploit what the agent has learned and crucially to maint",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 2. Skills are ﬁrst learned via Algorithm 2, wherein the skill discriminator generates the intrinsic rewards and the skill-practice distribution generates a skill curriculum. We then plan using the skill policy and the dynamics model as per Algorithm 3. 4 EXPERIMENTAL EVALUATIONS We wish to investigate the following questions with regards to the design and performance of LiSP: • Does LiSP learn effectively in lifelong benchmarks with sink s",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 3. Most of the LiSP seeds remain stable despite sink states and adapt instantly to the current tasks. As predicted by Figure 1, the SAC and MOReL agents are unstable and do poorly, fundamentally because their gradient updates are not stable. The long-horizon planning capabil- ity of LiSP is also crucial, enabling LiSP to outperform SAC and MOReL which lack the ability to plan. Furthermore, planning over the space of skills is necessary to ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 3: Learning without resets. Vertical lines denote task changes. Each blue line represents one seed of LiSP out of 5; the other algorithms have lower variance (since they fail), so we only show the mean of 3 seeds. Performance is normalized against 1 (for more details, see Appendix E.1.1). 0.0 0.2 0.4 0.6 0.8 1.0 Timesteps ×104 0 10 20 Resets Resets in Volcano Env LiSP SAC MPC MOReL Figure 4: 2D Volcano environment. Minimizing resets with p",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 4: 2D Volcano environment. Minimizing resets with permanent sink states. We evaluate each method in a lifelong 2D volcano gridworld environment where the agent navigates to reach goals while avoiding pitfalls which perma- nently trap the agent if there is no intervention. Ev- ery 100 timesteps, the pitfalls and goals rearrange, which allow the agent to get untrapped; we consider this a “reset” if the agent was stuck as it required this int",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 5: ℓ2 error in the next state prediction of the dynamics model fφ for actions sampled from the skill policy vs. uniformly at random. The error variance is greatly reduced by only using skills. Constraining planning search space. This advantage in the one-step model error extends to long- horizon planning. In the Lifelong Hopper environment, accurate long-horizon planning is critical in order to correctly execute a hopping motion, which has",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 6: Long-horizon planning in Lifelong Hopper with skills instead of actions. Action-space planning is not stable with long horizons. The dashed red line denotes the target velocity. Model updates are extremely stable. Furthermore, as described in Figure 1, we found that SAC and MBPO fail in reset-free settings when denied access to resets if they continue gradient updates, which we attributed to gradient-based instability. Here we try to un",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 7. If only the model is updated, planning is very stable, showing the resilience of planning to model updates; this best resembles LiSP, which does not rely on a policy critic for planning. Alternatively, value function updates make planning unstable, supporting the idea that long-horizon planning improves stability vs relying on a value function. However, even the short 5-step planner avoids catastrophic failures, as the additional model ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 7: Pretrained action-space MPC agent with a terminal value function placed in a reset-free setting with continued gradient updates to the model and policy/value. Unlike the naive SAC agent that acts according to greedy “1-step” planning, the MPC agent plans vs the same critic over a short 5-step horizon and mostly avoids failure. Note this graph shows the same setting as Figure 1. 7 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 1",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 1. 7 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 8",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 8. Learning skills with directed practice sampling is necessary for learning useful skills. Without the skill-practice curriculum, the asymptotic performance of LiSP is signiﬁcantly limited. Additionally, the fact that MPC performs signiﬁcantly worse than LiSP suggests that planning in the skill space – namely, planning in a space of expressive skills – greatly aids the search process and exploration. 0.0 0.2 0.4 0.6 0.8 1.0 1.2 1.4 Timest",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 8",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 8: 2D Minecraft learning curves with varying skill-practice distributions. Practicing skills that maximize intrinsic reward outperforms naive methods for choosing which skills to practice. Learning with short rollouts. Algorithm 2 learns skills using one-step rollouts from arbitrary states. These short rollouts signiﬁcantly reduce learning signal relative to sampling a skill from a ﬁxed start state distribution and running the skill for an",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 9",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 9. Despite DADS-Off using off-policy data, resampling skills hurts performance, leading to a loss of diversity in skills. When generating transitions with a model as in LiSP, it is unstable to run long model rollouts due to compounding errors, making the skill-practice distribution critical. 5 20 200 1 Figure 9: Skill learning collapses for DADS-Off in Ant, even without the primitive dynamics model fφ. Shown are the x-y positions, where ea",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 9",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 9: Skill learning collapses for DADS-Off in Ant, even without the primitive dynamics model fφ. Shown are the x-y positions, where each color denotes one skill starting from the origin. More diverse skills are better. From left to right, skills are resampled during training every 1 (fully online, like LiSP), 5, 20, and 200 (fully episodic) timesteps. 4.4 LEARNING SKILLS ENTIRELY FROM OFFLINE DATA Finally, we evaluate the entire LiSP framewo",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

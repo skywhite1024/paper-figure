@@ -71,6 +71,7 @@ def extract(pdf, config, destination):
     if clips:
         warnings.append(f'{len(clips)} source clipping groups intersect crop; extracted paths require explicit clipping review')
     drawings = page.get_drawings()
+    require(isinstance(config.get('outline_fonts', []), list) and all(isinstance(f,str) and f for f in config.get('outline_fonts', [])), 'outline_fonts must contain nonempty font names')
     outlined_fonts = tuple(config.get('outline_fonts', []))
     if outlined_fonts:
         from lxml import etree
@@ -144,7 +145,16 @@ def extract(pdf, config, destination):
                     stroke_opacity=drawing.get('stroke_opacity', 1) or 0,
                     dash=bool(drawing.get('dashes') and drawing['dashes'] != '[] 0'),
                     source_seqno=drawing['seqno'], source_even_odd=bool(drawing.get('even_odd')))
-        items.append((drawing['seqno'], node))
+        if drawing['seqno'] in config.get('split_compound_paths', []):
+            groups = []
+            for command in commands:
+                if 'moveTo' in command: groups.append([])
+                require(groups, 'compound source path must begin with moveTo')
+                groups[-1].append(command)
+            for group_index, group in enumerate(groups):
+                items.append((drawing['seqno'], dict(node, id=node['id']+f'-part-{group_index}', commands=group, reviewed_compound_union=True)))
+        else:
+            items.append((drawing['seqno'], node))
     for index, span in enumerate(page.get_texttrace()):
         if any(font in span['font'] for font in outlined_fonts): continue
         # One PDF text span can contain distant labels or several lines. Split
@@ -185,6 +195,7 @@ def extract(pdf, config, destination):
                       source_font=font, source_seqno=span['seqno'])))
     image_boxes = [(seq, fitz.Rect(bbox)) for seq, (kind, bbox) in enumerate(page.get_bboxlog()) if kind in ('fill-image', 'fill-shade')]
     raw_image_sequences = set()
+    raster_area = sum(rect.get_area() for rect, _ in regions)
     for raw_spec in config.get('reviewed_raw_images', []):
         raw_index = raw_spec.get('index') if isinstance(raw_spec, dict) else raw_spec
         require(type(raw_index) is int and raw_index >= 0, 'raw image index must be integer')
@@ -192,6 +203,8 @@ def extract(pdf, config, destination):
         require(raw_index < len(blocks), 'raw image index exceeds page images')
         block = blocks[raw_index]; rect = fitz.Rect(block['bbox'])
         require(crop.contains(rect), 'raw image must be fully inside crop; clipping requires manual handling')
+        raster_area += rect.get_area()
+        require(raster_area < crop.get_area()*.8, 'Combined raw image/inset coverage too large; manual reconstruction required')
         a, b, c, d, _, _ = block['transform']
         require(a > 0 and d > 0 and abs(b)+abs(c) < .001, 'transformed raw image requires manual handling')
         matches = [seq for seq, box in image_boxes if all(abs(x-y) < .01 for x,y in zip(rect,box))]

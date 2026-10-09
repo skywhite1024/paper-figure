@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "real-time-verification-of-embodied-reasoning-for-generative-skill-acquisition",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.479828Z",
-  "updated_at": "2026-10-09T20:04:59.479828Z",
+  "updated_at": "2026-10-09T20:14:36.541973Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,102 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/real-time-verification-of-embodied-reasoning-for-generative-skill-acquisition.json",
+          "https://arxiv.org/pdf/2505.11175v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/real-time-verification-of-embodied-reasoning-for-generative-skill-acquisition.json",
+          "sha256": "eb97b99b08a278bce3b29450d087b8c37920fbd5267ac01aa81637d4f959ddf7"
+        },
+        "version": "2505.11175v2",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed.",
+        "inspected_at": null,
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Real-Time Verification of Embodied Reasoning for Generative Skill Acquisition",
+        "observed_title": "Real-Time Verification of Embodied Reasoning for Generative Skill Acquisition",
+        "source_url": "https://arxiv.org/pdf/2505.11175v2",
+        "source_sha256": "f6cffe99b77adfe2c66b946903e6ec081efd4fa037eb33ec61b6bbccdf641192",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/real-time-verification-of-embodied-reasoning-for-generative-skill-acquisition.json",
+          "https://arxiv.org/pdf/2505.11175v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/real-time-verification-of-embodied-reasoning-for-generative-skill-acquisition.json",
+          "sha256": "eb97b99b08a278bce3b29450d087b8c37920fbd5267ac01aa81637d4f959ddf7"
+        },
+        "version": "2505.11175v2",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/real-time-verification-of-embodied-reasoning-for-generative-skill-acquisition.pdf",
+          "reported_sha256": "f6cffe99b77adfe2c66b946903e6ec081efd4fa037eb33ec61b6bbccdf641192",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 21,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/real-time-verification-of-embodied-reasoning-for-generative-skill-acquisition.json",
+          "https://arxiv.org/pdf/2505.11175v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/real-time-verification-of-embodied-reasoning-for-generative-skill-acquisition.json",
+          "sha256": "eb97b99b08a278bce3b29450d087b8c37920fbd5267ac01aa81637d4f959ddf7"
+        },
+        "version": "2505.11175v2",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 4,
+            "caption": "The VERGSA framework.",
+            "crop_pdf_points": [
+              111,
+              217,
+              500,
+              382
+            ],
+            "vector_paths": 30,
+            "native_text_spans": 53,
+            "raster_images": 22,
+            "visually_inspected": true,
+            "notes": "Genuine framework combining exemplar task pool, model prompts, PRM verification and MCTS. Native text/paths with decorative icons and prompt scroll background raster."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +145,152 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.076342Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "ba33054078b8fb4bedba42f36f2b5914812fe57c159447359a14c0954fcaff8b",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/real-time-verification-of-embodied-reasoning-for-generative-skill-acquisition.json",
+                "https://arxiv.org/pdf/2505.11175v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/real-time-verification-of-embodied-reasoning-for-generative-skill-acquisition.json",
+                "sha256": "eb97b99b08a278bce3b29450d087b8c37920fbd5267ac01aa81637d4f959ddf7"
+              },
+              "version": "2505.11175v2",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Real-Time Verification of Embodied Reasoning for Generative Skill Acquisition",
+              "observed_title": "Real-Time Verification of Embodied Reasoning for Generative Skill Acquisition",
+              "source_url": "https://arxiv.org/pdf/2505.11175v2",
+              "source_sha256": "f6cffe99b77adfe2c66b946903e6ec081efd4fa037eb33ec61b6bbccdf641192",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/real-time-verification-of-embodied-reasoning-for-generative-skill-acquisition.json",
+                "https://arxiv.org/pdf/2505.11175v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/real-time-verification-of-embodied-reasoning-for-generative-skill-acquisition.json",
+                "sha256": "eb97b99b08a278bce3b29450d087b8c37920fbd5267ac01aa81637d4f959ddf7"
+              },
+              "version": "2505.11175v2",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/real-time-verification-of-embodied-reasoning-for-generative-skill-acquisition.pdf",
+                "reported_sha256": "f6cffe99b77adfe2c66b946903e6ec081efd4fa037eb33ec61b6bbccdf641192",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 21,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/real-time-verification-of-embodied-reasoning-for-generative-skill-acquisition.json",
+                "https://arxiv.org/pdf/2505.11175v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/real-time-verification-of-embodied-reasoning-for-generative-skill-acquisition.json",
+                "sha256": "eb97b99b08a278bce3b29450d087b8c37920fbd5267ac01aa81637d4f959ddf7"
+              },
+              "version": "2505.11175v2",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 4,
+                  "caption": "The VERGSA framework.",
+                  "crop_pdf_points": [
+                    111,
+                    217,
+                    500,
+                    382
+                  ],
+                  "vector_paths": 30,
+                  "native_text_spans": 53,
+                  "raster_images": 22,
+                  "visually_inspected": true,
+                  "notes": "Genuine framework combining exemplar task pool, model prompts, PRM verification and MCTS. Native text/paths with decorative icons and prompt scroll background raster."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.541973Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "6ad741d8333d936e4f386cee401bb95a2cb705bbfc11d66accec3dd80ee0b6f0",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/real-time-verification-of-embodied-reasoning-for-generative-skill-acquisition.json",
+                "https://arxiv.org/pdf/2505.11175v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/real-time-verification-of-embodied-reasoning-for-generative-skill-acquisition.json",
+                "sha256": "eb97b99b08a278bce3b29450d087b8c37920fbd5267ac01aa81637d4f959ddf7"
+              },
+              "version": "2505.11175v2",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Real-Time Verification of Embodied Reasoning for Generative Skill Acquisition",
+              "observed_title": "Real-Time Verification of Embodied Reasoning for Generative Skill Acquisition",
+              "source_url": "https://arxiv.org/pdf/2505.11175v2",
+              "source_sha256": "f6cffe99b77adfe2c66b946903e6ec081efd4fa037eb33ec61b6bbccdf641192",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

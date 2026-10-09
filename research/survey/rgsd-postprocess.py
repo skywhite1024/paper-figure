@@ -12,6 +12,6 @@ for n in s['nodes']:
 # Rotated invisible character supplied by source generator is not a semantic label;
 # the actual cosine diamond outlines are already native PDF paths.
 s['nodes']=[n for n in s['nodes'] if not(n.get('shape')=='text' and n.get('source_seqno') in [251,257])]
-s['provenance']['text_repairs']='Visually repaired source broken ToUnicode map: ref, t,a,+,− glyphs. Removed2 rotated d artifact glyphs; native cosine diamond outlines preserved. Times New Roman used for source Times labels.'
+s['provenance']['text_repairs']='CambriaMath glyphs are preserved as source vector outlines (configuration outline_fonts), repairing broken ToUnicode and combining accents. Removed2 rotated d artifact glyphs; native cosine diamond outlines preserved. Times New Roman used for source Times labels.'
 s['provenance']['raster_review']='Six discrete raster motion/environment/lock inserts visually verified; oversized environment image placements are clipped to visible photos. Source math/labels remain native. Neighboring path-box warnings inspected rather than blindly suppressed.'
 p.write_text(json.dumps(s,indent=2,ensure_ascii=False))

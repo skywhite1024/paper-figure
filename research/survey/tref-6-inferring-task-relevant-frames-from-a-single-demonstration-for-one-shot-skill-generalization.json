@@ -1,0 +1,85 @@
+{
+  "catalog_index": 120,
+  "catalog_id": "tref-6-inferring-task-relevant-frames-from-a-single-demonstration-for-one-shot-skill-generalization",
+  "title_expected": "TReF-6: Inferring Task-Relevant Frames from a Single Demonstration for One-Shot Skill Generalization",
+  "source_url": "https://arxiv.org/pdf/2509.00310v2",
+  "pdf_path": "build/sources/tref-6-inferring-task-relevant-frames-from-a-single-demonstration-for-one-shot-skill-generalization.pdf",
+  "pdf_sha256": "22207c5626b7940b09259125921a5d7cb70f22807eba55488b22a6204aeee009",
+  "pdf_title_observed": "TReF-6: Inferring Task-Relevant Frames from a Single Demonstration for One-Shot Skill Generalization",
+  "first_page_title_text": "TReF-6: Inferring Task-Relevant Frames from a\nSingle Demonstration for One-Shot Skill\nGeneralization\nYuxuan Ding\nShuangge Wang\nTesca Fitzgerald\nYale University\neason.ding@aya.yale.edu\n{shuangge.wang, tesca.fitzgerald}@yale.edu\nAbstract: Robots often struggle to generalize from a single demonstration due\nto the lack of a transferable and interpretable spatial representation. In this work,\nwe introd",
+  "title_match": true,
+  "version": "2509.00310v2",
+  "page_count": 22,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1: Overview of TReF-6. Given a single demonstration, TReF-6 infers an implicit influence point, semantically grounded by a vision-language model (VLM), and extracts a 6-DoF reference frame from the segmentation provided by Grounded-SAM. With minimum assumptions, the inferred frame enables robust OOD generalization. a single demonstration to infer a task-relevant spatial reference frame that is (1) semantically iden- tifiable (anchors to sc",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 2: 6DoF Frame Extraction for Door Opening Demonstration. is established, we compute the surface normal at that location to define the z-axis of the frame. We then define the yz-plane using the z-axis and the vector from the refined point to the interaction point. The x-axis is then computed as the unit vector orthogonal to this plane. Finally, the y-axis is obtained as the cross product of the z- and x-axes. This captures both local geomet",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 2. 3.4 DMP Reparameterization To enable environment-adaptive generalization, we apply the standard DMP formulation in a task- relevant frame centered at the refined influence point p∗. Rather than modifying the DMP dynamics, we reparameterize the demonstrated trajectory by transforming it from the robot base frame, referred to as the world frame, into the task-relevant frame. Given a demonstration of length T, the Cartesian position xt and",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 3: Mean Euclidean Distance Error (MEDE) comparison of spatial influence inference meth- ods under varying levels of noise (0% to 80%). Complete results are summarized in Appendix 9.4 Error (MEDE) between the inferred and ground-truth influence point as the metric. In real-world tasks, we assess whether the inferred frame can be semantically grounded and enable one-shot skill generation. While most sophisticated baselines such as affordance",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 4: Real world experiment results. Each task includes: Overall success, Grasp success, and Execution success given successful grasp. Com- plete results were summarized in Appendix 9.5 (1) Peg-in-hole Dropping: In this task, the robot is provided with a single demonstration, illus- trated in Appendix Figure 6, and both methods successfully reproduce the demonstrated be- havior in the original setting. We intentionally designed the task to be",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 4. While the baseline achieves a similar success rate in the pickup phase due to its privileged setup, its performance in complet- ing the full task, assuming the object has been picked up, is significantly lower than ours. (2) Cabinet Door Opening: The robot is provided with a single demonstration, illustrated in Ap- pendix Figure 6, where it opens a cabinet door directly in front of it, left to right. Successful task execution requires r",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 4. (3) Surface Wiping: In this task, the robot is provided with a single demonstration, illustrated in Appendix Figure 6. A successful execution requires wiping out the ink on the whiteboard while maintaining contact with the surface, without deforming it to the point of touching the threshold placed behind. Both the baseline and our method reproduce the demonstrated behavior under the original setup. As shown in Appendix Table 6, the base",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 6. A successful execution requires wiping out the ink on the whiteboard while maintaining contact with the surface, without deforming it to the point of touching the threshold placed behind. Both the baseline and our method reproduce the demonstrated behavior under the original setup. As shown in Appendix Table 6, the baseline performs reliably in this setting and under stain color changes. However, its motion does not adapt to different s",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 12",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 12. Failure in the mirrored variant of door opening task is also attributed to poor depth perception when the door sur- face is nearly orthogonal to the camera, as shown in Appendix Figure 13. The lowest performance on surface wiping occurs at the 30◦tilt, as shown in Appendix Figure 10. We hypothesize that shallow tilts, oblique angles, and small cross-section area of object lead to noisier or incomplete depth maps, leading to frame extra",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 13",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 13. The lowest performance on surface wiping occurs at the 30◦tilt, as shown in Appendix Figure 10. We hypothesize that shallow tilts, oblique angles, and small cross-section area of object lead to noisier or incomplete depth maps, leading to frame extraction failure. However, these perception challenges, such as seg- mentation errors or depth noise, may be mitigated in the future through advances in 3D perception and improvements to groun",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 10",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 10. We hypothesize that shallow tilts, oblique angles, and small cross-section area of object lead to noisier or incomplete depth maps, leading to frame extraction failure. However, these perception challenges, such as seg- mentation errors or depth noise, may be mitigated in the future through advances in 3D perception and improvements to grounding models like Grounded-SAM, especially considering that we did not fine-tune the model for ou",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

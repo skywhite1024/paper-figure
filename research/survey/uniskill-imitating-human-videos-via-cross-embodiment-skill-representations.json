@@ -1,0 +1,96 @@
+{
+  "catalog_index": 67,
+  "catalog_id": "uniskill-imitating-human-videos-via-cross-embodiment-skill-representations",
+  "title_expected": "UniSkill: Imitating Human Videos via Cross-Embodiment Skill Representations",
+  "source_url": "https://arxiv.org/pdf/2505.08787v4",
+  "pdf_path": "build/sources/uniskill-imitating-human-videos-via-cross-embodiment-skill-representations.pdf",
+  "pdf_sha256": "4446f50c7995807a7dfa139e8d90fbc244966d232a56e44e2c838940fba85efb",
+  "pdf_title_observed": "UniSkill: Imitating Human Videos via Cross-Embodiment Skill Representations",
+  "first_page_title_text": "UniSkill: Imitating Human Videos via\nCross-Embodiment Skill Representations\nHanjung Kim∗\nJaehyun Kang∗\nHyolim Kang\nMeedeum Cho\nSeon Joo Kim\nYoungwoon Lee\nYonsei University\nhttps://kimhanjung.github.io/UniSkill\nAbstract: Mimicry is a fundamental learning mechanism in humans, enabling\nindividuals to learn new tasks by observing and imitating experts. However, ap-\nplying this ability to robots presen",
+  "title_match": true,
+  "version": "2505.08787v4",
+  "page_count": 26,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption": "Overview of UniSkill.",
+      "crop_pdf_points": [
+        108,
+        73,
+        504,
+        235
+      ],
+      "vector_paths": 140,
+      "native_text_spans": 0,
+      "raster_images": 51,
+      "visually_inspected": true,
+      "notes": "Three-panel skill representation learning, skill-conditioned policy learning, inference. Native objects and raster robot frames must be separated."
+    }
+  ],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Figure 1. To extract reusable, embodiment-agnostic motion patterns from videos, UniSkill focuses on capturing dynamics changes between temporally distant video frames, which ∗denotes equal contributions. 9th Conference on Robot Learning (CoRL 2025), Seoul, Korea. arXiv:2505.08787v4  [cs.RO]  20 Sep 2025 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1: Universal Skill representations (UniSkill) are cross-embodiment skill representations shared across various embodiments (e.g., humans, Franka, WidowX) trained from both human and robot videos via skill dynamics modeling. Unlike prior works that require additional supervision (e.g., trajectory labels) or alignment between human and robot videos, UniSkill removes these con- straints by learning solely from off-the-shelf video datasets–suc",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 2: The overview of UniSkill. (a) Inverse Skill Dynamics (ISD) and Forward Skill Dynamics (FSD) are jointly trained on diverse video datasets to encode dynamics information into univer- sal skill representations by predicting skills and future frames, respectively. (b) A universal skill- conditioned policy is trained on DROID and small target environment data. Here, skill representa- tions are extracted from robot data using the pretrained ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 2. 3 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 3: Overview of our tabletop experiments. (a) Average results on the tabletop benchmark using Franka and human prompts. (b) Results on skill composition using Franka and human prompts. A: Open the trash bin, B: Pull out the tissue, C: Pick the blue towel and place it in the bowl, D: Close the trash bin. (c) Results from human prompts evaluated on unseen environments in (d). Baselines. We compare UniSkill with a goal-conditioned behavioral c",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 4: Results on the Kitchen benchmark using Franka, Human, and Anubis (a differ- ent robot embodiment) prompts. Figure 3(a) and Figure 4 present the cross- embodiment imitation performance of UniSkill on real-world tabletop and kitchen benchmarks, and Figure 5 shows the results on the LIBERO [15] benchmark. UniSkill consistently outperforms all baselines across both settings. Notably, XSkill fails to imitate human videos, even when trained d",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 5: Average success rates for the LIBERO benchmark with unseen human prompts (bottom). In human prompt videos, a human directly manipulates objects in a real-world environment similar to the LIBERO environment. Can UniSkill generalize to unseen environments? UniSkill leverages embodiment-agnostic skill rep- resentations to translate human video prompts into robot behaviors, despite not being trained on hu- man prompts. To further assess its",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 5. Even when the human prompts come from entirely different environments, UniSkill is able to successfully infer and execute the intended task. Further detail are provided in Section B. Droid Robot Human Avg ✓ 0.56 ✓ ✓ 0.76 ✓ ✓ ✓ 0.91 Table 1: Ablation studies on the impact of different train- ing datasets, conducted on the LIBERO benchmark using robot prompts. Robot: Bridge and LIBERO. Human: Something- SomethingV2 and H2O. Does UniSkill ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 6: Qualitative results from FSD. The skill representation is extracted using ISD from each video prompt and conditioned on FSD to predict the future frame. (Left) Skills are extracted from two images using ISD. (Right) The predicted image generated by passing the current image and the extracted skill through FSD. Best viewed in color. Does UniSkill exhibit embodiment-agnostic properties? Unlike prior methods, UniSkill can learn cross-embod",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 7: t-SNE visualization of UniSkill embeddings on the XSkill datasets. Circle markers indicate skill embeddings from human prompts, while cross markers represent those from robot prompts. Each color denotes a different skill. Example frames for each skill are shown in Section A.6.2. Notably, UniSkill preserves the correct embodiment when the current observation is from a simulation envi- ronment and the human prompt comes from a real-world ",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+}

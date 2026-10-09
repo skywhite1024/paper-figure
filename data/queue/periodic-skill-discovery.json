@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "periodic-skill-discovery",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.462076Z",
-  "updated_at": "2026-10-09T20:04:59.462076Z",
+  "updated_at": "2026-10-09T20:14:58.202183Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,20 +26,116 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/periodic-skill-discovery.json",
+          "https://arxiv.org/pdf/2511.03187v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/periodic-skill-discovery.json",
+          "sha256": "420c654b22b180a2f6975e96126bf8d5a2222e2437e335217576699a01a97747"
+        },
+        "version": "2511.03187v3",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Periodic Skill Discovery",
+        "observed_title": "Periodic Skill Discovery",
+        "source_url": "https://arxiv.org/pdf/2511.03187v3",
+        "source_sha256": "3d80b6e24e888d7a8498465dccdaf021bd46234ea913de70887c3c9b5b65bb72",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/periodic-skill-discovery.json",
+          "https://arxiv.org/pdf/2511.03187v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/periodic-skill-discovery.json",
+          "sha256": "420c654b22b180a2f6975e96126bf8d5a2222e2437e335217576699a01a97747"
+        },
+        "version": "2511.03187v3",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/periodic-skill-discovery/original.pdf",
+          "reported_sha256": "3d80b6e24e888d7a8498465dccdaf021bd46234ea913de70887c3c9b5b65bb72",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 28,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/periodic-skill-discovery.json",
+          "https://arxiv.org/pdf/2511.03187v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/periodic-skill-discovery.json",
+          "sha256": "420c654b22b180a2f6975e96126bf8d5a2222e2437e335217576699a01a97747"
+        },
+        "version": "2511.03187v3",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 1",
+            "page_1_based": 2,
+            "caption": "Figure 1: Visualization of the circular latent space for Walker2D and HalfCheetah. The core\nidea of PSD is to map the state space into a circular latent space, where temporal distance is encoded\ngeometrically. The figure visualizes an actual policy learned by PSD, where following larger circular\npaths (blue →magenta) corresponds to longer-period behaviors.",
+            "crop_pdf_points": [
+              107,
+              84,
+              506,
+              204
+            ],
+            "vector_paths": 485,
+            "native_text_spans": 2,
+            "raster_images": 0,
+            "source_type": "vector/text",
+            "visually_inspected": true,
+            "notes": "Circular latent-space concept with three concentric colored cycles, dotted arrows and locomotion sequences on both sides. Main introductory method concept; Figure2page4 is an additional geometric explanation."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/psd/README.md",
+          "output/psd/VALIDATION.json"
+        ],
+        "output_directory": "output/psd",
+        "source_sha256": "3d80b6e24e888d7a8498465dccdaf021bd46234ea913de70887c3c9b5b65bb72",
+        "scene_sha256": "2f6bbb3e427d6b63ed5d7bb727bc03a94abcefb21c06b6835d6ec72cecc4a355"
+      }
     },
     "qa": {
       "status": "pending",
@@ -59,6 +155,178 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.067785Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "b642049606dfd50adfa3f7976aa417a0cc1eb6f85fa339a7bcadb2b3a61f4fc9",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/periodic-skill-discovery.json",
+                "https://arxiv.org/pdf/2511.03187v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/periodic-skill-discovery.json",
+                "sha256": "420c654b22b180a2f6975e96126bf8d5a2222e2437e335217576699a01a97747"
+              },
+              "version": "2511.03187v3",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Periodic Skill Discovery",
+              "observed_title": "Periodic Skill Discovery",
+              "source_url": "https://arxiv.org/pdf/2511.03187v3",
+              "source_sha256": "3d80b6e24e888d7a8498465dccdaf021bd46234ea913de70887c3c9b5b65bb72",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/periodic-skill-discovery.json",
+                "https://arxiv.org/pdf/2511.03187v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/periodic-skill-discovery.json",
+                "sha256": "420c654b22b180a2f6975e96126bf8d5a2222e2437e335217576699a01a97747"
+              },
+              "version": "2511.03187v3",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/periodic-skill-discovery/original.pdf",
+                "reported_sha256": "3d80b6e24e888d7a8498465dccdaf021bd46234ea913de70887c3c9b5b65bb72",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 28,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/periodic-skill-discovery.json",
+                "https://arxiv.org/pdf/2511.03187v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/periodic-skill-discovery.json",
+                "sha256": "420c654b22b180a2f6975e96126bf8d5a2222e2437e335217576699a01a97747"
+              },
+              "version": "2511.03187v3",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 1",
+                  "page_1_based": 2,
+                  "caption": "Figure 1: Visualization of the circular latent space for Walker2D and HalfCheetah. The core\nidea of PSD is to map the state space into a circular latent space, where temporal distance is encoded\ngeometrically. The figure visualizes an actual policy learned by PSD, where following larger circular\npaths (blue →magenta) corresponds to longer-period behaviors.",
+                  "crop_pdf_points": [
+                    107,
+                    84,
+                    506,
+                    204
+                  ],
+                  "vector_paths": 485,
+                  "native_text_spans": 2,
+                  "raster_images": 0,
+                  "source_type": "vector/text",
+                  "visually_inspected": true,
+                  "notes": "Circular latent-space concept with three concentric colored cycles, dotted arrows and locomotion sequences on both sides. Main introductory method concept; Figure2page4 is an additional geometric explanation."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.530619Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "9495e5756e2aac3a4d0cfbcff56230e5e0d945c418cf11b6ac76b02d1a78d2dc",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/periodic-skill-discovery.json",
+                "https://arxiv.org/pdf/2511.03187v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/periodic-skill-discovery.json",
+                "sha256": "420c654b22b180a2f6975e96126bf8d5a2222e2437e335217576699a01a97747"
+              },
+              "version": "2511.03187v3",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Periodic Skill Discovery",
+              "observed_title": "Periodic Skill Discovery",
+              "source_url": "https://arxiv.org/pdf/2511.03187v3",
+              "source_sha256": "3d80b6e24e888d7a8498465dccdaf021bd46234ea913de70887c3c9b5b65bb72",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:14:58.202183Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "6ed7ebe596b5fef14779d82ab0ced32cef84c84856d808d6682ef1434e669b0b",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/psd/README.md",
+                "output/psd/VALIDATION.json"
+              ],
+              "output_directory": "output/psd",
+              "source_sha256": "3d80b6e24e888d7a8498465dccdaf021bd46234ea913de70887c3c9b5b65bb72",
+              "scene_sha256": "2f6bbb3e427d6b63ed5d7bb727bc03a94abcefb21c06b6835d6ec72cecc4a355"
+            }
+          }
+        }
+      }
     }
   ]
 }

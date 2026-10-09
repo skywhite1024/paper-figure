@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "elsim-end-to-end-learning-of-reusable-skills-through-intrinsic-motivation",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.470667Z",
-  "updated_at": "2026-10-09T20:04:59.470667Z",
+  "updated_at": "2026-10-09T20:14:58.174946Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,20 +26,116 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/elsim-end-to-end-learning-of-reusable-skills-through-intrinsic-motivation.json",
+          "https://arxiv.org/pdf/2006.12903v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/elsim-end-to-end-learning-of-reusable-skills-through-intrinsic-motivation.json",
+          "sha256": "7c8788baf254d43ab738d9cf11ecf822ccc10838bfa96f859766b9b3b330a1b6"
+        },
+        "version": "2006.12903v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "ELSIM: End-to-End Learning of Reusable Skills through Intrinsic Motivation",
+        "observed_title": "ELSIM: End-to-end learning of reusable skills through intrinsic motivation",
+        "source_url": "https://arxiv.org/pdf/2006.12903v1",
+        "source_sha256": "b4d8d200e4bdf748a5f3b8522425e545e3b325015aca8bb1a7287c8025a40279",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/elsim-end-to-end-learning-of-reusable-skills-through-intrinsic-motivation.json",
+          "https://arxiv.org/pdf/2006.12903v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/elsim-end-to-end-learning-of-reusable-skills-through-intrinsic-motivation.json",
+          "sha256": "7c8788baf254d43ab738d9cf11ecf822ccc10838bfa96f859766b9b3b330a1b6"
+        },
+        "version": "2006.12903v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/elsim-end-to-end-learning-of-reusable-skills-through-intrinsic-motivation/original.pdf",
+          "reported_sha256": "b4d8d200e4bdf748a5f3b8522425e545e3b325015aca8bb1a7287c8025a40279",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 13,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/elsim-end-to-end-learning-of-reusable-skills-through-intrinsic-motivation.json",
+          "https://arxiv.org/pdf/2006.12903v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/elsim-end-to-end-learning-of-reusable-skills-through-intrinsic-motivation.json",
+          "sha256": "7c8788baf254d43ab738d9cf11ecf822ccc10838bfa96f859766b9b3b330a1b6"
+        },
+        "version": "2006.12903v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 1",
+            "page_1_based": 5,
+            "caption": "Figure 1: Representation of a part of the tree of skills with |V | = 2 and the value of tree-policy in each node. White nodes\nare actual leaves of the tree; the discriminator is inactive. Yellow nodes represent nodes for which the discriminator can\nnot differentiate its sub-skills; the tree-policy samples uniformly. Nodes are blue when the discriminator can distinguish its\nsub-skills; the tree-policy samples using Q-values.",
+            "crop_pdf_points": [
+              167,
+              74,
+              426,
+              161
+            ],
+            "vector_paths": 151,
+            "native_text_spans": 69,
+            "raster_images": 0,
+            "source_type": "vector/text",
+            "visually_inspected": true,
+            "notes": "Tree of reusable skills with root and mathematical tree-policy probabilities, colored blue/yellow/white nodes and dashed continuation branches. Preserve probability formulas."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/elsim/README.md",
+          "output/elsim/VALIDATION.json"
+        ],
+        "output_directory": "output/elsim",
+        "source_sha256": "b4d8d200e4bdf748a5f3b8522425e545e3b325015aca8bb1a7287c8025a40279",
+        "scene_sha256": "34f07edd148b00d8214b8368ea21c1cf32d20d543c08be15d49e0f2cef3ca3e0"
+      }
     },
     "qa": {
       "status": "pending",
@@ -59,6 +155,178 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.698099Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "d4bf144296174d7d78a746b53876ece70a7680c84f21871659b81d2e1f57dd49",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/elsim-end-to-end-learning-of-reusable-skills-through-intrinsic-motivation.json",
+                "https://arxiv.org/pdf/2006.12903v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/elsim-end-to-end-learning-of-reusable-skills-through-intrinsic-motivation.json",
+                "sha256": "7c8788baf254d43ab738d9cf11ecf822ccc10838bfa96f859766b9b3b330a1b6"
+              },
+              "version": "2006.12903v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "ELSIM: End-to-End Learning of Reusable Skills through Intrinsic Motivation",
+              "observed_title": "ELSIM: End-to-end learning of reusable skills through intrinsic motivation",
+              "source_url": "https://arxiv.org/pdf/2006.12903v1",
+              "source_sha256": "b4d8d200e4bdf748a5f3b8522425e545e3b325015aca8bb1a7287c8025a40279",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/elsim-end-to-end-learning-of-reusable-skills-through-intrinsic-motivation.json",
+                "https://arxiv.org/pdf/2006.12903v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/elsim-end-to-end-learning-of-reusable-skills-through-intrinsic-motivation.json",
+                "sha256": "7c8788baf254d43ab738d9cf11ecf822ccc10838bfa96f859766b9b3b330a1b6"
+              },
+              "version": "2006.12903v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/elsim-end-to-end-learning-of-reusable-skills-through-intrinsic-motivation/original.pdf",
+                "reported_sha256": "b4d8d200e4bdf748a5f3b8522425e545e3b325015aca8bb1a7287c8025a40279",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 13,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/elsim-end-to-end-learning-of-reusable-skills-through-intrinsic-motivation.json",
+                "https://arxiv.org/pdf/2006.12903v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/elsim-end-to-end-learning-of-reusable-skills-through-intrinsic-motivation.json",
+                "sha256": "7c8788baf254d43ab738d9cf11ecf822ccc10838bfa96f859766b9b3b330a1b6"
+              },
+              "version": "2006.12903v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 1",
+                  "page_1_based": 5,
+                  "caption": "Figure 1: Representation of a part of the tree of skills with |V | = 2 and the value of tree-policy in each node. White nodes\nare actual leaves of the tree; the discriminator is inactive. Yellow nodes represent nodes for which the discriminator can\nnot differentiate its sub-skills; the tree-policy samples uniformly. Nodes are blue when the discriminator can distinguish its\nsub-skills; the tree-policy samples using Q-values.",
+                  "crop_pdf_points": [
+                    167,
+                    74,
+                    426,
+                    161
+                  ],
+                  "vector_paths": 151,
+                  "native_text_spans": 69,
+                  "raster_images": 0,
+                  "source_type": "vector/text",
+                  "visually_inspected": true,
+                  "notes": "Tree of reusable skills with root and mathematical tree-policy probabilities, colored blue/yellow/white nodes and dashed continuation branches. Preserve probability formulas."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.155282Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "e4fd95d7dad2966dc57e2cfb08bbfd94ac0d8fa4a3f9ea6ebf754e31e056c1d7",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/elsim-end-to-end-learning-of-reusable-skills-through-intrinsic-motivation.json",
+                "https://arxiv.org/pdf/2006.12903v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/elsim-end-to-end-learning-of-reusable-skills-through-intrinsic-motivation.json",
+                "sha256": "7c8788baf254d43ab738d9cf11ecf822ccc10838bfa96f859766b9b3b330a1b6"
+              },
+              "version": "2006.12903v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "ELSIM: End-to-End Learning of Reusable Skills through Intrinsic Motivation",
+              "observed_title": "ELSIM: End-to-end learning of reusable skills through intrinsic motivation",
+              "source_url": "https://arxiv.org/pdf/2006.12903v1",
+              "source_sha256": "b4d8d200e4bdf748a5f3b8522425e545e3b325015aca8bb1a7287c8025a40279",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:14:58.174946Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "e5e152f1b66841c30a8c974130f57873394669a01f6c7ddf1ccdd85591c6ffce",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/elsim/README.md",
+                "output/elsim/VALIDATION.json"
+              ],
+              "output_directory": "output/elsim",
+              "source_sha256": "b4d8d200e4bdf748a5f3b8522425e545e3b325015aca8bb1a7287c8025a40279",
+              "scene_sha256": "34f07edd148b00d8214b8368ea21c1cf32d20d543c08be15d49e0f2cef3ca3e0"
+            }
+          }
+        }
+      }
     }
   ]
 }

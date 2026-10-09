@@ -1,0 +1,86 @@
+{
+  "catalog_total": 137,
+  "delivered_recreations": 10,
+  "output_folders": [
+    "aspire",
+    "comsd",
+    "constrained-skill",
+    "elsim",
+    "gisd",
+    "psd",
+    "rgsd",
+    "roboreact",
+    "srsd",
+    "ugl"
+  ],
+  "catalog_status": {
+    "not_reviewed": 126,
+    "recreated": 10,
+    "blocked": 1
+  },
+  "queue": {
+    "total": 137,
+    "status": {
+      "blocked": 1,
+      "completed": 0,
+      "in_progress": 112,
+      "inaccessible": 0,
+      "no_suitable_figure": 0,
+      "not_reviewed": 14,
+      "recreated": 10,
+      "source_mismatch": 0
+    },
+    "stages": {
+      "source_identity": {
+        "blocked": 0,
+        "failed": 0,
+        "in_progress": 0,
+        "passed": 64,
+        "pending": 17,
+        "reported": 56
+      },
+      "source_access": {
+        "blocked": 0,
+        "failed": 0,
+        "in_progress": 0,
+        "passed": 0,
+        "pending": 17,
+        "reported": 120
+      },
+      "figure_selection": {
+        "blocked": 0,
+        "failed": 0,
+        "in_progress": 0,
+        "passed": 0,
+        "pending": 69,
+        "reported": 68
+      },
+      "recreation": {
+        "blocked": 0,
+        "failed": 0,
+        "in_progress": 0,
+        "passed": 0,
+        "pending": 127,
+        "reported": 10
+      },
+      "qa": {
+        "blocked": 0,
+        "failed": 0,
+        "in_progress": 0,
+        "passed": 0,
+        "pending": 136,
+        "reported": 1
+      },
+      "published": {
+        "blocked": 0,
+        "failed": 0,
+        "in_progress": 0,
+        "passed": 0,
+        "pending": 136,
+        "reported": 1
+      }
+    },
+    "files_verified": false
+  },
+  "qa_note": "Recreated/delivered means source-linked native editable files exist; see each VALIDATION.json for actual source/editor checks. Draw.io application rendering can remain pending independently of structural validation."
+}

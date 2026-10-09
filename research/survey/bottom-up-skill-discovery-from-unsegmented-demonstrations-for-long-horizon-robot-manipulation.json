@@ -1,0 +1,72 @@
+{
+  "catalog_index": 76,
+  "catalog_id": "bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation",
+  "title_expected": "Bottom-Up Skill Discovery from Unsegmented Demonstrations for Long-Horizon Robot Manipulation",
+  "source_url": "https://arxiv.org/pdf/2109.13841v2",
+  "pdf_path": "build/sources/bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation.pdf",
+  "pdf_sha256": "150e1c5f5b01487b60519080ddf0cdcb1a888879caf4c3d267bb6f7275d28ead",
+  "pdf_title_observed": "Bottom-Up Skill Discovery from Unsegmented Demonstrations for Long-Horizon Robot Manipulation",
+  "first_page_title_text": "IEEE ROBOTICS AND AUTOMATION LETTERS. PREPRINT VERSION. ACCEPTED JANUARY, 2022\n1\nBottom-Up Skill Discovery from Unsegmented\nDemonstrations for Long-Horizon Robot\nManipulation\nYifeng Zhu1, Peter Stone1,2, Yuke Zhu1\nAbstract—We tackle real-world long-horizon robot manip-\nulation tasks through skill discovery. We present a bottom-\nup approach to learning a library of reusable skills from\nunsegmented ",
+  "title_match": true,
+  "version": "2109.13841v2",
+  "page_count": 9,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "Overview of the hierarchical policy.",
+      "crop_pdf_points": [
+        98,
+        61,
+        510,
+        182
+      ],
+      "vector_paths": 90,
+      "native_text_spans": 66,
+      "raster_images": 3,
+      "visually_inspected": true,
+      "notes": "BUDS ResNet18/cVAE meta-controller and sensorimotor skill network with observed RGB/proprioception and robot command."
+    }
+  ],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Fig. 1: Overview of BUDS. We construct hierarchical task structures of demonstration sequences in a bottom-up manner, from which we obtain temporal segments for discovering and learning sensorimotor skills. engineering, especially when incorporating real-world sensory data. Several paradigms have been investigated for automating skill acquisition. Notable ones include the options frame- work [2, 10, 13, 23, 26, 50] and unsupervised skill discover",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 1",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 1. In the following, we ﬁrst formalize our problem, and then present the two key steps of our approach: 1) skill segmentation with hierarchical agglomerative clustering on unsegmented demonstrations, and 2) learning skills and meta- controllers with hierarchical behavioral cloning. A. Problem Formulation We formalize the problem of solving a robot manipula- tion task as a discrete-time Markov Decision Process M = (S, A, P, R, γ, ρ0) where ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 2: Overview of the hierarchical policy. Given a workspace observation, the meta controller selects the skill index and generates the latent subgoal vector ωt. Then the selected sensorimotor skill generates action at conditioned on observed images, proprioception, and ωt. capture their statistical patterns. Our method follows Lee et al. [30] which learns a joint latent feature of all modalities by fusing feature embeddings from individual mod",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 3: Visual illustrations of the four simulation tasks and one real robot task used in our experiments. (a) Tool-Use; (b) Hammer-Place; (c) Kitchen; (d) Multitask-Kitchen; (e) Real-Kitchen. A. Experimental Setup We perform baseline comparisons and model analysis in simulation environments developed with the robosuite framework [57], and present quantitative results on real hardware. Figure 3 illustrates all the tasks. The ﬁrst three single-tas",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 4: Visualization of temporal segments in two demonstrations of Real-Kitchen with different lengths. Each cuboid corresponds to a tempo- ral segment, and each color represents one skill that the temporal segment is clustered into. Text annotations are our interpretations of the segmented skills. We show that the temporal segments, though discovered without supervision, nicely capture semantically meaningful subtasks. They are consistent acros",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 4. While our clustering-based segmentation algorithm is fully unsupervised, our quantitative inspection identiﬁes consistent segments that can be interpreted with semantic meanings. V. CONCLUSION We presented BUDS, a hierarchical approach to tackling vision-based manipulation by discovering sensorimotor skills from unsegmented demonstrations. BUDS identiﬁes recur- ring patterns from multi-task human demonstrations based on multi-sensory cu",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+}

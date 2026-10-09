@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "one-shot-hierarchical-imitation-learning-of-compound-visuomotor-tasks",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.515058Z",
-  "updated_at": "2026-10-09T20:04:59.515058Z",
+  "updated_at": "2026-10-09T20:14:36.512745Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/one-shot-hierarchical-imitation-learning-of-compound-visuomotor-tasks.json",
+          "https://arxiv.org/pdf/1810.11043v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/one-shot-hierarchical-imitation-learning-of-compound-visuomotor-tasks.json",
+          "sha256": "d7fc15f76522a6dbfead3e13a4d586eb2e9782afad9c859f93fa42e5430ef563"
+        },
+        "version": "1810.11043v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "One-Shot Hierarchical Imitation Learning of Compound Visuomotor Tasks",
+        "observed_title": "One-Shot Hierarchical Imitation Learning of Compound Visuomotor Tasks",
+        "source_url": "https://arxiv.org/pdf/1810.11043v1",
+        "source_sha256": "458a9e3e434729981304b09de9eb4fa97f6a79e918b6914755cea77db8dc66ff",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/one-shot-hierarchical-imitation-learning-of-compound-visuomotor-tasks.json",
+          "https://arxiv.org/pdf/1810.11043v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/one-shot-hierarchical-imitation-learning-of-compound-visuomotor-tasks.json",
+          "sha256": "d7fc15f76522a6dbfead3e13a4d586eb2e9782afad9c859f93fa42e5430ef563"
+        },
+        "version": "1810.11043v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/one-shot-hierarchical-imitation-learning-of-compound-visuomotor-tasks.pdf",
+          "reported_sha256": "458a9e3e434729981304b09de9eb4fa97f6a79e918b6914755cea77db8dc66ff",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 7,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.053640Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "9b61f0320cd156c59cd9703aadbd5cf2af5cf16186c056bd4152320365686039",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/one-shot-hierarchical-imitation-learning-of-compound-visuomotor-tasks.json",
+                "https://arxiv.org/pdf/1810.11043v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/one-shot-hierarchical-imitation-learning-of-compound-visuomotor-tasks.json",
+                "sha256": "d7fc15f76522a6dbfead3e13a4d586eb2e9782afad9c859f93fa42e5430ef563"
+              },
+              "version": "1810.11043v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "One-Shot Hierarchical Imitation Learning of Compound Visuomotor Tasks",
+              "observed_title": "One-Shot Hierarchical Imitation Learning of Compound Visuomotor Tasks",
+              "source_url": "https://arxiv.org/pdf/1810.11043v1",
+              "source_sha256": "458a9e3e434729981304b09de9eb4fa97f6a79e918b6914755cea77db8dc66ff",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/one-shot-hierarchical-imitation-learning-of-compound-visuomotor-tasks.json",
+                "https://arxiv.org/pdf/1810.11043v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/one-shot-hierarchical-imitation-learning-of-compound-visuomotor-tasks.json",
+                "sha256": "d7fc15f76522a6dbfead3e13a4d586eb2e9782afad9c859f93fa42e5430ef563"
+              },
+              "version": "1810.11043v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/one-shot-hierarchical-imitation-learning-of-compound-visuomotor-tasks.pdf",
+                "reported_sha256": "458a9e3e434729981304b09de9eb4fa97f6a79e918b6914755cea77db8dc66ff",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 7,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.512745Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "cdf41da028a9902a4507b7ec590035ab4d1d03c930a38d2eea558144d8eb9292",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/one-shot-hierarchical-imitation-learning-of-compound-visuomotor-tasks.json",
+                "https://arxiv.org/pdf/1810.11043v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/one-shot-hierarchical-imitation-learning-of-compound-visuomotor-tasks.json",
+                "sha256": "d7fc15f76522a6dbfead3e13a4d586eb2e9782afad9c859f93fa42e5430ef563"
+              },
+              "version": "1810.11043v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "One-Shot Hierarchical Imitation Learning of Compound Visuomotor Tasks",
+              "observed_title": "One-Shot Hierarchical Imitation Learning of Compound Visuomotor Tasks",
+              "source_url": "https://arxiv.org/pdf/1810.11043v1",
+              "source_sha256": "458a9e3e434729981304b09de9eb4fa97f6a79e918b6914755cea77db8dc66ff",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "divide-discover-deploy-factorized-skill-learning-with-symmetry-and-style-priors",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.462393Z",
-  "updated_at": "2026-10-09T20:04:59.462393Z",
+  "updated_at": "2026-10-09T20:14:36.112412Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,103 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/divide-discover-deploy-factorized-skill-learning-with-symmetry-and-style-priors.json",
+          "https://arxiv.org/pdf/2508.19953v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/divide-discover-deploy-factorized-skill-learning-with-symmetry-and-style-priors.json",
+          "sha256": "53f2b9c9beb8c17f828f361ef968583749c110fe128885dfe812f44b9546310a"
+        },
+        "version": "2508.19953v2",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Divide, Discover, Deploy: Factorized Skill Learning with Symmetry and Style Priors",
+        "observed_title": "Divide, Discover, Deploy: Factorized Skill Learning with Symmetry and Style Priors",
+        "source_url": "https://arxiv.org/pdf/2508.19953v2",
+        "source_sha256": "20d7dceb084e20ac7537d9ff1bac804e258f0e6e44d106006f91e0cf92b8bfd9",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/divide-discover-deploy-factorized-skill-learning-with-symmetry-and-style-priors.json",
+          "https://arxiv.org/pdf/2508.19953v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/divide-discover-deploy-factorized-skill-learning-with-symmetry-and-style-priors.json",
+          "sha256": "53f2b9c9beb8c17f828f361ef968583749c110fe128885dfe812f44b9546310a"
+        },
+        "version": "2508.19953v2",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/divide-discover-deploy-factorized-skill-learning-with-symmetry-and-style-priors/original.pdf",
+          "reported_sha256": "20d7dceb084e20ac7537d9ff1bac804e258f0e6e44d106006f91e0cf92b8bfd9",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 19,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/divide-discover-deploy-factorized-skill-learning-with-symmetry-and-style-priors.json",
+          "https://arxiv.org/pdf/2508.19953v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/divide-discover-deploy-factorized-skill-learning-with-symmetry-and-style-priors.json",
+          "sha256": "53f2b9c9beb8c17f828f361ef968583749c110fe128885dfe812f44b9546310a"
+        },
+        "version": "2508.19953v2",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 4,
+            "caption": "Figure 2: Proposed algorithm for skill discovery. The agent πθ, conditioned on a sampled skill z and factor\nweights λ, collects transitions and receives a total reward combining per-factor intrinsic rewards and a style\nreward. The transitions are then augmented via symmetry-based mirroring, after which the intrinsic reward\nmodels, factorized value functions, and policy are updated using on-policy RL.",
+            "crop_pdf_points": [
+              108,
+              75,
+              506,
+              270
+            ],
+            "vector_paths": 155,
+            "native_text_spans": 162,
+            "raster_images": 0,
+            "source_type": "vector/text",
+            "visually_inspected": true,
+            "notes": "Left architecture training loop and right Algorithm1 are one composite figure; retain both. Native text and vector arrows/shapes preserve equations and symmetry-augmentation feedback."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +146,153 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.653176Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "3b2ccd1dee33a1aa823db55558e30eef836d505286be439e334d32368916d8a0",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/divide-discover-deploy-factorized-skill-learning-with-symmetry-and-style-priors.json",
+                "https://arxiv.org/pdf/2508.19953v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/divide-discover-deploy-factorized-skill-learning-with-symmetry-and-style-priors.json",
+                "sha256": "53f2b9c9beb8c17f828f361ef968583749c110fe128885dfe812f44b9546310a"
+              },
+              "version": "2508.19953v2",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Divide, Discover, Deploy: Factorized Skill Learning with Symmetry and Style Priors",
+              "observed_title": "Divide, Discover, Deploy: Factorized Skill Learning with Symmetry and Style Priors",
+              "source_url": "https://arxiv.org/pdf/2508.19953v2",
+              "source_sha256": "20d7dceb084e20ac7537d9ff1bac804e258f0e6e44d106006f91e0cf92b8bfd9",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/divide-discover-deploy-factorized-skill-learning-with-symmetry-and-style-priors.json",
+                "https://arxiv.org/pdf/2508.19953v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/divide-discover-deploy-factorized-skill-learning-with-symmetry-and-style-priors.json",
+                "sha256": "53f2b9c9beb8c17f828f361ef968583749c110fe128885dfe812f44b9546310a"
+              },
+              "version": "2508.19953v2",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/divide-discover-deploy-factorized-skill-learning-with-symmetry-and-style-priors/original.pdf",
+                "reported_sha256": "20d7dceb084e20ac7537d9ff1bac804e258f0e6e44d106006f91e0cf92b8bfd9",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 19,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/divide-discover-deploy-factorized-skill-learning-with-symmetry-and-style-priors.json",
+                "https://arxiv.org/pdf/2508.19953v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/divide-discover-deploy-factorized-skill-learning-with-symmetry-and-style-priors.json",
+                "sha256": "53f2b9c9beb8c17f828f361ef968583749c110fe128885dfe812f44b9546310a"
+              },
+              "version": "2508.19953v2",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 4,
+                  "caption": "Figure 2: Proposed algorithm for skill discovery. The agent πθ, conditioned on a sampled skill z and factor\nweights λ, collects transitions and receives a total reward combining per-factor intrinsic rewards and a style\nreward. The transitions are then augmented via symmetry-based mirroring, after which the intrinsic reward\nmodels, factorized value functions, and policy are updated using on-policy RL.",
+                  "crop_pdf_points": [
+                    108,
+                    75,
+                    506,
+                    270
+                  ],
+                  "vector_paths": 155,
+                  "native_text_spans": 162,
+                  "raster_images": 0,
+                  "source_type": "vector/text",
+                  "visually_inspected": true,
+                  "notes": "Left architecture training loop and right Algorithm1 are one composite figure; retain both. Native text and vector arrows/shapes preserve equations and symmetry-augmentation feedback."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.112412Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "3f1a5505fc43fdc836528d6b8cf7cc741d38c76be5aeff57c198a0a09401a734",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/divide-discover-deploy-factorized-skill-learning-with-symmetry-and-style-priors.json",
+                "https://arxiv.org/pdf/2508.19953v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/divide-discover-deploy-factorized-skill-learning-with-symmetry-and-style-priors.json",
+                "sha256": "53f2b9c9beb8c17f828f361ef968583749c110fe128885dfe812f44b9546310a"
+              },
+              "version": "2508.19953v2",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Divide, Discover, Deploy: Factorized Skill Learning with Symmetry and Style Priors",
+              "observed_title": "Divide, Discover, Deploy: Factorized Skill Learning with Symmetry and Style Priors",
+              "source_url": "https://arxiv.org/pdf/2508.19953v2",
+              "source_sha256": "20d7dceb084e20ac7537d9ff1bac804e258f0e6e44d106006f91e0cf92b8bfd9",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

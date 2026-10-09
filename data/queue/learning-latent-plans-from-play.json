@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "learning-latent-plans-from-play",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.489674Z",
-  "updated_at": "2026-10-09T20:04:59.489674Z",
+  "updated_at": "2026-10-09T20:14:36.331385Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,102 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/learning-latent-plans-from-play.json",
+          "https://arxiv.org/pdf/1903.01973v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/learning-latent-plans-from-play.json",
+          "sha256": "a2d0670cb29eca4e87b2446c4c4499fa5818fe0b4b3081289210ce23ea466927"
+        },
+        "version": "1903.01973v2",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Learning Latent Plans from Play",
+        "observed_title": "Learning Latent Plans from Play",
+        "source_url": "https://arxiv.org/pdf/1903.01973v2",
+        "source_sha256": "4a617a68cc9ed89ebbdff8fdda000f0bb744128bd5e91dca1b2c5594631835b0",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/learning-latent-plans-from-play.json",
+          "https://arxiv.org/pdf/1903.01973v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/learning-latent-plans-from-play.json",
+          "sha256": "a2d0670cb29eca4e87b2446c4c4499fa5818fe0b4b3081289210ce23ea466927"
+        },
+        "version": "1903.01973v2",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/learning-latent-plans-from-play.pdf",
+          "reported_sha256": "4a617a68cc9ed89ebbdff8fdda000f0bb744128bd5e91dca1b2c5594631835b0",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 17,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/learning-latent-plans-from-play.json",
+          "https://arxiv.org/pdf/1903.01973v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/learning-latent-plans-from-play.json",
+          "sha256": "a2d0670cb29eca4e87b2446c4c4499fa5818fe0b4b3081289210ce23ea466927"
+        },
+        "version": "1903.01973v2",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 1",
+            "page_1_based": 2,
+            "caption": "Play-LMP training and task-agnostic policy inference.",
+            "crop_pdf_points": [
+              107,
+              71,
+              508,
+              355
+            ],
+            "vector_paths": 121,
+            "native_text_spans": 53,
+            "raster_images": 5,
+            "visually_inspected": true,
+            "notes": "Latent plan proposal/recognition networks and action decoder with training/inference dataflows;5small source robot images."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +145,180 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.873046Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "b9835bbff60a94a70e26c263295cb8bd928f918cd3138cc419edc8cb48bbd4ca",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/learning-latent-plans-from-play.json",
+                "https://arxiv.org/pdf/1903.01973v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/learning-latent-plans-from-play.json",
+                "sha256": "8712fa31b5e0d3d0db512a1aae6ecb6213a626892e1a67379e97bf000d8b656e"
+              },
+              "version": "1903.01973v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Learning Latent Plans from Play",
+              "observed_title": "Learning Latent Plans from Play",
+              "source_url": "https://arxiv.org/pdf/1903.01973v2",
+              "source_sha256": "4a617a68cc9ed89ebbdff8fdda000f0bb744128bd5e91dca1b2c5594631835b0",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/learning-latent-plans-from-play.json",
+                "https://arxiv.org/pdf/1903.01973v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/learning-latent-plans-from-play.json",
+                "sha256": "8712fa31b5e0d3d0db512a1aae6ecb6213a626892e1a67379e97bf000d8b656e"
+              },
+              "version": "1903.01973v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/learning-latent-plans-from-play.pdf",
+                "reported_sha256": "4a617a68cc9ed89ebbdff8fdda000f0bb744128bd5e91dca1b2c5594631835b0",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 17,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.331385Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "7bd850c9f9edbb95e89b87c811c41955a06bc4688252c4fb3496b56e63137c7a",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/learning-latent-plans-from-play.json",
+                "https://arxiv.org/pdf/1903.01973v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/learning-latent-plans-from-play.json",
+                "sha256": "a2d0670cb29eca4e87b2446c4c4499fa5818fe0b4b3081289210ce23ea466927"
+              },
+              "version": "1903.01973v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Learning Latent Plans from Play",
+              "observed_title": "Learning Latent Plans from Play",
+              "source_url": "https://arxiv.org/pdf/1903.01973v2",
+              "source_sha256": "4a617a68cc9ed89ebbdff8fdda000f0bb744128bd5e91dca1b2c5594631835b0",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/learning-latent-plans-from-play.json",
+                "https://arxiv.org/pdf/1903.01973v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/learning-latent-plans-from-play.json",
+                "sha256": "a2d0670cb29eca4e87b2446c4c4499fa5818fe0b4b3081289210ce23ea466927"
+              },
+              "version": "1903.01973v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/learning-latent-plans-from-play.pdf",
+                "reported_sha256": "4a617a68cc9ed89ebbdff8fdda000f0bb744128bd5e91dca1b2c5594631835b0",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 17,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/learning-latent-plans-from-play.json",
+                "https://arxiv.org/pdf/1903.01973v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/learning-latent-plans-from-play.json",
+                "sha256": "a2d0670cb29eca4e87b2446c4c4499fa5818fe0b4b3081289210ce23ea466927"
+              },
+              "version": "1903.01973v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 1",
+                  "page_1_based": 2,
+                  "caption": "Play-LMP training and task-agnostic policy inference.",
+                  "crop_pdf_points": [
+                    107,
+                    71,
+                    508,
+                    355
+                  ],
+                  "vector_paths": 121,
+                  "native_text_spans": 53,
+                  "raster_images": 5,
+                  "visually_inspected": true,
+                  "notes": "Latent plan proposal/recognition networks and action decoder with training/inference dataflows;5small source robot images."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        }
+      }
     }
   ]
 }

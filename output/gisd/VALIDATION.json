@@ -1,0 +1,33 @@
+{
+  "diagram_id": "gisd-figure-1",
+  "source_scene_sha256": "74ab3e4f37d8719c0e141b148ed9629630933615f789ceca302ad3095ad964ed",
+  "source_pdf_sha256": "f6a7684b7949c7856c05577ce2293fe25fe48bd6a0179499624f063745b7d298",
+  "checked_files": [
+    {
+      "name": "gisd-figure-1.drawio",
+      "sha256": "1841b8e0980b4f167c6af9e921a74a261623b889981f7a8295b40d2c00bb18ae"
+    },
+    {
+      "name": "gisd-figure-1.png",
+      "sha256": "457dd8933f2f44b5a2c733ac6edf147aaf08c84e08682761590a97c53aff3ad5"
+    },
+    {
+      "name": "gisd-figure-1.pptx",
+      "sha256": "7bc23a5d2ac5c1cab673eaa6186becb0fa1da0dfa9374eed05dd26e12cf16206"
+    }
+  ],
+  "review_status": "source versus generated PNG and independent LibreOffice-rendered PPTX reviewed",
+  "checks": {
+    "source_identity": "survey title verified; versioned source SHA retained",
+    "clipping": "green gradient ellipse clipping repaired; no raster spill",
+    "labels": "source serif font and outline math prevent overlap; legible",
+    "geometry": "state space,latent space,orbit and transformed-trajectory arrows retained",
+    "native_editability": "native paths and ordinary text; math glyph outlines are editable shapes, not live equation text",
+    "drawio": "XML checked; actual app rendering pending"
+  },
+  "limitations": [
+    "Gradient state-space asset edge is slightly softer/pixelated than original",
+    "Source mathematical glyphs are outline shapes",
+    "Freeform arrows lack semantic endpoint attachment"
+  ]
+}

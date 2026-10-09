@@ -1,0 +1,49 @@
+{
+  "catalog_index": 112,
+  "catalog_id": "from-reaction-to-anticipation-proactive-failure-recovery-through-agentic-task-graph-for-robotic-manipulation-agentchord",
+  "title_expected": "From Reaction to Anticipation: Proactive Failure Recovery through Agentic Task Graph for Robotic Manipulation (AgentChord)",
+  "source_url": "https://arxiv.org/pdf/2605.11951v1",
+  "pdf_path": "build/sources/from-reaction-to-anticipation-proactive-failure-recovery-through-agentic-task-graph-for-robotic-manipulation-agentchord.pdf",
+  "pdf_sha256": "56a1a3c839b5850c82f072eea2cbc0f5c7b2da4da864a5b16f8e821d188d6757",
+  "pdf_title_observed": "From Reaction to Anticipation: Proactive Failure Recovery through Agentic Task Graph for Robotic Manipulation",
+  "first_page_title_text": "From Reaction to Anticipation: Proactive Failure\nRecovery through Agentic Task Graph for\nRobotic Manipulation\nSheng Xu1, Ruixing Jin1, Huayi Zhou1, Bo Yue1, Guanren Qiao1,\nYueci Deng1, Yunxin Tai2, Kui Jia1,2, Guiliang Liu1,3∗\n1School of Data Science, The Chinese University of Hong Kong, Shenzhen\n2DexForce Technology, 3Shenzhen Loop Area Institute.\n∗Corresponding author: Guiliang Liu, liuguiliang@",
+  "title_match": true,
+  "version": "2605.11951v1",
+  "page_count": 18,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Fig. 1: We introduce AgentChord, an agentic system that integrates anticipatory failure recovery capability, enabling both efficient and effective recovery actions. In the example, blue lines represent nominal actions, red lines indicate intrinsic failures or external disturbances, and pink lines depict recovery actions proactively anticipated by AgentChord. Abstract—Although robotic manipulation has made significant progress, reliable execution ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 2: The framework of AgentChord with an example. It involves three agents: the Task Structuring Agent constructs the nominal task graph with semantic sub-goals and constraints; the Recovery Orchestration Agent augments this graph with anticipatory recovery branches; and the Execution Compilation Agent compiles both nominal and recovery transitions into executable, interruptible programs with monitors. During execution, when a failure is detec",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 3: We collected a variety of object instances for each task to verify the generalizability of different methods. tects intermediate failures during execution by issuing frequent VQA-based queries every several steps. 3) ReKep proposes scene keypoints and employs VLM to generate constraint detectors in the form of executable programs, resulting in improved detection efficiency. 4) Code-as-Monitor (CaM) [55] trains a constraint painter and tra",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 8,
+      "caption_excerpt": "Fig. 4: Illustration of the failure recovery process in AgentChord for six real-world tasks. graph node. For example, during a block handover from the left to the right arm, if the block is unintentionally displaced, the agent may fail to reason that the correct recovery strategy is to retreat the right arm, reopen the gripper, and re-initiate the handover sequence. We expect that stronger reasoning models would improve anticipation accuracy and ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 9,
+      "caption_excerpt": "Fig. 5: Failure detection and recovery of AgentChord in dual- arm pour water, where execution switches to a pre-compiled recovery branch and then rejoins the nominal task graph. Visualizations with more tasks and types of disturbances (e.g., tipped object) are presented in the Appendix E. TABLE III: Success rates of different policies on the simulated single-arm pour water task. Bold values indicate the best result. Method Success Rate RDT [36] 1",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

@@ -1,0 +1,49 @@
+{
+  "catalog_index": 132,
+  "catalog_id": "hierarchical-few-shot-imitation-with-skill-transition-models",
+  "title_expected": "Hierarchical Few-Shot Imitation with Skill Transition Models",
+  "source_url": "https://arxiv.org/pdf/2107.08981v2",
+  "pdf_path": "build/sources/hierarchical-few-shot-imitation-with-skill-transition-models.pdf",
+  "pdf_sha256": "0e553d99f207eee8fd2333f63d23d34bf309a2d874798593f65bf35190c83064",
+  "pdf_title_observed": "Hierarchical Few-Shot Imitation with Skill Transition Models",
+  "first_page_title_text": "Published as a conference paper at ICLR 2022\nHIERARCHICAL FEW-SHOT IMITATION\nWITH SKILL TRANSITION MODELS\nKourosh Hakhamaneshi, Albert Zhang, Ruihan Zhao, Pieter Abbeel, Michael Laskin\nUniversity of California, Berkeley, BAIR.\nCorrespondence to kourosh_hakhamaneshi@berkeley.edu\nABSTRACT\nA desirable property of autonomous agents is the ability to both solve long-horizon prob-\nlems and generalize to",
+  "title_match": true,
+  "version": "2107.08981v2",
+  "page_count": 19,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1: In this work we are interested in enabling autonomous robots to solve complex long-horizon tasks that were unseen during training. To do so, we assume access to a large multi-task dataset of demonstrations, extract skills from the ofﬂine dataset, and adapt those skills to new tasks that were unseen during training. and is then adapted in few-shot to a downstream task Duan et al. (2017). Few-shot imitation learning has the added advantag",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 2: Our algorithm – Few-Shot Imitation Learning with Skill Transition Models (FIST) – is composed of three parts: (a) Skill Extraction: we ﬁt a skill encoder, decoder, inverse skill dynamics model, and a distance function to the ofﬂine dataset; (b) Skill Adaptation: For downstream task, we are given a few demonstrations and adapt the skills learned in (a), by ﬁne-tuning the encoder, decoder, and the inverse model. (c) Few-Shot Imitation: ﬁn",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 3. To ensure generalizability to out-of-distribution tasks we remove some category of trajectories from the ofﬂine data and at test-time, we see if the agent can generalize to those unseen trajectories. Speciﬁcally for Pointmass and Ant environments we block some 6 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 3: Top: In each environment, we block some part of the environment and collect task-agnostic and reward-free trajectories for extracting skills. In the kitchen environment, red markers indicate the objects that are excluded. Bottom: For downstream demonstrations, we use 10 expert trajectories that involve unseen parts of the maze or manipulation of unseen objects. regions of the maze and at test-time we provide demonstration that move into",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 4: Normalized Reward on all of our environments, and their excluded regions / objects. For maze, the episode length is subtracted from the maximum episode length, which is then divided by the maximum episode length. For kitchen, the reward is the number of sub-tasks completed in order, and normalized by the maximum of 4.0 (ii) In the AntMaze environment, FIST achieves the best performance compared to the baselines. SPiRL and BC+FT make no ",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

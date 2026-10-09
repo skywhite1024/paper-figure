@@ -1,0 +1,37 @@
+{
+  "catalog_index": 83,
+  "catalog_id": "axis-a-growable-community-driven-data-engine-for-scalable-robot-manipulation",
+  "title_expected": "AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation",
+  "source_url": "https://arxiv.org/pdf/2607.21588v1",
+  "pdf_path": "build/sources/axis-a-growable-community-driven-data-engine-for-scalable-robot-manipulation.pdf",
+  "pdf_sha256": "52bedbf53aefd2499910ee182281d1f72d88578ba9cf8451299d48dd3194050e",
+  "pdf_title_observed": "AXIS: A Growable Community-Driven Data Engine for Scalable Robot Manipulation",
+  "first_page_title_text": "AXIS: A Growable Community-Driven Data Engine\nfor Scalable Robot Manipulation\nMengfei Zhao∗,‡, Dihong Huang1,2∗, Yikai Tang2∗, Peihao Li2∗, Mingxuan Yan3∗,\nRuiqi Zhuang1∗, Yanjia Huang4∗, Jie Wang1,5, Hai Zhai1, Tony Zhou1,6,\nRui Zhang1,7, Zhexi Luo1,8, Yuchen Huang1,7, Jianfei Yang9‡, Jiachen Li3‡\n1Axis Robotics\n2University of California, Berkeley\n3Georgia Institute of Technology\n4Texas A&M Unive",
+  "title_match": true,
+  "version": "2607.21588v1",
+  "page_count": 25,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Figure 1: AXIS: A growable community-driven data engine unifying task generation, web teleoper- ation, data refinement, realistic augmentation, and policy learning with real-world validation. Abstract: Learning effective robot manipulation policies requires diverse, high- quality demonstrations, yet existing data pipelines are often difficult to scale be- cause they rely on specialized hardware, centralized operators, or fixed task suites. We pre",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 2: Visualization of augmentation diversity for three example tasks. For each task (row), we show three augmented variations (columns) obtained by randomizing appearance, lighting, environ- ment, and initial object positions. Across augmentations, we vary materials and textures (e.g., table, floor, objects), lighting conditions (e.g., brightness and shadows), background and scene layout (e.g., walls, furniture, decorations), and initial sta",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 3: Overview of the AXIS dataset. Validation and refinement. To ensure data quality, all demonstrations undergo a standardized val- idation pipeline that verifies trajectory completeness, task success, and physical consistency. Valid trajectories are subsequently smoothed and resampled to a unified control frequency, improving temporal consistency and reducing teleoperation noise. As shown in Table 1, the refinement process substantially re",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

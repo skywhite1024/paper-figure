@@ -1,0 +1,41 @@
+{
+  "diagram_id": "psd-figure-1",
+  "source_scene_sha256": "2f6bbb3e427d6b63ed5d7bb727bc03a94abcefb21c06b6835d6ec72cecc4a355",
+  "source_pdf_sha256": "3d80b6e24e888d7a8498465dccdaf021bd46234ea913de70887c3c9b5b65bb72",
+  "checked_files": [
+    {
+      "name": "psd-figure-1.drawio",
+      "sha256": "ddeb13e5eb082b7494dd366ab7ca947514185b01792972577d1143cc3facc720"
+    },
+    {
+      "name": "psd-figure-1.png",
+      "sha256": "a3746d58c3d991d0555d6adfc4da42758e7343a3fd5e86dcb39ca1d435d43b76"
+    },
+    {
+      "name": "psd-figure-1.pptx",
+      "sha256": "4e1aaa034c35a347c846237f7f222ca5c9b00f3d8c6de6d5a81e78db4b3fd830"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX rendering passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 1 PDFpage2 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source regions, detailed connections and labels retained",
+    "labels": "legible with no clipping or missing formulas",
+    "native_editability": "all-native figure objects; no raster screenshot",
+    "drawio": "XML/stencils only; app rendering unavailable because isolated Xvfb cannot create local sockets"
+  },
+  "native_xml_counts": {
+    "p:sp": 481,
+    "p:pic": 0,
+    "a:custGeom": 480,
+    "p:cxnSp": 0,
+    "a:t": 1
+  },
+  "limitations": [
+    "Some formulas/Type3 glyphs are outline paths rather than live text",
+    "Source dash cadence and thin-line anti-aliasing vary by editor",
+    "Freeform paths lack semantic endpoint attachment"
+  ]
+}

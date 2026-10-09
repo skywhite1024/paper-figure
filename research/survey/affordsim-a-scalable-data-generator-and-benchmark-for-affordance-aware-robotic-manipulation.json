@@ -1,0 +1,55 @@
+{
+  "catalog_index": 114,
+  "catalog_id": "affordsim-a-scalable-data-generator-and-benchmark-for-affordance-aware-robotic-manipulation",
+  "title_expected": "AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation",
+  "source_url": "https://arxiv.org/pdf/2604.11674v2",
+  "pdf_path": "build/sources/affordsim-a-scalable-data-generator-and-benchmark-for-affordance-aware-robotic-manipulation.pdf",
+  "pdf_sha256": "8811e0ccda74dae8722860f1a730c8d7f2bedf13841ef67796ca9bb02399f1de",
+  "pdf_title_observed": "AffordSim: A Scalable Data Generator and Benchmark for Affordance-Aware Robotic Manipulation",
+  "first_page_title_text": "AffordSim: A Scalable Data Generator and\nBenchmark for Affordance-Aware Robotic\nManipulation\nMingyang Li∗, Haofan Xu∗, Haowen Sun∗, Xinzhe Chen,\nSihua Ren, Liqi Huang, Xinyang Sui, Chenyang Miao, Jiawei Ye,\nQiongjie Cui†, Zeyang Liu†, Xingyu Chen†, Xuguang Lan†\nSchool of Artificial Intelligence, Xi’an Jiaotong University\n∗Equal contribution\n† Corresponding authors\nAffordance-\naware Tasks\nDiverse O",
+  "title_match": true,
+  "version": "2604.11674v2",
+  "page_count": 26,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Figure 1: Overview of AffordSim. A scalable affordance-aware manipulation benchmark of 50 tasks, 500+ rigid and articulated objects, and 5 robot embodiments, paired with cross-viewpoint background replacement and affordance-guided trajectory generation. Abstract Many everyday robot manipulation skills are affordance-dependent, with success determined by whether the robot contacts the functional object region required by the subsequent action. Cur",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 2: Affordance-guided data generation pipeline of AffordSim. The full module breakdown and data flow are described in Section 3. In the Stage 2 bar chart, the x-axis lists the candidate grasps gk generated in Stage 1 and the y-axis gives their motion-planner score Sk, with the red cross marking the colliding candidate (Sk = 0) and the green dashed line indicating the maximum-score grasp ultimately selected. 3 AffordSim Framework AffordSim t",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 3: Domain randomization in AffordSim. Each column shows the cumulative effect of adding one randomization axis: object pose, surface texture, lighting, and background. The rightmost column shows example background textures used for randomization. Two representative tasks are shown across rows. 3.2 Affordance-Aware Trajectory Collection We propose affordance-guided grasp selection, which turns each affordance query from Section 3.1 into a m",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 4: Task gallery. Representative frames from all 50 tasks of the AffordSim benchmark, grouped into seven manipulation categories: pick & place (20), open/close (2), pull/push (5), hang (2), pour (7), stack (4), and long-horizon composite (10). Replacement panel of Figure 1 shows an example, and full reconstruction hyperparameters with three example scenes are given in Appendix N. The remaining four axes are standard, namely lighting (type, ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 5: Per-tier average trajectory col- lection SR (%). Table 3: Zero-shot sim-to-real transfer. SR (%) on a real Franka FR3 (10 trials per task, no real world fine tuning). Best per task in bold. Task BC DP ACT VLA-A. Pi 0.5 pick banana place plate 0 20 10 40 40 pick cup place shelf 0 0 0 20 20 pour scoop into bowl 0 10 0 20 30 hang red mug on rack 0 0 0 10 10 Average 0 8 3 23 25 pick banana place plate pick cup place shelf pour scoop into bo",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 6: Zero-shot sim-to-real deployment. The four real robot tasks in Table 3, executed by Pi 0.5 on a Franka FR3 with no real world fine tuning. 5 Discussion and Conclusion This paper presents AffordSim, to our knowledge the first simulation framework that integrates open-vocabulary 3D affordance prediction into manipulation data generation. The framework chains vision-language scene synthesis, open-vocabulary affordance prediction, two-stage",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

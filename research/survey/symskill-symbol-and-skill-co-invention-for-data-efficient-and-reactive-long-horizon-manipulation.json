@@ -1,0 +1,108 @@
+{
+  "catalog_index": 65,
+  "catalog_id": "symskill-symbol-and-skill-co-invention-for-data-efficient-and-reactive-long-horizon-manipulation",
+  "title_expected": "SymSkill: Symbol and Skill Co-Invention for Data-Efficient and Reactive Long-Horizon Manipulation",
+  "source_url": "https://arxiv.org/pdf/2510.01661v3",
+  "pdf_path": "build/sources/symskill-symbol-and-skill-co-invention-for-data-efficient-and-reactive-long-horizon-manipulation.pdf",
+  "pdf_sha256": "29492416ae5fba07b1bf04b89c04234ac675132fe5374bbc34f510ac41638997",
+  "pdf_title_observed": "Symskill: Symbol and Skill Co-Invention for Data-Efficient and Reactive Long-Horizon Manipulation",
+  "first_page_title_text": "SymSkill: Symbol and Skill Co-Invention for Data-Efficient\nand Reactive Long-Horizon Manipulation\nYifei Simon Shao, Yuchen Zheng, Sunan Sun, Pratik Chaudhari, Vijay Kumar and Nadia Figueroa\nGRASP Laboratory, University of Pennsylvania, Philadelphia, PA, 19104 USA\nyishao, zhengyc, sunan, pratikac, kumar, nadiafig@seas.upenn.edu\nAbstract— Multi-step manipulation in dynamic environments\nremains chall",
+  "title_match": true,
+  "version": "2510.01661v3",
+  "page_count": 10,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 2,
+      "caption": "SymSkill offline and online pipelines.",
+      "crop_pdf_points": [
+        52,
+        49,
+        560,
+        233
+      ],
+      "vector_paths": 514,
+      "native_text_spans": 41,
+      "raster_images": 10,
+      "visually_inspected": true,
+      "notes": "Segmentation, predicate/operator/policy learning upper band; symbolic planner, operators and automatic skill recovery lower band."
+    }
+  ],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Fig. 1: Illustration of the SymSkill predicate and skill co- invention process on a DoorOpen task. Left: In the premotion segment (end-effector only motion), the object in motion in the next segment is treated as the object of interest oint, and its frame serves as the reference for both predicate and skill learning. End-effector trajectories in this frame are used to fit SE(3) LPV-DS skills, and their endpoints are clustered to yield object-grip",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 2,
+      "caption_excerpt": "Fig. 2: SymSkill offline pipeline (top half) and the online pipeline (bottom half). Subsection V-A (purple) describes segmentation and reference frame selection. Subsection V-B (orange) describes how predicates are learned for each segment. Subsection V-C (green) learns the operators for online planning. Subsection V-D (blue) describes how each operator’s skill is learned. Subsection V-E (yellow) describes how SymSkill operates online. based appr",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 3. This structured output limits hal- lucination and enforces selection among known candidates. With all oref fixed, we retain motion-segment trajectories in that frame: motion: \bointTee(t), orefTee(t), orefToint(t) \t t∈Smot oint . We assume that objects of the same type can be manipulated in a similar manner, and that interactions between the same object type and reference type share common trajectory structures that can be exploited during",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 3: The VLM prompt used for the real-world learning-from-play experiment proceeds as follows. First, the initial image is used to obtain text descriptions of all objects in view. Next, four equally spaced images from each motion segment are provided to Gemini together with the required output enumeration object, using the structured output feature. The returned text is then mapped back to the corresponding object name. C. Operator Learning us",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 4: The visualization of demonstrations and SE(3) LPV-DS policy rollout for Op3 in Tab.III. The left figure shows multiple collected trajectories plac- ing a thing type item from various locations into the pan. The multimodal nature of the data is captured by 4 distinct Gaussians shown in different colors following the policy learning outlined in Sec. III-A. The right figure shows the reconstruction results of the learned policy starting from",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 4. E. Online Execution Monitoring and Adaptation The online algorithm requires a symbolic goal state sg1, expressed as a conjunction of one or more learned predicates. Given the current continuous state x0, we first compute its symbolic abstraction s0. We then perform symbolic planning using A∗search with the learned operators, producing a plan skeleton α1, α2, . . . , αn from s0 to sg, if one exists. We then sequentially execute skill in α,",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 5: Real-world data collection pipeline. We use a motion capture system to record object interactions in the workspace. Here we show one motion episode with a sequence of timestamped images; the manipulated object (oint) is a banana. Frames with orange, yellow, and green banners denote the premotion, motion, and post-motion segments, respectively. from the cabinet, places it on the counter, and closes the cabinet door. To execute this task, w",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 6: Real-world execution of SymSkill toward the manually specified symbolic goal {RelPose(banana, plate)}. During execution, we introduce three disturbances to highlight the three recovery mechanisms of SymSkill: closing the lid triggers symbolic-level recovery, moving the plate needs needs no explicit recovery with DS skills, and adding an obstacle is handled by modulation. SymSkill successfully addresses all three and completes the task. pe",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 6. ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 7. We used trained SE(3) LPV-DS policies to generate rollouts as additional training data for diffusion policy (DP). Initial end-effector poses were sampled from an SE(3) Gaussian fit to the initial poses in the training set. All training data, augmented data, and a rollout from the trained DP are shown in Figure 7. Fig. 7: DP rollout for the premotion segment of OpenSingleDoor. Purple trajectories are 4 training demonstrations used for Sy",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 7. Fig. 7: DP rollout for the premotion segment of OpenSingleDoor. Purple trajectories are 4 training demonstrations used for SymSkill, yellow trajectories are augmented data generated by SE(3) LPV-DS, and the black curve is a rollout from the trained DP. The poses (red, green, blue axes) indicate end-effector orientation at several timestamps; the larger pose denotes the averaged final orientation across all demonstrations. We evaluated D",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 9,
+      "caption_excerpt": "Fig. 7: DP rollout for the premotion segment of OpenSingleDoor. Purple trajectories are 4 training demonstrations used for SymSkill, yellow trajectories are augmented data generated by SE(3) LPV-DS, and the black curve is a rollout from the trained DP. The poses (red, green, blue axes) indicate end-effector orientation at several timestamps; the larger pose denotes the averaged final orientation across all demonstrations. We evaluated DP with dat",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+}

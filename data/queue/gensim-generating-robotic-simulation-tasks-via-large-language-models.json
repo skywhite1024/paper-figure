@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "gensim-generating-robotic-simulation-tasks-via-large-language-models",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.502075Z",
-  "updated_at": "2026-10-09T20:04:59.502075Z",
+  "updated_at": "2026-10-09T20:14:36.274113Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/gensim-generating-robotic-simulation-tasks-via-large-language-models.json",
+          "https://arxiv.org/pdf/2310.01361v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/gensim-generating-robotic-simulation-tasks-via-large-language-models.json",
+          "sha256": "43cf8d4b9db5ab18a3278de127efec05d0d12c0ecf71995c6e2dc0504817a87d"
+        },
+        "version": "2310.01361v2",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "GenSim: Generating Robotic Simulation Tasks via Large Language Models",
+        "observed_title": "GenSim: Generating Robotic Simulation Tasks via Large Language Models",
+        "source_url": "https://arxiv.org/pdf/2310.01361v2",
+        "source_sha256": "97b91f5da06223de29b894792f90a00a9c0732bf05df0f92f1d1bddd21332962",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/gensim-generating-robotic-simulation-tasks-via-large-language-models.json",
+          "https://arxiv.org/pdf/2310.01361v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/gensim-generating-robotic-simulation-tasks-via-large-language-models.json",
+          "sha256": "43cf8d4b9db5ab18a3278de127efec05d0d12c0ecf71995c6e2dc0504817a87d"
+        },
+        "version": "2310.01361v2",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/gensim-generating-robotic-simulation-tasks-via-large-language-models.pdf",
+          "reported_sha256": "97b91f5da06223de29b894792f90a00a9c0732bf05df0f92f1d1bddd21332962",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 36,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.817509Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "f822affaa4f9057017a2b7f3d39d1423b93d6a55f86894043ac1f564fc8e52bb",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/gensim-generating-robotic-simulation-tasks-via-large-language-models.json",
+                "https://arxiv.org/pdf/2310.01361v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/gensim-generating-robotic-simulation-tasks-via-large-language-models.json",
+                "sha256": "43cf8d4b9db5ab18a3278de127efec05d0d12c0ecf71995c6e2dc0504817a87d"
+              },
+              "version": "2310.01361v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "GenSim: Generating Robotic Simulation Tasks via Large Language Models",
+              "observed_title": "GenSim: Generating Robotic Simulation Tasks via Large Language Models",
+              "source_url": "https://arxiv.org/pdf/2310.01361v2",
+              "source_sha256": "97b91f5da06223de29b894792f90a00a9c0732bf05df0f92f1d1bddd21332962",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/gensim-generating-robotic-simulation-tasks-via-large-language-models.json",
+                "https://arxiv.org/pdf/2310.01361v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/gensim-generating-robotic-simulation-tasks-via-large-language-models.json",
+                "sha256": "43cf8d4b9db5ab18a3278de127efec05d0d12c0ecf71995c6e2dc0504817a87d"
+              },
+              "version": "2310.01361v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/gensim-generating-robotic-simulation-tasks-via-large-language-models.pdf",
+                "reported_sha256": "97b91f5da06223de29b894792f90a00a9c0732bf05df0f92f1d1bddd21332962",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 36,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.274113Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "3b3a26351d0bfdc7661ae6e6feccd5ee033cc2176b660e3ddca0ee0dfd427b6f",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/gensim-generating-robotic-simulation-tasks-via-large-language-models.json",
+                "https://arxiv.org/pdf/2310.01361v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/gensim-generating-robotic-simulation-tasks-via-large-language-models.json",
+                "sha256": "43cf8d4b9db5ab18a3278de127efec05d0d12c0ecf71995c6e2dc0504817a87d"
+              },
+              "version": "2310.01361v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "GenSim: Generating Robotic Simulation Tasks via Large Language Models",
+              "observed_title": "GenSim: Generating Robotic Simulation Tasks via Large Language Models",
+              "source_url": "https://arxiv.org/pdf/2310.01361v2",
+              "source_sha256": "97b91f5da06223de29b894792f90a00a9c0732bf05df0f92f1d1bddd21332962",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

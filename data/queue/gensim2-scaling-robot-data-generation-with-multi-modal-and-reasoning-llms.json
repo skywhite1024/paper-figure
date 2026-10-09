@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "gensim2-scaling-robot-data-generation-with-multi-modal-and-reasoning-llms",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.499489Z",
-  "updated_at": "2026-10-09T20:04:59.499489Z",
+  "updated_at": "2026-10-09T20:14:36.288384Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/gensim2-scaling-robot-data-generation-with-multi-modal-and-reasoning-llms.json",
+          "https://arxiv.org/pdf/2410.03645v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/gensim2-scaling-robot-data-generation-with-multi-modal-and-reasoning-llms.json",
+          "sha256": "47b6045e4f17497e6a5baea4be2cde3c54071ee96247cb903a83ee38b0ea2445"
+        },
+        "version": "2410.03645v1",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "GenSim2: Scaling Robot Data Generation with Multi-Modal and Reasoning LLMs",
+        "observed_title": "GenSim2: Scaling Robot Data Generation with Multi-modal and Reasoning LLMs",
+        "source_url": "https://arxiv.org/pdf/2410.03645v1",
+        "source_sha256": "f42d44427b8c7e4a4027bc6057d432e8c2a9dc72e7cba3e57629562d211d7ddb",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/gensim2-scaling-robot-data-generation-with-multi-modal-and-reasoning-llms.json",
+          "https://arxiv.org/pdf/2410.03645v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/gensim2-scaling-robot-data-generation-with-multi-modal-and-reasoning-llms.json",
+          "sha256": "47b6045e4f17497e6a5baea4be2cde3c54071ee96247cb903a83ee38b0ea2445"
+        },
+        "version": "2410.03645v1",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/gensim2-scaling-robot-data-generation-with-multi-modal-and-reasoning-llms.pdf",
+          "reported_sha256": "f42d44427b8c7e4a4027bc6057d432e8c2a9dc72e7cba3e57629562d211d7ddb",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 38,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.832381Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "06468feda25bae5071be940fea109e213627784a4137b1e5c080e7a2516fe68d",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/gensim2-scaling-robot-data-generation-with-multi-modal-and-reasoning-llms.json",
+                "https://arxiv.org/pdf/2410.03645v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/gensim2-scaling-robot-data-generation-with-multi-modal-and-reasoning-llms.json",
+                "sha256": "47b6045e4f17497e6a5baea4be2cde3c54071ee96247cb903a83ee38b0ea2445"
+              },
+              "version": "2410.03645v1",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "GenSim2: Scaling Robot Data Generation with Multi-Modal and Reasoning LLMs",
+              "observed_title": "GenSim2: Scaling Robot Data Generation with Multi-modal and Reasoning LLMs",
+              "source_url": "https://arxiv.org/pdf/2410.03645v1",
+              "source_sha256": "f42d44427b8c7e4a4027bc6057d432e8c2a9dc72e7cba3e57629562d211d7ddb",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/gensim2-scaling-robot-data-generation-with-multi-modal-and-reasoning-llms.json",
+                "https://arxiv.org/pdf/2410.03645v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/gensim2-scaling-robot-data-generation-with-multi-modal-and-reasoning-llms.json",
+                "sha256": "47b6045e4f17497e6a5baea4be2cde3c54071ee96247cb903a83ee38b0ea2445"
+              },
+              "version": "2410.03645v1",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/gensim2-scaling-robot-data-generation-with-multi-modal-and-reasoning-llms.pdf",
+                "reported_sha256": "f42d44427b8c7e4a4027bc6057d432e8c2a9dc72e7cba3e57629562d211d7ddb",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 38,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.288384Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "061cabb74adf298fc0c677833c932483f0aa190024052e812733cf6b4c82dfd5",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/gensim2-scaling-robot-data-generation-with-multi-modal-and-reasoning-llms.json",
+                "https://arxiv.org/pdf/2410.03645v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/gensim2-scaling-robot-data-generation-with-multi-modal-and-reasoning-llms.json",
+                "sha256": "47b6045e4f17497e6a5baea4be2cde3c54071ee96247cb903a83ee38b0ea2445"
+              },
+              "version": "2410.03645v1",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "GenSim2: Scaling Robot Data Generation with Multi-Modal and Reasoning LLMs",
+              "observed_title": "GenSim2: Scaling Robot Data Generation with Multi-modal and Reasoning LLMs",
+              "source_url": "https://arxiv.org/pdf/2410.03645v1",
+              "source_sha256": "f42d44427b8c7e4a4027bc6057d432e8c2a9dc72e7cba3e57629562d211d7ddb",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

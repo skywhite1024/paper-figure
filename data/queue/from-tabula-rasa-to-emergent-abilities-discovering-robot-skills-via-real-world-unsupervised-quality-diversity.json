@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "from-tabula-rasa-to-emergent-abilities-discovering-robot-skills-via-real-world-unsupervised-quality-diversity",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.462672Z",
-  "updated_at": "2026-10-09T20:04:59.462672Z",
+  "updated_at": "2026-10-09T20:14:36.245403Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,103 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/from-tabula-rasa-to-emergent-abilities-discovering-robot-skills-via-real-world-unsupervised-quality-diversity.json",
+          "https://arxiv.org/pdf/2508.19172v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/from-tabula-rasa-to-emergent-abilities-discovering-robot-skills-via-real-world-unsupervised-quality-diversity.json",
+          "sha256": "52c8b71895d9ff0cc407eab4290c9763f415393363f9cb084051f1ad289eada6"
+        },
+        "version": "2508.19172v3",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "From Tabula Rasa to Emergent Abilities: Discovering Robot Skills via Real-World Unsupervised Quality-Diversity",
+        "observed_title": "From Tabula Rasa to Emergent Abilities: Discovering Robot Skills via Real-World Unsupervised Quality-Diversity",
+        "source_url": "https://arxiv.org/pdf/2508.19172v3",
+        "source_sha256": "92a73fad024334ad3c8a932f84cac54f8a8d9ade9131ff99c84c23c3689c3096",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/from-tabula-rasa-to-emergent-abilities-discovering-robot-skills-via-real-world-unsupervised-quality-diversity.json",
+          "https://arxiv.org/pdf/2508.19172v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/from-tabula-rasa-to-emergent-abilities-discovering-robot-skills-via-real-world-unsupervised-quality-diversity.json",
+          "sha256": "52c8b71895d9ff0cc407eab4290c9763f415393363f9cb084051f1ad289eada6"
+        },
+        "version": "2508.19172v3",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/from-tabula-rasa-to-emergent-abilities-discovering-robot-skills-via-real-world-unsupervised-quality-diversity/original.pdf",
+          "reported_sha256": "92a73fad024334ad3c8a932f84cac54f8a8d9ade9131ff99c84c23c3689c3096",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 17,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/from-tabula-rasa-to-emergent-abilities-discovering-robot-skills-via-real-world-unsupervised-quality-diversity.json",
+          "https://arxiv.org/pdf/2508.19172v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/from-tabula-rasa-to-emergent-abilities-discovering-robot-skills-via-real-world-unsupervised-quality-diversity.json",
+          "sha256": "52c8b71895d9ff0cc407eab4290c9763f415393363f9cb084051f1ad289eada6"
+        },
+        "version": "2508.19172v3",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 3,
+            "caption": "Figure 2: Overview of URSA: The system checks if the state st is safe, if so, encodes it into features\nϕt, and builds a diverse skill repertoire R. New skills are sampled using a Kernel Density Estimator\non the repertoire from the safe, reachable skill space. The skill-conditioned policy πz maximizes its\nexpected return while matching the sampled skill z.",
+            "crop_pdf_points": [
+              134,
+              67,
+              475,
+              190
+            ],
+            "vector_paths": 59,
+            "native_text_spans": 13,
+            "raster_images": 6,
+            "source_type": "vector/text with embedded raster components",
+            "visually_inspected": true,
+            "notes": "URSA closed loop: repertoire, KDE skill sampling, policy, robot environment, safety check and feature selection/VAE branch. Preserve dotted branch separation and small robot image."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +146,153 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.789437Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "8d2ec9f5359c35b4bb46ff159b3533b7226c007e7385867efae4ed03a3d17155",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/from-tabula-rasa-to-emergent-abilities-discovering-robot-skills-via-real-world-unsupervised-quality-diversity.json",
+                "https://arxiv.org/pdf/2508.19172v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/from-tabula-rasa-to-emergent-abilities-discovering-robot-skills-via-real-world-unsupervised-quality-diversity.json",
+                "sha256": "52c8b71895d9ff0cc407eab4290c9763f415393363f9cb084051f1ad289eada6"
+              },
+              "version": "2508.19172v3",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "From Tabula Rasa to Emergent Abilities: Discovering Robot Skills via Real-World Unsupervised Quality-Diversity",
+              "observed_title": "From Tabula Rasa to Emergent Abilities: Discovering Robot Skills via Real-World Unsupervised Quality-Diversity",
+              "source_url": "https://arxiv.org/pdf/2508.19172v3",
+              "source_sha256": "92a73fad024334ad3c8a932f84cac54f8a8d9ade9131ff99c84c23c3689c3096",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/from-tabula-rasa-to-emergent-abilities-discovering-robot-skills-via-real-world-unsupervised-quality-diversity.json",
+                "https://arxiv.org/pdf/2508.19172v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/from-tabula-rasa-to-emergent-abilities-discovering-robot-skills-via-real-world-unsupervised-quality-diversity.json",
+                "sha256": "52c8b71895d9ff0cc407eab4290c9763f415393363f9cb084051f1ad289eada6"
+              },
+              "version": "2508.19172v3",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/from-tabula-rasa-to-emergent-abilities-discovering-robot-skills-via-real-world-unsupervised-quality-diversity/original.pdf",
+                "reported_sha256": "92a73fad024334ad3c8a932f84cac54f8a8d9ade9131ff99c84c23c3689c3096",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 17,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/from-tabula-rasa-to-emergent-abilities-discovering-robot-skills-via-real-world-unsupervised-quality-diversity.json",
+                "https://arxiv.org/pdf/2508.19172v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/from-tabula-rasa-to-emergent-abilities-discovering-robot-skills-via-real-world-unsupervised-quality-diversity.json",
+                "sha256": "52c8b71895d9ff0cc407eab4290c9763f415393363f9cb084051f1ad289eada6"
+              },
+              "version": "2508.19172v3",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 3,
+                  "caption": "Figure 2: Overview of URSA: The system checks if the state st is safe, if so, encodes it into features\nϕt, and builds a diverse skill repertoire R. New skills are sampled using a Kernel Density Estimator\non the repertoire from the safe, reachable skill space. The skill-conditioned policy πz maximizes its\nexpected return while matching the sampled skill z.",
+                  "crop_pdf_points": [
+                    134,
+                    67,
+                    475,
+                    190
+                  ],
+                  "vector_paths": 59,
+                  "native_text_spans": 13,
+                  "raster_images": 6,
+                  "source_type": "vector/text with embedded raster components",
+                  "visually_inspected": true,
+                  "notes": "URSA closed loop: repertoire, KDE skill sampling, policy, robot environment, safety check and feature selection/VAE branch. Preserve dotted branch separation and small robot image."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.245403Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "01f1b6a3603d4f28a90a88af06d559fb7acee1b73c46beec9c8b7fd0790366cd",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/from-tabula-rasa-to-emergent-abilities-discovering-robot-skills-via-real-world-unsupervised-quality-diversity.json",
+                "https://arxiv.org/pdf/2508.19172v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/from-tabula-rasa-to-emergent-abilities-discovering-robot-skills-via-real-world-unsupervised-quality-diversity.json",
+                "sha256": "52c8b71895d9ff0cc407eab4290c9763f415393363f9cb084051f1ad289eada6"
+              },
+              "version": "2508.19172v3",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "From Tabula Rasa to Emergent Abilities: Discovering Robot Skills via Real-World Unsupervised Quality-Diversity",
+              "observed_title": "From Tabula Rasa to Emergent Abilities: Discovering Robot Skills via Real-World Unsupervised Quality-Diversity",
+              "source_url": "https://arxiv.org/pdf/2508.19172v3",
+              "source_sha256": "92a73fad024334ad3c8a932f84cac54f8a8d9ade9131ff99c84c23c3689c3096",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

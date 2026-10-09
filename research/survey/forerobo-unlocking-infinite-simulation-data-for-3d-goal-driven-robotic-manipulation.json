@@ -1,0 +1,73 @@
+{
+  "catalog_index": 92,
+  "catalog_id": "forerobo-unlocking-infinite-simulation-data-for-3d-goal-driven-robotic-manipulation",
+  "title_expected": "ForeRobo: Unlocking Infinite Simulation Data for 3D Goal-driven Robotic Manipulation",
+  "source_url": "https://arxiv.org/pdf/2511.04381v1",
+  "pdf_path": "build/sources/forerobo-unlocking-infinite-simulation-data-for-3d-goal-driven-robotic-manipulation.pdf",
+  "pdf_sha256": "3bdb1dd33b86dd992851ef2d2c84c77d2e6a10c39c3134cc5ede3d36005cb193",
+  "pdf_title_observed": "ForeRobo: Unlocking Infinite Simulation Data for 3D Goal-driven Robotic Manipulation",
+  "first_page_title_text": "1\nForeRobo: Unlocking Infinite Simulation Data for 3D Goal-driven\nRobotic Manipulation\nDexin Wang, Faliang Chang, Chunsheng Liu\nAbstract—Efficiently leveraging simulation to acquire ad-\nvanced manipulation skills is both challenging and highly sig-\nnificant. We introduce ForeRobo, a generative robotic agent\nthat utilizes generative simulations to autonomously acquire\nmanipulation skills driven by ",
+  "title_match": true,
+  "version": "2511.04381v1",
+  "page_count": 15,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 3,
+      "caption_excerpt": "Fig. 1: Overview of ForeRobo. ForeRobo primarily consists of a data generation component, ForeGen, and a state prediction model, ForeFormer. The top-right part of the figure demonstrates how ForeFormer, trained exclusively on simulation data, enables the robot arm to accomplish manipulation tasks in real-world environments. The process mainly involves five steps: (1) task-relevant object segmentation; (2) object point cloud acquisition; (3) goal ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 3. We explain details in the following. Object point cloud registration CPCA first employs the DINOv2 model [21] to extract semantically consistent multi- view visual features for each object, which are then embedded ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 2: Overview of ForeGen and ForeMani-v1. ForeGen consists of the following stages: a) task proposal, b) scene generation, and c) state generation. ForeMani-v1 encompasses 1,536 objects and 106 tasks, with each task containing an average of 21 scenarios and 394 goal states. into the corresponding object point cloud to obtain a point cloud representation P ∈RN×(3+d) enriched with semantic features. Subsequently, CPCA applies the Coherent Point ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 3: Pipeline of Cross-instance Proximity Contact Align- ment (CPCA). Given the demonstrated goal state in a task’s demonstration scene, CPCA can generate the corresponding goal states for all augmented scenes of that task. computes the rotation RA′ and translation tA′ of object B′ based on the invariance of the relative rotation between A′ and B′ and the alignment of proximal contact centers, as expressed in the following equation: R−1 A RB =",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 4: Overview of ForeFormer and robot motion plan- ning. PTv3 refers to PointTransformer-v3, and SAT refers to the Self-Attention Transformer. In the task ”Lift the kettle above the cup and tilt it to pour water” depicted in the figure, the kettle is the object to be manipulated, which is embedded into the network via the object point cloud encoder (comprising SAT and two MLPs). The cup, being the task- relevant object, is embedded into the ne",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 5. This work primarily focuses on single-object interaction tasks; thus, each task scene contains only one background object and one manipulated object. These tasks cover a wide range of object motion scales, diverse manipulation modes, goal states with or without contact, and either unimodal or multimodal prediction distributions. We evaluate different methods using either the point cloud error (PCE) of the predicted goal state or the succe",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 8,
+      "caption_excerpt": "Fig. 5: Simulation tasks. We evaluated the performance of ForeFormer and the baseline methods on ten simulated tasks, including six rigid-object manipulation tasks and four articulated-object manipulation tasks. In the captions below each task illustration, the manipulated object is highlighted in blue, followed by the task description. The red arrows indicate the transformation of objects from their initial states to the goal states that satisfy",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 8,
+      "caption_excerpt": "Fig. 6: Real-world tasks and robotic platform. Based on the zero-shot sim-to-real experiments, we constructed single-task generalization experiments by replacing the objects in each task. In each generalization experiment, only one object was replaced. ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 9,
+      "caption_excerpt": "Fig. 7: Ablation study on structural consistency loss weight. The figure shows the performance of ForeFormer in both seen and unseen scenes for each task as the structural consistency loss weight increases. For each task, we tested five different loss weights ranging from 0 to 1. simulator and automatically determines correctness according to the task conditions, which is applied to the atomizer, notebook, and teabag tasks. Each task consists of ",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

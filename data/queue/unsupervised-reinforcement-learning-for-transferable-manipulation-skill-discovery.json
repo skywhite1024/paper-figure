@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "unsupervised-reinforcement-learning-for-transferable-manipulation-skill-discovery",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.466870Z",
-  "updated_at": "2026-10-09T20:04:59.466870Z",
+  "updated_at": "2026-10-09T20:14:36.828871Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,103 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/unsupervised-reinforcement-learning-for-transferable-manipulation-skill-discovery.json",
+          "https://arxiv.org/pdf/2204.13906v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/unsupervised-reinforcement-learning-for-transferable-manipulation-skill-discovery.json",
+          "sha256": "6f827016e3f27d7f8ecbe017f8e5594ccc0e3badd28e11b8698768722de88f45"
+        },
+        "version": "2204.13906v1",
+        "license_note": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Unsupervised Reinforcement Learning for Transferable Manipulation Skill Discovery",
+        "observed_title": "Unsupervised Reinforcement Learning for Transferable Manipulation Skill Discovery",
+        "source_url": "https://arxiv.org/pdf/2204.13906v1",
+        "source_sha256": "bcd1a2e008b47f06e38ebb6b942a6b8e2f891e7bfcb017d9fa6bcd4ed81b85a9",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/unsupervised-reinforcement-learning-for-transferable-manipulation-skill-discovery.json",
+          "https://arxiv.org/pdf/2204.13906v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/unsupervised-reinforcement-learning-for-transferable-manipulation-skill-discovery.json",
+          "sha256": "6f827016e3f27d7f8ecbe017f8e5594ccc0e3badd28e11b8698768722de88f45"
+        },
+        "version": "2204.13906v1",
+        "license_note": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/unsupervised-reinforcement-learning-for-transferable-manipulation-skill-discovery/original.pdf",
+          "reported_sha256": "bcd1a2e008b47f06e38ebb6b942a6b8e2f891e7bfcb017d9fa6bcd4ed81b85a9",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 8,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/unsupervised-reinforcement-learning-for-transferable-manipulation-skill-discovery.json",
+          "https://arxiv.org/pdf/2204.13906v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/unsupervised-reinforcement-learning-for-transferable-manipulation-skill-discovery.json",
+          "sha256": "6f827016e3f27d7f8ecbe017f8e5594ccc0e3badd28e11b8698768722de88f45"
+        },
+        "version": "2204.13906v1",
+        "license_note": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 3,
+            "caption": "Fig. 2: Policy architecture. In a single-object setting, φ(s, w)\nis replaced with s, and the encoder and w is not used. When\ntransferring to GCRL, the latent z on the policy is replaced\nwith the goal g.",
+            "crop_pdf_points": [
+              312,
+              50,
+              557,
+              204
+            ],
+            "vector_paths": 0,
+            "native_text_spans": 0,
+            "raster_images": 1,
+            "source_type": "raster",
+            "visually_inspected": true,
+            "notes": "Policy architecture includes object encoder with multihead attention and pooling, policy MLP plus gating network, and an auxiliary sigmoid MLP detail. Source appears low-resolution; inspect raster count before promising native extraction."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +146,153 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.349479Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "3b7a2f2b19f07d0c60ef09e5f79cdda455d98dae845a777751036f9ae8b736f6",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-reinforcement-learning-for-transferable-manipulation-skill-discovery.json",
+                "https://arxiv.org/pdf/2204.13906v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-reinforcement-learning-for-transferable-manipulation-skill-discovery.json",
+                "sha256": "6f827016e3f27d7f8ecbe017f8e5594ccc0e3badd28e11b8698768722de88f45"
+              },
+              "version": "2204.13906v1",
+              "license_note": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Unsupervised Reinforcement Learning for Transferable Manipulation Skill Discovery",
+              "observed_title": "Unsupervised Reinforcement Learning for Transferable Manipulation Skill Discovery",
+              "source_url": "https://arxiv.org/pdf/2204.13906v1",
+              "source_sha256": "bcd1a2e008b47f06e38ebb6b942a6b8e2f891e7bfcb017d9fa6bcd4ed81b85a9",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-reinforcement-learning-for-transferable-manipulation-skill-discovery.json",
+                "https://arxiv.org/pdf/2204.13906v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-reinforcement-learning-for-transferable-manipulation-skill-discovery.json",
+                "sha256": "6f827016e3f27d7f8ecbe017f8e5594ccc0e3badd28e11b8698768722de88f45"
+              },
+              "version": "2204.13906v1",
+              "license_note": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/unsupervised-reinforcement-learning-for-transferable-manipulation-skill-discovery/original.pdf",
+                "reported_sha256": "bcd1a2e008b47f06e38ebb6b942a6b8e2f891e7bfcb017d9fa6bcd4ed81b85a9",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 8,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-reinforcement-learning-for-transferable-manipulation-skill-discovery.json",
+                "https://arxiv.org/pdf/2204.13906v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-reinforcement-learning-for-transferable-manipulation-skill-discovery.json",
+                "sha256": "6f827016e3f27d7f8ecbe017f8e5594ccc0e3badd28e11b8698768722de88f45"
+              },
+              "version": "2204.13906v1",
+              "license_note": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 3,
+                  "caption": "Fig. 2: Policy architecture. In a single-object setting, φ(s, w)\nis replaced with s, and the encoder and w is not used. When\ntransferring to GCRL, the latent z on the policy is replaced\nwith the goal g.",
+                  "crop_pdf_points": [
+                    312,
+                    50,
+                    557,
+                    204
+                  ],
+                  "vector_paths": 0,
+                  "native_text_spans": 0,
+                  "raster_images": 1,
+                  "source_type": "raster",
+                  "visually_inspected": true,
+                  "notes": "Policy architecture includes object encoder with multihead attention and pooling, policy MLP plus gating network, and an auxiliary sigmoid MLP detail. Source appears low-resolution; inspect raster count before promising native extraction."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.828871Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "3e7533c9e4b188ec69d76f313e6dc9102aa07bd44483b737e1c75c51b7fa3480",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-reinforcement-learning-for-transferable-manipulation-skill-discovery.json",
+                "https://arxiv.org/pdf/2204.13906v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-reinforcement-learning-for-transferable-manipulation-skill-discovery.json",
+                "sha256": "6f827016e3f27d7f8ecbe017f8e5594ccc0e3badd28e11b8698768722de88f45"
+              },
+              "version": "2204.13906v1",
+              "license_note": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Unsupervised Reinforcement Learning for Transferable Manipulation Skill Discovery",
+              "observed_title": "Unsupervised Reinforcement Learning for Transferable Manipulation Skill Discovery",
+              "source_url": "https://arxiv.org/pdf/2204.13906v1",
+              "source_sha256": "bcd1a2e008b47f06e38ebb6b942a6b8e2f891e7bfcb017d9fa6bcd4ed81b85a9",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

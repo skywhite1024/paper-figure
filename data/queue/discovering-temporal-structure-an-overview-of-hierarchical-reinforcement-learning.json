@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "discovering-temporal-structure-an-overview-of-hierarchical-reinforcement-learning",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.458340Z",
-  "updated_at": "2026-10-09T20:04:59.458340Z",
+  "updated_at": "2026-10-09T20:14:36.082418Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,103 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/discovering-temporal-structure-an-overview-of-hierarchical-reinforcement-learning.json",
+          "https://arxiv.org/pdf/2506.14045v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/discovering-temporal-structure-an-overview-of-hierarchical-reinforcement-learning.json",
+          "sha256": "58197fc76e1528781c31cbf12dfd7aa0cb18502abf8e8cda51ce6c3b7417e0ab"
+        },
+        "version": "2506.14045v2",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Discovering Temporal Structure: An Overview of Hierarchical Reinforcement Learning",
+        "observed_title": "Discovering Temporal Structure: An Overview of Hierarchical Reinforcement Learning",
+        "source_url": "https://arxiv.org/pdf/2506.14045v2",
+        "source_sha256": "70463ca1b717e55535b7d0faa19662bf2d80e61f1716f11086671d2316058d2d",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/discovering-temporal-structure-an-overview-of-hierarchical-reinforcement-learning.json",
+          "https://arxiv.org/pdf/2506.14045v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/discovering-temporal-structure-an-overview-of-hierarchical-reinforcement-learning.json",
+          "sha256": "58197fc76e1528781c31cbf12dfd7aa0cb18502abf8e8cda51ce6c3b7417e0ab"
+        },
+        "version": "2506.14045v2",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/discovering-temporal-structure-an-overview-of-hierarchical-reinforcement-learning/original.pdf",
+          "reported_sha256": "70463ca1b717e55535b7d0faa19662bf2d80e61f1716f11086671d2316058d2d",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 143,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/discovering-temporal-structure-an-overview-of-hierarchical-reinforcement-learning.json",
+          "https://arxiv.org/pdf/2506.14045v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/discovering-temporal-structure-an-overview-of-hierarchical-reinforcement-learning.json",
+          "sha256": "58197fc76e1528781c31cbf12dfd7aa0cb18502abf8e8cda51ce6c3b7417e0ab"
+        },
+        "version": "2506.14045v2",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 1",
+            "page_1_based": 5,
+            "caption": "Figure 1: Types of methods for temporal structure discovery. We focus on discovering\ntemporal structure autonomously from data under different assumptions.",
+            "crop_pdf_points": [
+              100,
+              88,
+              513,
+              216
+            ],
+            "vector_paths": 157,
+            "native_text_spans": 13,
+            "raster_images": 3,
+            "source_type": "vector/text with embedded raster components",
+            "visually_inspected": true,
+            "notes": "Survey overview with three rounded panels for discovery from online experience, offline datasets and foundation models. A survey taxonomy, not one novel algorithm architecture."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +146,153 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.623143Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "9ed65adb0faea607dbfc04e2e3252717ae128c97f56febd52fccc8fa3f37dd80",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/discovering-temporal-structure-an-overview-of-hierarchical-reinforcement-learning.json",
+                "https://arxiv.org/pdf/2506.14045v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/discovering-temporal-structure-an-overview-of-hierarchical-reinforcement-learning.json",
+                "sha256": "58197fc76e1528781c31cbf12dfd7aa0cb18502abf8e8cda51ce6c3b7417e0ab"
+              },
+              "version": "2506.14045v2",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Discovering Temporal Structure: An Overview of Hierarchical Reinforcement Learning",
+              "observed_title": "Discovering Temporal Structure: An Overview of Hierarchical Reinforcement Learning",
+              "source_url": "https://arxiv.org/pdf/2506.14045v2",
+              "source_sha256": "70463ca1b717e55535b7d0faa19662bf2d80e61f1716f11086671d2316058d2d",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/discovering-temporal-structure-an-overview-of-hierarchical-reinforcement-learning.json",
+                "https://arxiv.org/pdf/2506.14045v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/discovering-temporal-structure-an-overview-of-hierarchical-reinforcement-learning.json",
+                "sha256": "58197fc76e1528781c31cbf12dfd7aa0cb18502abf8e8cda51ce6c3b7417e0ab"
+              },
+              "version": "2506.14045v2",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/discovering-temporal-structure-an-overview-of-hierarchical-reinforcement-learning/original.pdf",
+                "reported_sha256": "70463ca1b717e55535b7d0faa19662bf2d80e61f1716f11086671d2316058d2d",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 143,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/discovering-temporal-structure-an-overview-of-hierarchical-reinforcement-learning.json",
+                "https://arxiv.org/pdf/2506.14045v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/discovering-temporal-structure-an-overview-of-hierarchical-reinforcement-learning.json",
+                "sha256": "58197fc76e1528781c31cbf12dfd7aa0cb18502abf8e8cda51ce6c3b7417e0ab"
+              },
+              "version": "2506.14045v2",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 1",
+                  "page_1_based": 5,
+                  "caption": "Figure 1: Types of methods for temporal structure discovery. We focus on discovering\ntemporal structure autonomously from data under different assumptions.",
+                  "crop_pdf_points": [
+                    100,
+                    88,
+                    513,
+                    216
+                  ],
+                  "vector_paths": 157,
+                  "native_text_spans": 13,
+                  "raster_images": 3,
+                  "source_type": "vector/text with embedded raster components",
+                  "visually_inspected": true,
+                  "notes": "Survey overview with three rounded panels for discovery from online experience, offline datasets and foundation models. A survey taxonomy, not one novel algorithm architecture."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.082418Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "26528d52287016c60b1ea94e47f18a352b11875b56e54042447f2e65631b8e58",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/discovering-temporal-structure-an-overview-of-hierarchical-reinforcement-learning.json",
+                "https://arxiv.org/pdf/2506.14045v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/discovering-temporal-structure-an-overview-of-hierarchical-reinforcement-learning.json",
+                "sha256": "58197fc76e1528781c31cbf12dfd7aa0cb18502abf8e8cda51ce6c3b7417e0ab"
+              },
+              "version": "2506.14045v2",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Discovering Temporal Structure: An Overview of Hierarchical Reinforcement Learning",
+              "observed_title": "Discovering Temporal Structure: An Overview of Hierarchical Reinforcement Learning",
+              "source_url": "https://arxiv.org/pdf/2506.14045v2",
+              "source_sha256": "70463ca1b717e55535b7d0faa19662bf2d80e61f1716f11086671d2316058d2d",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

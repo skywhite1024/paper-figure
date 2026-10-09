@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "reset-free-lifelong-learning-with-skill-space-planning",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.514201Z",
-  "updated_at": "2026-10-09T20:04:59.514201Z",
+  "updated_at": "2026-10-09T20:14:36.561346Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/reset-free-lifelong-learning-with-skill-space-planning.json",
+          "https://arxiv.org/pdf/2012.03548v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/reset-free-lifelong-learning-with-skill-space-planning.json",
+          "sha256": "5c1196070499ee76824789e68fbc822dff0900e0a873216f48014c03ac726687"
+        },
+        "version": "2012.03548v3",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "Reset-Free Lifelong Learning with Skill-Space Planning",
+        "observed_title": "Reset-Free Lifelong Learning with Skill-Space Planning",
+        "source_url": "https://arxiv.org/pdf/2012.03548v3",
+        "source_sha256": "3d286be5f048686dc54ac73a862d3c3ff83830bffc1ca03036801c13e8833c37",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/reset-free-lifelong-learning-with-skill-space-planning.json",
+          "https://arxiv.org/pdf/2012.03548v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/reset-free-lifelong-learning-with-skill-space-planning.json",
+          "sha256": "5c1196070499ee76824789e68fbc822dff0900e0a873216f48014c03ac726687"
+        },
+        "version": "2012.03548v3",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/reset-free-lifelong-learning-with-skill-space-planning.pdf",
+          "reported_sha256": "3d286be5f048686dc54ac73a862d3c3ff83830bffc1ca03036801c13e8833c37",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 20,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.090628Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "46161b616867eba40eeb145c3b672a65c3ac2404a52b163b272ce8dda8bad418",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/reset-free-lifelong-learning-with-skill-space-planning.json",
+                "https://arxiv.org/pdf/2012.03548v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/reset-free-lifelong-learning-with-skill-space-planning.json",
+                "sha256": "5c1196070499ee76824789e68fbc822dff0900e0a873216f48014c03ac726687"
+              },
+              "version": "2012.03548v3",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Reset-Free Lifelong Learning with Skill-Space Planning",
+              "observed_title": "Reset-Free Lifelong Learning with Skill-Space Planning",
+              "source_url": "https://arxiv.org/pdf/2012.03548v3",
+              "source_sha256": "3d286be5f048686dc54ac73a862d3c3ff83830bffc1ca03036801c13e8833c37",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/reset-free-lifelong-learning-with-skill-space-planning.json",
+                "https://arxiv.org/pdf/2012.03548v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/reset-free-lifelong-learning-with-skill-space-planning.json",
+                "sha256": "5c1196070499ee76824789e68fbc822dff0900e0a873216f48014c03ac726687"
+              },
+              "version": "2012.03548v3",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/reset-free-lifelong-learning-with-skill-space-planning.pdf",
+                "reported_sha256": "3d286be5f048686dc54ac73a862d3c3ff83830bffc1ca03036801c13e8833c37",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 20,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.561346Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "c44984c9b3716aa14e54e23e0106cd54b856a2dc87cb2054827a74636c4d4458",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/reset-free-lifelong-learning-with-skill-space-planning.json",
+                "https://arxiv.org/pdf/2012.03548v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/reset-free-lifelong-learning-with-skill-space-planning.json",
+                "sha256": "5c1196070499ee76824789e68fbc822dff0900e0a873216f48014c03ac726687"
+              },
+              "version": "2012.03548v3",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "Reset-Free Lifelong Learning with Skill-Space Planning",
+              "observed_title": "Reset-Free Lifelong Learning with Skill-Space Planning",
+              "source_url": "https://arxiv.org/pdf/2012.03548v3",
+              "source_sha256": "3d286be5f048686dc54ac73a862d3c3ff83830bffc1ca03036801c13e8833c37",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

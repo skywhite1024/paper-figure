@@ -1,0 +1,41 @@
+{
+  "diagram_id": "constrained-skill-figure-2",
+  "source_scene_sha256": "1f49bcf8628d83054c192ac0ca4c4ca01a20cddbba88569e3cc5b49c2407fc74",
+  "source_pdf_sha256": "1c580c84287b0df7a15fe502239c50e18e31ecd89f8708d680b508bf03a2919f",
+  "checked_files": [
+    {
+      "name": "constrained-skill-figure-2.drawio",
+      "sha256": "45b9b0edef62a18823669dbfcb0a413de6d0d2bf7720c3bca5664d146eba5354"
+    },
+    {
+      "name": "constrained-skill-figure-2.png",
+      "sha256": "694dcbda3ac449b0176c1c65fb61095ba7fc7b7e1b38af3d89f341d6dd2d7b96"
+    },
+    {
+      "name": "constrained-skill-figure-2.pptx",
+      "sha256": "5790a7bff6a4577484926493bbf22004d4df8a6c627762c8909f08db9faf570e"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 2 PDFpage4 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source blocks/arrows/graphs preserved",
+    "labels": "ordinary text and formulas legible; no clipping or collisions",
+    "native_editability": "all source figure content native objects, no raster screenshot",
+    "drawio": "XML/stencils checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 105,
+    "p:pic": 0,
+    "a:custGeom": 91,
+    "p:cxnSp": 0,
+    "a:t": 14
+  },
+  "limitations": [
+    "Math glyphs are editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

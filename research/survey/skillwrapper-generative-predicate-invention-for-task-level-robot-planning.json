@@ -1,0 +1,49 @@
+{
+  "catalog_index": 117,
+  "catalog_id": "skillwrapper-generative-predicate-invention-for-task-level-robot-planning",
+  "title_expected": "SkillWrapper: Generative Predicate Invention for Task-Level Robot Planning",
+  "source_url": "https://arxiv.org/pdf/2511.18203v8",
+  "pdf_path": "build/sources/skillwrapper-generative-predicate-invention-for-task-level-robot-planning.pdf",
+  "pdf_sha256": "f6d5eb946af1ddcbd7db2f7509f0493cd595172bd16891e0118fe8a62bc55c5a",
+  "pdf_title_observed": "SkillWrapper: Generative Predicate Invention for Task-level Robot Planning",
+  "first_page_title_text": "SkillWrapper: Generative Predicate Invention for\nTask-level Robot Planning\nZiyi Yang1, Benned Hedegaard1, Ahmed Jaafar1*, Yichen Wei1*, Skye Thompson1, Shreyas Raman1,\nHaotian Fu1, Stefanie Tellex1, George Konidaris1, David Paulius1, Naman Shah12†\n1Brown University\n2Allen Institute for AI\nAbstract\nGeneralizing from individual skill executions to long-horizon tasks is a core chal-\nlenge in building",
+  "title_match": true,
+  "version": "2511.18203v8",
+  "page_count": 66,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1: Overview of SkillWrapper. For a robot equipped with black-box skills, SkillWrapper learns a task-level model M that is compatible with off-the-shelf classical AI planners. Given a planning problem specified by low-level initial and goal states, the system computes the corresponding abstract states, then calls a planner to find a solution plan to reach the goal. code (Liang et al., 2025) or filling a pool of candidate predicates during h",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 2: Example of Predicate Invention. The initial states of the two transitions both satisfy the preconditions of certain operators of the Stack skill, while one transition is successful, but the other is not. In this case, condition 1 is triggered, and the FM is prompted to generate a new predicate. the fact that the two transitions may involve different object arguments (e.g., oi and oj): ∃⟨si, ω(oi), s′ i⟩, ⟨sj, ω(oj), s′ j⟩∈Dω s.t. s′ i ∈",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 3: Skill Planning Problem in Different Domains. level error and its average conditional error across K episodes as ℓM(τ) := 1 \b s ∈Iω ⊖Φω ∨s′ ∈βω ⊖Ξω \t , dcompl,K(M, M∗) := 1 K K X r=1 E \" 1 n n X t=1 ℓM(τr,t) \f\f\f\f\f D1:r−1 # . where ⊖denotes symmetric difference. We first establish the corresponding single-episode bound in Lemma 2 (Appendix C), and use it below to characterize convergence across episodes. Theorem 2 (Asymptotic Convergence ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 4: Example predicate truth values during a sequence of bimanual robot skill executions. multiple learning iterations. Figure 4 depicts an example sequence of predicate truth value changes induced by a skill sequence. As shown in Figure 5, SkillWrapper improves in performance as it collects additional data and invents new predicates, surpassing all baselines within five iterations. Discussion SkillWrapper performs competitively with the Exp",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 5: Bimanual manipulation results (n = 3). Qualitatively, we observe that predicate inven- tion is primarily driven by preconditions (Eq. 1), because any individual skill effect is typically necessary to represent only when another skill’s precondition depends on it. Effect-driven predi- cate invention (Eq. 2) is the necessary secondary mechanism for terminal skills without down- stream dependents; without it, tasks like spread- ing peanut ",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

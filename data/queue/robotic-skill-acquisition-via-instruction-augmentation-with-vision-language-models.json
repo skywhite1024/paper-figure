@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "robotic-skill-acquisition-via-instruction-augmentation-with-vision-language-models",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.482333Z",
-  "updated_at": "2026-10-09T20:04:59.482333Z",
+  "updated_at": "2026-10-09T20:14:36.651749Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,102 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/robotic-skill-acquisition-via-instruction-augmentation-with-vision-language-models.json",
+          "https://arxiv.org/pdf/2211.11736v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/robotic-skill-acquisition-via-instruction-augmentation-with-vision-language-models.json",
+          "sha256": "e3730b12b11d9d1215d07ece3d1d96bd6ad8ca2c57f455f4e92364e86b3f5a12"
+        },
+        "version": "2211.11736v3",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Robotic Skill Acquisition via Instruction Augmentation with Vision-Language Models",
+        "observed_title": "Robotic Skill Acquisition via Instruction Augmentation with Vision-Language Models",
+        "source_url": "https://arxiv.org/pdf/2211.11736v3",
+        "source_sha256": "d8646a36949afe39e336a1142b501bbccc300f3321510b61b98549827f5027fc",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/robotic-skill-acquisition-via-instruction-augmentation-with-vision-language-models.json",
+          "https://arxiv.org/pdf/2211.11736v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/robotic-skill-acquisition-via-instruction-augmentation-with-vision-language-models.json",
+          "sha256": "e3730b12b11d9d1215d07ece3d1d96bd6ad8ca2c57f455f4e92364e86b3f5a12"
+        },
+        "version": "2211.11736v3",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/robotic-skill-acquisition-via-instruction-augmentation-with-vision-language-models.pdf",
+          "reported_sha256": "d8646a36949afe39e336a1142b501bbccc300f3321510b61b98549827f5027fc",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 17,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/robotic-skill-acquisition-via-instruction-augmentation-with-vision-language-models.json",
+          "https://arxiv.org/pdf/2211.11736v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/robotic-skill-acquisition-via-instruction-augmentation-with-vision-language-models.json",
+          "sha256": "e3730b12b11d9d1215d07ece3d1d96bd6ad8ca2c57f455f4e92364e86b3f5a12"
+        },
+        "version": "2211.11736v3",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 1",
+            "page_1_based": 1,
+            "caption": "DIAL training and inference framework.",
+            "crop_pdf_points": [
+              62,
+              186,
+              553,
+              466
+            ],
+            "vector_paths": 211,
+            "native_text_spans": 92,
+            "raster_images": 18,
+            "visually_inspected": true,
+            "notes": "Three training stages plus inference panel; native labels/panels if extractable, raster tabletop photographs retained."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +145,152 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.174670Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "efafc5b69763e33d87d1e768b9862b42e5368ae0a844fe58bf95f1e9c710b301",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/robotic-skill-acquisition-via-instruction-augmentation-with-vision-language-models.json",
+                "https://arxiv.org/pdf/2211.11736v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/robotic-skill-acquisition-via-instruction-augmentation-with-vision-language-models.json",
+                "sha256": "e3730b12b11d9d1215d07ece3d1d96bd6ad8ca2c57f455f4e92364e86b3f5a12"
+              },
+              "version": "2211.11736v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Robotic Skill Acquisition via Instruction Augmentation with Vision-Language Models",
+              "observed_title": "Robotic Skill Acquisition via Instruction Augmentation with Vision-Language Models",
+              "source_url": "https://arxiv.org/pdf/2211.11736v3",
+              "source_sha256": "d8646a36949afe39e336a1142b501bbccc300f3321510b61b98549827f5027fc",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/robotic-skill-acquisition-via-instruction-augmentation-with-vision-language-models.json",
+                "https://arxiv.org/pdf/2211.11736v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/robotic-skill-acquisition-via-instruction-augmentation-with-vision-language-models.json",
+                "sha256": "e3730b12b11d9d1215d07ece3d1d96bd6ad8ca2c57f455f4e92364e86b3f5a12"
+              },
+              "version": "2211.11736v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/robotic-skill-acquisition-via-instruction-augmentation-with-vision-language-models.pdf",
+                "reported_sha256": "d8646a36949afe39e336a1142b501bbccc300f3321510b61b98549827f5027fc",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 17,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/robotic-skill-acquisition-via-instruction-augmentation-with-vision-language-models.json",
+                "https://arxiv.org/pdf/2211.11736v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/robotic-skill-acquisition-via-instruction-augmentation-with-vision-language-models.json",
+                "sha256": "e3730b12b11d9d1215d07ece3d1d96bd6ad8ca2c57f455f4e92364e86b3f5a12"
+              },
+              "version": "2211.11736v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 1",
+                  "page_1_based": 1,
+                  "caption": "DIAL training and inference framework.",
+                  "crop_pdf_points": [
+                    62,
+                    186,
+                    553,
+                    466
+                  ],
+                  "vector_paths": 211,
+                  "native_text_spans": 92,
+                  "raster_images": 18,
+                  "visually_inspected": true,
+                  "notes": "Three training stages plus inference panel; native labels/panels if extractable, raster tabletop photographs retained."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.651749Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "93303dd81afc8b25148ba0c0659c2f379b8de181c7ea128321218e1e916c03c4",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/robotic-skill-acquisition-via-instruction-augmentation-with-vision-language-models.json",
+                "https://arxiv.org/pdf/2211.11736v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/robotic-skill-acquisition-via-instruction-augmentation-with-vision-language-models.json",
+                "sha256": "e3730b12b11d9d1215d07ece3d1d96bd6ad8ca2c57f455f4e92364e86b3f5a12"
+              },
+              "version": "2211.11736v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Robotic Skill Acquisition via Instruction Augmentation with Vision-Language Models",
+              "observed_title": "Robotic Skill Acquisition via Instruction Augmentation with Vision-Language Models",
+              "source_url": "https://arxiv.org/pdf/2211.11736v3",
+              "source_sha256": "d8646a36949afe39e336a1142b501bbccc300f3321510b61b98549827f5027fc",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

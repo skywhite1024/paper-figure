@@ -1,0 +1,41 @@
+{
+  "diagram_id": "ugl-figure-7",
+  "source_scene_sha256": "308887b6f1ca085157f5436251e6d9916d1ccbbe3f40f64b1b4c512c246312fe",
+  "source_pdf_sha256": "f972160f7b25e2e646db98cbd719aa36d85445eedd67445fb35d582ce8098917",
+  "checked_files": [
+    {
+      "name": "ugl-figure-7.drawio",
+      "sha256": "58ee9706c93a8320bb61b0f5770779ee14554c40f185a5187c060ee61679f925"
+    },
+    {
+      "name": "ugl-figure-7.png",
+      "sha256": "3890b4e75ffe4aa23e7339961b528934c857f27d50adcf77077342f768353fb6"
+    },
+    {
+      "name": "ugl-figure-7.pptx",
+      "sha256": "1757e45b5b40da481b2d93780c05e3795894d3d9db43de337a976098feeae4f2"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX rendering passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 7 PDFpage24 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source regions, detailed connections and labels retained",
+    "labels": "legible with no clipping or missing formulas",
+    "native_editability": "all-native figure objects; no raster screenshot",
+    "drawio": "XML/stencils only; app rendering unavailable because isolated Xvfb cannot create local sockets"
+  },
+  "native_xml_counts": {
+    "p:sp": 966,
+    "p:pic": 0,
+    "a:custGeom": 944,
+    "p:cxnSp": 0,
+    "a:t": 22
+  },
+  "limitations": [
+    "Some formulas/Type3 glyphs are outline paths rather than live text",
+    "Source dash cadence and thin-line anti-aliasing vary by editor",
+    "Freeform paths lack semantic endpoint attachment"
+  ]
+}

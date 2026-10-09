@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "uniskill-imitating-human-videos-via-cross-embodiment-skill-representations",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.485768Z",
-  "updated_at": "2026-10-09T20:04:59.485768Z",
+  "updated_at": "2026-10-09T20:14:36.820430Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,102 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/uniskill-imitating-human-videos-via-cross-embodiment-skill-representations.json",
+          "https://arxiv.org/pdf/2505.08787v4"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/uniskill-imitating-human-videos-via-cross-embodiment-skill-representations.json",
+          "sha256": "d9afc7b3adccffaea0e49b8b01d658b833da1f6b1092c99b6d547e4d69d7ff7f"
+        },
+        "version": "2505.08787v4",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "UniSkill: Imitating Human Videos via Cross-Embodiment Skill Representations",
+        "observed_title": "UniSkill: Imitating Human Videos via Cross-Embodiment Skill Representations",
+        "source_url": "https://arxiv.org/pdf/2505.08787v4",
+        "source_sha256": "4446f50c7995807a7dfa139e8d90fbc244966d232a56e44e2c838940fba85efb",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/uniskill-imitating-human-videos-via-cross-embodiment-skill-representations.json",
+          "https://arxiv.org/pdf/2505.08787v4"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/uniskill-imitating-human-videos-via-cross-embodiment-skill-representations.json",
+          "sha256": "d9afc7b3adccffaea0e49b8b01d658b833da1f6b1092c99b6d547e4d69d7ff7f"
+        },
+        "version": "2505.08787v4",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/uniskill-imitating-human-videos-via-cross-embodiment-skill-representations.pdf",
+          "reported_sha256": "4446f50c7995807a7dfa139e8d90fbc244966d232a56e44e2c838940fba85efb",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 26,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/uniskill-imitating-human-videos-via-cross-embodiment-skill-representations.json",
+          "https://arxiv.org/pdf/2505.08787v4"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/uniskill-imitating-human-videos-via-cross-embodiment-skill-representations.json",
+          "sha256": "d9afc7b3adccffaea0e49b8b01d658b833da1f6b1092c99b6d547e4d69d7ff7f"
+        },
+        "version": "2505.08787v4",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 3,
+            "caption": "Overview of UniSkill.",
+            "crop_pdf_points": [
+              108,
+              73,
+              504,
+              235
+            ],
+            "vector_paths": 140,
+            "native_text_spans": 0,
+            "raster_images": 51,
+            "visually_inspected": true,
+            "notes": "Three-panel skill representation learning, skill-conditioned policy learning, inference. Native objects and raster robot frames must be separated."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +145,152 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.340642Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "c6b461c37132f47d0f094a5c93fed1f9fe1fbbcdfa6809d90186c0577d629431",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/uniskill-imitating-human-videos-via-cross-embodiment-skill-representations.json",
+                "https://arxiv.org/pdf/2505.08787v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/uniskill-imitating-human-videos-via-cross-embodiment-skill-representations.json",
+                "sha256": "d9afc7b3adccffaea0e49b8b01d658b833da1f6b1092c99b6d547e4d69d7ff7f"
+              },
+              "version": "2505.08787v4",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "UniSkill: Imitating Human Videos via Cross-Embodiment Skill Representations",
+              "observed_title": "UniSkill: Imitating Human Videos via Cross-Embodiment Skill Representations",
+              "source_url": "https://arxiv.org/pdf/2505.08787v4",
+              "source_sha256": "4446f50c7995807a7dfa139e8d90fbc244966d232a56e44e2c838940fba85efb",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/uniskill-imitating-human-videos-via-cross-embodiment-skill-representations.json",
+                "https://arxiv.org/pdf/2505.08787v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/uniskill-imitating-human-videos-via-cross-embodiment-skill-representations.json",
+                "sha256": "d9afc7b3adccffaea0e49b8b01d658b833da1f6b1092c99b6d547e4d69d7ff7f"
+              },
+              "version": "2505.08787v4",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/uniskill-imitating-human-videos-via-cross-embodiment-skill-representations.pdf",
+                "reported_sha256": "4446f50c7995807a7dfa139e8d90fbc244966d232a56e44e2c838940fba85efb",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 26,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/uniskill-imitating-human-videos-via-cross-embodiment-skill-representations.json",
+                "https://arxiv.org/pdf/2505.08787v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/uniskill-imitating-human-videos-via-cross-embodiment-skill-representations.json",
+                "sha256": "d9afc7b3adccffaea0e49b8b01d658b833da1f6b1092c99b6d547e4d69d7ff7f"
+              },
+              "version": "2505.08787v4",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 3,
+                  "caption": "Overview of UniSkill.",
+                  "crop_pdf_points": [
+                    108,
+                    73,
+                    504,
+                    235
+                  ],
+                  "vector_paths": 140,
+                  "native_text_spans": 0,
+                  "raster_images": 51,
+                  "visually_inspected": true,
+                  "notes": "Three-panel skill representation learning, skill-conditioned policy learning, inference. Native objects and raster robot frames must be separated."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.820430Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "df6c69bbf2014c78c1494771b235592b667ac61b777ccc2012163f3432655435",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/uniskill-imitating-human-videos-via-cross-embodiment-skill-representations.json",
+                "https://arxiv.org/pdf/2505.08787v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/uniskill-imitating-human-videos-via-cross-embodiment-skill-representations.json",
+                "sha256": "d9afc7b3adccffaea0e49b8b01d658b833da1f6b1092c99b6d547e4d69d7ff7f"
+              },
+              "version": "2505.08787v4",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "UniSkill: Imitating Human Videos via Cross-Embodiment Skill Representations",
+              "observed_title": "UniSkill: Imitating Human Videos via Cross-Embodiment Skill Representations",
+              "source_url": "https://arxiv.org/pdf/2505.08787v4",
+              "source_sha256": "4446f50c7995807a7dfa139e8d90fbc244966d232a56e44e2c838940fba85efb",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

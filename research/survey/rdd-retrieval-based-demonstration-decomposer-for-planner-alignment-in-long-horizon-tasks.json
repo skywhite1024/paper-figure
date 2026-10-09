@@ -1,0 +1,60 @@
+{
+  "catalog_index": 64,
+  "catalog_id": "rdd-retrieval-based-demonstration-decomposer-for-planner-alignment-in-long-horizon-tasks",
+  "title_expected": "RDD: Retrieval-Based Demonstration Decomposer for Planner Alignment in Long-Horizon Tasks",
+  "source_url": "https://arxiv.org/pdf/2510.14968v1",
+  "pdf_path": "build/sources/rdd-retrieval-based-demonstration-decomposer-for-planner-alignment-in-long-horizon-tasks.pdf",
+  "pdf_sha256": "f3e2f02817b13118305ca649ff31713bc04d1c6be4374ebb104acaca4156daf3",
+  "pdf_title_observed": "RDD: Retrieval-Based Demonstration Decomposer for Planner Alignment in Long-Horizon Tasks",
+  "first_page_title_text": "RDD: Retrieval-Based Demonstration Decomposer for\nPlanner Alignment in Long-Horizon Tasks\nMingxuan Yan1\nYuping Wang1,2\nZechun Liu3\nJiachen Li1∗\n1University of California, Riverside\n2University of Michigan\n3Meta AI\n{myan035, yuping.wang, jiachen.li}@ucr.edu\nzechunliu@meta.com\nAbstract\nTo tackle long-horizon tasks, recent hierarchical vision-language-action (VLAs)\nframeworks employ vision-language m",
+  "title_match": true,
+  "version": "2510.14968v1",
+  "page_count": 19,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "RDD optimal-partition demonstration decomposition.",
+      "crop_pdf_points": [
+        122,
+        69,
+        482,
+        274
+      ],
+      "vector_paths": 33,
+      "native_text_spans": 11,
+      "raster_images": 40,
+      "visually_inspected": true,
+      "notes": "Algorithm architecture with projected frame sequences, embedding comparisons, retrieval and dynamic programming. Preserve rotated/italic equations carefully."
+    }
+  ],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1: The core idea of RDD. (a) Two sub-tasks appear in the visuomotor policy’s training set, on which the policy has been optimized. (b) Existing sub-task decomposers, such as UVD [25], use heuristic decomposition rules and may generate “unfamiliar” sub-tasks that are difficult to handle for the low-level visuomotor policy. (c) In contrast, RDD decomposes the demonstration into sub-tasks that are visually similar to the ones in the training ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 2: Pi∗= arg max P∈Π(Si) J(P), (3.1) 3 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 2: RDD formulates demonstration decomposition as an optimal partitioning problem. Intervals colored in green are proposed segments of the demonstration Si, and ones colored in blue are retrieved from the visuomotor policy’s training set Dtrain aug . where J(P) is the partitioning strategy scoring function defined on P that evaluates how close the strategy is to the low-level visuomotor policy’s training dataset Dtrain aug . Given the parti",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 3: Linear scaling of running time of Algorithm 1 with Lmax. Decompose with VLMs: VLMs pretrained on internet-scale data are promising to process a variety of video understanding tasks. In Table 7, we compared RDD with a Gemini-2.5-pro [42]- based decomposer with the following prompt: There is a robot doing a task, which can be segmented into mul- tiple steps. A keyframe is where the robot finishes the previous step and begins the next. Can",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+}

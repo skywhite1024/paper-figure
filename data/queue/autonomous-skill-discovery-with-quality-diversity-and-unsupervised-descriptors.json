@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "autonomous-skill-discovery-with-quality-diversity-and-unsupervised-descriptors",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.472546Z",
-  "updated_at": "2026-10-09T20:04:59.472546Z",
+  "updated_at": "2026-10-09T20:14:35.913898Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,103 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/autonomous-skill-discovery-with-quality-diversity-and-unsupervised-descriptors.json",
+          "https://arxiv.org/pdf/1905.11874v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/autonomous-skill-discovery-with-quality-diversity-and-unsupervised-descriptors.json",
+          "sha256": "4d0505a16cbf4f05a1554cf204a852c9d2bbebc9e5fb4fc0ed4bb3742dd88d7f"
+        },
+        "version": "1905.11874v1",
+        "license_note": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "review_notes": "Catalog ACM source preserved; matching-title arXiv author preprint1905.11874 is inspected. First-page copyright allows personal/classroom copies subject to notice; broader redistribution may require permission.",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Autonomous Skill Discovery with Quality-Diversity and Unsupervised Descriptors",
+        "observed_title": "Autonomous skill discovery with Quality-Diversity and Unsupervised Descriptors",
+        "source_url": "https://arxiv.org/pdf/1905.11874v1",
+        "source_sha256": "c20db8b8c02d74e1a128c3901177147ea81711239136a4ba32c64de3361192ac",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/autonomous-skill-discovery-with-quality-diversity-and-unsupervised-descriptors.json",
+          "https://arxiv.org/pdf/1905.11874v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/autonomous-skill-discovery-with-quality-diversity-and-unsupervised-descriptors.json",
+          "sha256": "4d0505a16cbf4f05a1554cf204a852c9d2bbebc9e5fb4fc0ed4bb3742dd88d7f"
+        },
+        "version": "1905.11874v1",
+        "license_note": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "review_notes": "Catalog ACM source preserved; matching-title arXiv author preprint1905.11874 is inspected. First-page copyright allows personal/classroom copies subject to notice; broader redistribution may require permission.",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/autonomous-skill-discovery-with-quality-diversity-and-unsupervised-descriptors/original.pdf",
+          "reported_sha256": "c20db8b8c02d74e1a128c3901177147ea81711239136a4ba32c64de3361192ac",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 9,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/autonomous-skill-discovery-with-quality-diversity-and-unsupervised-descriptors.json",
+          "https://arxiv.org/pdf/1905.11874v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/autonomous-skill-discovery-with-quality-diversity-and-unsupervised-descriptors.json",
+          "sha256": "4d0505a16cbf4f05a1554cf204a852c9d2bbebc9e5fb4fc0ed4bb3742dd88d7f"
+        },
+        "version": "1905.11874v1",
+        "license_note": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+        "review_notes": "Catalog ACM source preserved; matching-title arXiv author preprint1905.11874 is inspected. First-page copyright allows personal/classroom copies subject to notice; broader redistribution may require permission.",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 1",
+            "page_1_based": 1,
+            "caption": "Figure 1: AURORA: A quality diversity (QD) algorithm used to\ngenerate a behavioral repertoire of a robot. The behavioral de-\nscriptor used in the QD algorithm is defined by a dimensionality\nreduction algorithm (like an auto-encoder), which is trained and\nperiodically refined based on the sensory data produced by the be-\nhaviors contained in the repertoire. The resulting approach enables\nrobots to autonomously discover the range of their abilities.",
+            "crop_pdf_points": [
+              344,
+              170,
+              529,
+              320
+            ],
+            "vector_paths": 198,
+            "native_text_spans": 12,
+            "raster_images": 2,
+            "source_type": "vector/text with embedded raster components",
+            "visually_inspected": true,
+            "notes": "AURORA circular loop: repertoire, robot execution, sensory sample, dimensionality-reduction neural network, dataset and training. Dense colored repertoire points and thin gray arrows require visual QA."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +146,153 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.445090Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "97e0153a27c045269cda9ab85b0d30bfdcb66a4472d5e5a848e5544a1a3f8349",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/autonomous-skill-discovery-with-quality-diversity-and-unsupervised-descriptors.json",
+                "https://arxiv.org/pdf/1905.11874v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/autonomous-skill-discovery-with-quality-diversity-and-unsupervised-descriptors.json",
+                "sha256": "4d0505a16cbf4f05a1554cf204a852c9d2bbebc9e5fb4fc0ed4bb3742dd88d7f"
+              },
+              "version": "1905.11874v1",
+              "license_note": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+              "review_notes": "Catalog ACM source preserved; matching-title arXiv author preprint1905.11874 is inspected. First-page copyright allows personal/classroom copies subject to notice; broader redistribution may require permission.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Autonomous Skill Discovery with Quality-Diversity and Unsupervised Descriptors",
+              "observed_title": "Autonomous skill discovery with Quality-Diversity and Unsupervised Descriptors",
+              "source_url": "https://arxiv.org/pdf/1905.11874v1",
+              "source_sha256": "c20db8b8c02d74e1a128c3901177147ea81711239136a4ba32c64de3361192ac",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/autonomous-skill-discovery-with-quality-diversity-and-unsupervised-descriptors.json",
+                "https://arxiv.org/pdf/1905.11874v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/autonomous-skill-discovery-with-quality-diversity-and-unsupervised-descriptors.json",
+                "sha256": "4d0505a16cbf4f05a1554cf204a852c9d2bbebc9e5fb4fc0ed4bb3742dd88d7f"
+              },
+              "version": "1905.11874v1",
+              "license_note": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+              "review_notes": "Catalog ACM source preserved; matching-title arXiv author preprint1905.11874 is inspected. First-page copyright allows personal/classroom copies subject to notice; broader redistribution may require permission.",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/autonomous-skill-discovery-with-quality-diversity-and-unsupervised-descriptors/original.pdf",
+                "reported_sha256": "c20db8b8c02d74e1a128c3901177147ea81711239136a4ba32c64de3361192ac",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 9,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/autonomous-skill-discovery-with-quality-diversity-and-unsupervised-descriptors.json",
+                "https://arxiv.org/pdf/1905.11874v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/autonomous-skill-discovery-with-quality-diversity-and-unsupervised-descriptors.json",
+                "sha256": "4d0505a16cbf4f05a1554cf204a852c9d2bbebc9e5fb4fc0ed4bb3742dd88d7f"
+              },
+              "version": "1905.11874v1",
+              "license_note": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+              "review_notes": "Catalog ACM source preserved; matching-title arXiv author preprint1905.11874 is inspected. First-page copyright allows personal/classroom copies subject to notice; broader redistribution may require permission.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 1",
+                  "page_1_based": 1,
+                  "caption": "Figure 1: AURORA: A quality diversity (QD) algorithm used to\ngenerate a behavioral repertoire of a robot. The behavioral de-\nscriptor used in the QD algorithm is defined by a dimensionality\nreduction algorithm (like an auto-encoder), which is trained and\nperiodically refined based on the sensory data produced by the be-\nhaviors contained in the repertoire. The resulting approach enables\nrobots to autonomously discover the range of their abilities.",
+                  "crop_pdf_points": [
+                    344,
+                    170,
+                    529,
+                    320
+                  ],
+                  "vector_paths": 198,
+                  "native_text_spans": 12,
+                  "raster_images": 2,
+                  "source_type": "vector/text with embedded raster components",
+                  "visually_inspected": true,
+                  "notes": "AURORA circular loop: repertoire, robot execution, sensory sample, dimensionality-reduction neural network, dataset and training. Dense colored repertoire points and thin gray arrows require visual QA."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:35.913898Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "f44d6e4600e9c3af358701d3f7f9e90bb46839a3ffb02b80cafb1a9b463f5caf",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/autonomous-skill-discovery-with-quality-diversity-and-unsupervised-descriptors.json",
+                "https://arxiv.org/pdf/1905.11874v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/autonomous-skill-discovery-with-quality-diversity-and-unsupervised-descriptors.json",
+                "sha256": "4d0505a16cbf4f05a1554cf204a852c9d2bbebc9e5fb4fc0ed4bb3742dd88d7f"
+              },
+              "version": "1905.11874v1",
+              "license_note": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+              "review_notes": "Catalog ACM source preserved; matching-title arXiv author preprint1905.11874 is inspected. First-page copyright allows personal/classroom copies subject to notice; broader redistribution may require permission.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Autonomous Skill Discovery with Quality-Diversity and Unsupervised Descriptors",
+              "observed_title": "Autonomous skill discovery with Quality-Diversity and Unsupervised Descriptors",
+              "source_url": "https://arxiv.org/pdf/1905.11874v1",
+              "source_sha256": "c20db8b8c02d74e1a128c3901177147ea81711239136a4ba32c64de3361192ac",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

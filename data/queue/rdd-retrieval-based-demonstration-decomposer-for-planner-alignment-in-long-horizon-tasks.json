@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "rdd-retrieval-based-demonstration-decomposer-for-planner-alignment-in-long-horizon-tasks",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.484994Z",
-  "updated_at": "2026-10-09T20:04:59.484994Z",
+  "updated_at": "2026-10-09T20:14:36.537303Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,102 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/rdd-retrieval-based-demonstration-decomposer-for-planner-alignment-in-long-horizon-tasks.json",
+          "https://arxiv.org/pdf/2510.14968v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/rdd-retrieval-based-demonstration-decomposer-for-planner-alignment-in-long-horizon-tasks.json",
+          "sha256": "0c3d385a31c453b306eae8fb64e48db203a3cbf4c309be54966dccdcc211761d"
+        },
+        "version": "2510.14968v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "RDD: Retrieval-Based Demonstration Decomposer for Planner Alignment in Long-Horizon Tasks",
+        "observed_title": "RDD: Retrieval-Based Demonstration Decomposer for Planner Alignment in Long-Horizon Tasks",
+        "source_url": "https://arxiv.org/pdf/2510.14968v1",
+        "source_sha256": "f3e2f02817b13118305ca649ff31713bc04d1c6be4374ebb104acaca4156daf3",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/rdd-retrieval-based-demonstration-decomposer-for-planner-alignment-in-long-horizon-tasks.json",
+          "https://arxiv.org/pdf/2510.14968v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/rdd-retrieval-based-demonstration-decomposer-for-planner-alignment-in-long-horizon-tasks.json",
+          "sha256": "0c3d385a31c453b306eae8fb64e48db203a3cbf4c309be54966dccdcc211761d"
+        },
+        "version": "2510.14968v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/rdd-retrieval-based-demonstration-decomposer-for-planner-alignment-in-long-horizon-tasks.pdf",
+          "reported_sha256": "f3e2f02817b13118305ca649ff31713bc04d1c6be4374ebb104acaca4156daf3",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 19,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/rdd-retrieval-based-demonstration-decomposer-for-planner-alignment-in-long-horizon-tasks.json",
+          "https://arxiv.org/pdf/2510.14968v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/rdd-retrieval-based-demonstration-decomposer-for-planner-alignment-in-long-horizon-tasks.json",
+          "sha256": "0c3d385a31c453b306eae8fb64e48db203a3cbf4c309be54966dccdcc211761d"
+        },
+        "version": "2510.14968v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 4,
+            "caption": "RDD optimal-partition demonstration decomposition.",
+            "crop_pdf_points": [
+              122,
+              69,
+              482,
+              274
+            ],
+            "vector_paths": 33,
+            "native_text_spans": 11,
+            "raster_images": 40,
+            "visually_inspected": true,
+            "notes": "Algorithm architecture with projected frame sequences, embedding comparisons, retrieval and dynamic programming. Preserve rotated/italic equations carefully."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +145,152 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.072883Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "c07511c24ff063ad751f0e283197b610a04ddcedae1d00d74623278cb0f521ca",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/rdd-retrieval-based-demonstration-decomposer-for-planner-alignment-in-long-horizon-tasks.json",
+                "https://arxiv.org/pdf/2510.14968v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/rdd-retrieval-based-demonstration-decomposer-for-planner-alignment-in-long-horizon-tasks.json",
+                "sha256": "0c3d385a31c453b306eae8fb64e48db203a3cbf4c309be54966dccdcc211761d"
+              },
+              "version": "2510.14968v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "RDD: Retrieval-Based Demonstration Decomposer for Planner Alignment in Long-Horizon Tasks",
+              "observed_title": "RDD: Retrieval-Based Demonstration Decomposer for Planner Alignment in Long-Horizon Tasks",
+              "source_url": "https://arxiv.org/pdf/2510.14968v1",
+              "source_sha256": "f3e2f02817b13118305ca649ff31713bc04d1c6be4374ebb104acaca4156daf3",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/rdd-retrieval-based-demonstration-decomposer-for-planner-alignment-in-long-horizon-tasks.json",
+                "https://arxiv.org/pdf/2510.14968v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/rdd-retrieval-based-demonstration-decomposer-for-planner-alignment-in-long-horizon-tasks.json",
+                "sha256": "0c3d385a31c453b306eae8fb64e48db203a3cbf4c309be54966dccdcc211761d"
+              },
+              "version": "2510.14968v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/rdd-retrieval-based-demonstration-decomposer-for-planner-alignment-in-long-horizon-tasks.pdf",
+                "reported_sha256": "f3e2f02817b13118305ca649ff31713bc04d1c6be4374ebb104acaca4156daf3",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 19,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/rdd-retrieval-based-demonstration-decomposer-for-planner-alignment-in-long-horizon-tasks.json",
+                "https://arxiv.org/pdf/2510.14968v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/rdd-retrieval-based-demonstration-decomposer-for-planner-alignment-in-long-horizon-tasks.json",
+                "sha256": "0c3d385a31c453b306eae8fb64e48db203a3cbf4c309be54966dccdcc211761d"
+              },
+              "version": "2510.14968v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 4,
+                  "caption": "RDD optimal-partition demonstration decomposition.",
+                  "crop_pdf_points": [
+                    122,
+                    69,
+                    482,
+                    274
+                  ],
+                  "vector_paths": 33,
+                  "native_text_spans": 11,
+                  "raster_images": 40,
+                  "visually_inspected": true,
+                  "notes": "Algorithm architecture with projected frame sequences, embedding comparisons, retrieval and dynamic programming. Preserve rotated/italic equations carefully."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.537303Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "96408faad3b29d5a2f64f86da7d255b6bbda70cbfdd8b7fbabaeebc34a8002b4",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/rdd-retrieval-based-demonstration-decomposer-for-planner-alignment-in-long-horizon-tasks.json",
+                "https://arxiv.org/pdf/2510.14968v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/rdd-retrieval-based-demonstration-decomposer-for-planner-alignment-in-long-horizon-tasks.json",
+                "sha256": "0c3d385a31c453b306eae8fb64e48db203a3cbf4c309be54966dccdcc211761d"
+              },
+              "version": "2510.14968v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "RDD: Retrieval-Based Demonstration Decomposer for Planner Alignment in Long-Horizon Tasks",
+              "observed_title": "RDD: Retrieval-Based Demonstration Decomposer for Planner Alignment in Long-Horizon Tasks",
+              "source_url": "https://arxiv.org/pdf/2510.14968v1",
+              "source_sha256": "f3e2f02817b13118305ca649ff31713bc04d1c6be4374ebb104acaca4156daf3",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "learning-parameterized-skills-from-demonstrations-deps",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.484688Z",
-  "updated_at": "2026-10-09T20:04:59.484688Z",
+  "updated_at": "2026-10-09T20:14:36.346890Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,101 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/learning-parameterized-skills-from-demonstrations-deps.json",
+          "https://arxiv.org/pdf/2510.24095v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/learning-parameterized-skills-from-demonstrations-deps.json",
+          "sha256": "fae41770c545cd3b098d1952fbe35cf845a5c2f979f1716efddcc12a3c441b8d"
+        },
+        "version": "2510.24095v1",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "Learning Parameterized Skills from Demonstrations (DEPS)",
+        "observed_title": "Learning Parameterized Skills from Demonstrations",
+        "source_url": "https://arxiv.org/pdf/2510.24095v1",
+        "source_sha256": "75a8a81107ea891a654e5d5a646205f25598bc8eba8a8740e97f0eb42d61d8b0",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/learning-parameterized-skills-from-demonstrations-deps.json",
+          "https://arxiv.org/pdf/2510.24095v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/learning-parameterized-skills-from-demonstrations-deps.json",
+          "sha256": "fae41770c545cd3b098d1952fbe35cf845a5c2f979f1716efddcc12a3c441b8d"
+        },
+        "version": "2510.24095v1",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/learning-parameterized-skills-from-demonstrations-deps.pdf",
+          "reported_sha256": "75a8a81107ea891a654e5d5a646205f25598bc8eba8a8740e97f0eb42d61d8b0",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 26,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/learning-parameterized-skills-from-demonstrations-deps.json",
+          "https://arxiv.org/pdf/2510.24095v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/learning-parameterized-skills-from-demonstrations-deps.json",
+          "sha256": "fae41770c545cd3b098d1952fbe35cf845a5c2f979f1716efddcc12a3c441b8d"
+        },
+        "version": "2510.24095v1",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 1",
+            "page_1_based": 2,
+            "caption": "Three-level hierarchy of DEPS.",
+            "crop_pdf_points": [
+              297,
+              75,
+              502,
+              185
+            ],
+            "vector_paths": 20,
+            "native_text_spans": 6,
+            "raster_images": 6,
+            "visually_inspected": true,
+            "notes": "Discrete skill policy, continuous parameter policy, low-level action policy; environment-state compressed input and manifold illustrations."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +144,150 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.887494Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "f966c9c1846f0261854c930f56e79f19e2a2faa9d4fde0a60d44312c2eff858c",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/learning-parameterized-skills-from-demonstrations-deps.json",
+                "https://arxiv.org/pdf/2510.24095v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/learning-parameterized-skills-from-demonstrations-deps.json",
+                "sha256": "fae41770c545cd3b098d1952fbe35cf845a5c2f979f1716efddcc12a3c441b8d"
+              },
+              "version": "2510.24095v1",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "Learning Parameterized Skills from Demonstrations (DEPS)",
+              "observed_title": "Learning Parameterized Skills from Demonstrations",
+              "source_url": "https://arxiv.org/pdf/2510.24095v1",
+              "source_sha256": "75a8a81107ea891a654e5d5a646205f25598bc8eba8a8740e97f0eb42d61d8b0",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/learning-parameterized-skills-from-demonstrations-deps.json",
+                "https://arxiv.org/pdf/2510.24095v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/learning-parameterized-skills-from-demonstrations-deps.json",
+                "sha256": "fae41770c545cd3b098d1952fbe35cf845a5c2f979f1716efddcc12a3c441b8d"
+              },
+              "version": "2510.24095v1",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/learning-parameterized-skills-from-demonstrations-deps.pdf",
+                "reported_sha256": "75a8a81107ea891a654e5d5a646205f25598bc8eba8a8740e97f0eb42d61d8b0",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 26,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/learning-parameterized-skills-from-demonstrations-deps.json",
+                "https://arxiv.org/pdf/2510.24095v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/learning-parameterized-skills-from-demonstrations-deps.json",
+                "sha256": "fae41770c545cd3b098d1952fbe35cf845a5c2f979f1716efddcc12a3c441b8d"
+              },
+              "version": "2510.24095v1",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 1",
+                  "page_1_based": 2,
+                  "caption": "Three-level hierarchy of DEPS.",
+                  "crop_pdf_points": [
+                    297,
+                    75,
+                    502,
+                    185
+                  ],
+                  "vector_paths": 20,
+                  "native_text_spans": 6,
+                  "raster_images": 6,
+                  "visually_inspected": true,
+                  "notes": "Discrete skill policy, continuous parameter policy, low-level action policy; environment-state compressed input and manifold illustrations."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.346890Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "9b89ef747ff9928ddb23c0d77fcc856ff6680107e2b55fe67e59b45112fd21db",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/learning-parameterized-skills-from-demonstrations-deps.json",
+                "https://arxiv.org/pdf/2510.24095v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/learning-parameterized-skills-from-demonstrations-deps.json",
+                "sha256": "fae41770c545cd3b098d1952fbe35cf845a5c2f979f1716efddcc12a3c441b8d"
+              },
+              "version": "2510.24095v1",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "Learning Parameterized Skills from Demonstrations (DEPS)",
+              "observed_title": "Learning Parameterized Skills from Demonstrations",
+              "source_url": "https://arxiv.org/pdf/2510.24095v1",
+              "source_sha256": "75a8a81107ea891a654e5d5a646205f25598bc8eba8a8740e97f0eb42d61d8b0",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

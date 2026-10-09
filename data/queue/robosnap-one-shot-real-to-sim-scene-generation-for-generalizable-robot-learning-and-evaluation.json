@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "robosnap-one-shot-real-to-sim-scene-generation-for-generalizable-robot-learning-and-evaluation",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.492241Z",
-  "updated_at": "2026-10-09T20:04:59.492241Z",
+  "updated_at": "2026-10-09T20:14:36.638823Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/robosnap-one-shot-real-to-sim-scene-generation-for-generalizable-robot-learning-and-evaluation.json",
+          "https://arxiv.org/pdf/2607.06699v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/robosnap-one-shot-real-to-sim-scene-generation-for-generalizable-robot-learning-and-evaluation.json",
+          "sha256": "42d206c4dec3da4f753f510b96ebdeec2f29749c83974858f5d7da88468c7ec1"
+        },
+        "version": "2607.06699v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "RoboSnap: One-Shot Real-to-Sim Scene Generation for Generalizable Robot Learning and Evaluation",
+        "observed_title": "RoboSnap: One-Shot Real-to-Sim Scene Generation for Generalizable Robot Learning and Evaluation",
+        "source_url": "https://arxiv.org/pdf/2607.06699v1",
+        "source_sha256": "62ab8556acff89b6af105d3b6340f35a59f789dad1af99733ef80dacd558b9d5",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/robosnap-one-shot-real-to-sim-scene-generation-for-generalizable-robot-learning-and-evaluation.json",
+          "https://arxiv.org/pdf/2607.06699v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/robosnap-one-shot-real-to-sim-scene-generation-for-generalizable-robot-learning-and-evaluation.json",
+          "sha256": "42d206c4dec3da4f753f510b96ebdeec2f29749c83974858f5d7da88468c7ec1"
+        },
+        "version": "2607.06699v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/robosnap-one-shot-real-to-sim-scene-generation-for-generalizable-robot-learning-and-evaluation.pdf",
+          "reported_sha256": "62ab8556acff89b6af105d3b6340f35a59f789dad1af99733ef80dacd558b9d5",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 24,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.161901Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "dcae08571b41c45b7018cca9d31a8dac0ea9ae56523f94fd692b1a3ada4e61b4",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/robosnap-one-shot-real-to-sim-scene-generation-for-generalizable-robot-learning-and-evaluation.json",
+                "https://arxiv.org/pdf/2607.06699v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/robosnap-one-shot-real-to-sim-scene-generation-for-generalizable-robot-learning-and-evaluation.json",
+                "sha256": "42d206c4dec3da4f753f510b96ebdeec2f29749c83974858f5d7da88468c7ec1"
+              },
+              "version": "2607.06699v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "RoboSnap: One-Shot Real-to-Sim Scene Generation for Generalizable Robot Learning and Evaluation",
+              "observed_title": "RoboSnap: One-Shot Real-to-Sim Scene Generation for Generalizable Robot Learning and Evaluation",
+              "source_url": "https://arxiv.org/pdf/2607.06699v1",
+              "source_sha256": "62ab8556acff89b6af105d3b6340f35a59f789dad1af99733ef80dacd558b9d5",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/robosnap-one-shot-real-to-sim-scene-generation-for-generalizable-robot-learning-and-evaluation.json",
+                "https://arxiv.org/pdf/2607.06699v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/robosnap-one-shot-real-to-sim-scene-generation-for-generalizable-robot-learning-and-evaluation.json",
+                "sha256": "42d206c4dec3da4f753f510b96ebdeec2f29749c83974858f5d7da88468c7ec1"
+              },
+              "version": "2607.06699v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/robosnap-one-shot-real-to-sim-scene-generation-for-generalizable-robot-learning-and-evaluation.pdf",
+                "reported_sha256": "62ab8556acff89b6af105d3b6340f35a59f789dad1af99733ef80dacd558b9d5",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 24,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.638823Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "da87ddf023d90ff7953130ee439b909f05ea0112b6eeea47e0647431452c523a",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/robosnap-one-shot-real-to-sim-scene-generation-for-generalizable-robot-learning-and-evaluation.json",
+                "https://arxiv.org/pdf/2607.06699v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/robosnap-one-shot-real-to-sim-scene-generation-for-generalizable-robot-learning-and-evaluation.json",
+                "sha256": "42d206c4dec3da4f753f510b96ebdeec2f29749c83974858f5d7da88468c7ec1"
+              },
+              "version": "2607.06699v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "RoboSnap: One-Shot Real-to-Sim Scene Generation for Generalizable Robot Learning and Evaluation",
+              "observed_title": "RoboSnap: One-Shot Real-to-Sim Scene Generation for Generalizable Robot Learning and Evaluation",
+              "source_url": "https://arxiv.org/pdf/2607.06699v1",
+              "source_sha256": "62ab8556acff89b6af105d3b6340f35a59f789dad1af99733ef80dacd558b9d5",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

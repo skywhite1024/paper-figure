@@ -1,0 +1,43 @@
+{
+  "catalog_index": 135,
+  "catalog_id": "opal-offline-primitive-discovery-for-accelerating-offline-reinforcement-learning",
+  "title_expected": "OPAL: Offline Primitive Discovery for Accelerating Offline Reinforcement Learning",
+  "source_url": "https://arxiv.org/pdf/2010.13611v3",
+  "pdf_path": "build/sources/opal-offline-primitive-discovery-for-accelerating-offline-reinforcement-learning.pdf",
+  "pdf_sha256": "41b49f2151ee1529cf51955726809f873e76b1de8f07988efd5ebcdb65ca8d31",
+  "pdf_title_observed": "OPAL: Offline Primitive Discovery for Accelerating Offline Reinforcement Learning",
+  "first_page_title_text": "Published as a conference paper at ICLR 2021\nOPAL: OFFLINE PRIMITIVE DISCOVERY FOR ACCEL-\nERATING OFFLINE REINFORCEMENT LEARNING\nAnurag Ajay∗1, Aviral Kumar3, Pulkit Agrawal1, Sergey Levine2,3, Oﬁr Nachum2\n1MIT,\n2Google Research,\n3UC Berkeley\nABSTRACT\nReinforcement learning (RL) has achieved impressive performance in a variety of\nonline settings in which an agent’s ability to query the environment",
+  "title_match": true,
+  "version": "2010.13611v3",
+  "page_count": 23,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1: Visualization of (a subset of) diverse datasets for (a) antmaze medium and (c) antmaze large, along with trajectories sampled from CQL+OPAL trained on diverse datasets of (b) antmaze medium and (d) antmaze large. it nevertheless presents clear indications of which temporally extended behaviors are useful and natural in this environment (e.g., moving forward, left, right, and backward), and our unsupervised learning objective aims to dis",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 2: Overview of ofﬂine RL with OPAL. OPAL is trained on unlabelled data D using autoen- coding objective. For ofﬂine RL, the encoder ﬁrst labels the reward-labelled data Dr with latents, and divides it into Dr hi and Dr lo. The task policy πψ is trained on Dr hi using ofﬂine RL while the primitive policy πθ is ﬁnetuned on Dlo using behavioral cloning (BC). 4 OFFLINE RL WITH OPAL In this section, we elaborate on OPAL, our proposed method for",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 2. While we mainly focus on ofﬂine RL, we brieﬂy discuss how to use the learned primitives for few-shot imitation learning, online RL, and multi-task online transfer learning in section 5 and provide more details in Appendix A. 4.1 EXTRACTING TEMPORALLY-EXTENDED PRIMITIVES FROM DATA We would like to extract a continuous space of temporally-extended primitives πθ(a|s, z) from D which we can later use as an action space for learning downstre",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 3: State visitation heatmaps for antmaze medium policies learned using (1) CQL and (2) CQL+OPAL, and antmaze large policies learned using (3) CQL and (4) CQL+OPAL. Environment BC BC+OPAL (ours) BC+SVAE antmaze medium (diverse) 30.1 ± 3.2 81.5 ± 2.7 72.8 ± 2.3 antmaze large (diverse) 9.2 ± 2.5 63.5 ± 2.3 49.4 ± 2.2 Table 2: Average success rate (%) (over 4 seeds) of few-shot IL methods: BC, BC+OPAL, and BC+SVAE (Wang et al., 2017). undirect",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

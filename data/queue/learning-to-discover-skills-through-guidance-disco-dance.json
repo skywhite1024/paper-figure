@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "learning-to-discover-skills-through-guidance-disco-dance",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.464078Z",
-  "updated_at": "2026-10-09T20:04:59.464078Z",
+  "updated_at": "2026-10-09T20:14:36.361172Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,102 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/learning-to-discover-skills-through-guidance-disco-dance.json",
+          "https://arxiv.org/pdf/2310.20178v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/learning-to-discover-skills-through-guidance-disco-dance.json",
+          "sha256": "5a95394c47f8b0888ddb195d74a52fe46fa1d383617ea62b60ccfa310bcce25e"
+        },
+        "version": "2310.20178v2",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "Catalog appends method nickname DISCO-DANCE; first-page paper title matches without nickname.",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "Learning to Discover Skills through Guidance (DISCO-DANCE)",
+        "observed_title": "Learning to Discover Skills through Guidance",
+        "source_url": "https://arxiv.org/pdf/2310.20178v2",
+        "source_sha256": "5c2d09affab42d3ca4b46642312fd4835bfd5f4fd22a1f4791c4a30eacf5e8c6",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/learning-to-discover-skills-through-guidance-disco-dance.json",
+          "https://arxiv.org/pdf/2310.20178v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/learning-to-discover-skills-through-guidance-disco-dance.json",
+          "sha256": "5a95394c47f8b0888ddb195d74a52fe46fa1d383617ea62b60ccfa310bcce25e"
+        },
+        "version": "2310.20178v2",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "Catalog appends method nickname DISCO-DANCE; first-page paper title matches without nickname.",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/learning-to-discover-skills-through-guidance-disco-dance/original.pdf",
+          "reported_sha256": "5c2d09affab42d3ca4b46642312fd4835bfd5f4fd22a1f4791c4a30eacf5e8c6",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 29,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/learning-to-discover-skills-through-guidance-disco-dance.json",
+          "https://arxiv.org/pdf/2310.20178v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/learning-to-discover-skills-through-guidance-disco-dance.json",
+          "sha256": "5a95394c47f8b0888ddb195d74a52fe46fa1d383617ea62b60ccfa310bcce25e"
+        },
+        "version": "2310.20178v2",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "Catalog appends method nickname DISCO-DANCE; first-page paper title matches without nickname.",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 3",
+            "page_1_based": 5,
+            "caption": "Figure 3: Overall procedure of DISCO-DANCE in (a) navigation and (b) continuous control tasks.",
+            "crop_pdf_points": [
+              108,
+              209,
+              505,
+              295
+            ],
+            "vector_paths": 74,
+            "native_text_spans": 18,
+            "raster_images": 9,
+            "source_type": "vector/text with embedded raster components",
+            "visually_inspected": true,
+            "notes": "Overall procedural illustration: maze and cheetah subpanels, existing/guide/apprentice skill trajectories, random-walk guide selection and transferred guidance. Figures1/2 also explain guide selection, but Figure3 gives full procedure."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +145,151 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.901894Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "71d565b2b60b1b0d76cb59875eccb8d1d4dcd9521c07ea06e4a95295843062af",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/learning-to-discover-skills-through-guidance-disco-dance.json",
+                "https://arxiv.org/pdf/2310.20178v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/learning-to-discover-skills-through-guidance-disco-dance.json",
+                "sha256": "5a95394c47f8b0888ddb195d74a52fe46fa1d383617ea62b60ccfa310bcce25e"
+              },
+              "version": "2310.20178v2",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "Catalog appends method nickname DISCO-DANCE; first-page paper title matches without nickname.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "Learning to Discover Skills through Guidance (DISCO-DANCE)",
+              "observed_title": "Learning to Discover Skills through Guidance",
+              "source_url": "https://arxiv.org/pdf/2310.20178v2",
+              "source_sha256": "5c2d09affab42d3ca4b46642312fd4835bfd5f4fd22a1f4791c4a30eacf5e8c6",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/learning-to-discover-skills-through-guidance-disco-dance.json",
+                "https://arxiv.org/pdf/2310.20178v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/learning-to-discover-skills-through-guidance-disco-dance.json",
+                "sha256": "5a95394c47f8b0888ddb195d74a52fe46fa1d383617ea62b60ccfa310bcce25e"
+              },
+              "version": "2310.20178v2",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "Catalog appends method nickname DISCO-DANCE; first-page paper title matches without nickname.",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/learning-to-discover-skills-through-guidance-disco-dance/original.pdf",
+                "reported_sha256": "5c2d09affab42d3ca4b46642312fd4835bfd5f4fd22a1f4791c4a30eacf5e8c6",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 29,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/learning-to-discover-skills-through-guidance-disco-dance.json",
+                "https://arxiv.org/pdf/2310.20178v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/learning-to-discover-skills-through-guidance-disco-dance.json",
+                "sha256": "5a95394c47f8b0888ddb195d74a52fe46fa1d383617ea62b60ccfa310bcce25e"
+              },
+              "version": "2310.20178v2",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "Catalog appends method nickname DISCO-DANCE; first-page paper title matches without nickname.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 3",
+                  "page_1_based": 5,
+                  "caption": "Figure 3: Overall procedure of DISCO-DANCE in (a) navigation and (b) continuous control tasks.",
+                  "crop_pdf_points": [
+                    108,
+                    209,
+                    505,
+                    295
+                  ],
+                  "vector_paths": 74,
+                  "native_text_spans": 18,
+                  "raster_images": 9,
+                  "source_type": "vector/text with embedded raster components",
+                  "visually_inspected": true,
+                  "notes": "Overall procedural illustration: maze and cheetah subpanels, existing/guide/apprentice skill trajectories, random-walk guide selection and transferred guidance. Figures1/2 also explain guide selection, but Figure3 gives full procedure."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.361172Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "c6a5dfde3f13d309df1b6ff24c1fadfce2b3e8d5693a3cab42a61e60276efe66",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/learning-to-discover-skills-through-guidance-disco-dance.json",
+                "https://arxiv.org/pdf/2310.20178v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/learning-to-discover-skills-through-guidance-disco-dance.json",
+                "sha256": "5a95394c47f8b0888ddb195d74a52fe46fa1d383617ea62b60ccfa310bcce25e"
+              },
+              "version": "2310.20178v2",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "Catalog appends method nickname DISCO-DANCE; first-page paper title matches without nickname.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "Learning to Discover Skills through Guidance (DISCO-DANCE)",
+              "observed_title": "Learning to Discover Skills through Guidance",
+              "source_url": "https://arxiv.org/pdf/2310.20178v2",
+              "source_sha256": "5c2d09affab42d3ca4b46642312fd4835bfd5f4fd22a1f4791c4a30eacf5e8c6",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

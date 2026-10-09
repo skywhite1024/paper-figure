@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "mutual-information-state-intrinsic-control",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.470040Z",
-  "updated_at": "2026-10-09T20:04:59.470040Z",
+  "updated_at": "2026-10-09T20:14:36.500067Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,103 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/mutual-information-state-intrinsic-control.json",
+          "https://arxiv.org/pdf/2103.08107v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/mutual-information-state-intrinsic-control.json",
+          "sha256": "496a2252c5d6265db98760dbef03ccedab44c3296139e8fbfe9e17ab4ddbf2f4"
+        },
+        "version": "2103.08107v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Mutual Information State Intrinsic Control",
+        "observed_title": "Mutual Information State Intrinsic Control",
+        "source_url": "https://arxiv.org/pdf/2103.08107v1",
+        "source_sha256": "fccb2c6c2463b42da75df0d35bb7f58a39be81b5a4544f2b1ab00b6e70e5fb17",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/mutual-information-state-intrinsic-control.json",
+          "https://arxiv.org/pdf/2103.08107v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/mutual-information-state-intrinsic-control.json",
+          "sha256": "496a2252c5d6265db98760dbef03ccedab44c3296139e8fbfe9e17ab4ddbf2f4"
+        },
+        "version": "2103.08107v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/mutual-information-state-intrinsic-control/original.pdf",
+          "reported_sha256": "fccb2c6c2463b42da75df0d35bb7f58a39be81b5a4544f2b1ab00b6e70e5fb17",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 16,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/mutual-information-state-intrinsic-control.json",
+          "https://arxiv.org/pdf/2103.08107v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/mutual-information-state-intrinsic-control.json",
+          "sha256": "496a2252c5d6265db98760dbef03ccedab44c3296139e8fbfe9e17ab4ddbf2f4"
+        },
+        "version": "2103.08107v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 1",
+            "page_1_based": 3,
+            "caption": "Figure 1: MUSIC Algorithm: We update the estimator to better predict the MI, and update the\nagent to control the surrounding state to have higher MI with the agent state.",
+            "crop_pdf_points": [
+              108,
+              81,
+              504,
+              204
+            ],
+            "vector_paths": 11,
+            "native_text_spans": 94,
+            "raster_images": 7,
+            "source_type": "vector/text with embedded raster components",
+            "visually_inspected": true,
+            "notes": "Composite MUSIC algorithm figure: environment-agent-MI estimator triangle left and Algorithm1 pseudocode right. Blue learned versus green fixed legend included."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +146,153 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.042386Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "200f060bf72f35dc32d6d8c66a219370a62f0765975cdce0c37a3bfb08476389",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/mutual-information-state-intrinsic-control.json",
+                "https://arxiv.org/pdf/2103.08107v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/mutual-information-state-intrinsic-control.json",
+                "sha256": "496a2252c5d6265db98760dbef03ccedab44c3296139e8fbfe9e17ab4ddbf2f4"
+              },
+              "version": "2103.08107v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Mutual Information State Intrinsic Control",
+              "observed_title": "Mutual Information State Intrinsic Control",
+              "source_url": "https://arxiv.org/pdf/2103.08107v1",
+              "source_sha256": "fccb2c6c2463b42da75df0d35bb7f58a39be81b5a4544f2b1ab00b6e70e5fb17",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/mutual-information-state-intrinsic-control.json",
+                "https://arxiv.org/pdf/2103.08107v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/mutual-information-state-intrinsic-control.json",
+                "sha256": "496a2252c5d6265db98760dbef03ccedab44c3296139e8fbfe9e17ab4ddbf2f4"
+              },
+              "version": "2103.08107v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/mutual-information-state-intrinsic-control/original.pdf",
+                "reported_sha256": "fccb2c6c2463b42da75df0d35bb7f58a39be81b5a4544f2b1ab00b6e70e5fb17",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 16,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/mutual-information-state-intrinsic-control.json",
+                "https://arxiv.org/pdf/2103.08107v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/mutual-information-state-intrinsic-control.json",
+                "sha256": "496a2252c5d6265db98760dbef03ccedab44c3296139e8fbfe9e17ab4ddbf2f4"
+              },
+              "version": "2103.08107v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 1",
+                  "page_1_based": 3,
+                  "caption": "Figure 1: MUSIC Algorithm: We update the estimator to better predict the MI, and update the\nagent to control the surrounding state to have higher MI with the agent state.",
+                  "crop_pdf_points": [
+                    108,
+                    81,
+                    504,
+                    204
+                  ],
+                  "vector_paths": 11,
+                  "native_text_spans": 94,
+                  "raster_images": 7,
+                  "source_type": "vector/text with embedded raster components",
+                  "visually_inspected": true,
+                  "notes": "Composite MUSIC algorithm figure: environment-agent-MI estimator triangle left and Algorithm1 pseudocode right. Blue learned versus green fixed legend included."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.500067Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "c1e512b03419532ee8ee460afdb26550f22b7d82c61fc795aed60f998ca648d2",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/mutual-information-state-intrinsic-control.json",
+                "https://arxiv.org/pdf/2103.08107v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/mutual-information-state-intrinsic-control.json",
+                "sha256": "496a2252c5d6265db98760dbef03ccedab44c3296139e8fbfe9e17ab4ddbf2f4"
+              },
+              "version": "2103.08107v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Mutual Information State Intrinsic Control",
+              "observed_title": "Mutual Information State Intrinsic Control",
+              "source_url": "https://arxiv.org/pdf/2103.08107v1",
+              "source_sha256": "fccb2c6c2463b42da75df0d35bb7f58a39be81b5a4544f2b1ab00b6e70e5fb17",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,49 @@
+{
+  "catalog_index": 109,
+  "catalog_id": "robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host",
+  "title_expected": "Robots Acquire Manipulation Skills in Seconds from a Single Human Video (HOST)",
+  "source_url": "https://arxiv.org/pdf/2607.20033v4",
+  "pdf_path": "build/sources/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.pdf",
+  "pdf_sha256": "630fa9c51170d37768f35d8febd31f2ae28185865271314c884ab1a5f8f0786b",
+  "pdf_title_observed": "HOST:Robots Acquire Manipulation Skills in Seconds from a Single Human Video",
+  "first_page_title_text": "arXiv:2607.20033v4  [cs.RO]  20 Aug 2026\nHOST: Robots Acquire Manipulation Skills in\nSeconds from a Single Human Video\nGuangyan Chen1,2,‡, Meiling Wang1, Te Cui1,2,‡, Zichen Zhou1,2,‡, Qi Shao1, Xiaofan Li2,†, Hang\nSu2,3, Ruyi Gan2, Hao Wang2,∗, Mengyin Fu1,∗, Yi Yang1,∗, Yufeng Yue1,∗\n1Beijing Institute of Technology, 2X SQUARE ROBOT, 3Tsinghua University\n‡Work done during internships at X SQUARE",
+  "title_match": true,
+  "version": "2607.20033v4",
+  "page_count": 38,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Fig. 2. The central idea is to treat skill acquisition not as a passive, direct mapping from a human demonstration to robot action but as a process driven by the video demonstration and resolved through self-grounded prediction. This formulation builds on the following two principles. First, the video demonstration should actively determine the robot’s prediction target. Rather than fixing this target at a fixed temporal offset along the executio",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 2. HOST is trained on same-task pairs of video demonstrations and robot trajectories, and it then acquires novel skills at inference from a single human video. During training, each prediction target is coupled to the video demonstration, driving the robot to actively follow the demonstrated procedure. The model learns to produce this target through a cascade of self-grounded prediction, adapting the demonstrated procedure to the robot’s own",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 8,
+      "caption_excerpt": "Fig. 4. HOST acquires an executable skill on every one of these 50 tasks from only a single human video per task, without any parameter update, and sustains success across the full set. This breadth confirms that HOST acquires skills from a single human video broadly across manipulation tasks. Building on this breadth, we next compare HOST against imitation learning and OSVI baselines on a subset of these tasks in Sec. 2.4. 2.4 Comparison with Ba",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 9,
+      "caption_excerpt": "Fig. 5. HOST surpasses the strongest language-conditioned imitation learning baselines, 𝜋0.5 and Wall-OSS, evaluated zero-shot from the instruction, by 45%, despite both being pretrained on large-scale corpora. HOST exceeds the strongest OSVI baseline by 43% even though both methods receive the same single human video, indicating that its advantage comes not from access to a video demonstration but from how that video demonstration is used to dri",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 9,
+      "caption_excerpt": "Fig. 6. Data efficiency. We fine-tuned each imitation learning baseline on 10, 20, and 50 teleoperated demonstrations per novel task using Low-Rank Adaptation (LoRA) (42). We then compared the resulting success rates with the performance of HOST from a single human video, as presented in Fig. 6A. Performance improved with the demonstration budget, but even the strongest fine-tuned baseline, Wall-OSS+SFT, reached only 56% at 50 demonstrations per ",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

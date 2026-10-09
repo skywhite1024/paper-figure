@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "what-foundation-models-can-bring-for-robot-learning-in-manipulation-a-survey",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.459772Z",
-  "updated_at": "2026-10-09T20:04:59.459772Z",
+  "updated_at": "2026-10-09T20:14:36.906569Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,103 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/what-foundation-models-can-bring-for-robot-learning-in-manipulation-a-survey.json",
+          "https://arxiv.org/pdf/2404.18201v7"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/what-foundation-models-can-bring-for-robot-learning-in-manipulation-a-survey.json",
+          "sha256": "7bc6d090bb3c38ff3e366104e42a711feb9b7ca2998156096cc08b2751f338f3"
+        },
+        "version": "2404.18201v7",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "Catalog journal source preserved; official matching-title arXiv author preprint 2404.18201 is the inspected source, not claimed identical to published version.",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "What Foundation Models Can Bring for Robot Learning in Manipulation: A Survey",
+        "observed_title": "What Foundation Models can Bring for Robot Learning in Manipulation : A Survey",
+        "source_url": "https://arxiv.org/pdf/2404.18201v7",
+        "source_sha256": "7511063b5630f9c3c2deb78944f7bd1cd40e7dbcbfb677fb364fc49eb665897a",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/what-foundation-models-can-bring-for-robot-learning-in-manipulation-a-survey.json",
+          "https://arxiv.org/pdf/2404.18201v7"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/what-foundation-models-can-bring-for-robot-learning-in-manipulation-a-survey.json",
+          "sha256": "7bc6d090bb3c38ff3e366104e42a711feb9b7ca2998156096cc08b2751f338f3"
+        },
+        "version": "2404.18201v7",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "Catalog journal source preserved; official matching-title arXiv author preprint 2404.18201 is the inspected source, not claimed identical to published version.",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/what-foundation-models-can-bring-for-robot-learning-in-manipulation-a-survey/original.pdf",
+          "reported_sha256": "7511063b5630f9c3c2deb78944f7bd1cd40e7dbcbfb677fb364fc49eb665897a",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 47,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/what-foundation-models-can-bring-for-robot-learning-in-manipulation-a-survey.json",
+          "https://arxiv.org/pdf/2404.18201v7"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/what-foundation-models-can-bring-for-robot-learning-in-manipulation-a-survey.json",
+          "sha256": "7bc6d090bb3c38ff3e366104e42a711feb9b7ca2998156096cc08b2751f338f3"
+        },
+        "version": "2404.18201v7",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "Catalog journal source preserved; official matching-title arXiv author preprint 2404.18201 is the inspected source, not claimed identical to published version.",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 4,
+            "caption": "Figure 2. Framework of Robot Learning for General Manipulation. The Pre-conditions Detection module P perceives the\nenvironment to identify objects and the affordances objects support. The Interaction module I receives instruction from a human or\nother agent. It uses perception information from the Pre-conditions Detection module P to check for ambiguities in the instruction.\nIf there are any ambiguities, it generates a question to clarify the instruction by asking the human or other agent. The Hierarchy of\nSkills module H generates subgoals by using precise instruction from the Interaction module I and perception information from the\nPre-conditions Detection module P. Each subgoal is then passed to the Skill Execution module. In the Skill Execution module, Policy\nmodule Π generates Action α based on the State S. To obtain the next state after executing the current action, State S can either\nperceive it from the environment or use the Transition module T . To train the Skill Execution module, including the State module S,\nthe Policy module Π and the Transition module T, the Manipulation Data Generation module is required. This module provides a\ntask-level manipulation dataset. When issues arise during execution, corrective instruction is sent to the Policy module Π for manual\nadjustment. Policy module Π modifies the current action to corrective action and saves corrective demonstration to the dataset for\nself-improvement of Policy module Π. After skill execution, Post-conditions Detection module P determines the success of execution.\nIf successful, proceed to the next subgoal; if not, the failure reason is conveyed to Post-hoc Correction module for self-correction.",
+            "crop_pdf_points": [
+              51,
+              56,
+              544,
+              411
+            ],
+            "vector_paths": 135,
+            "native_text_spans": 84,
+            "raster_images": 2,
+            "source_type": "vector/text with embedded raster components",
+            "visually_inspected": true,
+            "notes": "General manipulation framework with human/agent interaction loop left, preconditions/hierarchy/skill execution/postconditions sequence right, data generation and post-hoc correction branches. Official arXiv author preprint used as accessible counterpart to catalog journal URL."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +146,153 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.426346Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "c7f5508ded6effab5b75f8de7d8fc9de83cbf379f1e0269588b189d2c9aa4c06",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/what-foundation-models-can-bring-for-robot-learning-in-manipulation-a-survey.json",
+                "https://arxiv.org/pdf/2404.18201v7"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/what-foundation-models-can-bring-for-robot-learning-in-manipulation-a-survey.json",
+                "sha256": "7bc6d090bb3c38ff3e366104e42a711feb9b7ca2998156096cc08b2751f338f3"
+              },
+              "version": "2404.18201v7",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "Catalog journal source preserved; official matching-title arXiv author preprint 2404.18201 is the inspected source, not claimed identical to published version.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "What Foundation Models Can Bring for Robot Learning in Manipulation: A Survey",
+              "observed_title": "What Foundation Models can Bring for Robot Learning in Manipulation : A Survey",
+              "source_url": "https://arxiv.org/pdf/2404.18201v7",
+              "source_sha256": "7511063b5630f9c3c2deb78944f7bd1cd40e7dbcbfb677fb364fc49eb665897a",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/what-foundation-models-can-bring-for-robot-learning-in-manipulation-a-survey.json",
+                "https://arxiv.org/pdf/2404.18201v7"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/what-foundation-models-can-bring-for-robot-learning-in-manipulation-a-survey.json",
+                "sha256": "7bc6d090bb3c38ff3e366104e42a711feb9b7ca2998156096cc08b2751f338f3"
+              },
+              "version": "2404.18201v7",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "Catalog journal source preserved; official matching-title arXiv author preprint 2404.18201 is the inspected source, not claimed identical to published version.",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/what-foundation-models-can-bring-for-robot-learning-in-manipulation-a-survey/original.pdf",
+                "reported_sha256": "7511063b5630f9c3c2deb78944f7bd1cd40e7dbcbfb677fb364fc49eb665897a",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 47,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/what-foundation-models-can-bring-for-robot-learning-in-manipulation-a-survey.json",
+                "https://arxiv.org/pdf/2404.18201v7"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/what-foundation-models-can-bring-for-robot-learning-in-manipulation-a-survey.json",
+                "sha256": "7bc6d090bb3c38ff3e366104e42a711feb9b7ca2998156096cc08b2751f338f3"
+              },
+              "version": "2404.18201v7",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "Catalog journal source preserved; official matching-title arXiv author preprint 2404.18201 is the inspected source, not claimed identical to published version.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 4,
+                  "caption": "Figure 2. Framework of Robot Learning for General Manipulation. The Pre-conditions Detection module P perceives the\nenvironment to identify objects and the affordances objects support. The Interaction module I receives instruction from a human or\nother agent. It uses perception information from the Pre-conditions Detection module P to check for ambiguities in the instruction.\nIf there are any ambiguities, it generates a question to clarify the instruction by asking the human or other agent. The Hierarchy of\nSkills module H generates subgoals by using precise instruction from the Interaction module I and perception information from the\nPre-conditions Detection module P. Each subgoal is then passed to the Skill Execution module. In the Skill Execution module, Policy\nmodule Π generates Action α based on the State S. To obtain the next state after executing the current action, State S can either\nperceive it from the environment or use the Transition module T . To train the Skill Execution module, including the State module S,\nthe Policy module Π and the Transition module T, the Manipulation Data Generation module is required. This module provides a\ntask-level manipulation dataset. When issues arise during execution, corrective instruction is sent to the Policy module Π for manual\nadjustment. Policy module Π modifies the current action to corrective action and saves corrective demonstration to the dataset for\nself-improvement of Policy module Π. After skill execution, Post-conditions Detection module P determines the success of execution.\nIf successful, proceed to the next subgoal; if not, the failure reason is conveyed to Post-hoc Correction module for self-correction.",
+                  "crop_pdf_points": [
+                    51,
+                    56,
+                    544,
+                    411
+                  ],
+                  "vector_paths": 135,
+                  "native_text_spans": 84,
+                  "raster_images": 2,
+                  "source_type": "vector/text with embedded raster components",
+                  "visually_inspected": true,
+                  "notes": "General manipulation framework with human/agent interaction loop left, preconditions/hierarchy/skill execution/postconditions sequence right, data generation and post-hoc correction branches. Official arXiv author preprint used as accessible counterpart to catalog journal URL."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.906569Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "86eefe33e66eba147b58b856522913cefe19b5ab1c364801be61d83206a7ee74",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/what-foundation-models-can-bring-for-robot-learning-in-manipulation-a-survey.json",
+                "https://arxiv.org/pdf/2404.18201v7"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/what-foundation-models-can-bring-for-robot-learning-in-manipulation-a-survey.json",
+                "sha256": "7bc6d090bb3c38ff3e366104e42a711feb9b7ca2998156096cc08b2751f338f3"
+              },
+              "version": "2404.18201v7",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "Catalog journal source preserved; official matching-title arXiv author preprint 2404.18201 is the inspected source, not claimed identical to published version.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "What Foundation Models Can Bring for Robot Learning in Manipulation: A Survey",
+              "observed_title": "What Foundation Models can Bring for Robot Learning in Manipulation : A Survey",
+              "source_url": "https://arxiv.org/pdf/2404.18201v7",
+              "source_sha256": "7511063b5630f9c3c2deb78944f7bd1cd40e7dbcbfb677fb364fc49eb665897a",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

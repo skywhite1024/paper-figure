@@ -1,0 +1,73 @@
+{
+  "catalog_index": 111,
+  "catalog_id": "volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies",
+  "title_expected": "VOLT: Vision and Language Trajectory Segmentation for Faster-than-Demonstration Policies",
+  "source_url": "https://arxiv.org/pdf/2606.06323v3",
+  "pdf_path": "build/sources/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies.pdf",
+  "pdf_sha256": "d4cd13ab623aef1ae3c4adebfbe525483fbd2d964b8264ea335c70326b45b415",
+  "pdf_title_observed": "VOLT: Vision and Language Trajectory Segmentation for Faster-than-Demonstration Policies",
+  "first_page_title_text": "VOLT: Vision and Language Trajectory Segmentation\nfor Faster-than-Demonstration Policies\nRobert Ramirez Sanchez1 · Daniel J. Evans1 · Dylan P. Losey1 ·\nSiddarth Jain2\nAbstract Humans often take longer to demonstrate a\ntask than a robot would need to execute it. Rather than\nlearning to replicate the demonstration at the same\npace, many industrial and practical applications require\nrobots to perform",
+  "title_match": true,
+  "version": "2606.06323v3",
+  "page_count": 14,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Fig. 1: (Left) A human shows the robot how to carry a cup full of water and then pour that water into a pot. (Middle) Naively accelerating the entire demonstration causes the robot to move too quickly (faster motions shown in green), accidentally spilling water as it moves. Alternatives slow down the robot in segments (slower motions shown in red). But these segments are often imperfectly chosen, and the robot still accelerates and spills water w",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 2: Real-world manipulation tasks evaluated in our experiments. The manipulated objects are randomly ini- tialized in each task, and the target object location is fixed. (Top) We include short-horizon tasks that require object transport: Pick and Place and Tower Transfer, and non-prehensile manipulation in Push Cup. (Bottom) Plug Insertion is a challenging task requiring precise control and force-based interaction, and Table Sorting is a long",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 2. We collect all demonstrations us- ing a GELLO [30] to teleoperate the arm at 20 Hz. For each timestep, we record the robot’s joint position, in- cluding the gripper state x, the commanded joint and gripper state at, and RGB images y from three Re- alSense D435 cameras. Two of the cameras are fixed in the environment, and one is directly mounted on the robot’s end-effector. Each paradigm is tested on the fol- lowing manipulation tasks: –",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 3: Experimental results for Section 4. Results are averaged across 3 training runs. Normal Speed is trained with the default dataset. In Action-D action sequences are downsampled at run time to accelerate task execution. By contrast, in Demo-D actions are downsampled at training time to emulate a human with faster teaching motions. VOLT is similar to Demo-D, but it uses a VLM to determine which segments of the trajectory should or should not",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 3. We find that Demo-D has the potential to signif- icantly reduce execution time, and performs the task faster than equivalent versions of Action-D. But this speed comes at a cost: increasing to n = 4 sharply re- duces the success rate, significantly under-performing the alternatives. Observing the robot’s motion, we find that Demo-D fails because the robot is trying to com- plete segments of the task too rapidly. For example, in the pick",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 3. For the pick and place task we find that models trained with VOLT maintain or achieve a higher success rate than Normal Speed, while for the cup pushing task there is a slight decrease in performance, usually due to errors in gripper placement behind the cup. As expected, only speeding up in the segments identified by VOLT yield polices that are slower than naively downsampling the entire trajectory. But this approach ensures the robot ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 8,
+      "caption_excerpt": "Fig. 4: Example segments for transporting the block tower in the Tower Transfer task. Ideally, the robot should maintain speed during the segment from 11.5s – 16.5s, since speeding up causes the blocks to fall over. SAIL labels the entire sequence as speed-up because a straight-line motion has low complexity. DemoSpeedup oscillates between modes while focusing on the entropy in the human’s demonstrations. Both of these approaches cause the tower ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 2. Both Pick and Place and Push Cup, were introduced in Section 4. Below, we describe the goal for the new manipulation tasks: – Tower Transfer: The robot transfers a tower of freely stacked wooden blocks to a new platform. – Plug Insertion: The robot picks a plug and inserts it into a socket that is fixed in place. We test on assembly ID #00186 from the AutoMate assembly benchmark [27]. – Table Sorting: A long-horizon task with fruits and",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 5. A one-way ANOVA showed that policies trained with VOLT complete tasks significantly faster than Nor- mal Speed across all tasks (p < 0.001 for all). VOLT achieved up to x2.57 speedup in the Pick and Place task, and an average ∼x2.13 over Normal Speed with- out negatively impacting performance. In particular, VOLT significantly outperforms training with the orig- inal demonstration in Table Sorting (p < 0.05), where VOLT exhibits a more ",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

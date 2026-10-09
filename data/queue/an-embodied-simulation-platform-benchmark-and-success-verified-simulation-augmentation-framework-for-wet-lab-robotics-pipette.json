@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 4,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.503147Z",
-  "updated_at": "2026-10-09T20:04:59.503147Z",
+  "updated_at": "2026-10-09T20:14:35.886484Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette.json",
+          "https://arxiv.org/pdf/2606.12936v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette.json",
+          "sha256": "ae2adfa1337f429bbcf4de5a1cff76382a64fa5ecca5615364fa4c875c8c0f02"
+        },
+        "version": "2606.12936v3",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "ArXiv HTML citation_title says Data-Efficient Augmentation, but actual versionedPDF title prints Success-Verified Simulation Augmentation and matches catalog (Pipette prefix/suffix convention only). Figure inspection still pending.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "An Embodied Simulation Platform, Benchmark, and Success-Verified Simulation Augmentation Framework for Wet-Lab Robotics (Pipette)",
+        "observed_title": "Pipette: An Embodied Simulation Platform, Benchmark, and Success-Verified Simulation Augmentation Framework for Wet-Lab Robotics",
+        "source_url": "https://arxiv.org/pdf/2606.12936v3",
+        "source_sha256": "72ad55814d9958242cd534f45f540f9bcd86bcd2bfbf21beaa2278e6c2bb93a3",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette.json",
+          "https://arxiv.org/pdf/2606.12936v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette.json",
+          "sha256": "ae2adfa1337f429bbcf4de5a1cff76382a64fa5ecca5615364fa4c875c8c0f02"
+        },
+        "version": "2606.12936v3",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "ArXiv HTML citation_title says Data-Efficient Augmentation, but actual versionedPDF title prints Success-Verified Simulation Augmentation and matches catalog (Pipette prefix/suffix convention only). Figure inspection still pending.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette.pdf",
+          "reported_sha256": "72ad55814d9958242cd534f45f540f9bcd86bcd2bfbf21beaa2278e6c2bb93a3",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 20,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,200 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.420547Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "b7d8389771e12095aac4fd6a6d3edd043c02a0ff0edcaeccea57a54a65234fe7",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "failed",
+            "evidence": {
+              "references": [
+                "research/survey/an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette.json",
+                "https://arxiv.org/pdf/2606.12936v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette.json",
+                "sha256": "f83a29f008933376b491271a3afb2da9b031b5d47be5d7600faaa3c066ceb787"
+              },
+              "version": "2606.12936v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey explicitly reports a different source title from the expected catalog paper.",
+              "matches_catalog": false,
+              "expected_title": "An Embodied Simulation Platform, Benchmark, and Success-Verified Simulation Augmentation Framework for Wet-Lab Robotics (Pipette)",
+              "observed_title": "Pipette: An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics",
+              "source_url": "https://arxiv.org/pdf/2606.12936v3",
+              "source_sha256": "72ad55814d9958242cd534f45f540f9bcd86bcd2bfbf21beaa2278e6c2bb93a3",
+              "reported_title_match": false
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette.json",
+                "https://arxiv.org/pdf/2606.12936v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette.json",
+                "sha256": "f83a29f008933376b491271a3afb2da9b031b5d47be5d7600faaa3c066ceb787"
+              },
+              "version": "2606.12936v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette.pdf",
+                "reported_sha256": "72ad55814d9958242cd534f45f540f9bcd86bcd2bfbf21beaa2278e6c2bb93a3",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 20,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "source_mismatch",
+        "terminal_evidence": {
+          "references": [
+            "research/survey/an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette.json",
+            "https://arxiv.org/pdf/2606.12936v3"
+          ],
+          "survey_import": true,
+          "survey": {
+            "path": "research/survey/an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette.json",
+            "sha256": "f83a29f008933376b491271a3afb2da9b031b5d47be5d7600faaa3c066ceb787"
+          },
+          "version": "2606.12936v3",
+          "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+          "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+          "inspected_at": null,
+          "summary": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+          "outcome": "source_mismatch",
+          "observed_source": {
+            "reported_path": "build/sources/an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette.pdf",
+            "reported_sha256": "72ad55814d9958242cd534f45f540f9bcd86bcd2bfbf21beaa2278e6c2bb93a3",
+            "verified_locally": true,
+            "durable": false,
+            "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+          }
+        }
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:12:38.626314Z",
+      "actor": "integration-review",
+      "event": "update",
+      "previous_sha256": "d7e01c36a152d29393322b2155215de262a441359d4446fb0851f6fa681f3ab2",
+      "patch": {
+        "status": "in_progress",
+        "terminal_evidence": null,
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette.json",
+                "https://arxiv.org/pdf/2606.12936v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette.json",
+                "sha256": "f83a29f008933376b491271a3afb2da9b031b5d47be5d7600faaa3c066ceb787"
+              },
+              "version": "2606.12936v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Automated title comparison flagged a discrepancy; awaiting direct first-page identity review, not a confirmed wrong paper.",
+              "matches_catalog": false,
+              "expected_title": "An Embodied Simulation Platform, Benchmark, and Success-Verified Simulation Augmentation Framework for Wet-Lab Robotics (Pipette)",
+              "observed_title": "Pipette: An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics",
+              "source_url": "https://arxiv.org/pdf/2606.12936v3",
+              "source_sha256": "72ad55814d9958242cd534f45f540f9bcd86bcd2bfbf21beaa2278e6c2bb93a3",
+              "reported_title_match": false
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:14:35.886484Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "08872d506f1716bf0e5b4ea18641a9ed54e0095625bee2f591757cbf9a261c8b",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette.json",
+                "https://arxiv.org/pdf/2606.12936v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette.json",
+                "sha256": "ae2adfa1337f429bbcf4de5a1cff76382a64fa5ecca5615364fa4c875c8c0f02"
+              },
+              "version": "2606.12936v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "ArXiv HTML citation_title says Data-Efficient Augmentation, but actual versionedPDF title prints Success-Verified Simulation Augmentation and matches catalog (Pipette prefix/suffix convention only). Figure inspection still pending.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "An Embodied Simulation Platform, Benchmark, and Success-Verified Simulation Augmentation Framework for Wet-Lab Robotics (Pipette)",
+              "observed_title": "Pipette: An Embodied Simulation Platform, Benchmark, and Success-Verified Simulation Augmentation Framework for Wet-Lab Robotics",
+              "source_url": "https://arxiv.org/pdf/2606.12936v3",
+              "source_sha256": "72ad55814d9958242cd534f45f540f9bcd86bcd2bfbf21beaa2278e6c2bb93a3",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette.json",
+                "https://arxiv.org/pdf/2606.12936v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette.json",
+                "sha256": "ae2adfa1337f429bbcf4de5a1cff76382a64fa5ecca5615364fa4c875c8c0f02"
+              },
+              "version": "2606.12936v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "ArXiv HTML citation_title says Data-Efficient Augmentation, but actual versionedPDF title prints Success-Verified Simulation Augmentation and matches catalog (Pipette prefix/suffix convention only). Figure inspection still pending.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette.pdf",
+                "reported_sha256": "72ad55814d9958242cd534f45f540f9bcd86bcd2bfbf21beaa2278e6c2bb93a3",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 20,
+              "source_status": "accessible"
+            }
+          }
+        }
+      }
     }
   ]
 }

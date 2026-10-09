@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "unsupervised-skill-discovery-with-bottleneck-option-learning",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.469740Z",
-  "updated_at": "2026-10-09T20:04:59.469740Z",
+  "updated_at": "2026-10-09T20:14:36.863363Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,103 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/unsupervised-skill-discovery-with-bottleneck-option-learning.json",
+          "https://arxiv.org/pdf/2106.14305v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/unsupervised-skill-discovery-with-bottleneck-option-learning.json",
+          "sha256": "9b28b615847642d3668078c51e820001235f35faeff4da3f4673fbe3e701da7f"
+        },
+        "version": "2106.14305v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Unsupervised Skill Discovery with Bottleneck Option Learning",
+        "observed_title": "Unsupervised Skill Discovery with Bottleneck Option Learning",
+        "source_url": "https://arxiv.org/pdf/2106.14305v1",
+        "source_sha256": "6d36494ae7ce92b16672752d6f9f8da693c9bdf8aa831c682ffe348993f7050b",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/unsupervised-skill-discovery-with-bottleneck-option-learning.json",
+          "https://arxiv.org/pdf/2106.14305v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/unsupervised-skill-discovery-with-bottleneck-option-learning.json",
+          "sha256": "9b28b615847642d3668078c51e820001235f35faeff4da3f4673fbe3e701da7f"
+        },
+        "version": "2106.14305v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/unsupervised-skill-discovery-with-bottleneck-option-learning/original.pdf",
+          "reported_sha256": "6d36494ae7ce92b16672752d6f9f8da693c9bdf8aa831c682ffe348993f7050b",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 20,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/unsupervised-skill-discovery-with-bottleneck-option-learning.json",
+          "https://arxiv.org/pdf/2106.14305v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/unsupervised-skill-discovery-with-bottleneck-option-learning.json",
+          "sha256": "9b28b615847642d3668078c51e820001235f35faeff4da3f4673fbe3e701da7f"
+        },
+        "version": "2106.14305v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 3,
+            "caption": "Figure 2. Architecture overview of (a) latent-ﬁrst methods, (b) trajectory-ﬁrst methods and (c) IBOL.",
+            "crop_pdf_points": [
+              66,
+              68,
+              539,
+              157
+            ],
+            "vector_paths": 119,
+            "native_text_spans": 36,
+            "raster_images": 4,
+            "source_type": "vector/text with embedded raster components",
+            "visually_inspected": true,
+            "notes": "Three side-by-side architectures comparing latent-first, trajectory-first and IBOL. Includes skill latent bars, trajectory vectors, MDP robot icons, bottleneck embedding and linearizer."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +146,153 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.382680Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "6c7c6b3e9b5541710b2868165fdebc2496565af94968b54bb964a1a87e6f8cdf",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-skill-discovery-with-bottleneck-option-learning.json",
+                "https://arxiv.org/pdf/2106.14305v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-skill-discovery-with-bottleneck-option-learning.json",
+                "sha256": "9b28b615847642d3668078c51e820001235f35faeff4da3f4673fbe3e701da7f"
+              },
+              "version": "2106.14305v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Unsupervised Skill Discovery with Bottleneck Option Learning",
+              "observed_title": "Unsupervised Skill Discovery with Bottleneck Option Learning",
+              "source_url": "https://arxiv.org/pdf/2106.14305v1",
+              "source_sha256": "6d36494ae7ce92b16672752d6f9f8da693c9bdf8aa831c682ffe348993f7050b",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-skill-discovery-with-bottleneck-option-learning.json",
+                "https://arxiv.org/pdf/2106.14305v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-skill-discovery-with-bottleneck-option-learning.json",
+                "sha256": "9b28b615847642d3668078c51e820001235f35faeff4da3f4673fbe3e701da7f"
+              },
+              "version": "2106.14305v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/unsupervised-skill-discovery-with-bottleneck-option-learning/original.pdf",
+                "reported_sha256": "6d36494ae7ce92b16672752d6f9f8da693c9bdf8aa831c682ffe348993f7050b",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 20,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-skill-discovery-with-bottleneck-option-learning.json",
+                "https://arxiv.org/pdf/2106.14305v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-skill-discovery-with-bottleneck-option-learning.json",
+                "sha256": "9b28b615847642d3668078c51e820001235f35faeff4da3f4673fbe3e701da7f"
+              },
+              "version": "2106.14305v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 3,
+                  "caption": "Figure 2. Architecture overview of (a) latent-ﬁrst methods, (b) trajectory-ﬁrst methods and (c) IBOL.",
+                  "crop_pdf_points": [
+                    66,
+                    68,
+                    539,
+                    157
+                  ],
+                  "vector_paths": 119,
+                  "native_text_spans": 36,
+                  "raster_images": 4,
+                  "source_type": "vector/text with embedded raster components",
+                  "visually_inspected": true,
+                  "notes": "Three side-by-side architectures comparing latent-first, trajectory-first and IBOL. Includes skill latent bars, trajectory vectors, MDP robot icons, bottleneck embedding and linearizer."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.863363Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "9056c39653b8deb15f01d5174586d29fb5bbd20e64ed662463a2e1ee24e6fc3e",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-skill-discovery-with-bottleneck-option-learning.json",
+                "https://arxiv.org/pdf/2106.14305v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-skill-discovery-with-bottleneck-option-learning.json",
+                "sha256": "9b28b615847642d3668078c51e820001235f35faeff4da3f4673fbe3e701da7f"
+              },
+              "version": "2106.14305v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Unsupervised Skill Discovery with Bottleneck Option Learning",
+              "observed_title": "Unsupervised Skill Discovery with Bottleneck Option Learning",
+              "source_url": "https://arxiv.org/pdf/2106.14305v1",
+              "source_sha256": "6d36494ae7ce92b16672752d6f9f8da693c9bdf8aa831c682ffe348993f7050b",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

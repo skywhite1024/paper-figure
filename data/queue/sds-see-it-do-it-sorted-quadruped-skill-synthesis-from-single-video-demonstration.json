@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "sds-see-it-do-it-sorted-quadruped-skill-synthesis-from-single-video-demonstration",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.512029Z",
-  "updated_at": "2026-10-09T20:04:59.512029Z",
+  "updated_at": "2026-10-09T20:14:36.731671Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/sds-see-it-do-it-sorted-quadruped-skill-synthesis-from-single-video-demonstration.json",
+          "https://arxiv.org/pdf/2410.11571v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/sds-see-it-do-it-sorted-quadruped-skill-synthesis-from-single-video-demonstration.json",
+          "sha256": "27f41957477572b27708a71e523177b453def866fd017c229a81d4a3d67d1adb"
+        },
+        "version": "2410.11571v2",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "SDS: See It, Do It, Sorted: Quadruped Skill Synthesis from Single Video Demonstration",
+        "observed_title": "SDS -- See it, Do it, Sorted: Quadruped Skill Synthesis from Single Video Demonstration",
+        "source_url": "https://arxiv.org/pdf/2410.11571v2",
+        "source_sha256": "325aa366b545510fde2a88c25185748746518bfa0876daf654a75a102f117ade",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/sds-see-it-do-it-sorted-quadruped-skill-synthesis-from-single-video-demonstration.json",
+          "https://arxiv.org/pdf/2410.11571v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/sds-see-it-do-it-sorted-quadruped-skill-synthesis-from-single-video-demonstration.json",
+          "sha256": "27f41957477572b27708a71e523177b453def866fd017c229a81d4a3d67d1adb"
+        },
+        "version": "2410.11571v2",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/sds-see-it-do-it-sorted-quadruped-skill-synthesis-from-single-video-demonstration.pdf",
+          "reported_sha256": "325aa366b545510fde2a88c25185748746518bfa0876daf654a75a102f117ade",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 19,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.252294Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "e8408312a4ad1c61ca9423a33726b5055bb34c7ccf01bc4a8361cad6a7ef5fa2",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/sds-see-it-do-it-sorted-quadruped-skill-synthesis-from-single-video-demonstration.json",
+                "https://arxiv.org/pdf/2410.11571v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/sds-see-it-do-it-sorted-quadruped-skill-synthesis-from-single-video-demonstration.json",
+                "sha256": "27f41957477572b27708a71e523177b453def866fd017c229a81d4a3d67d1adb"
+              },
+              "version": "2410.11571v2",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "SDS: See It, Do It, Sorted: Quadruped Skill Synthesis from Single Video Demonstration",
+              "observed_title": "SDS -- See it, Do it, Sorted: Quadruped Skill Synthesis from Single Video Demonstration",
+              "source_url": "https://arxiv.org/pdf/2410.11571v2",
+              "source_sha256": "325aa366b545510fde2a88c25185748746518bfa0876daf654a75a102f117ade",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/sds-see-it-do-it-sorted-quadruped-skill-synthesis-from-single-video-demonstration.json",
+                "https://arxiv.org/pdf/2410.11571v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/sds-see-it-do-it-sorted-quadruped-skill-synthesis-from-single-video-demonstration.json",
+                "sha256": "27f41957477572b27708a71e523177b453def866fd017c229a81d4a3d67d1adb"
+              },
+              "version": "2410.11571v2",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/sds-see-it-do-it-sorted-quadruped-skill-synthesis-from-single-video-demonstration.pdf",
+                "reported_sha256": "325aa366b545510fde2a88c25185748746518bfa0876daf654a75a102f117ade",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 19,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.731671Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "9ce206ea2776e6c1d32f17f47cad3c7979ada48bc5b9ab98e999487f889f7680",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/sds-see-it-do-it-sorted-quadruped-skill-synthesis-from-single-video-demonstration.json",
+                "https://arxiv.org/pdf/2410.11571v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/sds-see-it-do-it-sorted-quadruped-skill-synthesis-from-single-video-demonstration.json",
+                "sha256": "27f41957477572b27708a71e523177b453def866fd017c229a81d4a3d67d1adb"
+              },
+              "version": "2410.11571v2",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "SDS: See It, Do It, Sorted: Quadruped Skill Synthesis from Single Video Demonstration",
+              "observed_title": "SDS -- See it, Do it, Sorted: Quadruped Skill Synthesis from Single Video Demonstration",
+              "source_url": "https://arxiv.org/pdf/2410.11571v2",
+              "source_sha256": "325aa366b545510fde2a88c25185748746518bfa0876daf654a75a102f117ade",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

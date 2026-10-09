@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "partnr-a-benchmark-for-planning-and-reasoning-in-embodied-multi-agent-tasks",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.500227Z",
-  "updated_at": "2026-10-09T20:04:59.500227Z",
+  "updated_at": "2026-10-09T20:14:36.523124Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/partnr-a-benchmark-for-planning-and-reasoning-in-embodied-multi-agent-tasks.json",
+          "https://arxiv.org/pdf/2411.00081v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/partnr-a-benchmark-for-planning-and-reasoning-in-embodied-multi-agent-tasks.json",
+          "sha256": "3c8bef1fd1f097b80c5bda324f879574553f99e582302fbed692830ce6253dce"
+        },
+        "version": "2411.00081v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "PARTNR: A Benchmark for Planning and Reasoning in Embodied Multi-Agent Tasks",
+        "observed_title": "PARTNR: A Benchmark for Planning and Reasoning in Embodied Multi-agent Tasks",
+        "source_url": "https://arxiv.org/pdf/2411.00081v1",
+        "source_sha256": "7da62f6f2b031d78908d6f063d44b6eaeb491bb31d03536218f6ee61dd300efd",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/partnr-a-benchmark-for-planning-and-reasoning-in-embodied-multi-agent-tasks.json",
+          "https://arxiv.org/pdf/2411.00081v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/partnr-a-benchmark-for-planning-and-reasoning-in-embodied-multi-agent-tasks.json",
+          "sha256": "3c8bef1fd1f097b80c5bda324f879574553f99e582302fbed692830ce6253dce"
+        },
+        "version": "2411.00081v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/partnr-a-benchmark-for-planning-and-reasoning-in-embodied-multi-agent-tasks.pdf",
+          "reported_sha256": "7da62f6f2b031d78908d6f063d44b6eaeb491bb31d03536218f6ee61dd300efd",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 63,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.062461Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "2d7486175e4631d3c0150b2c66ecddd101c67379191826c2462a4f886278ffea",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/partnr-a-benchmark-for-planning-and-reasoning-in-embodied-multi-agent-tasks.json",
+                "https://arxiv.org/pdf/2411.00081v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/partnr-a-benchmark-for-planning-and-reasoning-in-embodied-multi-agent-tasks.json",
+                "sha256": "3c8bef1fd1f097b80c5bda324f879574553f99e582302fbed692830ce6253dce"
+              },
+              "version": "2411.00081v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "PARTNR: A Benchmark for Planning and Reasoning in Embodied Multi-Agent Tasks",
+              "observed_title": "PARTNR: A Benchmark for Planning and Reasoning in Embodied Multi-agent Tasks",
+              "source_url": "https://arxiv.org/pdf/2411.00081v1",
+              "source_sha256": "7da62f6f2b031d78908d6f063d44b6eaeb491bb31d03536218f6ee61dd300efd",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/partnr-a-benchmark-for-planning-and-reasoning-in-embodied-multi-agent-tasks.json",
+                "https://arxiv.org/pdf/2411.00081v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/partnr-a-benchmark-for-planning-and-reasoning-in-embodied-multi-agent-tasks.json",
+                "sha256": "3c8bef1fd1f097b80c5bda324f879574553f99e582302fbed692830ce6253dce"
+              },
+              "version": "2411.00081v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/partnr-a-benchmark-for-planning-and-reasoning-in-embodied-multi-agent-tasks.pdf",
+                "reported_sha256": "7da62f6f2b031d78908d6f063d44b6eaeb491bb31d03536218f6ee61dd300efd",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 63,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.523124Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "ec1f820a08b4094c6207f4ff8fbe59e17c08d7bcd0d634dbf3a038441627f25a",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/partnr-a-benchmark-for-planning-and-reasoning-in-embodied-multi-agent-tasks.json",
+                "https://arxiv.org/pdf/2411.00081v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/partnr-a-benchmark-for-planning-and-reasoning-in-embodied-multi-agent-tasks.json",
+                "sha256": "3c8bef1fd1f097b80c5bda324f879574553f99e582302fbed692830ce6253dce"
+              },
+              "version": "2411.00081v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "PARTNR: A Benchmark for Planning and Reasoning in Embodied Multi-Agent Tasks",
+              "observed_title": "PARTNR: A Benchmark for Planning and Reasoning in Embodied Multi-agent Tasks",
+              "source_url": "https://arxiv.org/pdf/2411.00081v1",
+              "source_sha256": "7da62f6f2b031d78908d6f063d44b6eaeb491bb31d03536218f6ee61dd300efd",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "robogene-boosting-vla-pre-training-via-diversity-driven-agentic-framework-for-real-world-task-generation",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.495773Z",
-  "updated_at": "2026-10-09T20:04:59.495773Z",
+  "updated_at": "2026-10-09T20:14:36.612038Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/robogene-boosting-vla-pre-training-via-diversity-driven-agentic-framework-for-real-world-task-generation.json",
+          "https://arxiv.org/pdf/2602.16444v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/robogene-boosting-vla-pre-training-via-diversity-driven-agentic-framework-for-real-world-task-generation.json",
+          "sha256": "e009360211356df00bee2bc07078cb69037e72038d312e3e9766b29f3bdeb9f3"
+        },
+        "version": "2602.16444v2",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "RoboGene: Boosting VLA Pre-training via Diversity-Driven Agentic Framework for Real-World Task Generation",
+        "observed_title": "RoboGene: Boosting VLA Pre-training via Diversity-Driven Agentic Framework for Real-World Task Generation",
+        "source_url": "https://arxiv.org/pdf/2602.16444v2",
+        "source_sha256": "c65de2109ed099e23bfef6f7d7fab0c622371c041d7cf7e852c4f819cc51c151",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/robogene-boosting-vla-pre-training-via-diversity-driven-agentic-framework-for-real-world-task-generation.json",
+          "https://arxiv.org/pdf/2602.16444v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/robogene-boosting-vla-pre-training-via-diversity-driven-agentic-framework-for-real-world-task-generation.json",
+          "sha256": "e009360211356df00bee2bc07078cb69037e72038d312e3e9766b29f3bdeb9f3"
+        },
+        "version": "2602.16444v2",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/robogene-boosting-vla-pre-training-via-diversity-driven-agentic-framework-for-real-world-task-generation.pdf",
+          "reported_sha256": "c65de2109ed099e23bfef6f7d7fab0c622371c041d7cf7e852c4f819cc51c151",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 20,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.137331Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "772f02c646f64c5eee861ad4df6716b491ff367a5d17dc233cc4cb6e27a00a17",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/robogene-boosting-vla-pre-training-via-diversity-driven-agentic-framework-for-real-world-task-generation.json",
+                "https://arxiv.org/pdf/2602.16444v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/robogene-boosting-vla-pre-training-via-diversity-driven-agentic-framework-for-real-world-task-generation.json",
+                "sha256": "e009360211356df00bee2bc07078cb69037e72038d312e3e9766b29f3bdeb9f3"
+              },
+              "version": "2602.16444v2",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "RoboGene: Boosting VLA Pre-training via Diversity-Driven Agentic Framework for Real-World Task Generation",
+              "observed_title": "RoboGene: Boosting VLA Pre-training via Diversity-Driven Agentic Framework for Real-World Task Generation",
+              "source_url": "https://arxiv.org/pdf/2602.16444v2",
+              "source_sha256": "c65de2109ed099e23bfef6f7d7fab0c622371c041d7cf7e852c4f819cc51c151",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/robogene-boosting-vla-pre-training-via-diversity-driven-agentic-framework-for-real-world-task-generation.json",
+                "https://arxiv.org/pdf/2602.16444v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/robogene-boosting-vla-pre-training-via-diversity-driven-agentic-framework-for-real-world-task-generation.json",
+                "sha256": "e009360211356df00bee2bc07078cb69037e72038d312e3e9766b29f3bdeb9f3"
+              },
+              "version": "2602.16444v2",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/robogene-boosting-vla-pre-training-via-diversity-driven-agentic-framework-for-real-world-task-generation.pdf",
+                "reported_sha256": "c65de2109ed099e23bfef6f7d7fab0c622371c041d7cf7e852c4f819cc51c151",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 20,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.612038Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "26b005cd772c0bc8f0d19d13c8e68160dd26d5f0c627e42d7f17ca406916fae9",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/robogene-boosting-vla-pre-training-via-diversity-driven-agentic-framework-for-real-world-task-generation.json",
+                "https://arxiv.org/pdf/2602.16444v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/robogene-boosting-vla-pre-training-via-diversity-driven-agentic-framework-for-real-world-task-generation.json",
+                "sha256": "e009360211356df00bee2bc07078cb69037e72038d312e3e9766b29f3bdeb9f3"
+              },
+              "version": "2602.16444v2",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "RoboGene: Boosting VLA Pre-training via Diversity-Driven Agentic Framework for Real-World Task Generation",
+              "observed_title": "RoboGene: Boosting VLA Pre-training via Diversity-Driven Agentic Framework for Real-World Task Generation",
+              "source_url": "https://arxiv.org/pdf/2602.16444v2",
+              "source_sha256": "c65de2109ed099e23bfef6f7d7fab0c622371c041d7cf7e852c4f819cc51c151",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

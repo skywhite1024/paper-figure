@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "emergent-real-world-robotic-skills-via-unsupervised-off-policy-reinforcement-learning",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.471054Z",
-  "updated_at": "2026-10-09T20:04:59.471054Z",
+  "updated_at": "2026-10-09T20:14:36.164299Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,173 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/emergent-real-world-robotic-skills-via-unsupervised-off-policy-reinforcement-learning.json",
+          "https://arxiv.org/pdf/2004.12974v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/emergent-real-world-robotic-skills-via-unsupervised-off-policy-reinforcement-learning.json",
+          "sha256": "5c52edf334f953ef2194d10d34c3226f33e3109432d5549d4cbb66da1176265d"
+        },
+        "version": "2004.12974v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "All 12 PDF pages visually scanned via contact sheet, with Figure1page1 also inspected full-size. Figures are robot photographs, trajectory demonstrations, and result charts; no architecture/method diagram located. Algorithm1page4 is pseudocode, not a diagram.",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Emergent Real-World Robotic Skills via Unsupervised Off-Policy Reinforcement Learning",
+        "observed_title": "Emergent Real-World Robotic Skills via Unsupervised Off-Policy Reinforcement Learning",
+        "source_url": "https://arxiv.org/pdf/2004.12974v1",
+        "source_sha256": "e8a614ad7b1204e511f56d600951bbe13bd3a62734cd068f11118b68fda13891",
+        "reported_title_match": true,
+        "identity_review_basis": "full_source_visual_scan",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/emergent-real-world-robotic-skills-via-unsupervised-off-policy-reinforcement-learning.json",
+          "https://arxiv.org/pdf/2004.12974v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/emergent-real-world-robotic-skills-via-unsupervised-off-policy-reinforcement-learning.json",
+          "sha256": "5c52edf334f953ef2194d10d34c3226f33e3109432d5549d4cbb66da1176265d"
+        },
+        "version": "2004.12974v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "All 12 PDF pages visually scanned via contact sheet, with Figure1page1 also inspected full-size. Figures are robot photographs, trajectory demonstrations, and result charts; no architecture/method diagram located. Algorithm1page4 is pseudocode, not a diagram.",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/emergent-real-world-robotic-skills-via-unsupervised-off-policy-reinforcement-learning/original.pdf",
+          "reported_sha256": "e8a614ad7b1204e511f56d600951bbe13bd3a62734cd068f11118b68fda13891",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 12,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/emergent-real-world-robotic-skills-via-unsupervised-off-policy-reinforcement-learning.json",
+          "https://arxiv.org/pdf/2004.12974v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/emergent-real-world-robotic-skills-via-unsupervised-off-policy-reinforcement-learning.json",
+          "sha256": "5c52edf334f953ef2194d10d34c3226f33e3109432d5549d4cbb66da1176265d"
+        },
+        "version": "2004.12974v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "All 12 PDF pages visually scanned via contact sheet, with Figure1page1 also inspected full-size. Figures are robot photographs, trajectory demonstrations, and result charts; no architecture/method diagram located. Algorithm1page4 is pseudocode, not a diagram.",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [],
+        "reviewed_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "no_method_figure_reported": true,
+        "visual_scan_coverage": {
+          "pages_scanned_1_based": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12
+          ],
+          "page_count": 12,
+          "contact_sheet_inspected": true,
+          "distinct_numbered_figure_captions_extracted": 11,
+          "figure_caption_inventory": [
+            {
+              "figure": 1,
+              "page_1_based": 1,
+              "caption": "Fig. 1. A 12 degree of freedom quadruped (D’Kitty) discovers diverse\nlocomotion skills without any rewards or demonstrations. We develop\noff-DADS, an asynchronous and off-policy version of Dynamics-\nAware Discovery of Skills (DADS) [52], that enables sample-efﬁcient\nskill discovery based on mutual-information based optimization."
+            },
+            {
+              "figure": 2,
+              "page_1_based": 5,
+              "caption": "Fig. 2.\nSample efﬁciency comparison of off-DADS with DADS\n(red). We control the effect of state-distribution shift using length\nof replay buffers (s implies short and l implies long replay buffer)\nand importance sampling corrections (1 and 10 being the values of\nthe clipping parameter). We observe that all variants of off-DADS\noutperforms DADS in terms of sample efﬁciency, and using a short\nreplay buffer with importance sampling clip parameter set to 10\nconsistently gives the best performance."
+            },
+            {
+              "figure": 3,
+              "page_1_based": 5,
+              "caption": "Fig. 3.\n(Left) D’Kitty robot from the ROBEL benchmark. (Right)\nD’Kitty with the LED conﬁguration for PhaseSpace tracking."
+            },
+            {
+              "figure": 4,
+              "page_1_based": 6,
+              "caption": "Fig. 4.\nTwo quadrupeds in a cordoned area. The LEDs allow the\nrobots and the object to be tracked using the PhaseSpace cameras."
+            },
+            {
+              "figure": 5,
+              "page_1_based": 6,
+              "caption": "Fig. 5.\nDynamixel motor conﬁguration for the D’Kitty robots."
+            },
+            {
+              "figure": 6,
+              "page_1_based": 6,
+              "caption": "Fig. 6.\n(Left) Training curves for D’Kitty in both simulation and\nreal-world. We ﬁnd the off-DADS with a short replay and importance\nsampling clipping parameter α = 10 to be the most suitable for the\nreal-world learning. We ﬁnd the real-world learning curve closely\nfollows the simulation learning curve."
+            },
+            {
+              "figure": 7,
+              "page_1_based": 7,
+              "caption": "Fig. 7.\nDiverse gaits learned by the D’Kitty in our real world\nexperiments."
+            },
+            {
+              "figure": 8,
+              "page_1_based": 8,
+              "caption": "Fig. 8.\nDistance (in m) travelled by skills sampled randomly from\nthe prior in 100 steps, which is 10s of execution time. We also report\nthe number of times D’Kitty falls before completing 100 steps. The\nresults have been averaged over 20 trials."
+            },
+            {
+              "figure": 9,
+              "page_1_based": 8,
+              "caption": "Fig. 9.\nNavigation via model-predictive-control over skills learned\nby off-DADS. Using the skill-dynamics learned in the unsupervised\ntraining, the planner composes skills to move towards the goal. The\ntrajectories visualized show movement of D’Kitty towards the goal\nbox, marked by a set of LED markers."
+            },
+            {
+              "figure": 10,
+              "page_1_based": 12,
+              "caption": "Fig. 10.\nD’Claw from ROBEL [3] is a three-armed manipulatation oriented\nrobotic setup. In this environment, it is provided with a three-pronged valve\nwhich can rotate on its axis. The goal position can be speciﬁed by the motor\nat the top."
+            },
+            {
+              "figure": 11,
+              "page_1_based": 12,
+              "caption": "Fig. 11. We use off-DADS to enable skill discovery for D’Claw to manipulate\nthe three-pronged valve. The ﬁrst row represents a skill which turns the valve\nclockwise and the second row represents a skill which turns the valve counter-\nclockwise."
+            }
+          ]
+        },
+        "scope": "No architecture, block, or algorithm-process diagram located in full source. Photographs, result plots, trajectory maps and experimental visualizations are not silently converted into invented architecture."
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +216,223 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.707552Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "b1f2519ffac5327fa7bdc03a41d703eafd073e06c568d9f6e6097ec2d4f6c416",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/emergent-real-world-robotic-skills-via-unsupervised-off-policy-reinforcement-learning.json",
+                "https://arxiv.org/pdf/2004.12974v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/emergent-real-world-robotic-skills-via-unsupervised-off-policy-reinforcement-learning.json",
+                "sha256": "5c52edf334f953ef2194d10d34c3226f33e3109432d5549d4cbb66da1176265d"
+              },
+              "version": "2004.12974v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "All 12 PDF pages visually scanned via contact sheet, with Figure1page1 also inspected full-size. Figures are robot photographs, trajectory demonstrations, and result charts; no architecture/method diagram located. Algorithm1page4 is pseudocode, not a diagram.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Emergent Real-World Robotic Skills via Unsupervised Off-Policy Reinforcement Learning",
+              "observed_title": "Emergent Real-World Robotic Skills via Unsupervised Off-Policy Reinforcement Learning",
+              "source_url": "https://arxiv.org/pdf/2004.12974v1",
+              "source_sha256": "e8a614ad7b1204e511f56d600951bbe13bd3a62734cd068f11118b68fda13891",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/emergent-real-world-robotic-skills-via-unsupervised-off-policy-reinforcement-learning.json",
+                "https://arxiv.org/pdf/2004.12974v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/emergent-real-world-robotic-skills-via-unsupervised-off-policy-reinforcement-learning.json",
+                "sha256": "5c52edf334f953ef2194d10d34c3226f33e3109432d5549d4cbb66da1176265d"
+              },
+              "version": "2004.12974v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "All 12 PDF pages visually scanned via contact sheet, with Figure1page1 also inspected full-size. Figures are robot photographs, trajectory demonstrations, and result charts; no architecture/method diagram located. Algorithm1page4 is pseudocode, not a diagram.",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/emergent-real-world-robotic-skills-via-unsupervised-off-policy-reinforcement-learning/original.pdf",
+                "reported_sha256": "e8a614ad7b1204e511f56d600951bbe13bd3a62734cd068f11118b68fda13891",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 12,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/emergent-real-world-robotic-skills-via-unsupervised-off-policy-reinforcement-learning.json",
+                "https://arxiv.org/pdf/2004.12974v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/emergent-real-world-robotic-skills-via-unsupervised-off-policy-reinforcement-learning.json",
+                "sha256": "5c52edf334f953ef2194d10d34c3226f33e3109432d5549d4cbb66da1176265d"
+              },
+              "version": "2004.12974v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "All 12 PDF pages visually scanned via contact sheet, with Figure1page1 also inspected full-size. Figures are robot photographs, trajectory demonstrations, and result charts; no architecture/method diagram located. Algorithm1page4 is pseudocode, not a diagram.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [],
+              "reviewed_pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12
+              ],
+              "no_method_figure_reported": true,
+              "visual_scan_coverage": {
+                "pages_scanned_1_based": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12
+                ],
+                "page_count": 12,
+                "contact_sheet_inspected": true,
+                "distinct_numbered_figure_captions_extracted": 11,
+                "figure_caption_inventory": [
+                  {
+                    "figure": 1,
+                    "page_1_based": 1,
+                    "caption": "Fig. 1. A 12 degree of freedom quadruped (D’Kitty) discovers diverse\nlocomotion skills without any rewards or demonstrations. We develop\noff-DADS, an asynchronous and off-policy version of Dynamics-\nAware Discovery of Skills (DADS) [52], that enables sample-efﬁcient\nskill discovery based on mutual-information based optimization."
+                  },
+                  {
+                    "figure": 2,
+                    "page_1_based": 5,
+                    "caption": "Fig. 2.\nSample efﬁciency comparison of off-DADS with DADS\n(red). We control the effect of state-distribution shift using length\nof replay buffers (s implies short and l implies long replay buffer)\nand importance sampling corrections (1 and 10 being the values of\nthe clipping parameter). We observe that all variants of off-DADS\noutperforms DADS in terms of sample efﬁciency, and using a short\nreplay buffer with importance sampling clip parameter set to 10\nconsistently gives the best performance."
+                  },
+                  {
+                    "figure": 3,
+                    "page_1_based": 5,
+                    "caption": "Fig. 3.\n(Left) D’Kitty robot from the ROBEL benchmark. (Right)\nD’Kitty with the LED conﬁguration for PhaseSpace tracking."
+                  },
+                  {
+                    "figure": 4,
+                    "page_1_based": 6,
+                    "caption": "Fig. 4.\nTwo quadrupeds in a cordoned area. The LEDs allow the\nrobots and the object to be tracked using the PhaseSpace cameras."
+                  },
+                  {
+                    "figure": 5,
+                    "page_1_based": 6,
+                    "caption": "Fig. 5.\nDynamixel motor conﬁguration for the D’Kitty robots."
+                  },
+                  {
+                    "figure": 6,
+                    "page_1_based": 6,
+                    "caption": "Fig. 6.\n(Left) Training curves for D’Kitty in both simulation and\nreal-world. We ﬁnd the off-DADS with a short replay and importance\nsampling clipping parameter α = 10 to be the most suitable for the\nreal-world learning. We ﬁnd the real-world learning curve closely\nfollows the simulation learning curve."
+                  },
+                  {
+                    "figure": 7,
+                    "page_1_based": 7,
+                    "caption": "Fig. 7.\nDiverse gaits learned by the D’Kitty in our real world\nexperiments."
+                  },
+                  {
+                    "figure": 8,
+                    "page_1_based": 8,
+                    "caption": "Fig. 8.\nDistance (in m) travelled by skills sampled randomly from\nthe prior in 100 steps, which is 10s of execution time. We also report\nthe number of times D’Kitty falls before completing 100 steps. The\nresults have been averaged over 20 trials."
+                  },
+                  {
+                    "figure": 9,
+                    "page_1_based": 8,
+                    "caption": "Fig. 9.\nNavigation via model-predictive-control over skills learned\nby off-DADS. Using the skill-dynamics learned in the unsupervised\ntraining, the planner composes skills to move towards the goal. The\ntrajectories visualized show movement of D’Kitty towards the goal\nbox, marked by a set of LED markers."
+                  },
+                  {
+                    "figure": 10,
+                    "page_1_based": 12,
+                    "caption": "Fig. 10.\nD’Claw from ROBEL [3] is a three-armed manipulatation oriented\nrobotic setup. In this environment, it is provided with a three-pronged valve\nwhich can rotate on its axis. The goal position can be speciﬁed by the motor\nat the top."
+                  },
+                  {
+                    "figure": 11,
+                    "page_1_based": 12,
+                    "caption": "Fig. 11. We use off-DADS to enable skill discovery for D’Claw to manipulate\nthe three-pronged valve. The ﬁrst row represents a skill which turns the valve\nclockwise and the second row represents a skill which turns the valve counter-\nclockwise."
+                  }
+                ]
+              },
+              "scope": "No architecture, block, or algorithm-process diagram located in full source. Photographs, result plots, trajectory maps and experimental visualizations are not silently converted into invented architecture."
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.164299Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "c7e9d3c6b960b2586b63226d18d1cdf38aa2530a5216fb26c389634ffe3001f2",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/emergent-real-world-robotic-skills-via-unsupervised-off-policy-reinforcement-learning.json",
+                "https://arxiv.org/pdf/2004.12974v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/emergent-real-world-robotic-skills-via-unsupervised-off-policy-reinforcement-learning.json",
+                "sha256": "5c52edf334f953ef2194d10d34c3226f33e3109432d5549d4cbb66da1176265d"
+              },
+              "version": "2004.12974v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "All 12 PDF pages visually scanned via contact sheet, with Figure1page1 also inspected full-size. Figures are robot photographs, trajectory demonstrations, and result charts; no architecture/method diagram located. Algorithm1page4 is pseudocode, not a diagram.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Emergent Real-World Robotic Skills via Unsupervised Off-Policy Reinforcement Learning",
+              "observed_title": "Emergent Real-World Robotic Skills via Unsupervised Off-Policy Reinforcement Learning",
+              "source_url": "https://arxiv.org/pdf/2004.12974v1",
+              "source_sha256": "e8a614ad7b1204e511f56d600951bbe13bd3a62734cd068f11118b68fda13891",
+              "reported_title_match": true,
+              "identity_review_basis": "full_source_visual_scan",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

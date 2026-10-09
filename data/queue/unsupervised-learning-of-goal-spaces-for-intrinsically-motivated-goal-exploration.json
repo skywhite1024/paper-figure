@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "unsupervised-learning-of-goal-spaces-for-intrinsically-motivated-goal-exploration",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.473322Z",
-  "updated_at": "2026-10-09T20:04:59.473322Z",
+  "updated_at": "2026-10-09T20:14:58.254111Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,20 +26,116 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/unsupervised-learning-of-goal-spaces-for-intrinsically-motivated-goal-exploration.json",
+          "https://arxiv.org/pdf/1803.00781v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/unsupervised-learning-of-goal-spaces-for-intrinsically-motivated-goal-exploration.json",
+          "sha256": "d224ef84f2bc2255fb3b5101bf06c2c61a2ac28f171dd81ceeee5d214cf9e27b"
+        },
+        "version": "1803.00781v3",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Unsupervised Learning of Goal Spaces for Intrinsically Motivated Goal Exploration",
+        "observed_title": "Unsupervised Learning of Goal Spaces for Intrinsically Motivated Goal Exploration",
+        "source_url": "https://arxiv.org/pdf/1803.00781v3",
+        "source_sha256": "f972160f7b25e2e646db98cbd719aa36d85445eedd67445fb35d582ce8098917",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/unsupervised-learning-of-goal-spaces-for-intrinsically-motivated-goal-exploration.json",
+          "https://arxiv.org/pdf/1803.00781v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/unsupervised-learning-of-goal-spaces-for-intrinsically-motivated-goal-exploration.json",
+          "sha256": "d224ef84f2bc2255fb3b5101bf06c2c61a2ac28f171dd81ceeee5d214cf9e27b"
+        },
+        "version": "1803.00781v3",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/unsupervised-learning-of-goal-spaces-for-intrinsically-motivated-goal-exploration/original.pdf",
+          "reported_sha256": "f972160f7b25e2e646db98cbd719aa36d85445eedd67445fb35d582ce8098917",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 26,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/unsupervised-learning-of-goal-spaces-for-intrinsically-motivated-goal-exploration.json",
+          "https://arxiv.org/pdf/1803.00781v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/unsupervised-learning-of-goal-spaces-for-intrinsically-motivated-goal-exploration.json",
+          "sha256": "d224ef84f2bc2255fb3b5101bf06c2c61a2ac28f171dd81ceeee5d214cf9e27b"
+        },
+        "version": "1803.00781v3",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 7",
+            "page_1_based": 24,
+            "caption": "Figure 7: Layers of the different neural networks architectures.",
+            "crop_pdf_points": [
+              108,
+              80,
+              505,
+              332
+            ],
+            "vector_paths": 944,
+            "native_text_spans": 26,
+            "raster_images": 0,
+            "source_type": "vector/text",
+            "visually_inspected": true,
+            "notes": "Appendix architecture figure compares autoencoder, variational autoencoder and radial-flow VAE as three vertical fully connected layer stacks. Main paper has no overview flowchart, but this is a genuine architecture figure."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/ugl/README.md",
+          "output/ugl/VALIDATION.json"
+        ],
+        "output_directory": "output/ugl",
+        "source_sha256": "f972160f7b25e2e646db98cbd719aa36d85445eedd67445fb35d582ce8098917",
+        "scene_sha256": "308887b6f1ca085157f5436251e6d9916d1ccbbe3f40f64b1b4c512c246312fe"
+      }
     },
     "qa": {
       "status": "pending",
@@ -59,6 +155,178 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.343106Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "ca81d071afafae0f75b2628aa92706d1dd30a04db6d4c3c76402c38a6c11be78",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-learning-of-goal-spaces-for-intrinsically-motivated-goal-exploration.json",
+                "https://arxiv.org/pdf/1803.00781v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-learning-of-goal-spaces-for-intrinsically-motivated-goal-exploration.json",
+                "sha256": "d224ef84f2bc2255fb3b5101bf06c2c61a2ac28f171dd81ceeee5d214cf9e27b"
+              },
+              "version": "1803.00781v3",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Unsupervised Learning of Goal Spaces for Intrinsically Motivated Goal Exploration",
+              "observed_title": "Unsupervised Learning of Goal Spaces for Intrinsically Motivated Goal Exploration",
+              "source_url": "https://arxiv.org/pdf/1803.00781v3",
+              "source_sha256": "f972160f7b25e2e646db98cbd719aa36d85445eedd67445fb35d582ce8098917",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-learning-of-goal-spaces-for-intrinsically-motivated-goal-exploration.json",
+                "https://arxiv.org/pdf/1803.00781v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-learning-of-goal-spaces-for-intrinsically-motivated-goal-exploration.json",
+                "sha256": "d224ef84f2bc2255fb3b5101bf06c2c61a2ac28f171dd81ceeee5d214cf9e27b"
+              },
+              "version": "1803.00781v3",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/unsupervised-learning-of-goal-spaces-for-intrinsically-motivated-goal-exploration/original.pdf",
+                "reported_sha256": "f972160f7b25e2e646db98cbd719aa36d85445eedd67445fb35d582ce8098917",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 26,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-learning-of-goal-spaces-for-intrinsically-motivated-goal-exploration.json",
+                "https://arxiv.org/pdf/1803.00781v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-learning-of-goal-spaces-for-intrinsically-motivated-goal-exploration.json",
+                "sha256": "d224ef84f2bc2255fb3b5101bf06c2c61a2ac28f171dd81ceeee5d214cf9e27b"
+              },
+              "version": "1803.00781v3",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 7",
+                  "page_1_based": 24,
+                  "caption": "Figure 7: Layers of the different neural networks architectures.",
+                  "crop_pdf_points": [
+                    108,
+                    80,
+                    505,
+                    332
+                  ],
+                  "vector_paths": 944,
+                  "native_text_spans": 26,
+                  "raster_images": 0,
+                  "source_type": "vector/text",
+                  "visually_inspected": true,
+                  "notes": "Appendix architecture figure compares autoencoder, variational autoencoder and radial-flow VAE as three vertical fully connected layer stacks. Main paper has no overview flowchart, but this is a genuine architecture figure."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.823200Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "e57017d3a6b3f909b70b398382a2aff7193a2cf0c7cd67bc4118eca57fd25408",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-learning-of-goal-spaces-for-intrinsically-motivated-goal-exploration.json",
+                "https://arxiv.org/pdf/1803.00781v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-learning-of-goal-spaces-for-intrinsically-motivated-goal-exploration.json",
+                "sha256": "d224ef84f2bc2255fb3b5101bf06c2c61a2ac28f171dd81ceeee5d214cf9e27b"
+              },
+              "version": "1803.00781v3",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Unsupervised Learning of Goal Spaces for Intrinsically Motivated Goal Exploration",
+              "observed_title": "Unsupervised Learning of Goal Spaces for Intrinsically Motivated Goal Exploration",
+              "source_url": "https://arxiv.org/pdf/1803.00781v3",
+              "source_sha256": "f972160f7b25e2e646db98cbd719aa36d85445eedd67445fb35d582ce8098917",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:14:58.254111Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "44e0740f830db1652cc34c1b9101aff8372bda226b571db03ce16559f7180b96",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/ugl/README.md",
+                "output/ugl/VALIDATION.json"
+              ],
+              "output_directory": "output/ugl",
+              "source_sha256": "f972160f7b25e2e646db98cbd719aa36d85445eedd67445fb35d582ce8098917",
+              "scene_sha256": "308887b6f1ca085157f5436251e6d9916d1ccbbe3f40f64b1b4c512c246312fe"
+            }
+          }
+        }
+      }
     }
   ]
 }

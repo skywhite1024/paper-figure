@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "tref-6-inferring-task-relevant-frames-from-a-single-demonstration-for-one-shot-skill-generalization",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.507764Z",
-  "updated_at": "2026-10-09T20:04:59.507764Z",
+  "updated_at": "2026-10-09T20:14:36.810169Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/tref-6-inferring-task-relevant-frames-from-a-single-demonstration-for-one-shot-skill-generalization.json",
+          "https://arxiv.org/pdf/2509.00310v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/tref-6-inferring-task-relevant-frames-from-a-single-demonstration-for-one-shot-skill-generalization.json",
+          "sha256": "52f45c4a2c748e6c74534b697a672adc7f933f7da4e0623babdd7136d29c8d9f"
+        },
+        "version": "2509.00310v2",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "TReF-6: Inferring Task-Relevant Frames from a Single Demonstration for One-Shot Skill Generalization",
+        "observed_title": "TReF-6: Inferring Task-Relevant Frames from a Single Demonstration for One-Shot Skill Generalization",
+        "source_url": "https://arxiv.org/pdf/2509.00310v2",
+        "source_sha256": "22207c5626b7940b09259125921a5d7cb70f22807eba55488b22a6204aeee009",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/tref-6-inferring-task-relevant-frames-from-a-single-demonstration-for-one-shot-skill-generalization.json",
+          "https://arxiv.org/pdf/2509.00310v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/tref-6-inferring-task-relevant-frames-from-a-single-demonstration-for-one-shot-skill-generalization.json",
+          "sha256": "52f45c4a2c748e6c74534b697a672adc7f933f7da4e0623babdd7136d29c8d9f"
+        },
+        "version": "2509.00310v2",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/tref-6-inferring-task-relevant-frames-from-a-single-demonstration-for-one-shot-skill-generalization.pdf",
+          "reported_sha256": "22207c5626b7940b09259125921a5d7cb70f22807eba55488b22a6204aeee009",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 22,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.329117Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "41196c683c482c8355c934a1474ef19c726e946194780820b88d36556358df88",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/tref-6-inferring-task-relevant-frames-from-a-single-demonstration-for-one-shot-skill-generalization.json",
+                "https://arxiv.org/pdf/2509.00310v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/tref-6-inferring-task-relevant-frames-from-a-single-demonstration-for-one-shot-skill-generalization.json",
+                "sha256": "52f45c4a2c748e6c74534b697a672adc7f933f7da4e0623babdd7136d29c8d9f"
+              },
+              "version": "2509.00310v2",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "TReF-6: Inferring Task-Relevant Frames from a Single Demonstration for One-Shot Skill Generalization",
+              "observed_title": "TReF-6: Inferring Task-Relevant Frames from a Single Demonstration for One-Shot Skill Generalization",
+              "source_url": "https://arxiv.org/pdf/2509.00310v2",
+              "source_sha256": "22207c5626b7940b09259125921a5d7cb70f22807eba55488b22a6204aeee009",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/tref-6-inferring-task-relevant-frames-from-a-single-demonstration-for-one-shot-skill-generalization.json",
+                "https://arxiv.org/pdf/2509.00310v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/tref-6-inferring-task-relevant-frames-from-a-single-demonstration-for-one-shot-skill-generalization.json",
+                "sha256": "52f45c4a2c748e6c74534b697a672adc7f933f7da4e0623babdd7136d29c8d9f"
+              },
+              "version": "2509.00310v2",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/tref-6-inferring-task-relevant-frames-from-a-single-demonstration-for-one-shot-skill-generalization.pdf",
+                "reported_sha256": "22207c5626b7940b09259125921a5d7cb70f22807eba55488b22a6204aeee009",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 22,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.810169Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "9e38223ef7004345e00f6128cc631f17d56da6ef6b73fea79fd485378e0617a4",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/tref-6-inferring-task-relevant-frames-from-a-single-demonstration-for-one-shot-skill-generalization.json",
+                "https://arxiv.org/pdf/2509.00310v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/tref-6-inferring-task-relevant-frames-from-a-single-demonstration-for-one-shot-skill-generalization.json",
+                "sha256": "52f45c4a2c748e6c74534b697a672adc7f933f7da4e0623babdd7136d29c8d9f"
+              },
+              "version": "2509.00310v2",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "TReF-6: Inferring Task-Relevant Frames from a Single Demonstration for One-Shot Skill Generalization",
+              "observed_title": "TReF-6: Inferring Task-Relevant Frames from a Single Demonstration for One-Shot Skill Generalization",
+              "source_url": "https://arxiv.org/pdf/2509.00310v2",
+              "source_sha256": "22207c5626b7940b09259125921a5d7cb70f22807eba55488b22a6204aeee009",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

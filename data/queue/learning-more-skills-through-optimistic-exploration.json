@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "learning-more-skills-through-optimistic-exploration",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.469151Z",
-  "updated_at": "2026-10-09T20:04:59.469151Z",
+  "updated_at": "2026-10-09T20:14:36.340344Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,103 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/learning-more-skills-through-optimistic-exploration.json",
+          "https://arxiv.org/pdf/2107.14226v6"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/learning-more-skills-through-optimistic-exploration.json",
+          "sha256": "9096d2379b04143a934e5663fd2c75ed9a8bc8f26e66df259be640befcb8c0d1"
+        },
+        "version": "2107.14226v6",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Learning More Skills through Optimistic Exploration",
+        "observed_title": "Learning more skills through optimistic exploration",
+        "source_url": "https://arxiv.org/pdf/2107.14226v6",
+        "source_sha256": "b3b7cfe5027d3ed275105d1238a403d70c56a3a246866a7ba806db059615e14e",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/learning-more-skills-through-optimistic-exploration.json",
+          "https://arxiv.org/pdf/2107.14226v6"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/learning-more-skills-through-optimistic-exploration.json",
+          "sha256": "9096d2379b04143a934e5663fd2c75ed9a8bc8f26e66df259be640befcb8c0d1"
+        },
+        "version": "2107.14226v6",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/learning-more-skills-through-optimistic-exploration/original.pdf",
+          "reported_sha256": "b3b7cfe5027d3ed275105d1238a403d70c56a3a246866a7ba806db059615e14e",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 27,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/learning-more-skills-through-optimistic-exploration.json",
+          "https://arxiv.org/pdf/2107.14226v6"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/learning-more-skills-through-optimistic-exploration.json",
+          "sha256": "9096d2379b04143a934e5663fd2c75ed9a8bc8f26e66df259be640befcb8c0d1"
+        },
+        "version": "2107.14226v6",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 5,
+            "caption": null,
+            "crop_pdf_points": [
+              110,
+              79,
+              502,
+              199
+            ],
+            "vector_paths": 59,
+            "native_text_spans": 45,
+            "raster_images": 1,
+            "source_type": "vector/text with embedded raster components",
+            "visually_inspected": true,
+            "notes": "Methods composite: conventional skill discriminator/prior/policy loop left, DISDAIN entropy-disagreement ensemble with Atari image input right. Preserve entropy expression above ensemble."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +146,153 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.882049Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "32cba814e09b386c71dd383abb85e56850e44e421c883c1fbe316686b9ff20a0",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/learning-more-skills-through-optimistic-exploration.json",
+                "https://arxiv.org/pdf/2107.14226v6"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/learning-more-skills-through-optimistic-exploration.json",
+                "sha256": "9096d2379b04143a934e5663fd2c75ed9a8bc8f26e66df259be640befcb8c0d1"
+              },
+              "version": "2107.14226v6",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Learning More Skills through Optimistic Exploration",
+              "observed_title": "Learning more skills through optimistic exploration",
+              "source_url": "https://arxiv.org/pdf/2107.14226v6",
+              "source_sha256": "b3b7cfe5027d3ed275105d1238a403d70c56a3a246866a7ba806db059615e14e",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/learning-more-skills-through-optimistic-exploration.json",
+                "https://arxiv.org/pdf/2107.14226v6"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/learning-more-skills-through-optimistic-exploration.json",
+                "sha256": "9096d2379b04143a934e5663fd2c75ed9a8bc8f26e66df259be640befcb8c0d1"
+              },
+              "version": "2107.14226v6",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/learning-more-skills-through-optimistic-exploration/original.pdf",
+                "reported_sha256": "b3b7cfe5027d3ed275105d1238a403d70c56a3a246866a7ba806db059615e14e",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 27,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/learning-more-skills-through-optimistic-exploration.json",
+                "https://arxiv.org/pdf/2107.14226v6"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/learning-more-skills-through-optimistic-exploration.json",
+                "sha256": "9096d2379b04143a934e5663fd2c75ed9a8bc8f26e66df259be640befcb8c0d1"
+              },
+              "version": "2107.14226v6",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 5,
+                  "caption": null,
+                  "crop_pdf_points": [
+                    110,
+                    79,
+                    502,
+                    199
+                  ],
+                  "vector_paths": 59,
+                  "native_text_spans": 45,
+                  "raster_images": 1,
+                  "source_type": "vector/text with embedded raster components",
+                  "visually_inspected": true,
+                  "notes": "Methods composite: conventional skill discriminator/prior/policy loop left, DISDAIN entropy-disagreement ensemble with Atari image input right. Preserve entropy expression above ensemble."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.340344Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "bd3a0abbd26ef65525362446a2c7f2d26c9e9c41fa004f69b1f8e9b6c211b8f8",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/learning-more-skills-through-optimistic-exploration.json",
+                "https://arxiv.org/pdf/2107.14226v6"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/learning-more-skills-through-optimistic-exploration.json",
+                "sha256": "9096d2379b04143a934e5663fd2c75ed9a8bc8f26e66df259be640befcb8c0d1"
+              },
+              "version": "2107.14226v6",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Learning More Skills through Optimistic Exploration",
+              "observed_title": "Learning more skills through optimistic exploration",
+              "source_url": "https://arxiv.org/pdf/2107.14226v6",
+              "source_sha256": "b3b7cfe5027d3ed275105d1238a403d70c56a3a246866a7ba806db059615e14e",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

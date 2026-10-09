@@ -1,0 +1,97 @@
+{
+  "catalog_index": 128,
+  "catalog_id": "sds-see-it-do-it-sorted-quadruped-skill-synthesis-from-single-video-demonstration",
+  "title_expected": "SDS: See It, Do It, Sorted: Quadruped Skill Synthesis from Single Video Demonstration",
+  "source_url": "https://arxiv.org/pdf/2410.11571v2",
+  "pdf_path": "build/sources/sds-see-it-do-it-sorted-quadruped-skill-synthesis-from-single-video-demonstration.pdf",
+  "pdf_sha256": "325aa366b545510fde2a88c25185748746518bfa0876daf654a75a102f117ade",
+  "pdf_title_observed": "SDS -- See it, Do it, Sorted: Quadruped Skill Synthesis from Single Video Demonstration",
+  "first_page_title_text": "SDS – See it, Do it, Sorted: Quadruped Skill Synthesis\nfrom Single Video Demonstration\nMaria Stamatopoulou∗\nJeffrey Li∗\nDimitrios Kanoulas\nRobot Perception Lab, University College London, United Kingdom\n{maria.stamatopoulou.21, jeffrey.li.20, d.kanoulas}@ucl.ac.uk\nAbstract: Imagine a robot learning locomotion skills from any single video, with-\nout labels or reward engineering. We introduce SDS (“",
+  "title_match": true,
+  "version": "2410.11571v2",
+  "page_count": 19,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Figure 1: SDS’s ability to imitate demonstrated skills (top), in simulation (center), and real-world (bottom). The blue tape corresponds to the rear legs, and the red tape to the left-side legs. The a)-d) ordering of the skills is assumed to be consistent throughout the paper. 1 INTRODUCTION Recent advances in large-scale foundational models—particularly language models (LLMs)[1, 2] and visual-language models (VLMs)[3, 4]—have unlocked new capabi",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 2: SDS Method Overview. The process begins by segmenting the demonstration video into Gv and generating the SUS prompt. Each SDS iteration proceeds as follows: (1) GPT-4o generates a set RF of 8 candidate reward functions RFi; (2) each executable RFi is used to train a PPO policy in IsaacGym; (3) sub-reward signals are monitored during training; (4) contact patterns (CP) and rollout footage (Gs) are recorded; (5) RFi performance is evaluat",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 3: SDS Prompting Techniques for GPT-4o: a) Demonstration video frames, arranged in a grid (Gv) b) SUS skill decomposition into 4 task-specific agents. Grid-Frame Prompting: GPT-4o lacks native video understanding and often struggles with tem- poral coherence. To efficiently standardize and encode video demonstrations for RF generation, we introduce a grid-based prompting method. Given a demonstration video V = {I1, I2, . . . , IT } of dura",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 4. This augmentation improves GPT-4o prompting by mapping reward generation to the actual movement of the robot, reducing the ambiguity in the imitation of skills. Figure 4: ViTPose++ Estimation on the demonstration frame and corresponding simulation frame. SUS Prompting: To ensure that the generated RF aligns with the demonstrated task, we intro- duce SUS (”See it. Understand it. Sorted.”), a multistage prompting technique (Fig. 3.a). Inspi",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 4: ViTPose++ Estimation on the demonstration frame and corresponding simulation frame. SUS Prompting: To ensure that the generated RF aligns with the demonstrated task, we intro- duce SUS (”See it. Understand it. Sorted.”), a multistage prompting technique (Fig. 3.a). Inspired by cognitive reasoning [33, 34], SUS aims to structure the information flow and improve inter- pretability and decision making, with prompts at Ap. A.2.3.a. Given a ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 3.a). Inspired by cognitive reasoning [33, 34], SUS aims to structure the information flow and improve inter- pretability and decision making, with prompts at Ap. A.2.3.a. Given a Gv, SUS uses a multi-agent framework to decompose the complex visual information into 4 task-specific GPT-4o agents, by modifying each agent’s system prompts. The a) Task-Descriptor Agent is prompted to describe the most likely task being demonstrated. This informa",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 2: (1) Reward Function (RF) Generation: We frame RF generation as a conditional code synthesis problem: GPT-4o is prompted to produce a set of Python reward functions RF, conditioned on Gv, the SUS prompt, and environment-specific code (see Fig.2(1)). While SDS is simulator-agnostic, we adopt NVIDIA IsaacGym[35] for direct comparison with prior work [36]. IsaacGym provides ac- cess to environment observations, including base pose, velocities",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 1",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 1. Task Imitation Evaluation: a) DTW (10−6) b) Contact Sequences (%) Skill sGo1 rGo1 Avggo1 sANYmal sGo1 rGo1 Avggo1 sANYmal Pace 1.92 2.05 1.99 - 100 100 100 - Trot 1.28 2.44 1.86 151.49 100 100 100 100 Hop 1.47 2.56 2.01 - 100 100 100 - Bound 2.85 3.21 2.85 162.54 100 96 98 91.3 Table 2: Average DTW distances and contact sequence matching between demonstration and learned skills over 1-min trial ×10 runs (s-simulation, r-real-world). Dynam",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 5.b) and OpenCV-based object tracking 6 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 5: Gait evaluation results. (a) Contact sequences from simulation (right) and real-world smoothed force sensor readings (left) (F: Front, R: Rear; R: Right, L: Left). (b) Average base height and height fluctuation of the real robot in meters. (Note: graph not to scale.) (Ap. A.7). Across all skills, base height oscillations exhibited a low variance: pacing and trotting exhibited fluctuation variances of 3.6 and 5.6 × 10−5 m, respectively, ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 6.a), with 0% contact pattern alignment and DTW distances exceeding 150. These re- sults underscore the necessity of both SUS and Gv prompting for scalable and temporally consistent skill acquisition. Without SUS, RF components fail to evolve meaningfully, remaining near-static across iterations and preventing task-specific adaptation. Without Gv, SDS must process frames independently, increasing computational cost by ×16 due to slower conve",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 6.a). The Hop and Bound skills are less sensitive, relying more on FM and DoFL sub-reward components.The proposed evolution frame- work is further validated by the progressive alignment between RF and task behavior across SDS iterations (1–5), visualized for the trotting skill in Fig.6(b), and for all skills in Ap. A.4.4. 7 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 6: (a) Mean SDS reward signal and ablated variants, across 4 skills trained on Unitree Go1. (b) Evolution of trotting behavior at a matched gait phase (T=5s) across the 5 SDS reward iterations. Generalization: We evaluate SDS on the simulated ANYbotics ANYmal-D [44], a quadruped that differs from the Unitree Go1 by being 38 kg heavier, 25 cm wider, 49 cm taller, and featuring in- verted rear knee joints. ANYmal-D is trained on trotting and",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

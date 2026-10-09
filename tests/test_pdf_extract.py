@@ -55,3 +55,11 @@ class ExtractionTests(unittest.TestCase):
         self.assertFalse(any(n['shape']=='text' for n in scene['nodes']))
         self.assertGreater(sum(n['shape']=='path' for n in scene['nodes']),1)
         self.assertIn('outlined_math_limit',scene['provenance'])
+    def test_whole_figure_raw_image_rejected(self):
+        doc=fitz.open();page=doc.new_page(width=300,height=200)
+        pix=fitz.Pixmap(fitz.csRGB,fitz.IRect(0,0,280,170),False);pix.clear_with(255)
+        page.insert_image(fitz.Rect(10,10,290,180),pixmap=pix)
+        page.insert_text((30,30),'Tiny label')
+        pdf=self.root/'full-image.pdf';doc.save(pdf);doc.close()
+        self.config['reviewed_raw_images']=[0]
+        with self.assertRaises(ValidationError):extract(pdf,self.config,self.root/'scene')

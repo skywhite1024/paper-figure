@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "balancing-state-exploration-and-skill-diversity-in-unsupervised-skill-discovery-comsd",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.465032Z",
-  "updated_at": "2026-10-09T20:04:59.465032Z",
+  "updated_at": "2026-10-09T20:14:58.142324Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,20 +26,115 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/balancing-state-exploration-and-skill-diversity-in-unsupervised-skill-discovery-comsd.json",
+          "https://arxiv.org/pdf/2309.17203v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/balancing-state-exploration-and-skill-diversity-in-unsupervised-skill-discovery-comsd.json",
+          "sha256": "c05f34e3a24e2e61fea443d3890169ec75d4cf56f073bd362bb86dede9c6da91"
+        },
+        "version": "2309.17203v3",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "PDF first-page title matches catalog without nickname ComSD; arXiv landing citation_title is a renamed variant: ComSD: Balancing Behavioral Quality and Diversity in Unsupervised Skill Discovery.",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "Balancing State Exploration and Skill Diversity in Unsupervised Skill Discovery (ComSD)",
+        "observed_title": "Balancing State Exploration and Skill Diversity in Unsupervised Skill Discovery",
+        "source_url": "https://arxiv.org/pdf/2309.17203v3",
+        "source_sha256": "f00f9ab7e47380da35cd32c54686f806bdcc02202890ef51e810964e3c299cf1",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/balancing-state-exploration-and-skill-diversity-in-unsupervised-skill-discovery-comsd.json",
+          "https://arxiv.org/pdf/2309.17203v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/balancing-state-exploration-and-skill-diversity-in-unsupervised-skill-discovery-comsd.json",
+          "sha256": "c05f34e3a24e2e61fea443d3890169ec75d4cf56f073bd362bb86dede9c6da91"
+        },
+        "version": "2309.17203v3",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "PDF first-page title matches catalog without nickname ComSD; arXiv landing citation_title is a renamed variant: ComSD: Balancing Behavioral Quality and Diversity in Unsupervised Skill Discovery.",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/balancing-state-exploration-and-skill-diversity-in-unsupervised-skill-discovery-comsd/original.pdf",
+          "reported_sha256": "f00f9ab7e47380da35cd32c54686f806bdcc02202890ef51e810964e3c299cf1",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 14,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/balancing-state-exploration-and-skill-diversity-in-unsupervised-skill-discovery-comsd.json",
+          "https://arxiv.org/pdf/2309.17203v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/balancing-state-exploration-and-skill-diversity-in-unsupervised-skill-discovery-comsd.json",
+          "sha256": "c05f34e3a24e2e61fea443d3890169ec75d4cf56f073bd362bb86dede9c6da91"
+        },
+        "version": "2309.17203v3",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "PDF first-page title matches catalog without nickname ComSD; arXiv landing citation_title is a renamed variant: ComSD: Balancing Behavioral Quality and Diversity in Unsupervised Skill Discovery.",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 3",
+            "page_1_based": 4,
+            "caption": "Fig. 3. Left: The contrastive dynamic reward rintr\nComSD design. Right: In SMW, β is linear related to flag(z) with different slopes in different region. The\nskill space is divided into different regions with different learning objectives.",
+            "crop_pdf_points": [
+              98,
+              54,
+              514,
+              189
+            ],
+            "vector_paths": 169,
+            "native_text_spans": 24,
+            "raster_images": 0,
+            "source_type": "vector/text",
+            "visually_inspected": true,
+            "notes": "Contrastive dynamic reward computation graph on left; piecewise skill modulation weighting curve on right. Pink reward pathway and dashed mathematical objective labels must be retained."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/comsd/README.md",
+          "output/comsd/VALIDATION.json"
+        ],
+        "output_directory": "output/comsd",
+        "source_sha256": "f00f9ab7e47380da35cd32c54686f806bdcc02202890ef51e810964e3c299cf1",
+        "scene_sha256": "82087955d9ebccd98c838962847523b9a6108aef2019d57e7e9bada4bf53abc6"
+      }
     },
     "qa": {
       "status": "pending",
@@ -59,6 +154,176 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.494937Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "02043b787a7a155b58f672fbef9f6f58264eb9ace9f792ca2a94e5144a850fd1",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/balancing-state-exploration-and-skill-diversity-in-unsupervised-skill-discovery-comsd.json",
+                "https://arxiv.org/pdf/2309.17203v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/balancing-state-exploration-and-skill-diversity-in-unsupervised-skill-discovery-comsd.json",
+                "sha256": "c05f34e3a24e2e61fea443d3890169ec75d4cf56f073bd362bb86dede9c6da91"
+              },
+              "version": "2309.17203v3",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "PDF first-page title matches catalog without nickname ComSD; arXiv landing citation_title is a renamed variant: ComSD: Balancing Behavioral Quality and Diversity in Unsupervised Skill Discovery.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "Balancing State Exploration and Skill Diversity in Unsupervised Skill Discovery (ComSD)",
+              "observed_title": "Balancing State Exploration and Skill Diversity in Unsupervised Skill Discovery",
+              "source_url": "https://arxiv.org/pdf/2309.17203v3",
+              "source_sha256": "f00f9ab7e47380da35cd32c54686f806bdcc02202890ef51e810964e3c299cf1",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/balancing-state-exploration-and-skill-diversity-in-unsupervised-skill-discovery-comsd.json",
+                "https://arxiv.org/pdf/2309.17203v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/balancing-state-exploration-and-skill-diversity-in-unsupervised-skill-discovery-comsd.json",
+                "sha256": "c05f34e3a24e2e61fea443d3890169ec75d4cf56f073bd362bb86dede9c6da91"
+              },
+              "version": "2309.17203v3",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "PDF first-page title matches catalog without nickname ComSD; arXiv landing citation_title is a renamed variant: ComSD: Balancing Behavioral Quality and Diversity in Unsupervised Skill Discovery.",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/balancing-state-exploration-and-skill-diversity-in-unsupervised-skill-discovery-comsd/original.pdf",
+                "reported_sha256": "f00f9ab7e47380da35cd32c54686f806bdcc02202890ef51e810964e3c299cf1",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 14,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/balancing-state-exploration-and-skill-diversity-in-unsupervised-skill-discovery-comsd.json",
+                "https://arxiv.org/pdf/2309.17203v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/balancing-state-exploration-and-skill-diversity-in-unsupervised-skill-discovery-comsd.json",
+                "sha256": "c05f34e3a24e2e61fea443d3890169ec75d4cf56f073bd362bb86dede9c6da91"
+              },
+              "version": "2309.17203v3",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "PDF first-page title matches catalog without nickname ComSD; arXiv landing citation_title is a renamed variant: ComSD: Balancing Behavioral Quality and Diversity in Unsupervised Skill Discovery.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 3",
+                  "page_1_based": 4,
+                  "caption": "Fig. 3. Left: The contrastive dynamic reward rintr\nComSD design. Right: In SMW, β is linear related to flag(z) with different slopes in different region. The\nskill space is divided into different regions with different learning objectives.",
+                  "crop_pdf_points": [
+                    98,
+                    54,
+                    514,
+                    189
+                  ],
+                  "vector_paths": 169,
+                  "native_text_spans": 24,
+                  "raster_images": 0,
+                  "source_type": "vector/text",
+                  "visually_inspected": true,
+                  "notes": "Contrastive dynamic reward computation graph on left; piecewise skill modulation weighting curve on right. Pink reward pathway and dashed mathematical objective labels must be retained."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:35.958970Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "4bd5a9fc78f893b8ab3c3355bb73db69ccb226a87f5d40aadaff63ff38c518df",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/balancing-state-exploration-and-skill-diversity-in-unsupervised-skill-discovery-comsd.json",
+                "https://arxiv.org/pdf/2309.17203v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/balancing-state-exploration-and-skill-diversity-in-unsupervised-skill-discovery-comsd.json",
+                "sha256": "c05f34e3a24e2e61fea443d3890169ec75d4cf56f073bd362bb86dede9c6da91"
+              },
+              "version": "2309.17203v3",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "PDF first-page title matches catalog without nickname ComSD; arXiv landing citation_title is a renamed variant: ComSD: Balancing Behavioral Quality and Diversity in Unsupervised Skill Discovery.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "Balancing State Exploration and Skill Diversity in Unsupervised Skill Discovery (ComSD)",
+              "observed_title": "Balancing State Exploration and Skill Diversity in Unsupervised Skill Discovery",
+              "source_url": "https://arxiv.org/pdf/2309.17203v3",
+              "source_sha256": "f00f9ab7e47380da35cd32c54686f806bdcc02202890ef51e810964e3c299cf1",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:14:58.142324Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "6c868f74f910b68674b582b51f6fb7470c739a5496b047204084d79908bac47c",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/comsd/README.md",
+                "output/comsd/VALIDATION.json"
+              ],
+              "output_directory": "output/comsd",
+              "source_sha256": "f00f9ab7e47380da35cd32c54686f806bdcc02202890ef51e810964e3c299cf1",
+              "scene_sha256": "82087955d9ebccd98c838962847523b9a6108aef2019d57e7e9bada4bf53abc6"
+            }
+          }
+        }
+      }
     }
   ]
 }

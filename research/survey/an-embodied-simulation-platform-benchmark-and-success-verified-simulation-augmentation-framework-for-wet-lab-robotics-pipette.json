@@ -1,0 +1,51 @@
+{
+  "catalog_index": 110,
+  "catalog_id": "an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette",
+  "title_expected": "An Embodied Simulation Platform, Benchmark, and Success-Verified Simulation Augmentation Framework for Wet-Lab Robotics (Pipette)",
+  "source_url": "https://arxiv.org/pdf/2606.12936v3",
+  "pdf_path": "build/sources/an-embodied-simulation-platform-benchmark-and-success-verified-simulation-augmentation-framework-for-wet-lab-robotics-pipette.pdf",
+  "pdf_sha256": "72ad55814d9958242cd534f45f540f9bcd86bcd2bfbf21beaa2278e6c2bb93a3",
+  "pdf_title_observed": "Pipette: An Embodied Simulation Platform, Benchmark, and Success-Verified Simulation Augmentation Framework for Wet-Lab Robotics",
+  "first_page_title_text": "Pipette: An Embodied Simulation Platform, Benchmark, and Success-Verified\nSimulation Augmentation Framework for Wet-Lab Robotics\nZhe Liu∗1,2, Huanbo Jin∗1,2, Zhaohui Du∗1,2, Zhe Wang†1,2,\nDongzhan Zhou4, Minting Pan4, He Xu2, Peijia Li2,\nJiaming Gu1,2, Quan Lu1,2, Qi Wang3, Bin Ji1,2, Ting Xiao1,2\n1Key Laboratory of Smart Manufacturing in Energy Chemical Process, Ministry of Education,\nEast China ",
+  "title_match": true,
+  "version": "2606.12936v3",
+  "page_count": 20,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 1: Overview of the Pipette platform for wet-lab robotic simulation, augmentation, and evaluation where st contains seven joint positions and one gripper state. The policy outputs at = π (ot, ℓτ) ∈R8, (2) with seven joint targets and one gripper command. For each task, Nτ evaluation rollouts produce binary outcomes Sτ(ξ(i) τ ) ∈{0, 1}. The evaluator is used for compari- son rather than direct optimization. The benchmark reports macro-averag",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 2: Overview of the Pipette asset library. The platform includes robot embodiments, tools, equipment, lab consum- ables, and instruments for constructing interactive wet-lab simulation tasks. Figure 3 shows the three-stage construction pipeline: 3D model creation, structural processing, and standardized preservation. Models are obtained from existing inventories or generated inside Pipette through Tencent Hunyuan, which supports text- and i",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 3: Asset construction, structure processing, and preservation pipeline for interactive wet-lab digital assets 4.3 Policy Training and Evaluation on Pipette Simulation augmentation has strongly category-dependent effects (Table 2). For sample and culture tasks, average suc- cess increased from 59.5% to 69.3% for ACT, 36.3% to 90.0% for SmolVLA, and 41.8% to 53.3% for π0. SmolVLA reached at least 86% on all four tasks and recovered petri- di",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 4: Language-guided scene construction and task pars- ing workflow in Pipette Platform Task Category Setting ACT SmolVLA π0 Sample/culture Unenh. 59.5 36.3 41.8 Enh. 69.3 90.0 53.3 Hatch control Unenh. 79.3 63.0 65.8 Enh. 83.5 83.5 68.0 Placement/relocation Unenh. 42.3 22.0 4.3 Enh. 24.3 42.0 11.0 Table 2: Success rates by task category to preserve during replay. Placement and transfer remained most difficult. When the task in which an Agil",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 5: Success and failure cases for balance placement grasp, and precise placement make small pose, timing, or contact errors tip or displace it. Because the tube starts near the table, the robot approaches laterally near the workspace boundary (Figure 5(a)). We use the lateral grasp in Figure 5(b), rather than the vertical grasp in Figure 5(c), because wet-lab workflows often continue with pouring or transfer, where side grasping is more app",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "ArXiv HTML citation_title says Data-Efficient Augmentation, but actual versionedPDF title prints Success-Verified Simulation Augmentation and matches catalog (Pipette prefix/suffix convention only). Figure inspection still pending.",
+  "arxiv_metadata_title": "Pipette: An Embodied Simulation Platform, Benchmark, and Data-Efficient Augmentation Framework for Wet-Lab Robotics",
+  "title_review": "First-page pixels manually inspected2026-10-09"
+}

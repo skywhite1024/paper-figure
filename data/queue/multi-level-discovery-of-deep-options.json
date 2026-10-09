@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "multi-level-discovery-of-deep-options",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.474433Z",
-  "updated_at": "2026-10-09T20:04:59.474433Z",
+  "updated_at": "2026-10-09T20:14:36.494666Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,103 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/multi-level-discovery-of-deep-options.json",
+          "https://arxiv.org/pdf/1703.08294v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/multi-level-discovery-of-deep-options.json",
+          "sha256": "ea7963269ec86803293f02f8ab951b89106017969d4ca39abe8fd8f1b63b2c1e"
+        },
+        "version": "1703.08294v2",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Multi-Level Discovery of Deep Options",
+        "observed_title": "Multi-Level Discovery of Deep Options",
+        "source_url": "https://arxiv.org/pdf/1703.08294v2",
+        "source_sha256": "ae906145d3b322b5b8cacbda60c5511b8d19fe7fdb00be24b01100ea5e480ba0",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/multi-level-discovery-of-deep-options.json",
+          "https://arxiv.org/pdf/1703.08294v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/multi-level-discovery-of-deep-options.json",
+          "sha256": "ea7963269ec86803293f02f8ab951b89106017969d4ca39abe8fd8f1b63b2c1e"
+        },
+        "version": "1703.08294v2",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/multi-level-discovery-of-deep-options/original.pdf",
+          "reported_sha256": "ae906145d3b322b5b8cacbda60c5511b8d19fe7fdb00be24b01100ea5e480ba0",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 19,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/multi-level-discovery-of-deep-options.json",
+          "https://arxiv.org/pdf/1703.08294v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/multi-level-discovery-of-deep-options.json",
+          "sha256": "ea7963269ec86803293f02f8ab951b89106017969d4ca39abe8fd8f1b63b2c1e"
+        },
+        "version": "1703.08294v2",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 12",
+            "page_1_based": 19,
+            "caption": "Figure 12: Network architecture for the policies and DQN in the Atari experiments. The output\ndistribution is the softmax of the network output vector of length |A| for control policies and 2 for\ntermination.",
+            "crop_pdf_points": [
+              215,
+              77,
+              392,
+              230
+            ],
+            "vector_paths": 0,
+            "native_text_spans": 0,
+            "raster_images": 1,
+            "source_type": "raster",
+            "visually_inspected": true,
+            "notes": "Appendix Atari policy/DQN network architecture: Input128x256, Dense32x256, Sum32x1, Dense32x1, Output ax1. Main paper figures show learned trajectories; this is the actual architecture figure."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +146,153 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.037655Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "8530c55a57098273b4b3d79f95237227f93f18e2860bfeec3e4ff9ace6bda930",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/multi-level-discovery-of-deep-options.json",
+                "https://arxiv.org/pdf/1703.08294v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/multi-level-discovery-of-deep-options.json",
+                "sha256": "ea7963269ec86803293f02f8ab951b89106017969d4ca39abe8fd8f1b63b2c1e"
+              },
+              "version": "1703.08294v2",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Multi-Level Discovery of Deep Options",
+              "observed_title": "Multi-Level Discovery of Deep Options",
+              "source_url": "https://arxiv.org/pdf/1703.08294v2",
+              "source_sha256": "ae906145d3b322b5b8cacbda60c5511b8d19fe7fdb00be24b01100ea5e480ba0",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/multi-level-discovery-of-deep-options.json",
+                "https://arxiv.org/pdf/1703.08294v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/multi-level-discovery-of-deep-options.json",
+                "sha256": "ea7963269ec86803293f02f8ab951b89106017969d4ca39abe8fd8f1b63b2c1e"
+              },
+              "version": "1703.08294v2",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/multi-level-discovery-of-deep-options/original.pdf",
+                "reported_sha256": "ae906145d3b322b5b8cacbda60c5511b8d19fe7fdb00be24b01100ea5e480ba0",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 19,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/multi-level-discovery-of-deep-options.json",
+                "https://arxiv.org/pdf/1703.08294v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/multi-level-discovery-of-deep-options.json",
+                "sha256": "ea7963269ec86803293f02f8ab951b89106017969d4ca39abe8fd8f1b63b2c1e"
+              },
+              "version": "1703.08294v2",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 12",
+                  "page_1_based": 19,
+                  "caption": "Figure 12: Network architecture for the policies and DQN in the Atari experiments. The output\ndistribution is the softmax of the network output vector of length |A| for control policies and 2 for\ntermination.",
+                  "crop_pdf_points": [
+                    215,
+                    77,
+                    392,
+                    230
+                  ],
+                  "vector_paths": 0,
+                  "native_text_spans": 0,
+                  "raster_images": 1,
+                  "source_type": "raster",
+                  "visually_inspected": true,
+                  "notes": "Appendix Atari policy/DQN network architecture: Input128x256, Dense32x256, Sum32x1, Dense32x1, Output ax1. Main paper figures show learned trajectories; this is the actual architecture figure."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.494666Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "ff0d0ce30c42bcaaabc7d9ee495fcda928e2f206c49bfeb777e66fc7a2e68ec3",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/multi-level-discovery-of-deep-options.json",
+                "https://arxiv.org/pdf/1703.08294v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/multi-level-discovery-of-deep-options.json",
+                "sha256": "ea7963269ec86803293f02f8ab951b89106017969d4ca39abe8fd8f1b63b2c1e"
+              },
+              "version": "1703.08294v2",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Multi-Level Discovery of Deep Options",
+              "observed_title": "Multi-Level Discovery of Deep Options",
+              "source_url": "https://arxiv.org/pdf/1703.08294v2",
+              "source_sha256": "ae906145d3b322b5b8cacbda60c5511b8d19fe7fdb00be24b01100ea5e480ba0",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

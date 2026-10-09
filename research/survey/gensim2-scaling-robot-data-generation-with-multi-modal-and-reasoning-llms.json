@@ -1,0 +1,79 @@
+{
+  "catalog_index": 99,
+  "catalog_id": "gensim2-scaling-robot-data-generation-with-multi-modal-and-reasoning-llms",
+  "title_expected": "GenSim2: Scaling Robot Data Generation with Multi-Modal and Reasoning LLMs",
+  "source_url": "https://arxiv.org/pdf/2410.03645v1",
+  "pdf_path": "build/sources/gensim2-scaling-robot-data-generation-with-multi-modal-and-reasoning-llms.pdf",
+  "pdf_sha256": "f42d44427b8c7e4a4027bc6057d432e8c2a9dc72e7cba3e57629562d211d7ddb",
+  "pdf_title_observed": "GenSim2: Scaling Robot Data Generation with Multi-modal and Reasoning LLMs",
+  "first_page_title_text": "GenSim2:\nScaling Robot Data Generation with\nMulti-modal and Reasoning LLMs\nPu Hua1∗Minghuan Liu2,3∗Annabella Macaluso2∗Yunfeng Lin3\nWeinan Zhang3 Huazhe Xu1 Lirui Wang4‡\nInstitute for Interdisciplinary Information Sciences, Tsinghua University1,\nUCSD2, Shanghai Jiao Tong University3, MIT CSAIL4\nhttps://gensim2.github.io/\nAbstract: Robotic simulation today remains challenging to scale up due to the",
+  "title_match": true,
+  "version": "2410.03645v1",
+  "page_count": 38,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1. GenSim2 introduces a scalable task and data generation framework in SAPIEN [1] for articulation objects with multi-modal and reasoning LLMs. The framework comprises three main stages: 1) (Top) We first generate large-scale robotics tasks and collect massive data with LLMs; 2) (Bottom-left) Then, we train a multi-task point cloud-based policy in simulation with imitation learning; 3) (Bottom-right) Finally, we zero-shot transfer the poli",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Fig. 2. Our work enhances GenSim [9] at the level of task complexity beyond top-down pick-and- 3 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 2. Overview of GenSim2 framework. The pipeline consists of (1) task proposal, (2) solver creation, (3) multi-task training, and (4) generalization evaluation and sim-to-real transfer. place, which necessitates grounded multi-modal task designs, generic 6-dof motion planners and RL solvers, and scalable policy architectures. 3.1 Task Proposal Primitive Task. Our pipeline begins with proposing primitive tasks, namely tasks with a single simp",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 3. Multi-modal Task Generation Pipeline. GenSim2 first is prompted to generate the task code, given few-shot examples and available assets. It then renders the scene image and the keypoint information of the task assets is fed into the MLLM model to generate a planner config for the actuation pose. The actuation pose is then extended to actuation motions, which are fed into GPT-4V for inspections. In this example, the pipeline produces a t",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 7. First, we execute the generated code and capture scene images. This visual data, together with object key points, are then used to prompt an MLLM to generate the planner constraints. Subsequently, we visualize the actuation pose defined by these constraints. Finally, we query the MLLM to generate the actuation motions. Optionally, we also introduce reject sampling to guide the MLLM in refining its previous outputs. 3.3 Policy Learning and",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 4. Specifically, we handle three kinds of observations: point cloud, proprioceptive states, and language task description, all of which can be obtained from the real world. Each observation is separately tokenized via respective encoders and cross-attention, fused together in the shared latent space through transformer blocks, and post-processed into global condition tokens [61]. Given the global condition tokens, the policy predicts a seque",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 4. The proposed Proprioception Point-cloud Transformer (PPT) policy architecture maps language, point cloud, and proprioception inputs in a shared latent space for action prediction. The policy action head supports various architectures from diffusion [63] to transformer decoder [62]. 0 0.2 0.4 0.6 0.8 Success Rate 0.78 0.36 0.18 Multi-modal LLM Reasoning LLM LLM 0 0.2 0.4 0.6 0.8 Success Rate 0.1 0.5 0.7 1-shot 3-shot 5-shot 0 0.2 0.4 0.6",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 5. Ablation study on components of our generation pipeline. All results are based on no less than 10 generations. Left) We use various types of LLMs for solver generation and find that multi-modal LLM (GPT-4V) outperforms the others. Middle) We find that the performance of our method will increase, as we increase the maximum iteration for reject sampling. Right) We observe that splitting solver generation into a prompt chain surpasses gene",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 6. Multi-task training results. All results are evaluated with 20 episodes per task. Left) As the number of training tasks increases, the policy performance decreases first and then increases. Middle) We respectively ablate the input modalities leveraged in our policy architecture on 4 tasks. Right) We find that policies exhibit strong object-level generalization. For each architecture, the left and right bars illustrate the success rates ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 7. Real Experiments: We observe that the multi-task policy, trained on simulation data, can perform robustly on various unseen real-world objects through sim-to-real transfer. Table 2. Evaluation on a set of real-world tasks using one multi-task policy. We report the per-task success rate of 10 episode evaluations with 8 real-world tasks. Sim-only represents policy trained purely with 100 simulation data generated by GenSim2. Real-only rep",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

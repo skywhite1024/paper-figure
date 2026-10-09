@@ -19,7 +19,7 @@
       "caption": "Figure 2. Illustration of unsupervised skill discovery methods. (a) MI is invariant to traveled distances. (b) The MI objective simply\nseeks any mapping between Z and S, while LSD finds the largest (longest) possible mapping. (c) LSD maximizes the Euclidean\ntraveled distance, which can lead to simple or trivial behaviors. (d) Our CSD maximizes the traveled distance with respect to our learned\ncontrollability-aware distance function that assigns larger values to harder-to-achieve state transitions. This leads to more complex skills\nthat can be useful for downstream tasks.",
       "crop_pdf_points": [
         58,
-        68,
+        62,
         538,
         161
       ],
@@ -35,5 +35,10 @@
   "version_evidence": "Version identifier printed in first-page PDF margin",
   "versioned_pdf_url": "https://arxiv.org/pdf/2302.05103v3",
   "inspected_at": "2026-10-09",
-  "visual_evidence_cache": "/tmp/paper-figure-survey/17-p3.png"
+  "visual_evidence_cache": "/tmp/paper-figure-survey/17-p3.png",
+  "conversion_candidate": {
+    "scene": "data/diagrams/csd/csd-figure-2.json",
+    "package": "build/candidates/csd",
+    "status": "source_comparison_reviewed_pending_independent_export_qa"
+  }
 }

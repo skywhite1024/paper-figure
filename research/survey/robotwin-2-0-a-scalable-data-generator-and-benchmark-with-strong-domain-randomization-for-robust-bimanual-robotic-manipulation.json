@@ -1,0 +1,91 @@
+{
+  "catalog_index": 121,
+  "catalog_id": "robotwin-2-0-a-scalable-data-generator-and-benchmark-with-strong-domain-randomization-for-robust-bimanual-robotic-manipulation",
+  "title_expected": "RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation",
+  "source_url": "https://arxiv.org/pdf/2506.18088v2",
+  "pdf_path": "build/sources/robotwin-2-0-a-scalable-data-generator-and-benchmark-with-strong-domain-randomization-for-robust-bimanual-robotic-manipulation.pdf",
+  "pdf_sha256": "316ae82a97968e1a2d88540665401645a190d2699d7d8652e8fc0053ba609bda",
+  "pdf_title_observed": "RoboTwin 2.0: A Scalable Data Generator and Benchmark with Strong Domain Randomization for Robust Bimanual Robotic Manipulation",
+  "first_page_title_text": "RoboTwin 2.0: A Scalable Data Generator and\nBenchmark with Strong Domain Randomization for\nRobust Bimanual Robotic Manipulation\nTianxing Chen2,16*†, Zanxin Chen3,5*, Baijun Chen15*, Zijian Cai3,5*, Yibin Liu13*,\nZixuan Li5*, Qiwei Liang5, Xianliang Lin5, Yiheng Ge1, Zhenyu Gu7,8, Weiliang Deng3,11,\nYubin Guo7,9, Tian Nian3,5, Xuanbing Xie12, Qiangyu Chen5, Kailun Su5, Tianling Xu10,\nGuodong Liu6,7",
+  "title_match": true,
+  "version": "2506.18088v2",
+  "page_count": 24,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Figure 1: Overview of RoboTwin 2.0. RoboTwin 2.0 is a scalable framework for bimanual manipu- lation, integrating an expert data generation pipeline with a 50-task benchmark built on the RoboTwin Object Dataset (731 objects, 147 categories). A multimodal language agent automates task program synthesis, while flexible dual-arm configurations enable large-scale, diverse data collection. Policies trained on RoboTwin 2.0 exhibit improved robustness a",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 2: RoboTwin 2.0 Pipeline. Built on RoboTwin-OD and a skill API, the framework uses MLLM-based code generation with simulation feedback to produce expert task programs and domain- randomized trajectories for policy training and evaluation. We illustrate the overall RoboTwin 2.0 pipeline in Fig. 2. The framework begins with a task code generation module that leverages multimodal large language models (MLLMs) and simulation-in-the- loop feedb",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Fig. 2. The framework begins with a task code generation module that leverages multimodal large language models (MLLMs) and simulation-in-the- loop feedback to automatically synthesize executable task plans from natural language instructions. This module is grounded on a large-scale object asset library (RoboTwin-OD) and a predefined skill library, enabling scalable task instantiation across a broad range of object categories and manipulation sce",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 3: Expert Code Generation Pipeline. Input Specification. Each task is defined by a task name (e.g., Handover Block) and a natural language description of the objective. The code-generation agent is conditioned on three key inputs: a general API list, a set of example function calls, and a hierarchical constraint specification. These components collectively guide the synthesis of Python code to execute the task. Additionally, each task may ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 4: Visualization of domain randomization and our texture library. Scene Clutter. To enhance robustness to environmental variation, we augment tabletop scenes with task-irrelevant distractors drawn from RoboTwin-OD (731 objects across 147 categories; see Section 3.1). Each object includes placement annotations, enabling a generic API for semantically valid insertion. We ensure physical plausibility via collision-aware placement and precompu",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 6. Aloha-AgileX ARX-X5 Piper Franka UR5 Figure 5: Five RoboTwin 2.0 Embodiments. Figure 6: Different Grasp- ing Behavior. To address embodiment-specific variations, we annotate each object with a rich set of candidate manipulation poses that cover multiple grasp axes and approach directions. This design captures both manipulation diversity and robot-specific preferences. To further expand the feasible space, we apply angular perturbations bi",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 5: Five RoboTwin 2.0 Embodiments. Figure 6: Different Grasp- ing Behavior. To address embodiment-specific variations, we annotate each object with a rich set of candidate manipulation poses that cover multiple grasp axes and approach directions. This design captures both manipulation diversity and robot-specific preferences. To further expand the feasible space, we apply angular perturbations biased toward directions with higher arm reacha",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 6: Different Grasp- ing Behavior. To address embodiment-specific variations, we annotate each object with a rich set of candidate manipulation poses that cover multiple grasp axes and approach directions. This design captures both manipulation diversity and robot-specific preferences. To further expand the feasible space, we apply angular perturbations biased toward directions with higher arm reachability. Concretely, for each object we ge",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 7: RoboTwin-OD. A large-scale object dataset for robotic manipulation with 147 categories and 731 objects, annotated with rich interaction labels and diverse language descriptions. To enhance both manipulation capability and visual understanding, we construct a large-scale object dataset with rich semantic annotations, called RoboTwin-OD, covering 147 categories and 731 diverse objects. Specifically, this includes 534 instances across 111 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 8",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 8: 50 RoboTwin 2.0 Bimanual Manipulation Tasks. 4 Experiment We design experiments to evaluate the effectiveness of RoboTwin 2.0 in three key aspects: (1) automating the generation of high-quality expert code for manipulation tasks; (2) improving policy robustness to environmental variation via diversified training data; and (3) demonstrating the utility and diversity of RoboTwin 2.0 as a standardized benchmark for evaluating policy genera",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 9",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 9: RoboTwin Success Rate Dis- tribution. We evaluate performance with four metrics: ASR (Average Success Rate), Top5-ASR (success over the top-5 candidates per task), CR-Iter (average refinement iterations before termination), and Token (average number of tokens in generated policy code). Results on RoboTwin 1.0 and 2.0 are reported in Table 1 under three configurations: Vanilla (one-shot code generation), FB (feedback-based repair via exe",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 10",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 10: Real-World Evaluation across Four Configurations. 9 ",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "collie-guiding-skill-discovery-in-semantically-coherent-latent-space",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.475720Z",
-  "updated_at": "2026-10-09T20:04:59.475720Z",
+  "updated_at": "2026-10-09T20:14:35.997119Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,102 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/collie-guiding-skill-discovery-in-semantically-coherent-latent-space.json",
+          "https://arxiv.org/pdf/2606.00950v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/collie-guiding-skill-discovery-in-semantically-coherent-latent-space.json",
+          "sha256": "04ae78549488c1ffae14bcb4063f09cb5d138ed2f6b1aa907bda0e3aa1e58dae"
+        },
+        "version": "2606.00950v1",
+        "license_note": "CC BY-SA4.0; https://creativecommons.org/licenses/by-sa/4.0/",
+        "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+        "inspected_at": null,
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "COLLIE: Guiding Skill Discovery in Semantically Coherent Latent Space",
+        "observed_title": "COLLIE: Guiding Skill Discovery in Semantically Coherent Latent Space",
+        "source_url": "https://arxiv.org/pdf/2606.00950v1",
+        "source_sha256": "13a3473f2efa2b3f69e68be5c825bda3fac6970df3334d61cea5ce00a8225ffe",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/collie-guiding-skill-discovery-in-semantically-coherent-latent-space.json",
+          "https://arxiv.org/pdf/2606.00950v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/collie-guiding-skill-discovery-in-semantically-coherent-latent-space.json",
+          "sha256": "04ae78549488c1ffae14bcb4063f09cb5d138ed2f6b1aa907bda0e3aa1e58dae"
+        },
+        "version": "2606.00950v1",
+        "license_note": "CC BY-SA4.0; https://creativecommons.org/licenses/by-sa/4.0/",
+        "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/collie-guiding-skill-discovery-in-semantically-coherent-latent-space.pdf",
+          "reported_sha256": "13a3473f2efa2b3f69e68be5c825bda3fac6970df3334d61cea5ce00a8225ffe",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 25,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/collie-guiding-skill-discovery-in-semantically-coherent-latent-space.json",
+          "https://arxiv.org/pdf/2606.00950v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/collie-guiding-skill-discovery-in-semantically-coherent-latent-space.json",
+          "sha256": "04ae78549488c1ffae14bcb4063f09cb5d138ed2f6b1aa907bda0e3aa1e58dae"
+        },
+        "version": "2606.00950v1",
+        "license_note": "CC BY-SA4.0; https://creativecommons.org/licenses/by-sa/4.0/",
+        "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 1",
+            "page_1_based": 2,
+            "caption": "Overview of COLLIE.",
+            "crop_pdf_points": [
+              55,
+              67,
+              542,
+              164
+            ],
+            "vector_paths": 31,
+            "native_text_spans": 36,
+            "raster_images": 75,
+            "visually_inspected": true,
+            "notes": "Mixed vector/text and many small raster icons; 3D latent surfaces remain raster."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +145,152 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.532839Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "968e24691d7102402c0382f983baeaf0275ad591e91529109f00c16dd1441b84",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/collie-guiding-skill-discovery-in-semantically-coherent-latent-space.json",
+                "https://arxiv.org/pdf/2606.00950v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/collie-guiding-skill-discovery-in-semantically-coherent-latent-space.json",
+                "sha256": "04ae78549488c1ffae14bcb4063f09cb5d138ed2f6b1aa907bda0e3aa1e58dae"
+              },
+              "version": "2606.00950v1",
+              "license_note": "CC BY-SA4.0; https://creativecommons.org/licenses/by-sa/4.0/",
+              "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "COLLIE: Guiding Skill Discovery in Semantically Coherent Latent Space",
+              "observed_title": "COLLIE: Guiding Skill Discovery in Semantically Coherent Latent Space",
+              "source_url": "https://arxiv.org/pdf/2606.00950v1",
+              "source_sha256": "13a3473f2efa2b3f69e68be5c825bda3fac6970df3334d61cea5ce00a8225ffe",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/collie-guiding-skill-discovery-in-semantically-coherent-latent-space.json",
+                "https://arxiv.org/pdf/2606.00950v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/collie-guiding-skill-discovery-in-semantically-coherent-latent-space.json",
+                "sha256": "04ae78549488c1ffae14bcb4063f09cb5d138ed2f6b1aa907bda0e3aa1e58dae"
+              },
+              "version": "2606.00950v1",
+              "license_note": "CC BY-SA4.0; https://creativecommons.org/licenses/by-sa/4.0/",
+              "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/collie-guiding-skill-discovery-in-semantically-coherent-latent-space.pdf",
+                "reported_sha256": "13a3473f2efa2b3f69e68be5c825bda3fac6970df3334d61cea5ce00a8225ffe",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 25,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/collie-guiding-skill-discovery-in-semantically-coherent-latent-space.json",
+                "https://arxiv.org/pdf/2606.00950v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/collie-guiding-skill-discovery-in-semantically-coherent-latent-space.json",
+                "sha256": "04ae78549488c1ffae14bcb4063f09cb5d138ed2f6b1aa907bda0e3aa1e58dae"
+              },
+              "version": "2606.00950v1",
+              "license_note": "CC BY-SA4.0; https://creativecommons.org/licenses/by-sa/4.0/",
+              "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 1",
+                  "page_1_based": 2,
+                  "caption": "Overview of COLLIE.",
+                  "crop_pdf_points": [
+                    55,
+                    67,
+                    542,
+                    164
+                  ],
+                  "vector_paths": 31,
+                  "native_text_spans": 36,
+                  "raster_images": 75,
+                  "visually_inspected": true,
+                  "notes": "Mixed vector/text and many small raster icons; 3D latent surfaces remain raster."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:35.997119Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "5b33ae35c5739aa61daecadf0e331823e3396f451fa99c534513f3a57a9c2457",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/collie-guiding-skill-discovery-in-semantically-coherent-latent-space.json",
+                "https://arxiv.org/pdf/2606.00950v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/collie-guiding-skill-discovery-in-semantically-coherent-latent-space.json",
+                "sha256": "04ae78549488c1ffae14bcb4063f09cb5d138ed2f6b1aa907bda0e3aa1e58dae"
+              },
+              "version": "2606.00950v1",
+              "license_note": "CC BY-SA4.0; https://creativecommons.org/licenses/by-sa/4.0/",
+              "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "COLLIE: Guiding Skill Discovery in Semantically Coherent Latent Space",
+              "observed_title": "COLLIE: Guiding Skill Discovery in Semantically Coherent Latent Space",
+              "source_url": "https://arxiv.org/pdf/2606.00950v1",
+              "source_sha256": "13a3473f2efa2b3f69e68be5c825bda3fac6970df3334d61cea5ce00a8225ffe",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

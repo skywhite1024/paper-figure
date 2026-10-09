@@ -1,0 +1,67 @@
+{
+  "catalog_index": 118,
+  "catalog_id": "annotation-free-one-shot-imitation-learning-for-multi-step-manipulation-tasks",
+  "title_expected": "Annotation-Free One-Shot Imitation Learning for Multi-Step Manipulation Tasks",
+  "source_url": "https://arxiv.org/pdf/2509.24972v1",
+  "pdf_path": "build/sources/annotation-free-one-shot-imitation-learning-for-multi-step-manipulation-tasks.pdf",
+  "pdf_sha256": "09d5f8a6ab5241357e07c48d838af7d0fc6d4968c3f6b8a11422f5f31367915b",
+  "pdf_title_observed": "Annotation-Free One-Shot Imitation Learning for Multi-Step Manipulation Tasks",
+  "first_page_title_text": "Annotation-Free One-Shot Imitation Learning\nfor Multi-Step Manipulation Tasks\nVijja Wichitwechkarn1∗, Emlyn Williams2, Charles Fox2, Ruchi Choudhary1\nAbstract— Recent advances in one-shot imitation learning\nhave enabled robots to acquire new manipulation skills from\na single human demonstration. While existing methods achieve\nstrong performance on single-step tasks, they remain limited\nin their ab",
+  "title_match": true,
+  "version": "2509.24972v1",
+  "page_count": 8,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1. Although our formulation specifies control in terms of po- sition waypoints, the same approach could also be realized with velocity commands. We choose waypoints because they are easy to interpret and compatible with standard controllers that accept pose targets. Fig. 1. Diagram of alignment and trajectory replay. (Left) A demonstration provides a keyframe image (source) and its associated control sequence u. (Right) At inference, the c",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Fig. 1. Diagram of alignment and trajectory replay. (Left) A demonstration provides a keyframe image (source) and its associated control sequence u. (Right) At inference, the current observation (target) is used to estimate the camera pose change ∆T cam needed to align the camera with the visual target in the same way as the source image. The control sequence u is then executed relative to this aligned pose. At inference, the robot executes the d",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 2. 1) Decomposition fdecompose: We implement subtask de- composition using a pre-trained vision-language model (VLM), particularly Gemini 2.5 Pro [20]. The VLM input consists of (i) the demonstration RGB video X downsampled to 1 fps, (ii) the gripper context G = {gt, vt, |vt|}N t=1 containing the gripper width, velocity vt and speed |vt| (derived from the demonstration and downsampled to 1 Hz), and (iii) a natural language prompt pdecompos",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 2. Overview of our method. (A) A demonstration consists of a sequence of wrist-camera images x, end-effector poses T, and gripper widths g. As indicated by the blue box, these are provided as context to fdecompose. (B) fdecompose outputs subtask partitions, each described by a visual target d and time-stamps marking the alignment and execution phases. As shown in the blue box, the alignment-phase image sequence together with d are used as co",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 3. Representative images of the tasks used in our experiments. From left to right: block stacking, fruit sorting, tea preparation, smudge erasing, block flipping, tower knocking, screwdriver pickup, and button pressing. the same method as DinoBot. These are treated as the ‘input’ for each demonstration. To obtain the corresponding ‘output’, each demonstration is temporally subsampled to Na timesteps. At each timestep, the robot state is repr",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 3. A. Multi-step tasks We evaluated our method against the KAT and GEMINI baselines on four multistep manipulation tasks, each is repeated for 10 trials per task. The success rates are shown in Table I. The number of iterations required for convergence during the alignment phase is shown in Table II. These are averaged over 10 trials for each subtask. The multi-step tasks used are described as follows. • Block stacking: sequentially stack ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 4. The pose estimation accuracy of these variations is evaluated in terms of translation and rotation error, relative to the known ground truth obtained from iterating the alignment phase until convergence. These results are shown in Table V. Table VI shows the peak VRAM usage and average runtime over 10 runs. IV. DISCUSSION On multi-step tasks, our method achieves an average success rate of 82.5%, in contrast to the baselines which both a",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 4. The source image (demonstration keyframe) and target image (test time observation) for each subtask of the multi-step tasks. TABLE V TRANSLATION ERROR Et (M) AND ROTATION ERROR ER (DEGREES) FOR EACH METHOD GIVEN THE SOURCE AND TARGET IMAGES FOR SUBTASKS FROM THE MULTI-STEP TASKS. THE BEST RESULTS ARE SHOWN IN BOLD AND FAILURES ARE DENOTED USING DASHES. Subtask Aspanformer DinoV2 CleanDIFT Ours DinoBot ODIL Et ER Et ER Et ER Et ER Et ER Et",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

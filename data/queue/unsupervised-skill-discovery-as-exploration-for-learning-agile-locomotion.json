@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "unsupervised-skill-discovery-as-exploration-for-learning-agile-locomotion",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.463008Z",
-  "updated_at": "2026-10-09T20:04:59.463008Z",
+  "updated_at": "2026-10-09T20:14:36.836255Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,103 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/unsupervised-skill-discovery-as-exploration-for-learning-agile-locomotion.json",
+          "https://arxiv.org/pdf/2508.08982v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/unsupervised-skill-discovery-as-exploration-for-learning-agile-locomotion.json",
+          "sha256": "06cbfcbc650aeedf3b44c1d55bdbd3f9497921e422e0fbecbcbc33e0b2c6b6a1"
+        },
+        "version": "2508.08982v1",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Unsupervised Skill Discovery as Exploration for Learning Agile Locomotion",
+        "observed_title": "Unsupervised Skill Discovery as Exploration for Learning Agile Locomotion",
+        "source_url": "https://arxiv.org/pdf/2508.08982v1",
+        "source_sha256": "19732e8b2d8a811c612ba64fd4f750e61bca06df613df5573098266081dfe67d",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/unsupervised-skill-discovery-as-exploration-for-learning-agile-locomotion.json",
+          "https://arxiv.org/pdf/2508.08982v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/unsupervised-skill-discovery-as-exploration-for-learning-agile-locomotion.json",
+          "sha256": "06cbfcbc650aeedf3b44c1d55bdbd3f9497921e422e0fbecbcbc33e0b2c6b6a1"
+        },
+        "version": "2508.08982v1",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/unsupervised-skill-discovery-as-exploration-for-learning-agile-locomotion/original.pdf",
+          "reported_sha256": "19732e8b2d8a811c612ba64fd4f750e61bca06df613df5573098266081dfe67d",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 17,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/unsupervised-skill-discovery-as-exploration-for-learning-agile-locomotion.json",
+          "https://arxiv.org/pdf/2508.08982v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/unsupervised-skill-discovery-as-exploration-for-learning-agile-locomotion.json",
+          "sha256": "06cbfcbc650aeedf3b44c1d55bdbd3f9497921e422e0fbecbcbc33e0b2c6b6a1"
+        },
+        "version": "2508.08982v1",
+        "license_note": "http://creativecommons.org/licenses/by/4.0/",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 3,
+            "caption": "Figure 2: A figure of bi-level optimization for πθ and λ. The task reward gives the gradient signal\nfor training λ, and the sum of both sources of rewards provides the gradient signal for optimizing\nπθ.",
+            "crop_pdf_points": [
+              190,
+              73,
+              415,
+              165
+            ],
+            "vector_paths": 0,
+            "native_text_spans": 0,
+            "raster_images": 1,
+            "source_type": "raster",
+            "visually_inspected": true,
+            "notes": "Compact bi-level optimization signal-flow diagram; black environment/action/state loop and blue task/diversity gradient arrows around policy, lambda multiplier, phi representation and reward sum."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +146,153 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.356841Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "624a3a3dc6f2d6cbd4f654bc79ec7d56963aae0265dc1335d7d5165cf42c0266",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-skill-discovery-as-exploration-for-learning-agile-locomotion.json",
+                "https://arxiv.org/pdf/2508.08982v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-skill-discovery-as-exploration-for-learning-agile-locomotion.json",
+                "sha256": "06cbfcbc650aeedf3b44c1d55bdbd3f9497921e422e0fbecbcbc33e0b2c6b6a1"
+              },
+              "version": "2508.08982v1",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Unsupervised Skill Discovery as Exploration for Learning Agile Locomotion",
+              "observed_title": "Unsupervised Skill Discovery as Exploration for Learning Agile Locomotion",
+              "source_url": "https://arxiv.org/pdf/2508.08982v1",
+              "source_sha256": "19732e8b2d8a811c612ba64fd4f750e61bca06df613df5573098266081dfe67d",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-skill-discovery-as-exploration-for-learning-agile-locomotion.json",
+                "https://arxiv.org/pdf/2508.08982v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-skill-discovery-as-exploration-for-learning-agile-locomotion.json",
+                "sha256": "06cbfcbc650aeedf3b44c1d55bdbd3f9497921e422e0fbecbcbc33e0b2c6b6a1"
+              },
+              "version": "2508.08982v1",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/unsupervised-skill-discovery-as-exploration-for-learning-agile-locomotion/original.pdf",
+                "reported_sha256": "19732e8b2d8a811c612ba64fd4f750e61bca06df613df5573098266081dfe67d",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 17,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-skill-discovery-as-exploration-for-learning-agile-locomotion.json",
+                "https://arxiv.org/pdf/2508.08982v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-skill-discovery-as-exploration-for-learning-agile-locomotion.json",
+                "sha256": "06cbfcbc650aeedf3b44c1d55bdbd3f9497921e422e0fbecbcbc33e0b2c6b6a1"
+              },
+              "version": "2508.08982v1",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 3,
+                  "caption": "Figure 2: A figure of bi-level optimization for πθ and λ. The task reward gives the gradient signal\nfor training λ, and the sum of both sources of rewards provides the gradient signal for optimizing\nπθ.",
+                  "crop_pdf_points": [
+                    190,
+                    73,
+                    415,
+                    165
+                  ],
+                  "vector_paths": 0,
+                  "native_text_spans": 0,
+                  "raster_images": 1,
+                  "source_type": "raster",
+                  "visually_inspected": true,
+                  "notes": "Compact bi-level optimization signal-flow diagram; black environment/action/state loop and blue task/diversity gradient arrows around policy, lambda multiplier, phi representation and reward sum."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.836255Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "076fef62c582f202174e04e1c9515c6c7a90c0f6dbef227b501c35baf5d5288f",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-skill-discovery-as-exploration-for-learning-agile-locomotion.json",
+                "https://arxiv.org/pdf/2508.08982v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-skill-discovery-as-exploration-for-learning-agile-locomotion.json",
+                "sha256": "06cbfcbc650aeedf3b44c1d55bdbd3f9497921e422e0fbecbcbc33e0b2c6b6a1"
+              },
+              "version": "2508.08982v1",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Unsupervised Skill Discovery as Exploration for Learning Agile Locomotion",
+              "observed_title": "Unsupervised Skill Discovery as Exploration for Learning Agile Locomotion",
+              "source_url": "https://arxiv.org/pdf/2508.08982v1",
+              "source_sha256": "19732e8b2d8a811c612ba64fd4f750e61bca06df613df5573098266081dfe67d",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

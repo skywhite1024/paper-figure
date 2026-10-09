@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.487860Z",
-  "updated_at": "2026-10-09T20:04:59.487860Z",
+  "updated_at": "2026-10-09T20:14:36.439578Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,102 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery.json",
+          "https://arxiv.org/pdf/2311.02058v4"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery.json",
+          "sha256": "9d726986f3a944ed1c6d7e00e798b4c8bab3d012dbe445da5855dffa5c2f225e"
+        },
+        "version": "2311.02058v4",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "LOTUS: Continual Imitation Learning for Robot Manipulation through Unsupervised Skill Discovery",
+        "observed_title": "LOTUS: Continual Imitation Learning for Robot Manipulation Through Unsupervised Skill Discovery",
+        "source_url": "https://arxiv.org/pdf/2311.02058v4",
+        "source_sha256": "150ebaa87d207930853ef55ccaa1caba82e85bd76cf9dd1de5f0564ef06a8d16",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery.json",
+          "https://arxiv.org/pdf/2311.02058v4"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery.json",
+          "sha256": "9d726986f3a944ed1c6d7e00e798b4c8bab3d012dbe445da5855dffa5c2f225e"
+        },
+        "version": "2311.02058v4",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery.pdf",
+          "reported_sha256": "150ebaa87d207930853ef55ccaa1caba82e85bd76cf9dd1de5f0564ef06a8d16",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 8,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery.json",
+          "https://arxiv.org/pdf/2311.02058v4"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery.json",
+          "sha256": "9d726986f3a944ed1c6d7e00e798b4c8bab3d012dbe445da5855dffa5c2f225e"
+        },
+        "version": "2311.02058v4",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 4,
+            "caption": "LOTUS continual skill discovery and hierarchical policy.",
+            "crop_pdf_points": [
+              62,
+              49,
+              562,
+              225
+            ],
+            "vector_paths": 431,
+            "native_text_spans": 80,
+            "raster_images": 33,
+            "visually_inspected": true,
+            "notes": "Two detailed architecture panels; DINOv2 clustering/open-world library update and transformer-based hierarchical policy."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +145,180 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.983173Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "b78bccf0a05f29426b5dfc9f6dc95b0a42eb9c606b536a09b77f8384701ea2b3",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery.json",
+                "https://arxiv.org/pdf/2311.02058v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery.json",
+                "sha256": "bf3e1a6e91df01e1e085815b13bda63a0612addfd1cf9283d1c759271561b196"
+              },
+              "version": "2311.02058v4",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "LOTUS: Continual Imitation Learning for Robot Manipulation through Unsupervised Skill Discovery",
+              "observed_title": "LOTUS: Continual Imitation Learning for Robot Manipulation Through Unsupervised Skill Discovery",
+              "source_url": "https://arxiv.org/pdf/2311.02058v4",
+              "source_sha256": "150ebaa87d207930853ef55ccaa1caba82e85bd76cf9dd1de5f0564ef06a8d16",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery.json",
+                "https://arxiv.org/pdf/2311.02058v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery.json",
+                "sha256": "bf3e1a6e91df01e1e085815b13bda63a0612addfd1cf9283d1c759271561b196"
+              },
+              "version": "2311.02058v4",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery.pdf",
+                "reported_sha256": "150ebaa87d207930853ef55ccaa1caba82e85bd76cf9dd1de5f0564ef06a8d16",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 8,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.439578Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "f6bf08ebc144125fdacb50e55a6319a4ba7173f428e5983fa63fd92b2b62fa37",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery.json",
+                "https://arxiv.org/pdf/2311.02058v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery.json",
+                "sha256": "9d726986f3a944ed1c6d7e00e798b4c8bab3d012dbe445da5855dffa5c2f225e"
+              },
+              "version": "2311.02058v4",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "LOTUS: Continual Imitation Learning for Robot Manipulation through Unsupervised Skill Discovery",
+              "observed_title": "LOTUS: Continual Imitation Learning for Robot Manipulation Through Unsupervised Skill Discovery",
+              "source_url": "https://arxiv.org/pdf/2311.02058v4",
+              "source_sha256": "150ebaa87d207930853ef55ccaa1caba82e85bd76cf9dd1de5f0564ef06a8d16",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery.json",
+                "https://arxiv.org/pdf/2311.02058v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery.json",
+                "sha256": "9d726986f3a944ed1c6d7e00e798b4c8bab3d012dbe445da5855dffa5c2f225e"
+              },
+              "version": "2311.02058v4",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery.pdf",
+                "reported_sha256": "150ebaa87d207930853ef55ccaa1caba82e85bd76cf9dd1de5f0564ef06a8d16",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 8,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery.json",
+                "https://arxiv.org/pdf/2311.02058v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/lotus-continual-imitation-learning-for-robot-manipulation-through-unsupervised-skill-discovery.json",
+                "sha256": "9d726986f3a944ed1c6d7e00e798b4c8bab3d012dbe445da5855dffa5c2f225e"
+              },
+              "version": "2311.02058v4",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 4,
+                  "caption": "LOTUS continual skill discovery and hierarchical policy.",
+                  "crop_pdf_points": [
+                    62,
+                    49,
+                    562,
+                    225
+                  ],
+                  "vector_paths": 431,
+                  "native_text_spans": 80,
+                  "raster_images": 33,
+                  "visually_inspected": true,
+                  "notes": "Two detailed architecture panels; DINOv2 clustering/open-world library update and transformer-based hierarchical policy."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,91 @@
+{
+  "catalog_index": 86,
+  "catalog_id": "robolab-a-high-fidelity-simulation-benchmark-for-analysis-of-task-generalist-policies",
+  "title_expected": "RoboLab: A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies",
+  "source_url": "https://arxiv.org/pdf/2604.09860v4",
+  "pdf_path": "build/sources/robolab-a-high-fidelity-simulation-benchmark-for-analysis-of-task-generalist-policies.pdf",
+  "pdf_sha256": "49da5e317e36c4320eb3896cfca4ea1600908f8ed591a1e643ff65c405fba73e",
+  "pdf_title_observed": "RoboLab: A High-Fidelity Simulation Benchmark for Analysis of Task Generalist Policies",
+  "first_page_title_text": "RoboLab: A High-Fidelity Simulation Benchmark\nfor Analysis of Task Generalist Policies\nJenai Xuning Yang1, Rishit Dagli2,4, Alex Zook1, Hugo Hadfield1,\nAnkit Goyal1, Stan Birchfield1, Fabio Ramos1,3, and Jonathan Tremblay1\n1NVIDIA, 2University of Toronto, 3The University of Sydney, 4Work done during internship at NVIDIA\nFig. 1: Overview of RoboLab. RoboLab addresses large-scale evaluation of real-",
+  "title_match": true,
+  "version": "2604.09860v4",
+  "page_count": 20,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Fig. 1: Overview of RoboLab. RoboLab addresses large-scale evaluation of real-world policies via a novel evaluation framework. By introducing a streamlined pipeline for generating new scenes and tasks (top row), RoboLab enables rapid extensibility for testing generalization capabilities. The accompanying benchmark, RoboLab-120, introduces various evaluation axes and a suite of metrics and analysis tools, and demonstrate benchmark-level correlatio",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 2,
+      "caption_excerpt": "Fig. 2: Three approaches for robotic benchmarks. LEFT: To date, pure simulation based benchmarks have exhibited low visual quality, creating a large sim2real transfer gap. MIDDLE: Real2sim benchmarks address this issue by using techniques to bring real-world visual texture into simulation. However, these environments are extremely costly with reported per-scene generation time of ∼1hr [9]. RIGHT: Our approach achieves a high degree of realism wit",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 3,
+      "caption_excerpt": "Fig. 3: Task progression of a few tasks, illustrating errors encountered during policy rollout. Top row: Although the task is successfully completed, errors were encountered during execution: 1) The robot drops the milk jug too early, missing the bin. 2) the robot grasps an orange (wrong object) and puts it in the bin. Mid row: An extraneous object was reoriented before the actual intended object. Final row: Intended objects were attempted unsucc",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 3,
+      "caption_excerpt": "Fig. 4: Example of language instructions in RoboLab-120. enables evaluation of the same tasks across different robot embodiments. By deferring robot- and experiment-specific binding to runtime, we facilitate systematic evaluation of tasks across robot configurations and policy variants, without having embodiment-specific training. Formally, define a scene S = {(bi, pi, qi)}N i=1, where bi represents an object instance selected from the available ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 5: Comparison of policy performance for bowl-in-bin manipulation. Rows represent distinct policies shown in chronological order (left to right). Successful execution involves grasping the central red bowl and depositing it into the gray bin on the right. Unsuccessful attempts are characterized by aimless arm trajectories and a lack of object interaction. the scene is then forward simulated in Isaac Sim [21] for 300 steps under gravity. An ob",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 6: Example scene variations, lighting variations, and camera pose variations in RoboLab. horizon, discussed in Sec. IV-B. C. Metrics for Evaluation While task success rate remains a fundamental metric, prior work [13] has demonstrated that they fail to reveal nuanced aspects of policy behavior and failure modes. Unlike approaches relying on human judgment [11], we define a set of discrete and continuous metrics to characterize policy perform",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 7: Examples of language ablation experiments. Top: Same scene and goal, but the instruction wording ranges from precise to increasingly vague. Middle: Same scene, but the instruction specifies different tasks to perform. Bottom: Same instruction, but the scene becomes progressively more complex. dataset [12]: π0.5 [26], π0-FAST [25], π0 [4], PaliGemma [3], GR00T N1.6 [22]. The action space is 7-DOF Franka joint positions and a 1- DOF binary ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 7. Performance relative to instruction specificity. Fig. 8a reports overall RoboLab-120 success rates under three levels of instruction specificity (vague, default, specific) for the same underlying tasks and scenes. We observe degradation as instructions become more abstract (e.g., π0.5 drops from 28.0% on default to 15.3% on vague) This sensitivity reveals that current models lack robust reasoning against the task goal. A truly generalist ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 8",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 8: Effect of language, scene complexity, and task horizon on policy performance (success rate). Performance using success rate across complexity axes. For a robust policy, performance should relatively comparable as complexity increases. (a) Performance degrades as instructions become more abstract, indicating brittle task-level reasoning. (b) Performance degrades sharply as the number of objects in the scene increases, exposing systematic g",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 6. These are: 1) Wrist and external camera poses; 2) object poses; 3) Visual features, including background and table textures; and 4) Lighting, including saturation and hue. Table II illustrates the results for all experiments. Visual and Lighting variations. We vary the lighting conditions via color temperature shifts, lighting exposure and strong directional light that generates shadows as the robot is moving. Lighting: Models were robust",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 9",
+      "page_1_based": 8,
+      "caption_excerpt": "Fig. 9: Results of the sensitivity analysis using MNPE. Policies were highly sensitive to wrist-camera displacement from the nominal pose, indicating strong dependence on wrist-mounted camera calibration. Success also peaked for objects placed at approximately 0.5m from the robot, likely due to robot reachability. Fig. 10: Correlation between RoboLab-120 success rate and RoboArena Elo score across the four policies with both measurements availabl",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 10",
+      "page_1_based": 8,
+      "caption_excerpt": "Fig. 10: Correlation between RoboLab-120 success rate and RoboArena Elo score across the four policies with both measurements available (π0.5, π0-FAST, π0, PaliGemma). Rankings are preserved (Spearman ρ = 1.00) and the scores are positively correlated (Pearson r = 0.68), suggesting RoboLab-120 performance is a useful proxy for real-world policy quality. TABLE II: Robustness to controlled environmental variations over two simple tasks (BananaInBow",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

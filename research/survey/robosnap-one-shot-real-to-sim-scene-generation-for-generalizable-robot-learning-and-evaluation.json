@@ -1,0 +1,55 @@
+{
+  "catalog_index": 84,
+  "catalog_id": "robosnap-one-shot-real-to-sim-scene-generation-for-generalizable-robot-learning-and-evaluation",
+  "title_expected": "RoboSnap: One-Shot Real-to-Sim Scene Generation for Generalizable Robot Learning and Evaluation",
+  "source_url": "https://arxiv.org/pdf/2607.06699v1",
+  "pdf_path": "build/sources/robosnap-one-shot-real-to-sim-scene-generation-for-generalizable-robot-learning-and-evaluation.pdf",
+  "pdf_sha256": "62ab8556acff89b6af105d3b6340f35a59f789dad1af99733ef80dacd558b9d5",
+  "pdf_title_observed": "RoboSnap: One-Shot Real-to-Sim Scene Generation for Generalizable Robot Learning and Evaluation",
+  "first_page_title_text": " ROBOSNAP\n ROBOSNAP\n ROBOSNAP\n ROBOSNAP\n ROBOSNAP: One-Shot Real-to-Sim Scene\nGeneration for Generalizable Robot Learning and\nEvaluation\nShujie Zhang1 4 *\nJingkun Yi1 3 *\nWeipeng Zhong1 2\nZirui Zhou4\nYangkun Zhu1\nHanqing Wang1\nXudong Xu1 †\nWeinan Zhang1 2\nChunhua Shen1 3\n1Shanghai AI Laboratory\n2Shanghai Jiao Tong University\n3Zhejiang University\n4Tsinghua University\nHomepage:\nHomepage:\nHomepa",
+  "title_match": true,
+  "version": "2607.06699v1",
+  "page_count": 24,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Figure 1: From a single RGB image, ROBOSNAP reconstructs a reusable simulation-ready scene with interactive physical assets and visual context. The recovered scenes support trajectory replay (top-left), task-specific data generation and augmentation (top-right, bottom-left), and policy eval- uation with meaningful sim-real correlation (bottom-right). Abstract: Recovering real-world scenes as interactive simulation environments can enable generali",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 2: Overview of ROBOSNAP. (1) From a single RGB image, ROBOSNAP decomposes the scene into an interactive physical layer and a re-renderable visual context layer. (2) The resulting layered scene is refined to resolve severe physical instabilities. (3) The simulation-ready scene supports task-specific synthetic data generation and closed-loop policy evaluation. 3.1 Layered Scene Reconstruction from a Single Image Problem formulation. Given a ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 3: Quantitative and qualitative results. Top: averages over 10 scenes. Bottom: visualizations under extrinsic camera settings. Simulation Readiness. We define a scene as simulation-ready if it remains physically stable with- out severe floating or interpenetration after being loaded into a simulator. We import each recon- struction into Isaac Sim [58] and run the physics simulation for 300 frames. ROBOSNAP sub- stantially improves stabilit",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 4: Replay examples visualization. Full replay results are provided in the supplementary video. This evaluation differs from demonstration- driven real-to-sim pipelines such as ReBot [37] and RialTo [15]. These methods use demon- stration signals, such as gripper trajectories or real-policy rollouts, to place objects or collect privileged trajectories in simulation. In con- trast, our replay experiment evaluates the recov- ered scene itself",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 5: Real-world evaluation setups and tasks. Left: four real world scene setups. Right: task suite for each real-world scene. Tasks 3.1 and 3.2 are consecutive stages of a long-horizon task. Across four real setups, we fine-tune π0.5 [5] and π0 [4] under a real-only baseline and three streamed data-mixture settings over (real demonstrations, ROBOSNAP-generated demon- strations, simulation-augmented demonstrations): R1=(0.2, 0.4, 0.4), R2=(0.",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 6: Sim-real correlation. Real and sim- ulated success rates (%) of real-only fine-tuned π0.5 policies. Generative evaluation (Q5) refers to flexible policy evaluation through synthetic environ- ments. This is challenging for manipulation since embodied evaluation depends on both vi- sual realism and contact dynamics. To assess whether ROBOSNAP scenes can serve as a gen- erative evaluation harness, we run the real-only fine-tuned π0.5 polic",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

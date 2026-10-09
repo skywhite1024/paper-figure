@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "direct-then-diffuse-incremental-unsupervised-skill-discovery-for-state-covering-and-goal-reaching",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.467919Z",
-  "updated_at": "2026-10-09T20:04:59.467919Z",
+  "updated_at": "2026-10-09T20:14:36.069407Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,103 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/direct-then-diffuse-incremental-unsupervised-skill-discovery-for-state-covering-and-goal-reaching.json",
+          "https://arxiv.org/pdf/2110.14457v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/direct-then-diffuse-incremental-unsupervised-skill-discovery-for-state-covering-and-goal-reaching.json",
+          "sha256": "3ee407e8e3c8d2a319acb9a46af49b4fa5030eaf0ae9517e8ab75dc5cd94dd93"
+        },
+        "version": "2110.14457v2",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Direct then Diffuse: Incremental Unsupervised Skill Discovery for State Covering and Goal Reaching",
+        "observed_title": "Direct then Diffuse: Incremental Unsupervised Skill Discovery for State Covering and Goal Reaching",
+        "source_url": "https://arxiv.org/pdf/2110.14457v2",
+        "source_sha256": "4ca5e9154fe80d448399b284f25065f7451339757b2266e94405ec7a6aec866e",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/direct-then-diffuse-incremental-unsupervised-skill-discovery-for-state-covering-and-goal-reaching.json",
+          "https://arxiv.org/pdf/2110.14457v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/direct-then-diffuse-incremental-unsupervised-skill-discovery-for-state-covering-and-goal-reaching.json",
+          "sha256": "3ee407e8e3c8d2a319acb9a46af49b4fa5030eaf0ae9517e8ab75dc5cd94dd93"
+        },
+        "version": "2110.14457v2",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/direct-then-diffuse-incremental-unsupervised-skill-discovery-for-state-covering-and-goal-reaching/original.pdf",
+          "reported_sha256": "4ca5e9154fe80d448399b284f25065f7451339757b2266e94405ec7a6aec866e",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 25,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/direct-then-diffuse-incremental-unsupervised-skill-discovery-for-state-covering-and-goal-reaching.json",
+          "https://arxiv.org/pdf/2110.14457v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/direct-then-diffuse-incremental-unsupervised-skill-discovery-for-state-covering-and-goal-reaching.json",
+          "sha256": "3ee407e8e3c8d2a319acb9a46af49b4fa5030eaf0ae9517e8ab75dc5cd94dd93"
+        },
+        "version": "2110.14457v2",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 1",
+            "page_1_based": 2,
+            "caption": "Figure 1: Overview of UPSIDE. The black dot corresponds to the initial state. (A) A set of random policies is\ninitialized, each policy being composed of a directed part called skill (illustrated as a black arrow) and a dif-\nfusing part (red arrows) which induces a local coverage (colored circles). (B) The skills are then updated to\nmaximize the discriminability of the states reached by their corresponding diffusing part (Sect. 3.1). (C) The\nleast discriminable policies are iteratively removed while the remaining policies are re-optimized. This is ex-\necuted until the discriminability of each policy satisﬁes a given constraint (Sect. 3.2). In this example two\npolicies are consolidated. (D) One of these policies is used as basis to add new policies, which are then opti-\nmized following the same procedure. For the “red” and “purple” policy, UPSIDE is not able to ﬁnd sub-policies\nof sufﬁcient quality and thus they are not expanded any further. (E) At the end of the process, UPSIDE has\ncreated a tree of policies covering the state space, with skills as edges and diffusing parts as nodes (Sect. 3.3).",
+            "crop_pdf_points": [
+              108,
+              80,
+              504,
+              189
+            ],
+            "vector_paths": 0,
+            "native_text_spans": 0,
+            "raster_images": 1,
+            "source_type": "raster",
+            "visually_inspected": true,
+            "notes": "Five-panel UPSIDE process: random directed/diffusing skill policies, increased discriminability and coverage, policy splitting and tree expansion. Includes left structure legend."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +146,153 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.608963Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "cfa8021c0d3a0a08fcf31993b4ffa22465df9fca7e9f35ce0340359c7f4f1c77",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/direct-then-diffuse-incremental-unsupervised-skill-discovery-for-state-covering-and-goal-reaching.json",
+                "https://arxiv.org/pdf/2110.14457v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/direct-then-diffuse-incremental-unsupervised-skill-discovery-for-state-covering-and-goal-reaching.json",
+                "sha256": "3ee407e8e3c8d2a319acb9a46af49b4fa5030eaf0ae9517e8ab75dc5cd94dd93"
+              },
+              "version": "2110.14457v2",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Direct then Diffuse: Incremental Unsupervised Skill Discovery for State Covering and Goal Reaching",
+              "observed_title": "Direct then Diffuse: Incremental Unsupervised Skill Discovery for State Covering and Goal Reaching",
+              "source_url": "https://arxiv.org/pdf/2110.14457v2",
+              "source_sha256": "4ca5e9154fe80d448399b284f25065f7451339757b2266e94405ec7a6aec866e",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/direct-then-diffuse-incremental-unsupervised-skill-discovery-for-state-covering-and-goal-reaching.json",
+                "https://arxiv.org/pdf/2110.14457v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/direct-then-diffuse-incremental-unsupervised-skill-discovery-for-state-covering-and-goal-reaching.json",
+                "sha256": "3ee407e8e3c8d2a319acb9a46af49b4fa5030eaf0ae9517e8ab75dc5cd94dd93"
+              },
+              "version": "2110.14457v2",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/direct-then-diffuse-incremental-unsupervised-skill-discovery-for-state-covering-and-goal-reaching/original.pdf",
+                "reported_sha256": "4ca5e9154fe80d448399b284f25065f7451339757b2266e94405ec7a6aec866e",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 25,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/direct-then-diffuse-incremental-unsupervised-skill-discovery-for-state-covering-and-goal-reaching.json",
+                "https://arxiv.org/pdf/2110.14457v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/direct-then-diffuse-incremental-unsupervised-skill-discovery-for-state-covering-and-goal-reaching.json",
+                "sha256": "3ee407e8e3c8d2a319acb9a46af49b4fa5030eaf0ae9517e8ab75dc5cd94dd93"
+              },
+              "version": "2110.14457v2",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 1",
+                  "page_1_based": 2,
+                  "caption": "Figure 1: Overview of UPSIDE. The black dot corresponds to the initial state. (A) A set of random policies is\ninitialized, each policy being composed of a directed part called skill (illustrated as a black arrow) and a dif-\nfusing part (red arrows) which induces a local coverage (colored circles). (B) The skills are then updated to\nmaximize the discriminability of the states reached by their corresponding diffusing part (Sect. 3.1). (C) The\nleast discriminable policies are iteratively removed while the remaining policies are re-optimized. This is ex-\necuted until the discriminability of each policy satisﬁes a given constraint (Sect. 3.2). In this example two\npolicies are consolidated. (D) One of these policies is used as basis to add new policies, which are then opti-\nmized following the same procedure. For the “red” and “purple” policy, UPSIDE is not able to ﬁnd sub-policies\nof sufﬁcient quality and thus they are not expanded any further. (E) At the end of the process, UPSIDE has\ncreated a tree of policies covering the state space, with skills as edges and diffusing parts as nodes (Sect. 3.3).",
+                  "crop_pdf_points": [
+                    108,
+                    80,
+                    504,
+                    189
+                  ],
+                  "vector_paths": 0,
+                  "native_text_spans": 0,
+                  "raster_images": 1,
+                  "source_type": "raster",
+                  "visually_inspected": true,
+                  "notes": "Five-panel UPSIDE process: random directed/diffusing skill policies, increased discriminability and coverage, policy splitting and tree expansion. Includes left structure legend."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.069407Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "c2e4e42a5cafeb76795f4bb5c15c186e5d70479a6b4f24b417580980db22b6eb",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/direct-then-diffuse-incremental-unsupervised-skill-discovery-for-state-covering-and-goal-reaching.json",
+                "https://arxiv.org/pdf/2110.14457v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/direct-then-diffuse-incremental-unsupervised-skill-discovery-for-state-covering-and-goal-reaching.json",
+                "sha256": "3ee407e8e3c8d2a319acb9a46af49b4fa5030eaf0ae9517e8ab75dc5cd94dd93"
+              },
+              "version": "2110.14457v2",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Direct then Diffuse: Incremental Unsupervised Skill Discovery for State Covering and Goal Reaching",
+              "observed_title": "Direct then Diffuse: Incremental Unsupervised Skill Discovery for State Covering and Goal Reaching",
+              "source_url": "https://arxiv.org/pdf/2110.14457v2",
+              "source_sha256": "4ca5e9154fe80d448399b284f25065f7451339757b2266e94405ec7a6aec866e",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,84 @@
+{
+  "catalog_index": 68,
+  "catalog_id": "modality-selection-and-skill-segmentation-via-cross-modality-attention",
+  "title_expected": "Modality Selection and Skill Segmentation via Cross-Modality Attention",
+  "source_url": "https://arxiv.org/pdf/2504.14573v1",
+  "pdf_path": "build/sources/modality-selection-and-skill-segmentation-via-cross-modality-attention.pdf",
+  "pdf_sha256": "0307974b706b725f0ed06767662309bfbf5e0e0725327387ae0c49cdf9489262",
+  "pdf_title_observed": "Modality Selection and Skill Segmentation via Cross-Modality Attention",
+  "first_page_title_text": "Modality Selection and Skill Segmentation via\nCross-Modality Attention\nJiawei Jiang\nScience Tokyo\nKei Ota\nMitsubishi Electric\nDevesh K. Jha\nMERL\nAsako Kanezaki\nScience Tokyo\nAbstract\nIncorporating additional sensory modalities such as\ntactile and audio into foundational robotic models poses\nsignificant challenges due to the curse of dimensionality.\nThis work addresses this issue through modality s",
+  "title_match": true,
+  "version": "2504.14573v1",
+  "page_count": 6,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 3,
+      "caption": "Three stages design.",
+      "crop_pdf_points": [
+        98,
+        71,
+        496,
+        197
+      ],
+      "vector_paths": 0,
+      "native_text_spans": 0,
+      "raster_images": 1,
+      "visually_inspected": true,
+      "notes": "CMA imitation-learning stage, clustering/segmentation stage, and hierarchical primitive action policy stage."
+    }
+  ],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 1: Three stages design. First stage: train CMA using imitation learning. Second stage: Use CMA to cluster and segment primitive actions. Thrid stage: Train a hierarchical policy that select and execute individual primitive actions that only select useful modalities as input. Figure 2: Attention weights obtained through training a multimodal diffusion model. 4 Experiments 4.1 Settings In this section, we investigate our hypothesis that CMA ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 2: Attention weights obtained through training a multimodal diffusion model. 4 Experiments 4.1 Settings In this section, we investigate our hypothesis that CMA can be used to segment primitive actions in an un- supervised fashion after sufficient training by answering the following questions: 1. Does CMA learn characteristics of different primi- tive actions? 2. Does training primitive actions improve efficiency? 3. Can we use unsupervised",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 3: Primitive Actions. Figure 4: Validation Loss. the self-attention is formulated as, Attention(Q, K, V ) = softmax \u0012QK⊤ √dk \u0013 | {z } Attention Weights ·V We customize the self-attention block in the CMA to return both the attention weights and the final output. We take the attention weights of the last layer, averaged across all heads, for our experiment as it is most directly connected to the final decision making. The pattern of the att",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 4: Validation Loss. the self-attention is formulated as, Attention(Q, K, V ) = softmax \u0012QK⊤ √dk \u0013 | {z } Attention Weights ·V We customize the self-attention block in the CMA to return both the attention weights and the final output. We take the attention weights of the last layer, averaged across all heads, for our experiment as it is most directly connected to the final decision making. The pattern of the attention weights show clear dif",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 2. 4.3 Training Whole Trajectory v.s. Individual Primitives In this section, we show the results of training a single policy using the entire trajectory v.s. training 6 different policies for each individual primitive action in Figure 4. We train each individual policy for 200,000 steps to en- sure the total training steps match those of the baseline model. The validation loss graph shows that training policies for primitive actions drasti",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 4. We train each individual policy for 200,000 steps to en- sure the total training steps match those of the baseline model. The validation loss graph shows that training policies for primitive actions drastically improve sam- ple efficiency and accuracy except the screwing action, which we will explain in Section 4.4. Figure 5: T-SNE graph of primitive actions 4.4 Clustering action segments Here we visualize the embedding space of the pri",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 5: T-SNE graph of primitive actions 4.4 Clustering action segments Here we visualize the embedding space of the primi- tive actions using T-SNE for an entire trajectory. We can see that the embeddings have been separated into clusters. However, due to the ambiguity in human labels the clustering is not perfect. For example, some actions from Grab & Move are grouped into the Reach Base action, and the Screw action has been grouped into two ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 4. It may be more effective to segment the trajectory using unsupervised methods. 5 Conclusion Our results confirmed our hypothesis and answered three crucial questions for future research: 1. Cross Modality Attention learns characteristics of different primitive actions through the attention weights. 2. Training individual primitive actions drastically improve training efficiency, because of the mas- sively different input distribution am",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
+}

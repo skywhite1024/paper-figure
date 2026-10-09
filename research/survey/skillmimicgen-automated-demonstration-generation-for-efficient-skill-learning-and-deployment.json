@@ -1,0 +1,49 @@
+{
+  "catalog_index": 129,
+  "catalog_id": "skillmimicgen-automated-demonstration-generation-for-efficient-skill-learning-and-deployment",
+  "title_expected": "SkillMimicGen: Automated Demonstration Generation for Efficient Skill Learning and Deployment",
+  "source_url": "https://arxiv.org/pdf/2410.18907v1",
+  "pdf_path": "build/sources/skillmimicgen-automated-demonstration-generation-for-efficient-skill-learning-and-deployment.pdf",
+  "pdf_sha256": "2bdf9e56f6b7f59832f116710bd8c18369d51c3f16cccc16651180fa0c3e2c7a",
+  "pdf_title_observed": "SkillMimicGen: Automated Demonstration Generation for Efficient Skill Learning and Deployment",
+  "first_page_title_text": "SkillMimicGen: Automated\nDemonstration Generation for Efficient\nSkill Learning and Deployment\nCaelan Garrett∗, Ajay Mandlekar∗, Bowen Wen, Dieter Fox\nNVIDIA, ∗equal contribution\nAbstract: Imitation learning from human demonstrations is an effective paradigm\nfor robot manipulation, but acquiring large datasets is costly and resource-\nintensive, especially for long-horizon tasks. To address this iss",
+  "title_match": true,
+  "version": "2410.18907v1",
+  "page_count": 41,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1: SkillGen Overview. SkillGen trains proficient agents with minimal human effort. (left) First, a human teleoperator first collects ∼3 demonstrations of the task and annotates the start and end of the skill segments, where each object interaction happens. (middle) Then, SkillGen automatically adapts these local skill demonstrations to new scenes and connects them through motion planning to amplify the number of successful demonstrations. ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Fig. 1. The robot must move through free space before picking the butter and also before inserting the butter into the trash can. This kind of free space motion can be easy for planning systems, and greatly reduce the burden on policy learning. From this observation, we propose SkillMimicGen (SkillGen), a system that leverages the notion of a manipulation skill to isolate demonstration adaptation to contact-rich segments. At data-generation time,",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 2: HSP Deployment. At test-time SkillGen, executes several learned skills in sequence, using motion planning to connect the termination state of the last skill with an initiation state of the next skill. Each skill consists of the initiation condition Iθ, the closed-loop controller πθ, and the termination condition Tθ. adopting a skill-based framework allows for more focused demonstration replay (Section 4.4) and ultimately improved policy",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 3: Tasks. We deploy SkillGen on 6 simulation tasks (18 task variants, see Appendix J) (a-f) and 4 real- world tasks (g-j). These tasks involve fine-grained insertion (a-d), composing several manipulation behaviors together (e, f), real-world data generation and training (g-i) and zero-shot sim-to-real policy transfer (j). 5 Experiment Setup Tasks and Task Variants. We applied SkillGen to a broad range of tasks (see Fig. 3, full details in ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 4: (left) Agent Performance on SkillGen Datasets. Success rates of agents trained on source demon- strations (with HSP-TAMP), MimicGen [11] data (with BC-RNN [1]), and SkillGen data (with all HSP vari- ants). SkillGen data greatly improves agent performance on D0 compared to the source data, and SkillGen agents substantially outperform MimicGen agents, especially on more challenging task variants. (upper right) Training Data Comparison. HS",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

@@ -1,0 +1,67 @@
+{
+  "catalog_index": 125,
+  "catalog_id": "dreamgen-unlocking-generalization-in-robot-learning-through-video-world-models",
+  "title_expected": "DreamGen: Unlocking Generalization in Robot Learning through Video World Models",
+  "source_url": "https://arxiv.org/pdf/2505.12705v2",
+  "pdf_path": "build/sources/dreamgen-unlocking-generalization-in-robot-learning-through-video-world-models.pdf",
+  "pdf_sha256": "e4e2c5c9e664d9331adb49c230053a76cf5bb4c3501341f4d9b372ecc585684c",
+  "pdf_title_observed": "DreamGen: Unlocking Generalization in Robot Learning through Video World Models",
+  "first_page_title_text": "arXiv:2505.12705v2  [cs.RO]  17 Jun 2025\nDREAMGEN: Unlocking Generalization in\nRobot Learning through Video World Models\nJoel Jang1,2,* Seonghyeon Ye1,3,* Zongyu Lin1,4,* Jiannan Xiang1,5,*\nJohan Bjorck1 Yu Fang1 Fengyuan Hu1 Spencer Huang1 Kaushil Kundalia1 Lin Yen-Chen1 Loic Magne1\nAjay Mandlekar1 Avnish Narayan1 You Liang Tan1 Guanzhi Wang1,6 Jing Wang1,7 Qi Wang1 Yinzhen Xu1\nXiaohui Zeng1 Kaiy",
+  "title_match": true,
+  "version": "2505.12705v2",
+  "page_count": 23,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Figure 1: Generalization through DREAMGEN. We enable 2D visuomotor robot policies to generalize to new environments with new behaviors, while only collecting teleoperation data for a single behavior type (pick&place) in a single environment by utilizing video world models as synthetic data generators. Abstract: We introduce DREAMGEN, a simple yet highly effective 4-stage pipeline for training robot policies that generalize across behaviors and en",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 2: DREAMGEN Overview. We begin by fine-tuning a video world model on teleoperated robot trajectories. Given an initial frame and a language instruction, the model generates video rollouts depicting the intended behavior. As these videos lack action annotations, we infer pseudo-actions using either a latent action model or an inverse dynamics model, forming what we call neural trajectories. Finally, we train visuomotor robot policies on the",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 3: Extracting Pseudo Actions. (a) shows the architecture of our IDM model and (b) shows the architecture of our latent action model. IDM Actions. For the inverse dynamics model (IDM) architecture, we use diffusion transformers with SigLIP-2 vision encoder and train with a flow matching objective. IDM is conditioned on two image frames and is trained to predict action chunks between the image frames (Figure 3). We do not explicitly use any ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 4: Scaling # of Neural Trajectories in RoboCasa. We vary the sizes of neural trajectories (x-axis) and ground-truth trajectories (low, mid, high) and report results with both latent and IDM actions as pseudo action labels. We report the average success rate (%) across 24 tasks. The results at x = 0 correspond to the baseline only trained on ground-truth videos. 3 Experiments In this section, we demonstrate three key applications of DREAMGE",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 5: Real-world Robot Evaluation Results. The red rectangular box shows the range of object randomization during training and evaluation. Low Data denotes training 10% of available training data (only 10 trajectories per task except for GR1-folding, where we used 25 trajectories), and Low Data + Neural Traj. denotes co-training with neural trajectories. Real-world Experiments For real-world experiments, we collect 100 trajectories per task f",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 11",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 11. We use GR00T N1 as the base policy for this section. Behavior Generalization We investigate whether our pipeline enables robots to learn entirely new behaviors solely from neural trajectories without involving any human teleoperation. We define “new behaviors” as novel action verbs beyond adapting existing motions. Surprisingly, just given the initial frame and the language instruction, we observe that the video world model can general",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 6: Performance correlation between DreamGen Bench and RoboCasa. DreamGen Bench shows positive correlation to down- stream robot policy performance. To measure whether DreamGen Bench could be a proxy evaluation for the perfor- mance of the downstream robot policy, we measure the performance of the RoboCasa benchmark by only training on neural trajectories generated from the different video world models. A positive correlation between DreamG",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 6. As shown, the correlation between DreamGen Bench and RoboCasa shows a positive correlation, indicating that building a stronger video world model could lead to larger performance enhancement. 8 ",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

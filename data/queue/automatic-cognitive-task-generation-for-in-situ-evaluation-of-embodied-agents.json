@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "automatic-cognitive-task-generation-for-in-situ-evaluation-of-embodied-agents",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.495341Z",
-  "updated_at": "2026-10-09T20:04:59.495341Z",
+  "updated_at": "2026-10-09T20:14:35.907491Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/automatic-cognitive-task-generation-for-in-situ-evaluation-of-embodied-agents.json",
+          "https://arxiv.org/pdf/2602.05249v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/automatic-cognitive-task-generation-for-in-situ-evaluation-of-embodied-agents.json",
+          "sha256": "7eb9d4f457e4adb715243e0ea5e97aa06e9c841946dab210e7c67a5ca75aac6d"
+        },
+        "version": "2602.05249v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "Automatic Cognitive Task Generation for In-Situ Evaluation of Embodied Agents",
+        "observed_title": "Automatic Cognitive Task Generation for In-Situ Evaluation of Embodied Agents",
+        "source_url": "https://arxiv.org/pdf/2602.05249v1",
+        "source_sha256": "5ce5e9d22cc3bb50b1119408d319cf6b5cf2107e824579f33d542f7db9609747",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/automatic-cognitive-task-generation-for-in-situ-evaluation-of-embodied-agents.json",
+          "https://arxiv.org/pdf/2602.05249v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/automatic-cognitive-task-generation-for-in-situ-evaluation-of-embodied-agents.json",
+          "sha256": "7eb9d4f457e4adb715243e0ea5e97aa06e9c841946dab210e7c67a5ca75aac6d"
+        },
+        "version": "2602.05249v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/automatic-cognitive-task-generation-for-in-situ-evaluation-of-embodied-agents.pdf",
+          "reported_sha256": "5ce5e9d22cc3bb50b1119408d319cf6b5cf2107e824579f33d542f7db9609747",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 8,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.437749Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "8b20ca26d3f93b52b67a3396e487d30bac77ed509e4d5ec9a44c5b367830ee26",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/automatic-cognitive-task-generation-for-in-situ-evaluation-of-embodied-agents.json",
+                "https://arxiv.org/pdf/2602.05249v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/automatic-cognitive-task-generation-for-in-situ-evaluation-of-embodied-agents.json",
+                "sha256": "7eb9d4f457e4adb715243e0ea5e97aa06e9c841946dab210e7c67a5ca75aac6d"
+              },
+              "version": "2602.05249v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Automatic Cognitive Task Generation for In-Situ Evaluation of Embodied Agents",
+              "observed_title": "Automatic Cognitive Task Generation for In-Situ Evaluation of Embodied Agents",
+              "source_url": "https://arxiv.org/pdf/2602.05249v1",
+              "source_sha256": "5ce5e9d22cc3bb50b1119408d319cf6b5cf2107e824579f33d542f7db9609747",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/automatic-cognitive-task-generation-for-in-situ-evaluation-of-embodied-agents.json",
+                "https://arxiv.org/pdf/2602.05249v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/automatic-cognitive-task-generation-for-in-situ-evaluation-of-embodied-agents.json",
+                "sha256": "7eb9d4f457e4adb715243e0ea5e97aa06e9c841946dab210e7c67a5ca75aac6d"
+              },
+              "version": "2602.05249v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/automatic-cognitive-task-generation-for-in-situ-evaluation-of-embodied-agents.pdf",
+                "reported_sha256": "5ce5e9d22cc3bb50b1119408d319cf6b5cf2107e824579f33d542f7db9609747",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 8,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:35.907491Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "5bd81e16a4def3532bc8b2b945b068180c21fdd779096ee95a3ef01945227d5b",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/automatic-cognitive-task-generation-for-in-situ-evaluation-of-embodied-agents.json",
+                "https://arxiv.org/pdf/2602.05249v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/automatic-cognitive-task-generation-for-in-situ-evaluation-of-embodied-agents.json",
+                "sha256": "7eb9d4f457e4adb715243e0ea5e97aa06e9c841946dab210e7c67a5ca75aac6d"
+              },
+              "version": "2602.05249v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "Automatic Cognitive Task Generation for In-Situ Evaluation of Embodied Agents",
+              "observed_title": "Automatic Cognitive Task Generation for In-Situ Evaluation of Embodied Agents",
+              "source_url": "https://arxiv.org/pdf/2602.05249v1",
+              "source_sha256": "5ce5e9d22cc3bb50b1119408d319cf6b5cf2107e824579f33d542f7db9609747",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

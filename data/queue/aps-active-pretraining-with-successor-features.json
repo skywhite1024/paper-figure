@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "aps-active-pretraining-with-successor-features",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.468607Z",
-  "updated_at": "2026-10-09T20:04:59.468607Z",
+  "updated_at": "2026-10-09T20:14:35.899923Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,103 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/aps-active-pretraining-with-successor-features.json",
+          "https://arxiv.org/pdf/2108.13956v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/aps-active-pretraining-with-successor-features.json",
+          "sha256": "6594ade4911b397b8749778e184da22f1b7133942aaa59bc081f9d8dec82aa3a"
+        },
+        "version": "2108.13956v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "APS: Active Pretraining with Successor Features",
+        "observed_title": "APS: Active Pretraining with Successor Features",
+        "source_url": "https://arxiv.org/pdf/2108.13956v1",
+        "source_sha256": "4ec6775b24f294d39f97feb8d9954c5184c90faeab9563d385e3f32b3c1a436a",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/aps-active-pretraining-with-successor-features.json",
+          "https://arxiv.org/pdf/2108.13956v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/aps-active-pretraining-with-successor-features.json",
+          "sha256": "6594ade4911b397b8749778e184da22f1b7133942aaa59bc081f9d8dec82aa3a"
+        },
+        "version": "2108.13956v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/aps-active-pretraining-with-successor-features/original.pdf",
+          "reported_sha256": "4ec6775b24f294d39f97feb8d9954c5184c90faeab9563d385e3f32b3c1a436a",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 15,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/aps-active-pretraining-with-successor-features.json",
+          "https://arxiv.org/pdf/2108.13956v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/aps-active-pretraining-with-successor-features.json",
+          "sha256": "6594ade4911b397b8749778e184da22f1b7133942aaa59bc081f9d8dec82aa3a"
+        },
+        "version": "2108.13956v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 4,
+            "caption": "Figure 2: Diagram of the proposed method APS. On the left shows the concept of APS, during reward-free pretraining phase, reinforcement\nlearning is deployed to maximize the mutual information between the states induced by policy and the task variables. During testing,\nthe pre-trained state features can identify the downstream task by solving a linear regression problem , the pre-trained task conditioning\nsuccessor features can then quickly adapt to and solve the task. On the right shows the components of APS. APS consists of maximizing\nstate entropy in an abstract representation space (exploration, max H(s)) and leveraging explored data to learn task conditioning behaviors\n(exploitation, max −H(s|z)).",
+            "crop_pdf_points": [
+              119,
+              65,
+              478,
+              218
+            ],
+            "vector_paths": 28,
+            "native_text_spans": 18,
+            "raster_images": 0,
+            "source_type": "vector/text",
+            "visually_inspected": true,
+            "notes": "Left reward-free pretraining to linear-regression task identification; middle/right exploration entropy and successor-feature exploitation reward branches summed to intrinsic reward."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +146,153 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.431895Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "6487657a631d0a96e2cdc465fa940f25bd41470073d88cae2aabe0d0b6ed7ed7",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/aps-active-pretraining-with-successor-features.json",
+                "https://arxiv.org/pdf/2108.13956v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/aps-active-pretraining-with-successor-features.json",
+                "sha256": "6594ade4911b397b8749778e184da22f1b7133942aaa59bc081f9d8dec82aa3a"
+              },
+              "version": "2108.13956v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "APS: Active Pretraining with Successor Features",
+              "observed_title": "APS: Active Pretraining with Successor Features",
+              "source_url": "https://arxiv.org/pdf/2108.13956v1",
+              "source_sha256": "4ec6775b24f294d39f97feb8d9954c5184c90faeab9563d385e3f32b3c1a436a",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/aps-active-pretraining-with-successor-features.json",
+                "https://arxiv.org/pdf/2108.13956v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/aps-active-pretraining-with-successor-features.json",
+                "sha256": "6594ade4911b397b8749778e184da22f1b7133942aaa59bc081f9d8dec82aa3a"
+              },
+              "version": "2108.13956v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/aps-active-pretraining-with-successor-features/original.pdf",
+                "reported_sha256": "4ec6775b24f294d39f97feb8d9954c5184c90faeab9563d385e3f32b3c1a436a",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 15,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/aps-active-pretraining-with-successor-features.json",
+                "https://arxiv.org/pdf/2108.13956v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/aps-active-pretraining-with-successor-features.json",
+                "sha256": "6594ade4911b397b8749778e184da22f1b7133942aaa59bc081f9d8dec82aa3a"
+              },
+              "version": "2108.13956v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 4,
+                  "caption": "Figure 2: Diagram of the proposed method APS. On the left shows the concept of APS, during reward-free pretraining phase, reinforcement\nlearning is deployed to maximize the mutual information between the states induced by policy and the task variables. During testing,\nthe pre-trained state features can identify the downstream task by solving a linear regression problem , the pre-trained task conditioning\nsuccessor features can then quickly adapt to and solve the task. On the right shows the components of APS. APS consists of maximizing\nstate entropy in an abstract representation space (exploration, max H(s)) and leveraging explored data to learn task conditioning behaviors\n(exploitation, max −H(s|z)).",
+                  "crop_pdf_points": [
+                    119,
+                    65,
+                    478,
+                    218
+                  ],
+                  "vector_paths": 28,
+                  "native_text_spans": 18,
+                  "raster_images": 0,
+                  "source_type": "vector/text",
+                  "visually_inspected": true,
+                  "notes": "Left reward-free pretraining to linear-regression task identification; middle/right exploration entropy and successor-feature exploitation reward branches summed to intrinsic reward."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:35.899923Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "6e01e0cb91739d51ae4d0fb48c143f4ab6062d61f66281df30c1fe4de32e1706",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/aps-active-pretraining-with-successor-features.json",
+                "https://arxiv.org/pdf/2108.13956v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/aps-active-pretraining-with-successor-features.json",
+                "sha256": "6594ade4911b397b8749778e184da22f1b7133942aaa59bc081f9d8dec82aa3a"
+              },
+              "version": "2108.13956v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "APS: Active Pretraining with Successor Features",
+              "observed_title": "APS: Active Pretraining with Successor Features",
+              "source_url": "https://arxiv.org/pdf/2108.13956v1",
+              "source_sha256": "4ec6775b24f294d39f97feb8d9954c5184c90faeab9563d385e3f32b3c1a436a",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "diagram_id": "rgsd-figure-2",
+  "source_sha256": "84cba6ab3c081ff65ae50b5482b36f761890bfda67fe715ec5d3872c4ddf1e6e",
+  "provenance": {
+    "paper_title": "Reference Grounded Skill Discovery",
+    "paper_url": "https://arxiv.org/abs/2510.06203v3",
+    "figure": "Figure 2",
+    "license": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+    "notes": "Source crop visually inspected; faithful source extraction draft. Three-part pretraining/imitation/discovery architecture; predominantly native vector/text with small motion/environment thumbnails.",
+    "page": 4,
+    "status": "figure_recreation",
+    "source_sha256": "b9154ebe8e10474e98ddf70db38a2ec7d45ec5bcd9928987ab50ca8a7bb64717",
+    "source_crop_pdf_points": [
+      153,
+      61,
+      454,
+      226
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "outlined_font_families": [
+      "CambriaMath"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "extraction_warnings": [
+      "14 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path partially intersects raster inset: 2",
+      "path partially intersects raster inset: 27",
+      "path partially intersects raster inset: 55",
+      "path partially intersects raster inset: 96",
+      "path partially intersects raster inset: 104",
+      "path partially intersects raster inset: 265",
+      "path partially intersects raster inset: 267",
+      "rotated text needs manual reconstruction: d",
+      "rotated text needs manual reconstruction: d",
+      "unhandled image/shading at seq 10: [402.95123291015625, 80.3035659790039, 458.822509765625, 119.54678344726562]; requires reviewed raster region",
+      "unhandled image/shading at seq 263: [405.4356384277344, 168.80120849609375, 461.3069152832031, 207.9322967529297]; requires reviewed raster region"
+    ],
+    "text_repairs": "Visually repaired source broken ToUnicode map: ref, t,a,+,− glyphs. Removed2 rotated d artifact glyphs; native cosine diamond outlines preserved. Times New Roman used for source Times labels.",
+    "raster_review": "Six discrete raster motion/environment/lock inserts visually verified; oversized environment image placements are clipped to visible photos. Source math/labels remain native. Neighboring path-box warnings inspected rather than blindly suppressed."
+  },
+  "metrics": {
+    "native_nodes": 274,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 256,
+    "native_text_objects": 18,
+    "raster_images": 6,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "rgsd-figure-2.drawio",
+      "sha256": "2a2383e3dffb54436300e8d7989ea6d249ea04d8bcfaf2527a3c8f2c2276802c"
+    },
+    {
+      "name": "rgsd-figure-2.png",
+      "sha256": "1ba5c44eddf3bdca3ec467117edffb2291823f2954e7ae4e402640987de3630e"
+    },
+    {
+      "name": "rgsd-figure-2.pptx",
+      "sha256": "4952188b01d8764415b09c1e43f8df7ccc3b2732f33b9efa7080e7822f9ab8ed"
+    }
+  ]
+}

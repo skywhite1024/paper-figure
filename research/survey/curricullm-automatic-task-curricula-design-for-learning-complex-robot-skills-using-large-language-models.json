@@ -1,0 +1,79 @@
+{
+  "catalog_index": 103,
+  "catalog_id": "curricullm-automatic-task-curricula-design-for-learning-complex-robot-skills-using-large-language-models",
+  "title_expected": "CurricuLLM: Automatic Task Curricula Design for Learning Complex Robot Skills Using Large Language Models",
+  "source_url": "https://arxiv.org/pdf/2409.18382v2",
+  "pdf_path": "build/sources/curricullm-automatic-task-curricula-design-for-learning-complex-robot-skills-using-large-language-models.pdf",
+  "pdf_sha256": "4a8066640ce00705b2677e548ff5196bd4a1221ecf099e357fb834033a10a142",
+  "pdf_title_observed": "CurricuLLM: Automatic Task Curricula Design for Learning Complex Robot Skills using Large Language Models",
+  "first_page_title_text": "CurricuLLM: Automatic Task Curricula Design for Learning Complex\nRobot Skills using Large Language Models\nKanghyun Ryu1, Qiayuan Liao1, Zhongyu Li1, Payam Delgosha2, Koushil Sreenath1, Negar Mehr1\nAbstract— Curriculum learning is a training mechanism in\nreinforcement learning (RL) that facilitates the achievement of\ncomplex policies by progressively increasing the task difficulty\nduring training. ",
+  "title_match": true,
+  "version": "2409.18382v2",
+  "page_count": 13,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Fig. 1: CurricuLLM takes natural language description of environ- ments, robots, and target task that we wish the robot to learn, and then generates a sequence of subtasks. In each subtasks, it samples different task codes and evaluates the resulting trained policy to find the policy which is best aligned within the current subtask. These iterations are repeated throughout the curriculum subtasks to sequentially train a policy that reaches comple",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Fig. 2: Curriculum generation LLM receives the natural language form of a curriculum prompt as well as the environment description to generate a sequence of subtasks. Our prompt includes instruction for tje curriculum designer, rules for how to describe the subtasks, and other tips on describing the curriculum. Environment description consists of the robot and its state variable description, the target task, and the initial state description. for",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 3: Our task code generation and evaluation framework in each subtask. Task code generation LLM takes the environment and target task description, current and past task information, and the reward function used for previous task. Then, K task code candidates for current subtask is sampled and used for fine-tuning policies from previous subtask. Then, evaluation LLM receives the statistics of trajectory rollout from trained policy and find a p",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 4: Snapshot of Environments: From left to right, Fetch-Slide, Fetch-Push, AntMaze-UMaze, and Berkeley Humanoid. comotion, which covers broad range of robotic tasks. We first show CurricuLLM’s efficiency in manipulation and naviga- tion task in Section V-A. Then, we evaluate CurricuLLM in higher dimension humanoid control problem in Section V-B. Finally, we deploy the policy learned through CurricuLLM to Berkeley Humanoid [29] to validate in ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 5. In every task, especially in the Fetch-Push and AntMaze-UMaze, CurricuLLM exhib- ited comparable or superior success rate compared to the baselines. It is noteworthy that CurricuLLM outperformed every baseline in the most challenging AntMaze environ- ment, which highlights the significance of curriculum in complex tasks. Furthermore, while HER is only applicable to goal-conditioned policy due to their relabeling scheme, Cur- ricuLLM ach",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 5: Success rate of tasks in Gynmasium-Robotics environments. CurricuLLM generated reward for AntMaze def compute_reward_curriculum(self):     # Calculate the magnitudes     velocity_magnitude = np.linalg.norm(torso_velocity)     angular_velocity_magnitude =  np.linalg.norm(torso_angular_velocity)     # As goal_distance is received as an array but      expected to be treated as scalar      goal_distance_magnitude          = np.linalg.norm(goa",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 6: Example reward codes generated from CurricuLLM and re- ward code generated in a zero-shot manner from LLM for AntMaze environment. The reward code designed from CurricuLLM encom- passes diverse behaviors that motivates learning the target task while directly querying a reward code for the target task leads to sparse- reward, uninformative reward function. excluded HER since it is only applicable to goal-conditioned sparse reward environme",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 7: Snapshot of hardware experiment. after tedious trial-and-error from robot designer, it is signif- icant that CurricuLLM achieved comparable results without any previous knowledge. LLM-zeroshot method tends to converge either to an unstable policy that terminates in the early stages or to a policy that sacrifices tracking error for stability. This is reflected in high the standard deviations of each performance metric. Interestingly, human",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 8",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 8. In the hardware experiments, we had to restrict the demonstration to walking within the command velocity {(vx, vy, θ)| −1 ≤vx, vy ≤ 1, −π ≤θ ≤π} due to the restrictions that are specific to the hardware and not related to the control policy. Through our hardware experiments, we can found that the base velocity of the humanoid was able to accurately track the given command. This highlighted the effectiveness of the control ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 8",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 8: Odometry data and command data of base linear velocity vx in hardware experiments. The policy trained with CurricuLLM successfully follows the command in real-world. policy learned through CurricuLLM in controlling the robot in real world. VI. CONCLUSIONS In this paper, we introduced CurricuLLM, an automated task curriculum generator using LLMs. CurricuLLM first generate a language description of a sequence of subtasks that facilitate the",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

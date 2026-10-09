@@ -1,0 +1,79 @@
+{
+  "catalog_index": 130,
+  "catalog_id": "generative-skill-chaining-long-horizon-skill-planning-with-diffusion-models",
+  "title_expected": "Generative Skill Chaining: Long-Horizon Skill Planning with Diffusion Models",
+  "source_url": "https://arxiv.org/pdf/2401.03360v1",
+  "pdf_path": "build/sources/generative-skill-chaining-long-horizon-skill-planning-with-diffusion-models.pdf",
+  "pdf_sha256": "d97f87dd437392ee3efe1b67b90c298723f93770652a7c430af9f79280fb90b2",
+  "pdf_title_observed": "Generative Skill Chaining: Long-Horizon Skill Planning with Diffusion Models",
+  "first_page_title_text": "Generative Skill Chaining: Long-Horizon Skill\nPlanning with Diffusion Models\nUtkarsh A. Mishra, Shangjie Xue, Yongxin Chen, Danfei Xu\nGeorgia Institute of Technology\nEmail:{umishra31,xsj,yongchen,danfei}@gatech.edu\nAbstract: Long-horizon tasks, usually characterized by complex subtask depen-\ndencies, present a significant challenge in manipulation planning. Skill chaining\nis a practical approach t",
+  "title_match": true,
+  "version": "2401.03360v1",
+  "page_count": 20,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1: (Top) Generative Skill Chaining (GSC) aims to solve a long-horizon task for a given se- quence of skills by using linear probabilistic chains to parallelly sample from a joint distribution of multiple skill-specific transitions qπ(s, a, s′) learned using diffusion models. The framework implic- itly considers transition feasibility and subsequent skill affordability while demonstrating flexible constraint-handling abilities. (Bottom) An ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 2: (a) A linear chain graph for a long sequence of transitions and (b) adding an additional con- straint node. We consider a given skeleton Φ of skills (and relevant objects) which satisfies the symbolic feasibility of the sequence in the environment. The primary goal is to generate the sequence of states and skill parameters (as shown in Figure 2(a)) such that the final state (here sf ≡s(2)) satisfies a goal condition and leads to the suc",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 3: Left The primitive skills and their executions are shown with the objects of interest. Right Transformer-based skill diffusion model. We use the noisy state-action-state distribution xt ∼{st, at, s′ t} at diffusion step t to obtain the corresponding ϵθ during sampling. The skill object order depends on the objects of interest and is represented as a collection of one-hot vectors. pΦ(s(0:2), a(0:1)|s(2)) ∝qπ1(s(0), a(0)|s(1))qπ2(s(1), a(",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 4: Toy Domain: We model four distributions of states and seg- ment one of them into left and right segments. The above figure illustrates diffusion model composition using GSC with fixed start state and unit ac- tions followed by the addition of soft and hard constraint guidance. So, eventual outcome will be from red square to bottom circle to green square (state sequence where hook is picked such that block can be pushed). Further, we val",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 5. Further, we compare cumulative task completion and constraint satisfaction success rate with previous approaches in Table 2. This qualitatively and quantitatively demonstrates that the framework can handle such unseen constraints in test time. Table 1: The success rate of the proposed GSC algorithm is shown and compared with relevant search-based baselines (CEM strategy). All results are calculated from 100 trials for each task. Methods",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 5: For a constrained packing task of picking-and-placing all the boxes on the rack: Task agnostic secondary placement objectives help in realizing accurate and consistent state-action sequences in Top Simulation and Bottom open loop hardware rollouts. Table 2: The success rate of GSC algorithm with and without task-agnostic constraint handling is shown for Constrained Packing task and compared with relevant baselines. Methods Constrained P",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 6. In the case where the forward flow information is weak (γ = 0), the model tends to hallucinate and predict states that are inconsistent with the initial state. When the backward flow is weak (γ = 1), the model becomes myopic and fails to solve the task.We empirically found that γ = 0.5 achieves a balanced performance. Figure 6: Example of rearrangement push task rollout with different dependency factor γ: Top: Hallucination (γ = 0) With",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 6: Example of rearrangement push task rollout with different dependency factor γ: Top: Hallucination (γ = 0) With a weak forward signal, the framework fails to realize correct position of objects at the final stage. Bottom: Myopic (γ = 1) A weak backward information behaves like policy shooting and fails to understand long-horizon dependency. 8 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 7: For a “pick-place” task of picking-and-placing the cyan box such that it can be pushed inside the rack: Left A correctly sampled state sequence while Right is incorrect. Hence, filtering candidate solutions is necessary. 6 Data Collection and Real-World Experiment Details Figure 8: Real-World Setup We collect transition data in simulation from a random agent. For every selected skill (“pick”, “place”, “push” and “pull”), we start with a",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 8",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 8: Real-World Setup We collect transition data in simulation from a random agent. For every selected skill (“pick”, “place”, “push” and “pull”), we start with a suitable state satisfying its pre-condition and collect successful skill parameters (from random samples) and effect (resulting next state). This is done for scenes con- taining a varied number of objects. We collect around 5000 successful transitions from the simulator. The data i",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-language-model-guidance",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.481730Z",
-  "updated_at": "2026-10-09T20:04:59.481730Z",
+  "updated_at": "2026-10-09T20:14:35.977073Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,102 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-language-model-guidance.json",
+          "https://arxiv.org/pdf/2310.10021v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-language-model-guidance.json",
+          "sha256": "5f437f15df7216d2d7b48ee877344c04ca85cd6dde57887328990c442534926f"
+        },
+        "version": "2310.10021v2",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed.",
+        "inspected_at": null,
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance",
+        "observed_title": "Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance",
+        "source_url": "https://arxiv.org/pdf/2310.10021v2",
+        "source_sha256": "8f3e5ae033bcfce30ef469ff1b1d4011e2d9ce806a2d76733b47b0d358e4a171",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-language-model-guidance.json",
+          "https://arxiv.org/pdf/2310.10021v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-language-model-guidance.json",
+          "sha256": "5f437f15df7216d2d7b48ee877344c04ca85cd6dde57887328990c442534926f"
+        },
+        "version": "2310.10021v2",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-language-model-guidance.pdf",
+          "reported_sha256": "8f3e5ae033bcfce30ef469ff1b1d4011e2d9ce806a2d76733b47b0d358e4a171",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 24,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-language-model-guidance.json",
+          "https://arxiv.org/pdf/2310.10021v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-language-model-guidance.json",
+          "sha256": "5f437f15df7216d2d7b48ee877344c04ca85cd6dde57887328990c442534926f"
+        },
+        "version": "2310.10021v2",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 1",
+            "page_1_based": 2,
+            "caption": "BOSS skill bootstrapping and target-task execution.",
+            "crop_pdf_points": [
+              108,
+              71,
+              504,
+              217
+            ],
+            "vector_paths": 161,
+            "native_text_spans": 67,
+            "raster_images": 19,
+            "visually_inspected": true,
+            "notes": "Native panel/flow objects and text; raster emoji/robot/LLM icons, real-robot inset."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +145,152 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.511166Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "f97e40258d4b05e8e55d3345fc6c4a8eb13e7fdf357068920818ed1c40430e4d",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-language-model-guidance.json",
+                "https://arxiv.org/pdf/2310.10021v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-language-model-guidance.json",
+                "sha256": "5f437f15df7216d2d7b48ee877344c04ca85cd6dde57887328990c442534926f"
+              },
+              "version": "2310.10021v2",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance",
+              "observed_title": "Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance",
+              "source_url": "https://arxiv.org/pdf/2310.10021v2",
+              "source_sha256": "8f3e5ae033bcfce30ef469ff1b1d4011e2d9ce806a2d76733b47b0d358e4a171",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-language-model-guidance.json",
+                "https://arxiv.org/pdf/2310.10021v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-language-model-guidance.json",
+                "sha256": "5f437f15df7216d2d7b48ee877344c04ca85cd6dde57887328990c442534926f"
+              },
+              "version": "2310.10021v2",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-language-model-guidance.pdf",
+                "reported_sha256": "8f3e5ae033bcfce30ef469ff1b1d4011e2d9ce806a2d76733b47b0d358e4a171",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 24,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-language-model-guidance.json",
+                "https://arxiv.org/pdf/2310.10021v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-language-model-guidance.json",
+                "sha256": "5f437f15df7216d2d7b48ee877344c04ca85cd6dde57887328990c442534926f"
+              },
+              "version": "2310.10021v2",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 1",
+                  "page_1_based": 2,
+                  "caption": "BOSS skill bootstrapping and target-task execution.",
+                  "crop_pdf_points": [
+                    108,
+                    71,
+                    504,
+                    217
+                  ],
+                  "vector_paths": 161,
+                  "native_text_spans": 67,
+                  "raster_images": 19,
+                  "visually_inspected": true,
+                  "notes": "Native panel/flow objects and text; raster emoji/robot/LLM icons, real-robot inset."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:35.977073Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "e5acb6f11b1a8590cccb890d13e772fa6a2520eb86ef92c1a451032371f53ef1",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-language-model-guidance.json",
+                "https://arxiv.org/pdf/2310.10021v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-language-model-guidance.json",
+                "sha256": "5f437f15df7216d2d7b48ee877344c04ca85cd6dde57887328990c442534926f"
+              },
+              "version": "2310.10021v2",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance",
+              "observed_title": "Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance",
+              "source_url": "https://arxiv.org/pdf/2310.10021v2",
+              "source_sha256": "8f3e5ae033bcfce30ef469ff1b1d4011e2d9ce806a2d76733b47b0d358e4a171",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "relative-variational-intrinsic-control",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.470351Z",
-  "updated_at": "2026-10-09T20:04:59.470351Z",
+  "updated_at": "2026-10-09T20:14:36.557726Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,103 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/relative-variational-intrinsic-control.json",
+          "https://arxiv.org/pdf/2012.07827v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/relative-variational-intrinsic-control.json",
+          "sha256": "b75c89a423ea8715512390c46d16270d0a4828338e454743f1227f2f60990606"
+        },
+        "version": "2012.07827v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Relative Variational Intrinsic Control",
+        "observed_title": "Relative Variational Intrinsic Control",
+        "source_url": "https://arxiv.org/pdf/2012.07827v1",
+        "source_sha256": "4284bd5fb5e605def47893764b545386c74adc84d119be95fea380e170477b84",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/relative-variational-intrinsic-control.json",
+          "https://arxiv.org/pdf/2012.07827v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/relative-variational-intrinsic-control.json",
+          "sha256": "b75c89a423ea8715512390c46d16270d0a4828338e454743f1227f2f60990606"
+        },
+        "version": "2012.07827v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "/tmp/paper-figure-survey/relative-variational-intrinsic-control/original.pdf",
+          "reported_sha256": "4284bd5fb5e605def47893764b545386c74adc84d119be95fea380e170477b84",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 9,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/relative-variational-intrinsic-control.json",
+          "https://arxiv.org/pdf/2012.07827v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/relative-variational-intrinsic-control.json",
+          "sha256": "b75c89a423ea8715512390c46d16270d0a4828338e454743f1227f2f60990606"
+        },
+        "version": "2012.07827v1",
+        "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+        "review_notes": "",
+        "inspected_at": "2026-10-09",
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 1",
+            "page_1_based": 2,
+            "caption": "Figure 1: Relative VIC: A skill-conditioned policy interacts\nwith the environment yielding a sampled trajectory. Two\nskill predictors are trained to predict the skill from the ﬁrst\nand last states of the trajectory and only the last state in the\ntrajectory respectively. The difference between the proba-\nbility assigned by the predictors to the skill used to gener-\nate the trajectory is given to the policy as reward to incen-\ntivize learning a set of skills that is diverse in how each skill\nchanges the agent’s relationship to the environment.",
+            "crop_pdf_points": [
+              318,
+              51,
+              553,
+              277
+            ],
+            "vector_paths": 0,
+            "native_text_spans": 0,
+            "raster_images": 1,
+            "source_type": "raster",
+            "visually_inspected": true,
+            "notes": "RVIC flowchart with environment, state/action, skill-conditioned policy, sampled skill, trajectory, reward difference, and pair of skill discriminators. Colored blocks and directed feedback."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +146,153 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.088143Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "1675a18a8a8f43e8e7d891b97dbd5480e4b2064103cd376e04834f604ecbd90b",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/relative-variational-intrinsic-control.json",
+                "https://arxiv.org/pdf/2012.07827v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/relative-variational-intrinsic-control.json",
+                "sha256": "b75c89a423ea8715512390c46d16270d0a4828338e454743f1227f2f60990606"
+              },
+              "version": "2012.07827v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Relative Variational Intrinsic Control",
+              "observed_title": "Relative Variational Intrinsic Control",
+              "source_url": "https://arxiv.org/pdf/2012.07827v1",
+              "source_sha256": "4284bd5fb5e605def47893764b545386c74adc84d119be95fea380e170477b84",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/relative-variational-intrinsic-control.json",
+                "https://arxiv.org/pdf/2012.07827v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/relative-variational-intrinsic-control.json",
+                "sha256": "b75c89a423ea8715512390c46d16270d0a4828338e454743f1227f2f60990606"
+              },
+              "version": "2012.07827v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/relative-variational-intrinsic-control/original.pdf",
+                "reported_sha256": "4284bd5fb5e605def47893764b545386c74adc84d119be95fea380e170477b84",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 9,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/relative-variational-intrinsic-control.json",
+                "https://arxiv.org/pdf/2012.07827v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/relative-variational-intrinsic-control.json",
+                "sha256": "b75c89a423ea8715512390c46d16270d0a4828338e454743f1227f2f60990606"
+              },
+              "version": "2012.07827v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 1",
+                  "page_1_based": 2,
+                  "caption": "Figure 1: Relative VIC: A skill-conditioned policy interacts\nwith the environment yielding a sampled trajectory. Two\nskill predictors are trained to predict the skill from the ﬁrst\nand last states of the trajectory and only the last state in the\ntrajectory respectively. The difference between the proba-\nbility assigned by the predictors to the skill used to gener-\nate the trajectory is given to the policy as reward to incen-\ntivize learning a set of skills that is diverse in how each skill\nchanges the agent’s relationship to the environment.",
+                  "crop_pdf_points": [
+                    318,
+                    51,
+                    553,
+                    277
+                  ],
+                  "vector_paths": 0,
+                  "native_text_spans": 0,
+                  "raster_images": 1,
+                  "source_type": "raster",
+                  "visually_inspected": true,
+                  "notes": "RVIC flowchart with environment, state/action, skill-conditioned policy, sampled skill, trajectory, reward difference, and pair of skill discriminators. Colored blocks and directed feedback."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.557726Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "13665a28a33e15221c42c4d1acaa10cf060cbb44ede148279c8b517d3f3d1f68",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/relative-variational-intrinsic-control.json",
+                "https://arxiv.org/pdf/2012.07827v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/relative-variational-intrinsic-control.json",
+                "sha256": "b75c89a423ea8715512390c46d16270d0a4828338e454743f1227f2f60990606"
+              },
+              "version": "2012.07827v1",
+              "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+              "review_notes": "",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Relative Variational Intrinsic Control",
+              "observed_title": "Relative Variational Intrinsic Control",
+              "source_url": "https://arxiv.org/pdf/2012.07827v1",
+              "source_sha256": "4284bd5fb5e605def47893764b545386c74adc84d119be95fea380e170477b84",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

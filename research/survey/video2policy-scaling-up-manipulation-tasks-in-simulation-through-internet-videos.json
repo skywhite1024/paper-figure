@@ -1,0 +1,91 @@
+{
+  "catalog_index": 97,
+  "catalog_id": "video2policy-scaling-up-manipulation-tasks-in-simulation-through-internet-videos",
+  "title_expected": "Video2Policy: Scaling up Manipulation Tasks in Simulation through Internet Videos",
+  "source_url": "https://arxiv.org/pdf/2502.09886v1",
+  "pdf_path": "build/sources/video2policy-scaling-up-manipulation-tasks-in-simulation-through-internet-videos.pdf",
+  "pdf_sha256": "780490cdf94fb207440f0552ef753929142dd61a3fbda60921e708dfcad1e257",
+  "pdf_title_observed": "Video2Policy: Scaling up Manipulation Tasks in Simulation through Internet Videos",
+  "first_page_title_text": "Video2Policy: Scaling up Manipulation Tasks\nin Simulation through Internet Videos\nWeirui Ye 1 2 3 4 Fangchen Liu 4 Zheng Ding 5 Yang Gao 1 2 3 Oleh Rybkin 4 Pieter Abbeel 4\nAbstract\nSimulation offers a promising approach for\ncheaply scaling training data for generalist poli-\ncies. To scalably generate data from diverse and\nrealistic tasks, existing algorithms either rely on\nlarge language models (",
+  "title_match": true,
+  "version": "2502.09886v1",
+  "page_count": 16,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1. The Video2Policy framework can leverage internet videos to generate simulation tasks and learn policies for them automatically, which can be considered a data engine for generalist policies. 2024). RoboGen (Wang et al., 2023c) leverages LLM- generated reward functions for RL. However, it is hard to scale as it requires manual success functions. However, since we leverage both text prompts and explicit visual prior knowledge from human v",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Fig. 1. It produces code for task generation in simulation using VLMs and learns policies for those tasks via RL. This autonomous approach allows us to easily scale up data generation by internet videos to produce visually grounded tasks. Our framework leverages both behavioral and object diversity from the videos, enabling generalization both at the object level as well as task level. Specifically, our framework consists of two phases: (1) We re",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 1",
+      "page_1_based": 3,
+      "caption_excerpt": "Fig. 1: (1) detect and segment the manipulated objects in the video using text captions; (2) reconstruct object meshes from videos and estimate actual sizes of the meshes; (3) perform 6D position tracking for each object in the video. Afterward, we obtain a JSON file that includes the video and object information. Object Grounding We first use Grounding DINO (Liu et al., 2023) to detect the manipulated objects in the first frame of the video. Sin",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 2. Some visualization of the tasks generated from SSv2 Video Dataset. the video, which will be fed into GPT-4o for code generation. We utilize FoundationPose (Wen et al., 2024) in model- based setups to estimate the position and orientation of the objects. This model takes the object mesh, predicted camera intrinsics, and the depth information from each frame as inputs. Finally, we automatically generate a URDF file for each object based o",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 3. Examples of the Segmentation Mask Observation between the simulation and the real, which can better bridge the sim2real gap. 2023), we want to investigate how to learn a general policy from the internet videos, which directly outputs the exe- cutable actions of the robot rather than the un-executable future videos (Du et al., 2024; Qin et al., 2023) or language tokens (Liang et al., 2023; Brohan et al., 2023). We con- sider our Video2Po",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 2. Reinforcement Learning For the policy learning, we choose the PPO (Schulman et al., 2017) algorithm in a well- tuned implementation codebase (Makoviichuk & Makoviy- chuk, 2021; Ma et al., 2023). We share the same param- eters recommended in the codebase across all tasks and all baseliens. As for the evaluation metric, we write the ground-truth success function for each generated task. Un- like Eureka (Ma et al., 2023), we do not allow acc",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 4. V2P achieves better performance across iteration. 4.2. Policy Generalization Analysis from diverse videos To further demonstrate the scalability of our framework, we target training a general policy from diverse videos. As mentioned in Sec. 3.3, we regard the Video2Policy as a data engine to generate expert trajectories in simulation. To validate the generalization ability across unseen videos, we 6 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 5. Performance of the trained general policy on 10 unseen task instances. BC-V2P outperforms BC-CoP on 9 of 10 significantly. focus on one single behavior, lifting up. Specifically, we sample 100 videos concerning the lifting behavior from SSv2 dataset, generate the scenes, and train policies for the corresponding task. Afterward, we collect 100 successful trajectories from each policy model, including the 256 × 256 size of RGB image obser",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 6. Scalability of the general policy model (BC-V2P) to- wards the number of training tasks on lifting behavior. Generalization to Unseen Videos The performances of the models are shown in Fig. 5. After training on 100 task instances, our BC-V2P model works on all the novel tasks and achieves remarkable generalization performance, marked in red. Specifically, the average success rate reaches 75%, while CoP is 32% and the BC-CoP is 26%. It i",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 5. After training on 100 task instances, our BC-V2P model works on all the novel tasks and achieves remarkable generalization performance, marked in red. Specifically, the average success rate reaches 75%, while CoP is 32% and the BC-CoP is 26%. It indicates that our proposed Video2Policy framework can obtain more informative policy priors from the videos. Notably, the CoP results are based on states and the variances from CoP policies are l",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 6. Overall, increasing the number of videos continues to im- prove the performance of the BC-V2P model. Note that current real2sim methods only use a few scenes such as 6 scenes (Torne et al., 2024). In contrast, our method can leverage large amounts of scenes and learn policies. 7 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 8,
+      "caption_excerpt": "Fig. 3. We stack 2 frames and add an additional multi-layer perceptron (MLP) layer to map the robot state into a 256-dimensional feature vector. Furthermore, the rotation component of the action is scaled by a factor of 0.2. Domain Randomization. During data collection in the simulation, randomization is applied to the actions with noise levels of 0.02 and a random delay of 0.01–0.02 sec- onds. Moreover, the physical properties of the object, suc",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

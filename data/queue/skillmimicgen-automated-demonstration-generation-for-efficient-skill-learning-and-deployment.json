@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "skillmimicgen-automated-demonstration-generation-for-efficient-skill-learning-and-deployment",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.512320Z",
-  "updated_at": "2026-10-09T20:04:59.512320Z",
+  "updated_at": "2026-10-09T20:14:36.743882Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/skillmimicgen-automated-demonstration-generation-for-efficient-skill-learning-and-deployment.json",
+          "https://arxiv.org/pdf/2410.18907v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/skillmimicgen-automated-demonstration-generation-for-efficient-skill-learning-and-deployment.json",
+          "sha256": "55932e10aba36cb81dbf68b9380e537cb9892dbbce0ba8c0d51eb7265c73da98"
+        },
+        "version": "2410.18907v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "SkillMimicGen: Automated Demonstration Generation for Efficient Skill Learning and Deployment",
+        "observed_title": "SkillMimicGen: Automated Demonstration Generation for Efficient Skill Learning and Deployment",
+        "source_url": "https://arxiv.org/pdf/2410.18907v1",
+        "source_sha256": "2bdf9e56f6b7f59832f116710bd8c18369d51c3f16cccc16651180fa0c3e2c7a",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/skillmimicgen-automated-demonstration-generation-for-efficient-skill-learning-and-deployment.json",
+          "https://arxiv.org/pdf/2410.18907v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/skillmimicgen-automated-demonstration-generation-for-efficient-skill-learning-and-deployment.json",
+          "sha256": "55932e10aba36cb81dbf68b9380e537cb9892dbbce0ba8c0d51eb7265c73da98"
+        },
+        "version": "2410.18907v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/skillmimicgen-automated-demonstration-generation-for-efficient-skill-learning-and-deployment.pdf",
+          "reported_sha256": "2bdf9e56f6b7f59832f116710bd8c18369d51c3f16cccc16651180fa0c3e2c7a",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 41,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:02.261735Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "0bcab62cdde29e06cfa4036e703f53bfd8e74a1d522aae3ba8c51fee4f9d094f",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/skillmimicgen-automated-demonstration-generation-for-efficient-skill-learning-and-deployment.json",
+                "https://arxiv.org/pdf/2410.18907v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/skillmimicgen-automated-demonstration-generation-for-efficient-skill-learning-and-deployment.json",
+                "sha256": "55932e10aba36cb81dbf68b9380e537cb9892dbbce0ba8c0d51eb7265c73da98"
+              },
+              "version": "2410.18907v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "SkillMimicGen: Automated Demonstration Generation for Efficient Skill Learning and Deployment",
+              "observed_title": "SkillMimicGen: Automated Demonstration Generation for Efficient Skill Learning and Deployment",
+              "source_url": "https://arxiv.org/pdf/2410.18907v1",
+              "source_sha256": "2bdf9e56f6b7f59832f116710bd8c18369d51c3f16cccc16651180fa0c3e2c7a",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/skillmimicgen-automated-demonstration-generation-for-efficient-skill-learning-and-deployment.json",
+                "https://arxiv.org/pdf/2410.18907v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/skillmimicgen-automated-demonstration-generation-for-efficient-skill-learning-and-deployment.json",
+                "sha256": "55932e10aba36cb81dbf68b9380e537cb9892dbbce0ba8c0d51eb7265c73da98"
+              },
+              "version": "2410.18907v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/skillmimicgen-automated-demonstration-generation-for-efficient-skill-learning-and-deployment.pdf",
+                "reported_sha256": "2bdf9e56f6b7f59832f116710bd8c18369d51c3f16cccc16651180fa0c3e2c7a",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 41,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.743882Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "ff7ff79b4b60b6c5b578ed2329a490aec37261bf48ade45c599f2ebc6dbb1d94",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/skillmimicgen-automated-demonstration-generation-for-efficient-skill-learning-and-deployment.json",
+                "https://arxiv.org/pdf/2410.18907v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/skillmimicgen-automated-demonstration-generation-for-efficient-skill-learning-and-deployment.json",
+                "sha256": "55932e10aba36cb81dbf68b9380e537cb9892dbbce0ba8c0d51eb7265c73da98"
+              },
+              "version": "2410.18907v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "SkillMimicGen: Automated Demonstration Generation for Efficient Skill Learning and Deployment",
+              "observed_title": "SkillMimicGen: Automated Demonstration Generation for Efficient Skill Learning and Deployment",
+              "source_url": "https://arxiv.org/pdf/2410.18907v1",
+              "source_sha256": "2bdf9e56f6b7f59832f116710bd8c18369d51c3f16cccc16651180fa0c3e2c7a",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }

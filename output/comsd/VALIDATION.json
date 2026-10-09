@@ -1,0 +1,41 @@
+{
+  "diagram_id": "comsd-figure-3",
+  "source_scene_sha256": "82087955d9ebccd98c838962847523b9a6108aef2019d57e7e9bada4bf53abc6",
+  "source_pdf_sha256": "f00f9ab7e47380da35cd32c54686f806bdcc02202890ef51e810964e3c299cf1",
+  "checked_files": [
+    {
+      "name": "comsd-figure-3.drawio",
+      "sha256": "8263390a320b51431c6cb234bcac4899084bdf75a9612a26303c1e8fc03e956f"
+    },
+    {
+      "name": "comsd-figure-3.png",
+      "sha256": "1ecfd9211970415b3fadd047d800ba4540ab965120d16fd60f08ae5722d00188"
+    },
+    {
+      "name": "comsd-figure-3.pptx",
+      "sha256": "4b444ef249343c7840e761c459260cfa64b72652607e597fa783022ab9fd6a7c"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 3 PDFpage4 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source blocks/arrows/graphs preserved",
+    "labels": "ordinary text and formulas legible; no clipping or collisions",
+    "native_editability": "all source figure content native objects, no raster screenshot",
+    "drawio": "XML/stencils checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 207,
+    "p:pic": 0,
+    "a:custGeom": 183,
+    "p:cxnSp": 0,
+    "a:t": 24
+  },
+  "limitations": [
+    "Math glyphs are editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

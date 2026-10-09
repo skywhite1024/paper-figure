@@ -1,0 +1,67 @@
+{
+  "schema_version": 1,
+  "diagram_id": "psd-figure-1",
+  "source_sha256": "2f6bbb3e427d6b63ed5d7bb727bc03a94abcefb21c06b6835d6ec72cecc4a355",
+  "provenance": {
+    "paper_title": "Periodic Skill Discovery",
+    "paper_url": "https://arxiv.org/abs/2511.03187v3",
+    "figure": "Figure 1",
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "notes": "Original vector geometry with native editable text and outline glyph paths for mathematical fonts. Native paths are not semantically attached connectors. Source comparison pending; no target application editing QA claimed.",
+    "page": 2,
+    "status": "figure_recreation",
+    "source_sha256": "3d80b6e24e888d7a8498465dccdaf021bd46234ea913de70887c3c9b5b65bb72",
+    "source_crop_pdf_points": [
+      107,
+      84,
+      506,
+      204
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "outlined_font_families": [
+      "CMM",
+      "CMSY",
+      "CMEX",
+      "CMR",
+      "CambriaMath",
+      "Calibri"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "extraction_warnings": [
+      "14 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 0",
+      "path crosses crop boundary: 11",
+      "path crosses crop boundary: 288",
+      "path crosses crop boundary: 431",
+      "path crosses crop boundary: 562",
+      "path crosses crop boundary: 694"
+    ]
+  },
+  "metrics": {
+    "native_nodes": 481,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 480,
+    "native_text_objects": 1,
+    "raster_images": 0,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "psd-figure-1.drawio",
+      "sha256": "ddeb13e5eb082b7494dd366ab7ca947514185b01792972577d1143cc3facc720"
+    },
+    {
+      "name": "psd-figure-1.png",
+      "sha256": "a3746d58c3d991d0555d6adfc4da42758e7343a3fd5e86dcb39ca1d435d43b76"
+    },
+    {
+      "name": "psd-figure-1.pptx",
+      "sha256": "4e1aaa034c35a347c846237f7f222ca5c9b00f3d8c6de6d5a81e78db4b3fd830"
+    }
+  ]
+}

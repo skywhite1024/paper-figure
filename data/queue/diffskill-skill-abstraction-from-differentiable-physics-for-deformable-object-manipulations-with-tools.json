@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "diffskill-skill-abstraction-from-differentiable-physics-for-deformable-object-manipulations-with-tools",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.512939Z",
-  "updated_at": "2026-10-09T20:04:59.512939Z",
+  "updated_at": "2026-10-09T20:14:36.062734Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,60 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/diffskill-skill-abstraction-from-differentiable-physics-for-deformable-object-manipulations-with-tools.json",
+          "https://arxiv.org/pdf/2203.17275v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/diffskill-skill-abstraction-from-differentiable-physics-for-deformable-object-manipulations-with-tools.json",
+          "sha256": "56a4cf8e4634c14e71c8dc94ab5e1a6c89d412675ce8c416559b598dc831ebf4"
+        },
+        "version": "2203.17275v1",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "DiffSkill: Skill Abstraction from Differentiable Physics for Deformable Object Manipulations with Tools",
+        "observed_title": "DiffSkill: Skill Abstraction from Differentiable Physics for Deformable Object Manipulations with Tools",
+        "source_url": "https://arxiv.org/pdf/2203.17275v1",
+        "source_sha256": "40a6a7e1a8f021ea1016cdac2f7ff38740ec833fbd696adf994f08d61f3074d1",
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/diffskill-skill-abstraction-from-differentiable-physics-for-deformable-object-manipulations-with-tools.json",
+          "https://arxiv.org/pdf/2203.17275v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/diffskill-skill-abstraction-from-differentiable-physics-for-deformable-object-manipulations-with-tools.json",
+          "sha256": "56a4cf8e4634c14e71c8dc94ab5e1a6c89d412675ce8c416559b598dc831ebf4"
+        },
+        "version": "2203.17275v1",
+        "license_note": "unverified",
+        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/diffskill-skill-abstraction-from-differentiable-physics-for-deformable-object-manipulations-with-tools.pdf",
+          "reported_sha256": "40a6a7e1a8f021ea1016cdac2f7ff38740ec833fbd696adf994f08d61f3074d1",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 14,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -59,6 +107,110 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:12:01.602275Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "292718a10464b82cf0de3db934242329153d47ad8594faaba56c83bdfe07c391",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/diffskill-skill-abstraction-from-differentiable-physics-for-deformable-object-manipulations-with-tools.json",
+                "https://arxiv.org/pdf/2203.17275v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/diffskill-skill-abstraction-from-differentiable-physics-for-deformable-object-manipulations-with-tools.json",
+                "sha256": "56a4cf8e4634c14e71c8dc94ab5e1a6c89d412675ce8c416559b598dc831ebf4"
+              },
+              "version": "2203.17275v1",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "DiffSkill: Skill Abstraction from Differentiable Physics for Deformable Object Manipulations with Tools",
+              "observed_title": "DiffSkill: Skill Abstraction from Differentiable Physics for Deformable Object Manipulations with Tools",
+              "source_url": "https://arxiv.org/pdf/2203.17275v1",
+              "source_sha256": "40a6a7e1a8f021ea1016cdac2f7ff38740ec833fbd696adf994f08d61f3074d1",
+              "reported_title_match": true
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/diffskill-skill-abstraction-from-differentiable-physics-for-deformable-object-manipulations-with-tools.json",
+                "https://arxiv.org/pdf/2203.17275v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/diffskill-skill-abstraction-from-differentiable-physics-for-deformable-object-manipulations-with-tools.json",
+                "sha256": "56a4cf8e4634c14e71c8dc94ab5e1a6c89d412675ce8c416559b598dc831ebf4"
+              },
+              "version": "2203.17275v1",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/diffskill-skill-abstraction-from-differentiable-physics-for-deformable-object-manipulations-with-tools.pdf",
+                "reported_sha256": "40a6a7e1a8f021ea1016cdac2f7ff38740ec833fbd696adf994f08d61f3074d1",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 14,
+              "source_status": "accessible"
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:14:36.062734Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "632767c0ebff611c6f7e35c6f030a36f9474be96cb3eeb7bc998393938ced3cf",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/diffskill-skill-abstraction-from-differentiable-physics-for-deformable-object-manipulations-with-tools.json",
+                "https://arxiv.org/pdf/2203.17275v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/diffskill-skill-abstraction-from-differentiable-physics-for-deformable-object-manipulations-with-tools.json",
+                "sha256": "56a4cf8e4634c14e71c8dc94ab5e1a6c89d412675ce8c416559b598dc831ebf4"
+              },
+              "version": "2203.17275v1",
+              "license_note": "unverified",
+              "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "DiffSkill: Skill Abstraction from Differentiable Physics for Deformable Object Manipulations with Tools",
+              "observed_title": "DiffSkill: Skill Abstraction from Differentiable Physics for Deformable Object Manipulations with Tools",
+              "source_url": "https://arxiv.org/pdf/2203.17275v1",
+              "source_sha256": "40a6a7e1a8f021ea1016cdac2f7ff38740ec833fbd696adf994f08d61f3074d1",
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          }
+        }
+      }
     }
   ]
 }
