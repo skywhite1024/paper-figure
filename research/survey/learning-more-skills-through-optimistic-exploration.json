@@ -1,0 +1,39 @@
+{
+  "catalog_id": "learning-more-skills-through-optimistic-exploration",
+  "title_expected": "Learning More Skills through Optimistic Exploration",
+  "source_url": "https://arxiv.org/abs/2107.14226",
+  "pdf_url": "https://arxiv.org/pdf/2107.14226",
+  "pdf_path": "/tmp/paper-figure-survey/learning-more-skills-through-optimistic-exploration/original.pdf",
+  "pdf_sha256": "b3b7cfe5027d3ed275105d1238a403d70c56a3a246866a7ba806db059615e14e",
+  "pdf_title_observed": "Learning more skills through optimistic exploration",
+  "title_match": true,
+  "version": "2107.14226v6",
+  "page_count": 27,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 5,
+      "caption": null,
+      "crop_pdf_points": [
+        110,
+        79,
+        502,
+        199
+      ],
+      "vector_paths": 59,
+      "native_text_spans": 45,
+      "raster_images": 1,
+      "source_type": "vector/text with embedded raster components",
+      "visually_inspected": true,
+      "notes": "Methods composite: conventional skill discriminator/prior/policy loop left, DISDAIN entropy-disagreement ensemble with Atari image input right. Preserve entropy expression above ensemble."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2107.14226v6",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/24-p5.png"
+}

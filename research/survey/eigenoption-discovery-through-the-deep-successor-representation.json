@@ -1,0 +1,39 @@
+{
+  "catalog_id": "eigenoption-discovery-through-the-deep-successor-representation",
+  "title_expected": "Eigenoption Discovery through the Deep Successor Representation",
+  "source_url": "https://arxiv.org/abs/1710.11089",
+  "pdf_url": "https://arxiv.org/pdf/1710.11089",
+  "pdf_path": "/tmp/paper-figure-survey/eigenoption-discovery-through-the-deep-successor-representation/original.pdf",
+  "pdf_sha256": "0dbd07117875f63e0bac86c218e96d99036a0ea511b511de1c1a1f5568201211",
+  "pdf_title_observed": "Eigenoption Discovery through the Deep Successor Representation",
+  "title_match": true,
+  "version": "1710.11089v3",
+  "page_count": 22,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 6,
+      "caption": "Figure 2: Neural network architecture used to learn the SR. The symbols N and \u00f8 denote element-\nwise multiplication and the fact that gradients are not propagated further back, respectively.",
+      "crop_pdf_points": [
+        108,
+        80,
+        505,
+        173
+      ],
+      "vector_paths": 0,
+      "native_text_spans": 0,
+      "raster_images": 1,
+      "source_type": "raster",
+      "visually_inspected": true,
+      "notes": "Wide neural-network architecture with convolutional representation module, central action-conditioned multiplication and reconstruction decoder, plus lower successor representation estimator branch."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/1710.11089v3",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/38-p6.png"
+}

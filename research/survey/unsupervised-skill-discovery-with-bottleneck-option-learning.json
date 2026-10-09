@@ -1,0 +1,39 @@
+{
+  "catalog_id": "unsupervised-skill-discovery-with-bottleneck-option-learning",
+  "title_expected": "Unsupervised Skill Discovery with Bottleneck Option Learning",
+  "source_url": "https://arxiv.org/abs/2106.14305",
+  "pdf_url": "https://arxiv.org/pdf/2106.14305",
+  "pdf_path": "/tmp/paper-figure-survey/unsupervised-skill-discovery-with-bottleneck-option-learning/original.pdf",
+  "pdf_sha256": "6d36494ae7ce92b16672752d6f9f8da693c9bdf8aa831c682ffe348993f7050b",
+  "pdf_title_observed": "Unsupervised Skill Discovery with Bottleneck Option Learning",
+  "title_match": true,
+  "version": "2106.14305v1",
+  "page_count": 20,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption": "Figure 2. Architecture overview of (a) latent-\ufb01rst methods, (b) trajectory-\ufb01rst methods and (c) IBOL.",
+      "crop_pdf_points": [
+        66,
+        68,
+        539,
+        157
+      ],
+      "vector_paths": 119,
+      "native_text_spans": 36,
+      "raster_images": 4,
+      "source_type": "vector/text with embedded raster components",
+      "visually_inspected": true,
+      "notes": "Three side-by-side architectures comparing latent-first, trajectory-first and IBOL. Includes skill latent bars, trajectory vectors, MDP robot icons, bottleneck embedding and linearizer."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2106.14305v1",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/26-p3.png"
+}

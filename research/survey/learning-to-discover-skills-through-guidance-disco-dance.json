@@ -1,0 +1,39 @@
+{
+  "catalog_id": "learning-to-discover-skills-through-guidance-disco-dance",
+  "title_expected": "Learning to Discover Skills through Guidance (DISCO-DANCE)",
+  "source_url": "https://arxiv.org/abs/2310.20178",
+  "pdf_url": "https://arxiv.org/pdf/2310.20178",
+  "pdf_path": "/tmp/paper-figure-survey/learning-to-discover-skills-through-guidance-disco-dance/original.pdf",
+  "pdf_sha256": "5c2d09affab42d3ca4b46642312fd4835bfd5f4fd22a1f4791c4a30eacf5e8c6",
+  "pdf_title_observed": "Learning to Discover Skills through Guidance",
+  "title_match": true,
+  "version": "2310.20178v2",
+  "page_count": 29,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption": "Figure 3: Overall procedure of DISCO-DANCE in (a) navigation and (b) continuous control tasks.",
+      "crop_pdf_points": [
+        108,
+        209,
+        505,
+        295
+      ],
+      "vector_paths": 74,
+      "native_text_spans": 18,
+      "raster_images": 9,
+      "source_type": "vector/text with embedded raster components",
+      "visually_inspected": true,
+      "notes": "Overall procedural illustration: maze and cheetah subpanels, existing/guide/apprentice skill trajectories, random-walk guide selection and transferred guidance. Figures1/2 also explain guide selection, but Figure3 gives full procedure."
+    }
+  ],
+  "review_notes": "Catalog appends method nickname DISCO-DANCE; first-page paper title matches without nickname.",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2310.20178v2",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/11-p5.png"
+}

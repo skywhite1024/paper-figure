@@ -89,7 +89,8 @@ def refresh_output(repository, output=None):
         title = paper['title']
         figure = paper['figure']
         page = paper['pdf_page_1_based']
-        text = [f'# {title}', '', f'{figure} · PDF 第 {page} 页 · {paper["arxiv_id_version"]}', '',
+        source_version = paper.get('arxiv_id_version') or paper.get('source_version') or 'source version recorded in sources.json'
+        text = [f'# {title}', '', f'{figure} · PDF 第 {page} 页 · {source_version}', '',
                 f'- [PowerPoint]({stem}.pptx)', f'- [draw.io]({stem}.drawio)',
                 f'- [重建预览]({stem}.png)', f'- [论文原图]({original.name})',
                 '- [原图与重建离线对照](comparison.html)', f'- [原文 PDF]({paper["file"]})',
@@ -106,7 +107,7 @@ def refresh_output(repository, output=None):
 <p><a href="../comparison.html">返回论文索引</a> · <a href="README.md">来源与编辑说明</a></p>
 <h1>{html.escape(title)}</h1><p>{html.escape(figure)}，PDF 第 {page} 页</p>
 <p><a href="{stem}.pptx">PowerPoint</a> · <a href="{stem}.drawio">draw.io</a> ·
-<a href="{paper['file']}">原文 PDF ({html.escape(paper['arxiv_id_version'])})</a></p>
+<a href="{html.escape(paper['file'], quote=True)}">原文 PDF ({html.escape(source_version)})</a></p>
 <section class="pair"><div><h2>论文原图</h2><img src="{original.name}" alt="论文原图"></div>
 <div><h2>可编辑重建预览</h2><img src="{stem}.png" alt="重建预览"></div></section>
 <p>{html.escape(scene['provenance']['notes'])}</p>
@@ -129,12 +130,12 @@ def refresh_output(repository, output=None):
     (output / 'README.md').write_text('\n'.join(index), encoding='utf-8')
     (output / 'comparison.html').write_text(
         f'<!doctype html><html lang="zh"><meta charset="utf-8"><title>论文结果索引</title><style>{STYLE}</style><main><h1>论文结果索引</h1><ul>' +
-        ''.join(f'<li><a href="{slug}/comparison.html">{html.escape(title)}</a> · {figure}，PDF 第 {page} 页 · <a href="{slug}/README.md">文件与来源</a></li>'
+        ''.join(f'<li><a href="{slug}/comparison.html">{html.escape(title)}</a> · {html.escape(figure)}，PDF 第 {page} 页 · <a href="{slug}/README.md">文件与来源</a></li>'
                 for slug, title, figure, page in links) + '</ul><p>每篇论文的原文 PDF 与可编辑结果保存在同一文件夹。</p></main></html>', encoding='utf-8')
     return {'papers': [slug for slug, *_ in links], 'artifacts_modified': False}
 
 
-def publish_build(repository, build, output=None):
+def publish_build(repository, build, output=None, papers=None):
     """Copy checked regenerated diagram files into the existing paper folders.
 
     Original PDFs and source comparison PNGs already in those folders are kept.
@@ -144,7 +145,13 @@ def publish_build(repository, build, output=None):
     output = Path(output or repository / 'output').resolve()
     plans = []
     changed = []
+    selected = set(papers) if papers is not None else None
+    require(selected is None or selected and all(isinstance(x, str) and re.fullmatch(r'[a-z0-9_-]+', x) for x in selected), 'Invalid paper selection')
+    found = set()
     for folder in sorted(p.parent for p in output.glob('*/sources.json')):
+        if selected is not None and folder.name not in selected:
+            continue
+        found.add(folder.name)
         paper = json_file(folder / 'sources.json')['papers'][0]
         scene = json_file((folder / paper['diagram_json']).resolve())
         stem = scene['id']
@@ -163,6 +170,7 @@ def publish_build(repository, build, output=None):
         if old_manifest != manifest:
             changed.append((folder, stem, manifest, old_manifest))
         plans.append((manifest_path, folder / manifest_path.name))
+    require(selected is None or selected == found, 'Unknown selected paper')
     require(plans, 'No paper builds to publish')
     # Validate the complete proposed folder tree before touching published files.
     # Sibling staging keeps ../../data scene references equivalent to output/.
@@ -190,3 +198,27 @@ def publish_build(repository, build, output=None):
                     shutil.copy2(source, target)
     result['artifacts_modified'] = modified
     return result
+
+
+def add_paper(repository, candidate, output=None):
+    """Register one complete paper bundle after validating the complete proposed tree.
+
+    Candidate directory name is the paper slug. Existing paper replacement is
+    deliberately refused; use publish_build for an existing paper instead.
+    Source references must use the final ../../data/ relative layout.
+    """
+    repository, candidate = Path(repository).resolve(), Path(candidate).resolve()
+    output = Path(output or repository / 'output').resolve()
+    require(bool(re.fullmatch(r'[a-z0-9_-]+', candidate.name)), 'Unsafe paper slug')
+    require(not (output / candidate.name).exists(), 'Paper output already exists')
+    require(candidate.is_dir() and not any(p.is_symlink() for p in candidate.rglob('*')), 'Unsafe candidate directory')
+    with tempfile.TemporaryDirectory(dir=output.parent, prefix='.output-stage-') as temporary:
+        stage = Path(temporary)
+        shutil.copytree(output, stage, dirs_exist_ok=True)
+        shutil.copytree(candidate, stage / candidate.name)
+        refresh_output(repository, stage)
+        # Write the completed folder first; publish updated indexes only after it exists.
+        shutil.copytree(stage / candidate.name, output / candidate.name)
+        for name in ['README.md', 'comparison.html']:
+            shutil.copy2(stage / name, output / name)
+    return {'paper': candidate.name, 'path': str(output / candidate.name)}

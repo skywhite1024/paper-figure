@@ -1,0 +1,39 @@
+{
+  "catalog_id": "constrained-skill-discovery-quadruped-locomotion-with-unsupervised-reinforcement-learning",
+  "title_expected": "Constrained Skill Discovery: Quadruped Locomotion with Unsupervised Reinforcement Learning",
+  "source_url": "https://arxiv.org/abs/2410.07877",
+  "pdf_url": "https://arxiv.org/pdf/2410.07877",
+  "pdf_path": "/tmp/paper-figure-survey/constrained-skill-discovery-quadruped-locomotion-with-unsupervised-reinforcement-learning/original.pdf",
+  "pdf_sha256": "1c580c84287b0df7a15fe502239c50e18e31ecd89f8708d680b508bf03a2919f",
+  "pdf_title_observed": "Constrained Skill Discovery: Quadruped Locomotion with Unsupervised Reinforcement Learning",
+  "title_match": true,
+  "version": "2410.07877v1",
+  "page_count": 18,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "http://creativecommons.org/licenses/by/4.0/",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "Figure 2: Learning scheme for our proposed approach. The encoder \u03d5(\u00b7) maps state transitions into\na latent space optimized to match the skills (sampled from a predefined distribution p(z)), as shown\nby the MSE loss. An intrinsic reward is given to the agent based on the loss magnitude and an\nextrinsic reward from the environment, which encourages smooth behaviors.",
+      "crop_pdf_points": [
+        145,
+        81,
+        466,
+        215
+      ],
+      "vector_paths": 90,
+      "native_text_spans": 16,
+      "raster_images": 0,
+      "source_type": "vector/text",
+      "visually_inspected": true,
+      "notes": "Two stacked shaded panels for supervised encoder learning and reinforcement learning; skill cylinder, encoder, agent, environment, MSE objective, and color-coded reward/state/skill arrows."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2410.07877v1",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/10-p4.png"
+}

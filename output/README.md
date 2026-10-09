@@ -4,6 +4,7 @@
 
 - [ASPIRE: Agentic /Skills Discovery for Robotics](aspire/README.md)：Figure 1，PDF 第 2 页 · [离线对照](aspire/comparison.html)
 - [RoboReact: Agentic Skill Distillation from Generated Egocentric Videos for Generalizable Whole-Body Manipulation](roboreact/README.md)：Figure 2，PDF 第 3 页 · [离线对照](roboreact/comparison.html)
+- [Leveraging Human Feedback for Semantically-Relevant Skill Discovery](srsd/README.md)：Figure 2，PDF 第 4 页 · [离线对照](srsd/comparison.html)
 
 [验证汇总](VALIDATION.json) · [本地 HTML 索引](comparison.html)
 

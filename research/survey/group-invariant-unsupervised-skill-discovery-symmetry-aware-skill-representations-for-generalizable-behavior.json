@@ -1,0 +1,39 @@
+{
+  "catalog_id": "group-invariant-unsupervised-skill-discovery-symmetry-aware-skill-representations-for-generalizable-behavior",
+  "title_expected": "Group-Invariant Unsupervised Skill Discovery: Symmetry-aware Skill Representations for Generalizable Behavior",
+  "source_url": "https://arxiv.org/abs/2601.14000",
+  "pdf_url": "https://arxiv.org/pdf/2601.14000",
+  "pdf_path": "/tmp/paper-figure-survey/group-invariant-unsupervised-skill-discovery-symmetry-aware-skill-representations-for-generalizable-behavior/original.pdf",
+  "pdf_sha256": "f6a7684b7949c7856c05577ce2293fe25fe48bd6a0179499624f063745b7d298",
+  "pdf_title_observed": "Group-Invariant Unsupervised Skill Discovery: Symmetry-aware Skill Representations for Generalizable Behavior",
+  "title_match": true,
+  "version": "2601.14000v1",
+  "page_count": 14,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 3,
+      "caption": "Fig. 1. Overview of Group-Invariant Skill Discovery (GISD). Our method\nlearns an equivariant mapping \u03d5F from the state space S to the Group\nFourier space Z. By aligning state transitions with latent skill vectors z in the\ngroup Fourier domain, the discovered skills inherently respect the underlying\ngeometric symmetry. This structure enables generalization: a policy trained\nfor a specific trajectory \u03c4 automatically generalizes to any group-transformed\ntrajectory g\u03c4 by simply shifting the skill vector along its group orbit to gz.",
+      "crop_pdf_points": [
+        310,
+        51,
+        564,
+        191
+      ],
+      "vector_paths": 18,
+      "native_text_spans": 18,
+      "raster_images": 2,
+      "source_type": "vector/text with embedded raster components",
+      "visually_inspected": true,
+      "notes": "Two ellipsoidal state/Fourier spaces connected by dashed embedding arrow; orbit in latent space and red generalization trajectory, with an embedded quadruped illustration. Faithful reconstruction must preserve the orbit geometry and math labels."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2601.14000v1",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/group-invariant-unsupervised-skill-discovery-symmetry-aware-skill-representations-for-generalizable-behavior/page3.png"
+}

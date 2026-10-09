@@ -1,0 +1,39 @@
+{
+  "catalog_id": "variational-option-discovery-algorithms",
+  "title_expected": "Variational Option Discovery Algorithms",
+  "source_url": "https://arxiv.org/abs/1807.10299",
+  "pdf_url": "https://arxiv.org/pdf/1807.10299",
+  "pdf_path": "/tmp/paper-figure-survey/variational-option-discovery-algorithms/original.pdf",
+  "pdf_sha256": "a2581310989e6cfc5312e67e74ee288ccf26ab6d066a1057b72192d5de407604",
+  "pdf_title_observed": "Variational Option Discovery Algorithms",
+  "title_match": true,
+  "version": "1807.10299v1",
+  "page_count": 29,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 4,
+      "caption": "Figure 1: Bidirectional LSTM architec-\nture for VALOR decoder. Blue blocks\nare LSTM cells.",
+      "crop_pdf_points": [
+        351,
+        376,
+        487,
+        505
+      ],
+      "vector_paths": 0,
+      "native_text_spans": 0,
+      "raster_images": 1,
+      "source_type": "raster",
+      "visually_inspected": true,
+      "notes": "VALOR bidirectional LSTM decoder: two rows of blue recurrent cells, state-difference inputs, linear projections, average pooling and logits output."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/1807.10299v1",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/35-p4.png"
+}

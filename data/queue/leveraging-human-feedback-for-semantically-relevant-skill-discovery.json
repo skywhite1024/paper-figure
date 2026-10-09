@@ -1,0 +1,120 @@
+{
+  "schema_version": 1,
+  "paper_id": "leveraging-human-feedback-for-semantically-relevant-skill-discovery",
+  "revision": 2,
+  "status": "recreated",
+  "created_at": "2026-10-09T20:04:59.476492Z",
+  "updated_at": "2026-10-09T20:08:32.561315Z",
+  "catalog": {
+    "path": "data/catalog.json",
+    "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
+    "source_commit": "bec07f586ad17c7d3285c7b5b38af863a646971a",
+    "paper": {
+      "id": "leveraging-human-feedback-for-semantically-relevant-skill-discovery",
+      "title": "Leveraging Human Feedback for Semantically-Relevant Skill Discovery",
+      "date": "2026.04",
+      "category": "3. Guided and Agentic Robotic Skill Discovery",
+      "url": "https://arxiv.org/abs/2604.24127",
+      "paper_url": "https://arxiv.org/abs/2604.24127",
+      "project_url": null,
+      "code_url": null,
+      "status": "not_reviewed",
+      "diagram": null,
+      "notes": "Metadata transcribed from pinned source README; bibliography and all links not independently verified.",
+      "source_line": 87
+    }
+  },
+  "stages": {
+    "source_identity": {
+      "status": "pending",
+      "evidence": null
+    },
+    "source_access": {
+      "status": "pending",
+      "evidence": null
+    },
+    "figure_selection": {
+      "status": "pending",
+      "evidence": null
+    },
+    "recreation": {
+      "status": "reported",
+      "evidence": {
+        "summary": "Native reconstruction exported and bundled with source PDF",
+        "references": [
+          "output/srsd/README.md"
+        ],
+        "diagram": "data/diagrams/srsd-figure-2/srsd-figure-2.json"
+      }
+    },
+    "qa": {
+      "status": "reported",
+      "evidence": {
+        "summary": "Source comparison and independent LibreOffice PPTX render passed; drawio XML parsed but application render pending",
+        "references": [
+          "output/srsd/VALIDATION.json"
+        ]
+      }
+    },
+    "published": {
+      "status": "reported",
+      "evidence": {
+        "summary": "Local output bundle assembled; remote checkpoint push pending",
+        "references": [
+          "output/srsd/README.md"
+        ]
+      }
+    }
+  },
+  "terminal_evidence": null,
+  "history": [
+    {
+      "revision": 1,
+      "at": "2026-10-09T20:04:59.476492Z",
+      "actor": "catalog-import",
+      "event": "import",
+      "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
+      "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:08:32.561315Z",
+      "actor": "integration",
+      "event": "update",
+      "previous_sha256": "db0f8bfc0d363751332b1c62eaf2e724fe8973de46c358af0ceec49b42051061",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Native reconstruction exported and bundled with source PDF",
+              "references": [
+                "output/srsd/README.md"
+              ],
+              "diagram": "data/diagrams/srsd-figure-2/srsd-figure-2.json"
+            }
+          },
+          "qa": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Source comparison and independent LibreOffice PPTX render passed; drawio XML parsed but application render pending",
+              "references": [
+                "output/srsd/VALIDATION.json"
+              ]
+            }
+          },
+          "published": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Local output bundle assembled; remote checkpoint push pending",
+              "references": [
+                "output/srsd/README.md"
+              ]
+            }
+          }
+        }
+      }
+    }
+  ]
+}

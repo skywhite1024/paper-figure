@@ -1,0 +1,39 @@
+{
+  "catalog_id": "unsupervised-skill-discovery-as-exploration-for-learning-agile-locomotion",
+  "title_expected": "Unsupervised Skill Discovery as Exploration for Learning Agile Locomotion",
+  "source_url": "https://arxiv.org/abs/2508.08982",
+  "pdf_url": "https://arxiv.org/pdf/2508.08982",
+  "pdf_path": "/tmp/paper-figure-survey/unsupervised-skill-discovery-as-exploration-for-learning-agile-locomotion/original.pdf",
+  "pdf_sha256": "19732e8b2d8a811c612ba64fd4f750e61bca06df613df5573098266081dfe67d",
+  "pdf_title_observed": "Unsupervised Skill Discovery as Exploration for Learning Agile Locomotion",
+  "title_match": true,
+  "version": "2508.08982v1",
+  "page_count": 17,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "http://creativecommons.org/licenses/by/4.0/",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption": "Figure 2: A figure of bi-level optimization for \u03c0\u03b8 and \u03bb. The task reward gives the gradient signal\nfor training \u03bb, and the sum of both sources of rewards provides the gradient signal for optimizing\n\u03c0\u03b8.",
+      "crop_pdf_points": [
+        190,
+        73,
+        415,
+        165
+      ],
+      "vector_paths": 0,
+      "native_text_spans": 0,
+      "raster_images": 1,
+      "source_type": "raster",
+      "visually_inspected": true,
+      "notes": "Compact bi-level optimization signal-flow diagram; black environment/action/state loop and blue task/diversity gradient arrows around policy, lambda multiplier, phi representation and reward sum."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2508.08982v1",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/8-p3.png"
+}

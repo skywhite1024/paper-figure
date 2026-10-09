@@ -1,0 +1,39 @@
+{
+  "catalog_id": "relative-variational-intrinsic-control",
+  "title_expected": "Relative Variational Intrinsic Control",
+  "source_url": "https://arxiv.org/abs/2012.07827",
+  "pdf_url": "https://arxiv.org/pdf/2012.07827",
+  "pdf_path": "/tmp/paper-figure-survey/relative-variational-intrinsic-control/original.pdf",
+  "pdf_sha256": "4284bd5fb5e605def47893764b545386c74adc84d119be95fea380e170477b84",
+  "pdf_title_observed": "Relative Variational Intrinsic Control",
+  "title_match": true,
+  "version": "2012.07827v1",
+  "page_count": 9,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption": "Figure 1: Relative VIC: A skill-conditioned policy interacts\nwith the environment yielding a sampled trajectory. Two\nskill predictors are trained to predict the skill from the \ufb01rst\nand last states of the trajectory and only the last state in the\ntrajectory respectively. The difference between the proba-\nbility assigned by the predictors to the skill used to gener-\nate the trajectory is given to the policy as reward to incen-\ntivize learning a set of skills that is diverse in how each skill\nchanges the agent\u2019s relationship to the environment.",
+      "crop_pdf_points": [
+        318,
+        51,
+        553,
+        277
+      ],
+      "vector_paths": 0,
+      "native_text_spans": 0,
+      "raster_images": 1,
+      "source_type": "raster",
+      "visually_inspected": true,
+      "notes": "RVIC flowchart with environment, state/action, skill-conditioned policy, sampled skill, trajectory, reward difference, and pair of skill discriminators. Colored blocks and directed feedback."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2012.07827v1",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/28-p2.png"
+}

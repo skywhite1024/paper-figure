@@ -1,0 +1,39 @@
+{
+  "catalog_id": "discovering-temporal-structure-an-overview-of-hierarchical-reinforcement-learning",
+  "title_expected": "Discovering Temporal Structure: An Overview of Hierarchical Reinforcement Learning",
+  "source_url": "https://arxiv.org/abs/2506.14045",
+  "pdf_url": "https://arxiv.org/pdf/2506.14045",
+  "pdf_path": "/tmp/paper-figure-survey/discovering-temporal-structure-an-overview-of-hierarchical-reinforcement-learning/original.pdf",
+  "pdf_sha256": "70463ca1b717e55535b7d0faa19662bf2d80e61f1716f11086671d2316058d2d",
+  "pdf_title_observed": "Discovering Temporal Structure: An Overview of Hierarchical Reinforcement Learning",
+  "title_match": true,
+  "version": "2506.14045v2",
+  "page_count": 143,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "http://creativecommons.org/licenses/by/4.0/",
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 5,
+      "caption": "Figure 1: Types of methods for temporal structure discovery. We focus on discovering\ntemporal structure autonomously from data under different assumptions.",
+      "crop_pdf_points": [
+        100,
+        88,
+        513,
+        216
+      ],
+      "vector_paths": 157,
+      "native_text_spans": 13,
+      "raster_images": 3,
+      "source_type": "vector/text with embedded raster components",
+      "visually_inspected": true,
+      "notes": "Survey overview with three rounded panels for discovery from online experience, offline datasets and foundation models. A survey taxonomy, not one novel algorithm architecture."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2506.14045v2",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/0-p5.png"
+}

@@ -1,0 +1,98 @@
+{
+  "catalog_id": "emergent-real-world-robotic-skills-via-unsupervised-off-policy-reinforcement-learning",
+  "title_expected": "Emergent Real-World Robotic Skills via Unsupervised Off-Policy Reinforcement Learning",
+  "source_url": "https://arxiv.org/abs/2004.12974",
+  "pdf_url": "https://arxiv.org/pdf/2004.12974",
+  "pdf_path": "/tmp/paper-figure-survey/emergent-real-world-robotic-skills-via-unsupervised-off-policy-reinforcement-learning/original.pdf",
+  "pdf_sha256": "e8a614ad7b1204e511f56d600951bbe13bd3a62734cd068f11118b68fda13891",
+  "pdf_title_observed": "Emergent Real-World Robotic Skills via Unsupervised Off-Policy Reinforcement Learning",
+  "title_match": true,
+  "version": "2004.12974v1",
+  "page_count": 12,
+  "source_status": "accessible",
+  "evidence_status": "no_method_figure",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [],
+  "review_notes": "All 12 PDF pages visually scanned via contact sheet, with Figure1page1 also inspected full-size. Figures are robot photographs, trajectory demonstrations, and result charts; no architecture/method diagram located. Algorithm1page4 is pseudocode, not a diagram.",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2004.12974v1",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/30-all.png",
+  "visual_scan_coverage": {
+    "pages_scanned_1_based": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "page_count": 12,
+    "contact_sheet_inspected": true,
+    "distinct_numbered_figure_captions_extracted": 11,
+    "figure_caption_inventory": [
+      {
+        "figure": 1,
+        "page_1_based": 1,
+        "caption": "Fig. 1. A 12 degree of freedom quadruped (D\u2019Kitty) discovers diverse\nlocomotion skills without any rewards or demonstrations. We develop\noff-DADS, an asynchronous and off-policy version of Dynamics-\nAware Discovery of Skills (DADS) [52], that enables sample-ef\ufb01cient\nskill discovery based on mutual-information based optimization."
+      },
+      {
+        "figure": 2,
+        "page_1_based": 5,
+        "caption": "Fig. 2.\nSample ef\ufb01ciency comparison of off-DADS with DADS\n(red). We control the effect of state-distribution shift using length\nof replay buffers (s implies short and l implies long replay buffer)\nand importance sampling corrections (1 and 10 being the values of\nthe clipping parameter). We observe that all variants of off-DADS\noutperforms DADS in terms of sample ef\ufb01ciency, and using a short\nreplay buffer with importance sampling clip parameter set to 10\nconsistently gives the best performance."
+      },
+      {
+        "figure": 3,
+        "page_1_based": 5,
+        "caption": "Fig. 3.\n(Left) D\u2019Kitty robot from the ROBEL benchmark. (Right)\nD\u2019Kitty with the LED con\ufb01guration for PhaseSpace tracking."
+      },
+      {
+        "figure": 4,
+        "page_1_based": 6,
+        "caption": "Fig. 4.\nTwo quadrupeds in a cordoned area. The LEDs allow the\nrobots and the object to be tracked using the PhaseSpace cameras."
+      },
+      {
+        "figure": 5,
+        "page_1_based": 6,
+        "caption": "Fig. 5.\nDynamixel motor con\ufb01guration for the D\u2019Kitty robots."
+      },
+      {
+        "figure": 6,
+        "page_1_based": 6,
+        "caption": "Fig. 6.\n(Left) Training curves for D\u2019Kitty in both simulation and\nreal-world. We \ufb01nd the off-DADS with a short replay and importance\nsampling clipping parameter \u03b1 = 10 to be the most suitable for the\nreal-world learning. We \ufb01nd the real-world learning curve closely\nfollows the simulation learning curve."
+      },
+      {
+        "figure": 7,
+        "page_1_based": 7,
+        "caption": "Fig. 7.\nDiverse gaits learned by the D\u2019Kitty in our real world\nexperiments."
+      },
+      {
+        "figure": 8,
+        "page_1_based": 8,
+        "caption": "Fig. 8.\nDistance (in m) travelled by skills sampled randomly from\nthe prior in 100 steps, which is 10s of execution time. We also report\nthe number of times D\u2019Kitty falls before completing 100 steps. The\nresults have been averaged over 20 trials."
+      },
+      {
+        "figure": 9,
+        "page_1_based": 8,
+        "caption": "Fig. 9.\nNavigation via model-predictive-control over skills learned\nby off-DADS. Using the skill-dynamics learned in the unsupervised\ntraining, the planner composes skills to move towards the goal. The\ntrajectories visualized show movement of D\u2019Kitty towards the goal\nbox, marked by a set of LED markers."
+      },
+      {
+        "figure": 10,
+        "page_1_based": 12,
+        "caption": "Fig. 10.\nD\u2019Claw from ROBEL [3] is a three-armed manipulatation oriented\nrobotic setup. In this environment, it is provided with a three-pronged valve\nwhich can rotate on its axis. The goal position can be speci\ufb01ed by the motor\nat the top."
+      },
+      {
+        "figure": 11,
+        "page_1_based": 12,
+        "caption": "Fig. 11. We use off-DADS to enable skill discovery for D\u2019Claw to manipulate\nthe three-pronged valve. The \ufb01rst row represents a skill which turns the valve\nclockwise and the second row represents a skill which turns the valve counter-\nclockwise."
+      }
+    ]
+  },
+  "no_method_figure_scope": "No architecture, block, or algorithm-process diagram located in full source. Photographs, result plots, trajectory maps and experimental visualizations are not silently converted into invented architecture."
+}

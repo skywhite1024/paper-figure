@@ -1,0 +1,39 @@
+{
+  "catalog_id": "mutual-information-state-intrinsic-control",
+  "title_expected": "Mutual Information State Intrinsic Control",
+  "source_url": "https://arxiv.org/abs/2103.08107",
+  "pdf_url": "https://arxiv.org/pdf/2103.08107",
+  "pdf_path": "/tmp/paper-figure-survey/mutual-information-state-intrinsic-control/original.pdf",
+  "pdf_sha256": "fccb2c6c2463b42da75df0d35bb7f58a39be81b5a4544f2b1ab00b6e70e5fb17",
+  "pdf_title_observed": "Mutual Information State Intrinsic Control",
+  "title_match": true,
+  "version": "2103.08107v1",
+  "page_count": 16,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 3,
+      "caption": "Figure 1: MUSIC Algorithm: We update the estimator to better predict the MI, and update the\nagent to control the surrounding state to have higher MI with the agent state.",
+      "crop_pdf_points": [
+        108,
+        81,
+        504,
+        204
+      ],
+      "vector_paths": 11,
+      "native_text_spans": 94,
+      "raster_images": 7,
+      "source_type": "vector/text with embedded raster components",
+      "visually_inspected": true,
+      "notes": "Composite MUSIC algorithm figure: environment-agent-MI estimator triangle left and Algorithm1 pseudocode right. Blue learned versus green fixed legend included."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2103.08107v1",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/27-p3.png"
+}

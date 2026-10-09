@@ -1,0 +1,39 @@
+{
+  "catalog_id": "unsupervised-learning-of-goal-spaces-for-intrinsically-motivated-goal-exploration",
+  "title_expected": "Unsupervised Learning of Goal Spaces for Intrinsically Motivated Goal Exploration",
+  "source_url": "https://arxiv.org/abs/1803.00781",
+  "pdf_url": "https://arxiv.org/pdf/1803.00781",
+  "pdf_path": "/tmp/paper-figure-survey/unsupervised-learning-of-goal-spaces-for-intrinsically-motivated-goal-exploration/original.pdf",
+  "pdf_sha256": "f972160f7b25e2e646db98cbd719aa36d85445eedd67445fb35d582ce8098917",
+  "pdf_title_observed": "Unsupervised Learning of Goal Spaces for Intrinsically Motivated Goal Exploration",
+  "title_match": true,
+  "version": "1803.00781v3",
+  "page_count": 26,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "http://creativecommons.org/licenses/by/4.0/",
+  "figure_candidates": [
+    {
+      "figure": "Figure 7",
+      "page_1_based": 24,
+      "caption": "Figure 7: Layers of the different neural networks architectures.",
+      "crop_pdf_points": [
+        108,
+        80,
+        505,
+        332
+      ],
+      "vector_paths": 944,
+      "native_text_spans": 26,
+      "raster_images": 0,
+      "source_type": "vector/text",
+      "visually_inspected": true,
+      "notes": "Appendix architecture figure compares autoencoder, variational autoencoder and radial-flow VAE as three vertical fully connected layer stacks. Main paper has no overview flowchart, but this is a genuine architecture figure."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/1803.00781v3",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/36-p24.png"
+}

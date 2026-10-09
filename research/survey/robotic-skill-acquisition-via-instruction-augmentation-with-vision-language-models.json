@@ -1,0 +1,79 @@
+{
+  "catalog_index": 56,
+  "catalog_id": "robotic-skill-acquisition-via-instruction-augmentation-with-vision-language-models",
+  "title_expected": "Robotic Skill Acquisition via Instruction Augmentation with Vision-Language Models",
+  "source_url": "https://arxiv.org/pdf/2211.11736v3",
+  "pdf_path": "build/sources/robotic-skill-acquisition-via-instruction-augmentation-with-vision-language-models.pdf",
+  "pdf_sha256": "d8646a36949afe39e336a1142b501bbccc300f3321510b61b98549827f5027fc",
+  "pdf_title_observed": "Robotic Skill Acquisition via Instruction Augmentation with Vision-Language Models",
+  "first_page_title_text": "Robotic Skill Acquisition via Instruction\nAugmentation with Vision-Language Models\nTed Xiao1,∗\nHarris Chan1,2,∗\nPierre Sermanet1\nAyzaan Wahid1\nAnthony Brohan1\nKarol Hausman1\nSergey Levine1\nJonathan Tompson1\n1Robotics at Google\n2University of Toronto\nProject website: https://instructionaugmentation.github.io\nStep 1: Fine-tune VLM on a small dataset of crowd-sourced natural language descriptions \nSt",
+  "title_match": true,
+  "version": "2211.11736v3",
+  "page_count": 17,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Fig. 1: DIAL consists of three steps: (1) Contrastive fine-tuning of a vision-language model (VLM) such as CLIP [39] on a small dataset of robot manipulation trajectories with crowd-sourced natural language annotation, (2) labeling a larger dataset of trajectories using the fine-tuned VLM (in dashed outline), and (3) training a language-conditioned policy using behavior cloning on the original and relabeled dataset. We evaluate the trained policy",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 5. II. RELATED WORK a) Language instruction following in robotics: Language- instruction following agents have been extensively explored with engineered symbolic representations [17, 45], with rein- forcement learning (RL) [5, 20, 29], and with imitation learning [3, 6, 24, 30]. Recent advances in deep learning with large amounts of data have led to advances in methods for learning instruction-conditioned policies [1, 28, 34, 43, 44]. Late",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 3,
+      "caption_excerpt": "Fig. 3: The construction of datasets: Dataset A (DA) (blue) consists of the N trajectories {τn}N n=1 labeled with crowd- sourced instructions {ln}N n=1 describing what the robot agent performed in the episode. Dataset B (DB) (yellow) consists of a much larger set of trajectories, {ˆτm}M m=1 without crowd- sourced instructions. Dataset C (DC) (red, dashed) contains Dataset B trajectories relabeled with VLM-sourced hindsight instruction(s) {˜lm 1 ,",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 4: (a) A mobile manipulator robot receives RGB images from an onboard camera and uses a 7 DoF arm with parallel-jaw grippers. (b) Teleoperators receive instructions drawn from a set of 551 structured commands to perform a total of 80,000 demonstrations. 2,800 of these episodes are sent for crowdsourced language annotations. (c) A sample of scenes in the demonstration dataset which range across various countertops, drawers, and object arrange",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 5: Given the same starting scene, DIAL follows the instructions of (a) pick can which is on the right of the table, (b) pick the can in the middle, and (c) pick can which is on the left of the table. Non-DIAL methods do not adjust their behaviors based on language commands, demonstrating a lack of spatial understanding. novel instructions. For training various control policies, we consider three training datasets: DA contains 5,600 episodes ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 8",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 8. Dataset Properties Evaluation on Novel Instructions Method DA DB DC Spatial Rephrased Semantic Overall IL [32] ✓ 30.0% 40.0% 7.7% 27.5% RT-1 [7] ✓ 38.0% 40.0% 15.4% 33.8% RT-1 + IL ✓ ✓ 46.0% 60.0% 15.4% 42.5% ✓ ✓ 58.0% 46.7% 15.4% 47.5% DIAL (ours) ✓ ✓ 50.0% 37.5% 10.0% 36.7% ✓ ✓ ✓ 68.0% 66.7% 30.8% 60.0% TABLE II: Comparing the performance of language- conditioned policies trained on different types of labeled datasets. DA contains 5,6",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 6: Comparing the task diversity of structured commands provided to teleoperators and DIAL instruction predictions. The visualization shows a t-SNE for 30,000 trajectories with their first and last frames embedded via a fine-tuned CLIP model. On the left, embeddings are colored based on the skill categories of structured teleoperator commands. On the right, embeddings are colored based on particular keywords that are present in the DIAL predi",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 7: The factual accuracy of the top 20 instruction aug- mentation predictions of 50 sampled episodes relabeled by a fine-tuned CLIP model. For k ∈[1, 20], we measure the accuracy of the k-th instruction, the cumulative accuracy of the top k instructions, and CLIP’s confidence score for the k-th instruction. While top instructions are often accurate, they become increasingly inaccurate along with CLIP’s confidence. incorrect or irrelevant inst",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 12",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 12. In Figure 7, we sample 50 episodes and ask human labelers to assess the predicted instruction accuracy as we increase the number of predictions produced by CLIP. While the initial predictions are often correct, the later predictions are often factually inaccurate. The top-20th instruction prediction is only factually accurate 20.0% of the time. When applying these different relabeled datasets to down- stream policy learning, we find in",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 8",
+      "page_1_based": 8,
+      "caption_excerpt": "Fig. 8: DIAL successfully completes various novel evaluation instructions requiring understanding of concepts such as relative spatial references, colors, and alternative phrasings. These concepts were not present in the structured teleoperator commands used for the original training demonstrations. they do not capture skills involving temporal coherence nor is aware of how these instructions are accomplished. A natural next step is to apply DIAL",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

@@ -1,0 +1,39 @@
+{
+  "catalog_id": "direct-then-diffuse-incremental-unsupervised-skill-discovery-for-state-covering-and-goal-reaching",
+  "title_expected": "Direct then Diffuse: Incremental Unsupervised Skill Discovery for State Covering and Goal Reaching",
+  "source_url": "https://arxiv.org/abs/2110.14457",
+  "pdf_url": "https://arxiv.org/pdf/2110.14457",
+  "pdf_path": "/tmp/paper-figure-survey/direct-then-diffuse-incremental-unsupervised-skill-discovery-for-state-covering-and-goal-reaching/original.pdf",
+  "pdf_sha256": "4ca5e9154fe80d448399b284f25065f7451339757b2266e94405ec7a6aec866e",
+  "pdf_title_observed": "Direct then Diffuse: Incremental Unsupervised Skill Discovery for State Covering and Goal Reaching",
+  "title_match": true,
+  "version": "2110.14457v2",
+  "page_count": 25,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption": "Figure 1: Overview of UPSIDE. The black dot corresponds to the initial state. (A) A set of random policies is\ninitialized, each policy being composed of a directed part called skill (illustrated as a black arrow) and a dif-\nfusing part (red arrows) which induces a local coverage (colored circles). (B) The skills are then updated to\nmaximize the discriminability of the states reached by their corresponding diffusing part (Sect. 3.1). (C) The\nleast discriminable policies are iteratively removed while the remaining policies are re-optimized. This is ex-\necuted until the discriminability of each policy satis\ufb01es a given constraint (Sect. 3.2). In this example two\npolicies are consolidated. (D) One of these policies is used as basis to add new policies, which are then opti-\nmized following the same procedure. For the \u201cred\u201d and \u201cpurple\u201d policy, UPSIDE is not able to \ufb01nd sub-policies\nof suf\ufb01cient quality and thus they are not expanded any further. (E) At the end of the process, UPSIDE has\ncreated a tree of policies covering the state space, with skills as edges and diffusing parts as nodes (Sect. 3.3).",
+      "crop_pdf_points": [
+        108,
+        80,
+        504,
+        189
+      ],
+      "vector_paths": 0,
+      "native_text_spans": 0,
+      "raster_images": 1,
+      "source_type": "raster",
+      "visually_inspected": true,
+      "notes": "Five-panel UPSIDE process: random directed/diffusing skill policies, increased discriminability and coverage, policy splitting and tree expansion. Includes left structure legend."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2110.14457v2",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/22-p2.png"
+}

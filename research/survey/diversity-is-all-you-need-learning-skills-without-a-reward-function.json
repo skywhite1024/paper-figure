@@ -1,0 +1,39 @@
+{
+  "catalog_id": "diversity-is-all-you-need-learning-skills-without-a-reward-function",
+  "title_expected": "Diversity Is All You Need: Learning Skills without a Reward Function",
+  "source_url": "https://arxiv.org/abs/1802.06070",
+  "pdf_url": "https://arxiv.org/pdf/1802.06070",
+  "pdf_path": "/tmp/paper-figure-survey/diversity-is-all-you-need-learning-skills-without-a-reward-function/original.pdf",
+  "pdf_sha256": "af9965836b917def393670da0258d76c31787076c19ad7cbf46a7a7eda510624",
+  "pdf_title_observed": "Diversity is All You Need: Learning Skills without a Reward Function",
+  "title_match": true,
+  "version": "1802.06070v6",
+  "page_count": 22,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 3,
+      "caption": "Figure 1: DIAYN Algorithm: We update the discriminator to better predict the skill, and update the\nskill to visit diverse states that make it more discriminable.",
+      "crop_pdf_points": [
+        108,
+        83,
+        504,
+        195
+      ],
+      "vector_paths": 34,
+      "native_text_spans": 118,
+      "raster_images": 10,
+      "source_type": "vector/text with embedded raster components",
+      "visually_inspected": true,
+      "notes": "DIAYN learned/fixed skill-environment-discriminator graph at left and Algorithm1 pseudocode at right. Composite original Figure1 must preserve both panels."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/1802.06070v6",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/37-p3.png"
+}

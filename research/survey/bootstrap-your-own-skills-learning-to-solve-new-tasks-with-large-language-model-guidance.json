@@ -1,0 +1,78 @@
+{
+  "catalog_index": 54,
+  "catalog_id": "bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-language-model-guidance",
+  "title_expected": "Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance",
+  "source_url": "https://arxiv.org/pdf/2310.10021v2",
+  "pdf_path": "build/sources/bootstrap-your-own-skills-learning-to-solve-new-tasks-with-large-language-model-guidance.pdf",
+  "pdf_sha256": "8f3e5ae033bcfce30ef469ff1b1d4011e2d9ce806a2d76733b47b0d358e4a171",
+  "pdf_title_observed": "Bootstrap Your Own Skills: Learning to Solve New Tasks with Large Language Model Guidance",
+  "first_page_title_text": "Bootstrap Your Own Skills: Learning to Solve New\nTasks with Large Language Model Guidance\nJesse Zhang1, Jiahui Zhang1, Karl Pertsch1, Ziyi Liu1,\nXiang Ren1, Minsuk Chang2, Shao-Hua Sun3, Joseph J. Lim4\n1University of Southern California, 2Google AI, 3National Taiwan University, 4KAIST\njessez@usc.edu\nAbstract: We propose BOSS, an approach that automatically learns to solve new\nlong-horizon, complex",
+  "title_match": true,
+  "version": "2310.10021v2",
+  "page_count": 24,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption": "BOSS skill bootstrapping and target-task execution.",
+      "crop_pdf_points": [
+        108,
+        71,
+        504,
+        217
+      ],
+      "vector_paths": 161,
+      "native_text_spans": 67,
+      "raster_images": 19,
+      "visually_inspected": true,
+      "notes": "Native panel/flow objects and text; raster emoji/robot/LLM icons, real-robot inset."
+    }
+  ],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1: BOSS learns to execute a large set of useful, long-horizon skills with minimal supervision by performing LLM-guided skill bootstrapping. (a): The agent starts with an initial skill library. During bootstrapping, it practices chaining skills into new long-horizon behaviors using guidance from an LLM. The collected experience is used to update the policy. Newly discovered skill chains are summarized with an LLM and added as new skills int",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 2: A shortened LLM prompt. See the full prompt in Appendix A.2. To sample next skills, we prompt the LLM with the cur- rent skill repertoire and the chain of skills executed so far. For example, if the agent has just completed “Pick up the mug”, we prompt the LLM with the list of skill annota- tions in Z and then the following prompt: 1. PICK UP THE MUG. 2. (see Figure 2). The LLM then proposes the next skill by generating text following t",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 3: Environments. (a) The ALFRED environment is a benchmark for learning agents that can follow natural language instructions to fulfill household tasks. This illustration was drawn from Shridhar et al. [50] with permission. (b) Real-world Jaco arm: Our real-world kitchen ma- nipulation tabletop environment based on RGB image inputs. 4 Experimental Evaluation The goal of our experiments is to test BOSS’s ability to acquire long-horizon, com",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 4: Left: The number of subtasks in skills executed during skill bootstrapping by BOSS in one of the unseen ALFRED floorplans. BOSS progressively learns longer skill chains throughout the course of training. Right: The number of newly acquired skills by BOSS throughout training. (1) Go to the area between  the cabinets and the toilet  (2) Pick up the empty toilet  paper tube behind the  toilet brush  (3) Place the toilet paper tube  upright",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 5: Example skill chains (light gray) and new skill summaries (dark grey) learned by BOSS during skill bootstrapping. LLM-guidance ensures meaningful skill chains and summaries. vironment is ineffective for solving long-horizon tasks. Since BOSS learns to finetune individual primitive skills and transition between skills using a closed-loop policy, it performs much better on complex, long-horizon language-specified tasks in unseen environme",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 6: Skill li- brary size during bootstrapping. To further analyze this, we compare the sizes of the learned skill libraries between BOSS bootstrapped with LLaMA-13B guidance vs. random skill selection (BOSS-Rand) in Figure 6. Perhaps surprisingly, the random skill chaining ablation learns more skills than BOSS – its skill library grows faster during bootstrapping. Yet, Table 3 shows that it has lower performance. This indicates, that while ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 6. Perhaps surprisingly, the random skill chaining ablation learns more skills than BOSS – its skill library grows faster during bootstrapping. Yet, Table 3 shows that it has lower performance. This indicates, that while BOSS-Rand learns many skills, it learns less meaning- ful skills. A qualitative analysis supports this intuition: many of the learned skills contain repetitions and meaningless skill chains. This underlines the importance ",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed."
+}

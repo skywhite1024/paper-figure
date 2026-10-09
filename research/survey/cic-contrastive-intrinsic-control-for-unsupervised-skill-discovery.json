@@ -1,0 +1,39 @@
+{
+  "catalog_id": "cic-contrastive-intrinsic-control-for-unsupervised-skill-discovery",
+  "title_expected": "CIC: Contrastive Intrinsic Control for Unsupervised Skill Discovery",
+  "source_url": "https://arxiv.org/abs/2202.00161",
+  "pdf_url": "https://arxiv.org/pdf/2202.00161",
+  "pdf_path": "/tmp/paper-figure-survey/cic-contrastive-intrinsic-control-for-unsupervised-skill-discovery/original.pdf",
+  "pdf_sha256": "01c118cb18c18693dc033735eae3152cf27d515263c2429b009f5532937fd236",
+  "pdf_title_observed": "CIC: Contrastive Intrinsic Control for Unsupervised Skill Discovery",
+  "title_match": true,
+  "version": "2202.00161v3",
+  "page_count": 17,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "http://creativecommons.org/licenses/by/4.0/",
+  "figure_candidates": [
+    {
+      "figure": "Figure 3",
+      "page_1_based": 3,
+      "caption": "Figure 3. Architecture illustrating the practical implementation of CIC . During a gradient update step, random \u03c4 = (s, s\u2032) tuples are\nsampled from the replay buffer, then a particle estimator is used to compute the entropy and a noise contrastive loss to compute the\nconditional entropy. The contrastive loss is backpropagated through the entire architecture. The entropy and contrastive terms are then\nscaled and added to form the intrinsic reward. The RL agent is optimized with a DDPG (Lillicrap et al., 2016).",
+      "crop_pdf_points": [
+        104,
+        68,
+        493,
+        199
+      ],
+      "vector_paths": 50,
+      "native_text_spans": 10,
+      "raster_images": 10,
+      "source_type": "vector/text with embedded raster components",
+      "visually_inspected": true,
+      "notes": "Three horizontal rounded panels: replay buffer, intrinsic reward with particle/k-NN entropy estimator, representation learning with query/key embedding branches and noise contrastive loss."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2202.00161v3",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/20-p3.png"
+}

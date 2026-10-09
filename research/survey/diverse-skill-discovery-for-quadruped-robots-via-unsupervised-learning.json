@@ -1,0 +1,39 @@
+{
+  "catalog_id": "diverse-skill-discovery-for-quadruped-robots-via-unsupervised-learning",
+  "title_expected": "Diverse Skill Discovery for Quadruped Robots via Unsupervised Learning",
+  "source_url": "https://arxiv.org/abs/2602.09767",
+  "pdf_url": "https://arxiv.org/pdf/2602.09767",
+  "pdf_path": "/tmp/paper-figure-survey/diverse-skill-discovery-for-quadruped-robots-via-unsupervised-learning/original.pdf",
+  "pdf_sha256": "8f30a75f0ebc698d59e09576720224bf3194f63e570d386a394a1a77dac9e9f8",
+  "pdf_title_observed": "Diverse Skill Discovery for Quadruped Robots via Unsupervised Learning",
+  "title_match": true,
+  "version": "2602.09767v1",
+  "page_count": 6,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 3,
+      "caption": "Fig. 1.\nOverview of the proposed MOD-Skill framework. The policy is\noptimized through reinforcement learning, and the discriminators are updated\nthrough supervised learning, with both cooperating to facilitate skill discovery.",
+      "crop_pdf_points": [
+        48,
+        48,
+        299,
+        256
+      ],
+      "vector_paths": 0,
+      "native_text_spans": 0,
+      "raster_images": 1,
+      "source_type": "raster",
+      "visually_inspected": true,
+      "notes": "Flowchart with robot observation image, skill sampler, multi-discriminator module, orthogonal mixture-of-experts policy, Gram-Schmidt processing and policy-gradient feedback. Excludes adjacent Algorithm1."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2602.09767v1",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/3-p3.png"
+}

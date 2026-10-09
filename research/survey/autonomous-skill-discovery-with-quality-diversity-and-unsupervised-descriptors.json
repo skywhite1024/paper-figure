@@ -1,0 +1,39 @@
+{
+  "catalog_id": "autonomous-skill-discovery-with-quality-diversity-and-unsupervised-descriptors",
+  "title_expected": "Autonomous Skill Discovery with Quality-Diversity and Unsupervised Descriptors",
+  "source_url": "https://dl.acm.org/doi/abs/10.1145/3321707.3321804",
+  "pdf_url": "https://arxiv.org/pdf/1905.11874",
+  "pdf_path": "/tmp/paper-figure-survey/autonomous-skill-discovery-with-quality-diversity-and-unsupervised-descriptors/original.pdf",
+  "pdf_sha256": "c20db8b8c02d74e1a128c3901177147ea81711239136a4ba32c64de3361192ac",
+  "pdf_title_observed": "Autonomous skill discovery with Quality-Diversity and Unsupervised Descriptors",
+  "title_match": true,
+  "version": "1905.11874v1",
+  "page_count": 9,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption": "Figure 1: AURORA: A quality diversity (QD) algorithm used to\ngenerate a behavioral repertoire of a robot. The behavioral de-\nscriptor used in the QD algorithm is defined by a dimensionality\nreduction algorithm (like an auto-encoder), which is trained and\nperiodically refined based on the sensory data produced by the be-\nhaviors contained in the repertoire. The resulting approach enables\nrobots to autonomously discover the range of their abilities.",
+      "crop_pdf_points": [
+        344,
+        170,
+        529,
+        320
+      ],
+      "vector_paths": 198,
+      "native_text_spans": 12,
+      "raster_images": 2,
+      "source_type": "vector/text with embedded raster components",
+      "visually_inspected": true,
+      "notes": "AURORA circular loop: repertoire, robot execution, sensory sample, dimensionality-reduction neural network, dataset and training. Dense colored repertoire points and thin gray arrows require visual QA."
+    }
+  ],
+  "review_notes": "Catalog ACM source preserved; matching-title arXiv author preprint1905.11874 is inspected. First-page copyright allows personal/classroom copies subject to notice; broader redistribution may require permission.",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/1905.11874v1",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/34-p1.png"
+}

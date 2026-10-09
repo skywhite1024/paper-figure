@@ -2,19 +2,20 @@
   "version": "0.2.0",
   "catalog": {
     "total": 137,
-    "not_reviewed": 134,
-    "recreated": 2,
-    "blocked": 1,
-    "verified": 0
+    "not_reviewed": 133,
+    "recreated": 3,
+    "blocked": 1
   },
   "tests": {
-    "unittest_passed": 37,
+    "unittest_passed": 75,
     "unittest_failed": 0,
-    "pptx_integration": true
+    "pptx_integration": true,
+    "note": "Engineering checkpoint; per-paper review limits stored with each paper."
   },
   "papers": {
     "aspire": "aspire/VALIDATION.json",
-    "roboreact": "roboreact/VALIDATION.json"
+    "roboreact": "roboreact/VALIDATION.json",
+    "srsd": "srsd/VALIDATION.json"
   },
   "note": "Per-paper source and artifact checks are stored with each paper.",
   "output_layout_validation": {

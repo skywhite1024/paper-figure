@@ -1,0 +1,39 @@
+{
+  "catalog_id": "divide-discover-deploy-factorized-skill-learning-with-symmetry-and-style-priors",
+  "title_expected": "Divide, Discover, Deploy: Factorized Skill Learning with Symmetry and Style Priors",
+  "source_url": "https://arxiv.org/abs/2508.19953",
+  "pdf_url": "https://arxiv.org/pdf/2508.19953",
+  "pdf_path": "/tmp/paper-figure-survey/divide-discover-deploy-factorized-skill-learning-with-symmetry-and-style-priors/original.pdf",
+  "pdf_sha256": "20d7dceb084e20ac7537d9ff1bac804e258f0e6e44d106006f91e0cf92b8bfd9",
+  "pdf_title_observed": "Divide, Discover, Deploy: Factorized Skill Learning with Symmetry and Style Priors",
+  "title_match": true,
+  "version": "2508.19953v2",
+  "page_count": 19,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "http://creativecommons.org/licenses/by/4.0/",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "Figure 2: Proposed algorithm for skill discovery. The agent \u03c0\u03b8, conditioned on a sampled skill z and factor\nweights \u03bb, collects transitions and receives a total reward combining per-factor intrinsic rewards and a style\nreward. The transitions are then augmented via symmetry-based mirroring, after which the intrinsic reward\nmodels, factorized value functions, and policy are updated using on-policy RL.",
+      "crop_pdf_points": [
+        108,
+        75,
+        506,
+        270
+      ],
+      "vector_paths": 155,
+      "native_text_spans": 162,
+      "raster_images": 0,
+      "source_type": "vector/text",
+      "visually_inspected": true,
+      "notes": "Left architecture training loop and right Algorithm1 are one composite figure; retain both. Native text and vector arrows/shapes preserve equations and symmetry-augmentation feedback."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2508.19953v2",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/6-p4.png"
+}

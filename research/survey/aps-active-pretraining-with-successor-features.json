@@ -1,0 +1,39 @@
+{
+  "catalog_id": "aps-active-pretraining-with-successor-features",
+  "title_expected": "APS: Active Pretraining with Successor Features",
+  "source_url": "https://arxiv.org/abs/2108.13956",
+  "pdf_url": "https://arxiv.org/pdf/2108.13956",
+  "pdf_path": "/tmp/paper-figure-survey/aps-active-pretraining-with-successor-features/original.pdf",
+  "pdf_sha256": "4ec6775b24f294d39f97feb8d9954c5184c90faeab9563d385e3f32b3c1a436a",
+  "pdf_title_observed": "APS: Active Pretraining with Successor Features",
+  "title_match": true,
+  "version": "2108.13956v1",
+  "page_count": 15,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "Figure 2: Diagram of the proposed method APS. On the left shows the concept of APS, during reward-free pretraining phase, reinforcement\nlearning is deployed to maximize the mutual information between the states induced by policy and the task variables. During testing,\nthe pre-trained state features can identify the downstream task by solving a linear regression problem , the pre-trained task conditioning\nsuccessor features can then quickly adapt to and solve the task. On the right shows the components of APS. APS consists of maximizing\nstate entropy in an abstract representation space (exploration, max H(s)) and leveraging explored data to learn task conditioning behaviors\n(exploitation, max \u2212H(s|z)).",
+      "crop_pdf_points": [
+        119,
+        67,
+        478,
+        215
+      ],
+      "vector_paths": 28,
+      "native_text_spans": 18,
+      "raster_images": 0,
+      "source_type": "vector/text",
+      "visually_inspected": true,
+      "notes": "Left reward-free pretraining to linear-regression task identification; middle/right exploration entropy and successor-feature exploitation reward branches summed to intrinsic reward."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2108.13956v1",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/23-p4.png"
+}

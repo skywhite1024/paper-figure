@@ -1,0 +1,44 @@
+{
+  "catalog_id": "reference-grounded-skill-discovery",
+  "catalog_title": "Reference Grounded Skill Discovery",
+  "paper_url": "https://arxiv.org/abs/2510.06203v3",
+  "pdf_url": "https://arxiv.org/pdf/2510.06203v3",
+  "pdf_local_path": "build/sources/reference-grounded-skill-discovery.pdf",
+  "pdf_sha256": "b9154ebe8e10474e98ddf70db38a2ec7d45ec5bcd9928987ab50ca8a7bb64717",
+  "page_count": 22,
+  "source_status": "accessible",
+  "visual_inspection_status": "inspected",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "Overall training pipeline of RGSD.",
+      "crop_pdf_points": [
+        153,
+        61,
+        454,
+        226
+      ],
+      "vector_paths": 202,
+      "native_text_spans": 55,
+      "raster_images": 6,
+      "visually_inspected": true,
+      "notes": "Three-part pretraining/imitation/discovery architecture; predominantly native vector/text with small motion/environment thumbnails."
+    }
+  ],
+  "title_expected": "Reference Grounded Skill Discovery",
+  "source_url": "https://arxiv.org/pdf/2510.06203v3",
+  "pdf_path": "build/sources/reference-grounded-skill-discovery.pdf",
+  "pdf_title_observed": "Reference Grounded Skill Discovery",
+  "title_match": true,
+  "version": "2510.06203v3",
+  "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+  "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+  "reconstruction": {
+    "scene_path": "data/diagrams/rgsd-figure-2/rgsd-figure-2.json",
+    "output_draft_path": "build/rgsd-figure-2",
+    "source_visual_qa": "reviewed",
+    "independent_export_qa": "pending",
+    "notes": "Actual original crop/export compared. BrokenToUnicode glyphs corrected via rgsd-postprocess.py; Times labels restored;6raster motion/photo/lock inserts reviewed. Native paths retain architecture; clipping warnings are source bounding-box overlaps requiring logged review, not a claim of zero issues."
+  }
+}

@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "paper_id": "agentic-skill-discovery",
+  "revision": 1,
+  "status": "blocked",
+  "created_at": "2026-10-09T20:04:59.481153Z",
+  "updated_at": "2026-10-09T20:04:59.481153Z",
+  "catalog": {
+    "path": "data/catalog.json",
+    "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
+    "source_commit": "bec07f586ad17c7d3285c7b5b38af863a646971a",
+    "paper": {
+      "id": "agentic-skill-discovery",
+      "title": "Agentic Skill Discovery",
+      "date": "2024.05",
+      "category": "3. Guided and Agentic Robotic Skill Discovery",
+      "url": "https://www.sciencedirect.com/science/article/pii/S0921889025003458",
+      "paper_url": "https://www.sciencedirect.com/science/article/pii/S0921889025003458",
+      "project_url": "https://agentic-skill-discovery.github.io/",
+      "code_url": "https://github.com/xf-zhao/Agentic-Skill-Discovery",
+      "status": "blocked",
+      "diagram": null,
+      "notes": "Reference only. Figure2 arXiv2405.15019v2 page3 previously inspected; CC BY-NC-ND 4.0. No modified deliverable included.",
+      "source_line": 93
+    }
+  },
+  "stages": {
+    "source_identity": {
+      "status": "pending",
+      "evidence": null
+    },
+    "source_access": {
+      "status": "pending",
+      "evidence": null
+    },
+    "figure_selection": {
+      "status": "pending",
+      "evidence": null
+    },
+    "recreation": {
+      "status": "pending",
+      "evidence": null
+    },
+    "qa": {
+      "status": "pending",
+      "evidence": null
+    },
+    "published": {
+      "status": "pending",
+      "evidence": null
+    }
+  },
+  "terminal_evidence": {
+    "summary": "Reference only. Figure2 arXiv2405.15019v2 page3 previously inspected; CC BY-NC-ND 4.0. No modified deliverable included.",
+    "references": [
+      "data/catalog.json#paper=agentic-skill-discovery"
+    ],
+    "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
+    "imported_claim_only": true
+  },
+  "history": [
+    {
+      "revision": 1,
+      "at": "2026-10-09T20:04:59.481153Z",
+      "actor": "catalog-import",
+      "event": "import",
+      "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
+      "status": "blocked"
+    }
+  ]
+}

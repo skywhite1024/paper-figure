@@ -1,0 +1,155 @@
+{
+  "catalog_id": "lipschitz-constrained-unsupervised-skill-discovery",
+  "title_expected": "Lipschitz-Constrained Unsupervised Skill Discovery",
+  "source_url": "https://arxiv.org/abs/2202.00914",
+  "pdf_url": "https://arxiv.org/pdf/2202.00914",
+  "pdf_path": "/tmp/paper-figure-survey/lipschitz-constrained-unsupervised-skill-discovery/original.pdf",
+  "pdf_sha256": "faad7805533b400cddd858cfcaccf6646855739e916bb2604508eb143d51e462",
+  "pdf_title_observed": "Lipschitz-constrained Unsupervised Skill Discovery",
+  "title_match": true,
+  "version": "2202.00914v2",
+  "page_count": 24,
+  "source_status": "accessible",
+  "evidence_status": "no_method_figure",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [],
+  "review_notes": "All 24 PDF pages visually scanned via contact sheet. Figures are skill trajectories, results plots, and robot demonstrations; no architecture/method diagram located. Figure1page2 is demonstration/results, not architecture.",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2202.00914v2",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/21-all.png",
+  "visual_scan_coverage": {
+    "pages_scanned_1_based": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24
+    ],
+    "page_count": 24,
+    "contact_sheet_inspected": true,
+    "distinct_numbered_figure_captions_extracted": 19,
+    "figure_caption_inventory": [
+      {
+        "figure": 1,
+        "page_1_based": 2,
+        "caption": "Figure 1: Skills discovered by LSD can be used to follow goals with no further training or planning."
+      },
+      {
+        "figure": 4,
+        "page_1_based": 8,
+        "caption": "Figure 4: Qualitative results of discrete LSD (Section 4.2). We visualize each skill\u2019s trajectories on\nthe x axis (HalfCheetah) or the x-y plane (Ant and Humanoid). See Appendix J for more results."
+      },
+      {
+        "figure": 5,
+        "page_1_based": 8,
+        "caption": "Figure 5: Performance on downstream tasks after skill discovery (Section 4.3)."
+      },
+      {
+        "figure": 6,
+        "page_1_based": 9,
+        "caption": "Figure 6: Comparisons on the Fetch robotic manipulation environments (Section 4.4)."
+      },
+      {
+        "figure": 7,
+        "page_1_based": 14,
+        "caption": "Figure 7: Ablation study on Ant. See Appendix D."
+      },
+      {
+        "figure": 8,
+        "page_1_based": 15,
+        "caption": "Figure 8: Analysis of 2-D continuous skills discovered by LSD for Ant and Humanoid."
+      },
+      {
+        "figure": 9,
+        "page_1_based": 15,
+        "caption": "Figure 9: Analysis of 3-D, 4-D and 5-D continuous skills discovered by LSD for Ant. We plot only\nthe \ufb01rst two latent dimensions for the \u03c6(sT ) \u2212\u03c6(s0) \ufb01gures, and each color also represents only the\n\ufb01rst two dimensions."
+      },
+      {
+        "figure": 10,
+        "page_1_based": 16,
+        "caption": "Figure 10: Analysis of discrete skills discovered by LSD for HalfCheetah."
+      },
+      {
+        "figure": 11,
+        "page_1_based": 16,
+        "caption": "Figure 11: Analysis of discrete skills discovered by LSD for Ant."
+      },
+      {
+        "figure": 12,
+        "page_1_based": 17,
+        "caption": "Figure 12: Analysis of discrete skills discovered by LSD for Humanoid."
+      },
+      {
+        "figure": 13,
+        "page_1_based": 17,
+        "caption": "Figure 13: Zoomed-in version of Figure 2. We visualize 2-D (or 5-D) continuous skills discovered\nby various methods by plotting the x-y trajectories of the agent. Each color represents the direction\nof the skill latent variable z. Note that each plot has different axes. This result shows that most of the\nexisting approaches (DIAYN, VISR, APS, DIAYN-XYO, etc.) cannot learn far-reaching locomotion\nskills, as shown in Figure 17."
+      },
+      {
+        "figure": 14,
+        "page_1_based": 18,
+        "caption": "Figure 14: Training curves of LSD, DIAYN and DADS on three non-locomotion downstream tasks\nafter skill discovery."
+      },
+      {
+        "figure": 15,
+        "page_1_based": 18,
+        "caption": "Figure 15: Training curves of LSD and DIAYN on four goal-following downstream tasks after skill\ndiscovery."
+      },
+      {
+        "figure": 16,
+        "page_1_based": 20,
+        "caption": "Figure 16: Average normalized state difference \u2225sT \u2212s0\u2225of skill discovery methods."
+      },
+      {
+        "figure": 17,
+        "page_1_based": 22,
+        "caption": "Figure 17: 2-D continuous skills for Ant. DIAYN discovers posing skills, as its mutual information\nobjective does not necessarily prefer large state variations. On the other hand, LSD encourages the\nagent to have more variations in the state space, resulting in learning more dynamic behaviors such\nas locomotion skills. Videos are available on our project page."
+      },
+      {
+        "figure": 18,
+        "page_1_based": 23,
+        "caption": "Figure 18: 16 discrete skills discovered by LSD for Ant. Discrete LSD learns a skill set consisting\nof locomotion skills (#1, #6, #7, #12, #16), rotation skills (#2, #3, #4, #8, #10, #15), posing skills\n(#5, #9, #14) and \ufb02ipping skills (#11, #13). Videos are available on our project page."
+      },
+      {
+        "figure": 19,
+        "page_1_based": 23,
+        "caption": "Figure 19: 2-D continuous skills discovered by LSD for Humanoid. The Humanoid robot can walk\nin various directions speci\ufb01ed by z. Videos are available on our project page."
+      },
+      {
+        "figure": 20,
+        "page_1_based": 24,
+        "caption": "Figure 20: 16 discrete skills discovered by LSD for Humanoid. Videos are available on our project\npage."
+      },
+      {
+        "figure": 21,
+        "page_1_based": 24,
+        "caption": "Figure 21: 8 discrete skills discovered by LSD for HalfCheetah. Videos are available on our project\npage."
+      }
+    ]
+  },
+  "no_method_figure_scope": "No architecture, block, or algorithm-process diagram located in full source. Photographs, result plots, trajectory maps and experimental visualizations are not silently converted into invented architecture.",
+  "alternative_nonarchitecture_figure": {
+    "figure": 1,
+    "page_1_based": 2,
+    "description": "Ant image, LSD versus DIAYN discovered trajectories and goal-following trajectory; demonstration comparison, not architecture."
+  }
+}

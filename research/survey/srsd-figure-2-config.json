@@ -1,0 +1,48 @@
+{
+  "id": "srsd-figure-2",
+  "paper_title": "Leveraging Human Feedback for Semantically-Relevant Skill Discovery",
+  "paper_url": "https://arxiv.org/abs/2604.24127v1",
+  "figure": "Figure 2",
+  "page": 4,
+  "crop": [
+    137,
+    115,
+    476,
+    239
+  ],
+  "license": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+  "notes": "Source crop visually inspected; faithful source extraction draft. Clear three-stage architecture. Reward math partly outlined paths; three raster human/world/robot icons.",
+  "scale": 4,
+  "raster_regions": [
+    {
+      "bbox": [
+        259.7,
+        167,
+        278,
+        185.3
+      ],
+      "seqno": 13,
+      "reason": "Human labeler icon retained as raster; no editable internals"
+    },
+    {
+      "bbox": [
+        164,
+        174,
+        183,
+        202.3
+      ],
+      "seqno": 173,
+      "reason": "Robot mannequin raster; original oversized image placement is clipped to this visible icon"
+    },
+    {
+      "bbox": [
+        165.1,
+        135.7,
+        182.8,
+        153.4
+      ],
+      "seqno": 180,
+      "reason": "Earth icon remains raster"
+    }
+  ]
+}

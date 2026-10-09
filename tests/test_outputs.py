@@ -34,9 +34,7 @@ class OutputTests(unittest.TestCase):
         self.root = Path(self.tmp.name) / 'repository'
         self.root.mkdir()
         shutil.copytree(ROOT / 'output', self.root / 'output')
-        (self.root / 'data/diagrams').mkdir(parents=True)
-        for path in (ROOT / 'data/diagrams').glob('*.json'):
-            shutil.copy2(path, self.root / 'data/diagrams' / path.name)
+        shutil.copytree(ROOT / 'data/diagrams', self.root / 'data/diagrams')
         self.output = self.root / 'output'
 
     def artifact_hashes(self):
@@ -119,7 +117,7 @@ class OutputTests(unittest.TestCase):
     def test_publish_build_retains_paper_layout_and_pdfs(self):
         before = self.artifact_hashes()
         result = publish_build(self.root, self.make_build())
-        self.assertEqual(result['papers'], ['aspire', 'roboreact'])
+        self.assertEqual(result['papers'], sorted(p.name for p in self.output.iterdir() if p.is_dir()))
         self.assertEqual(before, self.artifact_hashes())
 
     def test_changed_build_does_not_inherit_visual_approval(self):
@@ -168,3 +166,18 @@ class OutputTests(unittest.TestCase):
                 paper = json.loads(metadata.read_text())['papers'][0]
                 for key in ['diagram_json', 'editable_pptx', 'editable_drawio']:
                     self.assertTrue((metadata.parent / paper[key]).resolve().is_file(), key)
+
+    def test_non_arxiv_source_display(self):
+        path=self.output/'aspire/sources.json'
+        record=json.loads(path.read_text());record['papers'][0].pop('arxiv_id_version')
+        record['papers'][0]['source_version']='Publisher final version'
+        path.write_text(json.dumps(record));refresh_output(self.root)
+        self.assertIn('Publisher final version',(path.parent/'README.md').read_text())
+    def test_selected_build_does_not_require_other_papers(self):
+        build=self.make_build();shutil.rmtree(build/'roboreact')
+        before=self.artifact_hashes()
+        result=publish_build(self.root,build,papers=['aspire'])
+        self.assertFalse(result['artifacts_modified'])
+        self.assertEqual(before,self.artifact_hashes())
+    def test_unknown_selection_rejected(self):
+        with self.assertRaises(ValidationError): publish_build(self.root,self.make_build(),papers=['missing'])

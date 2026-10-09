@@ -1,0 +1,73 @@
+{
+  "catalog_index": 63,
+  "catalog_id": "learning-parameterized-skills-from-demonstrations-deps",
+  "title_expected": "Learning Parameterized Skills from Demonstrations (DEPS)",
+  "source_url": "https://arxiv.org/pdf/2510.24095v1",
+  "pdf_path": "build/sources/learning-parameterized-skills-from-demonstrations-deps.pdf",
+  "pdf_sha256": "75a8a81107ea891a654e5d5a646205f25598bc8eba8a8740e97f0eb42d61d8b0",
+  "pdf_title_observed": "Learning Parameterized Skills from Demonstrations",
+  "first_page_title_text": "Learning Parameterized Skills from Demonstrations\nVedant Gupta1\nHaotian Fu1\nCalvin Luo1\nYiding Jiang2\nGeorge Konidaris1\n1Brown University\n2Carnegie Mellon University\nAbstract\nWe present DEPS, an end-to-end algorithm for discovering parameterized skills\nfrom expert demonstrations. Our method learns parameterized skill policies jointly\nwith a meta-policy that selects the appropriate discrete skill a",
+  "title_match": true,
+  "version": "2510.24095v1",
+  "page_count": 26,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1: Three-level hierarchy of DEPS. The dis- crete skill policy selects a skill from the library given the full environment observation. Conditioned on that choice, the continuous-parameter policy outputs continuous parameters that modulate the chosen skill, tracing a trajectory manifold (illustrated on the left). Finally, the low-level action policy, which sees only a compressed one-dimensional robot state, produces the primitive action. In",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1: (i) a dis- crete skill selector, (ii) a continuous param- eter selector conditioned on the discrete skill, and (iii) a subpolicy conditioned on both. A standard implementation of this approach is under-specified and often susceptible to de- generate solutions that minimize the behav- ior cloning loss without acquiring meaningful skill abstractions [11]. To mitigate these de- generate solutions, DEPS incorporates several information-theo",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 2: The underlying probabilistic graphical model of DEPS. The variational encoder has access to all the information of the trajectory from history to future. The discrete and continuous policy works as the high level policy that infers the parameterized skills based on information from previous timesteps. The low-level subpolicy infers actions based on the parameterized skills as well as the current state. Variables observable by each model",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 3: Skills as Parameterized Trajectory Man- ifolds. We hypothesize that a single skill corre- sponds to a family of parameterized trajectories. A one-dimensional state representation indexes into this generalizable manifold to predict actions. Information Bottleneck via State Compres- sion. Our core strategy is to provide the subpol- icy πA(at|s′ t, kt, zt) with a compressed, lower- dimensional version of the current state, s′ t, in- stead ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 4: Images of example tasks from LIBERO Figure 5: Images of example tasks from MetaWorld-v2 Pretrained checkpoints are then evaluated on the following three test settings: • LIBERO-OOD: 10 unseen tasks from LIBERO-90 involving previously unseen environments and objects, making it a strong test of generalization to out-of-distribution tasks. Descriptions of the tasks in this set can be found in Appendix D. Each task comes with 50 expert demo",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 5: Images of example tasks from MetaWorld-v2 Pretrained checkpoints are then evaluated on the following three test settings: • LIBERO-OOD: 10 unseen tasks from LIBERO-90 involving previously unseen environments and objects, making it a strong test of generalization to out-of-distribution tasks. Descriptions of the tasks in this set can be found in Appendix D. Each task comes with 50 expert demonstrations. • LIBERO-10: The standard LIBERO e",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 6: Average success rates as a function of the number of finetuning gradient steps taken for LIBERO-OOD (left) and MW-Vanilla (right). Table 2: Robustness of parameterized skills over different total pretraining epochs (PT). Results use 50-shot finetuning over LIBERO-OOD and are averaged across 3 seeds. PT Algorithm Mean Success Mean Highest Success 5 DEPS 0.24 ± 0.08 0.64 ± 0.09 PRISE 0.02 [upto 0.05] 0.11 ± 0.13 BC 0.07 ± 0.03 0.30 ± 0.08",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 7: Visualization of the discovered discrete skills for two sample tasks. Images represent the points at which the sampled discrete skill changes, with the discrete skill taking place between two images indicated on top (DEPS labels discrete skills as integers, which are visible in the figure. The natural language skills were selected to be consistent with the discovered segmentations of the demonstration trajectories). We find that general",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 8",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 8: Plot of the learned 1-dimensional compressed state indices (y-axis) with respect to the time-step (x-axis). Each plot represents a single trajectory from a different task in LIBERO-90, and each colour corresponds to a different discrete skill. We find that the compressed state changes monotonically within a discrete skill, suggesting its use as an index. Analysis of Learned Observation Compressions We verify whether the learned 1D compr",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

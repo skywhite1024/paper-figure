@@ -1,0 +1,38 @@
+{
+  "catalog_id": "skill-discovery-for-exploration-and-planning-using-deep-skill-graphs",
+  "title_expected": "Skill Discovery for Exploration and Planning Using Deep Skill Graphs",
+  "source_url": "https://proceedings.mlr.press/v139/bagaria21a.html",
+  "pdf_url": "https://proceedings.mlr.press/v139/bagaria21a/bagaria21a.pdf",
+  "pdf_path": "/tmp/paper-figure-survey/skill-discovery-for-exploration-and-planning-using-deep-skill-graphs/original.pdf",
+  "pdf_sha256": "b8c9b53915de1bae0fa8bb2ee2f39f1e6a2802569338c880861d3ce7f21d19cf",
+  "pdf_title_observed": "Skill Discovery for Exploration and Planning using Deep Skill Graphs",
+  "title_match": true,
+  "version": null,
+  "page_count": 11,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "Figure 2. Given a goal (red) outside the graph, the agent uses the graph to plan to reach the node closest to that goal (green). It then\nexpands the graph by constructing a skill chain connecting the goal to the graph.",
+      "crop_pdf_points": [
+        55,
+        69,
+        542,
+        193
+      ],
+      "vector_paths": 0,
+      "native_text_spans": 0,
+      "raster_images": 1,
+      "source_type": "raster",
+      "visually_inspected": true,
+      "notes": "Three blue panels identifying goal region, planning inside graph, and extending graph. Directed node arrows and red selected path are directly visible."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Publisher PDF has no visible version identifier; SHA256 binds inspected file",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/25-p4.png"
+}

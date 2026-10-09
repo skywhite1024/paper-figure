@@ -53,7 +53,7 @@ PAPER_FIGURE_TEST_PPTX=1 python -m unittest discover -s tests -v
 
 来源：[Awesome Papers for Robotic Skill Discovery](https://github.com/EDEM-AI/Awesome-Papers-for-Robotic-SKill-Discovery)。详细图号、页码、版本、许可证线索、改绘说明见 [来源记录](research/PROVENANCE.md) 与各场景 `provenance`。
 
-这是用户请求的私下转换，不等于取得全部插图、Logo和照片的公开再发布许可。RoboReact 未核实到开放插图许可证。本次授权上传仅面向此私有仓库的开发分支；不代表图像取得公开再发布许可。代码整体许可证尚未指定。
+这是用户请求的私下转换，不等于取得全部插图、Logo和照片的公开再发布许可。RoboReact 未核实到开放插图许可证。本次授权上传仅面向此私有仓库；不代表图像取得公开再发布许可。代码整体许可证尚未指定。
 
 ## 再现与目录
 
@@ -69,7 +69,7 @@ RoboReact 的人工坐标程序 `research/build_roboreact_faithful.py` 使用原
 - [RoboReact](output/roboreact/README.md)：PPTX、draw.io、预览、原图对照与原文 PDF（Figure 2，第3页）
 - [结果总索引](output/README.md)
 
-每篇论文独立一个文件夹：`output/aspire/` 和 `output/roboreact/`。来源版本、PDF SHA256、图号/页码、可编辑对象统计、校验记录和离线对照均放在对应文件夹，根目录仅保留小型索引/汇总。仓库不提交 ZIP 或 Git bundle。
+每篇论文独立一个文件夹（如 `output/aspire/`、`output/srsd/`），新增结果持续进入[总索引](output/README.md)。来源版本、PDF SHA256、图号/页码、可编辑对象统计、校验记录和离线对照均放在对应文件夹，根目录仅保留小型索引/汇总。仓库不提交 ZIP 或 Git bundle。
 
 ### 重新生成仍保持按论文归档
 
@@ -82,3 +82,11 @@ python research/refresh_outputs.py --from-build build
 最后一步核对导出哈希，再更新对应论文文件夹的结果与索引；原文 PDF 与原图对照保留原位。新生成文件不能继承旧人工审核结论，发生变化时验证记录自动设为待审查。
 
 仅刷新索引/哈希清单可运行 `python research/refresh_outputs.py`。可选本地打包：`python research/package_release.py --out build/releases`，生成的包也保持按论文的文件夹结构；complete 包保留仓库根目录布局（output/ 与 data/ 并列），使解压后的相对链接继续有效。这些 ZIP 不上传 GitHub。
+
+## 逐篇处理与可恢复检查点
+
+完整 137 篇目录的进度保存在 `data/queue/<catalog-id>.json`。来源核实、可访问性、图定位、重建、QA、发布分开记录；下载 PDF 或渲染整张图片不会被算作可编辑重建。使用 `python research/queue.py status` 查看动态计数，使用 `python research/queue.py init` 安全补齐新条目。详见 [队列操作与证据门槛](docs/queue.md)。
+
+通用的保守草稿提取：`python research/extract_pdf_figure.py --pdf paper.pdf --config reviewed-config.json --out data/diagrams/paper`。配置必须给出实际检查的页码与裁切范围。图像、源剪裁、数学字体可能需要逐图修正；`outline_fonts` 可保留指定数学字体为可编辑字形路径，字形路径不是可输入新公式的文本框。
+
+批次只重新发布一篇：`python research/refresh_outputs.py --from-build build --paper aspire`。新增论文把完整候选目录（sources、验证、PDF、原图和三种导出）准备好，再运行 `python research/refresh_outputs.py --add-paper build/candidates/paper`；所有引用与哈希通过后才会更新结果索引。用户已授权逐批同步 main；每批重新测试并核实远端哈希。

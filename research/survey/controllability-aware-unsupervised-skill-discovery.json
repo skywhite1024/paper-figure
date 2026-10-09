@@ -1,0 +1,39 @@
+{
+  "catalog_id": "controllability-aware-unsupervised-skill-discovery",
+  "title_expected": "Controllability-Aware Unsupervised Skill Discovery",
+  "source_url": "https://arxiv.org/abs/2302.05103",
+  "pdf_url": "https://arxiv.org/pdf/2302.05103",
+  "pdf_path": "/tmp/paper-figure-survey/controllability-aware-unsupervised-skill-discovery/original.pdf",
+  "pdf_sha256": "f585ef4fbfee3bd35b53041ecd36e72f752205a1f1e761c4aee03b09737c3562",
+  "pdf_title_observed": "Controllability-Aware Unsupervised Skill Discovery",
+  "title_match": true,
+  "version": "2302.05103v3",
+  "page_count": 21,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption": "Figure 2. Illustration of unsupervised skill discovery methods. (a) MI is invariant to traveled distances. (b) The MI objective simply\nseeks any mapping between Z and S, while LSD finds the largest (longest) possible mapping. (c) LSD maximizes the Euclidean\ntraveled distance, which can lead to simple or trivial behaviors. (d) Our CSD maximizes the traveled distance with respect to our learned\ncontrollability-aware distance function that assigns larger values to harder-to-achieve state transitions. This leads to more complex skills\nthat can be useful for downstream tasks.",
+      "crop_pdf_points": [
+        58,
+        68,
+        538,
+        161
+      ],
+      "vector_paths": 147,
+      "native_text_spans": 7,
+      "raster_images": 0,
+      "source_type": "vector/text",
+      "visually_inspected": true,
+      "notes": "Four-part geometric conceptual comparison of MI/LSD/CSD: two radial skill sets, latent-to-state mapping, and contrasting gripper/object directional preferences."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2302.05103v3",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/17-p3.png"
+}

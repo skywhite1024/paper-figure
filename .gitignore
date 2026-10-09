@@ -16,3 +16,12 @@ dist/
 # Explicitly requested, version-verified reference papers only.
 !/output/aspire/aspire-2607.00272v1.pdf
 !/output/roboreact/roboreact-2608.03387v2.pdf
+
+# Per-paper checkpoint locks/temp files are local coordination only.
+data/queue/.locks/
+data/queue/*.tmp
+# New reviewed paper references live only inside paper-scoped outputs.
+!/output/*/*.pdf
+# Survey screenshots are working review evidence, not duplicate public artifacts.
+research/survey/*-page-*.png
+research/survey/*-figure.png

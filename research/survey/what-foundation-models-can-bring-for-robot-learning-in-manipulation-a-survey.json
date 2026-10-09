@@ -1,0 +1,39 @@
+{
+  "catalog_id": "what-foundation-models-can-bring-for-robot-learning-in-manipulation-a-survey",
+  "title_expected": "What Foundation Models Can Bring for Robot Learning in Manipulation: A Survey",
+  "source_url": "https://journals.sagepub.com/doi/abs/10.1177/02783649251390579",
+  "pdf_url": "https://arxiv.org/pdf/2404.18201",
+  "pdf_path": "/tmp/paper-figure-survey/what-foundation-models-can-bring-for-robot-learning-in-manipulation-a-survey/original.pdf",
+  "pdf_sha256": "7511063b5630f9c3c2deb78944f7bd1cd40e7dbcbfb677fb364fc49eb665897a",
+  "pdf_title_observed": "What Foundation Models can Bring for Robot Learning in Manipulation : A Survey",
+  "title_match": true,
+  "version": "2404.18201v7",
+  "page_count": 47,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "Figure 2. Framework of Robot Learning for General Manipulation. The Pre-conditions Detection module P perceives the\nenvironment to identify objects and the affordances objects support. The Interaction module I receives instruction from a human or\nother agent. It uses perception information from the Pre-conditions Detection module P to check for ambiguities in the instruction.\nIf there are any ambiguities, it generates a question to clarify the instruction by asking the human or other agent. The Hierarchy of\nSkills module H generates subgoals by using precise instruction from the Interaction module I and perception information from the\nPre-conditions Detection module P. Each subgoal is then passed to the Skill Execution module. In the Skill Execution module, Policy\nmodule \u03a0 generates Action \u03b1 based on the State S. To obtain the next state after executing the current action, State S can either\nperceive it from the environment or use the Transition module T . To train the Skill Execution module, including the State module S,\nthe Policy module \u03a0 and the Transition module T, the Manipulation Data Generation module is required. This module provides a\ntask-level manipulation dataset. When issues arise during execution, corrective instruction is sent to the Policy module \u03a0 for manual\nadjustment. Policy module \u03a0 modifies the current action to corrective action and saves corrective demonstration to the dataset for\nself-improvement of Policy module \u03a0. After skill execution, Post-conditions Detection module P determines the success of execution.\nIf successful, proceed to the next subgoal; if not, the failure reason is conveyed to Post-hoc Correction module for self-correction.",
+      "crop_pdf_points": [
+        51,
+        56,
+        544,
+        411
+      ],
+      "vector_paths": 135,
+      "native_text_spans": 84,
+      "raster_images": 2,
+      "source_type": "vector/text with embedded raster components",
+      "visually_inspected": true,
+      "notes": "General manipulation framework with human/agent interaction loop left, preconditions/hierarchy/skill execution/postconditions sequence right, data generation and post-hoc correction branches. Official arXiv author preprint used as accessible counterpart to catalog journal URL."
+    }
+  ],
+  "review_notes": "Catalog journal source preserved; official matching-title arXiv author preprint 2404.18201 is the inspected source, not claimed identical to published version.",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2404.18201v7",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/2-p4.png"
+}

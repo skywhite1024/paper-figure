@@ -1,0 +1,78 @@
+{
+  "catalog_index": 55,
+  "catalog_id": "scaling-up-and-distilling-down-language-guided-robot-skill-acquisition",
+  "title_expected": "Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition",
+  "source_url": "https://arxiv.org/pdf/2307.14535v2",
+  "pdf_path": "build/sources/scaling-up-and-distilling-down-language-guided-robot-skill-acquisition.pdf",
+  "pdf_sha256": "ef8689b7632897425bb0e537c33cd3999fc3d8cc1126fccf65b8e0d612233dce",
+  "pdf_title_observed": "Scaling Up and Distilling Down: Language-Guided Robot Skill Acquisition",
+  "first_page_title_text": "Scaling Up and Distilling Down:\nLanguage-Guided Robot Skill Acquisition\nHuy Ha1, Pete Florence2, and Shuran Song1\n1Columbia University\n2Google DeepMind\nAbstract: We present a framework for robot skill acquisition, which 1) efficiently scale\nup data generation of language-labelled robot data and 2) effectively distills this data down\ninto a robust multi-task language-conditioned visuo-motor policy.",
+  "title_match": true,
+  "version": "2307.14535v2",
+  "page_count": 27,
+  "source_status": "accessible",
+  "license_note": "unverified",
+  "figure_candidates": [
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption": "Language-Driven Robot Data Generation.",
+      "crop_pdf_points": [
+        109,
+        70,
+        505,
+        239
+      ],
+      "vector_paths": 0,
+      "native_text_spans": 0,
+      "raster_images": 1,
+      "visually_inspected": true,
+      "notes": "Figure is predominantly full flattened raster; manual source-layout reconstruction needed. Separate policy architecture Figure4page5 may be more source-convertible."
+    }
+  ],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Figure 1: Language-guided Skill Acquisition enables scalable robot learning. In the data generation stage, a LLM takes as input task descriptions (a) and uses sampling-based robotic planners and privileged simulation information (b) to perform task-directed exploration. This enables the scaling up of language and task-success labeled dataset generation (c). In the second stage, the dataset is filtered for success and distilled down into a closed-",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Figure 2: Benchmark. We validate our approach on a new multi-task benchmark addressing challenging long-horizon tasks (i.e., 800 control cycles) requiring language understanding (e.g., put [object] to [top] drawer), common sense knowledge (e.g., send a package for return requires raising the mailbox flag), tool-use (e.g., catapult), and intuitive physics (e.g., balance the bus). The tasks are best viewed on our our project website. distill only s",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 3: Language-Driven Robot Data Generation takes as input the task description and simulation state, and outputs a replay buffer, labelled with language descriptions and success. It starts by using an LLM to simplify tasks recursively (a) until the task involves only one object, resulting in a hierarchical exploration plan. Next, the plan is grounded (b) into a sequence of 6 DOF exploration primitives (e.g. grasp samplers, motion planners, e",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 4: Language-Conditioned Policy Distillation. The policy takes as input a task description, two RGB camera views, and gripper proprioception data, and outputs a se- quence of gripper poses and closing command. We extend diffusion policy [12], a state-of-the-art ap- proach for single-task behavior cloning, to the multi- task domain by adding language-conditioning. This policy takes as input a task description CLIP [56] feature, proprioceptio",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 5. If a domain has multiple tasks then we report the average performance of all tasks. We also compare different LLMs in Table 4 (10 samples per task) and investigate the sources of error in our system for the mailbox domain in Table 3 (200 trials per execution). Data Generation Baselines. Code-as-Policy [37] is a state-of-the-art approach for using an LLM directly as a robot policy by making state (e.g. query present objects) and action pri",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 5: High Entropy yet Precise Language-Guided Action Sequences. Running the pseudorandom language- conditioned diffusion process with different seeds on the same observations yields language-consistent (a-c, different colors for different task descriptions), high entropy actions when possible (a-f, object grasping, transports, & placements) and precise actions when necessary (d, narrow mailbox with large package). Further, domain randomizati",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 6: Distilled Robustness. Our policy inherits robust recovery from failure behavior from its data collection policy, while improving upon success rate. In contrast, baselines plateau after their first grasp/plate- ment attempts. This highlights the synergy of two design decisions. First, the verify & retry step (§ 3.3) is crucial for demonstrating retrying behavior, but is by itself insuffi- cient if each retrying action is the identical as",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed."
+}

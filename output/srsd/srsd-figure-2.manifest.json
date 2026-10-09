@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "diagram_id": "srsd-figure-2",
+  "source_sha256": "9f6f58e5881e11572b158a532ef2c83b9c7d2f39508d7c06828fd3f8d2ce75a2",
+  "provenance": {
+    "paper_title": "Leveraging Human Feedback for Semantically-Relevant Skill Discovery",
+    "paper_url": "https://arxiv.org/abs/2604.24127v1",
+    "figure": "Figure 2",
+    "license": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+    "notes": "Source crop visually inspected; faithful source extraction draft. Clear three-stage architecture. Reward math partly outlined paths; three raster human/world/robot icons.",
+    "page": 4,
+    "status": "figure_recreation",
+    "source_sha256": "2c4e5aadf82ea5104c0fd52497493ade2fd0e820f51f8d7279d4536db674446a",
+    "source_crop_pdf_points": [
+      137,
+      115,
+      476,
+      239
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "extraction_warnings": [
+      "path partially intersects raster inset: 174",
+      "path partially intersects raster inset: 175",
+      "path partially intersects raster inset: 176",
+      "path partially intersects raster inset: 177",
+      "unhandled image/shading at seq 173: [118.10861206054688, 146.84765625, 281.7797546386719, 238.5235595703125]; requires reviewed raster region"
+    ]
+  },
+  "metrics": {
+    "native_nodes": 151,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 133,
+    "native_text_objects": 18,
+    "raster_images": 3,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "srsd-figure-2.drawio",
+      "sha256": "adb6418251fa460da7193f950cb0845396cf13fa550627d97f6677358512dd29"
+    },
+    {
+      "name": "srsd-figure-2.png",
+      "sha256": "7919a9c60531dbfc15f36e73a9ed470ee577bf4d5bc4ce227b3ef8ffb04bf671"
+    },
+    {
+      "name": "srsd-figure-2.pptx",
+      "sha256": "e7d2ca605db83324fdb47caf153020968775f9393c87267e0ffbb5929e3e7557"
+    }
+  ]
+}

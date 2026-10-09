@@ -1,0 +1,39 @@
+{
+  "catalog_id": "variational-curriculum-reinforcement-learning-for-unsupervised-discovery-of-skills",
+  "title_expected": "Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills",
+  "source_url": "https://arxiv.org/abs/2310.19424",
+  "pdf_url": "https://arxiv.org/pdf/2310.19424",
+  "pdf_path": "/tmp/paper-figure-survey/variational-curriculum-reinforcement-learning-for-unsupervised-discovery-of-skills/original.pdf",
+  "pdf_sha256": "46cbfad2918167415f1ba90e81735de425a6e9213af9762713e3b4e82fc0e68a",
+  "pdf_title_observed": "Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills",
+  "title_match": true,
+  "version": "2310.19424v1",
+  "page_count": 28,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "http://creativecommons.org/licenses/by/4.0/",
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption": "Figure 1. An overview of our proposed method, VUVC, under the unifying framework for curriculum learning in goal-conditioned RL.\nThe value uncertainty proposes informative goals which would generate a stronger learning signal. The density estimate of potential\ncurriculum goals indicates the novelty of the goal to the learning agent. The density estimate model is derived from the discriminative\nmodel, which is trained alongside the agent. This discriminative model provides intrinsic rewards to the agent. VUVC combines these\ntwo measures to construct a goal generative model, promoting unsupervised exploration of the entire state space by the agent.",
+      "crop_pdf_points": [
+        61,
+        65,
+        488,
+        260
+      ],
+      "vector_paths": 0,
+      "native_text_spans": 0,
+      "raster_images": 1,
+      "source_type": "raster",
+      "visually_inspected": true,
+      "notes": "VUVC architecture: goal generative model with uncertainty and density graphs at left, goal-conditioned policy/environment/discriminative model loop at right. Includes cartoon icons and goal-render thumbnails."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2310.19424v1",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/14-p2.png"
+}

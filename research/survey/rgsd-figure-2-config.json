@@ -1,0 +1,78 @@
+{
+  "id": "rgsd-figure-2",
+  "paper_title": "Reference Grounded Skill Discovery",
+  "paper_url": "https://arxiv.org/abs/2510.06203v3",
+  "figure": "Figure 2",
+  "page": 4,
+  "crop": [
+    153,
+    61,
+    454,
+    226
+  ],
+  "license": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+  "notes": "Source crop visually inspected; faithful source extraction draft. Three-part pretraining/imitation/discovery architecture; predominantly native vector/text with small motion/environment thumbnails.",
+  "scale": 4,
+  "raster_regions": [
+    {
+      "bbox": [
+        159.4,
+        74.85,
+        200.6,
+        102.8
+      ],
+      "seqno": 7,
+      "reason": "Reference-motion stick figures, raster"
+    },
+    {
+      "bbox": [
+        413.4,
+        93,
+        450.8,
+        114.3
+      ],
+      "seqno": 10,
+      "reason": "Top simulated humanoid image only; heading remains native"
+    },
+    {
+      "bbox": [
+        208.25,
+        76.45,
+        247.3,
+        102.95
+      ],
+      "seqno": 94,
+      "reason": "Second reference-motion stick figures, raster"
+    },
+    {
+      "bbox": [
+        326.9,
+        67.6,
+        334.55,
+        75.27
+      ],
+      "seqno": 248,
+      "reason": "Small encoder lock icon, raster"
+    },
+    {
+      "bbox": [
+        327.17,
+        103.22,
+        334.83,
+        110.88
+      ],
+      "seqno": 249,
+      "reason": "Second small encoder lock icon, raster"
+    },
+    {
+      "bbox": [
+        415.9,
+        181.5,
+        453.2,
+        202.7
+      ],
+      "seqno": 263,
+      "reason": "Bottom simulated humanoid image only; heading remains native"
+    }
+  ]
+}

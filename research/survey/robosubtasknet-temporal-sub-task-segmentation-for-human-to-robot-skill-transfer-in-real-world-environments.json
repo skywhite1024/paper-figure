@@ -1,0 +1,61 @@
+{
+  "catalog_index": 62,
+  "catalog_id": "robosubtasknet-temporal-sub-task-segmentation-for-human-to-robot-skill-transfer-in-real-world-environments",
+  "title_expected": "RoboSubtaskNet: Temporal Sub-task Segmentation for Human-to-Robot Skill Transfer in Real-World Environments",
+  "source_url": "https://arxiv.org/pdf/2602.10015v2",
+  "pdf_path": "build/sources/robosubtasknet-temporal-sub-task-segmentation-for-human-to-robot-skill-transfer-in-real-world-environments.pdf",
+  "pdf_sha256": "50d3e5433963f630f1917143cf61fa4cd2713150834fa2bb9d3b564364343622",
+  "pdf_title_observed": "RoboSubtaskNet: Temporal Sub-task Segmentation for Human-to-Robot Skill Transfer in Real-World Environments",
+  "first_page_title_text": "RoboSubtaskNet: Temporal Sub-task Segmentation for\nHuman-to-Robot Skill Transfer in Real-World Environments\nDharmendra Sharma, Archit Sharma, John Rebeiro, Vaibhav Kesharwani, Peeyush Thakur,\nNarendra Kumar Dhar, and Laxmidhar Behera\nAbstract— Temporally locating and classifying fine-grained\nsub-task segments in long, untrimmed videos is crucial to safe\nhuman–robot collaboration. Unlike generic ac",
+  "title_match": true,
+  "version": "2602.10015v2",
+  "page_count": 8,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Fig. 1: RoboSubtaskNet pipeline for Human-to-Robot skill transfer. Despite these advances, segmenting full task human videos into robot-executable sub-tasks remains a challenge. Vision- based HAR datasets such as GTEA or EGTEA [10], Break- fast [11], and 50Salads [12] provide valuable benchmarks for activity parsing but are not aligned with robotic execution needs. Their annotations focus on high-level semantic activ- ities (e.g., “make tea”), wh",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1. Our focus is on short-horizon manipulation sub- tasks in healthcare and industrial settings; extension to more complex long-horizon activities is left for future work. The rest of the paper is organized as follows: Section II presents the proposed methodology, Section III discusses the experimental results, and Section IV concludes the paper. II. PROPOSED METHODOLOGY The proposed methodology comprises four phases: (a) dataset creation, ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption_excerpt": "Fig. 2: Feature extraction and attention-fusion module. (a) I3D-based feature extractor, (b) Attention fusion schematic. c) Attention-based fusion of RGB and Flow features: Once we have extracted the RGB features f rgb t and flow features f flow t from the I3D model, the next challenge is to combine them effectively. A straightforward approach would be to concatenate them into a single D + D-dimensional feature vector per frame. However, such fix",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 3. Fig. 3: Dilated residual layer with Fibonacci dilation factors. 2) Frame wise classification: A 1×1 temporal convolu- tion maps H(L) t to class logits, and a softmax yields per-frame probabilities: Pt = Softmax \u0000Wo H(L) t +bo \u0001 , Wo ∈RC×D, bo ∈RC, (6) where C is the number of sub-task classes and Pt ∈RC is on the probability simplex. 3) Multi-stage refinement: We stack S stages; stage s refines the predictions of stage s−1, Y (1) = F(X)",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 3: Dilated residual layer with Fibonacci dilation factors. 2) Frame wise classification: A 1×1 temporal convolu- tion maps H(L) t to class logits, and a softmax yields per-frame probabilities: Pt = Softmax \u0000Wo H(L) t +bo \u0001 , Wo ∈RC×D, bo ∈RC, (6) where C is the number of sub-task classes and Pt ∈RC is on the probability simplex. 3) Multi-stage refinement: We stack S stages; stage s refines the predictions of stage s−1, Y (1) = F(X), (7) Y (s",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 4: For each task: (a) pick & place, (b) pick & pour, (c) table cleaning, & (d) pick & give. The top images show their human demonstrations, and the bottom images show the corresponding task sequence of the robot (sequence left to right). batch size B = 8, gradient clipping gmax=5.0, and mixed pre- cision. We train up to Emax=50 epochs with early stopping (P = 5) on validation loss and report the checkpoint with the best F1@50. In inference, ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Fig. 5: Qualitative results of RoboSubtaskNet with MS-TCN and MS-TCN++ approaches. One example video is shown from each dataset: (a) GTEA and (b) Breakfast. Two examples (c), (d) from RoboSubtask for pick and place and pick and pour tasks, respectively. For each example, the video collage is presented along with the ground truth and predicted segmentation. TABLE V: Comparison of different loss functions on the RoboSubtask dataset with the propose",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

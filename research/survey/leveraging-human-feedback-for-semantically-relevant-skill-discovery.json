@@ -1,0 +1,44 @@
+{
+  "catalog_id": "leveraging-human-feedback-for-semantically-relevant-skill-discovery",
+  "catalog_title": "Leveraging Human Feedback for Semantically-Relevant Skill Discovery",
+  "paper_url": "https://arxiv.org/abs/2604.24127v1",
+  "pdf_url": "https://arxiv.org/pdf/2604.24127v1",
+  "pdf_local_path": "build/sources/leveraging-human-feedback-for-semantically-relevant-skill-discovery.pdf",
+  "pdf_sha256": "2c4e5aadf82ea5104c0fd52497493ade2fd0e820f51f8d7279d4536db674446a",
+  "page_count": 33,
+  "source_status": "accessible",
+  "visual_inspection_status": "inspected",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "Illustration of our method.",
+      "crop_pdf_points": [
+        137,
+        115,
+        476,
+        239
+      ],
+      "vector_paths": 127,
+      "native_text_spans": 17,
+      "raster_images": 3,
+      "visually_inspected": true,
+      "notes": "Clear three-stage architecture. Reward math partly outlined paths; three raster human/world/robot icons."
+    }
+  ],
+  "title_expected": "Leveraging Human Feedback for Semantically-Relevant Skill Discovery",
+  "source_url": "https://arxiv.org/pdf/2604.24127v1",
+  "pdf_path": "build/sources/leveraging-human-feedback-for-semantically-relevant-skill-discovery.pdf",
+  "pdf_title_observed": "Leveraging Human Feedback for Semantically-Relevant Skill Discovery",
+  "title_match": true,
+  "version": "2604.24127v1",
+  "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+  "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed.",
+  "reconstruction": {
+    "scene_path": "data/diagrams/srsd-figure-2/srsd-figure-2.json",
+    "output_draft_path": "build/srsd-figure-2",
+    "source_visual_qa": "reviewed",
+    "independent_export_qa": "pending",
+    "notes": "Actual original crop and exported PNG compared.3raster icons retained;source oversized mannequin clip bbox visually resolved via regionseq173. Neighboring arrow bboxintersection warnings inspected; no visible harm."
+  }
+}

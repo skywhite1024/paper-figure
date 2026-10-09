@@ -1,0 +1,39 @@
+{
+  "catalog_id": "unsupervised-reinforcement-learning-for-transferable-manipulation-skill-discovery",
+  "title_expected": "Unsupervised Reinforcement Learning for Transferable Manipulation Skill Discovery",
+  "source_url": "https://arxiv.org/abs/2204.13906",
+  "pdf_url": "https://arxiv.org/pdf/2204.13906",
+  "pdf_path": "/tmp/paper-figure-survey/unsupervised-reinforcement-learning-for-transferable-manipulation-skill-discovery/original.pdf",
+  "pdf_sha256": "bcd1a2e008b47f06e38ebb6b942a6b8e2f891e7bfcb017d9fa6bcd4ed81b85a9",
+  "pdf_title_observed": "Unsupervised Reinforcement Learning for Transferable Manipulation Skill Discovery",
+  "title_match": true,
+  "version": "2204.13906v1",
+  "page_count": 8,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "http://creativecommons.org/licenses/by-nc-nd/4.0/",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption": "Fig. 2: Policy architecture. In a single-object setting, \u03c6(s, w)\nis replaced with s, and the encoder and w is not used. When\ntransferring to GCRL, the latent z on the policy is replaced\nwith the goal g.",
+      "crop_pdf_points": [
+        312,
+        50,
+        557,
+        204
+      ],
+      "vector_paths": 0,
+      "native_text_spans": 0,
+      "raster_images": 1,
+      "source_type": "raster",
+      "visually_inspected": true,
+      "notes": "Policy architecture includes object encoder with multihead attention and pooling, policy MLP plus gating network, and an auxiliary sigmoid MLP detail. Source appears low-resolution; inspect raster count before promising native extraction."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2204.13906v1",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/19-p3.png"
+}

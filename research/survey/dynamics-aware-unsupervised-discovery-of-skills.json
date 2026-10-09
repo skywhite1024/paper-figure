@@ -1,0 +1,39 @@
+{
+  "catalog_id": "dynamics-aware-unsupervised-discovery-of-skills",
+  "title_expected": "Dynamics-Aware Unsupervised Discovery of Skills",
+  "source_url": "https://arxiv.org/abs/1907.01657",
+  "pdf_url": "https://arxiv.org/pdf/1907.01657",
+  "pdf_path": "/tmp/paper-figure-survey/dynamics-aware-unsupervised-discovery-of-skills/original.pdf",
+  "pdf_sha256": "e13faab20c899f5e49fba9593f62837fc028e16b8787850ed3b1a473e3bd7bb9",
+  "pdf_title_observed": "Dynamics-Aware Unsupervised Discovery of Skills",
+  "title_match": true,
+  "version": "1907.01657v2",
+  "page_count": 21,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 3,
+      "caption": "Figure 2: The agent \u03c0 interacts with the environment to produce a transition s \u2192s\u2032. Intrinsic reward is\ncomputed by computing the transition probability under q for the current skill z, compared to random samples\nfrom the prior p(z). The agent maximizes the intrinsic reward computed for a batch of episodes, while q\nmaximizes the log-probability of the actual transitions of (s, z) \u2192s\u2032.",
+      "crop_pdf_points": [
+        124,
+        147,
+        305,
+        302
+      ],
+      "vector_paths": 0,
+      "native_text_spans": 0,
+      "raster_images": 1,
+      "source_type": "raster",
+      "visually_inspected": true,
+      "notes": "DADS skill-dynamics/agent/environment signal flow and intrinsic-reward ratio. Adjacent Algorithm1 at right is separately numbered; crop selects the actual left graphical diagram only."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/1907.01657v2",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/33-p3.png"
+}

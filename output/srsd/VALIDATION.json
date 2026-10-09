@@ -1,0 +1,36 @@
+{
+  "diagram_id": "srsd-figure-2",
+  "source_scene_sha256": "9f6f58e5881e11572b158a532ef2c83b9c7d2f39508d7c06828fd3f8d2ce75a2",
+  "source_pdf_sha256": "2c4e5aadf82ea5104c0fd52497493ade2fd0e820f51f8d7279d4536db674446a",
+  "checked_files": [
+    {
+      "name": "srsd-figure-2.drawio",
+      "sha256": "adb6418251fa460da7193f950cb0845396cf13fa550627d97f6677358512dd29"
+    },
+    {
+      "name": "srsd-figure-2.png",
+      "sha256": "7919a9c60531dbfc15f36e73a9ed470ee577bf4d5bc4ce227b3ef8ffb04bf671"
+    },
+    {
+      "name": "srsd-figure-2.pptx",
+      "sha256": "e7d2ca605db83324fdb47caf153020968775f9393c87267e0ffbb5929e3e7557"
+    }
+  ],
+  "review_status": "reviewed source versus generated PNG and independently rendered LibreOffice PPTX PDF",
+  "checks": {
+    "source_title_checked": true,
+    "source_page_figure_checked": true,
+    "source_hashes_match": true,
+    "output_hashes_match": true,
+    "clipping_and_raster_boundaries": "pass, explicit source image seq173 crop reviewed",
+    "label_legibility": "pass",
+    "native_objects": "133 freeform paths,18 text objects,3 separate image objects; no semantic attached connectors",
+    "drawio_xml": "parsed, GUI rendering not checked"
+  },
+  "limitations": [
+    "Font substitution and dash spacing differ slightly",
+    "Math symbols are native outline paths, not live editable equation text",
+    "Arrows are freeform paths without semantic endpoint attachment",
+    "Three icon images remain raster"
+  ]
+}

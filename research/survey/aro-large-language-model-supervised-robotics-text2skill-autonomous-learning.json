@@ -1,0 +1,60 @@
+{
+  "catalog_index": 53,
+  "catalog_id": "aro-large-language-model-supervised-robotics-text2skill-autonomous-learning",
+  "title_expected": "ARO: Large Language Model Supervised Robotics Text2Skill Autonomous Learning",
+  "source_url": "https://arxiv.org/pdf/2403.15834v1",
+  "pdf_path": "build/sources/aro-large-language-model-supervised-robotics-text2skill-autonomous-learning.pdf",
+  "pdf_sha256": "0ab55e2e71676eee57bb6970e7dcf7d0960080c0bd55991667b2f7aea1d2df69",
+  "pdf_title_observed": "ARO: Large Language Model Supervised Robotics Text2Skill Autonomous Learning",
+  "first_page_title_text": "ARO: Large Language Model Supervised Robotics Text2Skill\nAutonomous Learning\nYiwen Chen1, Yuyao Ye2, Ziyi Chen2, Chuheng Zhang3, Marcelo H. Ang4\nAbstract— Robotics learning highly relies on human expertise\nand efforts, such as demonstrations, design of reward functions\nin reinforcement learning, performance evaluation using human\nfeedback, etc. However, reliance on human assistance can lead\nto exp",
+  "title_match": true,
+  "version": "2403.15834v1",
+  "page_count": 6,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption": "ARO’s Framework.",
+      "crop_pdf_points": [
+        344,
+        429,
+        524,
+        472
+      ],
+      "vector_paths": 0,
+      "native_text_spans": 0,
+      "raster_images": 1,
+      "visually_inspected": true,
+      "notes": "Single full raster figure, requires manual native reconstruction. Simple5-module iterative loop; do not report image extraction as editable completion."
+    }
+  ],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Fig. 1. Fig. 1. ARO’s Framework Iteration. Central to the ARO framework’s training reg- imen is an iterative process that dynamically refines the reward function in response to evaluative feedback. The iteration commences with the EFG analyzing the trained model’s performance against the task description. Feedback from this evaluation influences subsequent modifications to the RFG. This cyclical process iterates as follows: • The EFG module evalu",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Fig. 1. ARO’s Framework Iteration. Central to the ARO framework’s training reg- imen is an iterative process that dynamically refines the reward function in response to evaluative feedback. The iteration commences with the EFG analyzing the trained model’s performance against the task description. Feedback from this evaluation influences subsequent modifications to the RFG. This cyclical process iterates as follows: • The EFG module evaluates the",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 2. Repeatedly perform squatting and standing actions by Humanoid real physics, allowing realistic task execution for standing still, forward motion, and backward motion. Integration with the gym interface allows for standardized task execution and performance metrics, facilitating seamless interaction between the SAC algorithms and the robot models. Our setup combines gym’s environmental standardization, Mu- JoCo’s simulations, SAC reinforce",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 2. Failed. For failed reward generations, the RFG module’s inadequate grasp of the environment and the task led to an inability to craft a more comprehensive reward function design. This shortfall resulted in a misguided training process for the agent, preventing it from fulfilling the task’s require- ments. For failed ARO outputs, the task itself is difficult, making it impossible for human experts to design a reward function. ARO, compound",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed."
+}

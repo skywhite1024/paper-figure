@@ -1,0 +1,39 @@
+{
+  "catalog_id": "slac-safe-and-efficient-real-robot-reinforcement-learning-via-unsupervised-simulation-pre-training",
+  "title_expected": "SLAC: Safe and Efficient Real-Robot Reinforcement Learning via Unsupervised Simulation Pre-Training",
+  "source_url": "https://arxiv.org/abs/2506.04147",
+  "pdf_url": "https://arxiv.org/pdf/2506.04147",
+  "pdf_path": "/tmp/paper-figure-survey/slac-safe-and-efficient-real-robot-reinforcement-learning-via-unsupervised-simulation-pre-training/original.pdf",
+  "pdf_sha256": "4b5d88741b8729fa81e1042f47874bada21853f811f0f2b9e4cc501f5ce8ee32",
+  "pdf_title_observed": "SLAC: Safe and Efficient Real-Robot Reinforcement Learning via Unsupervised Simulation Pre-Training",
+  "title_match": true,
+  "version": "2506.04147v5",
+  "page_count": 17,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "http://creativecommons.org/licenses/by/4.0/",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "Figure 2. The two-step SLAC procedure to enable real-world policy learning. (Left) In the first step, SLAC learns a Latent\nAction Decoder that maps each latent action, z \u2208Z, to a sequence of low-level robot actions, (a0, . . . , aT ), at \u2208A. This\ndecoder is learned in low-fidelity simulation via unsupervised skill discovery with novel objectives that encourage the robot to\nindependently control different state features (e.g., camera directions, contacts with table, base locations) while being safe.\n(Right) In the second step, once the decoder is trained, the robot learns downstream tasks with RL in the real world using the\nSLAC latent action space. The task policy directly takes in the onboard sensor observations of the robot (i.e., images,\nproprioception) and outputs latent actions z that are decoded into safe robot actions. SLAC applies Factorized Latent-Action\nSAC to optimize the policy for downstream tasks with multi-term reward (e.g., look at the objects, keep a bag close, sweep the\ntrash) directly in the real world with very few samples, converging in less than an hour, by taking advantage of high-frequency\noff-policy updates and masked Q decomposition.",
+      "crop_pdf_points": [
+        61,
+        52,
+        534,
+        213
+      ],
+      "vector_paths": 121,
+      "native_text_spans": 81,
+      "raster_images": 18,
+      "source_type": "vector/text with embedded raster components",
+      "visually_inspected": true,
+      "notes": "Two side-by-side rounded panels: unsupervised latent-action-space learning and real-world downstream RL. Many embedded robot photos and task objects need fidelity-preserving image subassets, while labels, decoder boxes and arrows remain editable."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2506.04147v5",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/9-p4.png"
+}

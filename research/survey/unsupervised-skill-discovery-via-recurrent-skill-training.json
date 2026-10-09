@@ -1,0 +1,38 @@
+{
+  "catalog_id": "unsupervised-skill-discovery-via-recurrent-skill-training",
+  "title_expected": "Unsupervised Skill Discovery via Recurrent Skill Training",
+  "source_url": "https://proceedings.neurips.cc/paper_files/paper/2022/hash/ff6b031d5bdc552b795175a0f3b35a50-Abstract-Conference.html",
+  "pdf_url": "https://proceedings.neurips.cc/paper_files/paper/2022/file/ff6b031d5bdc552b795175a0f3b35a50-Paper-Conference.pdf",
+  "pdf_path": "/tmp/paper-figure-survey/unsupervised-skill-discovery-via-recurrent-skill-training/original.pdf",
+  "pdf_sha256": "41a5560ebdf0f65e6f161b5ae47cfd26786ddb6606eaebc5570e97f723fa7ab3",
+  "pdf_title_observed": "Unsupervised Skill Discovery via Recurrent Skill Training",
+  "title_match": true,
+  "version": null,
+  "page_count": 13,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [
+    {
+      "figure": "Figure 3",
+      "page_1_based": 3,
+      "caption": "Figure 3: Intuitive illustration of the ReST algorithm. Each color represents a skill. The lines in the\n\ufb01gures represent trajectory rollouts of skills whereas the shaded areas indicate the estimated state\ndistribution of the skills. The \ufb01gure on the left demonstrates the initialization of the three skills, where\nall skills\u2019 trajectories are entangled together. Then ReST starts with training skill 1 by optimizing the\nreward function in Equation (7), which encourages the trained skill to stay away from the estimated\nstate visitation distributions of other skills. ReST then continues to optimize skill 2, 3 and goes back\nto optimize skill 1 recurrently. After convergence, the skills would be spreaded out to cover diverse\nstates as shown in the \ufb01gure on the right.",
+      "crop_pdf_points": [
+        146,
+        548,
+        465,
+        642
+      ],
+      "vector_paths": 62,
+      "native_text_spans": 16,
+      "raster_images": 14,
+      "source_type": "vector/text with embedded raster components",
+      "visually_inspected": true,
+      "notes": "ReST method sequence of six trajectory panels, initialized through sequential skill updates to convergence, with colored state visitation density clouds and three skill trajectory legends."
+    }
+  ],
+  "review_notes": "Title verified directly in PDF first-page text.",
+  "version_evidence": "Publisher PDF has no visible version identifier; SHA256 binds inspected file",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/18-p3.png"
+}

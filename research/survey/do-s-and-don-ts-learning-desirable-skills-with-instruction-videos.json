@@ -1,0 +1,84 @@
+{
+  "catalog_index": 50,
+  "catalog_id": "do-s-and-don-ts-learning-desirable-skills-with-instruction-videos",
+  "title_expected": "Do's and Don'ts: Learning Desirable Skills with Instruction Videos",
+  "source_url": "https://arxiv.org/pdf/2406.00324v2",
+  "pdf_path": "build/sources/do-s-and-don-ts-learning-desirable-skills-with-instruction-videos.pdf",
+  "pdf_sha256": "12c2c7aecd19d7301ab5dcaa23aebbfac2e53bcc77f8272421e4839e5840e788",
+  "pdf_title_observed": "Do's and Don'ts: Learning Desirable Skills with Instruction Videos",
+  "first_page_title_text": "Do’s and Don’ts:\nLearning Desirable Skills with Instruction Videos\nHyunseung Kim1,2\nByungkun Lee1\nHojoon Lee1\nDongyoon Hwang1\nDonghu Kim1\nJaegul Choo1\n1KAIST, 2KRAFTON\n{mynsng,byungkun.lee,joonleesky,godnpeter,quagmire,jchoo}@kaist.ac.kr\nAbstract\nUnsupervised skill discovery is a learning paradigm that aims to acquire diverse\nbehaviors without explicit rewards. However, it faces challenges in lear",
+  "title_match": true,
+  "version": "2406.00324v2",
+  "page_count": 20,
+  "source_status": "accessible",
+  "license_note": "http://creativecommons.org/licenses/by/4.0/",
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption": "DoDont instruction-video skill discovery.",
+      "crop_pdf_points": [
+        139,
+        73,
+        472,
+        239
+      ],
+      "vector_paths": 242,
+      "native_text_spans": 28,
+      "raster_images": 57,
+      "visually_inspected": true,
+      "notes": "Native skill-learning architecture with many small robot/state raster illustrations."
+    }
+  ],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1: (a) The offline instruction video dataset includes videos of desirable behaviors (Do’s) and undesirable behaviors (Don’ts). (b) Unsupervised skill discovery algorithms tend to learn undesirable behaviors. (c) In DoDont, an instruction network is first trained with the Do’s and Don’ts videos to distinguish desirable and undesirable behaviors. Then, this instruction network adjusts the intrinsic reward of the skill discovery algorithm, pr",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 5,
+      "caption_excerpt": "Figure 2: Benchmark environments. Our experiments aim to evaluate the effectiveness of the DoDont method in learning desirable behaviors while avoiding undesirable ones across various environments and instruction scenarios. We test DoDont in two contexts: complex locomotion tasks (Cheetah and Quadruped envi- ronments from the DeepMind Control (DMC) Suite [45]) and precise manipulation tasks (Kitchen environment [17, 33]) (Figure 2). For pixel-bas",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 6,
+      "caption_excerpt": "Figure 3: Left: State coverage and zero-shot task reward for Cheetah and Quadruped. Right: Visual- ization of Do videos in our instruction video dataset and learned skills by DoDont. We are able to observe that DoDont does not simply mimic instruction videos but extracts desirable behaviors (e.g., run) from the videos and learn diverse skills. In this experiment, we aim to evaluate whether DoDont can effectively learn diverse complex behaviors by",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 4: Visualization and comparison of learned skills. In both environments, the left side is hazardous and the right side is safe. Safe state coverage assesses the agent’s ability to cover safe areas and avoid hazards. In practical scenarios, it is crucial for agents to avoid hazardous areas. For instance, in navigation tasks, robots must avoid dangerous areas such as pitfalls or private property. However, traditional skill discovery methods,",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 5: Learning safe and diverse behaviors. Zero- shot rewards assess how effectively each method learns desired behaviors while avoiding hazardous ones. In real-world scenarios, agents should also avoid learning risky behaviors. For in- stance, actions such as rolling on the ground or flipping upside down can po- tentially damage the robot. Therefore, in this experiment, we aim to investigate whether DoDont can learn a variety of de- sirable ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 6: Policy task coverage. The number of tasks successfully completed by sampled skills. In this experiment, we aim to demonstrate that our inten- tion network can be applied to a manipulation environment to learn multiple tasks. We use six target tasks following previous works [39, 33]. To effectively learn these six tasks, we use the D4RL dataset as Do’s and random ac- tion videos as Don’ts. As shown in Figure 6, through our instruction ne",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 7",
+      "page_1_based": 8,
+      "caption_excerpt": "Figure 7: Ablation study on model components. Impact of data quantity. While we are al- ready training with a relatively small amount of videos as our default setting (four Do’s, four Don’ts), we also conduct an ablation study where we use only two videos (one Do, one Don’t) to see how well our method performs un- der extremely limited data conditions. Accord- ing to Figure 7, even with only one Do’s video, the agent can mimic the running behavio",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 8",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 8: Left: Visualization of acquired skills, with the hazardous zone on the left and the safe zone on the right. Right: Quantitative comparison of each method. In this study, we use the instruction network as the distance metric for the distance-maximizing skill discovery algorithm [39]. This setup is convenient because it only requires multiplying the instruction network with the intrinsic USD reward to train the policy. However, an alterna",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed."
+}

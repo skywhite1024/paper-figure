@@ -1,0 +1,39 @@
+{
+  "catalog_id": "balancing-state-exploration-and-skill-diversity-in-unsupervised-skill-discovery-comsd",
+  "title_expected": "Balancing State Exploration and Skill Diversity in Unsupervised Skill Discovery (ComSD)",
+  "source_url": "https://arxiv.org/abs/2309.17203",
+  "pdf_url": "https://arxiv.org/pdf/2309.17203",
+  "pdf_path": "/tmp/paper-figure-survey/balancing-state-exploration-and-skill-diversity-in-unsupervised-skill-discovery-comsd/original.pdf",
+  "pdf_sha256": "f00f9ab7e47380da35cd32c54686f806bdcc02202890ef51e810964e3c299cf1",
+  "pdf_title_observed": "Balancing State Exploration and Skill Diversity in Unsupervised Skill Discovery",
+  "title_match": true,
+  "version": "2309.17203v3",
+  "page_count": 14,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption": "Fig. 3. Left: The contrastive dynamic reward rintr\nComSD design. Right: In SMW, \u03b2 is linear related to flag(z) with different slopes in different region. The\nskill space is divided into different regions with different learning objectives.",
+      "crop_pdf_points": [
+        98,
+        54,
+        514,
+        189
+      ],
+      "vector_paths": 169,
+      "native_text_spans": 24,
+      "raster_images": 0,
+      "source_type": "vector/text",
+      "visually_inspected": true,
+      "notes": "Contrastive dynamic reward computation graph on left; piecewise skill modulation weighting curve on right. Pink reward pathway and dashed mathematical objective labels must be retained."
+    }
+  ],
+  "review_notes": "PDF first-page title matches catalog without nickname ComSD; arXiv landing citation_title is a renamed variant: ComSD: Balancing Behavioral Quality and Diversity in Unsupervised Skill Discovery.",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2309.17203v3",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/13-p4.png"
+}

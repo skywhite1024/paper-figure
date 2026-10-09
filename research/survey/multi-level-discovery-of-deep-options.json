@@ -1,0 +1,39 @@
+{
+  "catalog_id": "multi-level-discovery-of-deep-options",
+  "title_expected": "Multi-Level Discovery of Deep Options",
+  "source_url": "https://arxiv.org/abs/1703.08294",
+  "pdf_url": "https://arxiv.org/pdf/1703.08294",
+  "pdf_path": "/tmp/paper-figure-survey/multi-level-discovery-of-deep-options/original.pdf",
+  "pdf_sha256": "ae906145d3b322b5b8cacbda60c5511b8d19fe7fdb00be24b01100ea5e480ba0",
+  "pdf_title_observed": "Multi-Level Discovery of Deep Options",
+  "title_match": true,
+  "version": "1703.08294v2",
+  "page_count": 19,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [
+    {
+      "figure": "Figure 12",
+      "page_1_based": 19,
+      "caption": "Figure 12: Network architecture for the policies and DQN in the Atari experiments. The output\ndistribution is the softmax of the network output vector of length |A| for control policies and 2 for\ntermination.",
+      "crop_pdf_points": [
+        215,
+        77,
+        392,
+        230
+      ],
+      "vector_paths": 0,
+      "native_text_spans": 0,
+      "raster_images": 1,
+      "source_type": "raster",
+      "visually_inspected": true,
+      "notes": "Appendix Atari policy/DQN network architecture: Input128x256, Dense32x256, Sum32x1, Dense32x1, Output ax1. Main paper figures show learned trajectories; this is the actual architecture figure."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/1703.08294v2",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/40-p19.png"
+}

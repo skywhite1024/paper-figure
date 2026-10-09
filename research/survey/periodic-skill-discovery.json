@@ -1,0 +1,39 @@
+{
+  "catalog_id": "periodic-skill-discovery",
+  "title_expected": "Periodic Skill Discovery",
+  "source_url": "https://arxiv.org/abs/2511.03187",
+  "pdf_url": "https://arxiv.org/pdf/2511.03187",
+  "pdf_path": "/tmp/paper-figure-survey/periodic-skill-discovery/original.pdf",
+  "pdf_sha256": "3d80b6e24e888d7a8498465dccdaf021bd46234ea913de70887c3c9b5b65bb72",
+  "pdf_title_observed": "Periodic Skill Discovery",
+  "title_match": true,
+  "version": "2511.03187v3",
+  "page_count": 28,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "http://creativecommons.org/licenses/by/4.0/",
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption": "Figure 1: Visualization of the circular latent space for Walker2D and HalfCheetah. The core\nidea of PSD is to map the state space into a circular latent space, where temporal distance is encoded\ngeometrically. The figure visualizes an actual policy learned by PSD, where following larger circular\npaths (blue \u2192magenta) corresponds to longer-period behaviors.",
+      "crop_pdf_points": [
+        107,
+        84,
+        506,
+        204
+      ],
+      "vector_paths": 485,
+      "native_text_spans": 2,
+      "raster_images": 0,
+      "source_type": "vector/text",
+      "visually_inspected": true,
+      "notes": "Circular latent-space concept with three concentric colored cycles, dotted arrows and locomotion sequences on both sides. Main introductory method concept; Figure2page4 is an additional geometric explanation."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2511.03187v3",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/5-p2.png"
+}

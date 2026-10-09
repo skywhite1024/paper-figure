@@ -1,0 +1,37 @@
+{
+  "catalog_id": "guiding-skill-discovery-with-foundation-models",
+  "catalog_title": "Guiding Skill Discovery with Foundation Models",
+  "paper_url": "https://arxiv.org/abs/2510.23167v1",
+  "pdf_url": "https://arxiv.org/pdf/2510.23167v1",
+  "pdf_local_path": "build/sources/guiding-skill-discovery-with-foundation-models.pdf",
+  "pdf_sha256": "522d2ad75780ebfbe265ba729f0e9d901adda3b88ed7524dd388dd4545ba3c9e",
+  "page_count": 23,
+  "source_status": "accessible",
+  "visual_inspection_status": "inspected",
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption": "FoG leverages foundation models to score states.",
+      "crop_pdf_points": [
+        72,
+        81,
+        541,
+        209
+      ],
+      "vector_paths": 99,
+      "native_text_spans": 18,
+      "raster_images": 23,
+      "visually_inspected": true,
+      "notes": "Most ordinary labels native; custom embedded font and some outlined mathematical labels. Raster model/environment icons."
+    }
+  ],
+  "title_expected": "Guiding Skill Discovery with Foundation Models",
+  "source_url": "https://arxiv.org/pdf/2510.23167v1",
+  "pdf_path": "build/sources/guiding-skill-discovery-with-foundation-models.pdf",
+  "pdf_title_observed": "Guiding Skill Discovery with Foundation Models",
+  "title_match": true,
+  "version": "2510.23167v1",
+  "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+  "review_notes": "Actual PDF first-page title and full figure page pixels inspected2026-10-09. Crop selected from source; export/QA not yet completed."
+}

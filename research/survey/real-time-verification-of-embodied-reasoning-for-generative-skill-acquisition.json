@@ -1,0 +1,66 @@
+{
+  "catalog_index": 49,
+  "catalog_id": "real-time-verification-of-embodied-reasoning-for-generative-skill-acquisition",
+  "title_expected": "Real-Time Verification of Embodied Reasoning for Generative Skill Acquisition",
+  "source_url": "https://arxiv.org/pdf/2505.11175v2",
+  "pdf_path": "build/sources/real-time-verification-of-embodied-reasoning-for-generative-skill-acquisition.pdf",
+  "pdf_sha256": "f6cffe99b77adfe2c66b946903e6ec081efd4fa037eb33ec61b6bbccdf641192",
+  "pdf_title_observed": "Real-Time Verification of Embodied Reasoning for Generative Skill Acquisition",
+  "first_page_title_text": "arXiv:2505.11175v2  [cs.RO]  19 May 2025\nReal-Time Verification of Embodied Reasoning for\nGenerative Skill Acquisition\nBo Yue1†, Shuqi Guo1†, Kaiyu Hu1, Chujiao Wang1,\nBenyou Wang1, Kui Jia1, Guiliang Liu1∗\n1School of Data Science, The Chinese University of Hong Kong, Shenzhen\n† Equal contribution\nAbstract\nGenerative skill acquisition enables embodied agents to actively learn a scalable\nand evolvi",
+  "title_match": true,
+  "version": "2505.11175v2",
+  "page_count": 21,
+  "source_status": "accessible",
+  "license_note": "http://creativecommons.org/licenses/by/4.0/",
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "The VERGSA framework.",
+      "crop_pdf_points": [
+        111,
+        217,
+        500,
+        382
+      ],
+      "vector_paths": 30,
+      "native_text_spans": 53,
+      "raster_images": 22,
+      "visually_inspected": true,
+      "notes": "Genuine framework combining exemplar task pool, model prompts, PRM verification and MCTS. Native text/paths with decorative icons and prompt scroll background raster."
+    }
+  ],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption_excerpt": "Figure 1: A motivating example. We observe that embodied tasks differ from mathematical problems in two critical aspects: 1) Less Structured: While mathematical prob- lems can be represented and solved using well- established symbolic formulas, robotic tasks are inherently less structured. They require config- uring the scene, adaptively decomposing long- term goals into sequentially coherent subtasks, generating training supervisions and success",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 2: The VERGSA framework. 4.1 Exemplar Task Pool Rather than using a fixed exemplar-task template, we maintain a dynamic pool T of successfully executed tasks for LLM (policy model) prompting, whose subtask decompositions and subtask training supervisions provide valuable insights for tackling contextually similar, previously unseen tasks. For each task τi ∈T , the task name ni and description di are extracted and then encoded into a single",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Figure 3: Number of subtasks in three tasks. 4 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 7,
+      "caption_excerpt": "Figure 5. The exemplar task pool initially contains 15 tasks and continues to expand by adding successfully executed tasks as the VERGSA framework operates. The names and descriptions of initial tasks in the pool are given in Appendix Table 9. VERGSA can generate an unlimited stream of tasks, each with multiple solutions composed of scene configurations and subtask supervisions. We constructed a dataset of 30 tasks, comprising 150 solutions, of w",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 9,
+      "caption_excerpt": "Figure 4: Performance of subtask execution across 14 tasks. 6 Conclusion Summary. We introduced VERGSA, a novel framework that formalizes the role of verification models in embodied reasoning for generative skill acquisition. VERGSA leverages an exemplar task pool to provide task-agnostic guidance for unseen scenarios while generating compositional success metrics for subtasks and overall task evaluations, providing feedback on generating per-sub",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "Actual source figure page rendered and visually inspected2026-10-09; native vs raster composition evaluated. Export not yet completed."
+}

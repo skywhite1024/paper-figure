@@ -1,0 +1,29 @@
+# Leveraging Human Feedback for Semantically-Relevant Skill Discovery
+
+Figure 2 · PDF 第 4 页 · 2604.24127v1
+
+- [PowerPoint](srsd-figure-2.pptx)
+- [draw.io](srsd-figure-2.drawio)
+- [重建预览](srsd-figure-2.png)
+- [论文原图](srsd-original.png)
+- [原图与重建离线对照](comparison.html)
+- [原文 PDF](srsd-2604.24127v1.pdf)
+- [来源与版本记录](sources.json)
+- [导出清单与原生对象统计](srsd-figure-2.manifest.json)
+- [本文件夹 SHA256 清单](bundle.manifest.json)
+- [验证记录](VALIDATION.json)
+
+## 来源与编辑边界
+
+官方固定版本：https://arxiv.org/pdf/2604.24127v1
+
+Source crop visually inspected; faithful source extraction draft. Clear three-stage architecture. Reward math partly outlined paths; three raster human/world/robot icons.
+
+CC BY4.0; https://creativecommons.org/licenses/by/4.0/
+
+自由路径可编辑，但不会自动吸附到语义节点。独立栅格照片/图标的内部像素不是可编辑对象。
+这是用户要求的私有仓库对照副本，不代表取得公开再发布许可。
+
+原文 SHA256：`2c4e5aadf82ea5104c0fd52497493ade2fd0e820f51f8d7279d4536db674446a`
+
+[返回论文索引](../README.md)

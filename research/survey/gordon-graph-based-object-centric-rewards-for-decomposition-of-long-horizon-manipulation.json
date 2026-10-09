@@ -1,0 +1,73 @@
+{
+  "catalog_index": 60,
+  "catalog_id": "gordon-graph-based-object-centric-rewards-for-decomposition-of-long-horizon-manipulation",
+  "title_expected": "GORDON: Graph-based Object-centric Rewards for Decomposition of Long-Horizon Manipulation",
+  "source_url": "https://arxiv.org/pdf/2608.03753v1",
+  "pdf_path": "build/sources/gordon-graph-based-object-centric-rewards-for-decomposition-of-long-horizon-manipulation.pdf",
+  "pdf_sha256": "2b068c624a58db12eae36bc71d54709395df888ad56ced794eacafe9a93a0725",
+  "pdf_title_observed": "GORDON: Graph-based Object-centric Rewards for Decomposition of Long-Horizon Manipulation",
+  "first_page_title_text": "1\nGORDON: Graph-based Object-centric Rewards\nfor Decomposition of Long-Horizon Manipulation\nAndrea Protopapa1, Davide Buoso1, Francesca Pistilli1, Georgia Chalvatzaki2,3,4 and Giuseppe Averta1\nAbstract—Learning long-horizon manipulation skills with re-\ninforcement learning remains challenging due to the complexity\nof reward design, the limited guidance of sparse rewards, and the\nhigh cost of manua",
+  "title_match": true,
+  "version": "2608.03753v1",
+  "page_count": 9,
+  "source_status": "accessible",
+  "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "figure_candidates": [],
+  "caption_search_cues": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Fig. 1. GORDON, our object-centric reward learning framework. Raw-image rewards may be distracted by spurious visual cues and transfer poorly to reinforcement learning. Conversely, using object-centric graphs, our method focuses on task-relevant objects and relations, learns a subtask-aware reward that tracks semantic progress, and transfers effectively to policy learning. about what task progress looks like, while RL can use the learned reward t",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 1",
+      "page_1_based": 1,
+      "caption_excerpt": "Fig. 1. To focus reward learning on task-relevant scene structure, each frame is converted into a graph in which nodes correspond to detected objects and edges encode spatial relations between them. A graph neural network (GNN) is trained in a self- supervised manner to embed each scene graph into a task- aware latent representation. The reward is then computed as arXiv:2608.03753v1  [cs.RO]  4 Aug 2026 ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 2",
+      "page_1_based": 2,
+      "caption_excerpt": "Fig. 2. Overview of the proposed method. Demo videos are converted into object-centric graphs and encoded with a GNN trained using temporal cycle- consistency and reconstruction losses. The frozen encoder defines a dense reward by measuring latent-space distance to the demonstration goal. This reward supports policy learning directly in short-horizon tasks and can reveal stage-wise structure for subtask discovery in long-horizon tasks. a latent-s",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 4,
+      "caption_excerpt": "Fig. 3. Automatic subtask discovery and sequential policy training for long- horizon tasks, using PUTSHOESINBOX as example task. The learned full-task reward is used to identify stage transitions and segment demonstrations into subtasks. Each segment is used to train a subtask-specific reward and policy, which are composed sequentially at deployment according to task progress. C. Automatic Subtask Discovery and Policy Composition In long-horizon ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 4",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 4. Short-horizon tasks require relatively compact sequences of object interactions. We use these tasks to assess whether the learned object-centric reward transfers effectively to policy optimization in simpler settings. relations that should change during the current phase while treating relevant objects of other phases as context. Subpolicy training and composition. We finally optimize a dedicated policy π(m) using the corresponding subtas",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 3",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 3. IV. EXPERIMENTS The experimental evaluation is organized in two parts. First, we present the main results, showing that the proposed method (i) automatically recovers meaningful subtask structure from demonstrations through the learned reward profile and (ii) transfers the learned reward to downstream policy training, achieving strong success rates across both short- and long- horizon manipulation tasks. Second, we provide ablation stud- ",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 5",
+      "page_1_based": 5,
+      "caption_excerpt": "Fig. 5. Long-horizon tasks require multiple ordered object-state transitions. These are used to evaluate whether the learned reward captures semantic task progress, reveals subtask structure, and supports sequential policy learning in more complex 3D manipulation scenarios. executor used by our method. This second variant estimates the performance achievable when the decomposition and dense subtask rewards are manually engineered. XIRL [4] learns",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 6. Learned full-task reward profiles on three representative long-horizon tasks. Stars denote simulator-annotated subtask endings, while dashed lines denote boundaries inferred from the learned reward profile. Their close alignment shows that stage transitions can be recovered from unsegmented demonstrations. TABLE I FULL-TASK SUCCESS RATE (%). VALUES ARE MEAN ± STD OVER FIVE SEEDS; † INDICATES ROBOHORIZON RESULTS REPORTED IN [21]. GREEN ∆DE",
+      "visually_inspected": false
+    },
+    {
+      "figure": "Figure 6",
+      "page_1_based": 6,
+      "caption_excerpt": "Fig. 6. The goal of this analysis is to verify whether the reward learned from full-task demonstrations contains an interpretable temporal structure. The reward exhibits stage- like transitions that closely align with simulator-annotated subtask endings. Moreover, the boundaries inferred from the reward profile largely coincide with these annotations. Since subtask labels are not used during reward learning, this result shows that candidate subta",
+      "visually_inspected": false
+    }
+  ],
+  "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures."
+}

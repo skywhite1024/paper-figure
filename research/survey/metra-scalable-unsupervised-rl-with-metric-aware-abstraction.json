@@ -1,0 +1,39 @@
+{
+  "catalog_id": "metra-scalable-unsupervised-rl-with-metric-aware-abstraction",
+  "title_expected": "METRA: Scalable Unsupervised RL with Metric-Aware Abstraction",
+  "source_url": "https://arxiv.org/abs/2310.08887",
+  "pdf_url": "https://arxiv.org/pdf/2310.08887",
+  "pdf_path": "/tmp/paper-figure-survey/metra-scalable-unsupervised-rl-with-metric-aware-abstraction/original.pdf",
+  "pdf_sha256": "66833b9b67c78b4f247e795e6c73bbf634ca2983907adf28a8a625eca8c17e5f",
+  "pdf_title_observed": "METRA: Scalable Unsupervised RL with Metric-Aware Abstraction",
+  "title_match": true,
+  "version": "2310.08887v2",
+  "page_count": 26,
+  "source_status": "accessible",
+  "evidence_status": "source_inspected",
+  "license_note": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+  "figure_candidates": [
+    {
+      "figure": "Figure 1",
+      "page_1_based": 2,
+      "caption": "Figure 1: Illustration of METRA. Our main idea for scalable unsupervised RL is to cover only the most\n\u201cimportant\u201d low-dimensional subset of the state space, analogously to PCA. Specifically, METRA covers the\nmost \u201ctemporally spread-out\u201d (non-linear) manifold, which would lead to approximate coverage of the state\nspace S. In the example above, the two-dimensional Z space captures behaviors running in all directions, not\nnecessarily covering every possible leg pose.",
+      "crop_pdf_points": [
+        119,
+        49,
+        508,
+        209
+      ],
+      "vector_paths": 28,
+      "native_text_spans": 21,
+      "raster_images": 9,
+      "source_type": "vector/text with embedded raster components",
+      "visually_inspected": true,
+      "notes": "METRA temporal-distance concept: latent plane through a high-dimensional sphere, robot-state thumbnails, near/far arrows and temporally spread-out manifold annotation."
+    }
+  ],
+  "review_notes": "",
+  "version_evidence": "Version identifier printed in first-page PDF margin",
+  "versioned_pdf_url": "https://arxiv.org/pdf/2310.08887v2",
+  "inspected_at": "2026-10-09",
+  "visual_evidence_cache": "/tmp/paper-figure-survey/12-p2.png"
+}
