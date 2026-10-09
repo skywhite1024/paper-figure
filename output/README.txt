@@ -1,5 +1,11 @@
 论文结构图可编辑重建 v0.2
 
+
+原文 PDF 对照（本次重建实际使用版本）
+- ASPIRE：source-papers/aspire-2607.00272v1.pdf；Figure 1，PDF 第2页（全文43页）
+- RoboReact：source-papers/roboreact-2608.03387v2.pdf；Figure 2，PDF 第3页（全文9页）
+版本、官方来源链接及 SHA256：source-papers/README.md 与 source-papers/sources.json
+
 优先保留原图的布局、配色、文字和细节。打开 comparison.html 可离线对照论文原图与重建预览。实际编辑请打开 PPTX 或 draw.io；PNG 仅用于预览。
 
 ASPIRE · Figure 1 · PDF 第 2 页

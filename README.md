@@ -66,3 +66,7 @@ RoboReact 的人工坐标程序 `research/build_roboreact_faithful.py` 使用原
 ## 原始结果文件夹
 
 `output/` 包含两张图的 PPTX、draw.io、PNG、原图对照、离线 `comparison.html`、来源/验证说明。仓库不提交 ZIP 或 Git bundle，源码直接位于仓库根目录。
+
+### 原文 PDF
+
+对照用固定版本原文保存在 [`output/source-papers/`](output/source-papers/README.md)：ASPIRE v1 的 Figure 1 位于第2页，RoboReact v2 的 Figure 2 位于第3页。该目录记录原始官方 URL、SHA256 与页码，保留原文权利声明。
