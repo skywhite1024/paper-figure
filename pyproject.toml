@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "paper-figure"
+version = "0.2.0"
+description = "Editable, provenance-aware paper figure reconstruction"
+requires-python = ">=3.10"
+dependencies = []
+[project.optional-dependencies]
+pdf = ["PyMuPDF>=1.24", "Pillow>=10", "lxml>=5"]
+[project.scripts]
+paper-figure = "paper_figure.cli:main"
+[tool.setuptools]
+packages = ["paper_figure"]
+[tool.setuptools.package-data]
+paper_figure = ["*.mjs"]

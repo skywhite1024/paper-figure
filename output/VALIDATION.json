@@ -1,0 +1,67 @@
+{
+  "version": "0.2.0",
+  "date": "2026-10-09",
+  "tests": {
+    "unittest_passed": 25,
+    "unittest_failed": 0,
+    "pptx_integration": true
+  },
+  "packaging": {
+    "wheel_build": "passed",
+    "clean_venv_install_and_drawio_export": "passed"
+  },
+  "visual_review": {
+    "source_comparison": "passed with documented approximations",
+    "libreoffice_headless_open_render": "passed",
+    "microsoft_powerpoint_full_manual_editing": "not performed",
+    "drawio_gui_manual_editing": "not performed"
+  },
+  "catalog": {
+    "total": 137,
+    "not_reviewed": 134,
+    "recreated": 2,
+    "blocked": 1,
+    "verified": 0
+  },
+  "figures": {
+    "aspire-figure-1": {
+      "metrics": {
+        "native_nodes": 146,
+        "transparent_anchor_nodes": 2,
+        "native_freeform_paths": 66,
+        "native_text_objects": 62,
+        "raster_images": 21,
+        "semantic_connectors": 6,
+        "pptx_connector_segments": 6,
+        "path_attachment": "freeform paths have no semantic endpoint attachment",
+        "fidelity_status": "figure_recreation",
+        "visual_review": "pending"
+      },
+      "source_sha256": "8a4d04064c662cff66edd1c74e19ee33aa6e52f201782e7b56f09b5aa76482b3",
+      "pptx_sha256": "0f2bea7c860e80e61f05e41d0c35e8c6245f338d751e3975242cdec6f8884d6c",
+      "package_findings": 0,
+      "layout_findings": 0,
+      "artifact_tool_reimport": true
+    },
+    "roboreact-figure-2": {
+      "metrics": {
+        "native_nodes": 216,
+        "transparent_anchor_nodes": 38,
+        "native_freeform_paths": 5,
+        "native_text_objects": 74,
+        "raster_images": 30,
+        "semantic_connectors": 75,
+        "pptx_connector_segments": 79,
+        "path_attachment": "freeform paths have no semantic endpoint attachment",
+        "fidelity_status": "figure_recreation",
+        "visual_review": "pending"
+      },
+      "source_sha256": "0289c8e543d10428f6c921e01aceb22e1aab6255435e506a30b92ad609e1934d",
+      "pptx_sha256": "26314858f51d7a25aad5973e40d63689c6e44fca4feae8884d184d41e1cea9dc",
+      "package_findings": 0,
+      "layout_findings": 0,
+      "artifact_tool_reimport": true
+    }
+  },
+  "scope": "Construction counts are not pixel fidelity scores. Individual raster contents remain raster; freeform paths have no automatic semantic endpoint attachment."
+}

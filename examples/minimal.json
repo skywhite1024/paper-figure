@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "id": "demo",
+  "title": "Editable primitives",
+  "canvas": {
+    "width": 600,
+    "height": 360
+  },
+  "provenance": {
+    "paper_title": "Original primitive demo",
+    "paper_url": "https://example.org",
+    "figure": null,
+    "page": null,
+    "license": "Original demo; no paper content",
+    "status": "conceptual_reconstruction",
+    "notes": "Native primitives test, not a paper recreation"
+  },
+  "nodes": [
+    {
+      "id": "a",
+      "shape": "rect",
+      "label": "Input",
+      "x": 20,
+      "y": 100,
+      "width": 150,
+      "height": 70,
+      "fill": "#DBEAFE"
+    },
+    {
+      "id": "b",
+      "shape": "rounded_rect",
+      "label": "Output",
+      "x": 400,
+      "y": 100,
+      "width": 150,
+      "height": 70
+    },
+    {
+      "id": "curve",
+      "shape": "path",
+      "x": 180,
+      "y": 220,
+      "width": 220,
+      "height": 70,
+      "fill": "none",
+      "stroke": "#008844",
+      "stroke_width": 3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 50,
+            "y1": 0,
+            "x2": 170,
+            "y2": 70,
+            "x": 220,
+            "y": 70
+          }
+        }
+      ]
+    }
+  ],
+  "edges": [
+    {
+      "id": "ab",
+      "source": "a",
+      "target": "b",
+      "arrow": true
+    }
+  ]
+}

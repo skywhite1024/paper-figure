@@ -1,0 +1,57 @@
+{
+  "schema_version": 1,
+  "diagram_id": "aspire-figure-1",
+  "source_sha256": "8a4d04064c662cff66edd1c74e19ee33aa6e52f201782e7b56f09b5aa76482b3",
+  "provenance": {
+    "paper_title": "ASPIRE: Agentic /Skills Discovery for Robotics",
+    "paper_url": "https://arxiv.org/abs/2607.00272v1",
+    "pdf_url": "https://arxiv.org/pdf/2607.00272v1",
+    "figure": "Figure 1",
+    "page": 2,
+    "license": "arXiv page links CC BY 4.0; PDF also contains NVIDIA copyright notice. Figure-specific third-party assets not independently cleared for public redistribution. Private conversion only.",
+    "status": "figure_recreation",
+    "notes": "Original PDF vector geometry, colors and placement extracted, with individually clipped source raster assets. Original curves and zoom inset retained. Native labels use Arial/Courier New substitutions for source fonts. Freeform arrow paths remain editable points but are not semantic attached connectors. Code and evolutionary-search panels manually reconstructed as native text/shapes/connections from original pixels; typography and small routing differences remain. No full-figure raster backdrop. Code syntax colors simplified to a single function-line color to remain readable with substituted fonts.",
+    "source_sha256": "9df00979a6d52c7fcfbcc9d17275fc5196e6431d872a0624fea642a63f9beefc",
+    "source_crop_pdf_points": [
+      61.0,
+      84.0,
+      534.0,
+      368.0
+    ],
+    "font_substitutions": {
+      "NVIDIASans": "Arial",
+      "ArialMT": "Arial",
+      "ArialRoundedMTBold": "Arial Bold",
+      "Consolas": "Courier New",
+      "CourierNewPSMT": "Courier New"
+    },
+    "source_image_limit": "Only individual photos, diagnostic image pixels and decorative logo assets remain raster; the code/search mini-panels are native reconstructions.",
+    "native_snippet_reconstruction": "Source code/search images replaced by native editable labels, boxes and arrows; original information and relative arrangement retained with small geometric/font approximation."
+  },
+  "metrics": {
+    "native_nodes": 146,
+    "transparent_anchor_nodes": 2,
+    "native_freeform_paths": 66,
+    "native_text_objects": 62,
+    "raster_images": 21,
+    "semantic_connectors": 6,
+    "pptx_connector_segments": 6,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "aspire-figure-1.drawio",
+      "sha256": "66bde7c9a2cb0b261ff98133f4c7d89f36cc165f78e1aafe64981075398b945f"
+    },
+    {
+      "name": "aspire-figure-1.png",
+      "sha256": "3d4f6631c301bf3528f868334f8f36c73a300d409a37ffa9f172a64b3d36b8bd"
+    },
+    {
+      "name": "aspire-figure-1.pptx",
+      "sha256": "0f2bea7c860e80e61f05e41d0c35e8c6245f338d751e3975242cdec6f8884d6c"
+    }
+  ]
+}
