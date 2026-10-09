@@ -1,0 +1,78 @@
+{
+  "schema_version": 1,
+  "diagram_id": "skillmimicgen-figure-1",
+  "source_sha256": "2f4704462ffc6e0253ca4950dc0abf973d1658a15a4dcc3279e11e20fde3a5a4",
+  "assets": [
+    {
+      "name": "assets/source-photo-0.png",
+      "sha256": "b946be6632a619e920c1cdcb88d9c7df3e118d70e9aa1eaf824a7da0e20c59a8"
+    },
+    {
+      "name": "assets/source-photo-1.png",
+      "sha256": "320cb11eb3b3d929eeff5f3075695f6c90efe12878642dd8efdecd4af9de9f4e"
+    },
+    {
+      "name": "assets/source-photo-2.png",
+      "sha256": "714b2556596a2caf54a97cea8b7ac3894f5d84df2e5a938b58df872713ebc995"
+    },
+    {
+      "name": "assets/source-photo-3.png",
+      "sha256": "a6450da5e6d895e03edf50fc6a8018c9776d8f281146cedff11e272579405943"
+    }
+  ],
+  "provenance": {
+    "paper_title": "SkillMimicGen: Automated Demonstration Generation for Efficient Skill Learning and Deployment",
+    "paper_url": "https://arxiv.org/pdf/2410.18907v1",
+    "figure": "Figure 1",
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "notes": "Original SkillGen workflow from human demonstrations through automatic generation to hybrid skill-policy deployment. Workflow geometry, icons and source labels remain native. Four original clipped robot photos remain separate raster assets.",
+    "page": 2,
+    "status": "figure_recreation",
+    "source_sha256": "2bdf9e56f6b7f59832f116710bd8c18369d51c3f16cccc16651180fa0c3e2c7a",
+    "source_crop_pdf_points": [
+      108,
+      72,
+      504,
+      174
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "extraction_warnings": [
+      "13 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 0",
+      "unhandled image/shading at seq 80: [115.68846130371094, 92.90364074707031, 249.7777862548828, 168.47039794921875]; requires reviewed raster region",
+      "unhandled image/shading at seq 85: [230.97561645507812, 97.57838439941406, 315.496337890625, 145.13558959960938]; requires reviewed raster region",
+      "unhandled image/shading at seq 90: [298.36590576171875, 97.57838439941406, 382.8866271972656, 145.13558959960938]; requires reviewed raster region",
+      "unhandled image/shading at seq 95: [380.2590637207031, 89.21610260009766, 515.9095458984375, 165.3076171875]; requires reviewed raster region"
+    ],
+    "ignored_invisible_text_spans": 0,
+    "stroke_repair": "PDF extraction reported an impossible 152400-scene-pixel red initiation stroke; restored source visually measured 4px line width.",
+    "image_repairs": "Raw source PDF image objects cropped to original PDF clipping bounds; original Initiation/Demo/Adapt/MP/BC labels and drawn motion paths remain independently editable above the photos."
+  },
+  "metrics": {
+    "native_nodes": 106,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 87,
+    "native_text_objects": 19,
+    "raster_images": 4,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "skillmimicgen-figure-1.drawio",
+      "sha256": "36ca1504430e7bb2cccf51c3b566c6b58f549375a78527ecd6950835368c95f8"
+    },
+    {
+      "name": "skillmimicgen-figure-1.png",
+      "sha256": "6ce4a453c74324cf53bfb619c4faf5ac005da875c1d0451805baf384e31eb563"
+    },
+    {
+      "name": "skillmimicgen-figure-1.pptx",
+      "sha256": "d922947a5da0e0f338e6e57e23e4973c1118b80261aa728cbfa92f4c7bf232eb"
+    }
+  ]
+}

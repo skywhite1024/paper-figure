@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "skillmimicgen-automated-demonstration-generation-for-efficient-skill-learning-and-deployment",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.512320Z",
-  "updated_at": "2026-10-09T20:49:29.614664Z",
+  "updated_at": "2026-10-09T20:57:54.711855Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/skillmimicgen/README.md",
+          "output/skillmimicgen/VALIDATION.json"
+        ],
+        "output_directory": "output/skillmimicgen",
+        "source_sha256": "2bdf9e56f6b7f59832f116710bd8c18369d51c3f16cccc16651180fa0c3e2c7a",
+        "scene_sha256": "2f4704462ffc6e0253ca4950dc0abf973d1658a15a4dcc3279e11e20fde3a5a4",
+        "text_editability": {
+          "typeable_text_objects": 19,
+          "native_freeform_paths": 87,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T20:57:54.711855Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "9991305a058e2af8b7af574ad6cff04c3be90dc55e6eb2835dfac48159f66fda",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/skillmimicgen/README.md",
+                "output/skillmimicgen/VALIDATION.json"
+              ],
+              "output_directory": "output/skillmimicgen",
+              "source_sha256": "2bdf9e56f6b7f59832f116710bd8c18369d51c3f16cccc16651180fa0c3e2c7a",
+              "scene_sha256": "2f4704462ffc6e0253ca4950dc0abf973d1658a15a4dcc3279e11e20fde3a5a4",
+              "text_editability": {
+                "typeable_text_objects": 19,
+                "native_freeform_paths": 87,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

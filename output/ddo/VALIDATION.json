@@ -1,0 +1,41 @@
+{
+  "diagram_id": "ddo-figure-12",
+  "source_scene_sha256": "14a4c0f96dca804aedef69b6472e9c30fe2b2da7c29d751d26cee241d055d5eb",
+  "source_pdf_sha256": "ae906145d3b322b5b8cacbda60c5511b8d19fe7fdb00be24b01100ea5e480ba0",
+  "checked_files": [
+    {
+      "name": "ddo-figure-12.drawio",
+      "sha256": "ad068e9a29551eaf6c172816f45b4856ac518a1c86a28cf3315134fece1f30b3"
+    },
+    {
+      "name": "ddo-figure-12.png",
+      "sha256": "b95ff8e479a90f69b2e10c4d94c70dfaf44dce0402a6bdbc75988d32e04ba339"
+    },
+    {
+      "name": "ddo-figure-12.pptx",
+      "sha256": "64501129253e913a2b0f28299945c65f3f1a29f8c434d43f032e4d50e049af23"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 12 PDFpage19 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 23,
+    "p:pic": 0,
+    "a:custGeom": 8,
+    "p:cxnSp": 0,
+    "a:t": 15
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

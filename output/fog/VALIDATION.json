@@ -1,0 +1,41 @@
+{
+  "diagram_id": "fog-figure-1",
+  "source_scene_sha256": "92378f8525a5901944c874584feaa4da757e486110748683c68d86096554d485",
+  "source_pdf_sha256": "522d2ad75780ebfbe265ba729f0e9d901adda3b88ed7524dd388dd4545ba3c9e",
+  "checked_files": [
+    {
+      "name": "fog-figure-1.drawio",
+      "sha256": "9ca75faaeab14bcc6651211eafdb02e5c902c1ec68234f69ed513b29d52af1cb"
+    },
+    {
+      "name": "fog-figure-1.png",
+      "sha256": "777467ebbc92b94a8b3d8df8026d7732e7b09f708f2093fdc71a21d823dfb5e6"
+    },
+    {
+      "name": "fog-figure-1.pptx",
+      "sha256": "3eb3bd97de2a8b70d3fe816cd192e563e191faaaaf9e6c1b0a1b70e9fefe5ff4"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 1 PDFpage2 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 160,
+    "p:pic": 17,
+    "a:custGeom": 126,
+    "p:cxnSp": 0,
+    "a:t": 17
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

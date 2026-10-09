@@ -1,0 +1,844 @@
+{
+  "schema_version": 1,
+  "id": "rvic-figure-1",
+  "title": "Relative Variational Intrinsic Control · Figure 1",
+  "canvas": {
+    "width": 697,
+    "height": 662
+  },
+  "provenance": {
+    "paper_title": "Relative Variational Intrinsic Control",
+    "paper_url": "https://arxiv.org/abs/2012.07827v1",
+    "figure": "Figure 1",
+    "page": 2,
+    "license": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+    "status": "figure_recreation",
+    "source_sha256": "4284bd5fb5e605def47893764b545386c74adc84d119be95fea380e170477b84",
+    "source_crop_pdf_points": [
+      319.5,
+      54.003219604,
+      551.341064453,
+      274.534973145
+    ],
+    "notes": "Manually reconstructed after inspecting actual source pixels. Original source is a flattened raster. Layout, native panels, labels and connecting geometry are recreated; no whole-figure raster backdrop. Font metrics and curve/arrow geometry approximated. Small original mathematical/photo details retained only where explicitly noted. Independent target-application QA pending. Ordinary labels are live typeable text. Nine small equation strips preserve source mathematical typography; architecture panels and routing arrows are native objects."
+  },
+  "nodes": [
+    {
+      "id": "interaction-panel",
+      "shape": "rect",
+      "x": 143,
+      "y": 2,
+      "width": 411,
+      "height": 354,
+      "fill": "#FFDDB1",
+      "stroke": "#000000",
+      "stroke_width": 1.8,
+      "dash": false
+    },
+    {
+      "id": "environment",
+      "shape": "rect",
+      "x": 165,
+      "y": 27,
+      "width": 368,
+      "height": 82,
+      "fill": "#D1EB66",
+      "stroke": "#000000",
+      "stroke_width": 1.8,
+      "dash": false
+    },
+    {
+      "id": "environment-label",
+      "shape": "text",
+      "x": 195,
+      "y": 45,
+      "width": 307,
+      "height": 48,
+      "label": "Environment",
+      "font_size": 29,
+      "text_color": "#000000",
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "state",
+      "shape": "rect",
+      "x": 165,
+      "y": 138,
+      "width": 168,
+      "height": 85,
+      "fill": "#A3C1F8",
+      "stroke": "#000000",
+      "stroke_width": 1.8,
+      "dash": false
+    },
+    {
+      "id": "state-label",
+      "shape": "text",
+      "x": 174,
+      "y": 149,
+      "width": 150,
+      "height": 31,
+      "label": "State",
+      "font_size": 29,
+      "text_color": "#000000",
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "state-formula",
+      "shape": "image",
+      "x": 235,
+      "y": 184,
+      "width": 35,
+      "height": 38,
+      "asset": "state-formula.png",
+      "alt": "Original state subscript formula"
+    },
+    {
+      "id": "action",
+      "shape": "rect",
+      "x": 365,
+      "y": 138,
+      "width": 168,
+      "height": 85,
+      "fill": "#A3C1F8",
+      "stroke": "#000000",
+      "stroke_width": 1.8,
+      "dash": false
+    },
+    {
+      "id": "action-label",
+      "shape": "text",
+      "x": 373,
+      "y": 149,
+      "width": 152,
+      "height": 31,
+      "label": "Action",
+      "font_size": 29,
+      "text_color": "#000000",
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "action-formula",
+      "shape": "image",
+      "x": 434,
+      "y": 184,
+      "width": 36,
+      "height": 38,
+      "asset": "action-formula.png",
+      "alt": "Original action subscript formula"
+    },
+    {
+      "id": "policy",
+      "shape": "rect",
+      "x": 165,
+      "y": 249,
+      "width": 368,
+      "height": 85,
+      "fill": "#F2C5F2",
+      "stroke": "#000000",
+      "stroke_width": 1.8,
+      "dash": true
+    },
+    {
+      "id": "policy-label",
+      "shape": "text",
+      "x": 181,
+      "y": 256,
+      "width": 337,
+      "height": 40,
+      "label": "Skill-Conditioned Policy",
+      "font_size": 29,
+      "text_color": "#000000",
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "policy-formula",
+      "shape": "image",
+      "x": 263,
+      "y": 296,
+      "width": 168,
+      "height": 35,
+      "asset": "policy-formula.png",
+      "alt": "Original skill-conditioned mathematical policy formula"
+    },
+    {
+      "id": "skill",
+      "shape": "rect",
+      "x": 4,
+      "y": 383,
+      "width": 150,
+      "height": 86,
+      "fill": "#A3C1F8",
+      "stroke": "#000000",
+      "stroke_width": 1.8,
+      "dash": false
+    },
+    {
+      "id": "skill-label",
+      "shape": "text",
+      "x": 24,
+      "y": 393,
+      "width": 110,
+      "height": 34,
+      "label": "Skill",
+      "font_size": 28,
+      "text_color": "#000000",
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "skill-formula",
+      "shape": "image",
+      "x": 23,
+      "y": 433,
+      "width": 112,
+      "height": 31,
+      "asset": "skill-formula.png",
+      "alt": "Original skill sampling equation"
+    },
+    {
+      "id": "reward",
+      "shape": "rect",
+      "x": 163,
+      "y": 383,
+      "width": 372,
+      "height": 86,
+      "fill": "#A3C1F8",
+      "stroke": "#000000",
+      "stroke_width": 1.8,
+      "dash": false
+    },
+    {
+      "id": "reward-label",
+      "shape": "text",
+      "x": 253,
+      "y": 392,
+      "width": 192,
+      "height": 34,
+      "label": "Reward",
+      "font_size": 29,
+      "text_color": "#000000",
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "reward-formula",
+      "shape": "image",
+      "x": 175,
+      "y": 430,
+      "width": 351,
+      "height": 37,
+      "asset": "reward-formula.png",
+      "alt": "Original reward difference equation; small formula strip remains raster"
+    },
+    {
+      "id": "trajectory",
+      "shape": "rect",
+      "x": 544,
+      "y": 383,
+      "width": 150,
+      "height": 86,
+      "fill": "#A3C1F8",
+      "stroke": "#000000",
+      "stroke_width": 1.8,
+      "dash": false
+    },
+    {
+      "id": "trajectory-label",
+      "shape": "text",
+      "x": 548,
+      "y": 393,
+      "width": 142,
+      "height": 34,
+      "label": "Trajectory",
+      "font_size": 29,
+      "text_color": "#000000",
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "trajectory-formula",
+      "shape": "image",
+      "x": 562,
+      "y": 430,
+      "width": 118,
+      "height": 36,
+      "asset": "trajectory-formula.png",
+      "alt": "Original trajectory subscript formula"
+    },
+    {
+      "id": "discriminator-panel",
+      "shape": "rect",
+      "x": 143,
+      "y": 493,
+      "width": 411,
+      "height": 167,
+      "fill": "#FFDDB1",
+      "stroke": "#000000",
+      "stroke_width": 1.8,
+      "dash": false
+    },
+    {
+      "id": "discriminator-label",
+      "shape": "text",
+      "x": 170,
+      "y": 503,
+      "width": 355,
+      "height": 38,
+      "label": "Skill Discriminators",
+      "font_size": 29,
+      "text_color": "#000000",
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "relative-discriminator",
+      "shape": "rect",
+      "x": 154,
+      "y": 551,
+      "width": 190,
+      "height": 84,
+      "fill": "#F2C5F2",
+      "stroke": "#000000",
+      "stroke_width": 1.8,
+      "dash": true
+    },
+    {
+      "id": "absolute-discriminator",
+      "shape": "rect",
+      "x": 354,
+      "y": 551,
+      "width": 190,
+      "height": 84,
+      "fill": "#F2C5F2",
+      "stroke": "#000000",
+      "stroke_width": 1.8,
+      "dash": true
+    },
+    {
+      "id": "relative-discriminator-formula",
+      "shape": "image",
+      "x": 163,
+      "y": 580,
+      "width": 172,
+      "height": 40,
+      "asset": "relative-discriminator-formula.png",
+      "alt": "Original relative skill discriminator equation"
+    },
+    {
+      "id": "absolute-discriminator-formula",
+      "shape": "image",
+      "x": 368,
+      "y": 580,
+      "width": 167,
+      "height": 40,
+      "asset": "absolute-discriminator-formula.png",
+      "alt": "Original absolute skill discriminator equation"
+    },
+    {
+      "id": "environment-state",
+      "shape": "path",
+      "x": 249,
+      "y": 109,
+      "width": 0.01,
+      "height": 29,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.6,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 29
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "state-policy",
+      "shape": "path",
+      "x": 249,
+      "y": 223,
+      "width": 0.01,
+      "height": 26,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.6,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 26
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "state-policy-head",
+      "shape": "path",
+      "x": 243.6,
+      "y": 237.0,
+      "width": 10.800000000000011,
+      "height": 12.0,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 5.400000000000006,
+            "y": 12.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.800000000000011,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "policy-action",
+      "shape": "path",
+      "x": 449,
+      "y": 223,
+      "width": 0.01,
+      "height": 26,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.6,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 26
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "action-environment",
+      "shape": "path",
+      "x": 449,
+      "y": 110,
+      "width": 0.01,
+      "height": 28,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.6,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 28
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "action-environment-head",
+      "shape": "path",
+      "x": 443.6,
+      "y": 110,
+      "width": 10.799999999999955,
+      "height": 12.0,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 5.399999999999977,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.799999999999955,
+            "y": 12.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 12.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "policy-trajectory",
+      "shape": "path",
+      "x": 533,
+      "y": 292,
+      "width": 87,
+      "height": 91,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.6,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 87,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 87,
+            "y": 91
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "trajectory-discriminators",
+      "shape": "path",
+      "x": 554,
+      "y": 469,
+      "width": 66,
+      "height": 107,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.6,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 66,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 66,
+            "y": 107
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 107
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "trajectory-discriminators-head",
+      "shape": "path",
+      "x": 554,
+      "y": 570.6,
+      "width": 12.0,
+      "height": 10.799999999999955,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 5.399999999999977
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.0,
+            "y": 10.799999999999955
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "skill-policy",
+      "shape": "path",
+      "x": 79,
+      "y": 292,
+      "width": 86,
+      "height": 91,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.6,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 91
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 86,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "skill-policy-head",
+      "shape": "path",
+      "x": 153.0,
+      "y": 286.6,
+      "width": 12.0,
+      "height": 10.799999999999955,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12.0,
+            "y": 5.399999999999977
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 10.799999999999955
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "skill-discriminators",
+      "shape": "path",
+      "x": 79,
+      "y": 469,
+      "width": 64,
+      "height": 107,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.6,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 107
+          }
+        },
+        {
+          "lineTo": {
+            "x": 64,
+            "y": 107
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "skill-discriminators-head",
+      "shape": "path",
+      "x": 131.0,
+      "y": 570.6,
+      "width": 12.0,
+      "height": 10.799999999999955,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12.0,
+            "y": 5.399999999999977
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 10.799999999999955
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "reward-policy",
+      "shape": "path",
+      "x": 349,
+      "y": 334,
+      "width": 0.01,
+      "height": 49,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.6,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 49
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "reward-policy-head",
+      "shape": "path",
+      "x": 343.6,
+      "y": 334,
+      "width": 10.799999999999955,
+      "height": 12.0,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 5.399999999999977,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.799999999999955,
+            "y": 12.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 12.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    }
+  ],
+  "edges": []
+}

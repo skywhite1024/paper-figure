@@ -49,7 +49,8 @@ class PipelineTests(unittest.TestCase):
    r=ET.fromstring(z.read('ppt/slides/slide1.xml'));self.assertEqual(len(r.findall('.//a:custGeom',ns)),1);self.assertEqual(len(r.findall('.//p:cxnSp',ns)),1);self.assertEqual(len(r.findall('.//a:stCxn',ns)),1);self.assertEqual(len(r.findall('.//a:cubicBezTo',ns)),1);self.assertIn(b'paper_url',z.read('ppt/notesSlides/notesSlide1.xml'))
  def test_drawio_honors_no_wrap_and_text_inset(self):
   self.d['nodes'][0].update(no_wrap=True,text_inset=3)
-  export(self.d,ROOT/'examples/minimal.json',self.out,('drawio',))
+  source=self.out/'scene.json';source.write_text(json.dumps(self.d))
+  export(self.d,source,self.out,('drawio',))
   doc=ET.parse(self.out/(self.d['id']+'.drawio'))
   cell=doc.find('.//mxCell[@id="a"]')
   self.assertIn('whiteSpace=nowrap;',cell.get('style'))

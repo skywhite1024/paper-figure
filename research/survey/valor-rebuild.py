@@ -41,11 +41,28 @@ for j,x in enumerate(xs):
  B(f'linear-{j}',x+14,126,58,25,'#D8EACD','#87B873',1.4,round=True);T(f'linear-label-{j}','Linear',x+16,127,54,22,16)
  B(f'top-cell-{j}',x,175,50,47,'#D8E6FC','#87A9D9',1.5,round=True);B(f'bottom-cell-{j}',x,251,50,48,'#D8E6FC','#87A9D9',1.5,round=True)
  L(f'linear-to-pool-{j}',[(x+43,126),(x+43,102)],'#777777',1.6,head=8);L(f'top-to-linear-{j}',[(x+25,175),(x+25,152)],'#777777',1.6,head=8);L(f'input-bottom-{j}',[(x+25,347),(x+25,299)],'#777777',1.6,head=8)
- C(f'input-top-{j}',(x+24,313),(x-35,325),(x-29,231),(x+24,225),'#777777',1.6,head=8)
- C(f'bottom-linear-{j}',(x+49,252),(x+85,253),(x+62,173),(x+62,152),'#777777',1.6,head=8)
-for j,(a,b) in enumerate([(120,91),(279,245),(355,330)]):L(f'backward-horizontal-{j}',[(a,198),(b,198)],sw=1.8,head=9)
+ L(f'input-top-{j}',[(x+24,323),(x+24,315),(x-11,315),(x-11,240),(x+24,240),(x+24,225)],'#777777',1.6,head=8)
+ L(f'bottom-linear-{j}',[(x+37,250),(x+37,239),(x+62,239),(x+62,152)],'#777777',1.6,head=8)
+
+for j,(a,b) in enumerate([(120,91),(193,170),(279,245),(355,330)]):L(f'backward-horizontal-{j}',[(a,198),(b,198)],sw=1.8,head=9)
 for j,(a,b) in enumerate([(91,120),(170,193),(245,279),(329,355)]):L(f'forward-horizontal-{j}',[(a,275),(b,275)],sw=1.8,head=9)
 T('top-ellipsis','...',206,188,26,23,23,font='Times New Roman',bold=True);T('bottom-ellipsis','...',206,265,26,23,23,font='Times New Roman',bold=True)
-for j,b in enumerate([[44,352,93,374],[120,352,177,374],[277,352,337,374],[353,352,414,374]]):IMG(f'state-difference-{j}',b,'Original small mathematical state-difference label only; not live equation')
-s['provenance']['notes']+=' Ordinary labels are typeable. Four tiny original state-difference formula labels remain raster; all LSTM cells, bidirectional routes, linear projections and pooling are native.'
+for j,(x,left,right) in enumerate([(44,'k','0'),(120,'2k','k'),(277,'9k','8k'),(353,'T','9k')]):
+ T(f'math-left-{j}','s',x,350,10,21,18,font='Times New Roman',italic=True)
+ T(f'math-sub-left-{j}',left,x+9,360,len(left)*7,12,11,font='Times New Roman',italic=True)
+ pos=x+9+len(left)*7
+ T(f'math-minus-{j}','−',pos,350,15,21,18,font='Times New Roman')
+ T(f'math-right-{j}','s',pos+15,350,10,21,18,font='Times New Roman',italic=True)
+ T(f'math-sub-right-{j}',right,pos+24,360,len(right)*7,12,11,font='Times New Roman',italic=True)
+
+# Round the source's elbow routes using short quadratic corners, retaining native geometry.
+for n in s['nodes']:
+ if n['shape']=='path' and (n['id'].startswith('input-top-') or n['id'].startswith('bottom-linear-')) and not n['id'].endswith('head'):
+  old=n['commands'];pts=[tuple(c.get('moveTo',c.get('lineTo',{})).values()) for c in old];cmd=[old[0]]
+  for j in range(1,len(pts)-1):
+   prev,cur,nex=pts[j-1:j+2];d1=math.dist(prev,cur);d2=math.dist(cur,nex);rad=min(8,d1/2,d2/2)
+   bef=(cur[0]+(prev[0]-cur[0])*rad/d1,cur[1]+(prev[1]-cur[1])*rad/d1);aft=(cur[0]+(nex[0]-cur[0])*rad/d2,cur[1]+(nex[1]-cur[1])*rad/d2)
+   cmd += [{'lineTo':{'x':bef[0],'y':bef[1]}},{'quadBezTo':{'x1':cur[0],'y1':cur[1],'x':aft[0],'y':aft[1]}}]
+  cmd.append({'lineTo':{'x':pts[-1][0],'y':pts[-1][1]}});n['commands']=cmd
+s['provenance']['notes']+=' Ordinary labels are typeable. Four simple state-difference labels rebuilt as live Times text with separately positioned subscripts; all LSTM cells, bidirectional routes, linear projections and pooling are native.'
 finish()

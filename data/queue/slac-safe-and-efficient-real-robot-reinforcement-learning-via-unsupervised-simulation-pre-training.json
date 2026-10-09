@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "slac-safe-and-efficient-real-robot-reinforcement-learning-via-unsupervised-simulation-pre-training",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.463280Z",
-  "updated_at": "2026-10-09T20:14:36.774924Z",
+  "updated_at": "2026-10-09T20:55:42.415343Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -125,8 +125,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/slac/README.md",
+          "output/slac/VALIDATION.json"
+        ],
+        "output_directory": "output/slac",
+        "source_sha256": "4b5d88741b8729fa81e1042f47874bada21853f811f0f2b9e4cc501f5ce8ee32",
+        "scene_sha256": "0d094465666db74994c6df5b5f65d32bced45577bafc329bc51412028521f1ec",
+        "text_editability": {
+          "typeable_text_objects": 56,
+          "native_freeform_paths": 197,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -289,6 +303,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:55:42.415343Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "206130314247edc08ccbb0af1ef4ff9c696e29582bd1ff1b17e6952a4bb95bcc",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/slac/README.md",
+                "output/slac/VALIDATION.json"
+              ],
+              "output_directory": "output/slac",
+              "source_sha256": "4b5d88741b8729fa81e1042f47874bada21853f811f0f2b9e4cc501f5ce8ee32",
+              "scene_sha256": "0d094465666db74994c6df5b5f65d32bced45577bafc329bc51412028521f1ec",
+              "text_editability": {
+                "typeable_text_objects": 56,
+                "native_freeform_paths": 197,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

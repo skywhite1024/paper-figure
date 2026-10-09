@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "diagram_id": "skill-chaining-figure-1",
+  "source_sha256": "0edb84e1ceca22d297137ac6d70eee332e6725a7063544cfa62a697160a4bc51",
+  "assets": [],
+  "provenance": {
+    "paper_title": "Skill Discovery in Continuous Reinforcement Learning Domains Using Skill Chaining",
+    "paper_url": "https://proceedings.neurips.cc/paper_files/paper/2009/file/e0cf1f47118daebc5b16269099ad7347-Paper.pdf",
+    "figure": "Figure 1",
+    "license": "Unverified; private authorized reference copy",
+    "notes": "Original conceptual skill-chaining progression, rather than a neural network architecture. Source robot/lightbulb icons, initiation regions and dashed trajectories retained as native freeforms. Panel labels preserved as typeable text with Times-compatible font substitution; freeform edges are not semantically attached.",
+    "page": 4,
+    "status": "figure_recreation",
+    "source_sha256": "ad0ace5894ed8a12dbf668a5df0486ecadb9196bc2bae6981b299221e11ea863",
+    "source_crop_pdf_points": [
+      191,
+      130,
+      415,
+      236
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "dash_fidelity": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+    "extraction_warnings": [
+      "3 source clipping groups intersect crop; extracted paths require explicit clipping review"
+    ],
+    "ignored_invisible_text_spans": 0
+  },
+  "metrics": {
+    "native_nodes": 122,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 118,
+    "native_text_objects": 4,
+    "raster_images": 0,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "skill-chaining-figure-1.drawio",
+      "sha256": "0875e7797bb03eddfe1d6cde4af7a83826939e8f5bd490c33dbcdb2cdda7ee47"
+    },
+    {
+      "name": "skill-chaining-figure-1.png",
+      "sha256": "d9c13ebf46c0f62497fc0ed4ee8089c9b8e94baa777e727e28bc609bd1919827"
+    },
+    {
+      "name": "skill-chaining-figure-1.pptx",
+      "sha256": "61444f3db9886163c80b7da1fb310b099480d17435b0521c0157d5c92cae9808"
+    }
+  ]
+}

@@ -18,10 +18,10 @@
       "page_1_based": 2,
       "caption": "Figure 1: Relative VIC: A skill-conditioned policy interacts\nwith the environment yielding a sampled trajectory. Two\nskill predictors are trained to predict the skill from the \ufb01rst\nand last states of the trajectory and only the last state in the\ntrajectory respectively. The difference between the proba-\nbility assigned by the predictors to the skill used to gener-\nate the trajectory is given to the policy as reward to incen-\ntivize learning a set of skills that is diverse in how each skill\nchanges the agent\u2019s relationship to the environment.",
       "crop_pdf_points": [
-        318,
-        51,
-        553,
-        277
+        319.5,
+        54.003219604,
+        551.341064453,
+        274.534973145
       ],
       "vector_paths": 0,
       "native_text_spans": 0,
@@ -35,5 +35,11 @@
   "version_evidence": "Version identifier printed in first-page PDF margin",
   "versioned_pdf_url": "https://arxiv.org/pdf/2012.07827v1",
   "inspected_at": "2026-10-09",
-  "visual_evidence_cache": "/tmp/paper-figure-survey/28-p2.png"
+  "visual_evidence_cache": "/tmp/paper-figure-survey/28-p2.png",
+  "conversion_candidate": {
+    "slug": "rvic",
+    "scene": "data/diagrams/rvic/rvic-figure-1.json",
+    "package": "build/candidates/rvic",
+    "status": "reconstructed_pending_independent_export_QA"
+  }
 }

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "curricullm-automatic-task-curricula-design-for-learning-complex-robot-skills-using-large-language-models",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.501101Z",
-  "updated_at": "2026-10-09T20:49:28.569908Z",
+  "updated_at": "2026-10-09T20:55:41.876113Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/curricullm/README.md",
+          "output/curricullm/VALIDATION.json"
+        ],
+        "output_directory": "output/curricullm",
+        "source_sha256": "4a8066640ce00705b2677e548ff5196bd4a1221ecf099e357fb834033a10a142",
+        "scene_sha256": "2e31eed78c051f487d2d0c8e81c18e549656b6d0f4c15f8bca4ed3266fbc9851",
+        "text_editability": {
+          "typeable_text_objects": 28,
+          "native_freeform_paths": 41,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T20:55:41.876113Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "7e97485aea1142d1c66993a1ef830b5958d258f961538304db0f2d298baac166",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/curricullm/README.md",
+                "output/curricullm/VALIDATION.json"
+              ],
+              "output_directory": "output/curricullm",
+              "source_sha256": "4a8066640ce00705b2677e548ff5196bd4a1221ecf099e357fb834033a10a142",
+              "scene_sha256": "2e31eed78c051f487d2d0c8e81c18e549656b6d0f4c15f8bca4ed3266fbc9851",
+              "text_editability": {
+                "typeable_text_objects": 28,
+                "native_freeform_paths": 41,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

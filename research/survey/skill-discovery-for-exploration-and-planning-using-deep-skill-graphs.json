@@ -18,10 +18,10 @@
       "page_1_based": 4,
       "caption": "Figure 2. Given a goal (red) outside the graph, the agent uses the graph to plan to reach the node closest to that goal (green). It then\nexpands the graph by constructing a skill chain connecting the goal to the graph.",
       "crop_pdf_points": [
-        55,
-        69,
-        542,
-        193
+        52.3911209106,
+        65.5555725098,
+        544.8330078125,
+        205.1731567383
       ],
       "vector_paths": 0,
       "native_text_spans": 0,
@@ -34,5 +34,11 @@
   "review_notes": "",
   "version_evidence": "Publisher PDF has no visible version identifier; SHA256 binds inspected file",
   "inspected_at": "2026-10-09",
-  "visual_evidence_cache": "/tmp/paper-figure-survey/25-p4.png"
+  "visual_evidence_cache": "/tmp/paper-figure-survey/25-p4.png",
+  "conversion_candidate": {
+    "slug": "deep-skill-graphs",
+    "scene": "data/diagrams/deep-skill-graphs/deep-skill-graphs-figure-2.json",
+    "package": "build/candidates/deep-skill-graphs",
+    "status": "reconstructed_pending_independent_export_QA"
+  }
 }

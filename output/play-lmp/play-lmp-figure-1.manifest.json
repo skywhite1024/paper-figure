@@ -1,0 +1,100 @@
+{
+  "schema_version": 1,
+  "diagram_id": "play-lmp-figure-1",
+  "source_sha256": "5042822219d12980430995d557b12ba6d170f4893abfa00e1ace4fc7337f58dd",
+  "assets": [
+    {
+      "name": "play-lmp-figure-1-raster-0.png",
+      "sha256": "2d9b46e6d06f13736391ef96d441a936d80712280d17af42ce8681ed520f5fca"
+    },
+    {
+      "name": "play-lmp-figure-1-raster-1.png",
+      "sha256": "a8c127e5b0d171189f3cbeeb471bfaa03e26b80ebfaa48972729314973866135"
+    },
+    {
+      "name": "play-lmp-figure-1-raster-2.png",
+      "sha256": "2405430b51a4b76734e26255ac5d52f547d87668d76b8a340d2ce6481ace724b"
+    },
+    {
+      "name": "play-lmp-figure-1-raster-3.png",
+      "sha256": "8e67033179b10c7034329591c81944b158490cc3634d378d8772bab61855131b"
+    },
+    {
+      "name": "play-lmp-figure-1-raster-4.png",
+      "sha256": "0d44039f5ffe41c036b50c3f79f05fa34df30e3f1b022a53bf803c6fa43a07c3"
+    }
+  ],
+  "provenance": {
+    "paper_title": "Learning Latent Plans from Play",
+    "paper_url": "https://arxiv.org/pdf/1903.01973v2",
+    "figure": "Figure 1",
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "notes": "Original training and task-agnostic inference architecture. Native plan distributions, proposal/recognition networks, action decoders, colored flow paths and live ordinary labels. Five source demonstration images remain separate clipped raster inserts.",
+    "page": 2,
+    "status": "figure_recreation",
+    "source_sha256": "4a617a68cc9ed89ebbdff8fdda000f0bb744128bd5e91dca1b2c5594631835b0",
+    "source_crop_pdf_points": [
+      107,
+      71,
+      509,
+      355
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "dash_fidelity": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+    "extraction_warnings": [
+      "9 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path partially intersects raster inset: 1",
+      "path partially intersects raster inset: 2",
+      "path partially intersects raster inset: 5",
+      "path partially intersects raster inset: 6",
+      "path partially intersects raster inset: 13",
+      "path partially intersects raster inset: 14",
+      "path partially intersects raster inset: 104",
+      "path partially intersects raster inset: 107",
+      "path partially intersects raster inset: 112",
+      "path partially intersects raster inset: 143",
+      "path partially intersects raster inset: 145",
+      "path partially intersects raster inset: 147",
+      "path partially intersects raster inset: 216",
+      "path partially intersects raster inset: 226",
+      "path partially intersects raster inset: 227",
+      "path partially intersects raster inset: 230",
+      "path partially intersects raster inset: 231",
+      "path partially intersects raster inset: 234",
+      "path partially intersects raster inset: 236",
+      "unhandled image/shading at seq 144: [253.67098999023438, 242.66319274902344, 333.8918151855469, 300.67230224609375]; requires reviewed raster region",
+      "unhandled image/shading at seq 146: [182.45065307617188, 242.64688110351562, 267.6352844238281, 300.65594482421875]; requires reviewed raster region",
+      "unhandled image/shading at seq 148: [111.0602035522461, 242.78797912597656, 187.2462158203125, 300.79705810546875]; requires reviewed raster region",
+      "unhandled image/shading at seq 235: [348.1583251953125, 243.67303466796875, 421.103271484375, 302.29833984375]; requires reviewed raster region",
+      "unhandled image/shading at seq 237: [437.57000732421875, 243.68466186523438, 514.0901489257812, 302.30987548828125]; requires reviewed raster region"
+    ],
+    "ignored_invisible_text_spans": 0
+  },
+  "metrics": {
+    "native_nodes": 191,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 138,
+    "native_text_objects": 53,
+    "raster_images": 5,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "play-lmp-figure-1.drawio",
+      "sha256": "a7ad87d36084464c051cad35e03a5ddf5c111ac253802b9ad38474e2b88eabf3"
+    },
+    {
+      "name": "play-lmp-figure-1.png",
+      "sha256": "0fc78afb8756b22ae11ee3617d8ed294827249cd38363bddc59317e518b8eeb4"
+    },
+    {
+      "name": "play-lmp-figure-1.pptx",
+      "sha256": "93b6d640a9056438a10340d50f88678cfaa8757860e2179d8964babc4779ed3e"
+    }
+  ]
+}

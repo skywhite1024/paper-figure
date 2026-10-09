@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "diagram_id": "curricullm-figure-1",
+  "source_sha256": "2e31eed78c051f487d2d0c8e81c18e549656b6d0f4c15f8bca4ed3266fbc9851",
+  "assets": [
+    {
+      "name": "curricullm-figure-1-raster-0.png",
+      "sha256": "3335676be0222e78cfc54ec445da3b3c7083255307b95085c14ae59ac9af276f"
+    },
+    {
+      "name": "curricullm-figure-1-raster-1.png",
+      "sha256": "9879e3d4655eff7d2a345aecbc530c12eff94445e1159bf50ee6952e72a1795a"
+    },
+    {
+      "name": "curricullm-figure-1-raster-2.png",
+      "sha256": "8c6d129639afcc532812a53d8cff005f4a382c5621d4ab85f8338132919d91b4"
+    },
+    {
+      "name": "curricullm-figure-1-raster-3.png",
+      "sha256": "0d5fdcb3d5a16cf9e9b4fe4af376e0e9eb6e246b20fd312038d453d5ce92c06a"
+    },
+    {
+      "name": "curricullm-figure-1-raster-4.png",
+      "sha256": "336667b033b38727f2f505e743efb2b5dd98929d4416cd5d0a848143191b2ce1"
+    },
+    {
+      "name": "curricullm-figure-1-raster-5.png",
+      "sha256": "6f88feb649fdc36f21345e86d46e84d92eebc9434c87466b9712383a7cf431c4"
+    }
+  ],
+  "provenance": {
+    "paper_title": "CurricuLLM: Automatic Task Curricula Design for Learning Complex Robot Skills Using Large Language Models",
+    "paper_url": "https://arxiv.org/pdf/2409.18382v2",
+    "figure": "Figure 1",
+    "license": "unverified",
+    "notes": "Original curriculum design, task code sampling, policy fine-tuning and selection workflow. Panels, connectors, ordinary labels and example code are native; three small source icons and three robot policy observations remain separate raster images.",
+    "page": 1,
+    "status": "figure_recreation",
+    "source_sha256": "4a8066640ce00705b2677e548ff5196bd4a1221ecf099e357fb834033a10a142",
+    "source_crop_pdf_points": [
+      312,
+      157,
+      559,
+      279
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "extraction_warnings": [
+      "8 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 21",
+      "path partially intersects raster inset: 36"
+    ],
+    "ignored_invisible_text_spans": 0,
+    "text_repairs": "SourceCodePro code excerpt remains live monospaced Courier New text; ordinary source labels remain live Arial."
+  },
+  "metrics": {
+    "native_nodes": 69,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 41,
+    "native_text_objects": 28,
+    "raster_images": 6,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "curricullm-figure-1.drawio",
+      "sha256": "1cb08c9e2dd8669e3324b64d385acef3f5e8da0d5f52c03d83b0896f09cc546b"
+    },
+    {
+      "name": "curricullm-figure-1.png",
+      "sha256": "74e1a12d0371c4822c4572a56abff8bc7526843235121c04dc54de7ccdcd6003"
+    },
+    {
+      "name": "curricullm-figure-1.pptx",
+      "sha256": "a18a640b8dae3f06939d2c188794c3e306c9201f218317bb1915d8741065743c"
+    }
+  ]
+}

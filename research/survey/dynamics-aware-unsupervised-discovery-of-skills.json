@@ -18,10 +18,10 @@
       "page_1_based": 3,
       "caption": "Figure 2: The agent \u03c0 interacts with the environment to produce a transition s \u2192s\u2032. Intrinsic reward is\ncomputed by computing the transition probability under q for the current skill z, compared to random samples\nfrom the prior p(z). The agent maximizes the intrinsic reward computed for a batch of episodes, while q\nmaximizes the log-probability of the actual transitions of (s, z) \u2192s\u2032.",
       "crop_pdf_points": [
-        124,
-        147,
-        305,
-        302
+        126.5559997559,
+        149.4858093262,
+        304.7524414063,
+        299.0390014648
       ],
       "vector_paths": 0,
       "native_text_spans": 0,
@@ -35,5 +35,11 @@
   "version_evidence": "Version identifier printed in first-page PDF margin",
   "versioned_pdf_url": "https://arxiv.org/pdf/1907.01657v2",
   "inspected_at": "2026-10-09",
-  "visual_evidence_cache": "/tmp/paper-figure-survey/33-p3.png"
+  "visual_evidence_cache": "/tmp/paper-figure-survey/33-p3.png",
+  "conversion_candidate": {
+    "slug": "dads",
+    "scene": "data/diagrams/dads/dads-figure-2.json",
+    "package": "build/candidates/dads",
+    "status": "reconstructed_pending_independent_export_QA"
+  }
 }

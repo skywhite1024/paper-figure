@@ -18,10 +18,10 @@
       "page_1_based": 3,
       "caption": "Fig. 2: An overview of our safe skill discovery framework\nthat consists of two stages: pre-training safe skill policies\nand learning tasks based on the skills. In the first stage, the\nskill policy \u03c0 is optimized to minimize the failure probability\nthat is estimated by the safety-critic, while maximizing the\nskill discovery reward given by the skill encoder. The task\npolicy is then optimized to maximize the task reward using\nthe skill policy as a low-level controller. While the dotted\nlines denote the computation of the policy losses, the solid\nlines denote the actual control diagram of the policies.",
       "crop_pdf_points": [
-        333,
-        52,
-        538,
-        290
+        331.5589904785,
+        50.0800476074,
+        539.6400146484,
+        291.4540100098
       ],
       "vector_paths": 0,
       "native_text_spans": 0,
@@ -34,5 +34,11 @@
   "review_notes": "Title verified directly in PDF first-page text.",
   "version_evidence": "Publisher PDF has no visible version identifier; SHA256 binds inspected file",
   "inspected_at": "2026-10-09",
-  "visual_evidence_cache": "/tmp/paper-figure-survey/16-p3.png"
+  "visual_evidence_cache": "/tmp/paper-figure-survey/16-p3.png",
+  "conversion_candidate": {
+    "slug": "safe-skill",
+    "scene": "data/diagrams/safe-skill/safe-skill-figure-2.json",
+    "package": "build/candidates/safe-skill",
+    "status": "reconstructed_pending_independent_export_QA"
+  }
 }

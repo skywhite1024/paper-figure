@@ -1,0 +1,502 @@
+{
+  "schema_version": 1,
+  "id": "ddo-figure-12",
+  "title": "Multi-Level Discovery of Deep Options · Figure 12",
+  "canvas": {
+    "width": 595,
+    "height": 492
+  },
+  "provenance": {
+    "paper_title": "Multi-Level Discovery of Deep Options",
+    "paper_url": "https://arxiv.org/abs/1703.08294v2",
+    "figure": "Figure 12",
+    "page": 19,
+    "license": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+    "status": "figure_recreation",
+    "source_sha256": "ae906145d3b322b5b8cacbda60c5511b8d19fe7fdb00be24b01100ea5e480ba0",
+    "source_crop_pdf_points": [
+      205.707717895,
+      71.845626831,
+      403.800415039,
+      235.487426758
+    ],
+    "notes": "Manually reconstructed after inspecting actual source pixels. Original source is a flattened raster. Layout, native panels, labels and connecting geometry are recreated; no whole-figure raster backdrop. Font metrics and curve/arrow geometry approximated. Small original mathematical/photo details retained only where explicitly noted. Independent target-application QA pending. Entire architecture is native typeable text, shapes and arrow paths; zero source raster objects. Source ordinary x dimension notation retained verbatim."
+  },
+  "nodes": [
+    {
+      "id": "input",
+      "shape": "rect",
+      "x": 44,
+      "y": 64,
+      "width": 83,
+      "height": 360,
+      "fill": "#FFFFFF",
+      "stroke": "#8D8F91",
+      "stroke_width": 2.5,
+      "dash": false
+    },
+    {
+      "id": "dense1",
+      "shape": "rect",
+      "x": 195,
+      "y": 190,
+      "width": 81,
+      "height": 106,
+      "fill": "#FFFFFF",
+      "stroke": "#8D8F91",
+      "stroke_width": 2.5,
+      "dash": false
+    },
+    {
+      "id": "sum",
+      "shape": "rect",
+      "x": 332,
+      "y": 190,
+      "width": 23,
+      "height": 106,
+      "fill": "#FFFFFF",
+      "stroke": "#8D8F91",
+      "stroke_width": 2.5,
+      "dash": false
+    },
+    {
+      "id": "dense2",
+      "shape": "rect",
+      "x": 430,
+      "y": 190,
+      "width": 22,
+      "height": 106,
+      "fill": "#FFFFFF",
+      "stroke": "#8D8F91",
+      "stroke_width": 2.5,
+      "dash": false
+    },
+    {
+      "id": "output",
+      "shape": "rect",
+      "x": 528,
+      "y": 208,
+      "width": 23,
+      "height": 73,
+      "fill": "#FFFFFF",
+      "stroke": "#8D8F91",
+      "stroke_width": 2.5,
+      "dash": false
+    },
+    {
+      "id": "input-label",
+      "shape": "text",
+      "x": 44,
+      "y": 19,
+      "width": 85,
+      "height": 32,
+      "label": "Input",
+      "font_size": 28,
+      "text_color": "#4B4B4B",
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "dense1-label",
+      "shape": "text",
+      "x": 191,
+      "y": 144,
+      "width": 90,
+      "height": 33,
+      "label": "Dense",
+      "font_size": 28,
+      "text_color": "#4B4B4B",
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "sum-label",
+      "shape": "text",
+      "x": 312,
+      "y": 144,
+      "width": 61,
+      "height": 33,
+      "label": "Sum",
+      "font_size": 28,
+      "text_color": "#4B4B4B",
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "dense2-label",
+      "shape": "text",
+      "x": 399,
+      "y": 144,
+      "width": 82,
+      "height": 33,
+      "label": "Dense",
+      "font_size": 28,
+      "text_color": "#4B4B4B",
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "output-label",
+      "shape": "text",
+      "x": 489,
+      "y": 169,
+      "width": 96,
+      "height": 33,
+      "label": "Output",
+      "font_size": 28,
+      "text_color": "#4B4B4B",
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "input-dim",
+      "shape": "text",
+      "x": 25,
+      "y": 442,
+      "width": 124,
+      "height": 34,
+      "label": "128 x 256",
+      "font_size": 28,
+      "text_color": "#4B4B4B",
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "dense1-dim",
+      "shape": "text",
+      "x": 186,
+      "y": 312,
+      "width": 100,
+      "height": 32,
+      "label": "32 x 256",
+      "font_size": 28,
+      "text_color": "#4B4B4B",
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "sum-dim",
+      "shape": "text",
+      "x": 307,
+      "y": 312,
+      "width": 77,
+      "height": 32,
+      "label": "32 x 1",
+      "font_size": 28,
+      "text_color": "#4B4B4B",
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "dense2-dim",
+      "shape": "text",
+      "x": 400,
+      "y": 312,
+      "width": 77,
+      "height": 32,
+      "label": "32 x 1",
+      "font_size": 28,
+      "text_color": "#4B4B4B",
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "output-dim",
+      "shape": "text",
+      "x": 506,
+      "y": 291,
+      "width": 65,
+      "height": 34,
+      "label": "a x 1",
+      "font_size": 28,
+      "text_color": "#4B4B4B",
+      "font_family": "Arial",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "arrow-0",
+      "shape": "path",
+      "x": 138,
+      "y": 244,
+      "width": 46,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 2.4,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 46,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "arrow-0-head",
+      "shape": "path",
+      "x": 172.0,
+      "y": 238.6,
+      "width": 12.0,
+      "height": 10.800000000000011,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12.0,
+            "y": 5.400000000000006
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 10.800000000000011
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "arrow-1",
+      "shape": "path",
+      "x": 281,
+      "y": 244,
+      "width": 45,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 2.4,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 45,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "arrow-1-head",
+      "shape": "path",
+      "x": 314.0,
+      "y": 238.6,
+      "width": 12.0,
+      "height": 10.800000000000011,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12.0,
+            "y": 5.400000000000006
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 10.800000000000011
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "arrow-2",
+      "shape": "path",
+      "x": 368,
+      "y": 244,
+      "width": 46,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 2.4,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 46,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "arrow-2-head",
+      "shape": "path",
+      "x": 402.0,
+      "y": 238.6,
+      "width": 12.0,
+      "height": 10.800000000000011,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12.0,
+            "y": 5.400000000000006
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 10.800000000000011
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "arrow-3",
+      "shape": "path",
+      "x": 468,
+      "y": 244,
+      "width": 43,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 2.4,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 43,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "arrow-3-head",
+      "shape": "path",
+      "x": 499.0,
+      "y": 238.6,
+      "width": 12.0,
+      "height": 10.800000000000011,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12.0,
+            "y": 5.400000000000006
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 10.800000000000011
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    }
+  ],
+  "edges": []
+}

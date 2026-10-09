@@ -1,0 +1,41 @@
+{
+  "diagram_id": "deep-skill-graphs-figure-2",
+  "source_scene_sha256": "1857b27f3589ebcef332535aa477dc43c142c1d7ad038d23737327dea22054d5",
+  "source_pdf_sha256": "b8c9b53915de1bae0fa8bb2ee2f39f1e6a2802569338c880861d3ce7f21d19cf",
+  "checked_files": [
+    {
+      "name": "deep-skill-graphs-figure-2.drawio",
+      "sha256": "60cdd52051a8106b8228df20e94a65c87ff17329cb92cee1e76a72a1d569edec"
+    },
+    {
+      "name": "deep-skill-graphs-figure-2.png",
+      "sha256": "fcd20bbaa1191272b1408193df9358430fbd88a5d776ee979b8417c5269b6cd7"
+    },
+    {
+      "name": "deep-skill-graphs-figure-2.pptx",
+      "sha256": "a02da2e901d1f23e0d839196286d817e9a9977ece558f1e79bbf5ec448ab9a6f"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 2 PDFpage4 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 94,
+    "p:pic": 0,
+    "a:custGeom": 41,
+    "p:cxnSp": 0,
+    "a:t": 53
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

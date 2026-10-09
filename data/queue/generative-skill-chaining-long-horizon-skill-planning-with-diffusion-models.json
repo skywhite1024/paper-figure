@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "generative-skill-chaining-long-horizon-skill-planning-with-diffusion-models",
-  "revision": 4,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.512626Z",
-  "updated_at": "2026-10-09T20:49:28.866305Z",
+  "updated_at": "2026-10-09T20:55:42.081191Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/gsc/README.md",
+          "output/gsc/VALIDATION.json"
+        ],
+        "output_directory": "output/gsc",
+        "source_sha256": "d97f87dd437392ee3efe1b67b90c298723f93770652a7c430af9f79280fb90b2",
+        "scene_sha256": "e8df3d9ccf611632a0ca942c7715b15c62870f9fd8056928a7082ae7cf1c4e8f",
+        "text_editability": {
+          "typeable_text_objects": 16,
+          "native_freeform_paths": 81,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -354,6 +368,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T20:55:42.081191Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "f2d942ab8f344715787e7f6f8c0ca5c63284e52a6ecd07d652cb2002e82323b9",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/gsc/README.md",
+                "output/gsc/VALIDATION.json"
+              ],
+              "output_directory": "output/gsc",
+              "source_sha256": "d97f87dd437392ee3efe1b67b90c298723f93770652a7c430af9f79280fb90b2",
+              "scene_sha256": "e8df3d9ccf611632a0ca942c7715b15c62870f9fd8056928a7082ae7cf1c4e8f",
+              "text_editability": {
+                "typeable_text_objects": 16,
+                "native_freeform_paths": 81,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

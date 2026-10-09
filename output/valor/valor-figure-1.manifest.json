@@ -1,0 +1,48 @@
+{
+  "schema_version": 1,
+  "diagram_id": "valor-figure-1",
+  "source_sha256": "bc11c96dd8379be3eca368eb23b6af3f8d67b28ed059736542fb3b731515d1f6",
+  "assets": [],
+  "provenance": {
+    "paper_title": "Variational Option Discovery Algorithms",
+    "paper_url": "https://arxiv.org/abs/1807.10299v1",
+    "figure": "Figure 1",
+    "page": 4,
+    "license": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+    "status": "figure_recreation",
+    "source_sha256": "a2581310989e6cfc5312e67e74ee288ccf26ab6d066a1057b72192d5de407604",
+    "source_crop_pdf_points": [
+      345.6019897461,
+      376.6875,
+      503.9981689453,
+      500.8469848633
+    ],
+    "notes": "Manually reconstructed after inspecting actual source pixels. Original source is a flattened raster. Layout, native panels, labels and connecting geometry are recreated; no whole-figure raster backdrop. Font metrics and curve/arrow geometry approximated. Small original mathematical/photo details retained only where explicitly noted. Independent target-application QA pending. Ordinary labels are typeable. Four simple state-difference labels rebuilt as live Times text with separately positioned subscripts; all LSTM cells, bidirectional routes, linear projections and pooling are native."
+  },
+  "metrics": {
+    "native_nodes": 99,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 58,
+    "native_text_objects": 28,
+    "raster_images": 0,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "valor-figure-1.drawio",
+      "sha256": "c7b2d97f7241bbb657376aad22670294a17723797c429c8458cea141eefd35d6"
+    },
+    {
+      "name": "valor-figure-1.png",
+      "sha256": "6bd6ccbeb56b39b6b53a6f08c3cd57d1f062e23bbd0a3d50d67d5c32ef67e21d"
+    },
+    {
+      "name": "valor-figure-1.pptx",
+      "sha256": "d81fabd6a3e71d3a3ad0d3b12e0032f3966ce9910e1bbc5eebfcb0a889f7071f"
+    }
+  ]
+}

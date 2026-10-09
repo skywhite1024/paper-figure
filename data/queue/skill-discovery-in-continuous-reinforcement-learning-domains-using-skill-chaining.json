@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "skill-discovery-in-continuous-reinforcement-learning-domains-using-skill-chaining",
-  "revision": 2,
-  "status": "in_progress",
+  "revision": 3,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.483491Z",
-  "updated_at": "2026-10-09T20:49:29.602707Z",
+  "updated_at": "2026-10-09T20:55:42.363488Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -123,8 +123,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/skill-chaining/README.md",
+          "output/skill-chaining/VALIDATION.json"
+        ],
+        "output_directory": "output/skill-chaining",
+        "source_sha256": "ad0ace5894ed8a12dbf668a5df0486ecadb9196bc2bae6981b299221e11ea863",
+        "scene_sha256": "0edb84e1ceca22d297137ac6d70eee332e6725a7063544cfa62a697160a4bc51",
+        "text_editability": {
+          "typeable_text_objects": 4,
+          "native_freeform_paths": 118,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -252,6 +266,36 @@
           }
         },
         "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:55:42.363488Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "c1be9de2ca0b0deacc3d520fca7f1b3ba768c83bf9d4dd0ac41f4f5088d12146",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/skill-chaining/README.md",
+                "output/skill-chaining/VALIDATION.json"
+              ],
+              "output_directory": "output/skill-chaining",
+              "source_sha256": "ad0ace5894ed8a12dbf668a5df0486ecadb9196bc2bae6981b299221e11ea863",
+              "scene_sha256": "0edb84e1ceca22d297137ac6d70eee332e6725a7063544cfa62a697160a4bc51",
+              "text_editability": {
+                "typeable_text_objects": 4,
+                "native_freeform_paths": 118,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
+            }
+          }
+        }
       }
     }
   ]

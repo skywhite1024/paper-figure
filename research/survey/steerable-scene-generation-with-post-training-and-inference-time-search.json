@@ -6,7 +6,7 @@
   "pdf_path": "build/sources/steerable-scene-generation-with-post-training-and-inference-time-search.pdf",
   "pdf_sha256": "1be87c7dfc90c7e831ff530934aa81295833e9b151bd327658e413b73c8149b6",
   "pdf_title_observed": "Steerable Scene Generation with Post Training and Inference-Time Search",
-  "first_page_title_text": "Steerable Scene Generation\nwith Post Training and Inference-Time Search\nNicholas Pfaff1, Hongkai Dai2, Sergey Zakharov2, Shun Iwase2,3, Russ Tedrake1,2\n1Massachusetts Institute of Technology, 2Toyota Research Institute, 3Carnegie Mellon University\nSE(3) Scene \nGenerative \nModel\n(Sec. 2.2)\nConditioning\n“A scene with four tables, \ntwo shelves, and ...”\nR\nL \nP\nos\nt \nTr\nai\nni\nn\ng\n(\nCl\nut\nte\nr \nR\ne\nw\na",
+  "first_page_title_text": "Steerable Scene Generation\nwith Post Training and Inference-Time Search\nNicholas Pfaff1, Hongkai Dai2, Sergey Zakharov2, Shun Iwase2,3, Russ Tedrake1,2\n1Massachusetts Institute of Technology, 2Toyota Research Institute, 3Carnegie Mellon University\nSE(3) Scene \nGenerative \nModel\n(Sec. 2.2)\nConditioning\n\u201cA scene with four tables, \ntwo shelves, and ...\u201d\nR\nL \nP\nos\nt \nTr\nai\nni\nn\ng\n(\nCl\nut\nte\nr \nR\ne\nw\na",
   "title_match": true,
   "version": "2505.04831v2",
   "page_count": 50,
@@ -21,13 +21,19 @@
         107,
         200,
         507,
-        388
+        390
       ],
       "vector_paths": 29,
       "native_text_spans": 72,
       "raster_images": 12,
       "visually_inspected": true,
-      "notes": "SE3 generative scene model post-training, conditioning and MCTS; scene examples are raster."
+      "notes": "SE3 generative scene model post-training, conditioning and MCTS; scene examples are raster. Full crop expanded after inspecting actual source pixels to avoid clipping the figure boundary or labels.",
+      "previous_crop_pdf_points": [
+        107,
+        200,
+        507,
+        388
+      ]
     }
   ],
   "caption_search_cues": [
@@ -46,7 +52,7 @@
     {
       "figure": "Figure 3",
       "page_1_based": 5,
-      "caption_excerpt": "Figure 3: Text-conditioned scene generation. A model trained on the Restaurant (High-Clutter) dataset is queried with the shown text prompt. The generated scene matches both the large-scale layout and fine-grained object details. The search proceeds through the standard MCTS phases [48] (shown in Figure 2): (a) Selection. We traverse the tree from root to leaf, selecting at each step the child with the high- est UCT [49] value: UCT(j) = ¯rj + c ·",
+      "caption_excerpt": "Figure 3: Text-conditioned scene generation. A model trained on the Restaurant (High-Clutter) dataset is queried with the shown text prompt. The generated scene matches both the large-scale layout and fine-grained object details. The search proceeds through the standard MCTS phases [48] (shown in Figure 2): (a) Selection. We traverse the tree from root to leaf, selecting at each step the child with the high- est UCT [49] value: UCT(j) = \u00afrj + c \u00b7",
       "visually_inspected": false
     },
     {

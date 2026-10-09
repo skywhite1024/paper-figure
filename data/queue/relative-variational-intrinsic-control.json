@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "relative-variational-intrinsic-control",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.470351Z",
-  "updated_at": "2026-10-09T20:14:36.557726Z",
+  "updated_at": "2026-10-09T20:55:42.321132Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -125,8 +125,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/rvic/README.md",
+          "output/rvic/VALIDATION.json"
+        ],
+        "output_directory": "output/rvic",
+        "source_sha256": "4284bd5fb5e605def47893764b545386c74adc84d119be95fea380e170477b84",
+        "scene_sha256": "6dd61a131fd4e3ad5645d7104c38e427cb2e75e17e7330cbd25812d9de3576ec",
+        "text_editability": {
+          "typeable_text_objects": 8,
+          "native_freeform_paths": 15,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -289,6 +303,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:55:42.321132Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "c4706441006912529238aee08c7f5c1a29ca5b8bdff8f78deb2232b3e5fb4c57",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/rvic/README.md",
+                "output/rvic/VALIDATION.json"
+              ],
+              "output_directory": "output/rvic",
+              "source_sha256": "4284bd5fb5e605def47893764b545386c74adc84d119be95fea380e170477b84",
+              "scene_sha256": "6dd61a131fd4e3ad5645d7104c38e427cb2e75e17e7330cbd25812d9de3576ec",
+              "text_editability": {
+                "typeable_text_objects": 8,
+                "native_freeform_paths": 15,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

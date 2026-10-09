@@ -1,0 +1,96 @@
+{
+  "schema_version": 1,
+  "diagram_id": "gsc-figure-3",
+  "source_sha256": "e8df3d9ccf611632a0ca942c7715b15c62870f9fd8056928a7082ae7cf1c4e8f",
+  "assets": [
+    {
+      "name": "assets/source-robot-0.png",
+      "sha256": "5ff31ddf38de63fba85e919a7a33b815e969444bc41a03568f2d092bab8539a7"
+    },
+    {
+      "name": "assets/source-robot-1.png",
+      "sha256": "83da0c267658f8c01e95b9d897746b93e297c93479332b242cf82fa419563157"
+    },
+    {
+      "name": "assets/source-robot-2.png",
+      "sha256": "4c0fa673c99d22b6dd6bfa605e7ffb232bd78acadd5f48593538c681eed95fd4"
+    },
+    {
+      "name": "assets/source-robot-3.png",
+      "sha256": "060ae6df6ad00a567cca45092c1ecec29fc19b95c7ef5fba38dacda70f1f4205"
+    },
+    {
+      "name": "assets/source-robot-4.png",
+      "sha256": "20bbf437c0257334f3c53073bdc9de993ff7b0ef34e54714a14bd22a36ddff19"
+    },
+    {
+      "name": "assets/source-robot-5.png",
+      "sha256": "0df239838634e433a6f5f6861460aa7f3db38a008a90bba8db179f1068dca798"
+    },
+    {
+      "name": "assets/source-robot-6.png",
+      "sha256": "f5ee5477851b3abd398ffd3965727eef94cc6d1e6971718c2f2ad327c9bac705"
+    },
+    {
+      "name": "assets/source-robot-7.png",
+      "sha256": "7a9649f2841d715b29948a546c380fd2523191461f366dc332267dfcddf00ef1"
+    }
+  ],
+  "provenance": {
+    "paper_title": "Generative Skill Chaining: Long-Horizon Skill Planning with Diffusion Models",
+    "paper_url": "https://arxiv.org/pdf/2401.03360v1",
+    "figure": "Figure 3",
+    "license": "License not verified; private authorized source reference",
+    "notes": "Original primitive-skill examples and transformer diffusion score network. Architecture, embeddings, arrows and mathematical glyph geometry are native. Eight original robot demonstration renderings remain separate source raster images, with live external captions.",
+    "page": 5,
+    "status": "figure_recreation",
+    "source_sha256": "d97f87dd437392ee3efe1b67b90c298723f93770652a7c430af9f79280fb90b2",
+    "source_crop_pdf_points": [
+      108,
+      70,
+      505,
+      250
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "extraction_warnings": [
+      "3 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "unhandled image/shading at seq 132: [108.23829650878906, 71.99940490722656, 167.68499755859375, 111.62887573242188]; requires reviewed raster region",
+      "unhandled image/shading at seq 133: [190.96986389160156, 71.99940490722656, 250.41656494140625, 111.62887573242188]; requires reviewed raster region",
+      "unhandled image/shading at seq 134: [108.23829650878906, 117.07875061035156, 167.68499755859375, 156.70822143554688]; requires reviewed raster region",
+      "unhandled image/shading at seq 135: [190.96986389160156, 117.07875061035156, 250.41656494140625, 156.70822143554688]; requires reviewed raster region",
+      "unhandled image/shading at seq 136: [108.23829650878906, 162.16305541992188, 167.68499755859375, 201.79254150390625]; requires reviewed raster region",
+      "unhandled image/shading at seq 137: [190.96986389160156, 162.16305541992188, 250.41656494140625, 201.79254150390625]; requires reviewed raster region",
+      "unhandled image/shading at seq 138: [190.96986389160156, 207.7391815185547, 250.41656494140625, 247.36865234375]; requires reviewed raster region",
+      "unhandled image/shading at seq 139: [108.23829650878906, 207.7391815185547, 167.68499755859375, 247.36865234375]; requires reviewed raster region"
+    ],
+    "ignored_invisible_text_spans": 0,
+    "image_repairs": "Eight source raster objects extracted directly by PDF xref without surrounding captions. Original full image bounds retained and all external captions remain live text; this avoids duplicating captions in rendered crops."
+  },
+  "metrics": {
+    "native_nodes": 97,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 81,
+    "native_text_objects": 16,
+    "raster_images": 8,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "gsc-figure-3.drawio",
+      "sha256": "d27ff3b70239319c32637cb963b381270f02c762fe2e90ce26ac2b45f843f147"
+    },
+    {
+      "name": "gsc-figure-3.png",
+      "sha256": "25db4008f779ea1928843d3c8effffb61c17f027a193f9b05042d684dd846dec"
+    },
+    {
+      "name": "gsc-figure-3.pptx",
+      "sha256": "ff4ac489228f6e6ac592475c9ff35a3a8b4abcaf3c4a4869a27ca7e40b2a6833"
+    }
+  ]
+}

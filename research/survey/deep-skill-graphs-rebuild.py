@@ -51,5 +51,12 @@ T('caption1','Identify goal region',55,324,330,38,31,bold=True);T('caption2','Pl
 C('goal-expansion',(1367,125),(1328,112),(1302,133),(1297,181),sw=2.6,dash=True,head=10);C('new-node-path',(1318,235),(1336,248),(1353,241),(1360,224),sw=2.6,dash=True,head=10);C('new-goal-path',(1398,183),(1413,178),(1413,163),(1415,155),sw=2.6,dash=True,head=10);O('new-node',1344,171,57,57,pale,'#456779',3.2,dash=True)
 for n in s['nodes']:
  if n.get('dash'):n['dash_style']='dotted'
+ if n['id'].startswith('panel-'):
+  w,h=n['width'],n['height'];rad=28
+  n['shape']='path';n['commands']=[{'moveTo':{'x':rad,'y':0}},{'lineTo':{'x':w-rad,'y':0}},{'quadBezTo':{'x1':w,'y1':0,'x':w,'y':rad}},{'lineTo':{'x':w,'y':h-rad}},{'quadBezTo':{'x1':w,'y1':h,'x':w-rad,'y':h}},{'lineTo':{'x':rad,'y':h}},{'quadBezTo':{'x1':0,'y1':h,'x':0,'y':h-rad}},{'lineTo':{'x':0,'y':rad}},{'quadBezTo':{'x1':0,'y1':0,'x':rad,'y':0}},{'close':{}}]
+ if n['id']=='new-node':n['stroke']='none'
+for k in range(34):
+ angle=k*math.tau/34;O('new-node-dot-'+str(k),1372.5+28.5*math.cos(angle)-1.6,199.5+28.5*math.sin(angle)-1.6,3.2,3.2,'#456779','none',0)
+
 s['provenance']['notes']+=' Fully native recreation: three editable panel labels, graph nodes, curves, selected red path, expansion links and dot markers. No raster content.'
 finish()

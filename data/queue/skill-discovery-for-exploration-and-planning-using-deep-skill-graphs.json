@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "skill-discovery-for-exploration-and-planning-using-deep-skill-graphs",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.469431Z",
-  "updated_at": "2026-10-09T20:14:36.738829Z",
+  "updated_at": "2026-10-09T20:55:41.898213Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -125,8 +125,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/deep-skill-graphs/README.md",
+          "output/deep-skill-graphs/VALIDATION.json"
+        ],
+        "output_directory": "output/deep-skill-graphs",
+        "source_sha256": "b8c9b53915de1bae0fa8bb2ee2f39f1e6a2802569338c880861d3ce7f21d19cf",
+        "scene_sha256": "1857b27f3589ebcef332535aa477dc43c142c1d7ad038d23737327dea22054d5",
+        "text_editability": {
+          "typeable_text_objects": 3,
+          "native_freeform_paths": 41,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -289,6 +303,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:55:41.898213Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "77f33bc6e247b9aa1ca2885e0a3f51b1a49d3bbcdd24c9670bb64c4f2468c421",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/deep-skill-graphs/README.md",
+                "output/deep-skill-graphs/VALIDATION.json"
+              ],
+              "output_directory": "output/deep-skill-graphs",
+              "source_sha256": "b8c9b53915de1bae0fa8bb2ee2f39f1e6a2802569338c880861d3ce7f21d19cf",
+              "scene_sha256": "1857b27f3589ebcef332535aa477dc43c142c1d7ad038d23737327dea22054d5",
+              "text_editability": {
+                "typeable_text_objects": 3,
+                "native_freeform_paths": 41,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

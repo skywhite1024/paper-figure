@@ -1,0 +1,852 @@
+{
+  "schema_version": 1,
+  "id": "sdax-figure-2",
+  "title": "Unsupervised Skill Discovery as Exploration for Learning Agile Locomotion · Figure 2",
+  "canvas": {
+    "width": 671,
+    "height": 281
+  },
+  "provenance": {
+    "paper_title": "Unsupervised Skill Discovery as Exploration for Learning Agile Locomotion",
+    "paper_url": "https://arxiv.org/abs/2508.08982v1",
+    "figure": "Figure 2",
+    "page": 3,
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "status": "figure_recreation",
+    "source_sha256": "19732e8b2d8a811c612ba64fd4f750e61bca06df613df5573098266081dfe67d",
+    "source_crop_pdf_points": [
+      191.925994873,
+      72.006988525,
+      415.087646484,
+      165.599975586
+    ],
+    "notes": "Manually reconstructed after inspecting actual source pixels. Original source is a flattened raster. Layout, native panels, labels and connecting geometry are recreated; no whole-figure raster backdrop. Font metrics and curve/arrow geometry approximated. Small original mathematical/photo details retained only where explicitly noted. Independent target-application QA pending. All ordinary labels (Env and multiplication sign) are live text. Nine tiny original formula snippets preserve mathematical typography; main boxes, sums, feedback, gradient curves, and arrowheads are native objects."
+  },
+  "nodes": [
+    {
+      "id": "policy",
+      "shape": "rounded_rect",
+      "x": 4,
+      "y": 56,
+      "width": 173,
+      "height": 64,
+      "fill": "#FFFFFF",
+      "stroke": "#000000",
+      "stroke_width": 2.5,
+      "dash": false
+    },
+    {
+      "id": "environment",
+      "shape": "rounded_rect",
+      "x": 537,
+      "y": 57,
+      "width": 125,
+      "height": 62,
+      "fill": "#FFFFFF",
+      "stroke": "#000000",
+      "stroke_width": 2.5,
+      "dash": false
+    },
+    {
+      "id": "environment-label",
+      "shape": "text",
+      "x": 543,
+      "y": 72,
+      "width": 115,
+      "height": 35,
+      "label": "Env",
+      "font_size": 31,
+      "text_color": "#000000",
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "reward-sum",
+      "shape": "ellipse",
+      "x": 199,
+      "y": 157,
+      "width": 44,
+      "height": 42,
+      "fill": "#FFFFFF",
+      "stroke": "#000000",
+      "stroke_width": 2.5,
+      "dash": false
+    },
+    {
+      "id": "sum-label",
+      "shape": "text",
+      "x": 202,
+      "y": 155,
+      "width": 37,
+      "height": 46,
+      "label": "+",
+      "font_size": 35,
+      "text_color": "#000000",
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "lambda",
+      "shape": "ellipse",
+      "x": 309,
+      "y": 190,
+      "width": 90,
+      "height": 72,
+      "fill": "#FFFFFF",
+      "stroke": "#000000",
+      "stroke_width": 2.3,
+      "dash": true,
+      "dash_style": "dotted"
+    },
+    {
+      "id": "multiply",
+      "shape": "text",
+      "x": 331,
+      "y": 211,
+      "width": 22,
+      "height": 30,
+      "label": "x",
+      "font_size": 27,
+      "text_color": "#000000",
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "lambda-label",
+      "shape": "text",
+      "x": 355,
+      "y": 207,
+      "width": 19,
+      "height": 36,
+      "label": "λ",
+      "font_size": 31,
+      "text_color": "#4324FF",
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "representation",
+      "shape": "rounded_rect",
+      "x": 484,
+      "y": 197,
+      "width": 87,
+      "height": 56,
+      "fill": "#FFFFFF",
+      "stroke": "#000000",
+      "stroke_width": 2.3,
+      "dash": true,
+      "dash_style": "dotted"
+    },
+    {
+      "id": "action",
+      "shape": "path",
+      "x": 91,
+      "y": 33,
+      "width": 509,
+      "height": 24,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 2.5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 23
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 509,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 509,
+            "y": 24
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "action-head",
+      "shape": "path",
+      "x": 596.4,
+      "y": 49.0,
+      "width": 7.2000000000000455,
+      "height": 8.0,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 3.6000000000000227,
+            "y": 8.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.2000000000000455,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "state-loop",
+      "shape": "path",
+      "x": 77,
+      "y": 120,
+      "width": 530,
+      "height": 151,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 2.5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 530,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 530,
+            "y": 151
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 151
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "state-loop-head",
+      "shape": "path",
+      "x": 73.4,
+      "y": 120,
+      "width": 7.199999999999989,
+      "height": 8.0,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 3.5999999999999943,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.199999999999989,
+            "y": 8.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 8.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "task-reward",
+      "shape": "path",
+      "x": 248,
+      "y": 120,
+      "width": 352,
+      "height": 58,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 2.5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 352,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 352,
+            "y": 58
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 58
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "task-reward-head",
+      "shape": "path",
+      "x": 248,
+      "y": 174.4,
+      "width": 8.0,
+      "height": 7.199999999999989,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 3.5999999999999943
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.0,
+            "y": 7.199999999999989
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "summed-reward",
+      "shape": "path",
+      "x": 91,
+      "y": 120,
+      "width": 108,
+      "height": 58,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 2.5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 108,
+            "y": 58
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 58
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "summed-reward-head",
+      "shape": "path",
+      "x": 87.4,
+      "y": 120,
+      "width": 7.199999999999989,
+      "height": 8.0,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 3.5999999999999943,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.199999999999989,
+            "y": 8.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 8.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "diversity-reward",
+      "shape": "path",
+      "x": 399,
+      "y": 227,
+      "width": 85,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 2.2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 85,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "dash": true,
+      "dash_style": "dotted"
+    },
+    {
+      "id": "diversity-reward-head",
+      "shape": "path",
+      "x": 399,
+      "y": 223.4,
+      "width": 8.0,
+      "height": 7.199999999999989,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 3.5999999999999943
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.0,
+            "y": 7.199999999999989
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "state-to-representation",
+      "shape": "path",
+      "x": 572,
+      "y": 227,
+      "width": 35,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 2.2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 35,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "dash": true,
+      "dash_style": "dotted"
+    },
+    {
+      "id": "state-to-representation-head",
+      "shape": "path",
+      "x": 572,
+      "y": 223.4,
+      "width": 8.0,
+      "height": 7.199999999999989,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 3.5999999999999943
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.0,
+            "y": 7.199999999999989
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "weighted-diversity",
+      "shape": "path",
+      "x": 221,
+      "y": 199,
+      "width": 88,
+      "height": 28,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 2.2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 88,
+            "y": 28
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 28
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "dash": true,
+      "dash_style": "dotted"
+    },
+    {
+      "id": "weighted-diversity-head",
+      "shape": "path",
+      "x": 217.4,
+      "y": 199,
+      "width": 7.199999999999989,
+      "height": 8.0,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 3.5999999999999943,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.199999999999989,
+            "y": 8.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 8.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "policy-gradient",
+      "shape": "path",
+      "x": 159,
+      "y": 71,
+      "width": 73,
+      "height": 90,
+      "fill": "none",
+      "stroke": "#4324FF",
+      "stroke_width": 2.2,
+      "dash": true,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 25,
+            "y": 90
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 73,
+            "y1": 42,
+            "x2": 66,
+            "y2": 0,
+            "x": 0,
+            "y": 7
+          }
+        }
+      ],
+      "dash_style": "dotted"
+    },
+    {
+      "id": "policy-gradient-head",
+      "shape": "path",
+      "x": 159,
+      "y": 73.57632619897858,
+      "width": 8.335069300834647,
+      "height": 7.159842609827592,
+      "fill": "#4324FF",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 4.4236738010214225
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.575692054337793,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.335069300834647,
+            "y": 7.159842609827592
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "lambda-gradient",
+      "shape": "path",
+      "x": 347,
+      "y": 147,
+      "width": 69,
+      "height": 64,
+      "fill": "none",
+      "stroke": "#4324FF",
+      "stroke_width": 2.2,
+      "dash": true,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 69,
+            "y": 5
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12,
+            "y1": 0,
+            "x2": 0,
+            "y2": 24,
+            "x": 16,
+            "y": 64
+          }
+        }
+      ],
+      "dash_style": "dotted"
+    },
+    {
+      "id": "lambda-gradient-head",
+      "shape": "path",
+      "x": 356.68635850198024,
+      "y": 202.23518003804315,
+      "width": 6.685032174373873,
+      "height": 8.764819961956846,
+      "fill": "#4324FF",
+      "stroke": "none",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 6.313641498019763,
+            "y": 8.764819961956846
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 2.6740128697495607
+          }
+        },
+        {
+          "lineTo": {
+            "x": 6.685032174373873,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "policy-equation",
+      "shape": "image",
+      "x": 22,
+      "y": 73,
+      "width": 126,
+      "height": 35,
+      "asset": "policy-equation.png",
+      "alt": "Original mathematical policy label only; pixels not live equation"
+    },
+    {
+      "id": "gradient-objective",
+      "shape": "image",
+      "x": 204,
+      "y": 47,
+      "width": 118,
+      "height": 41,
+      "asset": "gradient-objective.png",
+      "alt": "Original task-plus-diversity gradient formula only"
+    },
+    {
+      "id": "gradient-task",
+      "shape": "image",
+      "x": 314,
+      "y": 117,
+      "width": 100,
+      "height": 33,
+      "asset": "gradient-task.png",
+      "alt": "Original task gradient formula only"
+    },
+    {
+      "id": "phi-equation",
+      "shape": "image",
+      "x": 495,
+      "y": 211,
+      "width": 62,
+      "height": 30,
+      "asset": "phi-equation.png",
+      "alt": "Original representation formula only"
+    },
+    {
+      "id": "action-label",
+      "shape": "image",
+      "x": 333,
+      "y": 0,
+      "width": 37,
+      "height": 29,
+      "asset": "action-label.png",
+      "alt": "Original mathematical action subscript label"
+    },
+    {
+      "id": "reward-label",
+      "shape": "image",
+      "x": 154,
+      "y": 144,
+      "width": 34,
+      "height": 31,
+      "asset": "reward-label.png",
+      "alt": "Original mathematical combined reward label"
+    },
+    {
+      "id": "task-reward-label",
+      "shape": "image",
+      "x": 417,
+      "y": 136,
+      "width": 64,
+      "height": 33,
+      "asset": "task-reward-label.png",
+      "alt": "Original task reward superscript/subscript formula"
+    },
+    {
+      "id": "diversity-reward-label",
+      "shape": "image",
+      "x": 418,
+      "y": 188,
+      "width": 61,
+      "height": 32,
+      "asset": "diversity-reward-label.png",
+      "alt": "Original diversity reward formula"
+    },
+    {
+      "id": "state-label",
+      "shape": "image",
+      "x": 615,
+      "y": 180,
+      "width": 35,
+      "height": 33,
+      "asset": "state-label.png",
+      "alt": "Original state subscript label"
+    }
+  ],
+  "edges": []
+}

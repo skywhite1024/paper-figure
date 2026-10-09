@@ -1,0 +1,41 @@
+{
+  "diagram_id": "slac-figure-2",
+  "source_scene_sha256": "0d094465666db74994c6df5b5f65d32bced45577bafc329bc51412028521f1ec",
+  "source_pdf_sha256": "4b5d88741b8729fa81e1042f47874bada21853f811f0f2b9e4cc501f5ce8ee32",
+  "checked_files": [
+    {
+      "name": "slac-figure-2.drawio",
+      "sha256": "ea5829c45bb99b65c99fe0082d90bbba8e9de4ada0ebadd93ff853c1970a285f"
+    },
+    {
+      "name": "slac-figure-2.png",
+      "sha256": "3636720e3337daa79b241865e7a2c509dc968537f50c6271dd2c7469649858cc"
+    },
+    {
+      "name": "slac-figure-2.pptx",
+      "sha256": "a99efba1840a95df1efacf29befaf3d5c369a82bd86a3ff44b80a5a97064a437"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 2 PDFpage4 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 269,
+    "p:pic": 16,
+    "a:custGeom": 197,
+    "p:cxnSp": 0,
+    "a:t": 56
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

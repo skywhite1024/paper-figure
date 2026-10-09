@@ -18,10 +18,10 @@
       "page_1_based": 3,
       "caption": "Figure 2: A figure of bi-level optimization for \u03c0\u03b8 and \u03bb. The task reward gives the gradient signal\nfor training \u03bb, and the sum of both sources of rewards provides the gradient signal for optimizing\n\u03c0\u03b8.",
       "crop_pdf_points": [
-        190,
-        73,
-        415,
-        165
+        191.925994873,
+        72.006988525,
+        415.087646484,
+        165.599975586
       ],
       "vector_paths": 0,
       "native_text_spans": 0,
@@ -35,5 +35,11 @@
   "version_evidence": "Version identifier printed in first-page PDF margin",
   "versioned_pdf_url": "https://arxiv.org/pdf/2508.08982v1",
   "inspected_at": "2026-10-09",
-  "visual_evidence_cache": "/tmp/paper-figure-survey/8-p3.png"
+  "visual_evidence_cache": "/tmp/paper-figure-survey/8-p3.png",
+  "conversion_candidate": {
+    "slug": "sdax",
+    "scene": "data/diagrams/sdax/sdax-figure-2.json",
+    "package": "build/candidates/sdax",
+    "status": "reconstructed_pending_independent_export_QA"
+  }
 }

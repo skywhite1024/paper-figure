@@ -2,7 +2,7 @@ import base64,hashlib,json,os,shutil,subprocess,tempfile,zlib
 from pathlib import Path
 import xml.etree.ElementTree as ET
 from urllib.parse import quote
-from .model import require,ValidationError,local_asset,metrics,dash_style
+from .model import require,ValidationError,local_asset,metrics,dash_style,load
 PORT={'left':(0,.5),'right':(1,.5),'top':(.5,0),'bottom':(.5,1)}
 def drawio_dash(value, default_width):
  style=dash_style(value)
@@ -61,9 +61,12 @@ def input_hashes(d,source):
  return {'source_sha256':hashlib.sha256(source.read_bytes()).hexdigest(),
          'assets':[{'name':name,'sha256':hashlib.sha256(local_asset(source.parent,name).read_bytes()).hexdigest()} for name in assets]}
 def export(d,source,out,formats=('drawio','pptx'),force=False,preview=False):
+ inputs=input_hashes(d,source)
+ snapshot=load(source)
+ require(snapshot==d,'In-memory scene differs from source JSON; reload before export')
+ d=snapshot
  out=Path(out);require(formats and all(f in ['drawio','pptx'] for f in formats),'unsupported format');names=[d['id']+'.'+f for f in formats]+[d['id']+'.manifest.json']+([d['id']+'.png'] if preview and 'pptx' in formats else [])
  require(force or not any((out/n).exists() for n in names),'output exists; use --force');out.mkdir(parents=True,exist_ok=True)
- inputs=input_hashes(d,source)
  with tempfile.TemporaryDirectory(dir=out,prefix='.stage-') as tmp:
   t=Path(tmp)
   for fmt in formats:

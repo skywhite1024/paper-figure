@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "diagram_id": "sdax-figure-2",
+  "source_sha256": "62d874598e3de83cbef51adcbad4a10449398e0186530bce8b264ac979700e92",
+  "assets": [
+    {
+      "name": "action-label.png",
+      "sha256": "4f1af7191564e476cad0fea7f27dfe57379ec9fb1a5fc105274a273455436c8c"
+    },
+    {
+      "name": "diversity-reward-label.png",
+      "sha256": "5e55a40f747cbc231cd47a8a605449b5f169e4a28332b3309c6a570e588b4d55"
+    },
+    {
+      "name": "gradient-objective.png",
+      "sha256": "d46b7b0d508141c34ab980c6d71381c23d0f8b4adb47c90dba611c220e049e8f"
+    },
+    {
+      "name": "gradient-task.png",
+      "sha256": "b4cd220fd2c1715082f83d3055a90020ac8cb56a6480c5e5a94dbee109cf07ff"
+    },
+    {
+      "name": "phi-equation.png",
+      "sha256": "7dca58e4dd01b76b1bf88c1d2a0a64e24d58a20bd9b8910af52787fa60656699"
+    },
+    {
+      "name": "policy-equation.png",
+      "sha256": "0c12ce8d29ab7ad67e4bfe1093607a7a940c124cede7b458d8c4648e0991b527"
+    },
+    {
+      "name": "reward-label.png",
+      "sha256": "74efefc7bc835406ad624ae672dfba09572170f103ff634f72c91ef0af216430"
+    },
+    {
+      "name": "state-label.png",
+      "sha256": "8ebf45038474ca51a0fe614aa35e30a1d38e09b93ca4dc8956bf879c34b7def2"
+    },
+    {
+      "name": "task-reward-label.png",
+      "sha256": "ae343b4b3de6b35623a8546a9f842d43cfe29d0872a21e3f468f875c4d81ff0e"
+    }
+  ],
+  "provenance": {
+    "paper_title": "Unsupervised Skill Discovery as Exploration for Learning Agile Locomotion",
+    "paper_url": "https://arxiv.org/abs/2508.08982v1",
+    "figure": "Figure 2",
+    "page": 3,
+    "license": "http://creativecommons.org/licenses/by/4.0/",
+    "status": "figure_recreation",
+    "source_sha256": "19732e8b2d8a811c612ba64fd4f750e61bca06df613df5573098266081dfe67d",
+    "source_crop_pdf_points": [
+      191.925994873,
+      72.006988525,
+      415.087646484,
+      165.599975586
+    ],
+    "notes": "Manually reconstructed after inspecting actual source pixels. Original source is a flattened raster. Layout, native panels, labels and connecting geometry are recreated; no whole-figure raster backdrop. Font metrics and curve/arrow geometry approximated. Small original mathematical/photo details retained only where explicitly noted. Independent target-application QA pending. All ordinary labels (Env and multiplication sign) are live text. Nine tiny original formula snippets preserve mathematical typography; main boxes, sums, feedback, gradient curves, and arrowheads are native objects."
+  },
+  "metrics": {
+    "native_nodes": 27,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 18,
+    "native_text_objects": 4,
+    "raster_images": 9,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "sdax-figure-2.drawio",
+      "sha256": "103b8fb1eb78dc052dca9ece18d24298395a24df73f28984ca7d0071c4658eaf"
+    },
+    {
+      "name": "sdax-figure-2.png",
+      "sha256": "1b064f2fedbe1c3c480788a5a8140a6469443e76296cafb443cb625f0c1737c6"
+    },
+    {
+      "name": "sdax-figure-2.pptx",
+      "sha256": "421f0ccabd8578fd26068f44950135f99e75e7f68914a73395006c71d60cb5da"
+    }
+  ]
+}

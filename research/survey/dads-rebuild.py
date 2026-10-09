@@ -32,7 +32,7 @@ def C(id,start,c1,c2,end,color='#000000',sw=1.5,arrow=True,dash=False,head=8):
  if arrow:
   x,y=end;theta=math.atan2(y-c2[1],x-c2[0]);u=(math.cos(theta),math.sin(theta));v=(-u[1],u[0]);P(id+'-head',[(x,y),(x-head*u[0]+head*.45*v[0],y-head*u[1]+head*.45*v[1]),(x-head*u[0]-head*.45*v[0],y-head*u[1]-head*.45*v[1])],fill=color,stroke='none',sw=0,close=True)
 def IMG(id,box,alt):
- x0,y0,x1,y1=box;pb=fitz.Rect(bbox.x0+x0/3,bbox.y0+y0/3,bbox.x0+x1/3,bbox.y0+y1/3);page.get_pixmap(matrix=fitz.Matrix(6,6),clip=pb,alpha=False).save(D/(id+'.png'));node(id,'image',x0,y0,x1-x0,y1-y0,asset=id+'.png',alt=alt)
+ x0,y0,x1,y1=box;pb=fitz.Rect(bbox.x0+x0/3,bbox.y0+y0/3,bbox.x0+x1/3,bbox.y0+y1/3);page.get_pixmap(matrix=fitz.Matrix(6,6),clip=pb,alpha=False).save(D/(id+'.png'));im=Image.open(D/(id+'.png')).convert('RGBA'); im.putdata([(0,0,0,max(0,min(255,int((100-min(rr,gg,bb))*255/70)))) for rr,gg,bb,aa in im.getdata()]); im.save(D/(id+'.png'));node(id,'image',x0,y0,x1-x0,y1-y0,asset=id+'.png',alt=alt)
 def finish():
  f=D/(ID+'.json');f.write_text(json.dumps(s,ensure_ascii=False,indent=2));cfg={'id':ID,'paper_title':paper['title'],'paper_url':s['provenance']['paper_url'],'figure':s['provenance']['figure'],'page':PAGE,'crop':BBOX,'scale':3,'license':meta['license_note'],'notes':s['provenance']['notes']};(R/'research/survey'/f'{SLUG}-config.json').write_text(json.dumps(cfg,indent=2));subprocess.run([sys.executable,'-m','paper_figure','export',str(f),'--out',str(R/'build'/SLUG),'--preview','--force'],cwd=R,check=True)
 B('intrinsic-panel',143,86,337,214,'#F0F0F0','#000000',2.2,dash=True);s['nodes'][-1]['dash_style']='dash-dot'
@@ -49,6 +49,6 @@ L('skill-down',[(62,94),(62,326)],'#555555',1.3,arrow=False);L('square-agent',[(
 L('outer-loop',[(119,71),(512,71),(512,374),(433,374)],'#666666',1.3,arrow=False);L('state-model-input',[(512,192),(479,192)],'#666666',1.3,head=8);L('state-current',[(433,374),(467,374),(467,309),(62,309)],'#666666',1.3,arrow=False);L('ratio-output',[(143,193),(62,193)],'#666666',1.3,arrow=False);L('density-to-ratio',[(269,138),(233,138),(233,208)],'#777777',1.3,head=8);L('skill-samples-density',[(305,249),(455,249),(455,138),(423,138)],'#777777',1.3,head=8)
 for id,txt,x,y,w,h in [('z-top','z',210,52,18,22),('z-left','z',38,130,18,22),('action-label','a',216,372,18,22),('next-state','s′',509,272,26,28),('state-prime','s′',277,309,25,25)]:T(id,txt,x,y,w,h,17,font='Times New Roman',bold=True)
 IMG('intrinsic-reward-label',[76,170,136,190],'Original reward mathematical annotation');T('samples-label','z, {z′}',353,228,65,22,17,font='Times New Roman',bold=True)
-T('train-agent','train the agent\nto maximize the\nreward r(s′, s, z)',218,409,113,40,13,font='Times New Roman')
-s['provenance']['notes']+=' Ordinary annotations are live text. Seven compact source mathematical formula snippets retained; policy/model/environment blocks, signal routing and reward computation structure native. Flat fills approximate original gradients.'
+T('train-agent','train the agent\nto maximize the\nreward r(s′, s, z)',218,408,113,40,12,font='Times New Roman')
+s['provenance']['notes']+=' Ordinary annotations are live text. Six compact source mathematical formula snippets retained; policy/model/environment blocks, signal routing and reward computation structure native. Flat fills approximate original gradients.'
 finish()

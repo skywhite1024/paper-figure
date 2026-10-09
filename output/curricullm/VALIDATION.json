@@ -1,0 +1,41 @@
+{
+  "diagram_id": "curricullm-figure-1",
+  "source_scene_sha256": "2e31eed78c051f487d2d0c8e81c18e549656b6d0f4c15f8bca4ed3266fbc9851",
+  "source_pdf_sha256": "4a8066640ce00705b2677e548ff5196bd4a1221ecf099e357fb834033a10a142",
+  "checked_files": [
+    {
+      "name": "curricullm-figure-1.drawio",
+      "sha256": "1cb08c9e2dd8669e3324b64d385acef3f5e8da0d5f52c03d83b0896f09cc546b"
+    },
+    {
+      "name": "curricullm-figure-1.png",
+      "sha256": "74e1a12d0371c4822c4572a56abff8bc7526843235121c04dc54de7ccdcd6003"
+    },
+    {
+      "name": "curricullm-figure-1.pptx",
+      "sha256": "a18a640b8dae3f06939d2c188794c3e306c9201f218317bb1915d8741065743c"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 1 PDFpage1 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 75,
+    "p:pic": 6,
+    "a:custGeom": 41,
+    "p:cxnSp": 0,
+    "a:t": 28
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

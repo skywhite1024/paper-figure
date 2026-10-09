@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "safety-aware-unsupervised-skill-discovery",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.465967Z",
-  "updated_at": "2026-10-09T20:14:36.683308Z",
+  "updated_at": "2026-10-09T20:55:42.329986Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -125,8 +125,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/safe-skill/README.md",
+          "output/safe-skill/VALIDATION.json"
+        ],
+        "output_directory": "output/safe-skill",
+        "source_sha256": "f0d9b288ad29e95ded451163ebfbddab7ce14f2af8b8ec133d80b1f3e1f9cc42",
+        "scene_sha256": "c19e278da3364ffd3c3add5aedebf90b15a45d96f98a785ff6978ccdad804535",
+        "text_editability": {
+          "typeable_text_objects": 17,
+          "native_freeform_paths": 77,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -289,6 +303,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:55:42.329986Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "9a129d9e112aff84f5f1819a2857978a5a346bbd020c8a1d6f55998be6dab4c4",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/safe-skill/README.md",
+                "output/safe-skill/VALIDATION.json"
+              ],
+              "output_directory": "output/safe-skill",
+              "source_sha256": "f0d9b288ad29e95ded451163ebfbddab7ce14f2af8b8ec133d80b1f3e1f9cc42",
+              "scene_sha256": "c19e278da3364ffd3c3add5aedebf90b15a45d96f98a785ff6978ccdad804535",
+              "text_editability": {
+                "typeable_text_objects": 17,
+                "native_freeform_paths": 77,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

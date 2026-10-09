@@ -1,0 +1,42 @@
+{
+  "diagram_id": "rvic-figure-1",
+  "source_scene_sha256": "6dd61a131fd4e3ad5645d7104c38e427cb2e75e17e7330cbd25812d9de3576ec",
+  "source_pdf_sha256": "4284bd5fb5e605def47893764b545386c74adc84d119be95fea380e170477b84",
+  "checked_files": [
+    {
+      "name": "rvic-figure-1.drawio",
+      "sha256": "6298704e11948af31b67c48be173f2751b95318012b7e240bfc6aab3ad052031"
+    },
+    {
+      "name": "rvic-figure-1.png",
+      "sha256": "4bf2386c4a9637a99db3d738b54e2f3f71bbaa3aeeec28c6916751f63f23ba51"
+    },
+    {
+      "name": "rvic-figure-1.pptx",
+      "sha256": "0e947f038048e91a4f081768155a3acb53b41d406c30f37573d83e6420bef29c"
+    }
+  ],
+  "review_status": "Source versus independent LibreOffice PPTX render passed; partial math editability explicitly retained",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 1 PDFpage2 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 42,
+    "p:pic": 8,
+    "a:custGeom": 15,
+    "p:cxnSp": 0,
+    "a:t": 19
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment",
+    "8 source formula snippets remain raster assets; mathematical content is not internally editable."
+  ]
+}

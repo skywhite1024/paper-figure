@@ -18,10 +18,10 @@
       "page_1_based": 19,
       "caption": "Figure 12: Network architecture for the policies and DQN in the Atari experiments. The output\ndistribution is the softmax of the network output vector of length |A| for control policies and 2 for\ntermination.",
       "crop_pdf_points": [
-        215,
-        77,
-        392,
-        230
+        205.707717895,
+        71.845626831,
+        403.800415039,
+        235.487426758
       ],
       "vector_paths": 0,
       "native_text_spans": 0,
@@ -35,5 +35,11 @@
   "version_evidence": "Version identifier printed in first-page PDF margin",
   "versioned_pdf_url": "https://arxiv.org/pdf/1703.08294v2",
   "inspected_at": "2026-10-09",
-  "visual_evidence_cache": "/tmp/paper-figure-survey/40-p19.png"
+  "visual_evidence_cache": "/tmp/paper-figure-survey/40-p19.png",
+  "conversion_candidate": {
+    "slug": "ddo",
+    "scene": "data/diagrams/ddo/ddo-figure-12.json",
+    "package": "build/candidates/ddo",
+    "status": "reconstructed_pending_independent_export_QA"
+  }
 }

@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "diagram_id": "dads-figure-2",
+  "source_sha256": "a6de48a78d4bdc1fa419a01778067be6b6cf6629d8951b06fef9a432875d71ba",
+  "assets": [
+    {
+      "name": "agent-policy.png",
+      "sha256": "ce68d5fba0bfba862c76f2cba5555cdc1402c415d649f2da2eb31a3560d007c6"
+    },
+    {
+      "name": "dynamics-equation.png",
+      "sha256": "348d5fada189c29dee93000cc6f0b3e92b56b557d0b5320e94ccca7eb0193e3b"
+    },
+    {
+      "name": "environment-equation.png",
+      "sha256": "b334423d09a61c4a35e0cde1bdfa68e0cc2d66037ebf18b9f83b6f1e46aadfa6"
+    },
+    {
+      "name": "intrinsic-reward-label.png",
+      "sha256": "52b6ba22c5955e47028dafb41de7bb56fd66b879b68c99cdcaebb6f433f149c9"
+    },
+    {
+      "name": "reward-ratio-equation.png",
+      "sha256": "0175b7b4ad479fc14e1b0be3fc5c48ff39d36f39a7c026e6b6335a6053383369"
+    },
+    {
+      "name": "skill-formula.png",
+      "sha256": "d452ce4082df38d6552959d1670779592f0e77ad88535d9e12ff376b0f15f024"
+    }
+  ],
+  "provenance": {
+    "paper_title": "Dynamics-Aware Unsupervised Discovery of Skills",
+    "paper_url": "https://arxiv.org/abs/1907.01657v2",
+    "figure": "Figure 2",
+    "page": 3,
+    "license": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+    "status": "figure_recreation",
+    "source_sha256": "e13faab20c899f5e49fba9593f62837fc028e16b8787850ed3b1a473e3bd7bb9",
+    "source_crop_pdf_points": [
+      126.5559997559,
+      149.4858093262,
+      304.7524414063,
+      299.0390014648
+    ],
+    "notes": "Manually reconstructed after inspecting actual source pixels. Original source is a flattened raster. Layout, native panels, labels and connecting geometry are recreated; no whole-figure raster backdrop. Font metrics and curve/arrow geometry approximated. Small original mathematical/photo details retained only where explicitly noted. Independent target-application QA pending. Ordinary annotations are live text. Six compact source mathematical formula snippets retained; policy/model/environment blocks, signal routing and reward computation structure native. Flat fills approximate original gradients."
+  },
+  "metrics": {
+    "native_nodes": 37,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 16,
+    "native_text_objects": 16,
+    "raster_images": 6,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "dads-figure-2.drawio",
+      "sha256": "cd4d13d3d529304f4cc7421435862ed275f4ab83b9b7fb79a34d4d3ae27f7be8"
+    },
+    {
+      "name": "dads-figure-2.png",
+      "sha256": "31a39c312355fa7b216bd3ebb73bad82ff5c55c0395647f736abb3383c04c337"
+    },
+    {
+      "name": "dads-figure-2.pptx",
+      "sha256": "8d377a8329dd158960e53a46636ef91532b19c1466ddfb28cdd3f33448713105"
+    }
+  ]
+}

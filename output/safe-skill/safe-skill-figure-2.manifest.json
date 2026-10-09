@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "diagram_id": "safe-skill-figure-2",
+  "source_sha256": "c19e278da3364ffd3c3add5aedebf90b15a45d96f98a785ff6978ccdad804535",
+  "assets": [
+    {
+      "name": "high-policy-equation.png",
+      "sha256": "a5efb8b3c1049c1b3ba301360130aadebed10661aa489fa05e0708a4345802dd"
+    },
+    {
+      "name": "low-policy-equation.png",
+      "sha256": "d42642725e95bfd6723b37444157cb01434a0f029f6a4adc8b55c1043712a13a"
+    },
+    {
+      "name": "pretrain-policy-equation.png",
+      "sha256": "db93e14b989b697d6b15a5fc0ce2fab0935aea4d9e5975f3ab6c0585a47b9893"
+    },
+    {
+      "name": "safety-critic-equation.png",
+      "sha256": "d4d79844f2e9782185f2c9527af46f32aac5883a403b2c99ac0e1f0e9bf76d94"
+    },
+    {
+      "name": "skill-encoder-equation.png",
+      "sha256": "c7b928b7baf7658fd45db9d8b18d44365ff189b6195173c2710b3ca685a51f9f"
+    },
+    {
+      "name": "task-reward-equation.png",
+      "sha256": "f141e3b984b9dc380b23321de0689259b0160010f3bee89fb3ff4f0d812f5efd"
+    }
+  ],
+  "provenance": {
+    "paper_title": "Safety-Aware Unsupervised Skill Discovery",
+    "paper_url": "https://safe-skill.github.io/static/pdfs/safe-skill.pdf",
+    "figure": "Figure 2",
+    "page": 3,
+    "license": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+    "status": "figure_recreation",
+    "source_sha256": "f0d9b288ad29e95ded451163ebfbddab7ce14f2af8b8ec133d80b1f3e1f9cc42",
+    "source_crop_pdf_points": [
+      331.5589904785,
+      50.0800476074,
+      539.6400146484,
+      291.4540100098
+    ],
+    "notes": "Manually reconstructed after inspecting actual source pixels. Original source is a flattened raster. Layout, native panels, labels and connecting geometry are recreated; no whole-figure raster backdrop. Font metrics and curve/arrow geometry approximated. Small original mathematical/photo details retained only where explicitly noted. Independent target-application QA pending. All ordinary labels, including two rotated Environment labels, are typeable native text. Six compact formula snippets retain source pixels. Panels, sums, neural icons, feedback routes and transfer arrow are native."
+  },
+  "metrics": {
+    "native_nodes": 122,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 77,
+    "native_text_objects": 17,
+    "raster_images": 6,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "safe-skill-figure-2.drawio",
+      "sha256": "699e56bc50017cefc70f427b793b4cce9fd280ae44a74b60a4f702202045edf1"
+    },
+    {
+      "name": "safe-skill-figure-2.png",
+      "sha256": "e65214224b30d8751d2101a9706f3f8f48dcf4c5202bd2b54f153482fb8ebdc4"
+    },
+    {
+      "name": "safe-skill-figure-2.pptx",
+      "sha256": "983fda8b857f09617c125b4af105979dd09f32c8d4c3ed276f18c43baaffee6f"
+    }
+  ]
+}

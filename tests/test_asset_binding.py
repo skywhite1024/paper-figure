@@ -33,3 +33,13 @@ class AssetBindingTests(unittest.TestCase):
         with patch('paper_figure.exporters.drawio',side_effect=mutate):
             with self.assertRaises(ValidationError):export(self.scene,self.source,self.root/'out',('drawio',))
         self.assertFalse((self.root/'out'/(self.scene['id']+'.drawio')).exists())
+
+    def test_changed_source_before_export_refused(self):
+        changed=json.loads(self.source.read_text());changed['title']='Different source'
+        self.source.write_text(json.dumps(changed))
+        with self.assertRaises(ValidationError):export(self.scene,self.source,self.root/'out',('drawio',))
+        self.assertFalse((self.root/'out').exists())
+    def test_mismatched_memory_before_export_refused(self):
+        self.scene['title']='Changed in memory'
+        with self.assertRaises(ValidationError):export(self.scene,self.source,self.root/'out',('drawio',))
+        self.assertFalse((self.root/'out').exists())
