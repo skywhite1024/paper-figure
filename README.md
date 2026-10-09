@@ -61,12 +61,24 @@ PAPER_FIGURE_TEST_PPTX=1 python -m unittest discover -s tests -v
 
 重新导出既有 JSON 不需要原 PDF。重新提取 ASPIRE 需 PyMuPDF、Pillow、lxml（`pip install -e '.[pdf]'`）以及现有 Node.js `sharp`（用于保留 SVG 遮罩/裁切）；`research/extract_aspire_fidelity.py --pdf /path/to/aspire.pdf` 是针对该固定版本论文的受测提取器，不能宣传为任意 PDF 通用转换。
 
-RoboReact 的人工坐标程序 `research/build_roboreact_faithful.py` 使用原图像素作为参考，输入路径详见程序参数。源图和可编辑输出的对照位于样例包中的 `comparison.html`。
+RoboReact 的人工坐标程序 `research/build_roboreact_faithful.py` 使用原图像素作为参考，输入路径详见程序参数。源图和可编辑输出的对照位于各论文文件夹的 `comparison.html`。
 
-## 原始结果文件夹
+## 按论文查看结果
 
-`output/` 包含两张图的 PPTX、draw.io、PNG、原图对照、离线 `comparison.html`、来源/验证说明。仓库不提交 ZIP 或 Git bundle，源码直接位于仓库根目录。
+- [ASPIRE](output/aspire/README.md)：PPTX、draw.io、预览、原图对照与原文 PDF（Figure 1，第2页）
+- [RoboReact](output/roboreact/README.md)：PPTX、draw.io、预览、原图对照与原文 PDF（Figure 2，第3页）
+- [结果总索引](output/README.md)
 
-### 原文 PDF
+每篇论文独立一个文件夹：`output/aspire/` 和 `output/roboreact/`。来源版本、PDF SHA256、图号/页码、可编辑对象统计、校验记录和离线对照均放在对应文件夹，根目录仅保留小型索引/汇总。仓库不提交 ZIP 或 Git bundle。
 
-对照用固定版本原文保存在 [`output/source-papers/`](output/source-papers/README.md)：ASPIRE v1 的 Figure 1 位于第2页，RoboReact v2 的 Figure 2 位于第3页。该目录记录原始官方 URL、SHA256 与页码，保留原文权利声明。
+### 重新生成仍保持按论文归档
+
+```bash
+python -m paper_figure export data/diagrams/aspire-figure-1.json --out build/aspire --preview --force
+python -m paper_figure export data/diagrams/roboreact-figure-2.json --out build/roboreact --preview --force
+python research/refresh_outputs.py --from-build build
+```
+
+最后一步核对导出哈希，再更新对应论文文件夹的结果与索引；原文 PDF 与原图对照保留原位。新生成文件不能继承旧人工审核结论，发生变化时验证记录自动设为待审查。
+
+仅刷新索引/哈希清单可运行 `python research/refresh_outputs.py`。可选本地打包：`python research/package_release.py --out build/releases`，生成的包也保持按论文的文件夹结构；complete 包保留仓库根目录布局（output/ 与 data/ 并列），使解压后的相对链接继续有效。这些 ZIP 不上传 GitHub。

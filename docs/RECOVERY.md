@@ -8,4 +8,8 @@ The exporter code has been reconstructed and expanded for source-vector fidelity
 
 ## Authorized private GitHub delivery
 
-For GitHub delivery, the recovered v0.2 snapshot is applied as a new development-branch commit on the actual upstream main commit `904512fbe6c170b48860c9340bc84ffd0fbeb893`. The original upstream `text` file is preserved; main is not modified. Unpacked deliverables are committed under `output/`; ZIP files, Git bundles and vendor/runtime binaries are not uploaded. Repository visibility was verified as private before upload.
+For GitHub delivery, the recovered v0.2 snapshot is applied as a new development-branch commit on the actual upstream main commit `904512fbe6c170b48860c9340bc84ffd0fbeb893`. The original upstream `text` file was preserved, and main was not modified during that initial delivery. Unpacked deliverables are committed under `output/`; ZIP files, Git bundles and vendor/runtime binaries are not uploaded. Repository visibility was verified as private before upload.
+
+## User-approved integration
+
+The user subsequently approved reorganizing results per paper and merging the reviewed development branch into main. This change uses ordinary Git fast-forward/merge rules, preserves upstream history and the original `text` file, and keeps each paper's outputs under `output/aspire/` or `output/roboreact/`. No force push or branch deletion is required.

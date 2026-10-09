@@ -11,3 +11,9 @@
 A catalog paper uses `id`, `title`, `url`, `status`, optional `diagram` relative to catalog directory. Recreated/verified entries need a scene path. One current selected figure per paper is supported; legacy figures can be exported separately.
 
 Output hashes verify bytes, not semantic correctness. Preview checks do not prove native Microsoft PowerPoint editing. Public redistribution requires separate rights review and user authorization, not just an arXiv link.
+
+## Paper-scoped published outputs
+
+Each paper owns `output/<paper-id>/`, including native editable formats, preview PNG, original comparison PNG, fixed-version source PDF, `sources.json`, export manifest, validation record, README and `comparison.html`. The root output folder has only shared indexes/summary.
+
+Render to `build/aspire/` and `build/roboreact/`, then run `python research/refresh_outputs.py --from-build build`. This verifies hashes before publishing diagram files, preserves the original PDF/source image, and resets changed outputs to pending review. `research/package_release.py` packages this canonical nested layout rather than reconstructing the obsolete flat layout.
