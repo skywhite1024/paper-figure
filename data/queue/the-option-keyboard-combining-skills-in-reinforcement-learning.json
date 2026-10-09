@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "the-option-keyboard-combining-skills-in-reinforcement-learning",
-  "revision": 4,
+  "revision": 5,
   "status": "recreated",
   "created_at": "2026-10-09T20:04:59.513671Z",
-  "updated_at": "2026-10-09T20:30:58.226472Z",
+  "updated_at": "2026-10-09T20:49:29.698083Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,7 +26,7 @@
   },
   "stages": {
     "source_identity": {
-      "status": "reported",
+      "status": "passed",
       "evidence": {
         "references": [
           "research/survey/the-option-keyboard-combining-skills-in-reinforcement-learning.json",
@@ -35,19 +35,20 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/the-option-keyboard-combining-skills-in-reinforcement-learning.json",
-          "sha256": "664f146eb75c26d6b55cfee9b1644599d01c17839dc20909b4caefd4e1895281"
+          "sha256": "394213d1d26203814eb52b786810d84c2068d1ed1db6601deae431e60eaf23cc"
         },
         "version": "2106.13105v1",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
-        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
         "expected_title": "The Option Keyboard: Combining Skills in Reinforcement Learning",
         "observed_title": "The Option Keyboard: Combining Skills in Reinforcement Learning",
         "source_url": "https://arxiv.org/pdf/2106.13105v1",
         "source_sha256": "fc226db65fd00e0006ec0ae5f60c524a4d95857e155856485c2b7c013eb19f97",
         "reported_title_match": true,
-        "identity_review_basis": null,
+        "identity_review_basis": "visually_inspected_source_candidate",
         "identity_reviewed": null,
         "title_review_method": null,
         "mismatch_reason": null
@@ -63,11 +64,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/the-option-keyboard-combining-skills-in-reinforcement-learning.json",
-          "sha256": "664f146eb75c26d6b55cfee9b1644599d01c17839dc20909b4caefd4e1895281"
+          "sha256": "394213d1d26203814eb52b786810d84c2068d1ed1db6601deae431e60eaf23cc"
         },
         "version": "2106.13105v1",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
         "observed_source": {
@@ -82,8 +83,45 @@
       }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/the-option-keyboard-combining-skills-in-reinforcement-learning.json",
+          "https://arxiv.org/pdf/2106.13105v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/the-option-keyboard-combining-skills-in-reinforcement-learning.json",
+          "sha256": "394213d1d26203814eb52b786810d84c2068d1ed1db6601deae431e60eaf23cc"
+        },
+        "version": "2106.13105v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 1",
+            "page_1_based": 5,
+            "caption": "Option keyboard mediates between player and environment.",
+            "crop_pdf_points": [
+              287,
+              234,
+              498,
+              300
+            ],
+            "vector_paths": 22,
+            "native_text_spans": 14,
+            "raster_images": 0,
+            "visually_inspected": true,
+            "notes": "Compact native architecture: player, option keyboard, environment and abstraction boundary."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "reported",
@@ -251,6 +289,115 @@
                 "native_freeform_paths": 37,
                 "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
               }
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T20:49:29.698083Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "a77cd004ab90a8359c617c5c67eb81773d0ec3b9de404f0673f0231a0fc61100",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/the-option-keyboard-combining-skills-in-reinforcement-learning.json",
+                "https://arxiv.org/pdf/2106.13105v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/the-option-keyboard-combining-skills-in-reinforcement-learning.json",
+                "sha256": "394213d1d26203814eb52b786810d84c2068d1ed1db6601deae431e60eaf23cc"
+              },
+              "version": "2106.13105v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "The Option Keyboard: Combining Skills in Reinforcement Learning",
+              "observed_title": "The Option Keyboard: Combining Skills in Reinforcement Learning",
+              "source_url": "https://arxiv.org/pdf/2106.13105v1",
+              "source_sha256": "fc226db65fd00e0006ec0ae5f60c524a4d95857e155856485c2b7c013eb19f97",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/the-option-keyboard-combining-skills-in-reinforcement-learning.json",
+                "https://arxiv.org/pdf/2106.13105v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/the-option-keyboard-combining-skills-in-reinforcement-learning.json",
+                "sha256": "394213d1d26203814eb52b786810d84c2068d1ed1db6601deae431e60eaf23cc"
+              },
+              "version": "2106.13105v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/the-option-keyboard-combining-skills-in-reinforcement-learning.pdf",
+                "reported_sha256": "fc226db65fd00e0006ec0ae5f60c524a4d95857e155856485c2b7c013eb19f97",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 23,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/the-option-keyboard-combining-skills-in-reinforcement-learning.json",
+                "https://arxiv.org/pdf/2106.13105v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/the-option-keyboard-combining-skills-in-reinforcement-learning.json",
+                "sha256": "394213d1d26203814eb52b786810d84c2068d1ed1db6601deae431e60eaf23cc"
+              },
+              "version": "2106.13105v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 1",
+                  "page_1_based": 5,
+                  "caption": "Option keyboard mediates between player and environment.",
+                  "crop_pdf_points": [
+                    287,
+                    234,
+                    498,
+                    300
+                  ],
+                  "vector_paths": 22,
+                  "native_text_spans": 14,
+                  "raster_images": 0,
+                  "visually_inspected": true,
+                  "notes": "Compact native architecture: player, option keyboard, environment and abstraction boundary."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
             }
           }
         }

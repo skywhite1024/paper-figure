@@ -1,0 +1,41 @@
+{
+  "diagram_id": "transfer-manipulation-figure-2",
+  "source_scene_sha256": "602009480d8f9e70350e1f1f3485b8270a9359b7387525b9c129442fb263f882",
+  "source_pdf_sha256": "bcd1a2e008b47f06e38ebb6b942a6b8e2f891e7bfcb017d9fa6bcd4ed81b85a9",
+  "checked_files": [
+    {
+      "name": "transfer-manipulation-figure-2.drawio",
+      "sha256": "f9d5c58dbff0491fa85ca123a33f826055e797fa42ad8f5d02e5e16ffb0aab53"
+    },
+    {
+      "name": "transfer-manipulation-figure-2.png",
+      "sha256": "59825c8ce2a2a44402df5caea1ae76c876475c46a77fdc48ca12d41fd9e89422"
+    },
+    {
+      "name": "transfer-manipulation-figure-2.pptx",
+      "sha256": "9437bd5c55727b98ab5d64f80bda13da93b4a7a5ff1992d2b7592da60506dbeb"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 2 PDFpage3 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 155,
+    "p:pic": 0,
+    "a:custGeom": 104,
+    "p:cxnSp": 0,
+    "a:t": 51
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "diagram_id": "temporal-survey-figure-1",
+  "source_scene_sha256": "f6faa30ace1c4a22e4d75439d06dcc7161b69be2ec484baaad9d5ca012ab1555",
+  "source_pdf_sha256": "70463ca1b717e55535b7d0faa19662bf2d80e61f1716f11086671d2316058d2d",
+  "checked_files": [
+    {
+      "name": "temporal-survey-figure-1.drawio",
+      "sha256": "29c2b08f3f5024ad996c6fbd256e66fbcf3e3587b3a9092a4b3359b184f053fd"
+    },
+    {
+      "name": "temporal-survey-figure-1.png",
+      "sha256": "89a05d703e77ced81622e78fcaa97e2aa17ccf8d13b80d8595b7ff3b89da51d9"
+    },
+    {
+      "name": "temporal-survey-figure-1.pptx",
+      "sha256": "6c5f0dd6dfced7545d70e5df01a3563ebc39fce77dd8aa0badf014f9fc5af09e"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 1 PDFpage5 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 98,
+    "p:pic": 3,
+    "a:custGeom": 52,
+    "p:cxnSp": 0,
+    "a:t": 43
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

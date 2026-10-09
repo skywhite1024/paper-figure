@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "autonomous-skill-acquisition-on-a-mobile-manipulator",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 2,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.483178Z",
-  "updated_at": "2026-10-09T20:04:59.483178Z",
+  "updated_at": "2026-10-09T20:49:28.390825Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,102 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/autonomous-skill-acquisition-on-a-mobile-manipulator.json",
+          "https://lis.csail.mit.edu/pubs/konidaris-aaai11b.pdf"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/autonomous-skill-acquisition-on-a-mobile-manipulator.json",
+          "sha256": "2e4be0a08d74e083b5249fdcaf53e3cbe52f762b86daa310497da97ba5bbd49b"
+        },
+        "version": "AAAI-2011-author-copy",
+        "license_note": "Copyright2011AAAI; all rights reserved. Private authorized reference copy.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Autonomous Skill Acquisition on a Mobile Manipulator",
+        "observed_title": "Autonomous Skill Acquisition on a Mobile Manipulator",
+        "source_url": "https://lis.csail.mit.edu/pubs/konidaris-aaai11b.pdf",
+        "source_sha256": "bc868e1bda49db20312948a14276bbfc81e7250fb6bfb8e7a272055dd8aaaee2",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/autonomous-skill-acquisition-on-a-mobile-manipulator.json",
+          "https://lis.csail.mit.edu/pubs/konidaris-aaai11b.pdf"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/autonomous-skill-acquisition-on-a-mobile-manipulator.json",
+          "sha256": "2e4be0a08d74e083b5249fdcaf53e3cbe52f762b86daa310497da97ba5bbd49b"
+        },
+        "version": "AAAI-2011-author-copy",
+        "license_note": "Copyright2011AAAI; all rights reserved. Private authorized reference copy.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/autonomous-skill-acquisition-on-a-mobile-manipulator.pdf",
+          "reported_sha256": "bc868e1bda49db20312948a14276bbfc81e7250fb6bfb8e7a272055dd8aaaee2",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 6,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/autonomous-skill-acquisition-on-a-mobile-manipulator.json",
+          "https://lis.csail.mit.edu/pubs/konidaris-aaai11b.pdf"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/autonomous-skill-acquisition-on-a-mobile-manipulator.json",
+          "sha256": "2e4be0a08d74e083b5249fdcaf53e3cbe52f762b86daa310497da97ba5bbd49b"
+        },
+        "version": "AAAI-2011-author-copy",
+        "license_note": "Copyright2011AAAI; all rights reserved. Private authorized reference copy.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 1",
+            "page_1_based": 2,
+            "caption": "Trajectory segmented into skills by CST.",
+            "crop_pdf_points": [
+              78,
+              204,
+              264,
+              444
+            ],
+            "vector_paths": 55,
+            "native_text_spans": 5,
+            "raster_images": 5,
+            "visually_inspected": true,
+            "notes": "Conceptual method diagram relating return/features and robot trajectory; no neural network architecture implied."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +145,116 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:49:28.390825Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "f4203f7adb31227759e53239409ccd0d9d585a66efefcd523805c7fb3025824c",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/autonomous-skill-acquisition-on-a-mobile-manipulator.json",
+                "https://lis.csail.mit.edu/pubs/konidaris-aaai11b.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/autonomous-skill-acquisition-on-a-mobile-manipulator.json",
+                "sha256": "2e4be0a08d74e083b5249fdcaf53e3cbe52f762b86daa310497da97ba5bbd49b"
+              },
+              "version": "AAAI-2011-author-copy",
+              "license_note": "Copyright2011AAAI; all rights reserved. Private authorized reference copy.",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Autonomous Skill Acquisition on a Mobile Manipulator",
+              "observed_title": "Autonomous Skill Acquisition on a Mobile Manipulator",
+              "source_url": "https://lis.csail.mit.edu/pubs/konidaris-aaai11b.pdf",
+              "source_sha256": "bc868e1bda49db20312948a14276bbfc81e7250fb6bfb8e7a272055dd8aaaee2",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/autonomous-skill-acquisition-on-a-mobile-manipulator.json",
+                "https://lis.csail.mit.edu/pubs/konidaris-aaai11b.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/autonomous-skill-acquisition-on-a-mobile-manipulator.json",
+                "sha256": "2e4be0a08d74e083b5249fdcaf53e3cbe52f762b86daa310497da97ba5bbd49b"
+              },
+              "version": "AAAI-2011-author-copy",
+              "license_note": "Copyright2011AAAI; all rights reserved. Private authorized reference copy.",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/autonomous-skill-acquisition-on-a-mobile-manipulator.pdf",
+                "reported_sha256": "bc868e1bda49db20312948a14276bbfc81e7250fb6bfb8e7a272055dd8aaaee2",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 6,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/autonomous-skill-acquisition-on-a-mobile-manipulator.json",
+                "https://lis.csail.mit.edu/pubs/konidaris-aaai11b.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/autonomous-skill-acquisition-on-a-mobile-manipulator.json",
+                "sha256": "2e4be0a08d74e083b5249fdcaf53e3cbe52f762b86daa310497da97ba5bbd49b"
+              },
+              "version": "AAAI-2011-author-copy",
+              "license_note": "Copyright2011AAAI; all rights reserved. Private authorized reference copy.",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 1",
+                  "page_1_based": 2,
+                  "caption": "Trajectory segmented into skills by CST.",
+                  "crop_pdf_points": [
+                    78,
+                    204,
+                    264,
+                    444
+                  ],
+                  "vector_paths": 55,
+                  "native_text_spans": 5,
+                  "raster_images": 5,
+                  "visually_inspected": true,
+                  "notes": "Conceptual method diagram relating return/features and robot trajectory; no neural network architecture implied."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
     }
   ]
 }

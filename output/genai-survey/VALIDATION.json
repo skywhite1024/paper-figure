@@ -1,0 +1,42 @@
+{
+  "diagram_id": "genai-survey-figure-1",
+  "source_scene_sha256": "2151c24e4b5a68f45ec7f48fd638315799053cc1a340b63963944b025c72f565",
+  "source_pdf_sha256": "d0c553eb4834303a8ec30327f724cc2359e32ce6b69b4d8b8f3cf6cd893df8d8",
+  "checked_files": [
+    {
+      "name": "genai-survey-figure-1.drawio",
+      "sha256": "a0ef07ac706f816cf13847e1548b4cd183cf4bf60a771b8cb998cfa8c1e7ecb8"
+    },
+    {
+      "name": "genai-survey-figure-1.png",
+      "sha256": "9261d2005064fc36b1ca5371408dabe76d4ff5efc9fa2209cba83f940b6a7954"
+    },
+    {
+      "name": "genai-survey-figure-1.pptx",
+      "sha256": "32b5105e94ae5dceff85ffefb91b76cc42b2b603de73026702a6cd86dfea8b7f"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 1 PDFpage2 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 289,
+    "p:pic": 30,
+    "a:custGeom": 218,
+    "p:cxnSp": 0,
+    "a:t": 41
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment",
+    "Source photos,logos and small source graphics preserved as30separate raster assets; central logo collage is not internally editable."
+  ]
+}

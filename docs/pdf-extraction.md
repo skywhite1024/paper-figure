@@ -12,3 +12,11 @@ Configuration keys: `id`, `paper_title`, `paper_url` (fixed version where availa
 - Warnings record source clipping groups, crop-boundary paths, rotated text, partial inset intersections, and unhandled images. Every warning needs source-pixel review before publication as a recreation; false positives are explained in per-paper QA.
 
 The source PDF may contain flattened diagrams or bad font encodings. Those require manual native reconstruction/postprocessing, not a full-picture slide. Compare both the exported PNG and actual editor rendering with the original; editor fonts and compound-path fill rules can differ. Configurations and any postprocessor belong beside source evidence, and must be retained with each checkpoint.
+
+## Editable rotated labels
+
+Scene nodes accept `rotation` in clockwise degrees (−360…360). The node's x/y/width/height describe the **unrotated** frame; both editors rotate about its center. Validation checks the resulting visible bounding box, so a negative unrotated frame coordinate is allowed only when the rotated object remains inside the canvas. Use native rotated text for ordinary sideways labels rather than tiny raster text strips.
+
+## Source asset integrity
+
+New export manifests bind both the scene JSON and every referenced raster asset. An input modified while a multi-format export is running cancels publication, leaving prior files intact. Paper-bundle validation also compares draw.io's actual embedded image bytes with scene assets, including older manifests, so replacing an asset without changing its filename cannot silently inherit old QA.

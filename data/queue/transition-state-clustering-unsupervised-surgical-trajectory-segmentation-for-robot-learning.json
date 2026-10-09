@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "transition-state-clustering-unsupervised-surgical-trajectory-segmentation-for-robot-learning",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.490479Z",
-  "updated_at": "2026-10-09T20:04:59.490479Z",
+  "updated_at": "2026-10-09T20:49:29.702768Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,20 +26,120 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/transition-state-clustering-unsupervised-surgical-trajectory-segmentation-for-robot-learning.json",
+          "https://goldberg.berkeley.edu/pubs/krishnan-ijrr-submission-final.pdf"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/transition-state-clustering-unsupervised-surgical-trajectory-segmentation-for-robot-learning.json",
+          "sha256": "bc18c1edc886075c3d69b49d5f56cb640e21ab39061b60323b4c136a0e122698"
+        },
+        "version": "IJRR-2017-author-copy",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Transition State Clustering: Unsupervised Surgical Trajectory Segmentation for Robot Learning",
+        "observed_title": "Transition State Clustering: Unsupervised Surgical Trajectory Segmentation for Robot Learning",
+        "source_url": "https://goldberg.berkeley.edu/pubs/krishnan-ijrr-submission-final.pdf",
+        "source_sha256": "d1c6f490ad32fca34a156f88700c815816d42a7938e55044ab39ad0ecfe802af",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/transition-state-clustering-unsupervised-surgical-trajectory-segmentation-for-robot-learning.json",
+          "https://goldberg.berkeley.edu/pubs/krishnan-ijrr-submission-final.pdf"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/transition-state-clustering-unsupervised-surgical-trajectory-segmentation-for-robot-learning.json",
+          "sha256": "bc18c1edc886075c3d69b49d5f56cb640e21ab39061b60323b4c136a0e122698"
+        },
+        "version": "IJRR-2017-author-copy",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/transition-state-clustering-unsupervised-surgical-trajectory-segmentation-for-robot-learning.pdf",
+          "reported_sha256": "d1c6f490ad32fca34a156f88700c815816d42a7938e55044ab39ad0ecfe802af",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 15,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/transition-state-clustering-unsupervised-surgical-trajectory-segmentation-for-robot-learning.json",
+          "https://goldberg.berkeley.edu/pubs/krishnan-ijrr-submission-final.pdf"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/transition-state-clustering-unsupervised-surgical-trajectory-segmentation-for-robot-learning.json",
+          "sha256": "bc18c1edc886075c3d69b49d5f56cb640e21ab39061b60323b4c136a0e122698"
+        },
+        "version": "IJRR-2017-author-copy",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 5,
+            "caption": "Transition state clustering probabilistic models.",
+            "crop_pdf_points": [
+              51,
+              598,
+              294,
+              677
+            ],
+            "vector_paths": 0,
+            "native_text_spans": 0,
+            "raster_images": 1,
+            "visually_inspected": true,
+            "notes": "Time-invariant/time-varying/multimodal graphical models embedded as one flat raster; manual native redraw required. Author IJRR2017 manuscript exact title match."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/tsc/README.md",
+          "output/tsc/VALIDATION.json"
+        ],
+        "output_directory": "output/tsc",
+        "source_sha256": "d1c6f490ad32fca34a156f88700c815816d42a7938e55044ab39ad0ecfe802af",
+        "scene_sha256": "33493dd1916a552dd250cc88caeb5b47e9d05eceead164d6cbffdb935e8e8b66",
+        "text_editability": {
+          "typeable_text_objects": 12,
+          "native_freeform_paths": 8,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -59,6 +159,145 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:43:56.504028Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "929b5090d845615287829bdc5b1217d53b4fdfe3ef5230f4cbc97adb67204556",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/tsc/README.md",
+                "output/tsc/VALIDATION.json"
+              ],
+              "output_directory": "output/tsc",
+              "source_sha256": "d1c6f490ad32fca34a156f88700c815816d42a7938e55044ab39ad0ecfe802af",
+              "scene_sha256": "33493dd1916a552dd250cc88caeb5b47e9d05eceead164d6cbffdb935e8e8b66",
+              "text_editability": {
+                "typeable_text_objects": 12,
+                "native_freeform_paths": 8,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:49:29.702768Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "35d6bfc08998361fbf38cdb7a90f484f6b73e5f1fa2e2a1e1f7a269fb3c66c0f",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/transition-state-clustering-unsupervised-surgical-trajectory-segmentation-for-robot-learning.json",
+                "https://goldberg.berkeley.edu/pubs/krishnan-ijrr-submission-final.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/transition-state-clustering-unsupervised-surgical-trajectory-segmentation-for-robot-learning.json",
+                "sha256": "bc18c1edc886075c3d69b49d5f56cb640e21ab39061b60323b4c136a0e122698"
+              },
+              "version": "IJRR-2017-author-copy",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Transition State Clustering: Unsupervised Surgical Trajectory Segmentation for Robot Learning",
+              "observed_title": "Transition State Clustering: Unsupervised Surgical Trajectory Segmentation for Robot Learning",
+              "source_url": "https://goldberg.berkeley.edu/pubs/krishnan-ijrr-submission-final.pdf",
+              "source_sha256": "d1c6f490ad32fca34a156f88700c815816d42a7938e55044ab39ad0ecfe802af",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/transition-state-clustering-unsupervised-surgical-trajectory-segmentation-for-robot-learning.json",
+                "https://goldberg.berkeley.edu/pubs/krishnan-ijrr-submission-final.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/transition-state-clustering-unsupervised-surgical-trajectory-segmentation-for-robot-learning.json",
+                "sha256": "bc18c1edc886075c3d69b49d5f56cb640e21ab39061b60323b4c136a0e122698"
+              },
+              "version": "IJRR-2017-author-copy",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/transition-state-clustering-unsupervised-surgical-trajectory-segmentation-for-robot-learning.pdf",
+                "reported_sha256": "d1c6f490ad32fca34a156f88700c815816d42a7938e55044ab39ad0ecfe802af",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 15,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/transition-state-clustering-unsupervised-surgical-trajectory-segmentation-for-robot-learning.json",
+                "https://goldberg.berkeley.edu/pubs/krishnan-ijrr-submission-final.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/transition-state-clustering-unsupervised-surgical-trajectory-segmentation-for-robot-learning.json",
+                "sha256": "bc18c1edc886075c3d69b49d5f56cb640e21ab39061b60323b4c136a0e122698"
+              },
+              "version": "IJRR-2017-author-copy",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 5,
+                  "caption": "Transition state clustering probabilistic models.",
+                  "crop_pdf_points": [
+                    51,
+                    598,
+                    294,
+                    677
+                  ],
+                  "vector_paths": 0,
+                  "native_text_spans": 0,
+                  "raster_images": 1,
+                  "visually_inspected": true,
+                  "notes": "Time-invariant/time-varying/multimodal graphical models embedded as one flat raster; manual native redraw required. Author IJRR2017 manuscript exact title match."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        }
+      }
     }
   ]
 }

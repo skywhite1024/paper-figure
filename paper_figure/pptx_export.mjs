@@ -14,7 +14,7 @@ const lineStyle=(v)=>{
  return style;
 };
 for(const n of d.nodes){
- const position={left:n.x,top:n.y,width:n.width,height:n.height};
+ const position={left:n.x,top:n.y,width:n.width,height:n.height,rotation:n.rotation??0};
  if(n.shape==='image'){
   const b=await fs.readFile(path.resolve(d.asset_base,n.asset));slide.images.add({blob:b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength),contentType:n.asset.toLowerCase().endsWith('.png')?'image/png':'image/jpeg',alt:n.alt,position,fit:'fill'});
   shapes.set(n.id,slide.shapes.add({name:n.id,geometry:'rect',position,fill:'none',line:{fill:'none',width:0}}));continue;

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "no_suitable_figure",
   "created_at": "2026-10-09T20:04:59.503401Z",
-  "updated_at": "2026-10-09T20:14:36.901868Z",
+  "updated_at": "2026-10-09T20:49:29.820019Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,7 +26,7 @@
   },
   "stages": {
     "source_identity": {
-      "status": "reported",
+      "status": "passed",
       "evidence": {
         "references": [
           "research/survey/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies.json",
@@ -35,26 +35,27 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies.json",
-          "sha256": "d7178908d4e5712cecd94d36bdacabecda0f4007fdef56a7894585fe86216200"
+          "sha256": "2305388d1704d67b33be0cf87ae1654df7ee38b2963d27abe6291d03926ad028"
         },
         "version": "2606.06323v3",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "All7figure captions scanned across full14page PDF including appendix. Actual pixels inspected p2Fig1 qualitative task comparison,p4method prose,p8Fig4comparison plots/example,p14Figs6-7prompt text. Figures2 taskphotos,3/5results. No architecture/network/workflow diagram identified. Keep source-only disposition; do not count exported editable figure. Optional new semantic method redraw would not be source figure recreation.",
         "inspected_at": null,
-        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
         "expected_title": "VOLT: Vision and Language Trajectory Segmentation for Faster-than-Demonstration Policies",
         "observed_title": "VOLT: Vision and Language Trajectory Segmentation for Faster-than-Demonstration Policies",
         "source_url": "https://arxiv.org/pdf/2606.06323v3",
         "source_sha256": "d4cd13ab623aef1ae3c4adebfbe525483fbd2d964b8264ea335c70326b45b415",
         "reported_title_match": true,
-        "identity_review_basis": null,
+        "identity_review_basis": "full_source_visual_scan",
         "identity_reviewed": null,
         "title_review_method": null,
         "mismatch_reason": null
       }
     },
     "source_access": {
-      "status": "reported",
+      "status": "passed",
       "evidence": {
         "references": [
           "research/survey/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies.json",
@@ -63,27 +64,79 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies.json",
-          "sha256": "d7178908d4e5712cecd94d36bdacabecda0f4007fdef56a7894585fe86216200"
+          "sha256": "2305388d1704d67b33be0cf87ae1654df7ee38b2963d27abe6291d03926ad028"
         },
         "version": "2606.06323v3",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "All7figure captions scanned across full14page PDF including appendix. Actual pixels inspected p2Fig1 qualitative task comparison,p4method prose,p8Fig4comparison plots/example,p14Figs6-7prompt text. Figures2 taskphotos,3/5results. No architecture/network/workflow diagram identified. Keep source-only disposition; do not count exported editable figure. Optional new semantic method redraw would not be source figure recreation.",
         "inspected_at": null,
-        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
-        "observed_source": {
-          "reported_path": "build/sources/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies.pdf",
-          "reported_sha256": "d4cd13ab623aef1ae3c4adebfbe525483fbd2d964b8264ea335c70326b45b415",
-          "verified_locally": true,
-          "durable": false,
-          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        "summary": "PDF bytes and SHA256 verified in a durable paper-scoped output directory.",
+        "source": {
+          "path": "output/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies/paper-2606.06323v3.pdf",
+          "sha256": "d4cd13ab623aef1ae3c4adebfbe525483fbd2d964b8264ea335c70326b45b415"
         },
-        "page_count": 14,
-        "source_status": "accessible"
+        "page_count": 14
       }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "failed",
+      "evidence": {
+        "references": [
+          "research/survey/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies.json",
+          "https://arxiv.org/pdf/2606.06323v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies.json",
+          "sha256": "2305388d1704d67b33be0cf87ae1654df7ee38b2963d27abe6291d03926ad028"
+        },
+        "version": "2606.06323v3",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "All7figure captions scanned across full14page PDF including appendix. Actual pixels inspected p2Fig1 qualitative task comparison,p4method prose,p8Fig4comparison plots/example,p14Figs6-7prompt text. Figures2 taskphotos,3/5results. No architecture/network/workflow diagram identified. Keep source-only disposition; do not count exported editable figure. Optional new semantic method redraw would not be source figure recreation.",
+        "inspected_at": null,
+        "summary": "All7figure captions scanned across full14page PDF including appendix. Actual pixels inspected p2Fig1 qualitative task comparison,p4method prose,p8Fig4comparison plots/example,p14Figs6-7prompt text. Figures2 taskphotos,3/5results. No architecture/network/workflow diagram identified. Keep source-only disposition; do not count exported editable figure. Optional new semantic method redraw would not be source figure recreation.",
+        "reviewed_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ],
+        "scope": "All14 PDF pages inspected as rendered contact sheets, plus prior detailed figure pages. Seven figures consist of task/comparison photographs, results charts and system/user prompt text. No architecture or method-flow diagram is present; Figure4 illustrates an example decision with task images, trajectories and prose, rather than an architecture. Do not count a converted architecture deliverable.",
+        "visual_scan_coverage": {
+          "page_count": 14,
+          "pages_scanned_1_based": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14
+          ],
+          "contact_sheet_inspected": true,
+          "evidence_files": [
+            "research/survey/volt-pages-1-7.png",
+            "research/survey/volt-pages-8-14.png"
+          ]
+        }
+      }
     },
     "recreation": {
       "status": "pending",
@@ -98,7 +151,34 @@
       "evidence": null
     }
   },
-  "terminal_evidence": null,
+  "terminal_evidence": {
+    "references": [
+      "research/survey/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies.json",
+      "https://arxiv.org/pdf/2606.06323v3"
+    ],
+    "survey_import": true,
+    "survey": {
+      "path": "research/survey/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies.json",
+      "sha256": "2305388d1704d67b33be0cf87ae1654df7ee38b2963d27abe6291d03926ad028"
+    },
+    "version": "2606.06323v3",
+    "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "review_notes": "All7figure captions scanned across full14page PDF including appendix. Actual pixels inspected p2Fig1 qualitative task comparison,p4method prose,p8Fig4comparison plots/example,p14Figs6-7prompt text. Figures2 taskphotos,3/5results. No architecture/network/workflow diagram identified. Keep source-only disposition; do not count exported editable figure. Optional new semantic method redraw would not be source figure recreation.",
+    "inspected_at": null,
+    "summary": "All7figure captions scanned across full14page PDF including appendix. Actual pixels inspected p2Fig1 qualitative task comparison,p4method prose,p8Fig4comparison plots/example,p14Figs6-7prompt text. Figures2 taskphotos,3/5results. No architecture/network/workflow diagram identified. Keep source-only disposition; do not count exported editable figure. Optional new semantic method redraw would not be source figure recreation.",
+    "outcome": "no_suitable_figure",
+    "observed_source": {
+      "reported_path": "output/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies/paper-2606.06323v3.pdf",
+      "reported_sha256": "d4cd13ab623aef1ae3c4adebfbe525483fbd2d964b8264ea335c70326b45b415",
+      "verified_locally": true,
+      "durable": true,
+      "reason": "PDF bytes and SHA256 verified in a durable paper-scoped output directory.",
+      "source": {
+        "path": "output/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies/paper-2606.06323v3.pdf",
+        "sha256": "d4cd13ab623aef1ae3c4adebfbe525483fbd2d964b8264ea335c70326b45b415"
+      }
+    }
+  },
   "history": [
     {
       "revision": 1,
@@ -207,6 +287,159 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:49:29.820019Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "ac54ad624bc389ce59404a183aea3b9d6d436ea0aa0d56f9dd5bab5c5421c6f2",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies.json",
+                "https://arxiv.org/pdf/2606.06323v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies.json",
+                "sha256": "2305388d1704d67b33be0cf87ae1654df7ee38b2963d27abe6291d03926ad028"
+              },
+              "version": "2606.06323v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "All7figure captions scanned across full14page PDF including appendix. Actual pixels inspected p2Fig1 qualitative task comparison,p4method prose,p8Fig4comparison plots/example,p14Figs6-7prompt text. Figures2 taskphotos,3/5results. No architecture/network/workflow diagram identified. Keep source-only disposition; do not count exported editable figure. Optional new semantic method redraw would not be source figure recreation.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "VOLT: Vision and Language Trajectory Segmentation for Faster-than-Demonstration Policies",
+              "observed_title": "VOLT: Vision and Language Trajectory Segmentation for Faster-than-Demonstration Policies",
+              "source_url": "https://arxiv.org/pdf/2606.06323v3",
+              "source_sha256": "d4cd13ab623aef1ae3c4adebfbe525483fbd2d964b8264ea335c70326b45b415",
+              "reported_title_match": true,
+              "identity_review_basis": "full_source_visual_scan",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies.json",
+                "https://arxiv.org/pdf/2606.06323v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies.json",
+                "sha256": "2305388d1704d67b33be0cf87ae1654df7ee38b2963d27abe6291d03926ad028"
+              },
+              "version": "2606.06323v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "All7figure captions scanned across full14page PDF including appendix. Actual pixels inspected p2Fig1 qualitative task comparison,p4method prose,p8Fig4comparison plots/example,p14Figs6-7prompt text. Figures2 taskphotos,3/5results. No architecture/network/workflow diagram identified. Keep source-only disposition; do not count exported editable figure. Optional new semantic method redraw would not be source figure recreation.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in a durable paper-scoped output directory.",
+              "source": {
+                "path": "output/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies/paper-2606.06323v3.pdf",
+                "sha256": "d4cd13ab623aef1ae3c4adebfbe525483fbd2d964b8264ea335c70326b45b415"
+              },
+              "page_count": 14
+            }
+          },
+          "figure_selection": {
+            "status": "failed",
+            "evidence": {
+              "references": [
+                "research/survey/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies.json",
+                "https://arxiv.org/pdf/2606.06323v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies.json",
+                "sha256": "2305388d1704d67b33be0cf87ae1654df7ee38b2963d27abe6291d03926ad028"
+              },
+              "version": "2606.06323v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "All7figure captions scanned across full14page PDF including appendix. Actual pixels inspected p2Fig1 qualitative task comparison,p4method prose,p8Fig4comparison plots/example,p14Figs6-7prompt text. Figures2 taskphotos,3/5results. No architecture/network/workflow diagram identified. Keep source-only disposition; do not count exported editable figure. Optional new semantic method redraw would not be source figure recreation.",
+              "inspected_at": null,
+              "summary": "All7figure captions scanned across full14page PDF including appendix. Actual pixels inspected p2Fig1 qualitative task comparison,p4method prose,p8Fig4comparison plots/example,p14Figs6-7prompt text. Figures2 taskphotos,3/5results. No architecture/network/workflow diagram identified. Keep source-only disposition; do not count exported editable figure. Optional new semantic method redraw would not be source figure recreation.",
+              "reviewed_pages": [
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8,
+                9,
+                10,
+                11,
+                12,
+                13,
+                14
+              ],
+              "scope": "All14 PDF pages inspected as rendered contact sheets, plus prior detailed figure pages. Seven figures consist of task/comparison photographs, results charts and system/user prompt text. No architecture or method-flow diagram is present; Figure4 illustrates an example decision with task images, trajectories and prose, rather than an architecture. Do not count a converted architecture deliverable.",
+              "visual_scan_coverage": {
+                "page_count": 14,
+                "pages_scanned_1_based": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13,
+                  14
+                ],
+                "contact_sheet_inspected": true,
+                "evidence_files": [
+                  "research/survey/volt-pages-1-7.png",
+                  "research/survey/volt-pages-8-14.png"
+                ]
+              }
+            }
+          }
+        },
+        "status": "no_suitable_figure",
+        "terminal_evidence": {
+          "references": [
+            "research/survey/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies.json",
+            "https://arxiv.org/pdf/2606.06323v3"
+          ],
+          "survey_import": true,
+          "survey": {
+            "path": "research/survey/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies.json",
+            "sha256": "2305388d1704d67b33be0cf87ae1654df7ee38b2963d27abe6291d03926ad028"
+          },
+          "version": "2606.06323v3",
+          "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+          "review_notes": "All7figure captions scanned across full14page PDF including appendix. Actual pixels inspected p2Fig1 qualitative task comparison,p4method prose,p8Fig4comparison plots/example,p14Figs6-7prompt text. Figures2 taskphotos,3/5results. No architecture/network/workflow diagram identified. Keep source-only disposition; do not count exported editable figure. Optional new semantic method redraw would not be source figure recreation.",
+          "inspected_at": null,
+          "summary": "All7figure captions scanned across full14page PDF including appendix. Actual pixels inspected p2Fig1 qualitative task comparison,p4method prose,p8Fig4comparison plots/example,p14Figs6-7prompt text. Figures2 taskphotos,3/5results. No architecture/network/workflow diagram identified. Keep source-only disposition; do not count exported editable figure. Optional new semantic method redraw would not be source figure recreation.",
+          "outcome": "no_suitable_figure",
+          "observed_source": {
+            "reported_path": "output/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies/paper-2606.06323v3.pdf",
+            "reported_sha256": "d4cd13ab623aef1ae3c4adebfbe525483fbd2d964b8264ea335c70326b45b415",
+            "verified_locally": true,
+            "durable": true,
+            "reason": "PDF bytes and SHA256 verified in a durable paper-scoped output directory.",
+            "source": {
+              "path": "output/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies/paper-2606.06323v3.pdf",
+              "sha256": "d4cd13ab623aef1ae3c4adebfbe525483fbd2d964b8264ea335c70326b45b415"
             }
           }
         }

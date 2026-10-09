@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "metra-scalable-unsupervised-rl-with-metric-aware-abstraction",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.464702Z",
-  "updated_at": "2026-10-09T20:14:36.468993Z",
+  "updated_at": "2026-10-09T20:43:56.332558Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -125,8 +125,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/metra/README.md",
+          "output/metra/VALIDATION.json"
+        ],
+        "output_directory": "output/metra",
+        "source_sha256": "66833b9b67c78b4f247e795e6c73bbf634ca2983907adf28a8a625eca8c17e5f",
+        "scene_sha256": "74e7b6f997f12ed083cfc8f64e8da1abe5e470288fb8f38436eade5fb112be21",
+        "text_editability": {
+          "typeable_text_objects": 6,
+          "native_freeform_paths": 50,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -289,6 +303,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:43:56.332558Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "62779af403cf4ef7158ec66fbe472a43fd3edfb56543bcb40e6aaa4499382c89",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/metra/README.md",
+                "output/metra/VALIDATION.json"
+              ],
+              "output_directory": "output/metra",
+              "source_sha256": "66833b9b67c78b4f247e795e6c73bbf634ca2983907adf28a8a625eca8c17e5f",
+              "scene_sha256": "74e7b6f997f12ed083cfc8f64e8da1abe5e470288fb8f38436eade5fb112be21",
+              "text_editability": {
+                "typeable_text_objects": 6,
+                "native_freeform_paths": 50,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

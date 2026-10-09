@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "agentic-skill-discovery",
-  "revision": 1,
-  "status": "blocked",
+  "revision": 2,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.481153Z",
-  "updated_at": "2026-10-09T20:04:59.481153Z",
+  "updated_at": "2026-10-09T20:49:33.347422Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -38,8 +38,22 @@
       "evidence": null
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/asd/README.md",
+          "output/asd/VALIDATION.json"
+        ],
+        "output_directory": "output/asd",
+        "source_sha256": "6374fb6056098cd13ec89ff351188529d9af2eabb518707fa6a6428149c6233f",
+        "scene_sha256": "1d16d756d07b123b9ead1d90c1bb29c685539b0718ffe8cdfc6fa01618d4a5a4",
+        "text_editability": {
+          "typeable_text_objects": 10,
+          "native_freeform_paths": 8,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -50,14 +64,7 @@
       "evidence": null
     }
   },
-  "terminal_evidence": {
-    "summary": "Reference only. Figure2 arXiv2405.15019v2 page3 previously inspected; CC BY-NC-ND 4.0. No modified deliverable included.",
-    "references": [
-      "data/catalog.json#paper=agentic-skill-discovery"
-    ],
-    "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
-    "imported_claim_only": true
-  },
+  "terminal_evidence": null,
   "history": [
     {
       "revision": 1,
@@ -66,6 +73,36 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "blocked"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:49:33.347422Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "90225285744c17ea46eb34695187ed51d9302347d6eb5973b646502797bb40a1",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/asd/README.md",
+                "output/asd/VALIDATION.json"
+              ],
+              "output_directory": "output/asd",
+              "source_sha256": "6374fb6056098cd13ec89ff351188529d9af2eabb518707fa6a6428149c6233f",
+              "scene_sha256": "1d16d756d07b123b9ead1d90c1bb29c685539b0718ffe8cdfc6fa01618d4a5a4",
+              "text_editability": {
+                "typeable_text_objects": 10,
+                "native_freeform_paths": 8,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
+            }
+          }
+        }
+      }
     }
   ]
 }

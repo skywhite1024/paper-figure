@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "eurekaverse-environment-curriculum-generation-via-large-language-models",
-  "revision": 3,
+  "revision": 4,
   "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.499228Z",
-  "updated_at": "2026-10-09T20:14:36.201922Z",
+  "updated_at": "2026-10-09T20:49:28.801516Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -35,11 +35,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/eurekaverse-environment-curriculum-generation-via-large-language-models.json",
-          "sha256": "70b2b0a3559c3ef917a6f0e5c779a7805072e586dedc0821893da6b505878b93"
+          "sha256": "5cfc80eddc54b8a80bece13922cf2c1c52da3294685193858820aa50fabe84f4"
         },
         "version": "2411.01775v1",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
         "expected_title": "Eurekaverse: Environment Curriculum Generation via Large Language Models",
@@ -47,7 +47,7 @@
         "source_url": "https://arxiv.org/pdf/2411.01775v1",
         "source_sha256": "ab63c77ce4dd8cae2ebd03594cca5140e90a8c9c6f9daf791badf79208e14459",
         "reported_title_match": false,
-        "identity_review_basis": null,
+        "identity_review_basis": "visually_inspected_source_candidate",
         "identity_reviewed": null,
         "title_review_method": null,
         "mismatch_reason": null
@@ -63,11 +63,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/eurekaverse-environment-curriculum-generation-via-large-language-models.json",
-          "sha256": "70b2b0a3559c3ef917a6f0e5c779a7805072e586dedc0821893da6b505878b93"
+          "sha256": "5cfc80eddc54b8a80bece13922cf2c1c52da3294685193858820aa50fabe84f4"
         },
         "version": "2411.01775v1",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
         "observed_source": {
@@ -82,8 +82,45 @@
       }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/eurekaverse-environment-curriculum-generation-via-large-language-models.json",
+          "https://arxiv.org/pdf/2411.01775v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/eurekaverse-environment-curriculum-generation-via-large-language-models.json",
+          "sha256": "5cfc80eddc54b8a80bece13922cf2c1c52da3294685193858820aa50fabe84f4"
+        },
+        "version": "2411.01775v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 2,
+            "caption": "Eurekaverse learns complex skills via agent-environment co-evolution.",
+            "crop_pdf_points": [
+              105,
+              71,
+              506,
+              190
+            ],
+            "vector_paths": 0,
+            "native_text_spans": 0,
+            "raster_images": 1,
+            "visually_inspected": true,
+            "notes": "Coding LLM environment generation and population policy training/evaluation loop."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -206,6 +243,114 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:49:28.801516Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "a1afefd8e4ca3158312cdb42d2f4c52ce7c54ea6aacdaf65a5059519d66f3075",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/eurekaverse-environment-curriculum-generation-via-large-language-models.json",
+                "https://arxiv.org/pdf/2411.01775v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/eurekaverse-environment-curriculum-generation-via-large-language-models.json",
+                "sha256": "5cfc80eddc54b8a80bece13922cf2c1c52da3294685193858820aa50fabe84f4"
+              },
+              "version": "2411.01775v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "Eurekaverse: Environment Curriculum Generation via Large Language Models",
+              "observed_title": "Eurekaverse: Environment Curriculum Generation via Large Language Models",
+              "source_url": "https://arxiv.org/pdf/2411.01775v1",
+              "source_sha256": "ab63c77ce4dd8cae2ebd03594cca5140e90a8c9c6f9daf791badf79208e14459",
+              "reported_title_match": false,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/eurekaverse-environment-curriculum-generation-via-large-language-models.json",
+                "https://arxiv.org/pdf/2411.01775v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/eurekaverse-environment-curriculum-generation-via-large-language-models.json",
+                "sha256": "5cfc80eddc54b8a80bece13922cf2c1c52da3294685193858820aa50fabe84f4"
+              },
+              "version": "2411.01775v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/eurekaverse-environment-curriculum-generation-via-large-language-models.pdf",
+                "reported_sha256": "ab63c77ce4dd8cae2ebd03594cca5140e90a8c9c6f9daf791badf79208e14459",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 23,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/eurekaverse-environment-curriculum-generation-via-large-language-models.json",
+                "https://arxiv.org/pdf/2411.01775v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/eurekaverse-environment-curriculum-generation-via-large-language-models.json",
+                "sha256": "5cfc80eddc54b8a80bece13922cf2c1c52da3294685193858820aa50fabe84f4"
+              },
+              "version": "2411.01775v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 2,
+                  "caption": "Eurekaverse learns complex skills via agent-environment co-evolution.",
+                  "crop_pdf_points": [
+                    105,
+                    71,
+                    506,
+                    190
+                  ],
+                  "vector_paths": 0,
+                  "native_text_spans": 0,
+                  "raster_images": 1,
+                  "visually_inspected": true,
+                  "notes": "Coding LLM environment generation and population policy training/evaluation loop."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
             }
           }
         }

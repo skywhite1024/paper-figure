@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "from-reaction-to-anticipation-proactive-failure-recovery-through-agentic-task-graph-for-robotic-manipulation-agentchord",
-  "revision": 3,
+  "revision": 4,
   "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.503651Z",
-  "updated_at": "2026-10-09T20:14:36.234525Z",
+  "updated_at": "2026-10-09T20:49:28.834938Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -35,11 +35,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/from-reaction-to-anticipation-proactive-failure-recovery-through-agentic-task-graph-for-robotic-manipulation-agentchord.json",
-          "sha256": "80475e35ff352c32d46af61a5be26a919ac975039a064fe3839101e4ecd14f68"
+          "sha256": "38c8a3ad34533976437c6dca25ede3df3ca8da0214258ccc4a900e2b382bc5be"
         },
         "version": "2605.11951v1",
         "license_note": "unverified",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
         "expected_title": "From Reaction to Anticipation: Proactive Failure Recovery through Agentic Task Graph for Robotic Manipulation (AgentChord)",
@@ -47,7 +47,7 @@
         "source_url": "https://arxiv.org/pdf/2605.11951v1",
         "source_sha256": "56a1a3c839b5850c82f072eea2cbc0f5c7b2da4da864a5b16f8e821d188d6757",
         "reported_title_match": true,
-        "identity_review_basis": null,
+        "identity_review_basis": "visually_inspected_source_candidate",
         "identity_reviewed": null,
         "title_review_method": null,
         "mismatch_reason": null
@@ -63,11 +63,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/from-reaction-to-anticipation-proactive-failure-recovery-through-agentic-task-graph-for-robotic-manipulation-agentchord.json",
-          "sha256": "80475e35ff352c32d46af61a5be26a919ac975039a064fe3839101e4ecd14f68"
+          "sha256": "38c8a3ad34533976437c6dca25ede3df3ca8da0214258ccc4a900e2b382bc5be"
         },
         "version": "2605.11951v1",
         "license_note": "unverified",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
         "observed_source": {
@@ -82,8 +82,45 @@
       }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/from-reaction-to-anticipation-proactive-failure-recovery-through-agentic-task-graph-for-robotic-manipulation-agentchord.json",
+          "https://arxiv.org/pdf/2605.11951v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/from-reaction-to-anticipation-proactive-failure-recovery-through-agentic-task-graph-for-robotic-manipulation-agentchord.json",
+          "sha256": "38c8a3ad34533976437c6dca25ede3df3ca8da0214258ccc4a900e2b382bc5be"
+        },
+        "version": "2605.11951v1",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 4,
+            "caption": "Framework of AgentChord with an example.",
+            "crop_pdf_points": [
+              48,
+              54,
+              561,
+              303
+            ],
+            "vector_paths": 87,
+            "native_text_spans": 127,
+            "raster_images": 19,
+            "visually_inspected": true,
+            "notes": "Task structuring, recovery orchestration, execution compilation agents plus graph sequence and execution frames."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -206,6 +243,114 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:49:28.834938Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "b6d126375461e9eec4b49d875ab9c305aa76f075b9140e833336e486fe9c7391",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/from-reaction-to-anticipation-proactive-failure-recovery-through-agentic-task-graph-for-robotic-manipulation-agentchord.json",
+                "https://arxiv.org/pdf/2605.11951v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/from-reaction-to-anticipation-proactive-failure-recovery-through-agentic-task-graph-for-robotic-manipulation-agentchord.json",
+                "sha256": "38c8a3ad34533976437c6dca25ede3df3ca8da0214258ccc4a900e2b382bc5be"
+              },
+              "version": "2605.11951v1",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "From Reaction to Anticipation: Proactive Failure Recovery through Agentic Task Graph for Robotic Manipulation (AgentChord)",
+              "observed_title": "From Reaction to Anticipation: Proactive Failure Recovery through Agentic Task Graph for Robotic Manipulation",
+              "source_url": "https://arxiv.org/pdf/2605.11951v1",
+              "source_sha256": "56a1a3c839b5850c82f072eea2cbc0f5c7b2da4da864a5b16f8e821d188d6757",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/from-reaction-to-anticipation-proactive-failure-recovery-through-agentic-task-graph-for-robotic-manipulation-agentchord.json",
+                "https://arxiv.org/pdf/2605.11951v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/from-reaction-to-anticipation-proactive-failure-recovery-through-agentic-task-graph-for-robotic-manipulation-agentchord.json",
+                "sha256": "38c8a3ad34533976437c6dca25ede3df3ca8da0214258ccc4a900e2b382bc5be"
+              },
+              "version": "2605.11951v1",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/from-reaction-to-anticipation-proactive-failure-recovery-through-agentic-task-graph-for-robotic-manipulation-agentchord.pdf",
+                "reported_sha256": "56a1a3c839b5850c82f072eea2cbc0f5c7b2da4da864a5b16f8e821d188d6757",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 18,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/from-reaction-to-anticipation-proactive-failure-recovery-through-agentic-task-graph-for-robotic-manipulation-agentchord.json",
+                "https://arxiv.org/pdf/2605.11951v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/from-reaction-to-anticipation-proactive-failure-recovery-through-agentic-task-graph-for-robotic-manipulation-agentchord.json",
+                "sha256": "38c8a3ad34533976437c6dca25ede3df3ca8da0214258ccc4a900e2b382bc5be"
+              },
+              "version": "2605.11951v1",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 4,
+                  "caption": "Framework of AgentChord with an example.",
+                  "crop_pdf_points": [
+                    48,
+                    54,
+                    561,
+                    303
+                  ],
+                  "vector_paths": 87,
+                  "native_text_spans": 127,
+                  "raster_images": 19,
+                  "visually_inspected": true,
+                  "notes": "Task structuring, recovery orchestration, execution compilation agents plus graph sequence and execution frames."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
             }
           }
         }

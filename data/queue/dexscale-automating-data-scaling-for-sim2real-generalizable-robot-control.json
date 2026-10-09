@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "dexscale-automating-data-scaling-for-sim2real-generalizable-robot-control",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 2,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.509293Z",
-  "updated_at": "2026-10-09T20:04:59.509293Z",
+  "updated_at": "2026-10-09T20:49:28.624104Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,101 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/dexscale-automating-data-scaling-for-sim2real-generalizable-robot-control.json",
+          "https://raw.githubusercontent.com/mlresearch/v267/main/assets/liu25k/liu25k.pdf"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/dexscale-automating-data-scaling-for-sim2real-generalizable-robot-control.json",
+          "sha256": "3625db2c80ae23daef873b8633d4e19c0f63686d6900789922e38a01d61a386c"
+        },
+        "version": "official-proceedings",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "DexScale: Automating Data Scaling for Sim2Real Generalizable Robot Control",
+        "observed_title": "DexScale: Automating Data Scaling for Sim2Real Generalizable Robot Control\nGuiliang Liu * 1 Yueci Deng * 2 Runyi Zhao 1 Huayi Zhou 1 Jian Chen 2 Jietao Chen 2 Ruiyan Xu 1\nYunxin Tai 2 Kui Jia 1 2\nAbstract\nA critical prerequisite for achieving generalizable\nrobot control is the availability of a large-scale\nrobot training dataset. Due to the expense of\ncollecting realistic robotic data, recent stud",
+        "source_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/liu25k/liu25k.pdf",
+        "source_sha256": "62ca03103d51755623b6a1fd23e777f22186c29c679650621b0a8c3bea579c67",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/dexscale-automating-data-scaling-for-sim2real-generalizable-robot-control.json",
+          "https://raw.githubusercontent.com/mlresearch/v267/main/assets/liu25k/liu25k.pdf"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/dexscale-automating-data-scaling-for-sim2real-generalizable-robot-control.json",
+          "sha256": "3625db2c80ae23daef873b8633d4e19c0f63686d6900789922e38a01d61a386c"
+        },
+        "version": "official-proceedings",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/dexscale-automating-data-scaling-for-sim2real-generalizable-robot-control.pdf",
+          "reported_sha256": "62ca03103d51755623b6a1fd23e777f22186c29c679650621b0a8c3bea579c67",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 19,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/dexscale-automating-data-scaling-for-sim2real-generalizable-robot-control.json",
+          "https://raw.githubusercontent.com/mlresearch/v267/main/assets/liu25k/liu25k.pdf"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/dexscale-automating-data-scaling-for-sim2real-generalizable-robot-control.json",
+          "sha256": "3625db2c80ae23daef873b8633d4e19c0f63686d6900789922e38a01d61a386c"
+        },
+        "version": "official-proceedings",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 4,
+            "caption": "The pipeline of DexScale operates as a data engine.",
+            "crop_pdf_points": [
+              77,
+              66,
+              518,
+              226
+            ],
+            "vector_paths": 50,
+            "native_text_spans": 36,
+            "raster_images": 15,
+            "visually_inspected": true,
+            "notes": "Four-stage data projection, environment simulation, LLM-assisted scaling and deployment pipeline with source photos/icons."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +144,115 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:49:28.624104Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "117e1cfe3b51dd6a85871d2c24c23daf4588d3d8d6a505eb05cd8152642cb7b6",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/dexscale-automating-data-scaling-for-sim2real-generalizable-robot-control.json",
+                "https://raw.githubusercontent.com/mlresearch/v267/main/assets/liu25k/liu25k.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/dexscale-automating-data-scaling-for-sim2real-generalizable-robot-control.json",
+                "sha256": "3625db2c80ae23daef873b8633d4e19c0f63686d6900789922e38a01d61a386c"
+              },
+              "version": "official-proceedings",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "DexScale: Automating Data Scaling for Sim2Real Generalizable Robot Control",
+              "observed_title": "DexScale: Automating Data Scaling for Sim2Real Generalizable Robot Control\nGuiliang Liu * 1 Yueci Deng * 2 Runyi Zhao 1 Huayi Zhou 1 Jian Chen 2 Jietao Chen 2 Ruiyan Xu 1\nYunxin Tai 2 Kui Jia 1 2\nAbstract\nA critical prerequisite for achieving generalizable\nrobot control is the availability of a large-scale\nrobot training dataset. Due to the expense of\ncollecting realistic robotic data, recent stud",
+              "source_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/liu25k/liu25k.pdf",
+              "source_sha256": "62ca03103d51755623b6a1fd23e777f22186c29c679650621b0a8c3bea579c67",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/dexscale-automating-data-scaling-for-sim2real-generalizable-robot-control.json",
+                "https://raw.githubusercontent.com/mlresearch/v267/main/assets/liu25k/liu25k.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/dexscale-automating-data-scaling-for-sim2real-generalizable-robot-control.json",
+                "sha256": "3625db2c80ae23daef873b8633d4e19c0f63686d6900789922e38a01d61a386c"
+              },
+              "version": "official-proceedings",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/dexscale-automating-data-scaling-for-sim2real-generalizable-robot-control.pdf",
+                "reported_sha256": "62ca03103d51755623b6a1fd23e777f22186c29c679650621b0a8c3bea579c67",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 19,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/dexscale-automating-data-scaling-for-sim2real-generalizable-robot-control.json",
+                "https://raw.githubusercontent.com/mlresearch/v267/main/assets/liu25k/liu25k.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/dexscale-automating-data-scaling-for-sim2real-generalizable-robot-control.json",
+                "sha256": "3625db2c80ae23daef873b8633d4e19c0f63686d6900789922e38a01d61a386c"
+              },
+              "version": "official-proceedings",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 4,
+                  "caption": "The pipeline of DexScale operates as a data engine.",
+                  "crop_pdf_points": [
+                    77,
+                    66,
+                    518,
+                    226
+                  ],
+                  "vector_paths": 50,
+                  "native_text_spans": 36,
+                  "raster_images": 15,
+                  "visually_inspected": true,
+                  "notes": "Four-stage data projection, environment simulation, LLM-assisted scaling and deployment pipeline with source photos/icons."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
     }
   ]
 }

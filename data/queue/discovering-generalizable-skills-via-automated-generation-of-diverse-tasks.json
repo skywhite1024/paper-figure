@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "discovering-generalizable-skills-via-automated-generation-of-diverse-tasks",
-  "revision": 4,
+  "revision": 5,
   "status": "recreated",
   "created_at": "2026-10-09T20:04:59.502590Z",
-  "updated_at": "2026-10-09T20:26:31.171403Z",
+  "updated_at": "2026-10-09T20:49:28.643655Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,7 +26,7 @@
   },
   "stages": {
     "source_identity": {
-      "status": "reported",
+      "status": "passed",
       "evidence": {
         "references": [
           "research/survey/discovering-generalizable-skills-via-automated-generation-of-diverse-tasks.json",
@@ -35,19 +35,20 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/discovering-generalizable-skills-via-automated-generation-of-diverse-tasks.json",
-          "sha256": "7d53896ff740078938f22794bdff498b9f97d8a9d312af347aba5878324b3f2b"
+          "sha256": "5ea75192585656cfac756113a541845209ba79231df3fa89ea18d51bffe67af6"
         },
         "version": "2106.13935v1",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
-        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
         "expected_title": "Discovering Generalizable Skills via Automated Generation of Diverse Tasks",
         "observed_title": "Discovering Generalizable Skills via Automated Generation of Diverse Tasks",
         "source_url": "https://arxiv.org/pdf/2106.13935v1",
         "source_sha256": "72a97883f914888c9d753d0c1e79f0c1efab865ece1ab652961d82804166711e",
         "reported_title_match": true,
-        "identity_review_basis": null,
+        "identity_review_basis": "visually_inspected_source_candidate",
         "identity_reviewed": null,
         "title_review_method": null,
         "mismatch_reason": null
@@ -63,11 +64,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/discovering-generalizable-skills-via-automated-generation-of-diverse-tasks.json",
-          "sha256": "7d53896ff740078938f22794bdff498b9f97d8a9d312af347aba5878324b3f2b"
+          "sha256": "5ea75192585656cfac756113a541845209ba79231df3fa89ea18d51bffe67af6"
         },
         "version": "2106.13935v1",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
         "observed_source": {
@@ -82,8 +83,45 @@
       }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/discovering-generalizable-skills-via-automated-generation-of-diverse-tasks.json",
+          "https://arxiv.org/pdf/2106.13935v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/discovering-generalizable-skills-via-automated-generation-of-diverse-tasks.json",
+          "sha256": "5ea75192585656cfac756113a541845209ba79231df3fa89ea18d51bffe67af6"
+        },
+        "version": "2106.13935v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 3,
+            "caption": "Skill Learning in Diversified Environments (SLIDE).",
+            "crop_pdf_points": [
+              327,
+              58,
+              544,
+              227
+            ],
+            "vector_paths": 36,
+            "native_text_spans": 61,
+            "raster_images": 0,
+            "visually_inspected": true,
+            "notes": "Native skill prior, task generator/discriminator, generated task and skill policy training graph."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "reported",
@@ -251,6 +289,115 @@
                 "native_freeform_paths": 92,
                 "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
               }
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T20:49:28.643655Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "af7fa54bf74944f2b46ebf2cc8dd63e2b8b990dbfd66459dba7400ebe8a07e81",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/discovering-generalizable-skills-via-automated-generation-of-diverse-tasks.json",
+                "https://arxiv.org/pdf/2106.13935v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/discovering-generalizable-skills-via-automated-generation-of-diverse-tasks.json",
+                "sha256": "5ea75192585656cfac756113a541845209ba79231df3fa89ea18d51bffe67af6"
+              },
+              "version": "2106.13935v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Discovering Generalizable Skills via Automated Generation of Diverse Tasks",
+              "observed_title": "Discovering Generalizable Skills via Automated Generation of Diverse Tasks",
+              "source_url": "https://arxiv.org/pdf/2106.13935v1",
+              "source_sha256": "72a97883f914888c9d753d0c1e79f0c1efab865ece1ab652961d82804166711e",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/discovering-generalizable-skills-via-automated-generation-of-diverse-tasks.json",
+                "https://arxiv.org/pdf/2106.13935v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/discovering-generalizable-skills-via-automated-generation-of-diverse-tasks.json",
+                "sha256": "5ea75192585656cfac756113a541845209ba79231df3fa89ea18d51bffe67af6"
+              },
+              "version": "2106.13935v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/discovering-generalizable-skills-via-automated-generation-of-diverse-tasks.pdf",
+                "reported_sha256": "72a97883f914888c9d753d0c1e79f0c1efab865ece1ab652961d82804166711e",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 12,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/discovering-generalizable-skills-via-automated-generation-of-diverse-tasks.json",
+                "https://arxiv.org/pdf/2106.13935v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/discovering-generalizable-skills-via-automated-generation-of-diverse-tasks.json",
+                "sha256": "5ea75192585656cfac756113a541845209ba79231df3fa89ea18d51bffe67af6"
+              },
+              "version": "2106.13935v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 3,
+                  "caption": "Skill Learning in Diversified Environments (SLIDE).",
+                  "crop_pdf_points": [
+                    327,
+                    58,
+                    544,
+                    227
+                  ],
+                  "vector_paths": 36,
+                  "native_text_spans": 61,
+                  "raster_images": 0,
+                  "visually_inspected": true,
+                  "notes": "Native skill prior, task generator/discriminator, generated task and skill policy training graph."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
             }
           }
         }

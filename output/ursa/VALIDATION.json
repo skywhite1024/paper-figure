@@ -1,0 +1,42 @@
+{
+  "diagram_id": "ursa-figure-2",
+  "source_scene_sha256": "2a955a2505b98069aa8b40e26ac98d65e43913c4762e0039c7e2dbeabcf71e46",
+  "source_pdf_sha256": "92a73fad024334ad3c8a932f84cac54f8a8d9ade9131ff99c84c23c3689c3096",
+  "checked_files": [
+    {
+      "name": "ursa-figure-2.drawio",
+      "sha256": "fd9b0ed5ea01155487c6c91bfef3e407f939407df62f806386b9fb53ed6694df"
+    },
+    {
+      "name": "ursa-figure-2.png",
+      "sha256": "1b8905c039f39f1ee67851e0a90cf69d1b7bece4bf08e3b0f73a4caa9a6fd30b"
+    },
+    {
+      "name": "ursa-figure-2.pptx",
+      "sha256": "45d782c3022c5bc4297cb9cfd9b4b62c28a5ffa1453f1278dc634b583e9fcbc0"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 2 PDFpage3 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 87,
+    "p:pic": 6,
+    "a:custGeom": 66,
+    "p:cxnSp": 0,
+    "a:t": 15
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment",
+    "Robot photo, repertoire plot and colorful R glyphs remain6separate raster assets."
+  ]
+}

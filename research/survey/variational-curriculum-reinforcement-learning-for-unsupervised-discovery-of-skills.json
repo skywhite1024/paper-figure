@@ -20,7 +20,7 @@
       "crop_pdf_points": [
         61,
         65,
-        488,
+        535,
         260
       ],
       "vector_paths": 0,
@@ -28,10 +28,16 @@
       "raster_images": 1,
       "source_type": "raster",
       "visually_inspected": true,
-      "notes": "VUVC architecture: goal generative model with uncertainty and density graphs at left, goal-conditioned policy/environment/discriminative model loop at right. Includes cartoon icons and goal-render thumbnails."
+      "notes": "VUVC architecture: goal generative model with uncertainty and density graphs at left, goal-conditioned policy/environment/discriminative model loop at right. Includes cartoon icons and goal-render thumbnails. Corrected full-figure crop after inspecting embedded image bounds: includes right Update theta / Equation 5 label.",
+      "previous_crop_pdf_points": [
+        61,
+        65,
+        488,
+        260
+      ]
     }
   ],
-  "review_notes": "",
+  "review_notes": "Corrected full-figure crop after inspecting embedded image bounds: includes right Update theta / Equation 5 label.",
   "version_evidence": "Version identifier printed in first-page PDF margin",
   "versioned_pdf_url": "https://arxiv.org/pdf/2310.19424v1",
   "inspected_at": "2026-10-09",

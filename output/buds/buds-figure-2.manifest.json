@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "diagram_id": "buds-figure-2",
+  "source_sha256": "de0a7092fd7607980833792b78527e7913498cd63a40b478531900eeb45a5c55",
+  "assets": [
+    {
+      "name": "buds-figure-2-raster-0.png",
+      "sha256": "b3d2ade60356661f498abf2e54c0bbf31fc1e0a8ac863b43cebdb2176d1e582e"
+    },
+    {
+      "name": "buds-figure-2-raster-1.png",
+      "sha256": "bb990cf728b0515b327c6b171b16f436f0ed1c3ce39ce578bc8684cb5107643b"
+    },
+    {
+      "name": "buds-figure-2-raster-2.png",
+      "sha256": "bb93c36c549b75e9238baccad7f6d256c419e5a35024ee69830a2ce9979725f7"
+    }
+  ],
+  "provenance": {
+    "paper_title": "Bottom-Up Skill Discovery from Unsegmented Demonstrations for Long-Horizon Robot Manipulation",
+    "paper_url": "https://arxiv.org/pdf/2109.13841v2",
+    "figure": "Figure 2",
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "notes": "Original BUDS hierarchical policy. Source photos remain discrete raster inserts; clipped output-gripper panel includes source coordinate-axis annotations and those small annotations remain raster. Architecture, control paths and labels are native; formulas preserve embedded glyph outlines.",
+    "page": 4,
+    "status": "figure_recreation",
+    "source_sha256": "150e1c5f5b01487b60519080ddf0cdcb1a888879caf4c3d267bb6f7275d28ead",
+    "source_crop_pdf_points": [
+      96,
+      57,
+      513,
+      183
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "outlined_font_families": [
+      "CMMI",
+      "CMR",
+      "CMSY"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "extraction_warnings": [
+      "29 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 1",
+      "path crosses crop boundary: 2",
+      "path crosses crop boundary: 3",
+      "path crosses crop boundary: 25",
+      "path crosses crop boundary: 28",
+      "path crosses crop boundary: 30",
+      "path partially intersects raster inset: 60",
+      "path partially intersects raster inset: 61",
+      "path partially intersects raster inset: 92",
+      "path partially intersects raster inset: 94",
+      "path partially intersects raster inset: 100044",
+      "unhandled image/shading at seq 93: [391.939453125, 105.57746887207031, 483.77557373046875, 188.9913787841797]; requires reviewed raster region"
+    ],
+    "text_repairs": "Ordinary labels are live Arial text fitted to original PDF bounds; embedded mathematical symbols remain original editable vector glyph paths."
+  },
+  "metrics": {
+    "native_nodes": 178,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 162,
+    "native_text_objects": 16,
+    "raster_images": 3,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "buds-figure-2.drawio",
+      "sha256": "8d9b14a93fa4ca53163489e4d4de6f357e8bf9ff8dca76c0abb4936438f262fe"
+    },
+    {
+      "name": "buds-figure-2.png",
+      "sha256": "c641b89637db2de0ff1d9121b4410f3760d66e57c67d821c3cd4ab9ea97ef73f"
+    },
+    {
+      "name": "buds-figure-2.pptx",
+      "sha256": "85d54ccfe7109514de3cc35d48377b42b936dc1ca529a9b76c10be8e23062666"
+    }
+  ]
+}

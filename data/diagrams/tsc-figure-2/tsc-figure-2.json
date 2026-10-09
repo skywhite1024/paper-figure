@@ -1,0 +1,509 @@
+{
+  "schema_version": 1,
+  "id": "tsc-figure-2",
+  "title": "Transition State Clustering graphical models",
+  "canvas": {
+    "width": 972,
+    "height": 316
+  },
+  "provenance": {
+    "paper_title": "Transition State Clustering: Unsupervised Surgical Trajectory Segmentation for Robot Learning",
+    "paper_url": "https://goldberg.berkeley.edu/pubs/krishnan-ijrr-submission-final.pdf",
+    "figure": "Figure 2",
+    "page": 5,
+    "license": "License not verified; private authorized reference copy",
+    "status": "figure_recreation",
+    "source_sha256": "d1c6f490ad32fca34a156f88700c815816d42a7938e55044ab39ad0ecfe802af",
+    "source_crop_pdf_points": [
+      51,
+      598,
+      294,
+      677
+    ],
+    "notes": "Original three probabilistic graphical models manually recreated from flattened source image. All12 node/title labels typeable;5 dependency arrows are native attached connectors and4diagonal arrows are exact circle-boundary native paths. Font metrics and subpixel line weights approximate source. No raster backdrop."
+  },
+  "nodes": [
+    {
+      "id": "aS",
+      "shape": "ellipse",
+      "label": "S",
+      "x": 64,
+      "y": 72,
+      "width": 84,
+      "height": 84,
+      "fill": "#FFFFFF",
+      "stroke": "#111111",
+      "stroke_width": 1.2,
+      "font_family": "Times New Roman",
+      "font_size": 29,
+      "text_color": "#111111",
+      "align": "center",
+      "text_inset": 0
+    },
+    {
+      "id": "ax",
+      "shape": "ellipse",
+      "label": "x",
+      "x": 64,
+      "y": 216,
+      "width": 84,
+      "height": 84,
+      "fill": "#FFFFFF",
+      "stroke": "#111111",
+      "stroke_width": 1.2,
+      "font_family": "Times New Roman",
+      "font_size": 29,
+      "text_color": "#111111",
+      "align": "center",
+      "text_inset": 0
+    },
+    {
+      "id": "bS",
+      "shape": "ellipse",
+      "label": "S",
+      "x": 362,
+      "y": 72,
+      "width": 84,
+      "height": 84,
+      "fill": "#FFFFFF",
+      "stroke": "#111111",
+      "stroke_width": 1.2,
+      "font_family": "Times New Roman",
+      "font_size": 29,
+      "text_color": "#111111",
+      "align": "center",
+      "text_inset": 0
+    },
+    {
+      "id": "bx",
+      "shape": "ellipse",
+      "label": "x",
+      "x": 278,
+      "y": 216,
+      "width": 84,
+      "height": 84,
+      "fill": "#FFFFFF",
+      "stroke": "#111111",
+      "stroke_width": 1.2,
+      "font_family": "Times New Roman",
+      "font_size": 29,
+      "text_color": "#111111",
+      "align": "center",
+      "text_inset": 0
+    },
+    {
+      "id": "bt",
+      "shape": "ellipse",
+      "label": "t",
+      "x": 448,
+      "y": 216,
+      "width": 84,
+      "height": 84,
+      "fill": "#FFFFFF",
+      "stroke": "#111111",
+      "stroke_width": 1.2,
+      "font_family": "Times New Roman",
+      "font_size": 29,
+      "text_color": "#111111",
+      "align": "center",
+      "text_inset": 0
+    },
+    {
+      "id": "cS",
+      "shape": "ellipse",
+      "label": "S",
+      "x": 726,
+      "y": 72,
+      "width": 84,
+      "height": 84,
+      "fill": "#FFFFFF",
+      "stroke": "#111111",
+      "stroke_width": 1.2,
+      "font_family": "Times New Roman",
+      "font_size": 29,
+      "text_color": "#111111",
+      "align": "center",
+      "text_inset": 0
+    },
+    {
+      "id": "cx",
+      "shape": "ellipse",
+      "label": "x",
+      "x": 576,
+      "y": 216,
+      "width": 84,
+      "height": 84,
+      "fill": "#FFFFFF",
+      "stroke": "#111111",
+      "stroke_width": 1.2,
+      "font_family": "Times New Roman",
+      "font_size": 29,
+      "text_color": "#111111",
+      "align": "center",
+      "text_inset": 0
+    },
+    {
+      "id": "cv",
+      "shape": "ellipse",
+      "label": "v",
+      "x": 726,
+      "y": 216,
+      "width": 84,
+      "height": 84,
+      "fill": "#FFFFFF",
+      "stroke": "#111111",
+      "stroke_width": 1.2,
+      "font_family": "Times New Roman",
+      "font_size": 29,
+      "text_color": "#111111",
+      "align": "center",
+      "text_inset": 0
+    },
+    {
+      "id": "ct",
+      "shape": "ellipse",
+      "label": "t",
+      "x": 880,
+      "y": 216,
+      "width": 84,
+      "height": 84,
+      "fill": "#FFFFFF",
+      "stroke": "#111111",
+      "stroke_width": 1.2,
+      "font_family": "Times New Roman",
+      "font_size": 29,
+      "text_color": "#111111",
+      "align": "center",
+      "text_inset": 0
+    },
+    {
+      "id": "title-a",
+      "shape": "text",
+      "label": "Time-Invariant",
+      "x": 10,
+      "y": 8,
+      "width": 220,
+      "height": 35,
+      "font_family": "Arial",
+      "font_size": 28,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "text_color": "#111111"
+    },
+    {
+      "id": "title-b",
+      "shape": "text",
+      "label": "Time-Varying",
+      "x": 300,
+      "y": 8,
+      "width": 226,
+      "height": 35,
+      "font_family": "Arial",
+      "font_size": 28,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "text_color": "#111111"
+    },
+    {
+      "id": "title-c",
+      "shape": "text",
+      "label": "Multi-modal",
+      "x": 685,
+      "y": 8,
+      "width": 250,
+      "height": 35,
+      "font_family": "Arial",
+      "font_size": 28,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "text_color": "#111111"
+    },
+    {
+      "id": "diag-bt",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 972,
+      "height": 316,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 490,
+            "y": 216
+          }
+        },
+        {
+          "lineTo": {
+            "x": 425.53512699909277,
+            "y": 150.05881730080654
+          }
+        }
+      ],
+      "fill": "none",
+      "stroke": "#111111",
+      "stroke_width": 3.2
+    },
+    {
+      "id": "head-bt",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 972,
+      "height": 316,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 425.53512699909277,
+            "y": 150.05881730080654
+          }
+        },
+        {
+          "lineTo": {
+            "x": 434.60945238464626,
+            "y": 157.4518287844375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 427.74110623211163,
+            "y": 161.55375773664565
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "fill": "#111111",
+      "stroke": "none"
+    },
+    {
+      "id": "diag-bx",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 972,
+      "height": 316,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 320,
+            "y": 216
+          }
+        },
+        {
+          "lineTo": {
+            "x": 382.8374169279884,
+            "y": 150.2787138377342
+          }
+        }
+      ],
+      "fill": "none",
+      "stroke": "#111111",
+      "stroke_width": 3.2
+    },
+    {
+      "id": "head-bx",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 972,
+      "height": 316,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 382.8374169279884,
+            "y": 150.2787138377342
+          }
+        },
+        {
+          "lineTo": {
+            "x": 380.7499512508172,
+            "y": 161.7957658497133
+          }
+        },
+        {
+          "lineTo": {
+            "x": 373.8397200436297,
+            "y": 157.76479764552062
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "fill": "#111111",
+      "stroke": "none"
+    },
+    {
+      "id": "diag-ct",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 972,
+      "height": 316,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 922,
+            "y": 216
+          }
+        },
+        {
+          "lineTo": {
+            "x": 798.6778103558876,
+            "y": 142.68574474836237
+          }
+        }
+      ],
+      "fill": "none",
+      "stroke": "#111111",
+      "stroke_width": 3.2
+    },
+    {
+      "id": "head-ct",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 972,
+      "height": 316,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 798.6778103558876,
+            "y": 142.68574474836237
+          }
+        },
+        {
+          "lineTo": {
+            "x": 809.444450663226,
+            "y": 147.27698167237276
+          }
+        },
+        {
+          "lineTo": {
+            "x": 803.9804992825855,
+            "y": 153.12037412111323
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "fill": "#111111",
+      "stroke": "none"
+    },
+    {
+      "id": "diag-cx",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 972,
+      "height": 316,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 618,
+            "y": 216
+          }
+        },
+        {
+          "lineTo": {
+            "x": 737.7017325167001,
+            "y": 143.08633678396797
+          }
+        }
+      ],
+      "fill": "none",
+      "stroke": "#111111",
+      "stroke_width": 3.2
+    },
+    {
+      "id": "head-cx",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 972,
+      "height": 316,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 737.7017325167001,
+            "y": 143.08633678396797
+          }
+        },
+        {
+          "lineTo": {
+            "x": 732.5365992981185,
+            "y": 153.58973617817864
+          }
+        },
+        {
+          "lineTo": {
+            "x": 726.9963446726008,
+            "y": 147.81863760993102
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "fill": "#111111",
+      "stroke": "none"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e-ax-aS",
+      "source": "ax",
+      "target": "aS",
+      "source_port": "top",
+      "target_port": "bottom",
+      "arrow": true,
+      "stroke": "#111111",
+      "stroke_width": 2
+    },
+    {
+      "id": "e-bx-bt",
+      "source": "bx",
+      "target": "bt",
+      "source_port": "right",
+      "target_port": "left",
+      "arrow": true,
+      "stroke": "#111111",
+      "stroke_width": 2
+    },
+    {
+      "id": "e-cv-cS",
+      "source": "cv",
+      "target": "cS",
+      "source_port": "top",
+      "target_port": "bottom",
+      "arrow": true,
+      "stroke": "#111111",
+      "stroke_width": 2
+    },
+    {
+      "id": "e-cx-cv",
+      "source": "cx",
+      "target": "cv",
+      "source_port": "right",
+      "target_port": "left",
+      "arrow": true,
+      "stroke": "#111111",
+      "stroke_width": 2
+    },
+    {
+      "id": "e-cv-ct",
+      "source": "cv",
+      "target": "ct",
+      "source_port": "right",
+      "target_port": "left",
+      "arrow": true,
+      "stroke": "#111111",
+      "stroke_width": 2
+    }
+  ]
+}

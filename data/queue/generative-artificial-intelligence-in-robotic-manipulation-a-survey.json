@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "generative-artificial-intelligence-in-robotic-manipulation-a-survey",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.458979Z",
-  "updated_at": "2026-10-09T20:14:36.256096Z",
+  "updated_at": "2026-10-09T20:42:50.818243Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -125,8 +125,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/genai-survey/README.md",
+          "output/genai-survey/VALIDATION.json"
+        ],
+        "output_directory": "output/genai-survey",
+        "source_sha256": "d0c553eb4834303a8ec30327f724cc2359e32ce6b69b4d8b8f3cf6cd893df8d8",
+        "scene_sha256": "2151c24e4b5a68f45ec7f48fd638315799053cc1a340b63963944b025c72f565",
+        "text_editability": {
+          "typeable_text_objects": 41,
+          "native_freeform_paths": 218,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -289,6 +303,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:42:50.818243Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "3745b3f8008966710186608240a7b946820f465e619e0339577c756c295ca98d",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/genai-survey/README.md",
+                "output/genai-survey/VALIDATION.json"
+              ],
+              "output_directory": "output/genai-survey",
+              "source_sha256": "d0c553eb4834303a8ec30327f724cc2359e32ce6b69b4d8b8f3cf6cd893df8d8",
+              "scene_sha256": "2151c24e4b5a68f45ec7f48fd638315799053cc1a340b63963944b025c72f565",
+              "text_editability": {
+                "typeable_text_objects": 41,
+                "native_freeform_paths": 218,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

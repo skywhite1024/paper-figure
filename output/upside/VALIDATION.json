@@ -1,0 +1,41 @@
+{
+  "diagram_id": "upside-figure-1",
+  "source_scene_sha256": "eefba34e659d6ebd3f66b5af317040cd5203bd882b5bd7245f3b0bd462abf59c",
+  "source_pdf_sha256": "4ca5e9154fe80d448399b284f25065f7451339757b2266e94405ec7a6aec866e",
+  "checked_files": [
+    {
+      "name": "upside-figure-1.drawio",
+      "sha256": "bc4e1b4948b6e59714cc866569c6b673d73b6f9348910c7b47ebc5c9dcdf5444"
+    },
+    {
+      "name": "upside-figure-1.png",
+      "sha256": "05c4d12257a9428f0dedc480139b762a668b6b839a23a70b8f751bb82150c017"
+    },
+    {
+      "name": "upside-figure-1.pptx",
+      "sha256": "6087058f1f3ed186ced94b86d5c1695184b0baa8955820fabbef02dc2277e379"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 1 PDFpage2 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 362,
+    "p:pic": 0,
+    "a:custGeom": 317,
+    "p:cxnSp": 0,
+    "a:t": 50
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

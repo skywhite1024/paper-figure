@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "diagram_id": "aurora-figure-1",
+  "source_sha256": "428cacce1b0d9220a2b82e9839c7aee11c45a528b7814eb6e07c12056090da4a",
+  "provenance": {
+    "paper_title": "Autonomous Skill Discovery with Quality-Diversity and Unsupervised Descriptors",
+    "paper_url": "https://arxiv.org/abs/1905.11874v1",
+    "figure": "Figure 1",
+    "license": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "notes": "Original vector geometry and editable text; source photo/plot/formula assets preserved separately with their transparency. Internal pixels of raster subassets are not editable. Freeform arrows lack semantic endpoint attachment. Independent cross-format QA pending.",
+    "page": 1,
+    "status": "figure_recreation",
+    "source_sha256": "c20db8b8c02d74e1a128c3901177147ea81711239136a4ba32c64de3361192ac",
+    "source_crop_pdf_points": [
+      344,
+      170,
+      529,
+      320
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "outlined_font_families": [
+      "CMM",
+      "CMSY",
+      "CMEX",
+      "CMR",
+      "CambriaMath"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "extraction_warnings": [
+      "5 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path partially intersects raster inset: 5",
+      "path partially intersects raster inset: 392",
+      "unhandled image/shading at seq 18: [415.5436096191406, 179.95028686523438, 477.4068603515625, 230.288330078125]; requires reviewed raster region"
+    ]
+  },
+  "metrics": {
+    "native_nodes": 217,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 205,
+    "native_text_objects": 12,
+    "raster_images": 2,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "aurora-figure-1.drawio",
+      "sha256": "16b0af96d7ea1541168b87a2e5c00bd0f14537118ba810772ebeb0005ff4004e"
+    },
+    {
+      "name": "aurora-figure-1.png",
+      "sha256": "e3b5626a514f778d50af5adfe298bd1e03909f1f3ee2ea45779091984b707cdf"
+    },
+    {
+      "name": "aurora-figure-1.pptx",
+      "sha256": "ee80dda58f42a73200190f60cb1da162f87f8dbf53d08bf327946df2028180d9"
+    }
+  ]
+}

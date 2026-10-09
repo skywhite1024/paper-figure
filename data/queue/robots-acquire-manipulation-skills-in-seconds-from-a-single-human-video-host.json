@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host",
-  "revision": 3,
+  "revision": 4,
   "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.502874Z",
-  "updated_at": "2026-10-09T20:14:36.669269Z",
+  "updated_at": "2026-10-09T20:49:29.512564Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -35,11 +35,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.json",
-          "sha256": "9a5677e35acee548ee4e16a5dc1ac542e2a9930f31bb2ca83e157f61afa33549"
+          "sha256": "798f2abbb164ce959975d63ffed25b5b41699a61a488a63f7077acd82cf95d00"
         },
         "version": "2607.20033v4",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
         "expected_title": "Robots Acquire Manipulation Skills in Seconds from a Single Human Video (HOST)",
@@ -47,7 +47,7 @@
         "source_url": "https://arxiv.org/pdf/2607.20033v4",
         "source_sha256": "630fa9c51170d37768f35d8febd31f2ae28185865271314c884ab1a5f8f0786b",
         "reported_title_match": true,
-        "identity_review_basis": null,
+        "identity_review_basis": "visually_inspected_source_candidate",
         "identity_reviewed": null,
         "title_review_method": null,
         "mismatch_reason": null
@@ -63,11 +63,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.json",
-          "sha256": "9a5677e35acee548ee4e16a5dc1ac542e2a9930f31bb2ca83e157f61afa33549"
+          "sha256": "798f2abbb164ce959975d63ffed25b5b41699a61a488a63f7077acd82cf95d00"
         },
         "version": "2607.20033v4",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
         "observed_source": {
@@ -82,8 +82,45 @@
       }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.json",
+          "https://arxiv.org/pdf/2607.20033v4"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.json",
+          "sha256": "798f2abbb164ce959975d63ffed25b5b41699a61a488a63f7077acd82cf95d00"
+        },
+        "version": "2607.20033v4",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 4,
+            "caption": "Method overview of HOST.",
+            "crop_pdf_points": [
+              76,
+              80,
+              520,
+              532
+            ],
+            "vector_paths": 432,
+            "native_text_spans": 47,
+            "raster_images": 82,
+            "visually_inspected": true,
+            "notes": "Prediction-target coupling, self-grounded localization/vision/action prediction, and single-human-video skill acquisition architecture."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -206,6 +243,114 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:49:29.512564Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "43d8b022c9ede6cbad0bce2a8f30d568862b76e33cb2385cb6f5b12e9358ee09",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.json",
+                "https://arxiv.org/pdf/2607.20033v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.json",
+                "sha256": "798f2abbb164ce959975d63ffed25b5b41699a61a488a63f7077acd82cf95d00"
+              },
+              "version": "2607.20033v4",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "Robots Acquire Manipulation Skills in Seconds from a Single Human Video (HOST)",
+              "observed_title": "HOST:Robots Acquire Manipulation Skills in Seconds from a Single Human Video",
+              "source_url": "https://arxiv.org/pdf/2607.20033v4",
+              "source_sha256": "630fa9c51170d37768f35d8febd31f2ae28185865271314c884ab1a5f8f0786b",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.json",
+                "https://arxiv.org/pdf/2607.20033v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.json",
+                "sha256": "798f2abbb164ce959975d63ffed25b5b41699a61a488a63f7077acd82cf95d00"
+              },
+              "version": "2607.20033v4",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.pdf",
+                "reported_sha256": "630fa9c51170d37768f35d8febd31f2ae28185865271314c884ab1a5f8f0786b",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 38,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.json",
+                "https://arxiv.org/pdf/2607.20033v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/robots-acquire-manipulation-skills-in-seconds-from-a-single-human-video-host.json",
+                "sha256": "798f2abbb164ce959975d63ffed25b5b41699a61a488a63f7077acd82cf95d00"
+              },
+              "version": "2607.20033v4",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 4,
+                  "caption": "Method overview of HOST.",
+                  "crop_pdf_points": [
+                    76,
+                    80,
+                    520,
+                    532
+                  ],
+                  "vector_paths": 432,
+                  "native_text_spans": 47,
+                  "raster_images": 82,
+                  "visually_inspected": true,
+                  "notes": "Prediction-target coupling, self-grounded localization/vision/action prediction, and single-human-video skill acquisition architecture."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
             }
           }
         }

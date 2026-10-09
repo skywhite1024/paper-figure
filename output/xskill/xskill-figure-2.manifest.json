@@ -1,0 +1,89 @@
+{
+  "schema_version": 1,
+  "diagram_id": "xskill-figure-2",
+  "source_sha256": "3b0b916414a8aad488bce9516430b12cd7993218d87f9fdbb8d6a7641aec237c",
+  "assets": [
+    {
+      "name": "xskill-figure-2-raster-0.png",
+      "sha256": "77ac5e5d281e06ca4fb9cfed3ee89d42630d08716853a231fac9fe2a1b5a1c55"
+    },
+    {
+      "name": "xskill-figure-2-raster-1.png",
+      "sha256": "43875dceff9554a7106d65bbab839803cfea0523723e24297ee2987ee1dd1c42"
+    },
+    {
+      "name": "xskill-figure-2-raster-2.png",
+      "sha256": "7313baab8aa3cfff71d55461a0c19d063827c32f9627fd9dbf79b477511267ca"
+    },
+    {
+      "name": "xskill-figure-2-raster-3.png",
+      "sha256": "989cac1595afe1f06443ed34fddbdc894165a75e45576c06dccf4b704c9eec3f"
+    }
+  ],
+  "provenance": {
+    "paper_title": "XSkill: Cross Embodiment Skill Discovery",
+    "paper_url": "https://proceedings.mlr.press/v229/xu23a/xu23a.pdf",
+    "figure": "Figure 2",
+    "license": "License not independently verified; official PMLR proceedings source",
+    "notes": "Source architecture including temporal encoders, skill prototypes and distribution bar charts retained as native geometry and live text. Four original human/robot demonstration frames remain separately cropped raster images.",
+    "page": 3,
+    "status": "figure_recreation",
+    "source_sha256": "c99c21d537d98e14430b650ed0b02eee012a932b349f53ba08a977e1ab30f5ca",
+    "source_crop_pdf_points": [
+      110,
+      71,
+      508,
+      162
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "outlined_font_families": [
+      "TimesNewRomanPS-BoldItal"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "extraction_warnings": [
+      "6 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 0",
+      "path partially intersects raster inset: 13",
+      "path partially intersects raster inset: 17",
+      "path partially intersects raster inset: 19",
+      "path partially intersects raster inset: 23",
+      "path crosses crop boundary: 25",
+      "path crosses crop boundary: 63",
+      "path crosses crop boundary: 69",
+      "path partially intersects raster inset: 86",
+      "path crosses crop boundary: 98",
+      "unhandled image/shading at seq 14: [150.9268341064453, 85.4818115234375, 209.1416473388672, 117.98323059082031]; requires reviewed raster region",
+      "unhandled image/shading at seq 18: [102.7559814453125, 85.4818115234375, 160.97079467773438, 117.98451232910156]; requires reviewed raster region",
+      "unhandled image/shading at seq 20: [162.69662475585938, 119.81675720214844, 220.91143798828125, 152.3194580078125]; requires reviewed raster region",
+      "unhandled image/shading at seq 24: [115.99642944335938, 119.81675720214844, 174.21124267578125, 152.3194580078125]; requires reviewed raster region"
+    ],
+    "text_repairs": "Ordinary labels remain live Times/Arial text; the three stylized function glyphs retain source outlines. Bottom distribution ellipsis baseline adjusted by one PDF point for substituted font metrics."
+  },
+  "metrics": {
+    "native_nodes": 117,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 85,
+    "native_text_objects": 32,
+    "raster_images": 4,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "xskill-figure-2.drawio",
+      "sha256": "70805fa2f50d5ae02595d48b28622bce7afce524f060418e30eed2e070152ccd"
+    },
+    {
+      "name": "xskill-figure-2.png",
+      "sha256": "545066f6651149582071a9530ec999819bebeb6b2389f262eb89827205f45ca2"
+    },
+    {
+      "name": "xskill-figure-2.pptx",
+      "sha256": "278be24b56828e505b82c0e7f4bed3d8ab7ea17a0a710832c6cffeadf8cef8f1"
+    }
+  ]
+}

@@ -1,0 +1,2385 @@
+{
+  "schema_version": 1,
+  "id": "mod-skill-figure-1",
+  "title": "Diverse Skill Discovery for Quadruped Robots via Unsupervised Learning — source-layout editable reconstruction",
+  "canvas": {
+    "width": 1004,
+    "height": 832
+  },
+  "provenance": {
+    "paper_title": "Diverse Skill Discovery for Quadruped Robots via Unsupervised Learning",
+    "paper_url": "https://arxiv.org/abs/2602.09767v1",
+    "pdf_url": "https://arxiv.org/pdf/2602.09767v1",
+    "figure": "Figure 1",
+    "page": 3,
+    "license": "No reuse license found in inspected source landing page; retain attribution and review reuse terms Private user-requested adaptation; no public redistribution permission implied.",
+    "status": "figure_recreation",
+    "notes": "Manually reconstructed from the inspected original flattened PDF figure. Ordinary labels are live typeable text; panels, graph geometry and arrows are native editable shapes or paths. Source layout and contents retained; font metrics, line widths and decorative effects approximated.",
+    "source_sha256": "8f30a75f0ebc698d59e09576720224bf3194f63e570d386a394a1a77dac9e9f8",
+    "source_crop_pdf_points": [
+      48,
+      48,
+      299,
+      256
+    ],
+    "survey_crop_correction": false,
+    "visual_inspection": "Original PDF figure inspected before source-layout reconstruction on 2026-10-09; independent application QA pending.",
+    "raster_details": [
+      {
+        "id": "quadruped-observation",
+        "bounds_source_pixels": [
+          15,
+          32,
+          274,
+          226
+        ],
+        "detail": "Original quadruped simulation photograph; robot and ground-grid pixels remain raster"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "sampler-panel",
+      "shape": "path",
+      "label": "",
+      "x": 321,
+      "y": 119,
+      "width": 240,
+      "height": 236,
+      "fill": "#EEEEEE",
+      "stroke": "#DDDDDD",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 43,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 197,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 220.74824425,
+            "y1": 0,
+            "x2": 240,
+            "y2": 19.25175575,
+            "x": 240,
+            "y": 43
+          }
+        },
+        {
+          "lineTo": {
+            "x": 240,
+            "y": 193
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 240,
+            "y1": 216.74824425,
+            "x2": 220.74824425,
+            "y2": 236,
+            "x": 197,
+            "y": 236
+          }
+        },
+        {
+          "lineTo": {
+            "x": 43,
+            "y": 236
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 19.25175575,
+            "y1": 236,
+            "x2": 0,
+            "y2": 216.74824425,
+            "x": 0,
+            "y": 193
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 43
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 19.25175575,
+            "x2": 19.25175575,
+            "y2": 0,
+            "x": 43,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 2,
+      "dash": false
+    },
+    {
+      "id": "multi-panel",
+      "shape": "path",
+      "label": "",
+      "x": 608,
+      "y": 23,
+      "width": 386,
+      "height": 297,
+      "fill": "#DFEFF9",
+      "stroke": "#B7DCF4",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 52,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 334,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 362.71880699999997,
+            "y1": 0,
+            "x2": 386,
+            "y2": 23.281193000000002,
+            "x": 386,
+            "y": 52
+          }
+        },
+        {
+          "lineTo": {
+            "x": 386,
+            "y": 245
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 386,
+            "y1": 273.71880699999997,
+            "x2": 362.71880699999997,
+            "y2": 297,
+            "x": 334,
+            "y": 297
+          }
+        },
+        {
+          "lineTo": {
+            "x": 52,
+            "y": 297
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 23.281193000000002,
+            "y1": 297,
+            "x2": 0,
+            "y2": 273.71880699999997,
+            "x": 0,
+            "y": 245
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 52
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 23.281193000000002,
+            "x2": 23.281193000000002,
+            "y2": 0,
+            "x": 52,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 2,
+      "dash": false
+    },
+    {
+      "id": "policy-panel",
+      "shape": "path",
+      "label": "",
+      "x": 187,
+      "y": 407,
+      "width": 605,
+      "height": 402,
+      "fill": "#E1F2D7",
+      "stroke": "#BEDFAE",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 69,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 536,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 574.10764775,
+            "y1": 0,
+            "x2": 605,
+            "y2": 30.892352250000002,
+            "x": 605,
+            "y": 69
+          }
+        },
+        {
+          "lineTo": {
+            "x": 605,
+            "y": 333
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 605,
+            "y1": 371.10764775,
+            "x2": 574.10764775,
+            "y2": 402,
+            "x": 536,
+            "y": 402
+          }
+        },
+        {
+          "lineTo": {
+            "x": 69,
+            "y": 402
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 30.892352250000002,
+            "y1": 402,
+            "x2": 0,
+            "y2": 371.10764775,
+            "x": 0,
+            "y": 333
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 69
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 30.892352250000002,
+            "x2": 30.892352250000002,
+            "y2": 0,
+            "x": 69,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 2,
+      "dash": false
+    },
+    {
+      "id": "quadruped-observation",
+      "shape": "image",
+      "label": "",
+      "x": 15,
+      "y": 32,
+      "width": 259,
+      "height": 194,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/quadruped-observation.png",
+      "alt": "Original quadruped simulation photograph; robot and ground-grid pixels remain raster"
+    },
+    {
+      "id": "motion-panel",
+      "shape": "path",
+      "label": "",
+      "x": 343,
+      "y": 23,
+      "width": 195,
+      "height": 81,
+      "fill": "#FFFFFF",
+      "stroke": "#19395F",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 14,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 181,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 188.7319865,
+            "y1": 0,
+            "x2": 195,
+            "y2": 6.2680135,
+            "x": 195,
+            "y": 14
+          }
+        },
+        {
+          "lineTo": {
+            "x": 195,
+            "y": 67
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 195,
+            "y1": 74.7319865,
+            "x2": 188.7319865,
+            "y2": 81,
+            "x": 181,
+            "y": 81
+          }
+        },
+        {
+          "lineTo": {
+            "x": 14,
+            "y": 81
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 6.2680135,
+            "y1": 81,
+            "x2": 0,
+            "y2": 74.7319865,
+            "x": 0,
+            "y": 67
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 14
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 6.2680135,
+            "x2": 6.2680135,
+            "y2": 0,
+            "x": 14,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 2.6,
+      "dash": false
+    },
+    {
+      "id": "policy-observation-panel",
+      "shape": "path",
+      "label": "",
+      "x": 47,
+      "y": 273,
+      "width": 195,
+      "height": 82,
+      "fill": "#FFFFFF",
+      "stroke": "#19395F",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 14,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 181,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 188.7319865,
+            "y1": 0,
+            "x2": 195,
+            "y2": 6.2680135,
+            "x": 195,
+            "y": 14
+          }
+        },
+        {
+          "lineTo": {
+            "x": 195,
+            "y": 68
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 195,
+            "y1": 75.7319865,
+            "x2": 188.7319865,
+            "y2": 82,
+            "x": 181,
+            "y": 82
+          }
+        },
+        {
+          "lineTo": {
+            "x": 14,
+            "y": 82
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 6.2680135,
+            "y1": 82,
+            "x2": 0,
+            "y2": 75.7319865,
+            "x": 0,
+            "y": 68
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 14
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 6.2680135,
+            "x2": 6.2680135,
+            "y2": 0,
+            "x": 14,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 2.6,
+      "dash": false
+    },
+    {
+      "id": "reward-panel",
+      "shape": "path",
+      "label": "",
+      "x": 906,
+      "y": 454,
+      "width": 79,
+      "height": 81,
+      "fill": "#FFFFFF",
+      "stroke": "#19395F",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 14,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 65,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 72.7319865,
+            "y1": 0,
+            "x2": 79,
+            "y2": 6.2680135,
+            "x": 79,
+            "y": 14
+          }
+        },
+        {
+          "lineTo": {
+            "x": 79,
+            "y": 67
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 79,
+            "y1": 74.7319865,
+            "x2": 72.7319865,
+            "y2": 81,
+            "x": 65,
+            "y": 81
+          }
+        },
+        {
+          "lineTo": {
+            "x": 14,
+            "y": 81
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 6.2680135,
+            "y1": 81,
+            "x2": 0,
+            "y2": 74.7319865,
+            "x": 0,
+            "y": 67
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 14
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 6.2680135,
+            "x2": 6.2680135,
+            "y2": 0,
+            "x": 14,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 2.6,
+      "dash": false
+    },
+    {
+      "id": "action-panel",
+      "shape": "path",
+      "label": "",
+      "x": 906,
+      "y": 644,
+      "width": 79,
+      "height": 82,
+      "fill": "#FFFFFF",
+      "stroke": "#19395F",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 14,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 65,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 72.7319865,
+            "y1": 0,
+            "x2": 79,
+            "y2": 6.2680135,
+            "x": 79,
+            "y": 14
+          }
+        },
+        {
+          "lineTo": {
+            "x": 79,
+            "y": 68
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 79,
+            "y1": 75.7319865,
+            "x2": 72.7319865,
+            "y2": 82,
+            "x": 65,
+            "y": 82
+          }
+        },
+        {
+          "lineTo": {
+            "x": 14,
+            "y": 82
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 6.2680135,
+            "y1": 82,
+            "x2": 0,
+            "y2": 75.7319865,
+            "x": 0,
+            "y": 68
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 14
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 6.2680135,
+            "x2": 6.2680135,
+            "y2": 0,
+            "x": 14,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 2.6,
+      "dash": false
+    },
+    {
+      "id": "motion-label",
+      "shape": "text",
+      "label": "Motion\nObservation oᵐ",
+      "x": 346,
+      "y": 37,
+      "width": 189,
+      "height": 51,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "policy-observation-label",
+      "shape": "text",
+      "label": "Policy\nObservation oᵖ",
+      "x": 50,
+      "y": 286,
+      "width": 189,
+      "height": 54,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "sampler-title",
+      "shape": "text",
+      "label": "Skill Sampler",
+      "x": 336,
+      "y": 139,
+      "width": 208,
+      "height": 34,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 27,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "skill-prior",
+      "shape": "rect",
+      "label": "",
+      "x": 347,
+      "y": 191,
+      "width": 185,
+      "height": 54,
+      "fill": "#C8C8C8",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "latent-skill",
+      "shape": "rect",
+      "label": "",
+      "x": 346,
+      "y": 281,
+      "width": 184,
+      "height": 55,
+      "fill": "#C8C8C8",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "skill-prior-label",
+      "shape": "text",
+      "label": "Skill Prior\nk ∼ P(k)",
+      "x": 350,
+      "y": 192,
+      "width": 179,
+      "height": 49,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "latent-skill-label",
+      "shape": "text",
+      "label": "Latent Skill k",
+      "x": 352,
+      "y": 293,
+      "width": 172,
+      "height": 30,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "multi-title",
+      "shape": "text",
+      "label": "Multi-Discriminator Module",
+      "x": 628,
+      "y": 46,
+      "width": 345,
+      "height": 39,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 28,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "discriminator-1",
+      "shape": "rect",
+      "label": "",
+      "x": 664,
+      "y": 95,
+      "width": 185,
+      "height": 54,
+      "fill": "#91C0E6",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "discriminator-1-label",
+      "shape": "text",
+      "label": "Discriminator 1",
+      "x": 668,
+      "y": 106,
+      "width": 177,
+      "height": 32,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "discriminator-2",
+      "shape": "rect",
+      "label": "",
+      "x": 664,
+      "y": 171,
+      "width": 185,
+      "height": 54,
+      "fill": "#91C0E6",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "discriminator-2-label",
+      "shape": "text",
+      "label": "Discriminator 2",
+      "x": 668,
+      "y": 182,
+      "width": 177,
+      "height": 32,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "discriminator-3",
+      "shape": "rect",
+      "label": "",
+      "x": 664,
+      "y": 248,
+      "width": 185,
+      "height": 54,
+      "fill": "#91C0E6",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "discriminator-3-label",
+      "shape": "text",
+      "label": "Discriminator N",
+      "x": 668,
+      "y": 259,
+      "width": 177,
+      "height": 32,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "discriminator-ellipsis",
+      "shape": "text",
+      "label": "...",
+      "x": 741,
+      "y": 215,
+      "width": 35,
+      "height": 24,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 21,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "policy-title",
+      "shape": "text",
+      "label": "Orthogonal Mixture-of-Experts Policy",
+      "x": 205,
+      "y": 432,
+      "width": 576,
+      "height": 39,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 28,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": true,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "expert-1",
+      "shape": "rect",
+      "label": "",
+      "x": 273,
+      "y": 480,
+      "width": 184,
+      "height": 54,
+      "fill": "#A1D082",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "expert-1-label",
+      "shape": "text",
+      "label": "Expert 1",
+      "x": 277,
+      "y": 491,
+      "width": 176,
+      "height": 33,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "expert-2",
+      "shape": "rect",
+      "label": "",
+      "x": 273,
+      "y": 556,
+      "width": 184,
+      "height": 54,
+      "fill": "#A1D082",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "expert-2-label",
+      "shape": "text",
+      "label": "Expert 2",
+      "x": 277,
+      "y": 567,
+      "width": 176,
+      "height": 33,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "expert-3",
+      "shape": "rect",
+      "label": "",
+      "x": 273,
+      "y": 631,
+      "width": 184,
+      "height": 54,
+      "fill": "#A1D082",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "expert-3-label",
+      "shape": "text",
+      "label": "Expert N",
+      "x": 277,
+      "y": 642,
+      "width": 176,
+      "height": 33,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "expert-4",
+      "shape": "rect",
+      "label": "",
+      "x": 273,
+      "y": 736,
+      "width": 184,
+      "height": 54,
+      "fill": "#A1D082",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "expert-4-label",
+      "shape": "text",
+      "label": "Task Encoder",
+      "x": 277,
+      "y": 747,
+      "width": 176,
+      "height": 33,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "expert-ellipsis",
+      "shape": "text",
+      "label": "...",
+      "x": 348,
+      "y": 603,
+      "width": 35,
+      "height": 24,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 21,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "gram-schmidt",
+      "shape": "rect",
+      "label": "",
+      "x": 537,
+      "y": 556,
+      "width": 206,
+      "height": 54,
+      "fill": "#A1D082",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "gram-schmidt-label",
+      "shape": "text",
+      "label": "Gram-Schmidt\nProcess",
+      "x": 541,
+      "y": 557,
+      "width": 198,
+      "height": 51,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "weighted-sum",
+      "shape": "rect",
+      "label": "",
+      "x": 537,
+      "y": 659,
+      "width": 206,
+      "height": 54,
+      "fill": "#A1D082",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "weighted-sum-label",
+      "shape": "text",
+      "label": "Weighted Sum",
+      "x": 542,
+      "y": 672,
+      "width": 196,
+      "height": 29,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "reward-label",
+      "shape": "text",
+      "label": "r",
+      "x": 918,
+      "y": 470,
+      "width": 55,
+      "height": 45,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 30,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "action-label",
+      "shape": "text",
+      "label": "a",
+      "x": 918,
+      "y": 662,
+      "width": 55,
+      "height": 45,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 30,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "policy-gradient",
+      "shape": "text",
+      "label": "Policy\nGradient",
+      "x": 827,
+      "y": 562,
+      "width": 104,
+      "height": 57,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 23,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "observation-to-motion",
+      "shape": "path",
+      "label": "",
+      "x": 274,
+      "y": 63,
+      "width": 69,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 69,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "observation-to-motion-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 331.0,
+      "y": 57.36,
+      "width": 12.0,
+      "height": 11.280000000000001,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12.0,
+            "y": 5.640000000000001
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 11.280000000000001
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "observation-to-policy",
+      "shape": "path",
+      "label": "",
+      "x": 144,
+      "y": 226,
+      "width": 0.1,
+      "height": 47,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 47
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "observation-to-policy-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 138.36,
+      "y": 261.0,
+      "width": 11.279999999999973,
+      "height": 12.0,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 5.639999999999986,
+            "y": 12.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 11.279999999999973,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "prior-to-latent",
+      "shape": "path",
+      "label": "",
+      "x": 439,
+      "y": 246,
+      "width": 0.1,
+      "height": 34,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 34
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "prior-to-latent-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 433.36,
+      "y": 268.0,
+      "width": 11.279999999999973,
+      "height": 12.0,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 5.639999999999986,
+            "y": 12.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 11.279999999999973,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "motion-to-discriminator",
+      "shape": "path",
+      "label": "",
+      "x": 538,
+      "y": 63,
+      "width": 126,
+      "height": 135,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 46,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 46,
+            "y": 135
+          }
+        },
+        {
+          "lineTo": {
+            "x": 126,
+            "y": 135
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "motion-to-discriminator-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 650.0,
+      "y": 191.42,
+      "width": 14.0,
+      "height": 13.160000000000025,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 14.0,
+            "y": 6.5800000000000125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 13.160000000000025
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "discriminator-input-branch",
+      "shape": "path",
+      "label": "",
+      "x": 630,
+      "y": 122,
+      "width": 34,
+      "height": 152,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 34,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 152
+          }
+        },
+        {
+          "lineTo": {
+            "x": 34,
+            "y": 152
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "discriminator-input-branch-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 650.0,
+      "y": 267.42,
+      "width": 14.0,
+      "height": 13.159999999999968,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 14.0,
+            "y": 6.579999999999984
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 13.159999999999968
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "discriminator-input-branch-head",
+      "shape": "path",
+      "label": "",
+      "x": 650.0,
+      "y": 115.42,
+      "width": 14.0,
+      "height": 13.16000000000001,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 14.0,
+            "y": 6.579999999999998
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 13.16000000000001
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "discriminator-outer-output",
+      "shape": "path",
+      "label": "",
+      "x": 849,
+      "y": 122,
+      "width": 37,
+      "height": 153,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 37,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 37,
+            "y": 153
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 153
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "discriminator-reward",
+      "shape": "path",
+      "label": "",
+      "x": 849,
+      "y": 198,
+      "width": 97,
+      "height": 255,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 97,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 97,
+            "y": 255
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "discriminator-reward-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 939.42,
+      "y": 439.0,
+      "width": 13.160000000000082,
+      "height": 14.0,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 6.580000000000041,
+            "y": 14.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 13.160000000000082,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "latent-route",
+      "shape": "path",
+      "label": "",
+      "x": 144,
+      "y": 336,
+      "width": 294,
+      "height": 46,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 294,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 294,
+            "y": 46
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 46
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "observation-reward-route",
+      "shape": "path",
+      "label": "",
+      "x": 438,
+      "y": 382,
+      "width": 508,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 508,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "policy-route",
+      "shape": "path",
+      "label": "",
+      "x": 144,
+      "y": 355,
+      "width": 129,
+      "height": 408,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 408
+          }
+        },
+        {
+          "lineTo": {
+            "x": 129,
+            "y": 408
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "policy-route-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 259.0,
+      "y": 756.42,
+      "width": 14.0,
+      "height": 13.160000000000082,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 14.0,
+            "y": 6.580000000000041
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 13.160000000000082
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "policy-expert-mid",
+      "shape": "path",
+      "label": "",
+      "x": 144,
+      "y": 583,
+      "width": 129,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 129,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "policy-expert-mid-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 259.0,
+      "y": 576.42,
+      "width": 14.0,
+      "height": 13.160000000000082,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 14.0,
+            "y": 6.580000000000041
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 13.160000000000082
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "expert-input-branch",
+      "shape": "path",
+      "label": "",
+      "x": 233,
+      "y": 507,
+      "width": 40,
+      "height": 153,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 40,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 153
+          }
+        },
+        {
+          "lineTo": {
+            "x": 40,
+            "y": 153
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "expert-input-branch-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 259.0,
+      "y": 653.42,
+      "width": 14.0,
+      "height": 13.160000000000082,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 14.0,
+            "y": 6.580000000000041
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 13.160000000000082
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "expert-input-branch-head",
+      "shape": "path",
+      "label": "",
+      "x": 259.0,
+      "y": 500.42,
+      "width": 14.0,
+      "height": 13.160000000000025,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 14.0,
+            "y": 6.579999999999984
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 13.160000000000025
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "expert-output-branch",
+      "shape": "path",
+      "label": "",
+      "x": 457,
+      "y": 507,
+      "width": 42,
+      "height": 153,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 42,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 42,
+            "y": 153
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 153
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "experts-to-orthogonalize",
+      "shape": "path",
+      "label": "",
+      "x": 457,
+      "y": 583,
+      "width": 80,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 80,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "experts-to-orthogonalize-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 525.0,
+      "y": 577.36,
+      "width": 12.0,
+      "height": 11.279999999999973,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12.0,
+            "y": 5.639999999999986
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 11.279999999999973
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "orthogonalize-to-sum",
+      "shape": "path",
+      "label": "",
+      "x": 640,
+      "y": 610,
+      "width": 0.1,
+      "height": 49,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 49
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "orthogonalize-to-sum-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 634.36,
+      "y": 647.0,
+      "width": 11.279999999999973,
+      "height": 12.0,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 5.639999999999986,
+            "y": 12.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 11.279999999999973,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "encoder-to-sum",
+      "shape": "path",
+      "label": "",
+      "x": 457,
+      "y": 714,
+      "width": 183,
+      "height": 48,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 48
+          }
+        },
+        {
+          "lineTo": {
+            "x": 183,
+            "y": 48
+          }
+        },
+        {
+          "lineTo": {
+            "x": 183,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "encoder-to-sum-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 633.42,
+      "y": 714,
+      "width": 13.160000000000082,
+      "height": 14.0,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 6.580000000000041,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 13.160000000000082,
+            "y": 14.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 14.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "sum-to-action",
+      "shape": "path",
+      "label": "",
+      "x": 743,
+      "y": 687,
+      "width": 162,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 162,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "sum-to-action-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 891.0,
+      "y": 680.42,
+      "width": 14.0,
+      "height": 13.160000000000082,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 14.0,
+            "y": 6.580000000000041
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 13.160000000000082
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "policy-gradient-feedback",
+      "shape": "path",
+      "label": "",
+      "x": 946,
+      "y": 535,
+      "width": 0.1,
+      "height": 109,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 109
+          }
+        }
+      ],
+      "dash": true
+    },
+    {
+      "id": "policy-gradient-feedback-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 939.42,
+      "y": 630.0,
+      "width": 13.160000000000082,
+      "height": 14.0,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 6.580000000000041,
+            "y": 14.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 13.160000000000082,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "policy-gradient-feedback-head",
+      "shape": "path",
+      "label": "",
+      "x": 939.42,
+      "y": 535,
+      "width": 13.160000000000082,
+      "height": 14.0,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 6.580000000000041,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 13.160000000000082,
+            "y": 14.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 14.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    }
+  ],
+  "edges": []
+}

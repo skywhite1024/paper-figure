@@ -59,8 +59,13 @@ def validate(d,base=None):
   require(isinstance(n,dict),'node must be object');text(n.get('id'),'node.id');require(n['id'] not in ids|{'0','1'},'duplicate/reserved ID');ids.add(n['id'])
   require(isinstance(n.get('shape'),str) and n['shape'] in SHAPES,'unsupported shape')
   require(isinstance(n.get('label',''),str),'label must be text')
-  for k in ['x','y','width','height']:number(n.get(k),n['id']+'.'+k,k in ['width','height'])
-  require(n['x']+n['width']<=c['width']+.02 and n['y']+n['height']<=c['height']+.02,'node outside canvas: '+n['id'])
+  rotation=n.get('rotation',0)
+  require(type(rotation) in (int,float) and math.isfinite(rotation) and abs(rotation)<=360,'rotation must be finite degrees in -360..360')
+  for k in ['width','height']:number(n.get(k),n['id']+'.'+k,True)
+  for k in ['x','y']:require(type(n.get(k)) in (int,float) and math.isfinite(n[k]),'finite node position required')
+  angle=math.radians(rotation);half_w=(abs(math.cos(angle))*n['width']+abs(math.sin(angle))*n['height'])/2;half_h=(abs(math.sin(angle))*n['width']+abs(math.cos(angle))*n['height'])/2
+  cx=n['x']+n['width']/2;cy=n['y']+n['height']/2
+  require(cx-half_w>=-.02 and cy-half_h>=-.02 and cx+half_w<=c['width']+.02 and cy+half_h<=c['height']+.02,'node outside canvas: '+n['id'])
   for k in ['fill','stroke','text_color']:
    if k in n:require(isinstance(n[k],str) and (n[k]=='none' or re.fullmatch('#[A-Fa-f0-9]{6}',n[k])),k+': #RRGGBB or none required')
   for k in ['font_size','stroke_width']:

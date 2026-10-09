@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "behavior-contrastive-learning-for-unsupervised-skill-discovery",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.465663Z",
-  "updated_at": "2026-10-09T20:14:35.969060Z",
+  "updated_at": "2026-10-09T20:49:33.407168Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -125,8 +125,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/becl/README.md",
+          "output/becl/VALIDATION.json"
+        ],
+        "output_directory": "output/becl",
+        "source_sha256": "17c5a946c854b64a8042503b5831c6708ea15364be8090872edd3aad5d37c362",
+        "scene_sha256": "b50f166ed8162a552deab65422db8c29ac6c5c2845ee564f20be2300462c7716",
+        "text_editability": {
+          "typeable_text_objects": 47,
+          "native_freeform_paths": 66,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -289,6 +303,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:49:33.407168Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "128b7f1567c1653a78449706ba40eb2a1c0d764ceb8f1865ea6026d7cf549b20",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/becl/README.md",
+                "output/becl/VALIDATION.json"
+              ],
+              "output_directory": "output/becl",
+              "source_sha256": "17c5a946c854b64a8042503b5831c6708ea15364be8090872edd3aad5d37c362",
+              "scene_sha256": "b50f166ed8162a552deab65422db8c29ac6c5c2845ee564f20be2300462c7716",
+              "text_editability": {
+                "typeable_text_objects": 47,
+                "native_freeform_paths": 66,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

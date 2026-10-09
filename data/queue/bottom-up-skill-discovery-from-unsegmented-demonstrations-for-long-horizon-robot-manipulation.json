@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "bottom-up-skill-discovery-from-unsegmented-demonstrations-for-long-horizon-robot-manipulation",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.488926Z",
-  "updated_at": "2026-10-09T20:14:35.986462Z",
+  "updated_at": "2026-10-09T20:43:56.026909Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -124,8 +124,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/buds/README.md",
+          "output/buds/VALIDATION.json"
+        ],
+        "output_directory": "output/buds",
+        "source_sha256": "150e1c5f5b01487b60519080ddf0cdcb1a888879caf4c3d267bb6f7275d28ead",
+        "scene_sha256": "de0a7092fd7607980833792b78527e7913498cd63a40b478531900eeb45a5c55",
+        "text_editability": {
+          "typeable_text_objects": 16,
+          "native_freeform_paths": 162,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -315,6 +329,36 @@
               "no_method_figure_reported": false,
               "visual_scan_coverage": null,
               "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:43:56.026909Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "5d4e83761c584d969ecf9284abf19ab5e2d9f0dca0265bbbf55b1e9b46492bdc",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/buds/README.md",
+                "output/buds/VALIDATION.json"
+              ],
+              "output_directory": "output/buds",
+              "source_sha256": "150e1c5f5b01487b60519080ddf0cdcb1a888879caf4c3d267bb6f7275d28ead",
+              "scene_sha256": "de0a7092fd7607980833792b78527e7913498cd63a40b478531900eeb45a5c55",
+              "text_editability": {
+                "typeable_text_objects": 16,
+                "native_freeform_paths": 162,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

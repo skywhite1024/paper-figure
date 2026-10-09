@@ -1,0 +1,41 @@
+{
+  "diagram_id": "metra-figure-1",
+  "source_scene_sha256": "74e7b6f997f12ed083cfc8f64e8da1abe5e470288fb8f38436eade5fb112be21",
+  "source_pdf_sha256": "66833b9b67c78b4f247e795e6c73bbf634ca2983907adf28a8a625eca8c17e5f",
+  "checked_files": [
+    {
+      "name": "metra-figure-1.drawio",
+      "sha256": "617b502bf97a22f03cb7f96a792114afb3da418f3df2b819318ae8f5df0e941c"
+    },
+    {
+      "name": "metra-figure-1.png",
+      "sha256": "2868833fe933569d39721db7fedc160b8578f0bab70f8c3a6df25a38d64925d9"
+    },
+    {
+      "name": "metra-figure-1.pptx",
+      "sha256": "0d99195f464f90200d3d30a8b4902104394f618999252f9c690b7bbeae373a17"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 1 PDFpage2 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 65,
+    "p:pic": 9,
+    "a:custGeom": 50,
+    "p:cxnSp": 0,
+    "a:t": 6
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

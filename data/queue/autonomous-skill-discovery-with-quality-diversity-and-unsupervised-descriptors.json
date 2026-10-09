@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "autonomous-skill-discovery-with-quality-diversity-and-unsupervised-descriptors",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.472546Z",
-  "updated_at": "2026-10-09T20:14:35.913898Z",
+  "updated_at": "2026-10-09T20:42:50.562525Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -125,8 +125,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/aurora/README.md",
+          "output/aurora/VALIDATION.json"
+        ],
+        "output_directory": "output/aurora",
+        "source_sha256": "c20db8b8c02d74e1a128c3901177147ea81711239136a4ba32c64de3361192ac",
+        "scene_sha256": "428cacce1b0d9220a2b82e9839c7aee11c45a528b7814eb6e07c12056090da4a",
+        "text_editability": {
+          "typeable_text_objects": 12,
+          "native_freeform_paths": 205,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -289,6 +303,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:42:50.562525Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "f5d6ef60574ab5b6a8a8c2ee9d6bfca544ac59b2da82bacadab18988326ca430",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/aurora/README.md",
+                "output/aurora/VALIDATION.json"
+              ],
+              "output_directory": "output/aurora",
+              "source_sha256": "c20db8b8c02d74e1a128c3901177147ea81711239136a4ba32c64de3361192ac",
+              "scene_sha256": "428cacce1b0d9220a2b82e9839c7aee11c45a528b7814eb6e07c12056090da4a",
+              "text_editability": {
+                "typeable_text_objects": 12,
+                "native_freeform_paths": 205,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

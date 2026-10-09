@@ -1,0 +1,54 @@
+{
+  "schema_version": 1,
+  "diagram_id": "hotd-figure-3",
+  "source_sha256": "67a4df9f659411431a5f513abee027c8611097a5b2590b361d4cb4308d157f5e",
+  "provenance": {
+    "paper_title": "Human-Centric Open-Future Task Discovery: Formulation, Benchmark, and Scalable Tree-Based Search",
+    "paper_url": "https://arxiv.org/abs/2511.18929v3",
+    "figure": "Figure 3",
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "notes": "Source native tree, agent icons, rounded containers and ordinary typeable text retain the original layout/colors. Font substitution and supported native PPTX dash presets may vary slightly; source dash arrays are preserved for draw.io. Arrow paths are editable freeforms without semantic node attachments. No raster components. Tiny robot icon hairline strokes were corrected from inspected source paint bounds; nested transform stroke estimates otherwise produced thick black outlines.",
+    "page": 4,
+    "status": "figure_recreation",
+    "source_sha256": "bba9f9d358fd8b8b30a7649a0fc056ef9dba0cf2bba6bb69361148d81002dfb0",
+    "source_crop_pdf_points": [
+      317,
+      51,
+      560,
+      201
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "dash_fidelity": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+    "extraction_warnings": [
+      "23 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 1"
+    ]
+  },
+  "metrics": {
+    "native_nodes": 79,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 54,
+    "native_text_objects": 25,
+    "raster_images": 0,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "hotd-figure-3.drawio",
+      "sha256": "d59ff955e6a973e56a5eb1a3c15b72317b36d1b8769899cd25cb9163c9775c92"
+    },
+    {
+      "name": "hotd-figure-3.png",
+      "sha256": "adeda3467a13cbbe984f5e338e9837abace6618435044dd5b9146adb49cc67c1"
+    },
+    {
+      "name": "hotd-figure-3.pptx",
+      "sha256": "c4cbabedc814d59ad5e199198166977c4534d6282dd6005a67d32d60ffe52771"
+    }
+  ]
+}

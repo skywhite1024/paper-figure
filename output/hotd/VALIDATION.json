@@ -1,0 +1,41 @@
+{
+  "diagram_id": "hotd-figure-3",
+  "source_scene_sha256": "67a4df9f659411431a5f513abee027c8611097a5b2590b361d4cb4308d157f5e",
+  "source_pdf_sha256": "bba9f9d358fd8b8b30a7649a0fc056ef9dba0cf2bba6bb69361148d81002dfb0",
+  "checked_files": [
+    {
+      "name": "hotd-figure-3.drawio",
+      "sha256": "d59ff955e6a973e56a5eb1a3c15b72317b36d1b8769899cd25cb9163c9775c92"
+    },
+    {
+      "name": "hotd-figure-3.png",
+      "sha256": "adeda3467a13cbbe984f5e338e9837abace6618435044dd5b9146adb49cc67c1"
+    },
+    {
+      "name": "hotd-figure-3.pptx",
+      "sha256": "c4cbabedc814d59ad5e199198166977c4534d6282dd6005a67d32d60ffe52771"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 3 PDFpage4 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 79,
+    "p:pic": 0,
+    "a:custGeom": 54,
+    "p:cxnSp": 0,
+    "a:t": 25
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

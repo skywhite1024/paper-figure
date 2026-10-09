@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "a-demonstration-trajectory-segmentation-approach-for-wheelchair-mounted-assistive-robots",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 2,
+  "status": "inaccessible",
   "created_at": "2026-10-09T20:04:59.487525Z",
-  "updated_at": "2026-10-09T20:04:59.487525Z",
+  "updated_at": "2026-10-09T20:49:28.264918Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,12 +26,54 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/a-demonstration-trajectory-segmentation-approach-for-wheelchair-mounted-assistive-robots.json",
+          "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/cit2.12358"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/a-demonstration-trajectory-segmentation-approach-for-wheelchair-mounted-assistive-robots.json",
+          "sha256": "7abebe628bdd91f9abeb6a1b8cc70888ee8d59613d4d6336fb6b8703ff2fbd17"
+        },
+        "version": null,
+        "license_note": "CC BY-NC4.0",
+        "review_notes": "Publisher HTML and web PDF text accessible; local PDF request403, web screenshot failed cache miss. Text confirms Fig2 graphical framework and Fig3 algorithm flowchart, but actual figure pixels not yet acquired. Source license CC BY-NC4.0 on first-page publisher text. Need accessible PDF or figure image; do not mark recreated.",
+        "inspected_at": null,
+        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "expected_title": "A Demonstration Trajectory Segmentation Approach for Wheelchair-Mounted Assistive Robots",
+        "observed_title": null,
+        "source_url": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/cit2.12358",
+        "source_sha256": null,
+        "reported_title_match": true,
+        "identity_review_basis": null,
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "failed",
+      "evidence": {
+        "references": [
+          "research/survey/a-demonstration-trajectory-segmentation-approach-for-wheelchair-mounted-assistive-robots.json",
+          "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/cit2.12358"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/a-demonstration-trajectory-segmentation-approach-for-wheelchair-mounted-assistive-robots.json",
+          "sha256": "7abebe628bdd91f9abeb6a1b8cc70888ee8d59613d4d6336fb6b8703ff2fbd17"
+        },
+        "version": null,
+        "license_note": "CC BY-NC4.0",
+        "review_notes": "Publisher HTML and web PDF text accessible; local PDF request403, web screenshot failed cache miss. Text confirms Fig2 graphical framework and Fig3 algorithm flowchart, but actual figure pixels not yet acquired. Source license CC BY-NC4.0 on first-page publisher text. Need accessible PDF or figure image; do not mark recreated.",
+        "inspected_at": null,
+        "summary": "Publisher HTML and web PDF text accessible; local PDF request403, web screenshot failed cache miss. Text confirms Fig2 graphical framework and Fig3 algorithm flowchart, but actual figure pixels not yet acquired. Source license CC BY-NC4.0 on first-page publisher text. Need accessible PDF or figure image; do not mark recreated.",
+        "source_status": "inaccessible",
+        "access_attempts": null,
+        "http_status": null
+      }
     },
     "figure_selection": {
       "status": "pending",
@@ -50,7 +92,30 @@
       "evidence": null
     }
   },
-  "terminal_evidence": null,
+  "terminal_evidence": {
+    "references": [
+      "research/survey/a-demonstration-trajectory-segmentation-approach-for-wheelchair-mounted-assistive-robots.json",
+      "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/cit2.12358"
+    ],
+    "survey_import": true,
+    "survey": {
+      "path": "research/survey/a-demonstration-trajectory-segmentation-approach-for-wheelchair-mounted-assistive-robots.json",
+      "sha256": "7abebe628bdd91f9abeb6a1b8cc70888ee8d59613d4d6336fb6b8703ff2fbd17"
+    },
+    "version": null,
+    "license_note": "CC BY-NC4.0",
+    "review_notes": "Publisher HTML and web PDF text accessible; local PDF request403, web screenshot failed cache miss. Text confirms Fig2 graphical framework and Fig3 algorithm flowchart, but actual figure pixels not yet acquired. Source license CC BY-NC4.0 on first-page publisher text. Need accessible PDF or figure image; do not mark recreated.",
+    "inspected_at": null,
+    "summary": "Publisher HTML and web PDF text accessible; local PDF request403, web screenshot failed cache miss. Text confirms Fig2 graphical framework and Fig3 algorithm flowchart, but actual figure pixels not yet acquired. Source license CC BY-NC4.0 on first-page publisher text. Need accessible PDF or figure image; do not mark recreated.",
+    "outcome": "inaccessible",
+    "observed_source": {
+      "reported_path": null,
+      "reported_sha256": null,
+      "verified_locally": false,
+      "durable": false,
+      "reason": "No locally verifiable source PDF was supplied."
+    }
+  },
   "history": [
     {
       "revision": 1,
@@ -59,6 +124,92 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:49:28.264918Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "9c04a21d6ee090e873245afb60cd93fe844bcabb3e88a56d3f2b0bcd8afe506b",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/a-demonstration-trajectory-segmentation-approach-for-wheelchair-mounted-assistive-robots.json",
+                "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/cit2.12358"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/a-demonstration-trajectory-segmentation-approach-for-wheelchair-mounted-assistive-robots.json",
+                "sha256": "7abebe628bdd91f9abeb6a1b8cc70888ee8d59613d4d6336fb6b8703ff2fbd17"
+              },
+              "version": null,
+              "license_note": "CC BY-NC4.0",
+              "review_notes": "Publisher HTML and web PDF text accessible; local PDF request403, web screenshot failed cache miss. Text confirms Fig2 graphical framework and Fig3 algorithm flowchart, but actual figure pixels not yet acquired. Source license CC BY-NC4.0 on first-page publisher text. Need accessible PDF or figure image; do not mark recreated.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "A Demonstration Trajectory Segmentation Approach for Wheelchair-Mounted Assistive Robots",
+              "observed_title": null,
+              "source_url": "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/cit2.12358",
+              "source_sha256": null,
+              "reported_title_match": true,
+              "identity_review_basis": null,
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "failed",
+            "evidence": {
+              "references": [
+                "research/survey/a-demonstration-trajectory-segmentation-approach-for-wheelchair-mounted-assistive-robots.json",
+                "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/cit2.12358"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/a-demonstration-trajectory-segmentation-approach-for-wheelchair-mounted-assistive-robots.json",
+                "sha256": "7abebe628bdd91f9abeb6a1b8cc70888ee8d59613d4d6336fb6b8703ff2fbd17"
+              },
+              "version": null,
+              "license_note": "CC BY-NC4.0",
+              "review_notes": "Publisher HTML and web PDF text accessible; local PDF request403, web screenshot failed cache miss. Text confirms Fig2 graphical framework and Fig3 algorithm flowchart, but actual figure pixels not yet acquired. Source license CC BY-NC4.0 on first-page publisher text. Need accessible PDF or figure image; do not mark recreated.",
+              "inspected_at": null,
+              "summary": "Publisher HTML and web PDF text accessible; local PDF request403, web screenshot failed cache miss. Text confirms Fig2 graphical framework and Fig3 algorithm flowchart, but actual figure pixels not yet acquired. Source license CC BY-NC4.0 on first-page publisher text. Need accessible PDF or figure image; do not mark recreated.",
+              "source_status": "inaccessible",
+              "access_attempts": null,
+              "http_status": null
+            }
+          }
+        },
+        "status": "inaccessible",
+        "terminal_evidence": {
+          "references": [
+            "research/survey/a-demonstration-trajectory-segmentation-approach-for-wheelchair-mounted-assistive-robots.json",
+            "https://ietresearch.onlinelibrary.wiley.com/doi/pdf/10.1049/cit2.12358"
+          ],
+          "survey_import": true,
+          "survey": {
+            "path": "research/survey/a-demonstration-trajectory-segmentation-approach-for-wheelchair-mounted-assistive-robots.json",
+            "sha256": "7abebe628bdd91f9abeb6a1b8cc70888ee8d59613d4d6336fb6b8703ff2fbd17"
+          },
+          "version": null,
+          "license_note": "CC BY-NC4.0",
+          "review_notes": "Publisher HTML and web PDF text accessible; local PDF request403, web screenshot failed cache miss. Text confirms Fig2 graphical framework and Fig3 algorithm flowchart, but actual figure pixels not yet acquired. Source license CC BY-NC4.0 on first-page publisher text. Need accessible PDF or figure image; do not mark recreated.",
+          "inspected_at": null,
+          "summary": "Publisher HTML and web PDF text accessible; local PDF request403, web screenshot failed cache miss. Text confirms Fig2 graphical framework and Fig3 algorithm flowchart, but actual figure pixels not yet acquired. Source license CC BY-NC4.0 on first-page publisher text. Need accessible PDF or figure image; do not mark recreated.",
+          "outcome": "inaccessible",
+          "observed_source": {
+            "reported_path": null,
+            "reported_sha256": null,
+            "verified_locally": false,
+            "durable": false,
+            "reason": "No locally verifiable source PDF was supplied."
+          }
+        }
+      }
     }
   ]
 }

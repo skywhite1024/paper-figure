@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "affordgen-generating-diverse-demonstrations-for-generalizable-object-manipulation-with-affordance-correspondence",
-  "revision": 4,
+  "revision": 5,
   "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.504193Z",
-  "updated_at": "2026-10-09T20:14:35.856691Z",
+  "updated_at": "2026-10-09T20:49:28.321437Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,7 +26,7 @@
   },
   "stages": {
     "source_identity": {
-      "status": "reported",
+      "status": "passed",
       "evidence": {
         "references": [
           "research/survey/affordgen-generating-diverse-demonstrations-for-generalizable-object-manipulation-with-affordance-correspondence.json",
@@ -35,19 +35,20 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/affordgen-generating-diverse-demonstrations-for-generalizable-object-manipulation-with-affordance-correspondence.json",
-          "sha256": "0e7d216d0e35297daa6ea7fdb511d97672bd5bdf638d4adfb88101805d134f2d"
+          "sha256": "bdf930c3a955fd6f0e4fe7b3b764c6f939a1d6f5395e49514c1266845e9cdd5a"
         },
         "version": "2604.10579v2",
         "license_note": "unverified",
-        "review_notes": "ArXiv HTML citation_title uses Afford Correspondence; actual versionedPDF title prints Affordance Correspondence and exactly matches catalog. Figure inspection still pending.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
-        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
         "expected_title": "AffordGen: Generating Diverse Demonstrations for Generalizable Object Manipulation with Affordance Correspondence",
         "observed_title": "AffordGen: Generating Diverse Demonstrations for Generalizable Object Manipulation with Affordance Correspondence",
         "source_url": "https://arxiv.org/pdf/2604.10579v2",
         "source_sha256": "5a09d77acf94de283636145754492b3ca9bbb3d08ed51e87960820f2c4f8f0c7",
         "reported_title_match": true,
-        "identity_review_basis": null,
+        "identity_review_basis": "visually_inspected_source_candidate",
         "identity_reviewed": null,
         "title_review_method": null,
         "mismatch_reason": null
@@ -63,11 +64,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/affordgen-generating-diverse-demonstrations-for-generalizable-object-manipulation-with-affordance-correspondence.json",
-          "sha256": "0e7d216d0e35297daa6ea7fdb511d97672bd5bdf638d4adfb88101805d134f2d"
+          "sha256": "bdf930c3a955fd6f0e4fe7b3b764c6f939a1d6f5395e49514c1266845e9cdd5a"
         },
         "version": "2604.10579v2",
         "license_note": "unverified",
-        "review_notes": "ArXiv HTML citation_title uses Afford Correspondence; actual versionedPDF title prints Affordance Correspondence and exactly matches catalog. Figure inspection still pending.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
         "observed_source": {
@@ -82,8 +83,45 @@
       }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/affordgen-generating-diverse-demonstrations-for-generalizable-object-manipulation-with-affordance-correspondence.json",
+          "https://arxiv.org/pdf/2604.10579v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/affordgen-generating-diverse-demonstrations-for-generalizable-object-manipulation-with-affordance-correspondence.json",
+          "sha256": "bdf930c3a955fd6f0e4fe7b3b764c6f939a1d6f5395e49514c1266845e9cdd5a"
+        },
+        "version": "2604.10579v2",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 3,
+            "caption": "AffordGen demonstration preprocessing, correspondence prediction and diverse demonstration generation.",
+            "crop_pdf_points": [
+              108,
+              82,
+              502,
+              297
+            ],
+            "vector_paths": 45,
+            "native_text_spans": 17,
+            "raster_images": 31,
+            "visually_inspected": true,
+            "notes": "Three-stage method overview dominated by object/robot renderings; source title manually verified."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -297,6 +335,115 @@
               },
               "page_count": 15,
               "source_status": "accessible"
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T20:49:28.321437Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "ca36f8ce66095340f2ad71a208276cc5bc122779c8d3b83baba80624afb69b29",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/affordgen-generating-diverse-demonstrations-for-generalizable-object-manipulation-with-affordance-correspondence.json",
+                "https://arxiv.org/pdf/2604.10579v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/affordgen-generating-diverse-demonstrations-for-generalizable-object-manipulation-with-affordance-correspondence.json",
+                "sha256": "bdf930c3a955fd6f0e4fe7b3b764c6f939a1d6f5395e49514c1266845e9cdd5a"
+              },
+              "version": "2604.10579v2",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "AffordGen: Generating Diverse Demonstrations for Generalizable Object Manipulation with Affordance Correspondence",
+              "observed_title": "AffordGen: Generating Diverse Demonstrations for Generalizable Object Manipulation with Affordance Correspondence",
+              "source_url": "https://arxiv.org/pdf/2604.10579v2",
+              "source_sha256": "5a09d77acf94de283636145754492b3ca9bbb3d08ed51e87960820f2c4f8f0c7",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/affordgen-generating-diverse-demonstrations-for-generalizable-object-manipulation-with-affordance-correspondence.json",
+                "https://arxiv.org/pdf/2604.10579v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/affordgen-generating-diverse-demonstrations-for-generalizable-object-manipulation-with-affordance-correspondence.json",
+                "sha256": "bdf930c3a955fd6f0e4fe7b3b764c6f939a1d6f5395e49514c1266845e9cdd5a"
+              },
+              "version": "2604.10579v2",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/affordgen-generating-diverse-demonstrations-for-generalizable-object-manipulation-with-affordance-correspondence.pdf",
+                "reported_sha256": "5a09d77acf94de283636145754492b3ca9bbb3d08ed51e87960820f2c4f8f0c7",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 15,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/affordgen-generating-diverse-demonstrations-for-generalizable-object-manipulation-with-affordance-correspondence.json",
+                "https://arxiv.org/pdf/2604.10579v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/affordgen-generating-diverse-demonstrations-for-generalizable-object-manipulation-with-affordance-correspondence.json",
+                "sha256": "bdf930c3a955fd6f0e4fe7b3b764c6f939a1d6f5395e49514c1266845e9cdd5a"
+              },
+              "version": "2604.10579v2",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 3,
+                  "caption": "AffordGen demonstration preprocessing, correspondence prediction and diverse demonstration generation.",
+                  "crop_pdf_points": [
+                    108,
+                    82,
+                    502,
+                    297
+                  ],
+                  "vector_paths": 45,
+                  "native_text_spans": 17,
+                  "raster_images": 31,
+                  "visually_inspected": true,
+                  "notes": "Three-stage method overview dominated by object/robot renderings; source title manually verified."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
             }
           }
         }

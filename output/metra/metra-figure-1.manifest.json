@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "diagram_id": "metra-figure-1",
+  "source_sha256": "74e7b6f997f12ed083cfc8f64e8da1abe5e470288fb8f38436eade5fb112be21",
+  "provenance": {
+    "paper_title": "METRA: Scalable Unsupervised RL with Metric-Aware Abstraction",
+    "paper_url": "https://arxiv.org/abs/2310.08887v2",
+    "figure": "Figure 1",
+    "license": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+    "notes": "Original manifold/sphere geometry, arrows and source math glyph outlines preserved. Near/far labels and explanatory callout are typeable text, with a Times New Roman substitute for embedded CMU Serif. Nine ant-state thumbnails remain independent transparent raster images; no whole-figure raster is embedded.",
+    "page": 2,
+    "status": "figure_recreation",
+    "source_sha256": "66833b9b67c78b4f247e795e6c73bbf634ca2983907adf28a8a625eca8c17e5f",
+    "source_crop_pdf_points": [
+      119,
+      49,
+      508,
+      209
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "CMU Serif and Nimbus Roman ordinary labels use Times New Roman or the editor Times-compatible fallback. Original geometry and math outlines retained.",
+    "outlined_font_families": [
+      "CMSY",
+      "CMR",
+      "CMBX",
+      "MSBM"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "dash_fidelity": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+    "extraction_warnings": [
+      "4 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 2"
+    ],
+    "reviewed_arrow_repair": "Straight thumbnail arrows use explicit union outlines; curved thumbnail arrow uses separate source subpaths, avoiding editor even-odd cancellation at the shaft/head join.",
+    "text_editability": "Ordinary diagram labels and panel/callout prose are native typeable text. Mathematical glyph outlines, where present, remain editable point paths, not live equations."
+  },
+  "metrics": {
+    "native_nodes": 56,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 50,
+    "native_text_objects": 6,
+    "raster_images": 9,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "metra-figure-1.drawio",
+      "sha256": "617b502bf97a22f03cb7f96a792114afb3da418f3df2b819318ae8f5df0e941c"
+    },
+    {
+      "name": "metra-figure-1.png",
+      "sha256": "2868833fe933569d39721db7fedc160b8578f0bab70f8c3a6df25a38d64925d9"
+    },
+    {
+      "name": "metra-figure-1.pptx",
+      "sha256": "0d99195f464f90200d3d30a8b4902104394f618999252f9c690b7bbeae373a17"
+    }
+  ]
+}

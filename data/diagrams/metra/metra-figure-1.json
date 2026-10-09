@@ -1,0 +1,7403 @@
+{
+  "schema_version": 1,
+  "id": "metra-figure-1",
+  "title": "METRA: Scalable Unsupervised RL with Metric-Aware Abstraction · Figure 1",
+  "canvas": {
+    "width": 1167.0,
+    "height": 480.0
+  },
+  "provenance": {
+    "paper_title": "METRA: Scalable Unsupervised RL with Metric-Aware Abstraction",
+    "paper_url": "https://arxiv.org/abs/2310.08887v2",
+    "figure": "Figure 1",
+    "license": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+    "notes": "Original manifold/sphere geometry, arrows and source math glyph outlines preserved. Near/far labels and explanatory callout are typeable text, with a Times New Roman substitute for embedded CMU Serif. Nine ant-state thumbnails remain independent transparent raster images; no whole-figure raster is embedded.",
+    "page": 2,
+    "status": "figure_recreation",
+    "source_sha256": "66833b9b67c78b4f247e795e6c73bbf634ca2983907adf28a8a625eca8c17e5f",
+    "source_crop_pdf_points": [
+      119,
+      49,
+      508,
+      209
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "CMU Serif and Nimbus Roman ordinary labels use Times New Roman or the editor Times-compatible fallback. Original geometry and math outlines retained.",
+    "outlined_font_families": [
+      "CMSY",
+      "CMR",
+      "CMBX",
+      "MSBM"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "dash_fidelity": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+    "extraction_warnings": [
+      "4 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 2"
+    ],
+    "reviewed_arrow_repair": "Straight thumbnail arrows use explicit union outlines; curved thumbnail arrow uses separate source subpaths, avoiding editor even-odd cancellation at the shaft/head join.",
+    "text_editability": "Ordinary diagram labels and panel/callout prose are native typeable text. Mathematical glyph outlines, where present, remain editable point paths, not live equations."
+  },
+  "nodes": [
+    {
+      "id": "pdf-path-3",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 196.54486083984375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 135.96185302734375,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1017.4187622070312,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 881.4568176269531,
+            "y": 196.54486083984375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 196.54486083984375
+          }
+        }
+      ],
+      "x": 34.4329833984375,
+      "y": 160.26992797851562,
+      "width": 1017.4187622070312,
+      "height": 196.54486083984375,
+      "fill": "#DEE8FA",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 0.5019999742507935,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 3,
+      "source_even_odd": true
+    },
+    {
+      "id": "pdf-path-4",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 196.54486083984375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 135.96185302734375,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1017.4191284179688,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 881.457275390625,
+            "y": 196.54486083984375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 196.54486083984375
+          }
+        }
+      ],
+      "x": 34.4329833984375,
+      "y": 160.26992797851562,
+      "width": 1017.4191284179688,
+      "height": 196.54486083984375,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 0.8458499908447266,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 4,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-5",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 149.2079315185547
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 66.80261993408203,
+            "x2": 167.72959899902344,
+            "y2": 0.0,
+            "x": 374.63465881347656,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 581.5397186279297,
+            "y1": 0.0,
+            "x2": 749.2690887451172,
+            "y2": 66.80261993408203,
+            "x": 749.2690887451172,
+            "y": 149.2079315185547
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 749.2690887451172,
+            "y1": 231.61317443847656,
+            "x2": 581.5397186279297,
+            "y2": 298.4158630371094,
+            "x": 374.63465881347656,
+            "y": 298.4158630371094
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 167.72959899902344,
+            "y1": 298.4158630371094,
+            "x2": 0.0,
+            "y2": 231.61317443847656,
+            "x": 0.0,
+            "y": 149.2079315185547
+          }
+        }
+      ],
+      "x": 173.39845275878906,
+      "y": 109.33447265625,
+      "width": 749.2690887451172,
+      "height": 298.4158630371094,
+      "fill": "#F54154",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 0.20000000298023224,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 5,
+      "source_even_odd": true
+    },
+    {
+      "id": "pdf-path-6",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 149.2079315185547
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 66.80268859863281,
+            "x2": 167.72964477539062,
+            "y2": 0.0,
+            "x": 374.63465881347656,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 581.5397186279297,
+            "y1": 0.0,
+            "x2": 749.2692718505859,
+            "y2": 66.80268859863281,
+            "x": 749.2692718505859,
+            "y": 149.2079315185547
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 749.2692718505859,
+            "y1": 231.61317443847656,
+            "x2": 581.5397186279297,
+            "y2": 298.4158630371094,
+            "x": 374.63465881347656,
+            "y": 298.4158630371094
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 167.72964477539062,
+            "y1": 298.4158630371094,
+            "x2": 0.0,
+            "y2": 231.61317443847656,
+            "x": 0.0,
+            "y": 149.2079315185547
+          }
+        }
+      ],
+      "x": 173.39845275878906,
+      "y": 109.33447265625,
+      "width": 749.2692718505859,
+      "height": 298.4158630371094,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 0.8458499908447266,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 6,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-7",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 74.09646606445312
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 33.17417907714844,
+            "x2": 167.7296905517578,
+            "y2": 0.0,
+            "x": 374.63465881347656,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 581.5396270751953,
+            "y1": 0.0,
+            "x2": 749.2692718505859,
+            "y2": 33.17417907714844,
+            "x": 749.2692718505859,
+            "y": 74.09646606445312
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 749.2692718505859,
+            "y1": 115.01875305175781,
+            "x2": 581.5396270751953,
+            "y2": 148.19293212890625,
+            "x": 374.63465881347656,
+            "y": 148.19293212890625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 167.7296905517578,
+            "y1": 148.19293212890625,
+            "x2": 0.0,
+            "y2": 115.01875305175781,
+            "x": 0.0,
+            "y": 74.09646606445312
+          }
+        }
+      ],
+      "x": 173.30616760253906,
+      "y": 184.35365295410156,
+      "width": 749.2692718505859,
+      "height": 148.19293212890625,
+      "fill": "#BCCBE7",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 7,
+      "source_even_odd": true
+    },
+    {
+      "id": "pdf-path-8",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 74.09646606445312
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 33.174110412597656,
+            "x2": 167.72964477539062,
+            "y2": 0.0,
+            "x": 374.63465881347656,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 581.5395355224609,
+            "y1": 0.0,
+            "x2": 749.2692718505859,
+            "y2": 33.174110412597656,
+            "x": 749.2692718505859,
+            "y": 74.09646606445312
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 749.2692718505859,
+            "y1": 115.01884460449219,
+            "x2": 581.5395355224609,
+            "y2": 148.19293212890625,
+            "x": 374.63465881347656,
+            "y": 148.19293212890625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 167.72964477539062,
+            "y1": 148.19293212890625,
+            "x2": 0.0,
+            "y2": 115.01884460449219,
+            "x": 0.0,
+            "y": 74.09646606445312
+          }
+        }
+      ],
+      "x": 173.30616760253906,
+      "y": 184.35365295410156,
+      "width": 749.2692718505859,
+      "height": 148.19293212890625,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.9031624794006348,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": true,
+      "dash_style": "dashed",
+      "source_dash": "[ 2.53755 1.9031625 ] 0",
+      "dash_pattern": [
+        7.61265,
+        5.7094875
+      ],
+      "dash_phase": 0.0,
+      "dash_approximation": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+      "source_seqno": 8,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-9",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 32.514862060546875,
+            "y1": 0.0,
+            "x2": 58.87335205078125,
+            "y2": 66.80268859863281,
+            "x": 58.87335205078125,
+            "y": 149.2079315185547
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 58.87335205078125,
+            "y1": 231.56021118164062,
+            "x2": 32.547454833984375,
+            "y2": 298.3409729003906,
+            "x": 0.053558349609375,
+            "y": 298.4158172607422
+          }
+        }
+      ],
+      "x": 542.6833190917969,
+      "y": 109.33447265625,
+      "width": 58.87335205078125,
+      "height": 298.4158172607422,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 0.8458499908447266,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": true,
+      "dash_style": "dashed",
+      "source_dash": "[ 1.1278 .84585 ] 0",
+      "dash_pattern": [
+        3.3834,
+        2.53755
+      ],
+      "dash_phase": 0.0,
+      "dash_approximation": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+      "source_seqno": 9,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-10",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 58.87335205078125,
+            "y": 298.4158172607422
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 26.358489990234375,
+            "y1": 298.4158172607422,
+            "x2": 0.0,
+            "y2": 231.61312866210938,
+            "x": 0.0,
+            "y": 149.2078857421875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 66.85558319091797,
+            "x2": 26.325897216796875,
+            "y2": 0.07486724853515625,
+            "x": 58.819793701171875,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 483.8057556152344,
+      "y": 109.33451843261719,
+      "width": 58.87335205078125,
+      "height": 298.4158172607422,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 0.8458499908447266,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 10,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-11",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.10711669921875,
+            "y": 298.2796096801758
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 542.6811218261719,
+      "y": 109.33440399169922,
+      "width": 0.10711669921875,
+      "height": 298.2796096801758,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 0.8458499908447266,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 11,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-12",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 147.3511505126953
+          }
+        },
+        {
+          "lineTo": {
+            "x": 101.69119262695312,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 491.93023681640625,
+      "y": 185.36865234375,
+      "width": 101.69119262695312,
+      "height": 147.3511505126953,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 0.8458499908447266,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 12,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-13",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 749.3234710693359,
+            "y": 4.57763671875e-05
+          }
+        }
+      ],
+      "x": 173.39845275878906,
+      "y": 258.6346893310547,
+      "width": 749.3234710693359,
+      "height": 0.01,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 0.8458499908447266,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 13,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-source-image-0",
+      "shape": "image",
+      "asset": "metra-figure-1-source-image-0.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 523.3496704101562,
+      "y": 239.2416229248047,
+      "width": 38.57080078125,
+      "height": 38.57075500488281
+    },
+    {
+      "id": "pdf-source-image-1",
+      "shape": "image",
+      "asset": "metra-figure-1-source-image-1.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 474.8132629394531,
+      "y": 312.5076141357422,
+      "width": 38.57080078125,
+      "height": 38.57075500488281
+    },
+    {
+      "id": "pdf-source-image-2",
+      "shape": "image",
+      "asset": "metra-figure-1-source-image-2.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 810.3235473632812,
+      "y": 239.2415771484375,
+      "width": 38.57080078125,
+      "height": 38.38623046875
+    },
+    {
+      "id": "pdf-source-image-3",
+      "shape": "image",
+      "asset": "metra-figure-1-source-image-3.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 247.26425170898438,
+      "y": 239.2415771484375,
+      "width": 38.38623046875,
+      "height": 38.38623046875
+    },
+    {
+      "id": "pdf-source-image-4",
+      "shape": "image",
+      "asset": "metra-figure-1-source-image-4.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 523.3496704101562,
+      "y": 147.5207061767578,
+      "width": 38.57080078125,
+      "height": 38.57075500488281
+    },
+    {
+      "id": "pdf-text-12-0",
+      "shape": "text",
+      "label": "Temporally close",
+      "x": 328.8676300048828,
+      "y": 197.32501044273377,
+      "width": 200.88404846191406,
+      "height": 27.12872314453125,
+      "font_size": 27.128714561462402,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#F54154",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "CMUSerif-Roman",
+      "source_seqno": 30
+    },
+    {
+      "id": "pdf-path-31",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 4.621124267578125,
+            "y": 50.87779998779297
+          }
+        },
+        {
+          "lineTo": {
+            "x": 4.620941162109375,
+            "y": 2.5179519653320312
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.15850830078125,
+            "y": 2.5179519653320312
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.158599853515625,
+            "y": 50.87779998779297
+          }
+        },
+        {
+          "lineTo": {
+            "x": 4.621124267578125,
+            "y": 50.87779998779297
+          }
+        },
+        {
+          "moveTo": {
+            "x": 11.426513671875,
+            "y": 43.90436553955078
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.889862060546875,
+            "y": 53.39582061767578
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.353302001953125,
+            "y": 43.904457092285156
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.00018310546875,
+            "y1": 43.29917907714844,
+            "x2": 0.204620361328125,
+            "y2": 42.522239685058594,
+            "x": 0.809783935546875,
+            "y": 42.169189453125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 1.415130615234375,
+            "y1": 41.81611633300781,
+            "x2": 2.192047119140625,
+            "y2": 42.02057647705078,
+            "x": 2.545074462890625,
+            "y": 42.6258544921875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 6.985748291015625,
+            "y": 50.238441467285156
+          }
+        },
+        {
+          "lineTo": {
+            "x": 4.793975830078125,
+            "y": 50.238441467285156
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.234649658203125,
+            "y": 42.62578582763672
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9.587677001953125,
+            "y1": 42.020484924316406,
+            "x2": 10.364593505859375,
+            "y2": 41.81604766845703,
+            "x": 10.969940185546875,
+            "y": 42.169189453125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.575103759765625,
+            "y1": 42.522239685058594,
+            "x2": 11.779541015625,
+            "y2": 43.29906463623047,
+            "x": 11.426513671875,
+            "y": 43.90436553955078
+          }
+        },
+        {
+          "moveTo": {
+            "x": 0.35302734375,
+            "y": 9.491386413574219
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.889678955078125,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 11.426422119140625,
+            "y": 9.491386413574219
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.779449462890625,
+            "y1": 10.096664428710938,
+            "x2": 11.575103759765625,
+            "y2": 10.873603820800781,
+            "x": 10.969757080078125,
+            "y": 11.226654052734375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.364410400390625,
+            "y1": 11.579704284667969,
+            "x2": 9.587677001953125,
+            "y2": 11.375267028808594,
+            "x": 9.234466552734375,
+            "y": 10.769966125488281
+          }
+        },
+        {
+          "lineTo": {
+            "x": 4.793792724609375,
+            "y": 3.1573104858398438
+          }
+        },
+        {
+          "lineTo": {
+            "x": 6.985565185546875,
+            "y": 3.1573104858398438
+          }
+        },
+        {
+          "lineTo": {
+            "x": 2.54498291015625,
+            "y": 10.770057678222656
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 2.191864013671875,
+            "y1": 11.375267028808594,
+            "x2": 1.4150390625,
+            "y2": 11.579704284667969,
+            "x": 0.809783935546875,
+            "y": 11.226654052734375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.204437255859375,
+            "y1": 10.873603820800781,
+            "x2": 0.0,
+            "y2": 10.096664428710938,
+            "x": 0.35302734375,
+            "y": 9.491386413574219
+          }
+        }
+      ],
+      "x": 536.6992492675781,
+      "y": 186.00872039794922,
+      "width": 11.779541015625,
+      "height": 53.39582061767578,
+      "fill": "#F54154",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 31,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-32",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 235.31263732910156,
+            "y": 7.226531982421875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 2.5164642333984375,
+            "y": 7.1561737060546875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 2.5172882080078125,
+            "y": 4.61865234375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 235.31346130371094,
+            "y": 4.68896484375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 235.31263732910156,
+            "y": 7.226531982421875
+          }
+        },
+        {
+          "moveTo": {
+            "x": 228.3401641845703,
+            "y": 0.4189453125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 237.82997131347656,
+            "y": 5.958526611328125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 228.3368682861328,
+            "y": 11.492340087890625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 227.7315216064453,
+            "y1": 11.845184326171875,
+            "x2": 226.95469665527344,
+            "y2": 11.640472412109375,
+            "x": 226.6017608642578,
+            "y": 11.035125732421875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 226.24891662597656,
+            "y1": 10.429779052734375,
+            "x2": 226.45362854003906,
+            "y2": 9.6529541015625,
+            "x": 227.05897521972656,
+            "y": 9.300018310546875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 234.67286682128906,
+            "y": 4.86163330078125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 234.6723175048828,
+            "y": 7.0534515380859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 227.0609893798828,
+            "y": 2.610443115234375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 226.45582580566406,
+            "y1": 2.257232666015625,
+            "x2": 226.25157165527344,
+            "y2": 1.480224609375,
+            "x": 226.60487365722656,
+            "y": 0.875152587890625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 226.9580841064453,
+            "y1": 0.2698974609375,
+            "x2": 227.73509216308594,
+            "y2": 0.06573486328125,
+            "x": 228.3401641845703,
+            "y": 0.4189453125
+          }
+        },
+        {
+          "moveTo": {
+            "x": 9.489669799804688,
+            "y": 11.4261474609375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 5.8866119384765625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.493057250976562,
+            "y": 0.3528900146484375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.09844970703125,
+            "y1": 0.0,
+            "x2": 10.875274658203125,
+            "y2": 0.204620361328125,
+            "x": 11.228164672851562,
+            "y": 0.809967041015625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.5810546875,
+            "y1": 1.4154510498046875,
+            "x2": 11.376434326171875,
+            "y2": 2.1922760009765625,
+            "x": 10.771041870117188,
+            "y": 2.545166015625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 3.1570587158203125,
+            "y": 6.983551025390625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 3.1576080322265625,
+            "y": 4.79168701171875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.769027709960938,
+            "y": 9.234649658203125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.3741455078125,
+            "y1": 9.587997436523438,
+            "x2": 11.578353881835938,
+            "y2": 10.3648681640625,
+            "x": 11.225143432617188,
+            "y": 10.970077514648438
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.871841430664062,
+            "y1": 11.5751953125,
+            "x2": 10.094879150390625,
+            "y2": 11.779403686523438,
+            "x": 9.489669799804688,
+            "y": 11.4261474609375
+          }
+        }
+      ],
+      "x": 285.5061492919922,
+      "y": 252.47122192382812,
+      "width": 237.82997131347656,
+      "height": 11.845184326171875,
+      "fill": "#9B46D0",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 32,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-33",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 246.14227294921875,
+            "y": 7.15850830078125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 2.5184326171875,
+            "y": 7.158416748046875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 2.5184326171875,
+            "y": 4.620849609375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 246.14227294921875,
+            "y": 4.620941162109375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 246.14227294921875,
+            "y": 7.15850830078125
+          }
+        },
+        {
+          "moveTo": {
+            "x": 239.16705322265625,
+            "y": 0.353118896484375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 248.65850830078125,
+            "y": 5.8897247314453125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 239.16705322265625,
+            "y": 11.426422119140625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 238.56179809570312,
+            "y1": 11.779449462890625,
+            "x2": 237.78488159179688,
+            "y2": 11.57501220703125,
+            "x": 237.43185424804688,
+            "y": 10.969757080078125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 237.0787353515625,
+            "y1": 10.364501953125,
+            "x2": 237.28317260742188,
+            "y2": 9.58758544921875,
+            "x": 237.888427734375,
+            "y": 9.23455810546875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 245.50103759765625,
+            "y": 4.7938385009765625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 245.50103759765625,
+            "y": 6.9857025146484375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 237.888427734375,
+            "y": 2.54498291015625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 237.28326416015625,
+            "y1": 2.1919097900390625,
+            "x2": 237.0787353515625,
+            "y2": 1.4150390625,
+            "x": 237.43185424804688,
+            "y": 0.8096923828125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 237.78488159179688,
+            "y1": 0.204437255859375,
+            "x2": 238.56179809570312,
+            "y2": 0.0,
+            "x": 239.16705322265625,
+            "y": 0.353118896484375
+          }
+        },
+        {
+          "moveTo": {
+            "x": 9.491363525390625,
+            "y": 11.42633056640625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 5.8896331787109375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.491363525390625,
+            "y": 0.35302734375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.09661865234375,
+            "y1": 0.0,
+            "x2": 10.87353515625,
+            "y2": 0.204437255859375,
+            "x": 11.2265625,
+            "y": 0.8096466064453125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.57958984375,
+            "y1": 1.414947509765625,
+            "x2": 11.375244140625,
+            "y2": 2.191864013671875,
+            "x": 10.769989013671875,
+            "y": 2.544891357421875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 3.15728759765625,
+            "y": 6.9856109619140625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 3.15728759765625,
+            "y": 4.793792724609375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.769989013671875,
+            "y": 9.234466552734375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.375244140625,
+            "y1": 9.587493896484375,
+            "x2": 11.57958984375,
+            "y2": 10.364456176757812,
+            "x": 11.2265625,
+            "y": 10.969757080078125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.87353515625,
+            "y1": 11.574920654296875,
+            "x2": 10.09661865234375,
+            "y2": 11.77935791015625,
+            "x": 9.491363525390625,
+            "y": 11.42633056640625
+          }
+        }
+      ],
+      "x": 561.7761840820312,
+      "y": 252.46820068359375,
+      "width": 248.65850830078125,
+      "height": 11.779449462890625,
+      "fill": "#9B46D0",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 33,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-source-image-5",
+      "shape": "image",
+      "asset": "metra-figure-1-source-image-5.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 563.2122802734375,
+      "y": 277.9969940185547,
+      "width": 138.78085327148438,
+      "height": 138.78089904785156
+    },
+    {
+      "id": "pdf-source-image-6",
+      "shape": "image",
+      "asset": "metra-figure-1-source-image-6.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 933.7870788574219,
+      "y": 189.0443115234375,
+      "width": 138.78085327148438,
+      "height": 138.78089904785156
+    },
+    {
+      "id": "pdf-source-image-7",
+      "shape": "image",
+      "asset": "metra-figure-1-source-image-7.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 23.40618896484375,
+      "y": 189.0443115234375,
+      "width": 138.78089904785156,
+      "height": 138.78089904785156
+    },
+    {
+      "id": "pdf-source-image-8",
+      "shape": "image",
+      "asset": "metra-figure-1-source-image-8.png",
+      "alt": "Reviewed original raster inset; its internal pixels are not editable",
+      "x": 563.2122802734375,
+      "y": 8.924365997314453,
+      "width": 138.78085327148438,
+      "height": 138.78088760375977
+    },
+    {
+      "id": "pdf-path-42",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 161.9802703857422,
+            "y": 48.63636016845703
+          }
+        }
+      ],
+      "x": 110.09811401367188,
+      "y": 192.1970443725586,
+      "width": 161.9802703857422,
+      "height": 48.63636016845703,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 0.8458499908447266,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": true,
+      "dash_style": "dashed",
+      "source_dash": "[ 1.1278 .84585 ] 0",
+      "dash_pattern": [
+        3.3834,
+        2.53755
+      ],
+      "dash_phase": 0.0,
+      "dash_approximation": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+      "source_seqno": 42,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-43",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 48.47190856933594
+          }
+        },
+        {
+          "lineTo": {
+            "x": 161.99720764160156,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 109.91354370117188,
+      "y": 276.53594970703125,
+      "width": 161.99720764160156,
+      "height": 48.47190856933594,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 0.8458499908447266,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": true,
+      "dash_style": "dashed",
+      "source_dash": "[ 1.1278 .84585 ] 0",
+      "dash_pattern": [
+        3.3834,
+        2.53755
+      ],
+      "dash_phase": 0.0,
+      "dash_approximation": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+      "source_seqno": 43,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-44",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 98.9644775390625,
+            "y": 37.64030456542969
+          }
+        }
+      ],
+      "x": 554.307861328125,
+      "y": 244.23985290527344,
+      "width": 98.9644775390625,
+      "height": 37.64030456542969,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 0.8458499908447266,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": true,
+      "dash_style": "dashed",
+      "source_dash": "[ 1.1278 .84585 ] 0",
+      "dash_pattern": [
+        3.3834,
+        2.53755
+      ],
+      "dash_phase": 0.0,
+      "dash_approximation": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+      "source_seqno": 44,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-45",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 42.79541015625,
+            "y": 108.305419921875
+          }
+        }
+      ],
+      "x": 527.3637084960938,
+      "y": 268.231201171875,
+      "width": 42.79541015625,
+      "height": 108.305419921875,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 0.8458499908447266,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": true,
+      "dash_style": "dashed",
+      "source_dash": "[ 1.1278 .84585 ] 0",
+      "dash_pattern": [
+        3.3834,
+        2.53755
+      ],
+      "dash_phase": 0.0,
+      "dash_approximation": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+      "source_seqno": 45,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-text-17-0",
+      "shape": "text",
+      "label": "METRA covers the most",
+      "x": 710.8363037109375,
+      "y": 414.35470404624937,
+      "width": 306.7312316894531,
+      "height": 27.12872314453125,
+      "font_size": 27.128714561462402,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "CMUSerif-Roman",
+      "source_seqno": 46
+    },
+    {
+      "id": "pdf-text-18-0",
+      "shape": "text",
+      "label": "“",
+      "x": 666.0987316395622,
+      "y": 446.46627631187437,
+      "width": 12.241016375180333,
+      "height": 27.12872314453125,
+      "font_size": 27.128714561462402,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "CMUSerif-Roman",
+      "source_seqno": 47
+    },
+    {
+      "id": "pdf-text-19-0",
+      "shape": "text",
+      "label": "temporally spread-out",
+      "x": 678.1397480147425,
+      "y": 446.846311712265,
+      "width": 258.65134268002583,
+      "height": 27.12872314453125,
+      "font_size": 27.128714561462402,
+      "font_family": "Times New Roman",
+      "bold": true,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "CMUSerif-Bold",
+      "source_seqno": 48
+    },
+    {
+      "id": "pdf-text-22-0",
+      "shape": "text",
+      "label": "” manifold",
+      "x": 936.5910906947684,
+      "y": 446.46627631187437,
+      "width": 116.96739202113822,
+      "height": 27.12872314453125,
+      "font_size": 27.128714561462402,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#000000",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "CMUSerif-Roman",
+      "source_seqno": 51
+    },
+    {
+      "id": "pdf-path-52",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 46.839202880859375,
+            "y": 100.64497375488281
+          }
+        }
+      ],
+      "x": 812.9533081054688,
+      "y": 310.9543762207031,
+      "width": 46.839202880859375,
+      "height": 100.64497375488281,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.9031624794006348,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": true,
+      "dash_style": "dashed",
+      "source_dash": "[ 2.53755 1.9031625 ] 0",
+      "dash_pattern": [
+        7.61265,
+        5.7094875
+      ],
+      "dash_phase": 0.0,
+      "dash_approximation": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+      "source_seqno": 52,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-text-23-0",
+      "shape": "text",
+      "label": "Temporally distant",
+      "x": 276.4082794189453,
+      "y": 275.573850774765,
+      "width": 227.79542541503906,
+      "height": 27.12872314453125,
+      "font_size": 27.128714561462402,
+      "font_family": "Times New Roman",
+      "bold": false,
+      "italic": false,
+      "text_color": "#9B46D0",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "source_font": "CMUSerif-Roman",
+      "source_seqno": 53
+    },
+    {
+      "id": "pdf-path-55",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 2.467529296875,
+            "y": 39.51622009277344
+          }
+        },
+        {
+          "lineTo": {
+            "x": 27.532012939453125,
+            "y": 2.794921875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 25.43609619140625,
+            "y": 1.364410400390625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.3717041015625,
+            "y": 38.08570861816406
+          }
+        },
+        {
+          "lineTo": {
+            "x": 2.467529296875,
+            "y": 39.51622009277344
+          }
+        },
+        {
+          "moveTo": {
+            "x": 0.77801513671875,
+            "y": 29.920074462890625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 40.88067626953125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.92376708984375,
+            "y": 36.162689208984375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.556671142578125,
+            "y1": 35.86180114746094,
+            "x2": 10.82574462890625,
+            "y2": 35.10484313964844,
+            "x": 10.52490234375,
+            "y": 34.47198486328125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.22406005859375,
+            "y1": 33.83912658691406,
+            "x2": 9.46710205078125,
+            "y2": 33.57005310058594,
+            "x": 8.83428955078125,
+            "y": 33.870941162109375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.8748779296875,
+            "y": 37.65509033203125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 2.685150146484375,
+            "y": 38.89068603515625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 3.30908203125,
+            "y": 30.099609375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.35870361328125,
+            "y1": 29.40069580078125,
+            "x2": 2.832275390625,
+            "y2": 28.79388427734375,
+            "x": 2.13336181640625,
+            "y": 28.7442626953125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 1.434356689453125,
+            "y1": 28.69464111328125,
+            "x2": 0.827545166015625,
+            "y2": 29.2210693359375,
+            "x": 0.77801513671875,
+            "y": 29.920074462890625
+          }
+        },
+        {
+          "moveTo": {
+            "x": 27.1256103515625,
+            "y": 10.960647583007812
+          }
+        },
+        {
+          "lineTo": {
+            "x": 27.9034423828125,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 17.97967529296875,
+            "y": 4.717987060546875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 17.34686279296875,
+            "y1": 5.0189208984375,
+            "x2": 17.077880859375,
+            "y2": 5.77587890625,
+            "x": 17.37872314453125,
+            "y": 6.408599853515625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 17.6795654296875,
+            "y1": 7.04150390625,
+            "x2": 18.4365234375,
+            "y2": 7.3106689453125,
+            "x": 19.069244384765625,
+            "y": 7.0097808837890625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 27.02874755859375,
+            "y": 3.2256317138671875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 25.2183837890625,
+            "y": 1.989898681640625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 24.594451904296875,
+            "y": 10.780975341796875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 24.544921875,
+            "y1": 11.47998046875,
+            "x2": 25.071258544921875,
+            "y2": 12.0867919921875,
+            "x": 25.770263671875,
+            "y": 12.13641357421875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 26.46917724609375,
+            "y1": 12.18603515625,
+            "x2": 27.076080322265625,
+            "y2": 11.65960693359375,
+            "x": 27.1256103515625,
+            "y": 10.960647583007812
+          }
+        }
+      ],
+      "x": 503.83026123046875,
+      "y": 274.4088134765625,
+      "width": 27.9034423828125,
+      "height": 40.88067626953125,
+      "fill": "#9B46D0",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 55,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-56",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 15.2253112793,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 7.6125183105
+          }
+        },
+        {
+          "lineTo": {
+            "x": 15.2253112793,
+            "y": 15.2252655029
+          }
+        },
+        {
+          "lineTo": {
+            "x": 15.2253112793,
+            "y": 10.150177002
+          }
+        },
+        {
+          "lineTo": {
+            "x": 58.4745483398,
+            "y": 10.150177002
+          }
+        },
+        {
+          "lineTo": {
+            "x": 58.4745483398,
+            "y": 5.0750427246
+          }
+        },
+        {
+          "lineTo": {
+            "x": 15.2253112793,
+            "y": 5.0750427246
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 89.15180969238281,
+      "y": 244.83966064453125,
+      "width": 58.47454833984375,
+      "height": 10.150177001953125,
+      "fill": "#FFFFFF",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 0.800000011920929,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 56,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-57-part-0",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 39.24078369140625,
+            "y": 39.67131042480469
+          }
+        },
+        {
+          "lineTo": {
+            "x": 37.167572021484375,
+            "y": 40.95268249511719
+          }
+        },
+        {
+          "lineTo": {
+            "x": 34.900543212890625,
+            "y": 42.055206298828125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 32.5682373046875,
+            "y": 42.912872314453125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 30.18951416015625,
+            "y": 43.52842712402344
+          }
+        },
+        {
+          "lineTo": {
+            "x": 27.7825927734375,
+            "y": 43.90480041503906
+          }
+        },
+        {
+          "lineTo": {
+            "x": 25.365509033203125,
+            "y": 44.04547119140625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 22.95574951171875,
+            "y": 43.95387268066406
+          }
+        },
+        {
+          "lineTo": {
+            "x": 20.57025146484375,
+            "y": 43.63311767578125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 18.22613525390625,
+            "y": 43.08668518066406
+          }
+        },
+        {
+          "lineTo": {
+            "x": 15.94061279296875,
+            "y": 42.317413330078125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 13.73052978515625,
+            "y": 41.32841491699219
+          }
+        },
+        {
+          "lineTo": {
+            "x": 11.61383056640625,
+            "y": 40.12257385253906
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.60809326171875,
+            "y": 38.70314025878906
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.7318115234375,
+            "y": 37.07377624511719
+          }
+        },
+        {
+          "lineTo": {
+            "x": 6.0032958984375,
+            "y": 35.23878479003906
+          }
+        },
+        {
+          "lineTo": {
+            "x": 4.44158935546875,
+            "y": 33.203521728515625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 3.09283447265625,
+            "y": 31.021316528320312
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.9903564453125,
+            "y": 28.754287719726562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.1326904296875,
+            "y": 26.421890258789062
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.51708984375,
+            "y": 24.043121337890625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.140625,
+            "y": 21.63629150390625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 19.219253540039062
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.09173583984375,
+            "y": 16.809356689453125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.412353515625,
+            "y": 14.423904418945312
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.033721923828125,
+            "y": 11.758529663085938
+          }
+        },
+        {
+          "lineTo": {
+            "x": 3.04632568359375,
+            "y": 8.69384765625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.28851318359375,
+            "y": 11.479660034179688
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.523651123046875,
+            "y": 14.16705322265625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.87384033203125,
+            "y": 13.350311279296875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.38238525390625,
+            "y": 15.458175659179688
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.426055908203125,
+            "y": 15.220138549804688
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.13775634765625,
+            "y": 17.365219116210938
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.158447265625,
+            "y": 17.123565673828125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.0760498046875,
+            "y": 19.290115356445312
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.07366943359375,
+            "y": 19.046218872070312
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.20001220703125,
+            "y": 21.218399047851562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.173828125,
+            "y": 20.97381591796875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.51202392578125,
+            "y": 23.135971069335938
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.461578369140625,
+            "y": 22.892349243164062
+          }
+        },
+        {
+          "lineTo": {
+            "x": 6.01446533203125,
+            "y": 25.028640747070312
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.93939208984375,
+            "y": 24.788497924804688
+          }
+        },
+        {
+          "lineTo": {
+            "x": 6.709625244140625,
+            "y": 26.8831787109375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 6.610107421875,
+            "y": 26.649307250976562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.6007080078125,
+            "y": 28.686630249023438
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.477203369140625,
+            "y": 28.46209716796875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.691192626953125,
+            "y": 30.42626953125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.5458984375,
+            "y": 30.215652465820312
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.951507568359375,
+            "y": 32.04743957519531
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.7855224609375,
+            "y": 31.852340698242188
+          }
+        },
+        {
+          "lineTo": {
+            "x": 11.33880615234375,
+            "y": 33.5013427734375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 11.155426025390625,
+            "y": 33.32524108886719
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.84063720703125,
+            "y": 34.78857421875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.6427001953125,
+            "y": 34.63325500488281
+          }
+        },
+        {
+          "lineTo": {
+            "x": 14.44390869140625,
+            "y": 35.90794372558594
+          }
+        },
+        {
+          "lineTo": {
+            "x": 14.23406982421875,
+            "y": 35.7744140625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16.1356201171875,
+            "y": 36.85762023925781
+          }
+        },
+        {
+          "lineTo": {
+            "x": 15.916259765625,
+            "y": 36.74638366699219
+          }
+        },
+        {
+          "lineTo": {
+            "x": 17.9022216796875,
+            "y": 37.63517761230469
+          }
+        },
+        {
+          "lineTo": {
+            "x": 17.675079345703125,
+            "y": 37.54637145996094
+          }
+        },
+        {
+          "lineTo": {
+            "x": 19.72979736328125,
+            "y": 38.23796081542969
+          }
+        },
+        {
+          "lineTo": {
+            "x": 19.4967041015625,
+            "y": 38.171722412109375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 21.60443115234375,
+            "y": 38.6630859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 21.36639404296875,
+            "y": 38.619415283203125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 23.511474609375,
+            "y": 38.90776062011719
+          }
+        },
+        {
+          "lineTo": {
+            "x": 23.269775390625,
+            "y": 38.88697814941406
+          }
+        },
+        {
+          "lineTo": {
+            "x": 25.43646240234375,
+            "y": 38.96942138671875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 25.19256591796875,
+            "y": 38.971893310546875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 27.36474609375,
+            "y": 38.84541320800781
+          }
+        },
+        {
+          "lineTo": {
+            "x": 27.120025634765625,
+            "y": 38.87164306640625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 29.2822265625,
+            "y": 38.53349304199219
+          }
+        },
+        {
+          "lineTo": {
+            "x": 29.038604736328125,
+            "y": 38.583892822265625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 31.17498779296875,
+            "y": 38.03114318847656
+          }
+        },
+        {
+          "lineTo": {
+            "x": 30.93475341796875,
+            "y": 38.106170654296875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 33.02947998046875,
+            "y": 37.335845947265625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 32.795562744140625,
+            "y": 37.43540954589844
+          }
+        },
+        {
+          "lineTo": {
+            "x": 34.8328857421875,
+            "y": 36.44476318359375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 34.6083984375,
+            "y": 36.56822204589844
+          }
+        },
+        {
+          "lineTo": {
+            "x": 36.57257080078125,
+            "y": 35.354278564453125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 39.24078369140625,
+            "y": 39.67131042480469
+          }
+        }
+      ],
+      "x": 588.677490234375,
+      "y": 52.51625061035156,
+      "width": 39.24078369140625,
+      "height": 44.04547119140625,
+      "fill": "#FFFFFF",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 0.800000011920929,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 57,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-57-part-1",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": -2.4239501953125,
+            "y": 7.4861297607421875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.8638916015625,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.68023681640625,
+            "y": 16.721969604492188
+          }
+        },
+        {
+          "lineTo": {
+            "x": -2.4239501953125,
+            "y": 7.4861297607421875
+          }
+        }
+      ],
+      "x": 588.677490234375,
+      "y": 52.51625061035156,
+      "width": 39.24078369140625,
+      "height": 44.04547119140625,
+      "fill": "#FFFFFF",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 0.800000011920929,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 57,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-58",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 161.98031616210938,
+            "y": 48.636383056640625
+          }
+        }
+      ],
+      "x": 824.6721496582031,
+      "y": 276.72052001953125,
+      "width": 161.98031616210938,
+      "height": 48.636383056640625,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 0.8458499908447266,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": true,
+      "dash_style": "dashed",
+      "source_dash": "[ 1.1278 .84585 ] 0",
+      "dash_pattern": [
+        3.3834,
+        2.53755
+      ],
+      "dash_phase": 0.0,
+      "dash_approximation": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+      "source_seqno": 58,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-59",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 48.47193145751953
+          }
+        },
+        {
+          "lineTo": {
+            "x": 161.99716186523438,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 824.6721496582031,
+      "y": 192.38152313232422,
+      "width": 161.99716186523438,
+      "height": 48.47193145751953,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 0.8458499908447266,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": true,
+      "dash_style": "dashed",
+      "source_dash": "[ 1.1278 .84585 ] 0",
+      "dash_pattern": [
+        3.3834,
+        2.53755
+      ],
+      "dash_phase": 0.0,
+      "dash_approximation": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+      "source_seqno": 59,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-60",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 43.2398071289,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 43.2398071289,
+            "y": -5.0749969482
+          }
+        },
+        {
+          "lineTo": {
+            "x": 58.4651184082,
+            "y": 2.537612915
+          }
+        },
+        {
+          "lineTo": {
+            "x": 43.2398071289,
+            "y": 10.1502685547
+          }
+        },
+        {
+          "lineTo": {
+            "x": 43.2398071289,
+            "y": 5.0751800537
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 5.075088501
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "x": 949.1503601074219,
+      "y": 249.91465759277344,
+      "width": 58.465118408203125,
+      "height": 10.1502685546875,
+      "fill": "#FFFFFF",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 0.800000011920929,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 60,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-61",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 37.758750915527344
+          }
+        },
+        {
+          "lineTo": {
+            "x": 99.26898193359375,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 554.307861328125,
+      "y": 144.0297088623047,
+      "width": 99.26898193359375,
+      "height": 37.758750915527344,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 0.8458499908447266,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": true,
+      "dash_style": "dashed",
+      "source_dash": "[ 1.1278 .84585 ] 0",
+      "dash_pattern": [
+        3.3834,
+        2.53755
+      ],
+      "dash_phase": 0.0,
+      "dash_approximation": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+      "source_seqno": 61,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-62",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.0,
+            "y": 108.23284149169922
+          }
+        },
+        {
+          "lineTo": {
+            "x": 42.63079833984375,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 527.3637084960938,
+      "y": 48.98689270019531,
+      "width": 42.63079833984375,
+      "height": 108.23284149169922,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 0.8458499908447266,
+      "fill_opacity": 0,
+      "stroke_opacity": 1.0,
+      "dash": true,
+      "dash_style": "dashed",
+      "source_dash": "[ 1.1278 .84585 ] 0",
+      "dash_pattern": [
+        3.3834,
+        2.53755
+      ],
+      "dash_phase": 0.0,
+      "dash_approximation": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+      "source_seqno": 62,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100000",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 3.2620697021484375,
+            "y": 15.8660888671875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.6659088134765625,
+            "y1": 15.702827453613281,
+            "x2": 4.8425445556640625,
+            "y2": 14.984573364257812,
+            "x": 4.8425445556640625,
+            "y": 14.527153015136719
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4.8425445556640625,
+            "y1": 14.298683166503906,
+            "x2": 4.640899658203125,
+            "y2": 14.298683166503906,
+            "x": 4.439208984375,
+            "y": 14.298683166503906
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.2959442138671875,
+            "y1": 14.298683166503906,
+            "x2": 0.0,
+            "y2": 15.702827453613281,
+            "x": 0.0,
+            "y": 18.967529296875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 21.31835174560547,
+            "x2": 2.7242889404296875,
+            "y2": 23.73241424560547,
+            "x": 6.8268585205078125,
+            "y": 23.73241424560547
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.308303833007812,
+            "y1": 23.73241424560547,
+            "x2": 18.664581298828125,
+            "y2": 20.045127868652344,
+            "x": 18.664581298828125,
+            "y": 15.604774475097656
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 18.664581298828125,
+            "y1": 12.503334045410156,
+            "x2": 15.301437377929688,
+            "y2": 11.001136779785156,
+            "x": 12.57769775390625,
+            "y": 9.825965881347656
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.223373413085938,
+            "y1": 8.78118896484375,
+            "x2": 8.67626953125,
+            "y2": 7.442756652832031,
+            "x": 8.67626953125,
+            "y": 5.581695556640625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.67626953125,
+            "y1": 4.896308898925781,
+            "x2": 8.978988647460938,
+            "y2": 3.6225814819335938,
+            "x": 10.021728515625,
+            "y": 2.7410888671875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.030548095703125,
+            "y1": 1.8924179077148438,
+            "x2": 12.913787841796875,
+            "y2": 1.7943649291992188,
+            "x": 13.384872436523438,
+            "y": 1.7943649291992188
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 13.75433349609375,
+            "y1": 1.7943649291992188,
+            "x2": 15.1669921875,
+            "y2": 1.82720947265625,
+            "x": 16.613067626953125,
+            "y": 2.4474105834960938
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 17.251922607421875,
+            "y1": 2.7410888671875,
+            "x2": 18.126296997070312,
+            "y2": 3.13330078125,
+            "x": 18.126296997070312,
+            "y": 4.5369415283203125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 18.126296997070312,
+            "y1": 4.993858337402344,
+            "x2": 18.092971801757812,
+            "y2": 5.1571197509765625,
+            "x": 17.991851806640625,
+            "y": 5.516487121582031
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 17.957977294921875,
+            "y1": 5.61456298828125,
+            "x2": 17.924652099609375,
+            "y2": 5.744956970214844,
+            "x": 17.924652099609375,
+            "y": 5.843009948730469
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 17.924652099609375,
+            "y1": 6.071479797363281,
+            "x2": 18.126296997070312,
+            "y2": 6.071479797363281,
+            "x": 18.2607421875,
+            "y": 6.071479797363281
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 18.697952270507812,
+            "y1": 6.071479797363281,
+            "x2": 19.505126953125,
+            "y2": 5.744956970214844,
+            "x": 20.1778564453125,
+            "y": 5.1899871826171875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 20.615066528320312,
+            "y1": 4.86346435546875,
+            "x2": 20.985031127929688,
+            "y2": 4.4388885498046875,
+            "x": 20.985031127929688,
+            "y": 3.1656646728515625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 20.985031127929688,
+            "y1": 1.5658950805664062,
+            "x2": 20.11065673828125,
+            "y2": 1.1094818115234375,
+            "x": 19.202362060546875,
+            "y": 0.7177505493164062
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 17.62188720703125,
+            "y1": 0.0,
+            "x2": 16.074737548828125,
+            "y2": 0.0,
+            "x": 15.604202270507812,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.198867797851562,
+            "y1": 0.0,
+            "x2": 5.8180389404296875,
+            "y2": 3.2637176513671875,
+            "x": 5.8180389404296875,
+            "y": 6.98583984375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.8180389404296875,
+            "y1": 9.727912902832031,
+            "x2": 8.743972778320312,
+            "y2": 11.033981323242188,
+            "x": 10.357818603515625,
+            "y": 11.719367980957031
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.745468139648438,
+            "y1": 12.764144897460938,
+            "x2": 15.805892944335938,
+            "y2": 14.266342163085938,
+            "x": 15.805892944335938,
+            "y": 17.008895874023438
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 15.805892944335938,
+            "y1": 19.19597625732422,
+            "x2": 14.158172607421875,
+            "y2": 21.938552856445312,
+            "x": 9.046234130859375,
+            "y": 21.938552856445312
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.61639404296875,
+            "y1": 21.938552856445312,
+            "x2": 2.858734130859375,
+            "y2": 19.7838134765625,
+            "x": 2.858734130859375,
+            "y": 17.563888549804688
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 2.858734130859375,
+            "y1": 16.976051330566406,
+            "x2": 3.02655029296875,
+            "y2": 16.388214111328125,
+            "x": 3.2620697021484375,
+            "y": 15.8660888671875
+          }
+        }
+      ],
+      "x": 214.8401641845703,
+      "y": 66.74903869628906,
+      "width": 20.985031127929688,
+      "height": 23.73241424560547,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100000,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100001",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 21.220046997070312,
+            "y": 1.3045806884765625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 21.724456787109375,
+            "y1": 1.3045806884765625,
+            "x2": 22.363311767578125,
+            "y2": 1.3045806884765625,
+            "x": 22.363311767578125,
+            "y": 0.6525192260742188
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 22.363311767578125,
+            "y1": 0.0,
+            "x2": 21.724456787109375,
+            "y2": 0.0,
+            "x": 21.253372192382812,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.10943603515625,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.63885498046875,
+            "y1": 0.0,
+            "x2": 0.0,
+            "y2": 0.0,
+            "x": 0.0,
+            "y": 0.6525192260742188
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 1.3045806884765625,
+            "x2": 0.63885498046875,
+            "y2": 1.3045806884765625,
+            "x": 1.1432647705078125,
+            "y": 1.3045806884765625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 21.220046997070312,
+            "y": 1.3045806884765625
+          }
+        },
+        {
+          "moveTo": {
+            "x": 21.253372192382812,
+            "y": 7.642845153808594
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 21.724456787109375,
+            "y1": 7.642845153808594,
+            "x2": 22.363311767578125,
+            "y2": 7.642845153808594,
+            "x": 22.363311767578125,
+            "y": 6.990303039550781
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 22.363311767578125,
+            "y1": 6.337760925292969,
+            "x2": 21.724456787109375,
+            "y2": 6.337760925292969,
+            "x": 21.220046997070312,
+            "y": 6.337760925292969
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.1432647705078125,
+            "y": 6.337760925292969
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.63885498046875,
+            "y1": 6.337760925292969,
+            "x2": 0.0,
+            "y2": 6.337760925292969,
+            "x": 0.0,
+            "y": 6.990303039550781
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 7.642845153808594,
+            "x2": 0.63885498046875,
+            "y2": 7.642845153808594,
+            "x": 1.10943603515625,
+            "y": 7.642845153808594
+          }
+        },
+        {
+          "lineTo": {
+            "x": 21.253372192382812,
+            "y": 7.642845153808594
+          }
+        }
+      ],
+      "x": 248.3484649658203,
+      "y": 77.7725830078125,
+      "width": 22.363311767578125,
+      "height": 7.642845153808594,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100001,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100002",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 8.474578857421875,
+            "y": 12.100135803222656
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.685089111328125,
+            "y": 12.100135803222656
+          }
+        },
+        {
+          "lineTo": {
+            "x": 14.729782104492188,
+            "y": 19.65838623046875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 15.065872192382812,
+            "y1": 20.179527282714844,
+            "x2": 15.873046875,
+            "y2": 21.45025634765625,
+            "x": 16.243057250976562,
+            "y": 21.939537048339844
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 16.47857666015625,
+            "y1": 22.330764770507812,
+            "x2": 16.579147338867188,
+            "y2": 22.330764770507812,
+            "x": 17.352996826171875,
+            "y": 22.330764770507812
+          }
+        },
+        {
+          "lineTo": {
+            "x": 21.993850708007812,
+            "y": 22.330764770507812
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 22.598831176757812,
+            "y1": 22.330764770507812,
+            "x2": 23.103240966796875,
+            "y2": 22.330764770507812,
+            "x": 23.103240966796875,
+            "y": 21.743934631347656
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 23.103240966796875,
+            "y1": 21.48310089111328,
+            "x2": 22.901596069335938,
+            "y2": 21.254653930664062,
+            "x": 22.598831176757812,
+            "y": 21.18944549560547
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 21.354995727539062,
+            "y1": 20.928611755371094,
+            "x2": 19.706771850585938,
+            "y2": 18.778358459472656,
+            "x": 18.89959716796875,
+            "y": 17.736099243164062
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 18.664581298828125,
+            "y1": 17.410560607910156,
+            "x2": 16.982986450195312,
+            "y2": 15.260307312011719,
+            "x": 14.729782104492188,
+            "y": 11.74127197265625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 17.72296142578125,
+            "y1": 11.219627380371094,
+            "x2": 20.615020751953125,
+            "y2": 9.980255126953125,
+            "x": 20.615020751953125,
+            "y": 6.099357604980469
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 20.615020751953125,
+            "y1": 1.5658950805664062,
+            "x2": 15.671401977539062,
+            "y2": 0.0,
+            "x": 11.703277587890625,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.1432647705078125,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.5382843017578125,
+            "y1": 0.0,
+            "x2": 0.0,
+            "y2": 0.0,
+            "x": 0.0,
+            "y": 0.5873336791992188
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 1.1418228149414062,
+            "x2": 0.63885498046875,
+            "y2": 1.1418228149414062,
+            "x": 0.9082489013671875,
+            "y": 1.1418228149414062
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 2.824859619140625,
+            "y1": 1.1418228149414062,
+            "x2": 2.9931793212890625,
+            "y2": 1.3702926635742188,
+            "x": 2.9931793212890625,
+            "y": 3.0008926391601562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 2.9931793212890625,
+            "y": 19.332366943359375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 2.9931793212890625,
+            "y1": 20.96147918701172,
+            "x2": 2.824859619140625,
+            "y2": 21.18944549560547,
+            "x": 0.9082489013671875,
+            "y": 21.18944549560547
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.63885498046875,
+            "y1": 21.18944549560547,
+            "x2": 0.0,
+            "y2": 21.18944549560547,
+            "x": 0.0,
+            "y": 21.743934631347656
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 22.330764770507812,
+            "x2": 0.5382843017578125,
+            "y2": 22.330764770507812,
+            "x": 1.1432647705078125,
+            "y": 22.330764770507812
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.357818603515625,
+            "y": 22.330764770507812
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.963302612304688,
+            "y1": 22.330764770507812,
+            "x2": 11.46771240234375,
+            "y2": 22.330764770507812,
+            "x": 11.46771240234375,
+            "y": 21.743934631347656
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.46771240234375,
+            "y1": 21.18944549560547,
+            "x2": 10.896102905273438,
+            "y2": 21.18944549560547,
+            "x": 10.526092529296875,
+            "y": 21.18944549560547
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.609024047851562,
+            "y1": 21.18944549560547,
+            "x2": 8.474578857421875,
+            "y2": 20.928611755371094,
+            "x": 8.474578857421875,
+            "y": 19.332366943359375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.474578857421875,
+            "y": 12.100135803222656
+          }
+        },
+        {
+          "moveTo": {
+            "x": 14.965301513671875,
+            "y": 10.501899719238281
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 15.90692138671875,
+            "y1": 9.29534912109375,
+            "x2": 16.007492065429688,
+            "y2": 7.5666961669921875,
+            "x": 16.007492065429688,
+            "y": 6.1316986083984375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 16.007492065429688,
+            "y1": 4.566307067871094,
+            "x2": 15.80584716796875,
+            "y2": 2.8376312255859375,
+            "x": 14.729782104492188,
+            "y": 1.5006866455078125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 16.108612060546875,
+            "y1": 1.7943649291992188,
+            "x2": 19.437881469726562,
+            "y2": 2.8052902221679688,
+            "x": 19.437881469726562,
+            "y": 6.099357604980469
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 19.437881469726562,
+            "y1": 8.21923828125,
+            "x2": 18.42901611328125,
+            "y2": 9.8822021484375,
+            "x": 14.965301513671875,
+            "y": 10.501899719238281
+          }
+        },
+        {
+          "moveTo": {
+            "x": 8.474578857421875,
+            "y": 2.9028396606445312
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.474578857421875,
+            "y1": 2.21795654296875,
+            "x2": 8.474578857421875,
+            "y2": 1.1418228149414062,
+            "x": 10.559463500976562,
+            "y": 1.1418228149414062
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 13.418197631835938,
+            "y1": 1.1418228149414062,
+            "x2": 14.830856323242188,
+            "y2": 2.2836456298828125,
+            "x": 14.830856323242188,
+            "y": 6.1316986083984375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 14.830856323242188,
+            "y1": 10.339118957519531,
+            "x2": 13.788162231445312,
+            "y2": 10.95831298828125,
+            "x": 8.474578857421875,
+            "y": 10.95831298828125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.474578857421875,
+            "y": 2.9028396606445312
+          }
+        },
+        {
+          "moveTo": {
+            "x": 3.9009246826171875,
+            "y": 21.18944549560547
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4.170318603515625,
+            "y1": 20.60309600830078,
+            "x2": 4.170318603515625,
+            "y2": 19.69072723388672,
+            "x": 4.170318603515625,
+            "y": 19.397552490234375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 4.170318603515625,
+            "y": 2.9356842041015625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4.170318603515625,
+            "y1": 2.6096649169921875,
+            "x2": 4.170318603515625,
+            "y2": 1.729156494140625,
+            "x": 3.9009246826171875,
+            "y": 1.1418228149414062
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.7346038818359375,
+            "y": 1.1418228149414062
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 7.297393798828125,
+            "y1": 1.6639480590820312,
+            "x2": 7.297393798828125,
+            "y2": 2.316009521484375,
+            "x": 7.297393798828125,
+            "y": 2.8052902221679688
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.297393798828125,
+            "y": 19.397552490234375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 7.297393798828125,
+            "y1": 19.72309112548828,
+            "x2": 7.297393798828125,
+            "y2": 20.60309600830078,
+            "x": 7.56683349609375,
+            "y": 21.18944549560547
+          }
+        },
+        {
+          "lineTo": {
+            "x": 3.9009246826171875,
+            "y": 21.18944549560547
+          }
+        },
+        {
+          "moveTo": {
+            "x": 11.063873291015625,
+            "y": 12.100135803222656
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.2994384765625,
+            "y1": 12.067794799804688,
+            "x2": 11.433883666992188,
+            "y2": 12.034950256347656,
+            "x": 11.703277587890625,
+            "y": 12.034950256347656
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.207687377929688,
+            "y1": 12.034950256347656,
+            "x2": 12.947113037109375,
+            "y2": 11.969741821289062,
+            "x": 13.452072143554688,
+            "y": 11.904533386230469
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 13.95648193359375,
+            "y1": 12.686485290527344,
+            "x2": 17.5880126953125,
+            "y2": 18.485206604003906,
+            "x": 20.379501342773438,
+            "y": 21.18944549560547
+          }
+        },
+        {
+          "lineTo": {
+            "x": 17.117431640625,
+            "y": 21.18944549560547
+          }
+        },
+        {
+          "lineTo": {
+            "x": 11.063873291015625,
+            "y": 12.100135803222656
+          }
+        }
+      ],
+      "x": 282.50042724609375,
+      "y": 67.41801452636719,
+      "width": 23.103240966796875,
+      "height": 22.330764770507812,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100002,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100003",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 3.46051025390625,
+            "y": 7.152008056640625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.46051025390625,
+            "y1": 5.599800109863281,
+            "x2": 3.55462646484375,
+            "y2": 3.8392410278320312,
+            "x": 4.4019927978515625,
+            "y": 2.6974639892578125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.5557403564453125,
+            "y1": 1.1194839477539062,
+            "x2": 7.415313720703125,
+            "y2": 1.05047607421875,
+            "x": 7.9095611572265625,
+            "y": 1.05047607421875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.63946533203125,
+            "y1": 1.05047607421875,
+            "x2": 9.251541137695312,
+            "y2": 1.2570877075195312,
+            "x": 9.6046142578125,
+            "y": 1.5327072143554688
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.92181396484375,
+            "y1": 1.783905029296875,
+            "x2": 8.498291015625,
+            "y2": 2.3549652099609375,
+            "x": 8.498291015625,
+            "y": 3.0629653930664062
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.498291015625,
+            "y1": 3.9305191040039062,
+            "x2": 9.133712768554688,
+            "y2": 4.638153076171875,
+            "x": 10.12261962890625,
+            "y": 4.638153076171875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.0877685546875,
+            "y1": 4.638153076171875,
+            "x2": 11.770248413085938,
+            "y2": 3.9988174438476562,
+            "x": 11.770248413085938,
+            "y": 3.0169601440429688
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.770248413085938,
+            "y1": 1.62432861328125,
+            "x2": 10.828765869140625,
+            "y2": 0.0,
+            "x": 7.8625030517578125,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.8843994140625,
+            "y1": 0.0,
+            "x2": 0.0,
+            "y2": 2.3319625854492188,
+            "x": 0.0,
+            "y": 7.722358703613281
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 10.802398681640625,
+            "x2": 0.8473663330078125,
+            "y2": 15.252410888671875,
+            "x": 6.356048583984375,
+            "y": 15.252410888671875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.12261962890625,
+            "y1": 15.252410888671875,
+            "x2": 12.52349853515625,
+            "y2": 13.289405822753906,
+            "x": 12.52349853515625,
+            "y": 10.277687072753906
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.52349853515625,
+            "y1": 7.2659454345703125,
+            "x2": 10.12261962890625,
+            "y2": 5.3942413330078125,
+            "x": 6.7561798095703125,
+            "y": 5.3942413330078125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 6.23822021484375,
+            "y1": 5.3942413330078125,
+            "x2": 4.637603759765625,
+            "y2": 5.3942413330078125,
+            "x": 3.46051025390625,
+            "y": 7.152008056640625
+          }
+        },
+        {
+          "moveTo": {
+            "x": 6.33233642578125,
+            "y": 14.087997436523438
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.530914306640625,
+            "y1": 14.087997436523438,
+            "x2": 3.507568359375,
+            "y2": 11.372749328613281,
+            "x": 3.507568359375,
+            "y": 9.981170654296875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.507568359375,
+            "y1": 8.338371276855469,
+            "x2": 4.4727630615234375,
+            "y2": 6.444374084472656,
+            "x": 6.4971771240234375,
+            "y": 6.444374084472656
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9.062942504882812,
+            "y1": 6.444374084472656,
+            "x2": 9.062942504882812,
+            "y2": 8.178451538085938,
+            "x": 9.062942504882812,
+            "y": 10.255027770996094
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9.062942504882812,
+            "y1": 12.376899719238281,
+            "x2": 9.062942504882812,
+            "y2": 14.087997436523438,
+            "x": 6.33233642578125,
+            "y": 14.087997436523438
+          }
+        }
+      ],
+      "x": 307.5912780761719,
+      "y": 62.924217224121094,
+      "width": 12.52349853515625,
+      "height": 15.252410888671875,
+      "fill": "#F54254",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100003,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100004",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 13.323760986328125,
+            "y": 11.6033935546875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 13.323760986328125,
+            "y": 10.324356079101562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.75799560546875,
+            "y": 10.324356079101562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.75799560546875,
+            "y": 0.79962158203125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.75799560546875,
+            "y1": 0.11428070068359375,
+            "x2": 10.640167236328125,
+            "y2": 0.0,
+            "x": 9.93402099609375,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.580902099609375,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9.133712768554688,
+            "y1": 0.0,
+            "x2": 8.945480346679688,
+            "y2": 0.0,
+            "x": 8.63946533203125,
+            "y": 0.34284210205078125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 10.324356079101562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 11.6033935546875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.5330963134765625,
+            "y": 11.6033935546875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.5330963134765625,
+            "y": 13.839912414550781
+          }
+        },
+        {
+          "lineTo": {
+            "x": 4.6138916015625,
+            "y": 13.839912414550781
+          }
+        },
+        {
+          "lineTo": {
+            "x": 4.6138916015625,
+            "y": 15.118606567382812
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.76727294921875,
+            "y1": 15.027328491210938,
+            "x2": 7.8862152099609375,
+            "y2": 15.027328491210938,
+            "x": 9.110000610351562,
+            "y": 15.027328491210938
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9.627960205078125,
+            "y1": 15.027328491210938,
+            "x2": 12.735397338867188,
+            "y2": 15.072967529296875,
+            "x": 13.323760986328125,
+            "y": 15.118606567382812
+          }
+        },
+        {
+          "lineTo": {
+            "x": 13.323760986328125,
+            "y": 13.839912414550781
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.75799560546875,
+            "y": 13.839912414550781
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.75799560546875,
+            "y": 11.6033935546875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 13.323760986328125,
+            "y": 11.6033935546875
+          }
+        },
+        {
+          "moveTo": {
+            "x": 7.8387908935546875,
+            "y": 3.1521377563476562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.8387908935546875,
+            "y": 10.324356079101562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.6242828369140625,
+            "y": 10.324356079101562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.8387908935546875,
+            "y": 3.1521377563476562
+          }
+        }
+      ],
+      "x": 322.42185974121094,
+      "y": 62.790435791015625,
+      "width": 13.323760986328125,
+      "height": 15.118606567382812,
+      "fill": "#F54254",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100004,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100005",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12.288253784179688,
+            "y": 1.119140625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.547210693359375,
+            "y1": 0.867919921875,
+            "x2": 12.61761474609375,
+            "y2": 0.7310028076171875,
+            "x": 12.61761474609375,
+            "y": 0.5710601806640625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.61761474609375,
+            "y1": 0.2055816650390625,
+            "x2": 12.311599731445312,
+            "y2": 0.0,
+            "x": 12.052597045898438,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.817306518554688,
+            "y1": 0.0,
+            "x2": 11.74658203125,
+            "y2": 0.06864166259765625,
+            "x": 11.4642333984375,
+            "y": 0.342864990234375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 6.308990478515625,
+            "y": 5.322120666503906
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.130035400390625,
+            "y": 0.31986236572265625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.8944244384765625,
+            "y1": 0.091644287109375,
+            "x2": 0.8003082275390625,
+            "y2": 0.0,
+            "x": 0.5883636474609375,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.259002685546875,
+            "y1": 0.0,
+            "x2": 0.0,
+            "y2": 0.251220703125,
+            "x": 0.0,
+            "y": 0.5710601806640625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 0.776641845703125,
+            "x2": 0.070770263671875,
+            "y2": 0.8452835083007812,
+            "x": 0.353118896484375,
+            "y": 1.119140625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.4849700927734375,
+            "y": 6.0987396240234375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.353118896484375,
+            "y": 11.078018188476562
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.023345947265625,
+            "y1": 11.397857666015625,
+            "x2": 0.0,
+            "y2": 11.512138366699219,
+            "x": 0.0,
+            "y": 11.649078369140625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 11.968917846679688,
+            "x2": 0.259002685546875,
+            "y2": 12.219772338867188,
+            "x": 0.5883636474609375,
+            "y": 12.219772338867188
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.8003082275390625,
+            "y1": 12.219772338867188,
+            "x2": 0.8710784912109375,
+            "y2": 12.151496887207031,
+            "x": 1.130035400390625,
+            "y": 11.900276184082031
+          }
+        },
+        {
+          "lineTo": {
+            "x": 6.308990478515625,
+            "y": 6.898017883300781
+          }
+        },
+        {
+          "lineTo": {
+            "x": 11.676177978515625,
+            "y": 12.1058349609375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.793960571289062,
+            "y1": 12.17413330078125,
+            "x2": 11.911422729492188,
+            "y2": 12.219772338867188,
+            "x": 12.052597045898438,
+            "y": 12.219772338867188
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.311599731445312,
+            "y1": 12.219772338867188,
+            "x2": 12.61761474609375,
+            "y2": 12.014556884765625,
+            "x": 12.61761474609375,
+            "y": 11.649078369140625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.61761474609375,
+            "y1": 11.466499328613281,
+            "x2": 12.570556640625,
+            "y2": 11.420494079589844,
+            "x": 12.500152587890625,
+            "y": 11.352218627929688
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.453094482421875,
+            "y1": 11.260917663574219,
+            "x2": 7.886260986328125,
+            "y2": 6.829719543457031,
+            "x": 7.1326446533203125,
+            "y": 6.12139892578125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.288253784179688,
+            "y": 1.119140625
+          }
+        }
+      ],
+      "x": 340.91070556640625,
+      "y": 66.06834411621094,
+      "width": 12.61761474609375,
+      "height": 12.219772338867188,
+      "fill": "#F54254",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100005,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100006",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 3.46051025390625,
+            "y": 7.152008056640625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.46051025390625,
+            "y1": 5.599800109863281,
+            "x2": 3.55462646484375,
+            "y2": 3.8392410278320312,
+            "x": 4.4019927978515625,
+            "y": 2.6974639892578125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.5557403564453125,
+            "y1": 1.1194839477539062,
+            "x2": 7.415313720703125,
+            "y2": 1.05047607421875,
+            "x": 7.9095611572265625,
+            "y": 1.05047607421875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.63946533203125,
+            "y1": 1.05047607421875,
+            "x2": 9.251541137695312,
+            "y2": 1.2570877075195312,
+            "x": 9.6046142578125,
+            "y": 1.5327072143554688
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.92181396484375,
+            "y1": 1.783905029296875,
+            "x2": 8.498291015625,
+            "y2": 2.3549652099609375,
+            "x": 8.498291015625,
+            "y": 3.0629653930664062
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.498291015625,
+            "y1": 3.9305191040039062,
+            "x2": 9.133712768554688,
+            "y2": 4.638153076171875,
+            "x": 10.12261962890625,
+            "y": 4.638153076171875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.0877685546875,
+            "y1": 4.638153076171875,
+            "x2": 11.770248413085938,
+            "y2": 3.9988174438476562,
+            "x": 11.770248413085938,
+            "y": 3.0169601440429688
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.770248413085938,
+            "y1": 1.62432861328125,
+            "x2": 10.828765869140625,
+            "y2": 0.0,
+            "x": 7.8625030517578125,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.8843994140625,
+            "y1": 0.0,
+            "x2": 0.0,
+            "y2": 2.3319625854492188,
+            "x": 0.0,
+            "y": 7.722358703613281
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 10.802398681640625,
+            "x2": 0.8473663330078125,
+            "y2": 15.252410888671875,
+            "x": 6.356048583984375,
+            "y": 15.252410888671875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.12261962890625,
+            "y1": 15.252410888671875,
+            "x2": 12.52349853515625,
+            "y2": 13.289405822753906,
+            "x": 12.52349853515625,
+            "y": 10.277687072753906
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.52349853515625,
+            "y1": 7.2659454345703125,
+            "x2": 10.12261962890625,
+            "y2": 5.3942413330078125,
+            "x": 6.7561798095703125,
+            "y": 5.3942413330078125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 6.23822021484375,
+            "y1": 5.3942413330078125,
+            "x2": 4.637603759765625,
+            "y2": 5.3942413330078125,
+            "x": 3.46051025390625,
+            "y": 7.152008056640625
+          }
+        },
+        {
+          "moveTo": {
+            "x": 6.33233642578125,
+            "y": 14.087997436523438
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.530914306640625,
+            "y1": 14.087997436523438,
+            "x2": 3.507568359375,
+            "y2": 11.372749328613281,
+            "x": 3.507568359375,
+            "y": 9.981170654296875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.507568359375,
+            "y1": 8.338371276855469,
+            "x2": 4.4727630615234375,
+            "y2": 6.444374084472656,
+            "x": 6.4971771240234375,
+            "y": 6.444374084472656
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9.062942504882812,
+            "y1": 6.444374084472656,
+            "x2": 9.062942504882812,
+            "y2": 8.178451538085938,
+            "x": 9.062942504882812,
+            "y": 10.255027770996094
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9.062942504882812,
+            "y1": 12.376899719238281,
+            "x2": 9.062942504882812,
+            "y2": 14.087997436523438,
+            "x": 6.33233642578125,
+            "y": 14.087997436523438
+          }
+        }
+      ],
+      "x": 359.0830993652344,
+      "y": 62.924217224121094,
+      "width": 12.52349853515625,
+      "height": 15.252410888671875,
+      "fill": "#F54254",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100006,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100007",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 13.323760986328125,
+            "y": 11.6033935546875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 13.323760986328125,
+            "y": 10.324356079101562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.75799560546875,
+            "y": 10.324356079101562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.75799560546875,
+            "y": 0.79962158203125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.75799560546875,
+            "y1": 0.11428070068359375,
+            "x2": 10.640167236328125,
+            "y2": 0.0,
+            "x": 9.93402099609375,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.580902099609375,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9.133712768554688,
+            "y1": 0.0,
+            "x2": 8.945480346679688,
+            "y2": 0.0,
+            "x": 8.63946533203125,
+            "y": 0.34284210205078125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 10.324356079101562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 11.6033935546875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.5330963134765625,
+            "y": 11.6033935546875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.5330963134765625,
+            "y": 13.839912414550781
+          }
+        },
+        {
+          "lineTo": {
+            "x": 4.6138916015625,
+            "y": 13.839912414550781
+          }
+        },
+        {
+          "lineTo": {
+            "x": 4.6138916015625,
+            "y": 15.118606567382812
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.76727294921875,
+            "y1": 15.027328491210938,
+            "x2": 7.8862152099609375,
+            "y2": 15.027328491210938,
+            "x": 9.110000610351562,
+            "y": 15.027328491210938
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9.627960205078125,
+            "y1": 15.027328491210938,
+            "x2": 12.735397338867188,
+            "y2": 15.072967529296875,
+            "x": 13.323760986328125,
+            "y": 15.118606567382812
+          }
+        },
+        {
+          "lineTo": {
+            "x": 13.323760986328125,
+            "y": 13.839912414550781
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.75799560546875,
+            "y": 13.839912414550781
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.75799560546875,
+            "y": 11.6033935546875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 13.323760986328125,
+            "y": 11.6033935546875
+          }
+        },
+        {
+          "moveTo": {
+            "x": 7.8387908935546875,
+            "y": 3.1521377563476562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.8387908935546875,
+            "y": 10.324356079101562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.6242828369140625,
+            "y": 10.324356079101562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.8387908935546875,
+            "y": 3.1521377563476562
+          }
+        }
+      ],
+      "x": 373.91368103027344,
+      "y": 62.790435791015625,
+      "width": 13.323760986328125,
+      "height": 15.118606567382812,
+      "fill": "#F54254",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100007,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100008",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12.288253784179688,
+            "y": 1.119140625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.547210693359375,
+            "y1": 0.867919921875,
+            "x2": 12.61761474609375,
+            "y2": 0.7310028076171875,
+            "x": 12.61761474609375,
+            "y": 0.5710601806640625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.61761474609375,
+            "y1": 0.2055816650390625,
+            "x2": 12.311599731445312,
+            "y2": 0.0,
+            "x": 12.052597045898438,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.817306518554688,
+            "y1": 0.0,
+            "x2": 11.746536254882812,
+            "y2": 0.06864166259765625,
+            "x": 11.4642333984375,
+            "y": 0.342864990234375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 6.308990478515625,
+            "y": 5.322120666503906
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.130035400390625,
+            "y": 0.31986236572265625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.8944244384765625,
+            "y1": 0.091644287109375,
+            "x2": 0.8003082275390625,
+            "y2": 0.0,
+            "x": 0.5883636474609375,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.259002685546875,
+            "y1": 0.0,
+            "x2": 0.0,
+            "y2": 0.251220703125,
+            "x": 0.0,
+            "y": 0.5710601806640625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 0.776641845703125,
+            "x2": 0.070770263671875,
+            "y2": 0.8452835083007812,
+            "x": 0.353118896484375,
+            "y": 1.119140625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.4849700927734375,
+            "y": 6.0987396240234375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.353118896484375,
+            "y": 11.078018188476562
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.023345947265625,
+            "y1": 11.397857666015625,
+            "x2": 0.0,
+            "y2": 11.512138366699219,
+            "x": 0.0,
+            "y": 11.649078369140625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 11.968917846679688,
+            "x2": 0.259002685546875,
+            "y2": 12.219772338867188,
+            "x": 0.5883636474609375,
+            "y": 12.219772338867188
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.8003082275390625,
+            "y1": 12.219772338867188,
+            "x2": 0.8710784912109375,
+            "y2": 12.151496887207031,
+            "x": 1.130035400390625,
+            "y": 11.900276184082031
+          }
+        },
+        {
+          "lineTo": {
+            "x": 6.308990478515625,
+            "y": 6.898017883300781
+          }
+        },
+        {
+          "lineTo": {
+            "x": 11.676132202148438,
+            "y": 12.1058349609375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.793960571289062,
+            "y1": 12.17413330078125,
+            "x2": 11.911422729492188,
+            "y2": 12.219772338867188,
+            "x": 12.052597045898438,
+            "y": 12.219772338867188
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.311599731445312,
+            "y1": 12.219772338867188,
+            "x2": 12.61761474609375,
+            "y2": 12.014556884765625,
+            "x": 12.61761474609375,
+            "y": 11.649078369140625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.61761474609375,
+            "y1": 11.466499328613281,
+            "x2": 12.570556640625,
+            "y2": 11.420494079589844,
+            "x": 12.500152587890625,
+            "y": 11.352218627929688
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.453094482421875,
+            "y1": 11.260917663574219,
+            "x2": 7.886260986328125,
+            "y2": 6.829719543457031,
+            "x": 7.1326446533203125,
+            "y": 6.12139892578125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.288253784179688,
+            "y": 1.119140625
+          }
+        }
+      ],
+      "x": 392.40257263183594,
+      "y": 66.06834411621094,
+      "width": 12.61761474609375,
+      "height": 12.219772338867188,
+      "fill": "#F54254",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100008,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100009",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 5.76727294921875,
+            "y": 7.559303283691406
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.568695068359375,
+            "y1": 7.559303283691406,
+            "x2": 8.6865234375,
+            "y2": 9.613929748535156,
+            "x": 8.6865234375,
+            "y": 10.823661804199219
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.6865234375,
+            "y1": 11.782493591308594,
+            "x2": 8.6865234375,
+            "y2": 14.087997436523438,
+            "x": 5.86175537109375,
+            "y": 14.087997436523438
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.22601318359375,
+            "y1": 14.087997436523438,
+            "x2": 3.74285888671875,
+            "y2": 13.97406005859375,
+            "x": 2.73065185546875,
+            "y": 13.357704162597656
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.2252197265625,
+            "y1": 13.152145385742188,
+            "x2": 3.83697509765625,
+            "y2": 12.627067565917969,
+            "x": 3.83697509765625,
+            "y": 11.645576477050781
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.83697509765625,
+            "y1": 10.595443725585938,
+            "x2": 3.060333251953125,
+            "y2": 9.7965087890625,
+            "x": 1.9302978515625,
+            "y": 9.7965087890625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.753204345703125,
+            "y1": 9.7965087890625,
+            "x2": 0.0,
+            "y2": 10.595443725585938,
+            "x": 0.0,
+            "y": 11.668212890625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 13.996696472167969,
+            "x2": 2.613189697265625,
+            "y2": 15.252410888671875,
+            "x": 5.95587158203125,
+            "y": 15.252410888671875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.875823974609375,
+            "y1": 15.252410888671875,
+            "x2": 12.52349853515625,
+            "y2": 12.764007568359375,
+            "x": 12.52349853515625,
+            "y": 10.846641540527344
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.52349853515625,
+            "y1": 9.088874816894531,
+            "x2": 11.0877685546875,
+            "y2": 7.49102783203125,
+            "x": 8.40380859375,
+            "y": 6.965950012207031
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.098907470703125,
+            "y1": 6.349250793457031,
+            "x2": 11.676177978515625,
+            "y2": 5.161491394042969,
+            "x": 11.676177978515625,
+            "y": 3.2430953979492188
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.676177978515625,
+            "y1": 1.4616165161132812,
+            "x2": 9.7928466796875,
+            "y2": 0.0,
+            "x": 6.026275634765625,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 2.82476806640625,
+            "y1": 0.0,
+            "x2": 0.847320556640625,
+            "y2": 1.5302581787109375,
+            "x": 0.847320556640625,
+            "y": 3.4256515502929688
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.847320556640625,
+            "y1": 4.567771911621094,
+            "x2": 1.695098876953125,
+            "y2": 5.184471130371094,
+            "x": 2.613189697265625,
+            "y": 5.184471130371094
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.7899169921875,
+            "y1": 5.184471130371094,
+            "x2": 4.401947021484375,
+            "y2": 4.339210510253906,
+            "x": 4.401947021484375,
+            "y": 3.4716567993164062
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4.401947021484375,
+            "y1": 2.3065338134765625,
+            "x2": 3.46051025390625,
+            "y2": 1.8957595825195312,
+            "x": 3.2252197265625,
+            "y": 1.827117919921875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4.190093994140625,
+            "y1": 1.1417770385742188,
+            "x2": 5.437957763671875,
+            "y2": 1.05047607421875,
+            "x": 5.9088134765625,
+            "y": 1.05047607421875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.215576171875,
+            "y1": 1.05047607421875,
+            "x2": 8.215576171875,
+            "y2": 2.53509521484375,
+            "x": 8.215576171875,
+            "y": 3.1744537353515625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.215576171875,
+            "y1": 4.225273132324219,
+            "x2": 7.744720458984375,
+            "y2": 6.3262481689453125,
+            "x": 5.390899658203125,
+            "y": 6.440528869628906
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4.8021240234375,
+            "y1": 6.463531494140625,
+            "x2": 4.21380615234375,
+            "y2": 6.486167907714844,
+            "x": 4.0726318359375,
+            "y": 6.531829833984375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.766571044921875,
+            "y1": 6.623451232910156,
+            "x2": 3.766571044921875,
+            "y2": 6.897308349609375,
+            "x": 3.766571044921875,
+            "y": 7.034248352050781
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.766571044921875,
+            "y1": 7.559303283691406,
+            "x2": 4.0726318359375,
+            "y2": 7.559303283691406,
+            "x": 4.519775390625,
+            "y": 7.559303283691406
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.76727294921875,
+            "y": 7.559303283691406
+          }
+        }
+      ],
+      "x": 410.57354736328125,
+      "y": 62.924217224121094,
+      "width": 12.52349853515625,
+      "height": 15.252410888671875,
+      "fill": "#F54254",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100009,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100010",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 5.649810791015625,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 1.177093505859375,
+            "y1": 3.0601730346679688,
+            "x2": 0.0,
+            "y2": 7.901115417480469,
+            "x": 0.0,
+            "y": 11.394699096679688
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 14.614448547363281,
+            "x2": 0.988861083984375,
+            "y2": 19.614967346191406,
+            "x": 5.649810791015625,
+            "y": 22.81171417236328
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.838043212890625,
+            "y1": 22.81171417236328,
+            "x2": 6.120758056640625,
+            "y2": 22.81171417236328,
+            "x": 6.120758056640625,
+            "y": 22.537857055664062
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 6.120758056640625,
+            "y1": 22.40093994140625,
+            "x2": 6.04998779296875,
+            "y2": 22.35527801513672,
+            "x": 5.885101318359375,
+            "y": 22.195358276367188
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 2.754364013671875,
+            "y1": 19.45539093017578,
+            "x2": 1.600982666015625,
+            "y2": 15.57330322265625,
+            "x": 1.600982666015625,
+            "y": 11.417701721191406
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 1.600982666015625,
+            "y1": 5.252082824707031,
+            "x2": 4.02557373046875,
+            "y2": 2.2382354736328125,
+            "x": 5.95587158203125,
+            "y": 0.54840087890625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 6.04998779296875,
+            "y1": 0.45677947998046875,
+            "x2": 6.120758056640625,
+            "y2": 0.38848114013671875,
+            "x": 6.120758056640625,
+            "y": 0.274200439453125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 6.120758056640625,
+            "y1": 0.0,
+            "x2": 5.838043212890625,
+            "y2": 0.0,
+            "x": 5.649810791015625,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 436.2364196777344,
+      "y": 60.783531188964844,
+      "width": 6.120758056640625,
+      "height": 22.81171417236328,
+      "fill": "#F54254",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100010,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100011",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 6.073333740234375,
+            "y": 8.991645812988281
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.66387939453125,
+            "y": 8.991645812988281
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 14.9718017578125,
+            "y1": 8.991645812988281,
+            "x2": 17.561279296875,
+            "y2": 7.051300048828125,
+            "x": 17.561279296875,
+            "y": 4.541633605957031
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 17.561279296875,
+            "y1": 2.05462646484375,
+            "x2": 15.042572021484375,
+            "y2": 0.0,
+            "x": 10.66387939453125,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 1.2790374755859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 2.518707275390625,
+            "y": 1.2790374755859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 2.518707275390625,
+            "y": 14.375083923339844
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 14.375083923339844
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 15.653778076171875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.541351318359375,
+            "y1": 15.608139038085938,
+            "x2": 3.907745361328125,
+            "y2": 15.5625,
+            "x": 4.28448486328125,
+            "y": 15.5625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4.8021240234375,
+            "y1": 15.5625,
+            "x2": 8.07440185546875,
+            "y2": 15.608139038085938,
+            "x": 8.5924072265625,
+            "y": 15.653778076171875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.5924072265625,
+            "y": 14.375083923339844
+          }
+        },
+        {
+          "lineTo": {
+            "x": 6.073333740234375,
+            "y": 14.375083923339844
+          }
+        },
+        {
+          "lineTo": {
+            "x": 6.073333740234375,
+            "y": 8.991645812988281
+          }
+        },
+        {
+          "moveTo": {
+            "x": 9.863616943359375,
+            "y": 1.2790374755859375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 13.72430419921875,
+            "y1": 1.2790374755859375,
+            "x2": 13.72430419921875,
+            "y2": 3.0814132690429688,
+            "x": 13.72430419921875,
+            "y": 4.541633605957031
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 13.72430419921875,
+            "y1": 6.024513244628906,
+            "x2": 13.72430419921875,
+            "y2": 7.8268890380859375,
+            "x": 9.816558837890625,
+            "y": 7.8268890380859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.9088134765625,
+            "y": 7.8268890380859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.9088134765625,
+            "y": 1.2790374755859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.863616943359375,
+            "y": 1.2790374755859375
+          }
+        }
+      ],
+      "x": 445.37896728515625,
+      "y": 62.25526428222656,
+      "width": 17.561279296875,
+      "height": 15.653778076171875,
+      "fill": "#F54254",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100011,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100012",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 4.590545654296875,
+            "y": 1.8724136352539062
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4.590545654296875,
+            "y1": 0.7766189575195312,
+            "x2": 3.672454833984375,
+            "y2": 0.0,
+            "x": 2.6839599609375,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 1.553924560546875,
+            "y1": 0.0,
+            "x2": 0.753570556640625,
+            "y2": 0.8905563354492188,
+            "x": 0.753570556640625,
+            "y": 1.8497543334960938
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.753570556640625,
+            "y1": 2.945892333984375,
+            "x2": 1.671295166015625,
+            "y2": 3.72216796875,
+            "x": 2.660247802734375,
+            "y": 3.72216796875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.790283203125,
+            "y1": 3.72216796875,
+            "x2": 4.590545654296875,
+            "y2": 2.8316116333007812,
+            "x": 4.590545654296875,
+            "y": 1.8724136352539062
+          }
+        },
+        {
+          "moveTo": {
+            "x": 0.070770263671875,
+            "y": 5.779930114746094
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.070770263671875,
+            "y": 7.058624267578125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 1.412750244140625,
+            "y1": 7.058624267578125,
+            "x2": 1.5772705078125,
+            "y2": 7.058624267578125,
+            "x": 1.5772705078125,
+            "y": 7.949546813964844
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.5772705078125,
+            "y": 14.59808349609375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 14.59808349609375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 15.876777648925781
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.04705810546875,
+            "y1": 15.876777648925781,
+            "x2": 1.906951904296875,
+            "y2": 15.785499572753906,
+            "x": 2.966217041015625,
+            "y": 15.785499572753906
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.93145751953125,
+            "y1": 15.785499572753906,
+            "x2": 4.872894287109375,
+            "y2": 15.808479309082031,
+            "x": 5.838043212890625,
+            "y": 15.876777648925781
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.838043212890625,
+            "y": 14.59808349609375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 4.402313232421875,
+            "y": 14.59808349609375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 4.402313232421875,
+            "y": 5.597007751464844
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.070770263671875,
+            "y": 5.779930114746094
+          }
+        }
+      ],
+      "x": 466.28265380859375,
+      "y": 62.032264709472656,
+      "width": 5.838043212890625,
+      "height": 15.876777648925781,
+      "fill": "#F54254",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100012,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100013",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 8.47467041015625,
+            "y": 4.6158599853515625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 11.723236083984375,
+            "y": 1.4389572143554688
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.288299560546875,
+            "y1": 1.2790374755859375,
+            "x2": 12.90032958984375,
+            "y2": 1.2790374755859375,
+            "x": 13.91253662109375,
+            "y": 1.2790374755859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 13.91253662109375,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 13.159332275390625,
+            "y1": 0.0686187744140625,
+            "x2": 12.38232421875,
+            "y2": 0.09162139892578125,
+            "x": 11.629119873046875,
+            "y": 0.09162139892578125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.828857421875,
+            "y1": 0.09162139892578125,
+            "x2": 9.20452880859375,
+            "y2": 0.022979736328125,
+            "x": 9.01629638671875,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.01629638671875,
+            "y": 1.2790374755859375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9.322357177734375,
+            "y1": 1.2790374755859375,
+            "x2": 9.48687744140625,
+            "y2": 1.324676513671875,
+            "x": 9.651763916015625,
+            "y": 1.4159774780273438
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.43902587890625,
+            "y": 3.587310791015625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.155609130859375,
+            "y": 1.2790374755859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.79107666015625,
+            "y": 1.2790374755859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.79107666015625,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.64990234375,
+            "y1": 0.0,
+            "x2": 3.790283203125,
+            "y2": 0.09162139892578125,
+            "x": 2.801422119140625,
+            "y": 0.09162139892578125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 1.90704345703125,
+            "y1": 0.09162139892578125,
+            "x2": 1.0360107421875,
+            "y2": 0.0686187744140625,
+            "x": 0.14117431640625,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.14117431640625,
+            "y": 1.2790374755859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.90704345703125,
+            "y": 1.2790374755859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.767730712890625,
+            "y": 5.187263488769531
+          }
+        },
+        {
+          "lineTo": {
+            "x": 2.377532958984375,
+            "y": 8.50177001953125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 2.071563720703125,
+            "y1": 8.775970458984375,
+            "x2": 2.0482177734375,
+            "y2": 8.798973083496094,
+            "x": 1.318267822265625,
+            "y": 8.844612121582031
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.94189453125,
+            "y1": 8.867271423339844,
+            "x2": 0.117828369140625,
+            "y2": 8.867271423339844,
+            "x": 0.0,
+            "y": 8.867271423339844
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 10.145965576171875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.7532958984375,
+            "y1": 10.077667236328125,
+            "x2": 1.53021240234375,
+            "y2": 10.0546875,
+            "x": 2.28350830078125,
+            "y": 10.0546875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 2.91925048828125,
+            "y1": 10.0546875,
+            "x2": 4.59063720703125,
+            "y2": 10.123329162597656,
+            "x": 4.8966064453125,
+            "y": 10.145965576171875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 4.8966064453125,
+            "y": 8.867271423339844
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4.519866943359375,
+            "y1": 8.867271423339844,
+            "x2": 4.425750732421875,
+            "y2": 8.821632385253906,
+            "x": 4.2608642578125,
+            "y": 8.707351684570312
+          }
+        },
+        {
+          "lineTo": {
+            "x": 6.80328369140625,
+            "y": 6.238792419433594
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.416473388671875,
+            "y": 8.867271423339844
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.804351806640625,
+            "y": 8.867271423339844
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.804351806640625,
+            "y": 10.145965576171875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.82769775390625,
+            "y1": 10.145965576171875,
+            "x2": 10.711029052734375,
+            "y2": 10.0546875,
+            "x": 11.79400634765625,
+            "y": 10.0546875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.6650390625,
+            "y1": 10.0546875,
+            "x2": 13.559417724609375,
+            "y2": 10.077667236328125,
+            "x": 14.4305419921875,
+            "y": 10.145965576171875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 14.4305419921875,
+            "y": 8.867271423339844
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.688385009765625,
+            "y": 8.867271423339844
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.47467041015625,
+            "y": 4.6158599853515625
+          }
+        }
+      ],
+      "x": 474.0746154785156,
+      "y": 67.76307678222656,
+      "width": 14.4305419921875,
+      "height": 10.145965576171875,
+      "fill": "#F54254",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100013,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100014",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 11.205230712890625,
+            "y": 5.597007751464844
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.69952392578125,
+            "y1": 5.597007751464844,
+            "x2": 12.029296875,
+            "y2": 5.597007751464844,
+            "x": 12.029296875,
+            "y": 4.9120330810546875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.029296875,
+            "y1": 4.249671936035156,
+            "x2": 11.864410400390625,
+            "y2": 2.5358047485351562,
+            "x": 10.734375,
+            "y": 1.4163436889648438
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9.463165283203125,
+            "y1": 0.18292236328125,
+            "x2": 7.72137451171875,
+            "y2": 0.0,
+            "x": 6.42645263671875,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 2.071563720703125,
+            "y1": 0.0,
+            "x2": 0.0,
+            "y2": 2.5131454467773438,
+            "x": 0.0,
+            "y": 5.208869934082031
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 7.924461364746094,
+            "x2": 2.165679931640625,
+            "y2": 10.480476379394531,
+            "x": 6.826629638671875,
+            "y": 10.480476379394531
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 7.67431640625,
+            "y1": 10.480476379394531,
+            "x2": 9.039642333984375,
+            "y2": 10.389175415039062,
+            "x": 10.21673583984375,
+            "y": 9.772819519042969
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.60540771484375,
+            "y1": 9.065185546875,
+            "x2": 12.029296875,
+            "y2": 7.970100402832031,
+            "x": 12.029296875,
+            "y": 7.74188232421875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.029296875,
+            "y1": 7.23980712890625,
+            "x2": 11.51129150390625,
+            "y2": 7.23980712890625,
+            "x": 11.2760009765625,
+            "y": 7.23980712890625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.852203369140625,
+            "y1": 7.23980712890625,
+            "x2": 10.734375,
+            "y2": 7.262809753417969,
+            "x": 10.546142578125,
+            "y": 7.627601623535156
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9.69873046875,
+            "y1": 9.3160400390625,
+            "x2": 7.556488037109375,
+            "y2": 9.3160400390625,
+            "x": 7.156402587890625,
+            "y": 9.3160400390625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.4368896484375,
+            "y1": 9.3160400390625,
+            "x2": 3.319427490234375,
+            "y2": 6.646797180175781,
+            "x": 3.272003173828125,
+            "y": 5.597007751464844
+          }
+        },
+        {
+          "lineTo": {
+            "x": 11.205230712890625,
+            "y": 5.597007751464844
+          }
+        },
+        {
+          "moveTo": {
+            "x": 3.272003173828125,
+            "y": 4.638175964355469
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.29571533203125,
+            "y1": 3.7469100952148438,
+            "x2": 3.413543701171875,
+            "y2": 1.0504989624023438,
+            "x": 6.450164794921875,
+            "y": 1.0504989624023438
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9.48687744140625,
+            "y1": 1.0504989624023438,
+            "x2": 9.65167236328125,
+            "y2": 3.6556320190429688,
+            "x": 9.69873046875,
+            "y": 4.638175964355469
+          }
+        },
+        {
+          "lineTo": {
+            "x": 3.272003173828125,
+            "y": 4.638175964355469
+          }
+        }
+      ],
+      "x": 490.2470397949219,
+      "y": 67.56237030029297,
+      "width": 12.029296875,
+      "height": 10.480476379394531,
+      "fill": "#F54254",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100014,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100015",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 4.402313232421875,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.18292236328125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 1.4616165161132812
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 1.3890380859375,
+            "y1": 1.4616165161132812,
+            "x2": 1.5772705078125,
+            "y2": 1.4616165161132812,
+            "x": 1.5772705078125,
+            "y": 2.3525390625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.5772705078125,
+            "y": 14.575790405273438
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 14.575790405273438
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 15.854484558105469
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.070770263671875,
+            "y1": 15.854484558105469,
+            "x2": 1.906951904296875,
+            "y2": 15.763206481933594,
+            "x": 2.98992919921875,
+            "y": 15.763206481933594
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4.143310546875,
+            "y1": 15.763206481933594,
+            "x2": 5.9088134765625,
+            "y2": 15.854484558105469,
+            "x": 5.979583740234375,
+            "y": 15.854484558105469
+          }
+        },
+        {
+          "lineTo": {
+            "x": 5.979583740234375,
+            "y": 14.575790405273438
+          }
+        },
+        {
+          "lineTo": {
+            "x": 4.402313232421875,
+            "y": 14.575790405273438
+          }
+        },
+        {
+          "lineTo": {
+            "x": 4.402313232421875,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 504.8184814453125,
+      "y": 62.05455780029297,
+      "width": 5.979583740234375,
+      "height": 15.854484558105469,
+      "fill": "#F54254",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100015,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100016",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 9.06298828125,
+            "y": 0.7309799194335938
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9.06298828125,
+            "y1": 0.27422332763671875,
+            "x2": 9.06298828125,
+            "y2": 0.0,
+            "x": 8.4979248046875,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.333038330078125,
+            "y1": 0.0,
+            "x2": 8.26263427734375,
+            "y2": 0.0,
+            "x": 7.885894775390625,
+            "y": 0.18292236328125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 7.838836669921875,
+            "y1": 0.2055816650390625,
+            "x2": 7.53277587890625,
+            "y2": 0.34284210205078125,
+            "x": 7.43865966796875,
+            "y": 0.34284210205078125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 7.415313720703125,
+            "y1": 0.34284210205078125,
+            "x2": 7.368255615234375,
+            "y2": 0.34284210205078125,
+            "x": 7.273773193359375,
+            "y": 0.2968597412109375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 6.308624267578125,
+            "y1": 0.0,
+            "x2": 5.32012939453125,
+            "y2": 0.0,
+            "x": 4.825836181640625,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4.143035888671875,
+            "y1": 0.0,
+            "x2": 2.706939697265625,
+            "y2": 0.0,
+            "x": 1.53021240234375,
+            "y": 0.61669921875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.188232421875,
+            "y1": 1.3473358154296875,
+            "x2": 0.0,
+            "y2": 2.5347518920898438,
+            "x": 0.0,
+            "y": 3.0598297119140625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 5.52593994140625,
+            "x2": 3.10711669921875,
+            "y2": 5.9823760986328125,
+            "x": 4.75506591796875,
+            "y": 6.233573913574219
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 6.191162109375,
+            "y1": 6.439155578613281,
+            "x2": 7.90960693359375,
+            "y2": 6.6903533935546875,
+            "x": 7.90960693359375,
+            "y": 7.877769470214844
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 7.90960693359375,
+            "y1": 9.430320739746094,
+            "x2": 5.579132080078125,
+            "y2": 9.430320739746094,
+            "x": 5.014068603515625,
+            "y": 9.430320739746094
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 2.7777099609375,
+            "y1": 9.430320739746094,
+            "x2": 1.9537353515625,
+            "y2": 8.448486328125,
+            "x": 1.506500244140625,
+            "y": 7.215431213378906
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 1.365325927734375,
+            "y1": 6.827293395996094,
+            "x2": 1.34161376953125,
+            "y2": 6.781654357910156,
+            "x": 0.7532958984375,
+            "y": 6.781654357910156
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.070404052734375,
+            "y1": 6.781654357910156,
+            "x2": 0.0,
+            "y2": 6.850273132324219,
+            "x": 0.0,
+            "y": 7.512290954589844
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 9.749839782714844
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 10.206596374511719,
+            "x2": 0.0,
+            "y2": 10.480476379394531,
+            "x": 0.541351318359375,
+            "y": 10.480476379394531
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.7532958984375,
+            "y1": 10.480476379394531,
+            "x2": 0.800262451171875,
+            "y2": 10.480476379394531,
+            "x": 1.2945556640625,
+            "y": 10.1839599609375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 1.43572998046875,
+            "y1": 10.115318298339844,
+            "x2": 1.81256103515625,
+            "y2": 9.909759521484375,
+            "x": 1.9537353515625,
+            "y": 9.818458557128906
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.177886962890625,
+            "y1": 10.480476379394531,
+            "x2": 4.4490966796875,
+            "y2": 10.480476379394531,
+            "x": 4.9903564453125,
+            "y": 10.480476379394531
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.767364501953125,
+            "y1": 10.480476379394531,
+            "x2": 9.816192626953125,
+            "y2": 10.480476379394531,
+            "x": 9.816192626953125,
+            "y": 7.1011505126953125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9.816192626953125,
+            "y1": 6.051017761230469,
+            "x2": 9.251220703125,
+            "y2": 5.320381164550781,
+            "x": 8.709869384765625,
+            "y": 4.8865814208984375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 7.603546142578125,
+            "y1": 3.9960250854492188,
+            "x2": 6.591339111328125,
+            "y2": 3.8361053466796875,
+            "x": 4.637237548828125,
+            "y": 3.53924560546875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.295623779296875,
+            "y1": 3.3336868286132812,
+            "x2": 1.90667724609375,
+            "y2": 3.1284713745117188,
+            "x": 1.90667724609375,
+            "y": 2.2149124145507812
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 1.90667724609375,
+            "y1": 0.93621826171875,
+            "x2": 4.2608642578125,
+            "y2": 0.93621826171875,
+            "x": 4.75506591796875,
+            "y": 0.93621826171875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 7.415313720703125,
+            "y1": 0.93621826171875,
+            "x2": 7.509429931640625,
+            "y2": 1.9866943359375,
+            "x": 7.579833984375,
+            "y": 2.5347518920898438
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 7.62689208984375,
+            "y1": 2.9911880493164062,
+            "x2": 7.7684326171875,
+            "y2": 3.03717041015625,
+            "x": 8.3096923828125,
+            "y": 3.03717041015625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.992584228515625,
+            "y1": 3.03717041015625,
+            "x2": 9.06298828125,
+            "y2": 2.9685516357421875,
+            "x": 9.06298828125,
+            "y": 2.3061904907226562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.06298828125,
+            "y": 0.7309799194335938
+          }
+        }
+      ],
+      "x": 512.89306640625,
+      "y": 67.56237030029297,
+      "width": 9.816192626953125,
+      "height": 10.480476379394531,
+      "fill": "#F54254",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100016,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100017",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0.4471435546875,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.282257080078125,
+            "y1": 0.0,
+            "x2": 0.0,
+            "y2": 0.0,
+            "x": 0.0,
+            "y": 0.274200439453125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 0.38848114013671875,
+            "x2": 0.070404052734375,
+            "y2": 0.45677947998046875,
+            "x": 0.211578369140625,
+            "y": 0.61669921875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 2.235992431640625,
+            "y1": 2.4208145141601562,
+            "x2": 4.496063232421875,
+            "y2": 5.5032806396484375,
+            "x": 4.496063232421875,
+            "y": 11.394699096679688
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4.496063232421875,
+            "y1": 16.16699981689453,
+            "x2": 2.965850830078125,
+            "y2": 19.774887084960938,
+            "x": 0.423431396484375,
+            "y": 22.012802124023438
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.023345947265625,
+            "y1": 22.40093994140625,
+            "x2": 0.0,
+            "y2": 22.42357635498047,
+            "x": 0.0,
+            "y": 22.537857055664062
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 22.652137756347656,
+            "x2": 0.070404052734375,
+            "y2": 22.81171417236328,
+            "x": 0.30596923828125,
+            "y": 22.81171417236328
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.58831787109375,
+            "y1": 22.81171417236328,
+            "x2": 2.824676513671875,
+            "y2": 21.30480194091797,
+            "x": 4.37823486328125,
+            "y": 18.45055389404297
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.414154052734375,
+            "y1": 16.555137634277344,
+            "x2": 6.0966796875,
+            "y2": 14.089027404785156,
+            "x": 6.0966796875,
+            "y": 11.417701721191406
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 6.0966796875,
+            "y1": 8.197952270507812,
+            "x2": 5.108184814453125,
+            "y2": 3.1970901489257812,
+            "x": 0.4471435546875,
+            "y": 0.0
+          }
+        }
+      ],
+      "x": 525.5605773925781,
+      "y": 60.783531188964844,
+      "width": 6.0966796875,
+      "height": 22.81171417236328,
+      "fill": "#F54254",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100017,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100018",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 14.751434326171875,
+            "y": 10.610549926757812
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 16.12078857421875,
+            "y1": 10.642730712890625,
+            "x2": 16.77099609375,
+            "y2": 10.770469665527344,
+            "x": 16.97625732421875,
+            "y": 10.929931640625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 17.01068115234375,
+            "y1": 10.961631774902344,
+            "x2": 17.044647216796875,
+            "y2": 11.089370727539062,
+            "x": 17.079071044921875,
+            "y": 11.153251647949219
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 17.079071044921875,
+            "y1": 11.472152709960938,
+            "x2": 17.35272216796875,
+            "y2": 11.472152709960938,
+            "x": 17.524017333984375,
+            "y": 11.472152709960938
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 18.0714111328125,
+            "y1": 11.472152709960938,
+            "x2": 19.132598876953125,
+            "y2": 10.929931640625,
+            "x": 19.132598876953125,
+            "y": 10.259445190429688
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 19.132598876953125,
+            "y1": 9.460258483886719,
+            "x2": 17.6953125,
+            "y2": 9.300796508789062,
+            "x": 16.90777587890625,
+            "y": 9.26861572265625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 16.839385986328125,
+            "y1": 9.26861572265625,
+            "x2": 16.3604736328125,
+            "y2": 9.236434936523438,
+            "x": 16.3604736328125,
+            "y": 9.204734802246094
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 16.3604736328125,
+            "y1": 9.140853881835938,
+            "x2": 16.90777587890625,
+            "y2": 8.661529541015625,
+            "x": 17.181427001953125,
+            "y": 8.373847961425781
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 20.433013916015625,
+            "y1": 5.337455749511719,
+            "x2": 24.985382080078125,
+            "y2": 0.5436859130859375,
+            "x": 24.985382080078125,
+            "y": 0.22382354736328125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 24.985382080078125,
+            "y1": 0.12824249267578125,
+            "x2": 24.950958251953125,
+            "y2": 0.0,
+            "x": 24.711273193359375,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 24.4720458984375,
+            "y1": 0.0,
+            "x2": 23.5821533203125,
+            "y2": 0.1921234130859375,
+            "x": 22.58935546875,
+            "y": 0.8952713012695312
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 21.97357177734375,
+            "y1": 0.8952713012695312,
+            "x2": 21.117645263671875,
+            "y2": 0.8952713012695312,
+            "x": 19.132598876953125,
+            "y": 0.5436859130859375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 17.2503662109375,
+            "y1": 0.22382354736328125,
+            "x2": 16.01788330078125,
+            "y2": 0.0,
+            "x": 14.68304443359375,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.49273681640625,
+            "y1": 0.0,
+            "x2": 10.439208984375,
+            "y2": 0.7353286743164062,
+            "x": 8.624908447265625,
+            "y": 1.7578582763671875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.544708251953125,
+            "y1": 3.5795974731445312,
+            "x2": 5.27105712890625,
+            "y2": 5.4335174560546875,
+            "x": 5.27105712890625,
+            "y": 5.465217590332031
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.27105712890625,
+            "y1": 5.561279296875,
+            "x2": 5.305023193359375,
+            "y2": 5.721199035644531,
+            "x": 5.5792236328125,
+            "y": 5.721199035644531
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 6.22943115234375,
+            "y1": 5.721199035644531,
+            "x2": 8.282867431640625,
+            "y2": 4.79425048828125,
+            "x": 8.591033935546875,
+            "y": 3.9311599731445312
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9.035980224609375,
+            "y1": 2.6848297119140625,
+            "x2": 9.480926513671875,
+            "y2": 1.9816818237304688,
+            "x": 11.808013916015625,
+            "y": 1.9816818237304688
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.116180419921875,
+            "y1": 1.9816818237304688,
+            "x2": 13.074462890625,
+            "y2": 1.9816818237304688,
+            "x": 15.12799072265625,
+            "y": 2.3332443237304688
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 16.839385986328125,
+            "y1": 2.6209487915039062,
+            "x2": 18.242706298828125,
+            "y2": 2.8764495849609375,
+            "x": 19.474639892578125,
+            "y": 2.8764495849609375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 19.8856201171875,
+            "y1": 2.8764495849609375,
+            "x2": 20.296142578125,
+            "y2": 2.8764495849609375,
+            "x": 20.672698974609375,
+            "y": 2.7803878784179688
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 18.85894775390625,
+            "y1": 4.7620697021484375,
+            "x2": 17.284332275390625,
+            "y2": 6.3921661376953125,
+            "x": 14.306488037109375,
+            "y": 9.236434936523438
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.8841552734375,
+            "y": 9.236434936523438
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9.0699462890625,
+            "y1": 9.236434936523438,
+            "x2": 8.7623291015625,
+            "y2": 10.195587158203125,
+            "x": 8.7623291015625,
+            "y": 10.323326110839844
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.7623291015625,
+            "y1": 10.610549926757812,
+            "x2": 9.0699462890625,
+            "y2": 10.610549926757812,
+            "x": 9.6522216796875,
+            "y": 10.610549926757812
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.766387939453125,
+            "y": 10.610549926757812
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.52716064453125,
+            "y1": 10.866050720214844,
+            "x2": 10.918121337890625,
+            "y2": 12.365959167480469,
+            "x": 6.4691162109375,
+            "y": 16.099639892578125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 6.400726318359375,
+            "y1": 16.163040161132812,
+            "x2": 3.93621826171875,
+            "y2": 18.237350463867188,
+            "x": 1.09515380859375,
+            "y": 20.47210693359375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.6507568359375,
+            "y1": 20.82366943359375,
+            "x2": 0.0,
+            "y2": 21.36687469482422,
+            "x": 0.0,
+            "y": 21.5906982421875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 21.686256408691406,
+            "x2": 0.034515380859375,
+            "y2": 21.81401824951172,
+            "x": 0.274200439453125,
+            "y": 21.81401824951172
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.719146728515625,
+            "y1": 21.81401824951172,
+            "x2": 1.437744140625,
+            "y2": 21.49463653564453,
+            "x": 1.8826904296875,
+            "y": 21.239112854003906
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 2.49847412109375,
+            "y1": 20.91925048828125,
+            "x2": 3.08074951171875,
+            "y2": 20.91925048828125,
+            "x": 3.6280517578125,
+            "y": 20.91925048828125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.16815185546875,
+            "y1": 20.91925048828125,
+            "x2": 7.392974853515625,
+            "y2": 21.17523193359375,
+            "x": 8.96759033203125,
+            "y": 21.334693908691406
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.610504150390625,
+            "y1": 21.558517456054688,
+            "x2": 12.903167724609375,
+            "y2": 21.81401824951172,
+            "x": 14.5806884765625,
+            "y": 21.81401824951172
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 17.079071044921875,
+            "y1": 21.81401824951172,
+            "x2": 19.09808349609375,
+            "y2": 20.504287719726562,
+            "x": 20.19378662109375,
+            "y": 19.57781982421875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 22.28118896484375,
+            "y1": 17.854568481445312,
+            "x2": 22.897430419921875,
+            "y2": 15.588615417480469,
+            "x": 22.897430419921875,
+            "y": 15.397476196289062
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 22.897430419921875,
+            "y1": 15.205833435058594,
+            "x2": 22.760650634765625,
+            "y2": 15.17413330078125,
+            "x": 22.58935546875,
+            "y": 15.17413330078125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 21.93914794921875,
+            "y1": 15.17413330078125,
+            "x2": 19.8856201171875,
+            "y2": 16.099639892578125,
+            "x": 19.577545166015625,
+            "y": 17.024642944335938
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 19.372283935546875,
+            "y1": 17.631248474121094,
+            "x2": 19.029693603515625,
+            "y2": 18.71619415283203,
+            "x": 17.96905517578125,
+            "y": 19.832839965820312
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 16.942291259765625,
+            "y1": 19.832839965820312,
+            "x2": 15.744232177734375,
+            "y2": 19.832839965820312,
+            "x": 12.59564208984375,
+            "y": 19.450057983398438
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.8841552734375,
+            "y1": 19.25841522216797,
+            "x2": 8.3173828125,
+            "y2": 18.93951416015625,
+            "x": 6.503082275390625,
+            "y": 18.93951416015625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 6.297821044921875,
+            "y1": 18.93951416015625,
+            "x2": 5.476318359375,
+            "y2": 18.93951416015625,
+            "x": 4.82611083984375,
+            "y": 19.067276000976562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 14.751434326171875,
+            "y": 10.610549926757812
+          }
+        }
+      ],
+      "x": 923.3057556152344,
+      "y": 111.64876556396484,
+      "width": 24.985382080078125,
+      "height": 21.81401824951172,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100018,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100019",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 21.596466064453125,
+            "y": 1.2780532836914062
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 22.109893798828125,
+            "y1": 1.2780532836914062,
+            "x2": 22.760101318359375,
+            "y2": 1.2780532836914062,
+            "x": 22.760101318359375,
+            "y": 0.6392669677734375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 22.760101318359375,
+            "y1": 0.0,
+            "x2": 22.109893798828125,
+            "y2": 0.0,
+            "x": 21.63043212890625,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.129119873046875,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.65020751953125,
+            "y1": 0.0,
+            "x2": 0.0,
+            "y2": 0.0,
+            "x": 0.0,
+            "y": 0.6392669677734375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 1.2780532836914062,
+            "x2": 0.65020751953125,
+            "y2": 1.2780532836914062,
+            "x": 1.163543701171875,
+            "y": 1.2780532836914062
+          }
+        },
+        {
+          "lineTo": {
+            "x": 21.596466064453125,
+            "y": 1.2780532836914062
+          }
+        },
+        {
+          "moveTo": {
+            "x": 21.63043212890625,
+            "y": 7.48736572265625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 22.109893798828125,
+            "y1": 7.48736572265625,
+            "x2": 22.760101318359375,
+            "y2": 7.48736572265625,
+            "x": 22.760101318359375,
+            "y": 6.8480987548828125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 22.760101318359375,
+            "y1": 6.208831787109375,
+            "x2": 22.109893798828125,
+            "y2": 6.208831787109375,
+            "x": 21.596466064453125,
+            "y": 6.208831787109375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.163543701171875,
+            "y": 6.208831787109375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.65020751953125,
+            "y1": 6.208831787109375,
+            "x2": 0.0,
+            "y2": 6.208831787109375,
+            "x": 0.0,
+            "y": 6.8480987548828125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 7.48736572265625,
+            "x2": 0.65020751953125,
+            "y2": 7.48736572265625,
+            "x": 1.129119873046875,
+            "y": 7.48736572265625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 21.63043212890625,
+            "y": 7.48736572265625
+          }
+        }
+      ],
+      "x": 960.9870300292969,
+      "y": 121.73023223876953,
+      "width": 22.760101318359375,
+      "height": 7.48736572265625,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100019,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100020",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 8.624908447265625,
+            "y": 11.853973388671875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.85693359375,
+            "y": 11.853973388671875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 14.991119384765625,
+            "y": 19.25841522216797
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 15.333251953125,
+            "y1": 19.768959045410156,
+            "x2": 16.1546630859375,
+            "y2": 21.01384735107422,
+            "x": 16.531219482421875,
+            "y": 21.49317169189453
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 16.77099609375,
+            "y1": 21.876434326171875,
+            "x2": 16.87335205078125,
+            "y2": 21.876434326171875,
+            "x": 17.660888671875,
+            "y": 21.876434326171875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 22.38409423828125,
+            "y": 21.876434326171875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 22.999786376953125,
+            "y1": 21.876434326171875,
+            "x2": 23.513214111328125,
+            "y2": 21.876434326171875,
+            "x": 23.513214111328125,
+            "y": 21.301528930664062
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 23.513214111328125,
+            "y1": 21.04602813720703,
+            "x2": 23.307952880859375,
+            "y2": 20.82220458984375,
+            "x": 22.999786376953125,
+            "y": 20.758323669433594
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 21.73388671875,
+            "y1": 20.502822875976562,
+            "x2": 20.05645751953125,
+            "y2": 18.39630889892578,
+            "x": 19.234954833984375,
+            "y": 17.375244140625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 18.9957275390625,
+            "y1": 17.05634307861328,
+            "x2": 17.284332275390625,
+            "y2": 14.949851989746094,
+            "x": 14.991119384765625,
+            "y": 11.502388000488281
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 18.037445068359375,
+            "y1": 10.991363525390625,
+            "x2": 20.98077392578125,
+            "y2": 9.777214050292969,
+            "x": 20.98077392578125,
+            "y": 5.975257873535156
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 20.98077392578125,
+            "y1": 1.5340576171875,
+            "x2": 15.949493408203125,
+            "y2": 0.0,
+            "x": 11.910919189453125,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1.163543701171875,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.5478515625,
+            "y1": 0.0,
+            "x2": 0.0,
+            "y2": 0.0,
+            "x": 0.0,
+            "y": 0.5753860473632812
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 1.11859130859375,
+            "x2": 0.65020751953125,
+            "y2": 1.11859130859375,
+            "x": 0.924407958984375,
+            "y": 1.11859130859375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 2.875030517578125,
+            "y1": 1.11859130859375,
+            "x2": 3.04632568359375,
+            "y2": 1.3424148559570312,
+            "x": 3.04632568359375,
+            "y": 2.939849853515625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 3.04632568359375,
+            "y": 18.93903350830078
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.04632568359375,
+            "y1": 20.535003662109375,
+            "x2": 2.875030517578125,
+            "y2": 20.758323669433594,
+            "x": 0.924407958984375,
+            "y": 20.758323669433594
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.65020751953125,
+            "y1": 20.758323669433594,
+            "x2": 0.0,
+            "y2": 20.758323669433594,
+            "x": 0.0,
+            "y": 21.301528930664062
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 21.876434326171875,
+            "x2": 0.5478515625,
+            "y2": 21.876434326171875,
+            "x": 1.163543701171875,
+            "y": 21.876434326171875
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.54156494140625,
+            "y": 21.876434326171875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.157806396484375,
+            "y1": 21.876434326171875,
+            "x2": 11.671234130859375,
+            "y2": 21.876434326171875,
+            "x": 11.671234130859375,
+            "y": 21.301528930664062
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.671234130859375,
+            "y1": 20.758323669433594,
+            "x2": 11.08941650390625,
+            "y2": 20.758323669433594,
+            "x": 10.712860107421875,
+            "y": 20.758323669433594
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.76177978515625,
+            "y1": 20.758323669433594,
+            "x2": 8.624908447265625,
+            "y2": 20.502822875976562,
+            "x": 8.624908447265625,
+            "y": 18.93903350830078
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.624908447265625,
+            "y": 11.853973388671875
+          }
+        },
+        {
+          "moveTo": {
+            "x": 15.230804443359375,
+            "y": 10.288238525390625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 16.189178466796875,
+            "y1": 9.106246948242188,
+            "x2": 16.291534423828125,
+            "y2": 7.412750244140625,
+            "x": 16.291534423828125,
+            "y": 6.0069580078125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 16.291534423828125,
+            "y1": 4.4734039306640625,
+            "x2": 16.086273193359375,
+            "y2": 2.7799072265625,
+            "x": 14.991119384765625,
+            "y": 1.4701766967773438
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 16.394439697265625,
+            "y1": 1.7578582763671875,
+            "x2": 19.78271484375,
+            "y2": 2.7482070922851562,
+            "x": 19.78271484375,
+            "y": 5.975257873535156
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 19.78271484375,
+            "y1": 8.052017211914062,
+            "x2": 18.75604248046875,
+            "y2": 9.68115234375,
+            "x": 15.230804443359375,
+            "y": 10.288238525390625
+          }
+        },
+        {
+          "moveTo": {
+            "x": 8.624908447265625,
+            "y": 2.8437881469726562
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.624908447265625,
+            "y1": 2.172821044921875,
+            "x2": 8.624908447265625,
+            "y2": 1.11859130859375,
+            "x": 10.746826171875,
+            "y": 1.11859130859375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 13.656280517578125,
+            "y1": 1.11859130859375,
+            "x2": 15.094024658203125,
+            "y2": 2.2371826171875,
+            "x": 15.094024658203125,
+            "y": 6.0069580078125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 15.094024658203125,
+            "y1": 10.128776550292969,
+            "x2": 14.0328369140625,
+            "y2": 10.735382080078125,
+            "x": 8.624908447265625,
+            "y": 10.735382080078125
+          }
+        },
+        {
+          "lineTo": {
+            "x": 8.624908447265625,
+            "y": 2.8437881469726562
+          }
+        },
+        {
+          "moveTo": {
+            "x": 3.970184326171875,
+            "y": 20.758323669433594
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4.244293212890625,
+            "y1": 20.183921813964844,
+            "x2": 4.244293212890625,
+            "y2": 19.290115356445312,
+            "x": 4.244293212890625,
+            "y": 19.002914428710938
+          }
+        },
+        {
+          "lineTo": {
+            "x": 4.244293212890625,
+            "y": 2.8759689331054688
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4.244293212890625,
+            "y1": 2.5565872192382812,
+            "x2": 4.244293212890625,
+            "y2": 1.6939773559570312,
+            "x": 3.970184326171875,
+            "y": 1.11859130859375
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.87188720703125,
+            "y": 1.11859130859375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 7.42694091796875,
+            "y1": 1.630096435546875,
+            "x2": 7.42694091796875,
+            "y2": 2.2688827514648438,
+            "x": 7.42694091796875,
+            "y": 2.7482070922851562
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7.42694091796875,
+            "y": 19.002914428710938
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 7.42694091796875,
+            "y1": 19.321815490722656,
+            "x2": 7.42694091796875,
+            "y2": 20.183921813964844,
+            "x": 7.7010498046875,
+            "y": 20.758323669433594
+          }
+        },
+        {
+          "lineTo": {
+            "x": 3.970184326171875,
+            "y": 20.758323669433594
+          }
+        },
+        {
+          "moveTo": {
+            "x": 11.260162353515625,
+            "y": 11.853973388671875
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 11.49993896484375,
+            "y1": 11.822273254394531,
+            "x2": 11.63671875,
+            "y2": 11.790092468261719,
+            "x": 11.910919189453125,
+            "y": 11.790092468261719
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.42425537109375,
+            "y1": 11.790092468261719,
+            "x2": 13.17681884765625,
+            "y2": 11.726211547851562,
+            "x": 13.690704345703125,
+            "y": 11.662330627441406
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 14.204132080078125,
+            "y1": 12.428375244140625,
+            "x2": 17.9000244140625,
+            "y2": 18.109107971191406,
+            "x": 20.7410888671875,
+            "y": 20.758323669433594
+          }
+        },
+        {
+          "lineTo": {
+            "x": 17.421112060546875,
+            "y": 20.758323669433594
+          }
+        },
+        {
+          "lineTo": {
+            "x": 11.260162353515625,
+            "y": 11.853973388671875
+          }
+        }
+      ],
+      "x": 995.7448425292969,
+      "y": 111.58634948730469,
+      "width": 23.513214111328125,
+      "height": 21.876434326171875,
+      "fill": "#000000",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100020,
+      "source_even_odd": false
+    },
+    {
+      "id": "pdf-path-100021",
+      "shape": "path",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12.218536376953125,
+            "y": 9.578773498535156
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10.70947265625,
+            "y": 9.578773498535156
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.661590576171875,
+            "y1": 9.847389221191406,
+            "x2": 10.445892333984375,
+            "y2": 11.436286926269531,
+            "x": 10.014495849609375,
+            "y": 11.526054382324219
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 9.51141357421875,
+            "y1": 11.615478515625,
+            "x2": 8.07403564453125,
+            "y2": 11.615478515625,
+            "x": 7.522705078125,
+            "y": 11.615478515625
+          }
+        },
+        {
+          "lineTo": {
+            "x": 4.240631103515625,
+            "y": 11.615478515625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.55816650390625,
+            "y1": 10.697982788085938,
+            "x2": 6.8997802734375,
+            "y2": 9.780143737792969,
+            "x": 8.28936767578125,
+            "y": 8.952095031738281
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 10.230194091796875,
+            "y1": 7.788139343261719,
+            "x2": 12.218536376953125,
+            "y2": 6.602027893066406,
+            "x": 12.218536376953125,
+            "y": 4.3639068603515625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 12.218536376953125,
+            "y1": 1.677978515625,
+            "x2": 9.51141357421875,
+            "y2": 0.0,
+            "x": 5.702178955078125,
+            "y": 0.0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 2.443817138671875,
+            "y1": 0.0,
+            "x2": 0.0,
+            "y2": 1.185791015625,
+            "x": 0.0,
+            "y": 3.3119430541992188
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.0,
+            "y1": 4.610023498535156,
+            "x2": 1.12591552734375,
+            "y2": 5.0800323486328125,
+            "x": 1.844696044921875,
+            "y": 5.0800323486328125
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 2.7073974609375,
+            "y1": 5.0800323486328125,
+            "x2": 3.713470458984375,
+            "y2": 4.520599365234375,
+            "x": 3.713470458984375,
+            "y": 3.3344650268554688
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.713470458984375,
+            "y1": 2.2599563598632812,
+            "x2": 2.82696533203125,
+            "y2": 1.812469482421875,
+            "x": 2.755279541015625,
+            "y": 1.789947509765625
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.617706298828125,
+            "y1": 1.2752151489257812,
+            "x2": 4.71990966796875,
+            "y2": 1.2530364990234375,
+            "x": 5.0072021484375,
+            "y": 1.2530364990234375
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 7.04388427734375,
+            "y1": 1.2530364990234375,
+            "x2": 8.649078369140625,
+            "y2": 2.4613494873046875,
+            "x": 8.649078369140625,
+            "y": 4.386451721191406
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.649078369140625,
+            "y1": 6.1098175048828125,
+            "x2": 7.403228759765625,
+            "y2": 7.542045593261719,
+            "x": 6.013641357421875,
+            "y": 8.683456420898438
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.31146240234375,
+            "y": 13.405082702636719
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0.023712158203125,
+            "y1": 13.673377990722656,
+            "x2": 0.0,
+            "y2": 13.695899963378906,
+            "x": 0.0,
+            "y": 14.143386840820312
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 14.679954528808594
+          }
+        },
+        {
+          "lineTo": {
+            "x": 11.40399169921875,
+            "y": 14.679954528808594
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12.218536376953125,
+            "y": 9.578773498535156
+          }
+        }
+      ],
+      "x": 1021.5487060546875,
+      "y": 107.18394470214844,
+      "width": 12.218536376953125,
+      "height": 14.679954528808594,
+      "fill": "#598BE7",
+      "stroke": "none",
+      "stroke_width": 0.0,
+      "fill_opacity": 1.0,
+      "stroke_opacity": 0,
+      "dash": false,
+      "source_dash": "[] 0",
+      "source_seqno": 100021,
+      "source_even_odd": false
+    }
+  ],
+  "edges": []
+}

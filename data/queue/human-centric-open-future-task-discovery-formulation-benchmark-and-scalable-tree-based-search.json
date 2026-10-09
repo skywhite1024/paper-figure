@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "human-centric-open-future-task-discovery-formulation-benchmark-and-scalable-tree-based-search",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.497466Z",
-  "updated_at": "2026-10-09T20:14:36.314893Z",
+  "updated_at": "2026-10-09T20:49:28.958487Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,7 +26,7 @@
   },
   "stages": {
     "source_identity": {
-      "status": "reported",
+      "status": "passed",
       "evidence": {
         "references": [
           "research/survey/human-centric-open-future-task-discovery-formulation-benchmark-and-scalable-tree-based-search.json",
@@ -35,19 +35,20 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/human-centric-open-future-task-discovery-formulation-benchmark-and-scalable-tree-based-search.json",
-          "sha256": "979112c44baeb56d9432208b8016e7ed87c34995a00f60d5ef4909587a4bd3a0"
+          "sha256": "29c414d4ceea8a533468140708e9989013d23e8f85fb9ef0500e6f374d10eb20"
         },
         "version": "2511.18929v3",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
-        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
         "expected_title": "Human-Centric Open-Future Task Discovery: Formulation, Benchmark, and Scalable Tree-Based Search",
         "observed_title": "Human-Centric Open-Future Task Discovery: Formulation, Benchmark, and Scalable Tree-Based Search",
         "source_url": "https://arxiv.org/pdf/2511.18929v3",
         "source_sha256": "bba9f9d358fd8b8b30a7649a0fc056ef9dba0cf2bba6bb69361148d81002dfb0",
         "reported_title_match": true,
-        "identity_review_basis": null,
+        "identity_review_basis": "visually_inspected_source_candidate",
         "identity_reviewed": null,
         "title_review_method": null,
         "mismatch_reason": null
@@ -63,11 +64,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/human-centric-open-future-task-discovery-formulation-benchmark-and-scalable-tree-based-search.json",
-          "sha256": "979112c44baeb56d9432208b8016e7ed87c34995a00f60d5ef4909587a4bd3a0"
+          "sha256": "29c414d4ceea8a533468140708e9989013d23e8f85fb9ef0500e6f374d10eb20"
         },
         "version": "2511.18929v3",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
         "observed_source": {
@@ -82,12 +83,63 @@
       }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/human-centric-open-future-task-discovery-formulation-benchmark-and-scalable-tree-based-search.json",
+          "https://arxiv.org/pdf/2511.18929v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/human-centric-open-future-task-discovery-formulation-benchmark-and-scalable-tree-based-search.json",
+          "sha256": "29c414d4ceea8a533468140708e9989013d23e8f85fb9ef0500e6f374d10eb20"
+        },
+        "version": "2511.18929v3",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 3",
+            "page_1_based": 4,
+            "caption": "Overview of the Collaborative Multi-Agent Search Tree Framework.",
+            "crop_pdf_points": [
+              318,
+              52,
+              559,
+              200
+            ],
+            "vector_paths": 52,
+            "native_text_spans": 25,
+            "raster_images": 0,
+            "visually_inspected": true,
+            "notes": "Seven-agent search tree framework with native tree and stage labels."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/hotd/README.md",
+          "output/hotd/VALIDATION.json"
+        ],
+        "output_directory": "output/hotd",
+        "source_sha256": "bba9f9d358fd8b8b30a7649a0fc056ef9dba0cf2bba6bb69361148d81002dfb0",
+        "scene_sha256": "67a4df9f659411431a5f513abee027c8611097a5b2590b361d4cb4308d157f5e",
+        "text_editability": {
+          "typeable_text_objects": 25,
+          "native_freeform_paths": 54,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -207,6 +259,145 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:43:56.277703Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "4ce865f740a80d9dfbbdef38aeac933c62c9c61598eb926db5d2f9bc4a61fc6c",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/hotd/README.md",
+                "output/hotd/VALIDATION.json"
+              ],
+              "output_directory": "output/hotd",
+              "source_sha256": "bba9f9d358fd8b8b30a7649a0fc056ef9dba0cf2bba6bb69361148d81002dfb0",
+              "scene_sha256": "67a4df9f659411431a5f513abee027c8611097a5b2590b361d4cb4308d157f5e",
+              "text_editability": {
+                "typeable_text_objects": 25,
+                "native_freeform_paths": 54,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T20:49:28.958487Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "ca46f02b42c95d3a2c503103d58a3b8303fff5ccacbda34b77389cf8ce44c4b9",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/human-centric-open-future-task-discovery-formulation-benchmark-and-scalable-tree-based-search.json",
+                "https://arxiv.org/pdf/2511.18929v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/human-centric-open-future-task-discovery-formulation-benchmark-and-scalable-tree-based-search.json",
+                "sha256": "29c414d4ceea8a533468140708e9989013d23e8f85fb9ef0500e6f374d10eb20"
+              },
+              "version": "2511.18929v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Human-Centric Open-Future Task Discovery: Formulation, Benchmark, and Scalable Tree-Based Search",
+              "observed_title": "Human-Centric Open-Future Task Discovery: Formulation, Benchmark, and Scalable Tree-Based Search",
+              "source_url": "https://arxiv.org/pdf/2511.18929v3",
+              "source_sha256": "bba9f9d358fd8b8b30a7649a0fc056ef9dba0cf2bba6bb69361148d81002dfb0",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/human-centric-open-future-task-discovery-formulation-benchmark-and-scalable-tree-based-search.json",
+                "https://arxiv.org/pdf/2511.18929v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/human-centric-open-future-task-discovery-formulation-benchmark-and-scalable-tree-based-search.json",
+                "sha256": "29c414d4ceea8a533468140708e9989013d23e8f85fb9ef0500e6f374d10eb20"
+              },
+              "version": "2511.18929v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/human-centric-open-future-task-discovery-formulation-benchmark-and-scalable-tree-based-search.pdf",
+                "reported_sha256": "bba9f9d358fd8b8b30a7649a0fc056ef9dba0cf2bba6bb69361148d81002dfb0",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 10,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/human-centric-open-future-task-discovery-formulation-benchmark-and-scalable-tree-based-search.json",
+                "https://arxiv.org/pdf/2511.18929v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/human-centric-open-future-task-discovery-formulation-benchmark-and-scalable-tree-based-search.json",
+                "sha256": "29c414d4ceea8a533468140708e9989013d23e8f85fb9ef0500e6f374d10eb20"
+              },
+              "version": "2511.18929v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 3",
+                  "page_1_based": 4,
+                  "caption": "Overview of the Collaborative Multi-Agent Search Tree Framework.",
+                  "crop_pdf_points": [
+                    318,
+                    52,
+                    559,
+                    200
+                  ],
+                  "vector_paths": 52,
+                  "native_text_spans": 25,
+                  "raster_images": 0,
+                  "visually_inspected": true,
+                  "notes": "Seven-agent search tree framework with native tree and stage labels."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
             }
           }
         }

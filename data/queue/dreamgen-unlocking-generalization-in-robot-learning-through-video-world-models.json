@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "dreamgen-unlocking-generalization-in-robot-learning-through-video-world-models",
-  "revision": 3,
+  "revision": 4,
   "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.509745Z",
-  "updated_at": "2026-10-09T20:14:36.132502Z",
+  "updated_at": "2026-10-09T20:49:28.720293Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,7 +26,7 @@
   },
   "stages": {
     "source_identity": {
-      "status": "reported",
+      "status": "passed",
       "evidence": {
         "references": [
           "research/survey/dreamgen-unlocking-generalization-in-robot-learning-through-video-world-models.json",
@@ -35,19 +35,20 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/dreamgen-unlocking-generalization-in-robot-learning-through-video-world-models.json",
-          "sha256": "c395344ce7466f5c66a71c0bf60bc3c8ccd25e9e2ec0a602d0dc79fd8a414070"
+          "sha256": "49f0e6b3e1fdadf11ddfd7adbe0e5980b592c178f8a5e43ee8487ed2ae7accd9"
         },
         "version": "2505.12705v2",
         "license_note": "unverified",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
-        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
         "expected_title": "DreamGen: Unlocking Generalization in Robot Learning through Video World Models",
         "observed_title": "DreamGen: Unlocking Generalization in Robot Learning through Video World Models",
         "source_url": "https://arxiv.org/pdf/2505.12705v2",
         "source_sha256": "e4e2c5c9e664d9331adb49c230053a76cf5bb4c3501341f4d9b372ecc585684c",
         "reported_title_match": true,
-        "identity_review_basis": null,
+        "identity_review_basis": "visually_inspected_source_candidate",
         "identity_reviewed": null,
         "title_review_method": null,
         "mismatch_reason": null
@@ -63,11 +64,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/dreamgen-unlocking-generalization-in-robot-learning-through-video-world-models.json",
-          "sha256": "c395344ce7466f5c66a71c0bf60bc3c8ccd25e9e2ec0a602d0dc79fd8a414070"
+          "sha256": "49f0e6b3e1fdadf11ddfd7adbe0e5980b592c178f8a5e43ee8487ed2ae7accd9"
         },
         "version": "2505.12705v2",
         "license_note": "unverified",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
         "observed_source": {
@@ -82,8 +83,45 @@
       }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/dreamgen-unlocking-generalization-in-robot-learning-through-video-world-models.json",
+          "https://arxiv.org/pdf/2505.12705v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/dreamgen-unlocking-generalization-in-robot-learning-through-video-world-models.json",
+          "sha256": "49f0e6b3e1fdadf11ddfd7adbe0e5980b592c178f8a5e43ee8487ed2ae7accd9"
+        },
+        "version": "2505.12705v2",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 2,
+            "caption": "DreamGen overview.",
+            "crop_pdf_points": [
+              74,
+              54,
+              537,
+              315
+            ],
+            "vector_paths": 32,
+            "native_text_spans": 22,
+            "raster_images": 18,
+            "visually_inspected": true,
+            "notes": "Four steps: finetune video world model, rollout, pseudo-action labeling, visuomotor policy training."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -207,6 +245,115 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:49:28.720293Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "4f82dc9d6ea488f338bb413e57c51d7e45ee4de77833299954905cc0774be7c6",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/dreamgen-unlocking-generalization-in-robot-learning-through-video-world-models.json",
+                "https://arxiv.org/pdf/2505.12705v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/dreamgen-unlocking-generalization-in-robot-learning-through-video-world-models.json",
+                "sha256": "49f0e6b3e1fdadf11ddfd7adbe0e5980b592c178f8a5e43ee8487ed2ae7accd9"
+              },
+              "version": "2505.12705v2",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "DreamGen: Unlocking Generalization in Robot Learning through Video World Models",
+              "observed_title": "DreamGen: Unlocking Generalization in Robot Learning through Video World Models",
+              "source_url": "https://arxiv.org/pdf/2505.12705v2",
+              "source_sha256": "e4e2c5c9e664d9331adb49c230053a76cf5bb4c3501341f4d9b372ecc585684c",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/dreamgen-unlocking-generalization-in-robot-learning-through-video-world-models.json",
+                "https://arxiv.org/pdf/2505.12705v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/dreamgen-unlocking-generalization-in-robot-learning-through-video-world-models.json",
+                "sha256": "49f0e6b3e1fdadf11ddfd7adbe0e5980b592c178f8a5e43ee8487ed2ae7accd9"
+              },
+              "version": "2505.12705v2",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/dreamgen-unlocking-generalization-in-robot-learning-through-video-world-models.pdf",
+                "reported_sha256": "e4e2c5c9e664d9331adb49c230053a76cf5bb4c3501341f4d9b372ecc585684c",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 23,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/dreamgen-unlocking-generalization-in-robot-learning-through-video-world-models.json",
+                "https://arxiv.org/pdf/2505.12705v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/dreamgen-unlocking-generalization-in-robot-learning-through-video-world-models.json",
+                "sha256": "49f0e6b3e1fdadf11ddfd7adbe0e5980b592c178f8a5e43ee8487ed2ae7accd9"
+              },
+              "version": "2505.12705v2",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 2,
+                  "caption": "DreamGen overview.",
+                  "crop_pdf_points": [
+                    74,
+                    54,
+                    537,
+                    315
+                  ],
+                  "vector_paths": 32,
+                  "native_text_spans": 22,
+                  "raster_images": 18,
+                  "visually_inspected": true,
+                  "notes": "Four steps: finetune video world model, rollout, pseudo-action labeling, visuomotor policy training."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
             }
           }
         }

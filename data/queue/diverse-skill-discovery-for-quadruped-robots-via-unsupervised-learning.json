@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "diverse-skill-discovery-for-quadruped-robots-via-unsupervised-learning",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.460169Z",
-  "updated_at": "2026-10-09T20:14:36.095434Z",
+  "updated_at": "2026-10-09T20:43:56.348474Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -125,8 +125,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/mod-skill/README.md",
+          "output/mod-skill/VALIDATION.json"
+        ],
+        "output_directory": "output/mod-skill",
+        "source_sha256": "8f30a75f0ebc698d59e09576720224bf3194f63e570d386a394a1a77dac9e9f8",
+        "scene_sha256": "d7689eb4b76d8b25e02b1cf15583d1c258113ed4f5467d7965e85c7f72cf561a",
+        "text_editability": {
+          "typeable_text_objects": 21,
+          "native_freeform_paths": 42,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -289,6 +303,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:43:56.348474Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "b1acfb07888d1a0045693a6a4836b00d584e336a24b11a7b00614953fcaefa09",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/mod-skill/README.md",
+                "output/mod-skill/VALIDATION.json"
+              ],
+              "output_directory": "output/mod-skill",
+              "source_sha256": "8f30a75f0ebc698d59e09576720224bf3194f63e570d386a394a1a77dac9e9f8",
+              "scene_sha256": "d7689eb4b76d8b25e02b1cf15583d1c258113ed4f5467d7965e85c7f72cf561a",
+              "text_editability": {
+                "typeable_text_objects": 21,
+                "native_freeform_paths": 42,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

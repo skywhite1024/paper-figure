@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "skid-raw-skill-discovery-from-raw-trajectories",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 3,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.489214Z",
-  "updated_at": "2026-10-09T20:04:59.489214Z",
+  "updated_at": "2026-10-09T20:49:33.894038Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,20 +26,120 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/skid-raw-skill-discovery-from-raw-trajectories.json",
+          "https://cps.unileoben.ac.at/wp/RAL2021Tanneberg.pdf"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/skid-raw-skill-discovery-from-raw-trajectories.json",
+          "sha256": "72ac7301fee91867fb4d039da9ce1cef7246b17bbc40feb92ecab396b4a06966"
+        },
+        "version": "official-proceedings",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "SkiD RAW: Skill Discovery from Raw Trajectories",
+        "observed_title": "SkiD RAW: Skill Discovery from Raw Trajectories",
+        "source_url": "https://cps.unileoben.ac.at/wp/RAL2021Tanneberg.pdf",
+        "source_sha256": "38604f2d5577496c0aef84b2ab3c953e0d55126834a9409766046716a71c7765",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/skid-raw-skill-discovery-from-raw-trajectories.json",
+          "https://cps.unileoben.ac.at/wp/RAL2021Tanneberg.pdf"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/skid-raw-skill-discovery-from-raw-trajectories.json",
+          "sha256": "72ac7301fee91867fb4d039da9ce1cef7246b17bbc40feb92ecab396b4a06966"
+        },
+        "version": "official-proceedings",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/skid-raw-skill-discovery-from-raw-trajectories.pdf",
+          "reported_sha256": "38604f2d5577496c0aef84b2ab3c953e0d55126834a9409766046716a71c7765",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 8,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/skid-raw-skill-discovery-from-raw-trajectories.json",
+          "https://cps.unileoben.ac.at/wp/RAL2021Tanneberg.pdf"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/skid-raw-skill-discovery-from-raw-trajectories.json",
+          "sha256": "72ac7301fee91867fb4d039da9ce1cef7246b17bbc40feb92ecab396b4a06966"
+        },
+        "version": "official-proceedings",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 2,
+            "caption": "Graphical model and SKID framework.",
+            "crop_pdf_points": [
+              137,
+              58,
+              489,
+              177
+            ],
+            "vector_paths": 239,
+            "native_text_spans": 16,
+            "raster_images": 4,
+            "visually_inspected": true,
+            "notes": "Recurrent variational segmentation and skill-library reconstruction with spatial transformers and illustrative mini-curves."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/skid-raw/README.md",
+          "output/skid-raw/VALIDATION.json"
+        ],
+        "output_directory": "output/skid-raw",
+        "source_sha256": "38604f2d5577496c0aef84b2ab3c953e0d55126834a9409766046716a71c7765",
+        "scene_sha256": "cbc77c3bd818eadb1487f4e2e1ec3b664ce6c84dcf03a03955e4d009bd68e7b5",
+        "text_editability": {
+          "typeable_text_objects": 6,
+          "native_freeform_paths": 265,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -59,6 +159,146 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:49:29.595416Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "5d36036f5e66572a52b0295206bb4c79ade6994695d13a1b13872a3f69d78608",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/skid-raw-skill-discovery-from-raw-trajectories.json",
+                "https://cps.unileoben.ac.at/wp/RAL2021Tanneberg.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/skid-raw-skill-discovery-from-raw-trajectories.json",
+                "sha256": "72ac7301fee91867fb4d039da9ce1cef7246b17bbc40feb92ecab396b4a06966"
+              },
+              "version": "official-proceedings",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "SkiD RAW: Skill Discovery from Raw Trajectories",
+              "observed_title": "SkiD RAW: Skill Discovery from Raw Trajectories",
+              "source_url": "https://cps.unileoben.ac.at/wp/RAL2021Tanneberg.pdf",
+              "source_sha256": "38604f2d5577496c0aef84b2ab3c953e0d55126834a9409766046716a71c7765",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/skid-raw-skill-discovery-from-raw-trajectories.json",
+                "https://cps.unileoben.ac.at/wp/RAL2021Tanneberg.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/skid-raw-skill-discovery-from-raw-trajectories.json",
+                "sha256": "72ac7301fee91867fb4d039da9ce1cef7246b17bbc40feb92ecab396b4a06966"
+              },
+              "version": "official-proceedings",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/skid-raw-skill-discovery-from-raw-trajectories.pdf",
+                "reported_sha256": "38604f2d5577496c0aef84b2ab3c953e0d55126834a9409766046716a71c7765",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 8,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/skid-raw-skill-discovery-from-raw-trajectories.json",
+                "https://cps.unileoben.ac.at/wp/RAL2021Tanneberg.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/skid-raw-skill-discovery-from-raw-trajectories.json",
+                "sha256": "72ac7301fee91867fb4d039da9ce1cef7246b17bbc40feb92ecab396b4a06966"
+              },
+              "version": "official-proceedings",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 2,
+                  "caption": "Graphical model and SKID framework.",
+                  "crop_pdf_points": [
+                    137,
+                    58,
+                    489,
+                    177
+                  ],
+                  "vector_paths": 239,
+                  "native_text_spans": 16,
+                  "raster_images": 4,
+                  "visually_inspected": true,
+                  "notes": "Recurrent variational segmentation and skill-library reconstruction with spatial transformers and illustrative mini-curves."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
+    },
+    {
+      "revision": 3,
+      "at": "2026-10-09T20:49:33.894038Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "a8fb8214903c5660b620a27b4048b27c77dd499c922438f220c0c4ba32d2d4ce",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/skid-raw/README.md",
+                "output/skid-raw/VALIDATION.json"
+              ],
+              "output_directory": "output/skid-raw",
+              "source_sha256": "38604f2d5577496c0aef84b2ab3c953e0d55126834a9409766046716a71c7765",
+              "scene_sha256": "cbc77c3bd818eadb1487f4e2e1ec3b664ce6c84dcf03a03955e4d009bd68e7b5",
+              "text_editability": {
+                "typeable_text_objects": 6,
+                "native_freeform_paths": 265,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
+            }
+          }
+        }
+      }
     }
   ]
 }

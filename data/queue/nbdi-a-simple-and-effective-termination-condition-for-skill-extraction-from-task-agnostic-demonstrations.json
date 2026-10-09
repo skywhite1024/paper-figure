@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "nbdi-a-simple-and-effective-termination-condition-for-skill-extraction-from-task-agnostic-demonstrations",
-  "revision": 4,
+  "revision": 5,
   "status": "recreated",
   "created_at": "2026-10-09T20:04:59.486749Z",
-  "updated_at": "2026-10-09T20:26:31.089860Z",
+  "updated_at": "2026-10-09T20:49:29.265643Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -64,10 +64,10 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/nbdi-a-simple-and-effective-termination-condition-for-skill-extraction-from-task-agnostic-demonstrations.json",
-          "sha256": "7b4f657de2fd43b73d032cf9b746a646c4ccbeedef9f521c546b32667b91265d"
+          "sha256": "5de6303a43af762bae4d99a073068e18c021167f25b826e0eccdb665e6dbaac8"
         },
         "version": "2501.12668v3",
-        "license_note": "unverified",
+        "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
         "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
@@ -92,10 +92,10 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/nbdi-a-simple-and-effective-termination-condition-for-skill-extraction-from-task-agnostic-demonstrations.json",
-          "sha256": "7b4f657de2fd43b73d032cf9b746a646c4ccbeedef9f521c546b32667b91265d"
+          "sha256": "5de6303a43af762bae4d99a073068e18c021167f25b826e0eccdb665e6dbaac8"
         },
         "version": "2501.12668v3",
-        "license_note": "unverified",
+        "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
         "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
@@ -359,6 +359,86 @@
                 "native_freeform_paths": 384,
                 "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
               }
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T20:49:29.265643Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "87fcc8f5fd31458dad23441e4b37de6deee8f764524fe554d631f5235d72527c",
+      "patch": {
+        "stages": {
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/nbdi-a-simple-and-effective-termination-condition-for-skill-extraction-from-task-agnostic-demonstrations.json",
+                "https://arxiv.org/pdf/2501.12668v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/nbdi-a-simple-and-effective-termination-condition-for-skill-extraction-from-task-agnostic-demonstrations.json",
+                "sha256": "5de6303a43af762bae4d99a073068e18c021167f25b826e0eccdb665e6dbaac8"
+              },
+              "version": "2501.12668v3",
+              "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/nbdi-a-simple-and-effective-termination-condition-for-skill-extraction-from-task-agnostic-demonstrations.pdf",
+                "reported_sha256": "57e1d6ffc34c92b5bb3dfe99d6df272e103161893d6607e4a0214d8ce5808109",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 25,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/nbdi-a-simple-and-effective-termination-condition-for-skill-extraction-from-task-agnostic-demonstrations.json",
+                "https://arxiv.org/pdf/2501.12668v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/nbdi-a-simple-and-effective-termination-condition-for-skill-extraction-from-task-agnostic-demonstrations.json",
+                "sha256": "5de6303a43af762bae4d99a073068e18c021167f25b826e0eccdb665e6dbaac8"
+              },
+              "version": "2501.12668v3",
+              "license_note": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 13",
+                  "page_1_based": 14,
+                  "caption": "NBDI novelty learning, skill extraction and execution.",
+                  "crop_pdf_points": [
+                    91,
+                    88,
+                    506,
+                    368
+                  ],
+                  "vector_paths": 87,
+                  "native_text_spans": 146,
+                  "raster_images": 0,
+                  "visually_inspected": true,
+                  "notes": "Appendix contains genuine full framework absent from main method pages. Three network diagrams with mathematical labels; source glyph outlines recommended."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
             }
           }
         }

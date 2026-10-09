@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "learning-more-skills-through-optimistic-exploration",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.469151Z",
-  "updated_at": "2026-10-09T20:14:36.340344Z",
+  "updated_at": "2026-10-09T20:43:56.186468Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -125,8 +125,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/disdain/README.md",
+          "output/disdain/VALIDATION.json"
+        ],
+        "output_directory": "output/disdain",
+        "source_sha256": "b3b7cfe5027d3ed275105d1238a403d70c56a3a246866a7ba806db059615e14e",
+        "scene_sha256": "0cae00f6f90f1bba25b854caa1acb40e4e5d377f9ecf63d14d3414bf41db243e",
+        "text_editability": {
+          "typeable_text_objects": 8,
+          "native_freeform_paths": 194,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -289,6 +303,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:43:56.186468Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "330063c86b7290007d78a8e49e51782ae783470a713ebbdcbade2b32dc94c66c",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/disdain/README.md",
+                "output/disdain/VALIDATION.json"
+              ],
+              "output_directory": "output/disdain",
+              "source_sha256": "b3b7cfe5027d3ed275105d1238a403d70c56a3a246866a7ba806db059615e14e",
+              "scene_sha256": "0cae00f6f90f1bba25b854caa1acb40e4e5d377f9ecf63d14d3414bf41db243e",
+              "text_editability": {
+                "typeable_text_objects": 8,
+                "native_freeform_paths": 194,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

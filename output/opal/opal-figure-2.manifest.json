@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "diagram_id": "opal-figure-2",
+  "source_sha256": "f9d64cf3ecf6017842b23be66da286140c0b4bd42ed650ed9ae9e0662c9219f3",
+  "assets": [
+    {
+      "name": "opal-figure-2-raster-0.png",
+      "sha256": "83d5ca59d0fb91f53c5d151bac6a491b6d9a02ae8ddf50873aebce9ea127dda9"
+    },
+    {
+      "name": "opal-figure-2-raster-1.png",
+      "sha256": "1165cb9891210fb77bee011474418b82295c733c1d7fe8113c4dd2a80ed18f8e"
+    }
+  ],
+  "provenance": {
+    "paper_title": "OPAL: Offline Primitive Discovery for Accelerating Offline Reinforcement Learning",
+    "paper_url": "https://arxiv.org/pdf/2010.13611v3",
+    "figure": "Figure 2",
+    "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+    "notes": "Original OPAL autoencoding, offline task-policy training and execution architecture. Density-distribution mini-plots are two original raster inserts; architecture paths and ordinary labels remain native, formulas preserve editable glyph outlines.",
+    "page": 4,
+    "status": "figure_recreation",
+    "source_sha256": "41b49f2151ee1529cf51955726809f873e76b1de8f07988efd5ebcdb65ca8d31",
+    "source_crop_pdf_points": [
+      107,
+      82,
+      504,
+      222
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "outlined_font_families": [
+      "CMMI",
+      "CMSY",
+      "CMR",
+      "CMEX"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "dash_fidelity": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+    "extraction_warnings": [
+      "48 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "unhandled image/shading at seq 259: [461.71209716796875, 148.6272430419922, 490.50360107421875, 167.5546112060547]; requires reviewed raster region",
+      "unhandled image/shading at seq 260: [461.45623779296875, 108.89569091796875, 490.5470275878906, 128.01979064941406]; requires reviewed raster region"
+    ],
+    "text_repairs": "Invisible near-zero-size Courier LaTeXiT payload metadata removed; ordinary labels remain live text with merged source ligatures and fitted Arial metrics. Math remains original glyph outlines."
+  },
+  "metrics": {
+    "native_nodes": 260,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 233,
+    "native_text_objects": 27,
+    "raster_images": 2,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "opal-figure-2.drawio",
+      "sha256": "0354cc957b73c1912888f69755701cc9cda4f5a3ec5bf8b0334ff56fffddf7a0"
+    },
+    {
+      "name": "opal-figure-2.png",
+      "sha256": "a634e7d538dc90ecd0b4b3925b2d655a83ce4ab8ff05eac2b1b17d81412f1c47"
+    },
+    {
+      "name": "opal-figure-2.pptx",
+      "sha256": "b3343334ca28535ae7c364c69d21439a9422174cc6d0b2a4b678fd1be6a0ebab"
+    }
+  ]
+}

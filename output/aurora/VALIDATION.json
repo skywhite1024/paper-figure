@@ -1,0 +1,42 @@
+{
+  "diagram_id": "aurora-figure-1",
+  "source_scene_sha256": "428cacce1b0d9220a2b82e9839c7aee11c45a528b7814eb6e07c12056090da4a",
+  "source_pdf_sha256": "c20db8b8c02d74e1a128c3901177147ea81711239136a4ba32c64de3361192ac",
+  "checked_files": [
+    {
+      "name": "aurora-figure-1.drawio",
+      "sha256": "16b0af96d7ea1541168b87a2e5c00bd0f14537118ba810772ebeb0005ff4004e"
+    },
+    {
+      "name": "aurora-figure-1.png",
+      "sha256": "e3b5626a514f778d50af5adfe298bd1e03909f1f3ee2ea45779091984b707cdf"
+    },
+    {
+      "name": "aurora-figure-1.pptx",
+      "sha256": "ee80dda58f42a73200190f60cb1da162f87f8dbf53d08bf327946df2028180d9"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 1 PDFpage1 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 219,
+    "p:pic": 2,
+    "a:custGeom": 205,
+    "p:cxnSp": 0,
+    "a:t": 12
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment",
+    "Repertoire cloud and robot inset remain2raster assets; charts/network/arrows are native geometry."
+  ]
+}

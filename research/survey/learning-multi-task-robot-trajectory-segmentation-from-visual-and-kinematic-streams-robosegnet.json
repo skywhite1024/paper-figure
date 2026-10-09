@@ -11,6 +11,23 @@
   "page_count": 10,
   "source_status": "accessible",
   "license_note": "unverified",
-  "figure_candidates": [],
-  "review_notes": "Downloaded official proceedings PDF; title and figure review pending"
+  "figure_candidates": [
+    {
+      "figure": "Figure 2",
+      "page_1_based": 4,
+      "caption": "RoboSegNet multimodal trajectory segmentation framework.",
+      "crop_pdf_points": [
+        62,
+        73,
+        549,
+        243
+      ],
+      "vector_paths": 0,
+      "native_text_spans": 0,
+      "raster_images": 1,
+      "visually_inspected": true,
+      "notes": "Kinematic FAST tokenizer and DINOv3 visual tokens fused via bidirectional cross-attention, trajectory encoder and boundary decoder/prediction head."
+    }
+  ],
+  "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete."
 }

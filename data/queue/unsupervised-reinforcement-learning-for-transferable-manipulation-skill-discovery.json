@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "unsupervised-reinforcement-learning-for-transferable-manipulation-skill-discovery",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.466870Z",
-  "updated_at": "2026-10-09T20:14:36.828871Z",
+  "updated_at": "2026-10-09T20:49:33.939479Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -125,8 +125,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/transfer-manipulation/README.md",
+          "output/transfer-manipulation/VALIDATION.json"
+        ],
+        "output_directory": "output/transfer-manipulation",
+        "source_sha256": "bcd1a2e008b47f06e38ebb6b942a6b8e2f891e7bfcb017d9fa6bcd4ed81b85a9",
+        "scene_sha256": "602009480d8f9e70350e1f1f3485b8270a9359b7387525b9c129442fb263f882",
+        "text_editability": {
+          "typeable_text_objects": 47,
+          "native_freeform_paths": 104,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -289,6 +303,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:49:33.939479Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "657b6dbfc5c501efbade60c802e38009bb789ef9ce691a361a4e90c6b28bbf7e",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/transfer-manipulation/README.md",
+                "output/transfer-manipulation/VALIDATION.json"
+              ],
+              "output_directory": "output/transfer-manipulation",
+              "source_sha256": "bcd1a2e008b47f06e38ebb6b942a6b8e2f891e7bfcb017d9fa6bcd4ed81b85a9",
+              "scene_sha256": "602009480d8f9e70350e1f1f3485b8270a9359b7387525b9c129442fb263f882",
+              "text_editability": {
+                "typeable_text_objects": 47,
+                "native_freeform_paths": 104,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

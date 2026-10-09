@@ -21,17 +21,23 @@
         108,
         80,
         505,
-        173
+        180
       ],
       "vector_paths": 0,
       "native_text_spans": 0,
       "raster_images": 1,
       "source_type": "raster",
       "visually_inspected": true,
-      "notes": "Wide neural-network architecture with convolutional representation module, central action-conditioned multiplication and reconstruction decoder, plus lower successor representation estimator branch."
+      "notes": "Wide neural-network architecture with convolutional representation module, central action-conditioned multiplication and reconstruction decoder, plus lower successor representation estimator branch. Corrected full-figure crop after inspecting embedded image bounds: includes bottom SR estimator label and dimensions.",
+      "previous_crop_pdf_points": [
+        108,
+        80,
+        505,
+        173
+      ]
     }
   ],
-  "review_notes": "",
+  "review_notes": "Corrected full-figure crop after inspecting embedded image bounds: includes bottom SR estimator label and dimensions.",
   "version_evidence": "Version identifier printed in first-page PDF margin",
   "versioned_pdf_url": "https://arxiv.org/pdf/1710.11089v3",
   "inspected_at": "2026-10-09",

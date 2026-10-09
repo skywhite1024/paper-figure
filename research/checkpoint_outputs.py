@@ -21,6 +21,9 @@ def sync(root=ROOT):
             rows=[p for p in papers if base and base in p['url']]
         if not rows:
             rows=[p for p in papers if (p.get('diagram') and (root/'data'/p['diagram']).resolve()==(folder/paper['diagram_json']).resolve())]
+        if not rows:
+            normalize=lambda title: ''.join(c for c in title.casefold() if c.isalnum())
+            rows=[p for p in papers if normalize(p['title'])==normalize(paper['title'])]
         require(len(rows)==1,'Cannot resolve unique catalog record for '+folder.name)
         row=rows[0];diagram=str((folder/paper['diagram_json']).resolve().relative_to(root/'data'))
         row.update(status='recreated',diagram=diagram,output_directory=str(folder.relative_to(root)))

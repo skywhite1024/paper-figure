@@ -1,0 +1,41 @@
+{
+  "diagram_id": "disdain-figure-2",
+  "source_scene_sha256": "0cae00f6f90f1bba25b854caa1acb40e4e5d377f9ecf63d14d3414bf41db243e",
+  "source_pdf_sha256": "b3b7cfe5027d3ed275105d1238a403d70c56a3a246866a7ba806db059615e14e",
+  "checked_files": [
+    {
+      "name": "disdain-figure-2.drawio",
+      "sha256": "15f954c9dbf7f311bcc4095b5b5c4c30e1d8ca9d90b21c9062df69b425c175ed"
+    },
+    {
+      "name": "disdain-figure-2.png",
+      "sha256": "872ebb6999303d10c9b84d2f74269fdd99e8721c4fcd9a573fbe3b9903dc070d"
+    },
+    {
+      "name": "disdain-figure-2.pptx",
+      "sha256": "d2967aa8c15fb8b69436c2d0a438d115a25c4039127e69ebd8107933fb5201a0"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 2 PDFpage5 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 203,
+    "p:pic": 1,
+    "a:custGeom": 194,
+    "p:cxnSp": 0,
+    "a:t": 8
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "option-discovery-using-deep-skill-chaining",
-  "revision": 1,
-  "status": "not_reviewed",
+  "revision": 2,
+  "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.482597Z",
-  "updated_at": "2026-10-09T20:04:59.482597Z",
+  "updated_at": "2026-10-09T20:49:29.290231Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,16 +26,102 @@
   },
   "stages": {
     "source_identity": {
-      "status": "pending",
-      "evidence": null
+      "status": "passed",
+      "evidence": {
+        "references": [
+          "research/survey/option-discovery-using-deep-skill-chaining.json",
+          "https://cs.brown.edu/people/gdk/pubs/dsc_deeprl_ws.pdf"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/option-discovery-using-deep-skill-chaining.json",
+          "sha256": "e13f0854794c42f46be8f32c6e0c17702f68e33fe4241bbc8033424a4c46bb73"
+        },
+        "version": "NeurIPS-2019-workshop-author-copy",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
+        "expected_title": "Option Discovery Using Deep Skill Chaining",
+        "observed_title": "Option Discovery Using Deep Skill Chaining",
+        "source_url": "https://cs.brown.edu/people/gdk/pubs/dsc_deeprl_ws.pdf",
+        "source_sha256": "fb2b42a704404ec5ca14bb77e287c9128f7e85531545c34153c6654f4dcd7c54",
+        "reported_title_match": true,
+        "identity_review_basis": "visually_inspected_source_candidate",
+        "identity_reviewed": null,
+        "title_review_method": null,
+        "mismatch_reason": null
+      }
     },
     "source_access": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/option-discovery-using-deep-skill-chaining.json",
+          "https://cs.brown.edu/people/gdk/pubs/dsc_deeprl_ws.pdf"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/option-discovery-using-deep-skill-chaining.json",
+          "sha256": "e13f0854794c42f46be8f32c6e0c17702f68e33fe4241bbc8033424a4c46bb73"
+        },
+        "version": "NeurIPS-2019-workshop-author-copy",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+        "observed_source": {
+          "reported_path": "build/sources/option-discovery-using-deep-skill-chaining.pdf",
+          "reported_sha256": "fb2b42a704404ec5ca14bb77e287c9128f7e85531545c34153c6654f4dcd7c54",
+          "verified_locally": true,
+          "durable": false,
+          "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+        },
+        "page_count": 20,
+        "source_status": "accessible"
+      }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/option-discovery-using-deep-skill-chaining.json",
+          "https://cs.brown.edu/people/gdk/pubs/dsc_deeprl_ws.pdf"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/option-discovery-using-deep-skill-chaining.json",
+          "sha256": "e13f0854794c42f46be8f32c6e0c17702f68e33fe4241bbc8033424a4c46bb73"
+        },
+        "version": "NeurIPS-2019-workshop-author-copy",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 1",
+            "page_1_based": 14,
+            "caption": "Illustration of the deep skill chaining algorithm.",
+            "crop_pdf_points": [
+              105,
+              85,
+              506,
+              236
+            ],
+            "vector_paths": 52,
+            "native_text_spans": 0,
+            "raster_images": 17,
+            "visually_inspected": true,
+            "notes": "Appendix Figure1 in author NeurIPS2019workshop version. ICLR2020publisher PDF returned403; title/author equivalent but version explicit. Conceptual skill-chain progression with gradients."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -59,6 +145,116 @@
       "event": "import",
       "catalog_sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
       "status": "not_reviewed"
+    },
+    {
+      "revision": 2,
+      "at": "2026-10-09T20:49:29.290231Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "991597147d64747cd4e967249b5fd2458b30c9f1b5c84ab9d093fba61abf5c9d",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/option-discovery-using-deep-skill-chaining.json",
+                "https://cs.brown.edu/people/gdk/pubs/dsc_deeprl_ws.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/option-discovery-using-deep-skill-chaining.json",
+                "sha256": "e13f0854794c42f46be8f32c6e0c17702f68e33fe4241bbc8033424a4c46bb73"
+              },
+              "version": "NeurIPS-2019-workshop-author-copy",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Option Discovery Using Deep Skill Chaining",
+              "observed_title": "Option Discovery Using Deep Skill Chaining",
+              "source_url": "https://cs.brown.edu/people/gdk/pubs/dsc_deeprl_ws.pdf",
+              "source_sha256": "fb2b42a704404ec5ca14bb77e287c9128f7e85531545c34153c6654f4dcd7c54",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/option-discovery-using-deep-skill-chaining.json",
+                "https://cs.brown.edu/people/gdk/pubs/dsc_deeprl_ws.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/option-discovery-using-deep-skill-chaining.json",
+                "sha256": "e13f0854794c42f46be8f32c6e0c17702f68e33fe4241bbc8033424a4c46bb73"
+              },
+              "version": "NeurIPS-2019-workshop-author-copy",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/option-discovery-using-deep-skill-chaining.pdf",
+                "reported_sha256": "fb2b42a704404ec5ca14bb77e287c9128f7e85531545c34153c6654f4dcd7c54",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 20,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/option-discovery-using-deep-skill-chaining.json",
+                "https://cs.brown.edu/people/gdk/pubs/dsc_deeprl_ws.pdf"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/option-discovery-using-deep-skill-chaining.json",
+                "sha256": "e13f0854794c42f46be8f32c6e0c17702f68e33fe4241bbc8033424a4c46bb73"
+              },
+              "version": "NeurIPS-2019-workshop-author-copy",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 1",
+                  "page_1_based": 14,
+                  "caption": "Illustration of the deep skill chaining algorithm.",
+                  "crop_pdf_points": [
+                    105,
+                    85,
+                    506,
+                    236
+                  ],
+                  "vector_paths": 52,
+                  "native_text_spans": 0,
+                  "raster_images": 17,
+                  "visually_inspected": true,
+                  "notes": "Appendix Figure1 in author NeurIPS2019workshop version. ICLR2020publisher PDF returned403; title/author equivalent but version explicit. Conceptual skill-chain progression with gradients."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        },
+        "status": "in_progress"
+      }
     }
   ]
 }

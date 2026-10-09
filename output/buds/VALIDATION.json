@@ -1,0 +1,41 @@
+{
+  "diagram_id": "buds-figure-2",
+  "source_scene_sha256": "de0a7092fd7607980833792b78527e7913498cd63a40b478531900eeb45a5c55",
+  "source_pdf_sha256": "150e1c5f5b01487b60519080ddf0cdcb1a888879caf4c3d267bb6f7275d28ead",
+  "checked_files": [
+    {
+      "name": "buds-figure-2.drawio",
+      "sha256": "8d9b14a93fa4ca53163489e4d4de6f357e8bf9ff8dca76c0abb4936438f262fe"
+    },
+    {
+      "name": "buds-figure-2.png",
+      "sha256": "c641b89637db2de0ff1d9121b4410f3760d66e57c67d821c3cd4ab9ea97ef73f"
+    },
+    {
+      "name": "buds-figure-2.pptx",
+      "sha256": "85d54ccfe7109514de3cc35d48377b42b936dc1ca529a9b76c10be8e23062666"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 2 PDFpage4 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 181,
+    "p:pic": 3,
+    "a:custGeom": 162,
+    "p:cxnSp": 0,
+    "a:t": 16
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

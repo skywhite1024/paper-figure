@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "diagram_id": "disdain-figure-2",
+  "source_sha256": "0cae00f6f90f1bba25b854caa1acb40e4e5d377f9ecf63d14d3414bf41db243e",
+  "provenance": {
+    "paper_title": "Learning More Skills through Optimistic Exploration",
+    "paper_url": "https://arxiv.org/abs/2107.14226v6",
+    "figure": "Figure 2",
+    "license": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+    "notes": "Source-faithful native extraction of the vector left panel. Ordinary labels and panel captions remain typeable text. Source math fonts are glyph outlines. The source right panel is one bitmap: its network is restored as smooth measured native paths and equation glyphs as editable contours. Only the Atari screen remains a separate raster image. Paths remain freeforms, not semantically attached connectors.",
+    "page": 5,
+    "status": "figure_recreation",
+    "source_sha256": "b3b7cfe5027d3ed275105d1238a403d70c56a3a246866a7ba806db059615e14e",
+    "source_crop_pdf_points": [
+      110,
+      79,
+      502,
+      199
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Ordinary labels/prose use Arial or Times New Roman, with explicit source-baseline adjustment. Source mathematical fonts and raster formulas use native glyph outlines.",
+    "outlined_font_families": [
+      "Arial-ItalicMT",
+      "FreeSerif",
+      "DMSans"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "dash_fidelity": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+    "extraction_warnings": [
+      "5 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 2",
+      "unhandled image/shading at seq 122: [323.3110046386719, 81.86217498779297, 501.5146484375, 182.54400634765625]; requires reviewed raster region"
+    ],
+    "raster_source_reconstruction": "Right panel original bitmap is not embedded. The Atari screen is isolated; the formula is exactly transcribed into smooth STIX glyph outlines fitted to the original glyph bounds, and the network uses smooth native paths measured from source pixels. Mathematical glyph design is a documented font approximation to the source bitmap.",
+    "extraction_warnings_reviewed": [
+      "The one image warning is resolved by isolated Atari inset and separately traced native network/equation components. Source clipping only bounds the left vector artwork; inspected preview shows no missing geometry."
+    ],
+    "text_editability": "Ordinary labels and prose remain native typeable text. Mathematical expressions are editable glyph-outline paths, not live equations."
+  },
+  "metrics": {
+    "native_nodes": 202,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 194,
+    "native_text_objects": 8,
+    "raster_images": 1,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "disdain-figure-2.drawio",
+      "sha256": "15f954c9dbf7f311bcc4095b5b5c4c30e1d8ca9d90b21c9062df69b425c175ed"
+    },
+    {
+      "name": "disdain-figure-2.png",
+      "sha256": "872ebb6999303d10c9b84d2f74269fdd99e8721c4fcd9a573fbe3b9903dc070d"
+    },
+    {
+      "name": "disdain-figure-2.pptx",
+      "sha256": "d2967aa8c15fb8b69436c2d0a438d115a25c4039127e69ebd8107933fb5201a0"
+    }
+  ]
+}

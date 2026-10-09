@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "dexmimicgen-automated-data-generation-for-bimanual-dexterous-manipulation-via-imitation-learning",
-  "revision": 3,
+  "revision": 4,
   "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.511640Z",
-  "updated_at": "2026-10-09T20:14:36.058641Z",
+  "updated_at": "2026-10-09T20:49:28.597409Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,7 +26,7 @@
   },
   "stages": {
     "source_identity": {
-      "status": "reported",
+      "status": "passed",
       "evidence": {
         "references": [
           "research/survey/dexmimicgen-automated-data-generation-for-bimanual-dexterous-manipulation-via-imitation-learning.json",
@@ -35,19 +35,20 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/dexmimicgen-automated-data-generation-for-bimanual-dexterous-manipulation-via-imitation-learning.json",
-          "sha256": "512333746b73057888fbab7dbb415b95bf9e81abfe823ae6a178c9d21d055323"
+          "sha256": "9b0c6429425aae9aabd2c4328b9bb0a345424da3ddd4fe1ac3ba30e0ae60d6ab"
         },
         "version": "2410.24185v2",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
-        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
         "expected_title": "DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning",
         "observed_title": "DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning",
         "source_url": "https://arxiv.org/pdf/2410.24185v2",
         "source_sha256": "96349aac2708b5637bbbefa9964067b5ed7eac0fb51ba0248b8d8dcbe49352a2",
         "reported_title_match": true,
-        "identity_review_basis": null,
+        "identity_review_basis": "visually_inspected_source_candidate",
         "identity_reviewed": null,
         "title_review_method": null,
         "mismatch_reason": null
@@ -63,11 +64,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/dexmimicgen-automated-data-generation-for-bimanual-dexterous-manipulation-via-imitation-learning.json",
-          "sha256": "512333746b73057888fbab7dbb415b95bf9e81abfe823ae6a178c9d21d055323"
+          "sha256": "9b0c6429425aae9aabd2c4328b9bb0a345424da3ddd4fe1ac3ba30e0ae60d6ab"
         },
         "version": "2410.24185v2",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
         "observed_source": {
@@ -82,8 +83,45 @@
       }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/dexmimicgen-automated-data-generation-for-bimanual-dexterous-manipulation-via-imitation-learning.json",
+          "https://arxiv.org/pdf/2410.24185v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/dexmimicgen-automated-data-generation-for-bimanual-dexterous-manipulation-via-imitation-learning.json",
+          "sha256": "9b0c6429425aae9aabd2c4328b9bb0a345424da3ddd4fe1ac3ba30e0ae60d6ab"
+        },
+        "version": "2410.24185v2",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 3",
+            "page_1_based": 4,
+            "caption": "DexMimicGen workflow.",
+            "crop_pdf_points": [
+              52,
+              52,
+              559,
+              294
+            ],
+            "vector_paths": 51,
+            "native_text_spans": 35,
+            "raster_images": 21,
+            "visually_inspected": true,
+            "notes": "Bimanual source demonstration segmentation and object-centric trajectory transformation/execution."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -207,6 +245,115 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:49:28.597409Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "8a178bd21e2b1cd1cafd2e058d5b97b19d9736cd33894f48b30f33008d89fc15",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/dexmimicgen-automated-data-generation-for-bimanual-dexterous-manipulation-via-imitation-learning.json",
+                "https://arxiv.org/pdf/2410.24185v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/dexmimicgen-automated-data-generation-for-bimanual-dexterous-manipulation-via-imitation-learning.json",
+                "sha256": "9b0c6429425aae9aabd2c4328b9bb0a345424da3ddd4fe1ac3ba30e0ae60d6ab"
+              },
+              "version": "2410.24185v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning",
+              "observed_title": "DexMimicGen: Automated Data Generation for Bimanual Dexterous Manipulation via Imitation Learning",
+              "source_url": "https://arxiv.org/pdf/2410.24185v2",
+              "source_sha256": "96349aac2708b5637bbbefa9964067b5ed7eac0fb51ba0248b8d8dcbe49352a2",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/dexmimicgen-automated-data-generation-for-bimanual-dexterous-manipulation-via-imitation-learning.json",
+                "https://arxiv.org/pdf/2410.24185v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/dexmimicgen-automated-data-generation-for-bimanual-dexterous-manipulation-via-imitation-learning.json",
+                "sha256": "9b0c6429425aae9aabd2c4328b9bb0a345424da3ddd4fe1ac3ba30e0ae60d6ab"
+              },
+              "version": "2410.24185v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/dexmimicgen-automated-data-generation-for-bimanual-dexterous-manipulation-via-imitation-learning.pdf",
+                "reported_sha256": "96349aac2708b5637bbbefa9964067b5ed7eac0fb51ba0248b8d8dcbe49352a2",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 10,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/dexmimicgen-automated-data-generation-for-bimanual-dexterous-manipulation-via-imitation-learning.json",
+                "https://arxiv.org/pdf/2410.24185v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/dexmimicgen-automated-data-generation-for-bimanual-dexterous-manipulation-via-imitation-learning.json",
+                "sha256": "9b0c6429425aae9aabd2c4328b9bb0a345424da3ddd4fe1ac3ba30e0ae60d6ab"
+              },
+              "version": "2410.24185v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 3",
+                  "page_1_based": 4,
+                  "caption": "DexMimicGen workflow.",
+                  "crop_pdf_points": [
+                    52,
+                    52,
+                    559,
+                    294
+                  ],
+                  "vector_paths": 51,
+                  "native_text_spans": 35,
+                  "raster_images": 21,
+                  "visually_inspected": true,
+                  "notes": "Bimanual source demonstration segmentation and object-centric trajectory transformation/execution."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
             }
           }
         }

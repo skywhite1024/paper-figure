@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "diagram_id": "becl-figure-3",
+  "source_sha256": "b50f166ed8162a552deab65422db8c29ac6c5c2845ee564f20be2300462c7716",
+  "provenance": {
+    "paper_title": "Behavior Contrastive Learning for Unsupervised Skill Discovery",
+    "paper_url": "https://arxiv.org/abs/2305.04477v1",
+    "figure": "Figure 3",
+    "license": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+    "notes": "Original vector geometry and editable text; source photo/plot/formula assets preserved separately with their transparency. Internal pixels of raster subassets are not editable. Freeform arrows lack semantic endpoint attachment. Independent cross-format QA pending. 39 ordinary Calibri label spans restored as typeable text; only mathematical symbols remain glyph paths.",
+    "page": 4,
+    "status": "figure_recreation",
+    "source_sha256": "17c5a946c854b64a8042503b5831c6708ea15364be8090872edd3aad5d37c362",
+    "source_crop_pdf_points": [
+      66,
+      68,
+      534,
+      201
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "outlined_font_families": [
+      "CMM",
+      "CMSY",
+      "CMEX",
+      "CMR",
+      "CambriaMath"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "dash_fidelity": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+    "extraction_warnings": [
+      "44 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 2",
+      "path crosses crop boundary: 3"
+    ]
+  },
+  "metrics": {
+    "native_nodes": 113,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 66,
+    "native_text_objects": 47,
+    "raster_images": 62,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "becl-figure-3.drawio",
+      "sha256": "84a4f0ac65d0f11dd9dc294f65a5d507bcca472689865b38cd9946abebeb4d76"
+    },
+    {
+      "name": "becl-figure-3.png",
+      "sha256": "92598f67efe5efa1ec94e78895c780bda972c3a4fdc20e8f17289b43fa5a64dc"
+    },
+    {
+      "name": "becl-figure-3.pptx",
+      "sha256": "386cb082cad7bf8319ceaff628ef807731fd576978cadbad009f23cf518c4fdb"
+    }
+  ]
+}

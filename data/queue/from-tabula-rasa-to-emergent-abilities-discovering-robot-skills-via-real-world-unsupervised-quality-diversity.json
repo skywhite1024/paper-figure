@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "from-tabula-rasa-to-emergent-abilities-discovering-robot-skills-via-real-world-unsupervised-quality-diversity",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.462672Z",
-  "updated_at": "2026-10-09T20:14:36.245403Z",
+  "updated_at": "2026-10-09T20:42:51.055192Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -125,8 +125,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/ursa/README.md",
+          "output/ursa/VALIDATION.json"
+        ],
+        "output_directory": "output/ursa",
+        "source_sha256": "92a73fad024334ad3c8a932f84cac54f8a8d9ade9131ff99c84c23c3689c3096",
+        "scene_sha256": "2a955a2505b98069aa8b40e26ac98d65e43913c4762e0039c7e2dbeabcf71e46",
+        "text_editability": {
+          "typeable_text_objects": 15,
+          "native_freeform_paths": 66,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -289,6 +303,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:42:51.055192Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "1c5e549c6ce0933d1a464693c7fa791a4ba0fb30294fda02ac7016aea4a5f317",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/ursa/README.md",
+                "output/ursa/VALIDATION.json"
+              ],
+              "output_directory": "output/ursa",
+              "source_sha256": "92a73fad024334ad3c8a932f84cac54f8a8d9ade9131ff99c84c23c3689c3096",
+              "scene_sha256": "2a955a2505b98069aa8b40e26ac98d65e43913c4762e0039c7e2dbeabcf71e46",
+              "text_editability": {
+                "typeable_text_objects": 15,
+                "native_freeform_paths": 66,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

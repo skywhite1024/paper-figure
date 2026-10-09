@@ -38,7 +38,13 @@ class OutputTests(unittest.TestCase):
             if path.is_file(): shutil.copy2(path, self.root / 'output' / path.name)
         for slug in ['aspire', 'roboreact']:
             shutil.copytree(ROOT / 'output' / slug, self.root / 'output' / slug)
-        shutil.copytree(ROOT / 'data/diagrams', self.root / 'data/diagrams')
+        for metadata in (self.root / 'output').glob('*/sources.json'):
+            record=json.loads(metadata.read_text())['papers'][0]
+            relative=(metadata.parent/record['diagram_json']).resolve().relative_to(self.root)
+            scene=ROOT/relative;target=self.root/relative;target.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(scene,target)
+            for node in json.loads(scene.read_text())['nodes']:
+                if node['shape']=='image':
+                    asset=target.parent/node['asset'];asset.parent.mkdir(parents=True,exist_ok=True);shutil.copy2(scene.parent/node['asset'],asset)
         self.output = self.root / 'output'
 
     def artifact_hashes(self):
@@ -201,6 +207,13 @@ class OutputTests(unittest.TestCase):
     def test_stale_qa_hash_rejected(self):
         path=self.output/'aspire/VALIDATION.json'
         path.write_text(json.dumps({'source_scene_sha256':'0'*64}))
+        with self.assertRaises(ValidationError):refresh_output(self.root)
+
+
+    def test_asset_change_without_scene_change_rejected(self):
+        scene=self.root/'data/diagrams/aspire-figure-1.json'
+        data=json.loads(scene.read_text());node=next(n for n in data['nodes'] if n['shape']=='image')
+        asset=scene.parent/node['asset'];asset.write_bytes(asset.read_bytes()+b'\n')
         with self.assertRaises(ValidationError):refresh_output(self.root)
 
 

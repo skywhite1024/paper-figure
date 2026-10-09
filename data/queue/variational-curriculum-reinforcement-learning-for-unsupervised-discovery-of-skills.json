@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "variational-curriculum-reinforcement-learning-for-unsupervised-discovery-of-skills",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.465313Z",
-  "updated_at": "2026-10-09T20:14:36.872209Z",
+  "updated_at": "2026-10-09T20:49:33.995055Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -64,11 +64,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/variational-curriculum-reinforcement-learning-for-unsupervised-discovery-of-skills.json",
-          "sha256": "b688ac7b34a30623a358e38f9167ddf23bacedca2f1f8b126281778d2e86a1f0"
+          "sha256": "2f489a35a086f68a256a38c071942794c32b12aee8d16b1b6772433313a1e300"
         },
         "version": "2310.19424v1",
         "license_note": "http://creativecommons.org/licenses/by/4.0/",
-        "review_notes": "",
+        "review_notes": "Corrected full-figure crop after inspecting embedded image bounds: includes right Update theta / Equation 5 label.",
         "inspected_at": "2026-10-09",
         "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
         "observed_source": {
@@ -92,11 +92,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/variational-curriculum-reinforcement-learning-for-unsupervised-discovery-of-skills.json",
-          "sha256": "b688ac7b34a30623a358e38f9167ddf23bacedca2f1f8b126281778d2e86a1f0"
+          "sha256": "2f489a35a086f68a256a38c071942794c32b12aee8d16b1b6772433313a1e300"
         },
         "version": "2310.19424v1",
         "license_note": "http://creativecommons.org/licenses/by/4.0/",
-        "review_notes": "",
+        "review_notes": "Corrected full-figure crop after inspecting embedded image bounds: includes right Update theta / Equation 5 label.",
         "inspected_at": "2026-10-09",
         "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
         "figure_candidates": [
@@ -107,7 +107,7 @@
             "crop_pdf_points": [
               61,
               65,
-              488,
+              535,
               260
             ],
             "vector_paths": 0,
@@ -115,7 +115,13 @@
             "raster_images": 1,
             "source_type": "raster",
             "visually_inspected": true,
-            "notes": "VUVC architecture: goal generative model with uncertainty and density graphs at left, goal-conditioned policy/environment/discriminative model loop at right. Includes cartoon icons and goal-render thumbnails."
+            "notes": "VUVC architecture: goal generative model with uncertainty and density graphs at left, goal-conditioned policy/environment/discriminative model loop at right. Includes cartoon icons and goal-render thumbnails. Corrected full-figure crop after inspecting embedded image bounds: includes right Update theta / Equation 5 label.",
+            "previous_crop_pdf_points": [
+              61,
+              65,
+              488,
+              260
+            ]
           }
         ],
         "reviewed_pages": null,
@@ -125,8 +131,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/vuvc/README.md",
+          "output/vuvc/VALIDATION.json"
+        ],
+        "output_directory": "output/vuvc",
+        "source_sha256": "46cbfad2918167415f1ba90e81735de425a6e9213af9762713e3b4e82fc0e68a",
+        "scene_sha256": "71a86726817031c335710d4e9e55f552d04de97cd43c9e1fd8a108f6b66321ed",
+        "text_editability": {
+          "typeable_text_objects": 49,
+          "native_freeform_paths": 67,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -289,6 +309,123 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:49:29.788480Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "05b135eeeb203576823c8ff8a6fed9c66ce6266964001c953885293ac54e4f14",
+      "patch": {
+        "stages": {
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/variational-curriculum-reinforcement-learning-for-unsupervised-discovery-of-skills.json",
+                "https://arxiv.org/pdf/2310.19424v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/variational-curriculum-reinforcement-learning-for-unsupervised-discovery-of-skills.json",
+                "sha256": "2f489a35a086f68a256a38c071942794c32b12aee8d16b1b6772433313a1e300"
+              },
+              "version": "2310.19424v1",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "Corrected full-figure crop after inspecting embedded image bounds: includes right Update theta / Equation 5 label.",
+              "inspected_at": "2026-10-09",
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "/tmp/paper-figure-survey/variational-curriculum-reinforcement-learning-for-unsupervised-discovery-of-skills/original.pdf",
+                "reported_sha256": "46cbfad2918167415f1ba90e81735de425a6e9213af9762713e3b4e82fc0e68a",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 28,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/variational-curriculum-reinforcement-learning-for-unsupervised-discovery-of-skills.json",
+                "https://arxiv.org/pdf/2310.19424v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/variational-curriculum-reinforcement-learning-for-unsupervised-discovery-of-skills.json",
+                "sha256": "2f489a35a086f68a256a38c071942794c32b12aee8d16b1b6772433313a1e300"
+              },
+              "version": "2310.19424v1",
+              "license_note": "http://creativecommons.org/licenses/by/4.0/",
+              "review_notes": "Corrected full-figure crop after inspecting embedded image bounds: includes right Update theta / Equation 5 label.",
+              "inspected_at": "2026-10-09",
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 1",
+                  "page_1_based": 2,
+                  "caption": "Figure 1. An overview of our proposed method, VUVC, under the unifying framework for curriculum learning in goal-conditioned RL.\nThe value uncertainty proposes informative goals which would generate a stronger learning signal. The density estimate of potential\ncurriculum goals indicates the novelty of the goal to the learning agent. The density estimate model is derived from the discriminative\nmodel, which is trained alongside the agent. This discriminative model provides intrinsic rewards to the agent. VUVC combines these\ntwo measures to construct a goal generative model, promoting unsupervised exploration of the entire state space by the agent.",
+                  "crop_pdf_points": [
+                    61,
+                    65,
+                    535,
+                    260
+                  ],
+                  "vector_paths": 0,
+                  "native_text_spans": 0,
+                  "raster_images": 1,
+                  "source_type": "raster",
+                  "visually_inspected": true,
+                  "notes": "VUVC architecture: goal generative model with uncertainty and density graphs at left, goal-conditioned policy/environment/discriminative model loop at right. Includes cartoon icons and goal-render thumbnails. Corrected full-figure crop after inspecting embedded image bounds: includes right Update theta / Equation 5 label.",
+                  "previous_crop_pdf_points": [
+                    61,
+                    65,
+                    488,
+                    260
+                  ]
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T20:49:33.995055Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "9b091bbb1bfd08411cc56bfbe4283a96f7b3b7d808aa2a7a0ad84fde2a7e04e9",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/vuvc/README.md",
+                "output/vuvc/VALIDATION.json"
+              ],
+              "output_directory": "output/vuvc",
+              "source_sha256": "46cbfad2918167415f1ba90e81735de425a6e9213af9762713e3b4e82fc0e68a",
+              "scene_sha256": "71a86726817031c335710d4e9e55f552d04de97cd43c9e1fd8a108f6b66321ed",
+              "text_editability": {
+                "typeable_text_objects": 49,
+                "native_freeform_paths": 67,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

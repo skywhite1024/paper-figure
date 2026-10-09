@@ -1,0 +1,82 @@
+{
+  "schema_version": 1,
+  "diagram_id": "genai-survey-figure-1",
+  "source_sha256": "2151c24e4b5a68f45ec7f48fd638315799053cc1a340b63963944b025c72f565",
+  "provenance": {
+    "paper_title": "Generative Artificial Intelligence in Robotic Manipulation: A Survey",
+    "paper_url": "https://arxiv.org/abs/2503.03464v2",
+    "figure": "Figure 1",
+    "license": "No reuse license found in inspected source landing page; retain attribution and review reuse terms",
+    "notes": "Original vector geometry and editable text; source photo/plot/formula assets preserved separately with their transparency. Internal pixels of raster subassets are not editable. Freeform arrows lack semantic endpoint attachment. Independent cross-format QA pending.",
+    "page": 2,
+    "status": "figure_recreation",
+    "source_sha256": "d0c553eb4834303a8ec30327f724cc2359e32ce6b69b4d8b8f3cf6cd893df8d8",
+    "source_crop_pdf_points": [
+      48,
+      52,
+      564,
+      329
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "outlined_font_families": [
+      "CMM",
+      "CMSY",
+      "CMEX",
+      "CMR",
+      "CambriaMath"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "extraction_warnings": [
+      "58 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path partially intersects raster inset: 134",
+      "path partially intersects raster inset: 135",
+      "path partially intersects raster inset: 143",
+      "path partially intersects raster inset: 159",
+      "path partially intersects raster inset: 320",
+      "path partially intersects raster inset: 321",
+      "path partially intersects raster inset: 322",
+      "path partially intersects raster inset: 323",
+      "unhandled image/shading at seq 2: [248.56784057617188, 125.39183807373047, 373.6596984863281, 250.59548950195312]; requires reviewed raster region",
+      "unhandled image/shading at seq 4: [298.48028564453125, 139.1290283203125, 375.5709228515625, 182.4147186279297]; requires reviewed raster region",
+      "unhandled image/shading at seq 6: [271.1067810058594, 188.68582153320312, 372.05615234375, 243.84564208984375]; requires reviewed raster region",
+      "unhandled image/shading at seq 8: [307.5924072265625, 212.25184631347656, 362.72491455078125, 224.88400268554688]; requires reviewed raster region",
+      "unhandled image/shading at seq 14: [229.14590454101562, 154.33282470703125, 354.854248046875, 275.15185546875]; requires reviewed raster region",
+      "unhandled image/shading at seq 178: [495.1754455566406, 54.172203063964844, 541.1943969726562, 98.7998275756836]; requires reviewed raster region",
+      "unhandled image/shading at seq 179: [526.4072875976562, 70.47954559326172, 572.4262084960938, 115.10717010498047]; requires reviewed raster region",
+      "unhandled image/shading at seq 180: [557.63916015625, 86.78690338134766, 603.6580810546875, 131.41452026367188]; requires reviewed raster region",
+      "unhandled image/shading at seq 181: [480.3883361816406, 82.49248504638672, 526.4072875976562, 127.12010955810547]; requires reviewed raster region",
+      "unhandled image/shading at seq 182: [511.6202392578125, 98.79981231689453, 557.63916015625, 143.42742919921875]; requires reviewed raster region",
+      "unhandled image/shading at seq 183: [542.85205078125, 115.10717010498047, 588.8709716796875, 159.73480224609375]; requires reviewed raster region",
+      "unhandled image/shading at seq 184: [465.6012268066406, 110.81275177001953, 511.62017822265625, 155.44036865234375]; requires reviewed raster region",
+      "unhandled image/shading at seq 185: [496.8330993652344, 127.12007904052734, 542.85205078125, 171.74771118164062]; requires reviewed raster region",
+      "unhandled image/shading at seq 186: [528.06494140625, 143.427490234375, 574.0838623046875, 188.05511474609375]; requires reviewed raster region"
+    ]
+  },
+  "metrics": {
+    "native_nodes": 259,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 218,
+    "native_text_objects": 41,
+    "raster_images": 30,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "genai-survey-figure-1.drawio",
+      "sha256": "a0ef07ac706f816cf13847e1548b4cd183cf4bf60a771b8cb998cfa8c1e7ecb8"
+    },
+    {
+      "name": "genai-survey-figure-1.png",
+      "sha256": "9261d2005064fc36b1ca5371408dabe76d4ff5efc9fa2209cba83f940b6a7954"
+    },
+    {
+      "name": "genai-survey-figure-1.pptx",
+      "sha256": "32b5105e94ae5dceff85ffefb91b76cc42b2b603de73026702a6cd86dfea8b7f"
+    }
+  ]
+}

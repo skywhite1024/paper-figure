@@ -1,0 +1,4246 @@
+{
+  "schema_version": 1,
+  "id": "vuvc-figure-1",
+  "title": "Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills — source-layout editable reconstruction",
+  "canvas": {
+    "width": 1896,
+    "height": 780
+  },
+  "provenance": {
+    "paper_title": "Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills",
+    "paper_url": "https://arxiv.org/abs/2310.19424v1",
+    "pdf_url": "https://arxiv.org/pdf/2310.19424v1",
+    "figure": "Figure 1",
+    "page": 2,
+    "license": "http://creativecommons.org/licenses/by/4.0/ Private user-requested adaptation; no public redistribution permission implied.",
+    "status": "figure_recreation",
+    "notes": "Manually reconstructed from the inspected original flattened PDF figure. Ordinary labels are live typeable text; panels, graph geometry and arrows are native editable shapes or paths. Source layout and contents retained; font metrics, line widths and decorative effects approximated. Seven small original raster crops retain three robot-goal renderings and four decorative icons; all chart curves, axes, bars, panels, arrows and ordinary/formula labels are native. Tiny angle captions on photo backgrounds are overlaid with live native text. Mathematical text uses Unicode rather than live equation objects.",
+    "source_sha256": "46cbfad2918167415f1ba90e81735de425a6e9213af9762713e3b4e82fc0e68a",
+    "source_crop_pdf_points": [
+      61,
+      65,
+      535,
+      260
+    ],
+    "survey_crop_correction": "Initial survey right488pt enlarged to535pt to include Update theta / Equation 5 feedback label.",
+    "visual_inspection": "Original PDF figure inspected before source-layout reconstruction on 2026-10-09; independent application QA pending.",
+    "raster_details": [
+      {
+        "id": "target-icon",
+        "bounds_source_pixels": [
+          45,
+          123,
+          194,
+          271
+        ],
+        "detail": "Original target-and-pencil decorative icon; internal artwork remains raster"
+      },
+      {
+        "id": "robot-icon",
+        "bounds_source_pixels": [
+          1488,
+          30,
+          1584,
+          179
+        ],
+        "detail": "Original robot decorative icon; internal artwork remains raster"
+      },
+      {
+        "id": "earth-icon",
+        "bounds_source_pixels": [
+          1460,
+          301,
+          1611,
+          451
+        ],
+        "detail": "Original globe decorative icon; internal artwork remains raster"
+      },
+      {
+        "id": "scales-icon",
+        "bounds_source_pixels": [
+          1460,
+          613,
+          1611,
+          750
+        ],
+        "detail": "Original balance-scale decorative icon; internal artwork remains raster"
+      },
+      {
+        "id": "goal15",
+        "bounds_source_pixels": [
+          251,
+          369,
+          416,
+          534
+        ],
+        "detail": "Original robot and drawer simulation goal rendering; small angle caption covered by native editable label"
+      },
+      {
+        "id": "goal0",
+        "bounds_source_pixels": [
+          471,
+          369,
+          636,
+          534
+        ],
+        "detail": "Original robot and drawer simulation goal rendering; small angle caption covered by native editable label"
+      },
+      {
+        "id": "goal60",
+        "bounds_source_pixels": [
+          757,
+          369,
+          922,
+          534
+        ],
+        "detail": "Original robot and drawer simulation goal rendering; small angle caption covered by native editable label"
+      }
+    ]
+  },
+  "nodes": [
+    {
+      "id": "goal-model-panel",
+      "shape": "path",
+      "label": "",
+      "x": 8,
+      "y": 12,
+      "width": 951,
+      "height": 760,
+      "fill": "#FFFFFF",
+      "stroke": "#ED8A77",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 19,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 932,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 942.49341025,
+            "y1": 0,
+            "x2": 951,
+            "y2": 8.50658975,
+            "x": 951,
+            "y": 19
+          }
+        },
+        {
+          "lineTo": {
+            "x": 951,
+            "y": 741
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 951,
+            "y1": 751.49341025,
+            "x2": 942.49341025,
+            "y2": 760,
+            "x": 932,
+            "y": 760
+          }
+        },
+        {
+          "lineTo": {
+            "x": 19,
+            "y": 760
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.50658975,
+            "y1": 760,
+            "x2": 0,
+            "y2": 751.49341025,
+            "x": 0,
+            "y": 741
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 19
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 8.50658975,
+            "x2": 8.50658975,
+            "y2": 0,
+            "x": 19,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 5,
+      "dash": false
+    },
+    {
+      "id": "policy-panel",
+      "shape": "path",
+      "label": "",
+      "x": 1043,
+      "y": 13,
+      "width": 585,
+      "height": 179,
+      "fill": "#FFFFFF",
+      "stroke": "#70AEF4",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 10,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 575,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 580.5228475,
+            "y1": 0,
+            "x2": 585,
+            "y2": 4.4771525,
+            "x": 585,
+            "y": 10
+          }
+        },
+        {
+          "lineTo": {
+            "x": 585,
+            "y": 169
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 585,
+            "y1": 174.5228475,
+            "x2": 580.5228475,
+            "y2": 179,
+            "x": 575,
+            "y": 179
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10,
+            "y": 179
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4.4771525,
+            "y1": 179,
+            "x2": 0,
+            "y2": 174.5228475,
+            "x": 0,
+            "y": 169
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 10
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 4.4771525,
+            "x2": 4.4771525,
+            "y2": 0,
+            "x": 10,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 5,
+      "dash": false
+    },
+    {
+      "id": "environment-panel",
+      "shape": "path",
+      "label": "",
+      "x": 1043,
+      "y": 286,
+      "width": 585,
+      "height": 179,
+      "fill": "#FFFFFF",
+      "stroke": "#9BD579",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 10,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 575,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 580.5228475,
+            "y1": 0,
+            "x2": 585,
+            "y2": 4.4771525,
+            "x": 585,
+            "y": 10
+          }
+        },
+        {
+          "lineTo": {
+            "x": 585,
+            "y": 169
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 585,
+            "y1": 174.5228475,
+            "x2": 580.5228475,
+            "y2": 179,
+            "x": 575,
+            "y": 179
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10,
+            "y": 179
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4.4771525,
+            "y1": 179,
+            "x2": 0,
+            "y2": 174.5228475,
+            "x": 0,
+            "y": 169
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 10
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 4.4771525,
+            "x2": 4.4771525,
+            "y2": 0,
+            "x": 10,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 5,
+      "dash": false
+    },
+    {
+      "id": "discriminative-panel",
+      "shape": "path",
+      "label": "",
+      "x": 1043,
+      "y": 592,
+      "width": 585,
+      "height": 179,
+      "fill": "#FFFFFF",
+      "stroke": "#F8DE70",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 10,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 575,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 580.5228475,
+            "y1": 0,
+            "x2": 585,
+            "y2": 4.4771525,
+            "x": 585,
+            "y": 10
+          }
+        },
+        {
+          "lineTo": {
+            "x": 585,
+            "y": 169
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 585,
+            "y1": 174.5228475,
+            "x2": 580.5228475,
+            "y2": 179,
+            "x": 575,
+            "y": 179
+          }
+        },
+        {
+          "lineTo": {
+            "x": 10,
+            "y": 179
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4.4771525,
+            "y1": 179,
+            "x2": 0,
+            "y2": 174.5228475,
+            "x": 0,
+            "y": 169
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 10
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 4.4771525,
+            "x2": 4.4771525,
+            "y2": 0,
+            "x": 10,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 5,
+      "dash": false
+    },
+    {
+      "id": "goal-title",
+      "shape": "text",
+      "label": "goal generative model",
+      "x": 14,
+      "y": 20,
+      "width": 400,
+      "height": 48,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 36,
+      "font_family": "Arial",
+      "text_color": "#000000",
+      "bold": true,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "goal-title-underline",
+      "shape": "path",
+      "label": "",
+      "x": 14,
+      "y": 63,
+      "width": 380,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 380,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "policy-title",
+      "shape": "text",
+      "label": "goal-conditioned policy",
+      "x": 1066,
+      "y": 51,
+      "width": 438,
+      "height": 48,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 38,
+      "font_family": "Arial",
+      "text_color": "#000000",
+      "bold": true,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "policy-title-underline",
+      "shape": "path",
+      "label": "",
+      "x": 1066,
+      "y": 94,
+      "width": 418,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 418,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "environment-title",
+      "shape": "text",
+      "label": "environment",
+      "x": 1137,
+      "y": 328,
+      "width": 236,
+      "height": 48,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 36,
+      "font_family": "Arial",
+      "text_color": "#000000",
+      "bold": true,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "environment-title-underline",
+      "shape": "path",
+      "label": "",
+      "x": 1137,
+      "y": 371,
+      "width": 216,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 216,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "discriminative-title",
+      "shape": "text",
+      "label": "discriminative model",
+      "x": 1074,
+      "y": 630,
+      "width": 410,
+      "height": 48,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 38,
+      "font_family": "Arial",
+      "text_color": "#000000",
+      "bold": true,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "discriminative-title-underline",
+      "shape": "path",
+      "label": "",
+      "x": 1074,
+      "y": 673,
+      "width": 390,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.3,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 390,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "goal-distribution",
+      "shape": "text",
+      "label": "g ∼ p(g)",
+      "x": 48,
+      "y": 70,
+      "width": 170,
+      "height": 55,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 43,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "policy-formula-left",
+      "shape": "text",
+      "label": "a ∼ π",
+      "x": 1148,
+      "y": 102,
+      "width": 100,
+      "height": 58,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 43,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "policy-theta-subscript",
+      "shape": "text",
+      "label": "θ",
+      "x": 1244,
+      "y": 128,
+      "width": 22,
+      "height": 27,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 27,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "policy-formula-right",
+      "shape": "text",
+      "label": "(a | s,g)",
+      "x": 1265,
+      "y": 102,
+      "width": 150,
+      "height": 58,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 43,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "environment-formula",
+      "shape": "text",
+      "label": "s′ ∼ p(s′|s,a)",
+      "x": 1123,
+      "y": 376,
+      "width": 325,
+      "height": 54,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 43,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "discriminative-q",
+      "shape": "text",
+      "label": "q",
+      "x": 1191,
+      "y": 681,
+      "width": 28,
+      "height": 56,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 43,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "discriminative-lambda-subscript",
+      "shape": "text",
+      "label": "λ",
+      "x": 1213,
+      "y": 706,
+      "width": 22,
+      "height": 27,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 27,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "discriminative-formula-right",
+      "shape": "text",
+      "label": "(g | s)",
+      "x": 1234,
+      "y": 681,
+      "width": 117,
+      "height": 56,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 43,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "target-icon",
+      "shape": "image",
+      "label": "",
+      "x": 45,
+      "y": 123,
+      "width": 149,
+      "height": 148,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/target-icon.png",
+      "alt": "Original target-and-pencil decorative icon; internal artwork remains raster"
+    },
+    {
+      "id": "robot-icon",
+      "shape": "image",
+      "label": "",
+      "x": 1488,
+      "y": 30,
+      "width": 96,
+      "height": 149,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/robot-icon.png",
+      "alt": "Original robot decorative icon; internal artwork remains raster"
+    },
+    {
+      "id": "earth-icon",
+      "shape": "image",
+      "label": "",
+      "x": 1460,
+      "y": 301,
+      "width": 151,
+      "height": 150,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/earth-icon.png",
+      "alt": "Original globe decorative icon; internal artwork remains raster"
+    },
+    {
+      "id": "scales-icon",
+      "shape": "image",
+      "label": "",
+      "x": 1460,
+      "y": 613,
+      "width": 151,
+      "height": 137,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/scales-icon.png",
+      "alt": "Original balance-scale decorative icon; internal artwork remains raster"
+    },
+    {
+      "id": "goal-to-policy",
+      "shape": "path",
+      "label": "",
+      "x": 793,
+      "y": 103,
+      "width": 249,
+      "height": 102,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 4,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 102
+          }
+        },
+        {
+          "lineTo": {
+            "x": 195,
+            "y": 102
+          }
+        },
+        {
+          "lineTo": {
+            "x": 195,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 249,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "goal-to-policy-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 1026.0,
+      "y": 95.48,
+      "width": 16.0,
+      "height": 15.039999999999992,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 16.0,
+            "y": 7.519999999999996
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 15.039999999999992
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "automatic-goal",
+      "shape": "text",
+      "label": "Automatically\nset g",
+      "x": 784,
+      "y": 205,
+      "width": 222,
+      "height": 92,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 34,
+      "font_family": "Arial",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "policy-to-environment",
+      "shape": "path",
+      "label": "",
+      "x": 1335,
+      "y": 194,
+      "width": 0.1,
+      "height": 88,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 4,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 88
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "policy-to-environment-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 1327.48,
+      "y": 266.0,
+      "width": 15.039999999999964,
+      "height": 16.0,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 7.519999999999982,
+            "y": 16.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 15.039999999999964,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "environment-to-discriminator",
+      "shape": "path",
+      "label": "",
+      "x": 1335,
+      "y": 466,
+      "width": 0.1,
+      "height": 122,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 4,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 122
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "environment-to-discriminator-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 1327.48,
+      "y": 572.0,
+      "width": 15.039999999999964,
+      "height": 16.0,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 7.519999999999982,
+            "y": 16.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 15.039999999999964,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "update-lambda",
+      "shape": "text",
+      "label": "Update λ",
+      "x": 1375,
+      "y": 484,
+      "width": 166,
+      "height": 45,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 34,
+      "font_family": "Arial",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "update-lambda-equation",
+      "shape": "text",
+      "label": "(Equation 4)",
+      "x": 1361,
+      "y": 526,
+      "width": 201,
+      "height": 43,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 34,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "policy-update-loop",
+      "shape": "path",
+      "label": "",
+      "x": 1630,
+      "y": 103,
+      "width": 57,
+      "height": 578,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 4,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 578
+          }
+        },
+        {
+          "lineTo": {
+            "x": 57,
+            "y": 578
+          }
+        },
+        {
+          "lineTo": {
+            "x": 57,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 3,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "policy-update-loop-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 1633,
+      "y": 95.48,
+      "width": 16.0,
+      "height": 15.039999999999992,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 7.519999999999996
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16.0,
+            "y": 15.039999999999992
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "update-theta",
+      "shape": "text",
+      "label": "Update θ",
+      "x": 1710,
+      "y": 338,
+      "width": 167,
+      "height": 46,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 34,
+      "font_family": "Arial",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "update-theta-equation",
+      "shape": "text",
+      "label": "(Equation 5)",
+      "x": 1691,
+      "y": 379,
+      "width": 196,
+      "height": 46,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 34,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "environment-to-goals",
+      "shape": "path",
+      "label": "",
+      "x": 923,
+      "y": 375,
+      "width": 119,
+      "height": 76,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 4,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 119,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 71,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 71,
+            "y": 76
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 76
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "environment-to-goals-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 923,
+      "y": 443.48,
+      "width": 16.0,
+      "height": 15.039999999999964,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 7.519999999999982
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16.0,
+            "y": 15.039999999999964
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "discriminator-to-density",
+      "shape": "path",
+      "label": "",
+      "x": 942,
+      "y": 596,
+      "width": 100,
+      "height": 85,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 4,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 100,
+            "y": 85
+          }
+        },
+        {
+          "lineTo": {
+            "x": 52,
+            "y": 85
+          }
+        },
+        {
+          "lineTo": {
+            "x": 52,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "discriminator-to-density-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 942,
+      "y": 588.48,
+      "width": 16.0,
+      "height": 15.039999999999964,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 7.519999999999982
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 16.0,
+            "y": 15.039999999999964
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "distribution-frame",
+      "shape": "rect",
+      "label": "",
+      "x": 306,
+      "y": 95,
+      "width": 486,
+      "height": 220,
+      "fill": "none",
+      "stroke": "#E87A65",
+      "stroke_width": 3
+    },
+    {
+      "id": "distribution-x-axis",
+      "shape": "path",
+      "label": "",
+      "x": 324,
+      "y": 299,
+      "width": 452,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 4,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 452,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "distribution-x-axis-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 759.0,
+      "y": 291.01,
+      "width": 17.0,
+      "height": 15.980000000000018,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 17.0,
+            "y": 7.990000000000009
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 15.980000000000018
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "distribution-y-axis",
+      "shape": "path",
+      "label": "",
+      "x": 324,
+      "y": 109,
+      "width": 0.1,
+      "height": 190,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 4,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 190
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "distribution-y-axis-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 316.01,
+      "y": 109,
+      "width": 15.980000000000018,
+      "height": 17.0,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 7.990000000000009,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 15.980000000000018,
+            "y": 17.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 17.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "density-pg",
+      "shape": "text",
+      "label": "p(g)",
+      "x": 330,
+      "y": 93,
+      "width": 84,
+      "height": 52,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 40,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "distribution-goal-g",
+      "shape": "text",
+      "label": "g",
+      "x": 760,
+      "y": 249,
+      "width": 33,
+      "height": 48,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 43,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "previous-distribution",
+      "shape": "path",
+      "label": "",
+      "x": 336,
+      "y": 106,
+      "width": 416,
+      "height": 173,
+      "fill": "none",
+      "stroke": "#000000",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 171
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 38,
+            "y1": 169,
+            "x2": 74,
+            "y2": 148,
+            "x": 89,
+            "y": 114
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 102,
+            "y1": 77,
+            "x2": 94,
+            "y2": 29,
+            "x": 116,
+            "y": 26
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 154,
+            "y1": 19,
+            "x2": 143,
+            "y2": 108,
+            "x": 178,
+            "y": 114
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 214,
+            "y1": 119,
+            "x2": 217,
+            "y2": 63,
+            "x": 233,
+            "y": 29
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 244,
+            "y1": 0,
+            "x2": 273,
+            "y2": 4,
+            "x": 284,
+            "y": 38
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 303,
+            "y1": 98,
+            "x2": 314,
+            "y2": 122,
+            "x": 343,
+            "y": 142
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 368,
+            "y1": 160,
+            "x2": 382,
+            "y2": 171,
+            "x": 416,
+            "y": 173
+          }
+        }
+      ],
+      "stroke_width": 2,
+      "dash": true,
+      "dash_style": "dotted"
+    },
+    {
+      "id": "current-distribution",
+      "shape": "path",
+      "label": "",
+      "x": 336,
+      "y": 122,
+      "width": 416,
+      "height": 157,
+      "fill": "none",
+      "stroke": "#000000",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 154
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 21,
+            "y1": 134,
+            "x2": 39,
+            "y2": 119,
+            "x": 55,
+            "y": 56
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 65,
+            "y1": 17,
+            "x2": 69,
+            "y2": 0,
+            "x": 91,
+            "y": 5
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 119,
+            "y1": 11,
+            "x2": 120,
+            "y2": 85,
+            "x": 152,
+            "y": 116
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 174,
+            "y1": 131,
+            "x2": 202,
+            "y2": 130,
+            "x": 214,
+            "y": 109
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 234,
+            "y1": 59,
+            "x2": 251,
+            "y2": 29,
+            "x": 277,
+            "y": 31
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 317,
+            "y1": 31,
+            "x2": 323,
+            "y2": 109,
+            "x": 362,
+            "y": 142
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 381,
+            "y1": 156,
+            "x2": 399,
+            "y2": 157,
+            "x": 416,
+            "y": 155
+          }
+        }
+      ],
+      "stroke_width": 4,
+      "dash": false
+    },
+    {
+      "id": "distribution-legend",
+      "shape": "path",
+      "label": "",
+      "x": 664,
+      "y": 99,
+      "width": 124,
+      "height": 49,
+      "fill": "#FFFFFF",
+      "stroke": "#A9A9A9",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 7,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 117,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 120.86599325,
+            "y1": 0,
+            "x2": 124,
+            "y2": 3.13400675,
+            "x": 124,
+            "y": 7
+          }
+        },
+        {
+          "lineTo": {
+            "x": 124,
+            "y": 42
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 124,
+            "y1": 45.86599325,
+            "x2": 120.86599325,
+            "y2": 49,
+            "x": 117,
+            "y": 49
+          }
+        },
+        {
+          "lineTo": {
+            "x": 7,
+            "y": 49
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 3.13400675,
+            "y1": 49,
+            "x2": 0,
+            "y2": 45.86599325,
+            "x": 0,
+            "y": 42
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 7
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 3.13400675,
+            "x2": 3.13400675,
+            "y2": 0,
+            "x": 7,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 1,
+      "dash": false
+    },
+    {
+      "id": "previous-key",
+      "shape": "text",
+      "label": "previous:",
+      "x": 668,
+      "y": 102,
+      "width": 81,
+      "height": 24,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 20,
+      "font_family": "Arial",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "current-key",
+      "shape": "text",
+      "label": "current:",
+      "x": 677,
+      "y": 122,
+      "width": 72,
+      "height": 24,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 20,
+      "font_family": "Arial",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "previous-key-line",
+      "shape": "path",
+      "label": "",
+      "x": 751,
+      "y": 116,
+      "width": 31,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 31,
+            "y": 0
+          }
+        }
+      ],
+      "dash": true
+    },
+    {
+      "id": "current-key-line",
+      "shape": "path",
+      "label": "",
+      "x": 751,
+      "y": 136,
+      "width": 31,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 4,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 31,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "value-legend",
+      "shape": "path",
+      "label": "",
+      "x": 622,
+      "y": 21,
+      "width": 328,
+      "height": 65,
+      "fill": "#FAFAF9",
+      "stroke": "#B5B5B5",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 12,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 316,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 322.627417,
+            "y1": 0,
+            "x2": 328,
+            "y2": 5.3725830000000006,
+            "x": 328,
+            "y": 12
+          }
+        },
+        {
+          "lineTo": {
+            "x": 328,
+            "y": 53
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 328,
+            "y1": 59.627417,
+            "x2": 322.627417,
+            "y2": 65,
+            "x": 316,
+            "y": 65
+          }
+        },
+        {
+          "lineTo": {
+            "x": 12,
+            "y": 65
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 5.3725830000000006,
+            "y1": 65,
+            "x2": 0,
+            "y2": 59.627417,
+            "x": 0,
+            "y": 53
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 12
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 5.3725830000000006,
+            "x2": 5.3725830000000006,
+            "y2": 0,
+            "x": 12,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 1.3,
+      "dash": false
+    },
+    {
+      "id": "value-function-key",
+      "shape": "text",
+      "label": "Vₖ: k-th value function",
+      "x": 635,
+      "y": 26,
+      "width": 303,
+      "height": 29,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 20,
+      "font_family": "Arial",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "uncertainty-key",
+      "shape": "text",
+      "label": "U : Uncertainty of value functions",
+      "x": 634,
+      "y": 54,
+      "width": 303,
+      "height": 30,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 20,
+      "font_family": "Arial",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "equation9",
+      "shape": "text",
+      "label": "(Equation 9)",
+      "x": 175,
+      "y": 313,
+      "width": 192,
+      "height": 51,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 34,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "goal15",
+      "shape": "image",
+      "label": "",
+      "x": 251,
+      "y": 369,
+      "width": 165,
+      "height": 165,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/goal15.png",
+      "alt": "Original robot and drawer simulation goal rendering; small angle caption covered by native editable label"
+    },
+    {
+      "id": "goal15-caption-back",
+      "shape": "rect",
+      "label": "",
+      "x": 335,
+      "y": 372,
+      "width": 78,
+      "height": 27,
+      "fill": "#ADF4F3",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "goal15-caption",
+      "shape": "text",
+      "label": "angle: 15°",
+      "x": 336,
+      "y": 372,
+      "width": 76,
+      "height": 26,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 17,
+      "font_family": "Arial",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "goal0",
+      "shape": "image",
+      "label": "",
+      "x": 471,
+      "y": 369,
+      "width": 165,
+      "height": 165,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/goal0.png",
+      "alt": "Original robot and drawer simulation goal rendering; small angle caption covered by native editable label"
+    },
+    {
+      "id": "goal0-caption-back",
+      "shape": "rect",
+      "label": "",
+      "x": 555,
+      "y": 372,
+      "width": 78,
+      "height": 27,
+      "fill": "#ADF4F3",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "goal0-caption",
+      "shape": "text",
+      "label": "angle: 0°",
+      "x": 556,
+      "y": 372,
+      "width": 76,
+      "height": 26,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 17,
+      "font_family": "Arial",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "goal60",
+      "shape": "image",
+      "label": "",
+      "x": 757,
+      "y": 369,
+      "width": 165,
+      "height": 165,
+      "fill": "none",
+      "stroke": "none",
+      "asset": "assets/goal60.png",
+      "alt": "Original robot and drawer simulation goal rendering; small angle caption covered by native editable label"
+    },
+    {
+      "id": "goal60-caption-back",
+      "shape": "rect",
+      "label": "",
+      "x": 841,
+      "y": 372,
+      "width": 78,
+      "height": 27,
+      "fill": "#ADF4F3",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "goal60-caption",
+      "shape": "text",
+      "label": "angle: 60°",
+      "x": 842,
+      "y": 372,
+      "width": 76,
+      "height": 26,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 17,
+      "font_family": "Arial",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "sample15",
+      "shape": "path",
+      "label": "",
+      "x": 357,
+      "y": 135,
+      "width": 68,
+      "height": 234,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 2.2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 234
+          }
+        },
+        {
+          "lineTo": {
+            "x": 68,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "sample15-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 417.6961624393639,
+      "y": 135,
+      "width": 9.026587874129177,
+      "height": 10.914308560662903,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 7.3038375606361114,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.026587874129177,
+            "y": 10.914308560662903
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 8.291197554505686
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "sample0",
+      "shape": "path",
+      "label": "",
+      "x": 544,
+      "y": 246,
+      "width": 6,
+      "height": 123,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 2.2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 6,
+            "y": 123
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "sample0-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 539.7928074868471,
+      "y": 246,
+      "width": 9.388836100574053,
+      "height": 10.217119513702016,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 4.207192513152904,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.388836100574053,
+            "y": 9.759127508795956
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 10.217119513702016
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "sample60",
+      "shape": "path",
+      "label": "",
+      "x": 701,
+      "y": 270,
+      "width": 77,
+      "height": 99,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 2.2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 77,
+            "y": 99
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "sample60-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 701,
+      "y": 270,
+      "width": 9.84936155681794,
+      "height": 10.779043057283388,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.84936155681794,
+            "y": 5.008001290243101
+          }
+        },
+        {
+          "lineTo": {
+            "x": 2.4294507134804917,
+            "y": 10.779043057283388
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "selected-goal-1",
+      "shape": "ellipse",
+      "label": "",
+      "x": 418,
+      "y": 119,
+      "width": 16,
+      "height": 16,
+      "fill": "#DB432C",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "selected-goal-2",
+      "shape": "ellipse",
+      "label": "",
+      "x": 536,
+      "y": 232,
+      "width": 16,
+      "height": 16,
+      "fill": "#DB432C",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "selected-goal-3",
+      "shape": "ellipse",
+      "label": "",
+      "x": 690,
+      "y": 256,
+      "width": 16,
+      "height": 16,
+      "fill": "#DB432C",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "goals-title",
+      "shape": "text",
+      "label": "potential\ncurriculum\ngoals",
+      "x": 48,
+      "y": 394,
+      "width": 175,
+      "height": 115,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 31,
+      "font_family": "Arial",
+      "text_color": "#000000",
+      "bold": true,
+      "italic": false,
+      "align": "right",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "density-title",
+      "shape": "text",
+      "label": "density\nestimate",
+      "x": 50,
+      "y": 555,
+      "width": 176,
+      "height": 82,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 31,
+      "font_family": "Arial",
+      "text_color": "#000000",
+      "bold": true,
+      "italic": false,
+      "align": "right",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "uncertainty-title",
+      "shape": "text",
+      "label": "uncertainty",
+      "x": 52,
+      "y": 661,
+      "width": 177,
+      "height": 45,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 31,
+      "font_family": "Arial",
+      "text_color": "#000000",
+      "bold": true,
+      "italic": false,
+      "align": "right",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "equation7",
+      "shape": "text",
+      "label": "(Equation 7)",
+      "x": 54,
+      "y": 698,
+      "width": 177,
+      "height": 44,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 32,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "right",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "ellipsis-goals",
+      "shape": "text",
+      "label": "···",
+      "x": 666,
+      "y": 417,
+      "width": 64,
+      "height": 55,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 49,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "ellipsis-density",
+      "shape": "text",
+      "label": "···",
+      "x": 666,
+      "y": 562,
+      "width": 64,
+      "height": 55,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 49,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "ellipsis-uncertainty",
+      "shape": "text",
+      "label": "···",
+      "x": 666,
+      "y": 655,
+      "width": 64,
+      "height": 55,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 49,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": false,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "goal-separator-0",
+      "shape": "path",
+      "label": "",
+      "x": 444,
+      "y": 368,
+      "width": 0.1,
+      "height": 165,
+      "fill": "none",
+      "stroke": "#555555",
+      "stroke_width": 0.9,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 165
+          }
+        }
+      ],
+      "dash": true
+    },
+    {
+      "id": "density-separator-0",
+      "shape": "path",
+      "label": "",
+      "x": 444,
+      "y": 560,
+      "width": 0.1,
+      "height": 79,
+      "fill": "none",
+      "stroke": "#777777",
+      "stroke_width": 0.9,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 79
+          }
+        }
+      ],
+      "dash": true
+    },
+    {
+      "id": "uncertainty-separator-0",
+      "shape": "path",
+      "label": "",
+      "x": 444,
+      "y": 662,
+      "width": 0.1,
+      "height": 83,
+      "fill": "none",
+      "stroke": "#777777",
+      "stroke_width": 0.9,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 83
+          }
+        }
+      ],
+      "dash": true
+    },
+    {
+      "id": "goal-separator-1",
+      "shape": "path",
+      "label": "",
+      "x": 663,
+      "y": 368,
+      "width": 0.1,
+      "height": 165,
+      "fill": "none",
+      "stroke": "#555555",
+      "stroke_width": 0.9,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 165
+          }
+        }
+      ],
+      "dash": true
+    },
+    {
+      "id": "density-separator-1",
+      "shape": "path",
+      "label": "",
+      "x": 663,
+      "y": 560,
+      "width": 0.1,
+      "height": 79,
+      "fill": "none",
+      "stroke": "#777777",
+      "stroke_width": 0.9,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 79
+          }
+        }
+      ],
+      "dash": true
+    },
+    {
+      "id": "uncertainty-separator-1",
+      "shape": "path",
+      "label": "",
+      "x": 663,
+      "y": 662,
+      "width": 0.1,
+      "height": 83,
+      "fill": "none",
+      "stroke": "#777777",
+      "stroke_width": 0.9,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 83
+          }
+        }
+      ],
+      "dash": true
+    },
+    {
+      "id": "goal-separator-2",
+      "shape": "path",
+      "label": "",
+      "x": 737,
+      "y": 368,
+      "width": 0.1,
+      "height": 165,
+      "fill": "none",
+      "stroke": "#555555",
+      "stroke_width": 0.9,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 165
+          }
+        }
+      ],
+      "dash": true
+    },
+    {
+      "id": "density-separator-2",
+      "shape": "path",
+      "label": "",
+      "x": 737,
+      "y": 560,
+      "width": 0.1,
+      "height": 79,
+      "fill": "none",
+      "stroke": "#777777",
+      "stroke_width": 0.9,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 79
+          }
+        }
+      ],
+      "dash": true
+    },
+    {
+      "id": "uncertainty-separator-2",
+      "shape": "path",
+      "label": "",
+      "x": 737,
+      "y": 662,
+      "width": 0.1,
+      "height": 83,
+      "fill": "none",
+      "stroke": "#777777",
+      "stroke_width": 0.9,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 83
+          }
+        }
+      ],
+      "dash": true
+    },
+    {
+      "id": "density-estimate-panel",
+      "shape": "path",
+      "label": "",
+      "x": 243,
+      "y": 544,
+      "width": 697,
+      "height": 106,
+      "fill": "none",
+      "stroke": "#000000",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 18,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 679,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 688.9411255,
+            "y1": 0,
+            "x2": 697,
+            "y2": 8.0588745,
+            "x": 697,
+            "y": 18
+          }
+        },
+        {
+          "lineTo": {
+            "x": 697,
+            "y": 88
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 697,
+            "y1": 97.9411255,
+            "x2": 688.9411255,
+            "y2": 106,
+            "x": 679,
+            "y": 106
+          }
+        },
+        {
+          "lineTo": {
+            "x": 18,
+            "y": 106
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 8.0588745,
+            "y1": 106,
+            "x2": 0,
+            "y2": 97.9411255,
+            "x": 0,
+            "y": 88
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 18
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 8.0588745,
+            "x2": 8.0588745,
+            "y2": 0,
+            "x": 18,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "stroke_width": 2,
+      "dash": true
+    },
+    {
+      "id": "density-axis-1",
+      "shape": "path",
+      "label": "",
+      "x": 263,
+      "y": 633,
+      "width": 141,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.7,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 141,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "density-axis-1-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 395.0,
+      "y": 628.77,
+      "width": 9.0,
+      "height": 8.460000000000036,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 9.0,
+            "y": 4.230000000000018
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 8.460000000000036
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "density-axis-1-head",
+      "shape": "path",
+      "label": "",
+      "x": 263,
+      "y": 628.77,
+      "width": 9.0,
+      "height": 8.460000000000036,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 4.230000000000018
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.0,
+            "y": 8.460000000000036
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "density-g-1",
+      "shape": "text",
+      "label": "g",
+      "x": 403,
+      "y": 612,
+      "width": 23,
+      "height": 38,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 27,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "density-curve-1",
+      "shape": "path",
+      "label": "",
+      "x": 268,
+      "y": 552,
+      "width": 131,
+      "height": 71,
+      "fill": "none",
+      "stroke": "#000000",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 71
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 23,
+            "y1": 71,
+            "x2": 34,
+            "y2": 58,
+            "x": 42,
+            "y": 30
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 47,
+            "y1": 14,
+            "x2": 54,
+            "y2": 0,
+            "x": 66,
+            "y": 3
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 82,
+            "y1": 4,
+            "x2": 83,
+            "y2": 26,
+            "x": 93,
+            "y": 48
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 103,
+            "y1": 67,
+            "x2": 117,
+            "y2": 71,
+            "x": 131,
+            "y": 71
+          }
+        }
+      ],
+      "stroke_width": 2,
+      "dash": false
+    },
+    {
+      "id": "density-marker-1",
+      "shape": "path",
+      "label": "",
+      "x": 305,
+      "y": 598,
+      "width": 0.1,
+      "height": 35,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 2.4,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 35
+          }
+        }
+      ],
+      "dash": true
+    },
+    {
+      "id": "density-marker-dot-1",
+      "shape": "ellipse",
+      "label": "",
+      "x": 300,
+      "y": 593,
+      "width": 10,
+      "height": 10,
+      "fill": "#DB432C",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "density-axis-2",
+      "shape": "path",
+      "label": "",
+      "x": 482,
+      "y": 633,
+      "width": 141,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.7,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 141,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "density-axis-2-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 614.0,
+      "y": 628.77,
+      "width": 9.0,
+      "height": 8.460000000000036,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 9.0,
+            "y": 4.230000000000018
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 8.460000000000036
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "density-axis-2-head",
+      "shape": "path",
+      "label": "",
+      "x": 482,
+      "y": 628.77,
+      "width": 9.0,
+      "height": 8.460000000000036,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 4.230000000000018
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.0,
+            "y": 8.460000000000036
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "density-g-2",
+      "shape": "text",
+      "label": "g",
+      "x": 622,
+      "y": 612,
+      "width": 23,
+      "height": 38,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 27,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "density-curve-2",
+      "shape": "path",
+      "label": "",
+      "x": 487,
+      "y": 552,
+      "width": 131,
+      "height": 71,
+      "fill": "none",
+      "stroke": "#000000",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 71
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 23,
+            "y1": 71,
+            "x2": 34,
+            "y2": 58,
+            "x": 42,
+            "y": 30
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 47,
+            "y1": 14,
+            "x2": 54,
+            "y2": 0,
+            "x": 66,
+            "y": 3
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 82,
+            "y1": 4,
+            "x2": 83,
+            "y2": 26,
+            "x": 93,
+            "y": 48
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 103,
+            "y1": 67,
+            "x2": 117,
+            "y2": 71,
+            "x": 131,
+            "y": 71
+          }
+        }
+      ],
+      "stroke_width": 2,
+      "dash": false
+    },
+    {
+      "id": "density-marker-2",
+      "shape": "path",
+      "label": "",
+      "x": 552,
+      "y": 557,
+      "width": 0.1,
+      "height": 76,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 2.4,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 76
+          }
+        }
+      ],
+      "dash": true
+    },
+    {
+      "id": "density-marker-dot-2",
+      "shape": "ellipse",
+      "label": "",
+      "x": 547,
+      "y": 552,
+      "width": 10,
+      "height": 10,
+      "fill": "#DB432C",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "density-axis-3",
+      "shape": "path",
+      "label": "",
+      "x": 768,
+      "y": 633,
+      "width": 141,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 1.7,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 141,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "density-axis-3-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 900.0,
+      "y": 628.77,
+      "width": 9.0,
+      "height": 8.460000000000036,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 9.0,
+            "y": 4.230000000000018
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 8.460000000000036
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "density-axis-3-head",
+      "shape": "path",
+      "label": "",
+      "x": 768,
+      "y": 628.77,
+      "width": 9.0,
+      "height": 8.460000000000036,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 4.230000000000018
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.0,
+            "y": 0.0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 9.0,
+            "y": 8.460000000000036
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "density-g-3",
+      "shape": "text",
+      "label": "g",
+      "x": 908,
+      "y": 612,
+      "width": 23,
+      "height": 38,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 27,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "density-curve-3",
+      "shape": "path",
+      "label": "",
+      "x": 773,
+      "y": 552,
+      "width": 131,
+      "height": 71,
+      "fill": "none",
+      "stroke": "#000000",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 71
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 23,
+            "y1": 71,
+            "x2": 34,
+            "y2": 58,
+            "x": 42,
+            "y": 30
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 47,
+            "y1": 14,
+            "x2": 54,
+            "y2": 0,
+            "x": 66,
+            "y": 3
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 82,
+            "y1": 4,
+            "x2": 83,
+            "y2": 26,
+            "x": 93,
+            "y": 48
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 103,
+            "y1": 67,
+            "x2": 117,
+            "y2": 71,
+            "x": 131,
+            "y": 71
+          }
+        }
+      ],
+      "stroke_width": 2,
+      "dash": false
+    },
+    {
+      "id": "density-marker-3",
+      "shape": "path",
+      "label": "",
+      "x": 876,
+      "y": 611,
+      "width": 0.1,
+      "height": 22,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 2.4,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 22
+          }
+        }
+      ],
+      "dash": true
+    },
+    {
+      "id": "density-marker-dot-3",
+      "shape": "ellipse",
+      "label": "",
+      "x": 871,
+      "y": 606,
+      "width": 10,
+      "height": 10,
+      "fill": "#DB432C",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "uncertainty-bin-1-0",
+      "shape": "rect",
+      "label": "",
+      "x": 238,
+      "y": 663,
+      "width": 44,
+      "height": 45,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 1.5,
+      "dash": true,
+      "dash_style": "dotted"
+    },
+    {
+      "id": "uncertainty-bar-1-0",
+      "shape": "rect",
+      "label": "",
+      "x": 248,
+      "y": 670,
+      "width": 23,
+      "height": 38,
+      "fill": "#E76C54",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "value-label-1-0",
+      "shape": "text",
+      "label": "V₁",
+      "x": 238,
+      "y": 708,
+      "width": 44,
+      "height": 51,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 37,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "uncertainty-bin-1-1",
+      "shape": "rect",
+      "label": "",
+      "x": 282,
+      "y": 663,
+      "width": 44,
+      "height": 45,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 1.5,
+      "dash": true,
+      "dash_style": "dotted"
+    },
+    {
+      "id": "uncertainty-bar-1-1",
+      "shape": "rect",
+      "label": "",
+      "x": 292,
+      "y": 698,
+      "width": 23,
+      "height": 10,
+      "fill": "#E76C54",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "value-label-1-1",
+      "shape": "text",
+      "label": "V₂",
+      "x": 282,
+      "y": 708,
+      "width": 44,
+      "height": 51,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 37,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "uncertainty-bin-1-2",
+      "shape": "rect",
+      "label": "",
+      "x": 326,
+      "y": 663,
+      "width": 44,
+      "height": 45,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 1.5,
+      "dash": true,
+      "dash_style": "dotted"
+    },
+    {
+      "id": "uncertainty-bar-1-2",
+      "shape": "rect",
+      "label": "",
+      "x": 336,
+      "y": 686,
+      "width": 23,
+      "height": 22,
+      "fill": "#E76C54",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "value-label-1-2",
+      "shape": "text",
+      "label": "V₃",
+      "x": 326,
+      "y": 708,
+      "width": 44,
+      "height": 51,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 37,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "uncertainty-output-1",
+      "shape": "rect",
+      "label": "",
+      "x": 390,
+      "y": 663,
+      "width": 43,
+      "height": 45,
+      "fill": "#FFFFFF",
+      "stroke": "#000000",
+      "stroke_width": 3
+    },
+    {
+      "id": "uncertainty-output-bar-1",
+      "shape": "rect",
+      "label": "",
+      "x": 401,
+      "y": 670,
+      "width": 22,
+      "height": 38,
+      "fill": "#E76C54",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "uncertainty-to-output-1",
+      "shape": "path",
+      "label": "",
+      "x": 370,
+      "y": 686,
+      "width": 20,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 20,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "uncertainty-to-output-1-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 382.0,
+      "y": 682.24,
+      "width": 8.0,
+      "height": 7.519999999999982,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 8.0,
+            "y": 3.759999999999991
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 7.519999999999982
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "uncertainty-U-1",
+      "shape": "text",
+      "label": "U",
+      "x": 390,
+      "y": 708,
+      "width": 43,
+      "height": 51,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 37,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "uncertainty-bin-2-0",
+      "shape": "rect",
+      "label": "",
+      "x": 456,
+      "y": 663,
+      "width": 44,
+      "height": 45,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 1.5,
+      "dash": true,
+      "dash_style": "dotted"
+    },
+    {
+      "id": "uncertainty-bar-2-0",
+      "shape": "rect",
+      "label": "",
+      "x": 466,
+      "y": 669,
+      "width": 23,
+      "height": 39,
+      "fill": "#E76C54",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "value-label-2-0",
+      "shape": "text",
+      "label": "V₁",
+      "x": 456,
+      "y": 708,
+      "width": 44,
+      "height": 51,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 37,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "uncertainty-bin-2-1",
+      "shape": "rect",
+      "label": "",
+      "x": 500,
+      "y": 663,
+      "width": 44,
+      "height": 45,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 1.5,
+      "dash": true,
+      "dash_style": "dotted"
+    },
+    {
+      "id": "uncertainty-bar-2-1",
+      "shape": "rect",
+      "label": "",
+      "x": 510,
+      "y": 667,
+      "width": 23,
+      "height": 41,
+      "fill": "#E76C54",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "value-label-2-1",
+      "shape": "text",
+      "label": "V₂",
+      "x": 500,
+      "y": 708,
+      "width": 44,
+      "height": 51,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 37,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "uncertainty-bin-2-2",
+      "shape": "rect",
+      "label": "",
+      "x": 544,
+      "y": 663,
+      "width": 44,
+      "height": 45,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 1.5,
+      "dash": true,
+      "dash_style": "dotted"
+    },
+    {
+      "id": "uncertainty-bar-2-2",
+      "shape": "rect",
+      "label": "",
+      "x": 554,
+      "y": 668,
+      "width": 23,
+      "height": 40,
+      "fill": "#E76C54",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "value-label-2-2",
+      "shape": "text",
+      "label": "V₃",
+      "x": 544,
+      "y": 708,
+      "width": 44,
+      "height": 51,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 37,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "uncertainty-output-2",
+      "shape": "rect",
+      "label": "",
+      "x": 608,
+      "y": 663,
+      "width": 43,
+      "height": 45,
+      "fill": "#FFFFFF",
+      "stroke": "#000000",
+      "stroke_width": 3
+    },
+    {
+      "id": "uncertainty-output-bar-2",
+      "shape": "rect",
+      "label": "",
+      "x": 619,
+      "y": 701,
+      "width": 22,
+      "height": 7,
+      "fill": "#E76C54",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "uncertainty-to-output-2",
+      "shape": "path",
+      "label": "",
+      "x": 588,
+      "y": 686,
+      "width": 20,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 20,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "uncertainty-to-output-2-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 600.0,
+      "y": 682.24,
+      "width": 8.0,
+      "height": 7.519999999999982,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 8.0,
+            "y": 3.759999999999991
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 7.519999999999982
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "uncertainty-U-2",
+      "shape": "text",
+      "label": "U",
+      "x": 608,
+      "y": 708,
+      "width": 43,
+      "height": 51,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 37,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "uncertainty-bin-3-0",
+      "shape": "rect",
+      "label": "",
+      "x": 746,
+      "y": 663,
+      "width": 44,
+      "height": 45,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 1.5,
+      "dash": true,
+      "dash_style": "dotted"
+    },
+    {
+      "id": "uncertainty-bar-3-0",
+      "shape": "rect",
+      "label": "",
+      "x": 756,
+      "y": 691,
+      "width": 23,
+      "height": 17,
+      "fill": "#E76C54",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "value-label-3-0",
+      "shape": "text",
+      "label": "V₁",
+      "x": 746,
+      "y": 708,
+      "width": 44,
+      "height": 51,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 37,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "uncertainty-bin-3-1",
+      "shape": "rect",
+      "label": "",
+      "x": 790,
+      "y": 663,
+      "width": 44,
+      "height": 45,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 1.5,
+      "dash": true,
+      "dash_style": "dotted"
+    },
+    {
+      "id": "uncertainty-bar-3-1",
+      "shape": "rect",
+      "label": "",
+      "x": 800,
+      "y": 696,
+      "width": 23,
+      "height": 12,
+      "fill": "#E76C54",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "value-label-3-1",
+      "shape": "text",
+      "label": "V₂",
+      "x": 790,
+      "y": 708,
+      "width": 44,
+      "height": 51,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 37,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "uncertainty-bin-3-2",
+      "shape": "rect",
+      "label": "",
+      "x": 834,
+      "y": 663,
+      "width": 44,
+      "height": 45,
+      "fill": "none",
+      "stroke": "#222222",
+      "stroke_width": 1.5,
+      "dash": true,
+      "dash_style": "dotted"
+    },
+    {
+      "id": "uncertainty-bar-3-2",
+      "shape": "rect",
+      "label": "",
+      "x": 844,
+      "y": 691,
+      "width": 23,
+      "height": 17,
+      "fill": "#E76C54",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "value-label-3-2",
+      "shape": "text",
+      "label": "V₃",
+      "x": 834,
+      "y": 708,
+      "width": 44,
+      "height": 51,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 37,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    },
+    {
+      "id": "uncertainty-output-3",
+      "shape": "rect",
+      "label": "",
+      "x": 898,
+      "y": 663,
+      "width": 43,
+      "height": 45,
+      "fill": "#FFFFFF",
+      "stroke": "#000000",
+      "stroke_width": 3
+    },
+    {
+      "id": "uncertainty-output-bar-3",
+      "shape": "rect",
+      "label": "",
+      "x": 909,
+      "y": 701,
+      "width": 22,
+      "height": 7,
+      "fill": "#E76C54",
+      "stroke": "none",
+      "stroke_width": 0
+    },
+    {
+      "id": "uncertainty-to-output-3",
+      "shape": "path",
+      "label": "",
+      "x": 878,
+      "y": 686,
+      "width": 20,
+      "height": 0.1,
+      "fill": "none",
+      "stroke": "#000000",
+      "stroke_width": 2,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 20,
+            "y": 0
+          }
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "uncertainty-to-output-3-arrow",
+      "shape": "path",
+      "label": "",
+      "x": 890.0,
+      "y": 682.24,
+      "width": 8.0,
+      "height": 7.519999999999982,
+      "fill": "#000000",
+      "stroke": "#000000",
+      "stroke_width": 0,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 8.0,
+            "y": 3.759999999999991
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 7.519999999999982
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0.0,
+            "y": 0.0
+          }
+        },
+        {
+          "close": {}
+        }
+      ],
+      "dash": false
+    },
+    {
+      "id": "uncertainty-U-3",
+      "shape": "text",
+      "label": "U",
+      "x": 898,
+      "y": 708,
+      "width": 43,
+      "height": 51,
+      "fill": "none",
+      "stroke": "none",
+      "font_size": 37,
+      "font_family": "Times New Roman",
+      "text_color": "#000000",
+      "bold": false,
+      "italic": true,
+      "align": "center",
+      "text_inset": 0,
+      "no_wrap": true
+    }
+  ],
+  "edges": []
+}

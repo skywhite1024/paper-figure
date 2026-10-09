@@ -1,0 +1,152 @@
+{
+  "schema_version": 1,
+  "diagram_id": "vuvc-figure-1",
+  "source_sha256": "71a86726817031c335710d4e9e55f552d04de97cd43c9e1fd8a108f6b66321ed",
+  "assets": [
+    {
+      "name": "assets/earth-icon.png",
+      "sha256": "d170813dcd390270500d8b1c50f48f8dcdf7f7a32334f6d4b7081ede3d4859c6"
+    },
+    {
+      "name": "assets/goal0.png",
+      "sha256": "4098c2605011aec1899c6d6e563320a469e35ee5721315f5b43c8ddedbbf214f"
+    },
+    {
+      "name": "assets/goal15.png",
+      "sha256": "c71aa97ded37d2b5b8fa536d6a0cf0786ba1750a1fac2c36093fae8a3f667a10"
+    },
+    {
+      "name": "assets/goal60.png",
+      "sha256": "1d9d41e2b9b583b7b5d819758ad78a25cea293cb7aeccfc0cf777ea5bd7e7aa2"
+    },
+    {
+      "name": "assets/robot-icon.png",
+      "sha256": "db9bd35a9886e47cb18c14d8bd61457d203f4b0698470ffe1298a26451e556c5"
+    },
+    {
+      "name": "assets/scales-icon.png",
+      "sha256": "4739563b8020618e8781c6b35605d5435844ea929e6e3e545c98b84eb4ddcce8"
+    },
+    {
+      "name": "assets/target-icon.png",
+      "sha256": "bb3dda6d29ff4caa4d2fb1632e96cbc5a82871161da64bca2e621683cb4c0737"
+    }
+  ],
+  "provenance": {
+    "paper_title": "Variational Curriculum Reinforcement Learning for Unsupervised Discovery of Skills",
+    "paper_url": "https://arxiv.org/abs/2310.19424v1",
+    "pdf_url": "https://arxiv.org/pdf/2310.19424v1",
+    "figure": "Figure 1",
+    "page": 2,
+    "license": "http://creativecommons.org/licenses/by/4.0/ Private user-requested adaptation; no public redistribution permission implied.",
+    "status": "figure_recreation",
+    "notes": "Manually reconstructed from the inspected original flattened PDF figure. Ordinary labels are live typeable text; panels, graph geometry and arrows are native editable shapes or paths. Source layout and contents retained; font metrics, line widths and decorative effects approximated. Seven small original raster crops retain three robot-goal renderings and four decorative icons; all chart curves, axes, bars, panels, arrows and ordinary/formula labels are native. Tiny angle captions on photo backgrounds are overlaid with live native text. Mathematical text uses Unicode rather than live equation objects.",
+    "source_sha256": "46cbfad2918167415f1ba90e81735de425a6e9213af9762713e3b4e82fc0e68a",
+    "source_crop_pdf_points": [
+      61,
+      65,
+      535,
+      260
+    ],
+    "survey_crop_correction": "Initial survey right488pt enlarged to535pt to include Update theta / Equation 5 feedback label.",
+    "visual_inspection": "Original PDF figure inspected before source-layout reconstruction on 2026-10-09; independent application QA pending.",
+    "raster_details": [
+      {
+        "id": "target-icon",
+        "bounds_source_pixels": [
+          45,
+          123,
+          194,
+          271
+        ],
+        "detail": "Original target-and-pencil decorative icon; internal artwork remains raster"
+      },
+      {
+        "id": "robot-icon",
+        "bounds_source_pixels": [
+          1488,
+          30,
+          1584,
+          179
+        ],
+        "detail": "Original robot decorative icon; internal artwork remains raster"
+      },
+      {
+        "id": "earth-icon",
+        "bounds_source_pixels": [
+          1460,
+          301,
+          1611,
+          451
+        ],
+        "detail": "Original globe decorative icon; internal artwork remains raster"
+      },
+      {
+        "id": "scales-icon",
+        "bounds_source_pixels": [
+          1460,
+          613,
+          1611,
+          750
+        ],
+        "detail": "Original balance-scale decorative icon; internal artwork remains raster"
+      },
+      {
+        "id": "goal15",
+        "bounds_source_pixels": [
+          251,
+          369,
+          416,
+          534
+        ],
+        "detail": "Original robot and drawer simulation goal rendering; small angle caption covered by native editable label"
+      },
+      {
+        "id": "goal0",
+        "bounds_source_pixels": [
+          471,
+          369,
+          636,
+          534
+        ],
+        "detail": "Original robot and drawer simulation goal rendering; small angle caption covered by native editable label"
+      },
+      {
+        "id": "goal60",
+        "bounds_source_pixels": [
+          757,
+          369,
+          922,
+          534
+        ],
+        "detail": "Original robot and drawer simulation goal rendering; small angle caption covered by native editable label"
+      }
+    ]
+  },
+  "metrics": {
+    "native_nodes": 150,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 67,
+    "native_text_objects": 49,
+    "raster_images": 7,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "vuvc-figure-1.drawio",
+      "sha256": "aef10c3f104c1b65ecf174e485afbcba4984bc447de824b1d77b4441d8375fab"
+    },
+    {
+      "name": "vuvc-figure-1.png",
+      "sha256": "b3306e51593e4857ad9afd5b0c1d8214c04f2aed2f22960ba8c32b6db1a243b0"
+    },
+    {
+      "name": "vuvc-figure-1.pptx",
+      "sha256": "4f2768e2b8339b38e8f20681f658b945df5268da4ea17ba689ebc77012b1e309"
+    }
+  ]
+}

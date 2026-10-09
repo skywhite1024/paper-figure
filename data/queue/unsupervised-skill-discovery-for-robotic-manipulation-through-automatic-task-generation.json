@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "unsupervised-skill-discovery-for-robotic-manipulation-through-automatic-task-generation",
-  "revision": 3,
+  "revision": 4,
   "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.500774Z",
-  "updated_at": "2026-10-09T20:14:36.841714Z",
+  "updated_at": "2026-10-09T20:49:29.738701Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,7 +26,7 @@
   },
   "stages": {
     "source_identity": {
-      "status": "reported",
+      "status": "passed",
       "evidence": {
         "references": [
           "research/survey/unsupervised-skill-discovery-for-robotic-manipulation-through-automatic-task-generation.json",
@@ -35,19 +35,20 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/unsupervised-skill-discovery-for-robotic-manipulation-through-automatic-task-generation.json",
-          "sha256": "0073f5764ba9ebeb7d253f0b1b5c6925b7c1ef98b3819eeb263d79968ed62fd7"
+          "sha256": "d8f22385ea5734b9bdfb026f36548a5cc0b4c2f8d34de369dfdc873b0f3a32a2"
         },
         "version": "2410.04855v1",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
-        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
         "expected_title": "Unsupervised Skill Discovery for Robotic Manipulation through Automatic Task Generation",
         "observed_title": "Unsupervised Skill Discovery for Robotic Manipulation through Automatic Task Generation",
         "source_url": "https://arxiv.org/pdf/2410.04855v1",
         "source_sha256": "109e77792932b2cf422f58afad2fe95bb7c6bea37ef6388174a68db039aca5e5",
         "reported_title_match": true,
-        "identity_review_basis": null,
+        "identity_review_basis": "visually_inspected_source_candidate",
         "identity_reviewed": null,
         "title_review_method": null,
         "mismatch_reason": null
@@ -63,11 +64,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/unsupervised-skill-discovery-for-robotic-manipulation-through-automatic-task-generation.json",
-          "sha256": "0073f5764ba9ebeb7d253f0b1b5c6925b7c1ef98b3819eeb263d79968ed62fd7"
+          "sha256": "d8f22385ea5734b9bdfb026f36548a5cc0b4c2f8d34de369dfdc873b0f3a32a2"
         },
         "version": "2410.04855v1",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
         "observed_source": {
@@ -82,8 +83,45 @@
       }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/unsupervised-skill-discovery-for-robotic-manipulation-through-automatic-task-generation.json",
+          "https://arxiv.org/pdf/2410.04855v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/unsupervised-skill-discovery-for-robotic-manipulation-through-automatic-task-generation.json",
+          "sha256": "d8f22385ea5734b9bdfb026f36548a5cc0b4c2f8d34de369dfdc873b0f3a32a2"
+        },
+        "version": "2410.04855v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 1",
+            "page_1_based": 1,
+            "caption": "Method overview.",
+            "crop_pdf_points": [
+              89,
+              151,
+              515,
+              280
+            ],
+            "vector_paths": 37,
+            "native_text_spans": 56,
+            "raster_images": 7,
+            "visually_inspected": true,
+            "notes": "Three-stage pretraining, downstream training and real-world transfer with skill orchestrators and primitives."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -207,6 +245,115 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:49:29.738701Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "31f54bd275bde4ed7ce1a5928c62cd5d16d4b9aa901a1552cad55ac14bacbe7b",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-skill-discovery-for-robotic-manipulation-through-automatic-task-generation.json",
+                "https://arxiv.org/pdf/2410.04855v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-skill-discovery-for-robotic-manipulation-through-automatic-task-generation.json",
+                "sha256": "d8f22385ea5734b9bdfb026f36548a5cc0b4c2f8d34de369dfdc873b0f3a32a2"
+              },
+              "version": "2410.04855v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Unsupervised Skill Discovery for Robotic Manipulation through Automatic Task Generation",
+              "observed_title": "Unsupervised Skill Discovery for Robotic Manipulation through Automatic Task Generation",
+              "source_url": "https://arxiv.org/pdf/2410.04855v1",
+              "source_sha256": "109e77792932b2cf422f58afad2fe95bb7c6bea37ef6388174a68db039aca5e5",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-skill-discovery-for-robotic-manipulation-through-automatic-task-generation.json",
+                "https://arxiv.org/pdf/2410.04855v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-skill-discovery-for-robotic-manipulation-through-automatic-task-generation.json",
+                "sha256": "d8f22385ea5734b9bdfb026f36548a5cc0b4c2f8d34de369dfdc873b0f3a32a2"
+              },
+              "version": "2410.04855v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/unsupervised-skill-discovery-for-robotic-manipulation-through-automatic-task-generation.pdf",
+                "reported_sha256": "109e77792932b2cf422f58afad2fe95bb7c6bea37ef6388174a68db039aca5e5",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 8,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/unsupervised-skill-discovery-for-robotic-manipulation-through-automatic-task-generation.json",
+                "https://arxiv.org/pdf/2410.04855v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/unsupervised-skill-discovery-for-robotic-manipulation-through-automatic-task-generation.json",
+                "sha256": "d8f22385ea5734b9bdfb026f36548a5cc0b4c2f8d34de369dfdc873b0f3a32a2"
+              },
+              "version": "2410.04855v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 1",
+                  "page_1_based": 1,
+                  "caption": "Method overview.",
+                  "crop_pdf_points": [
+                    89,
+                    151,
+                    515,
+                    280
+                  ],
+                  "vector_paths": 37,
+                  "native_text_spans": 56,
+                  "raster_images": 7,
+                  "visually_inspected": true,
+                  "notes": "Three-stage pretraining, downstream training and real-world transfer with skill orchestrators and primitives."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
             }
           }
         }

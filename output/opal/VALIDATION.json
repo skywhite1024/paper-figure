@@ -1,0 +1,41 @@
+{
+  "diagram_id": "opal-figure-2",
+  "source_scene_sha256": "f9d64cf3ecf6017842b23be66da286140c0b4bd42ed650ed9ae9e0662c9219f3",
+  "source_pdf_sha256": "41b49f2151ee1529cf51955726809f873e76b1de8f07988efd5ebcdb65ca8d31",
+  "checked_files": [
+    {
+      "name": "opal-figure-2.drawio",
+      "sha256": "0354cc957b73c1912888f69755701cc9cda4f5a3ec5bf8b0334ff56fffddf7a0"
+    },
+    {
+      "name": "opal-figure-2.png",
+      "sha256": "a634e7d538dc90ecd0b4b3925b2d655a83ce4ab8ff05eac2b1b17d81412f1c47"
+    },
+    {
+      "name": "opal-figure-2.pptx",
+      "sha256": "b3343334ca28535ae7c364c69d21439a9422174cc6d0b2a4b678fd1be6a0ebab"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 2 PDFpage4 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 262,
+    "p:pic": 2,
+    "a:custGeom": 233,
+    "p:cxnSp": 0,
+    "a:t": 27
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

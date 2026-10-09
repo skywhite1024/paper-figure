@@ -3,10 +3,10 @@
   "catalog_id": "volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies",
   "title_expected": "VOLT: Vision and Language Trajectory Segmentation for Faster-than-Demonstration Policies",
   "source_url": "https://arxiv.org/pdf/2606.06323v3",
-  "pdf_path": "build/sources/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies.pdf",
+  "pdf_path": "output/volt-vision-and-language-trajectory-segmentation-for-faster-than-demonstration-policies/paper-2606.06323v3.pdf",
   "pdf_sha256": "d4cd13ab623aef1ae3c4adebfbe525483fbd2d964b8264ea335c70326b45b415",
   "pdf_title_observed": "VOLT: Vision and Language Trajectory Segmentation for Faster-than-Demonstration Policies",
-  "first_page_title_text": "VOLT: Vision and Language Trajectory Segmentation\nfor Faster-than-Demonstration Policies\nRobert Ramirez Sanchez1 \u00b7 Daniel J. Evans1 \u00b7 Dylan P. Losey1 \u00b7\nSiddarth Jain2\nAbstract Humans often take longer to demonstrate a\ntask than a robot would need to execute it. Rather than\nlearning to replicate the demonstration at the same\npace, many industrial and practical applications require\nrobots to perform",
+  "first_page_title_text": "VOLT: Vision and Language Trajectory Segmentation\nfor Faster-than-Demonstration Policies\nRobert Ramirez Sanchez1 · Daniel J. Evans1 · Dylan P. Losey1 ·\nSiddarth Jain2\nAbstract Humans often take longer to demonstrate a\ntask than a robot would need to execute it. Rather than\nlearning to replicate the demonstration at the same\npace, many industrial and practical applications require\nrobots to perform",
   "title_match": true,
   "version": "2606.06323v3",
   "page_count": 14,
@@ -29,7 +29,7 @@
     {
       "figure": "Figure 2",
       "page_1_based": 5,
-      "caption_excerpt": "Figure 2. We collect all demonstrations us- ing a GELLO [30] to teleoperate the arm at 20 Hz. For each timestep, we record the robot\u2019s joint position, in- cluding the gripper state x, the commanded joint and gripper state at, and RGB images y from three Re- alSense D435 cameras. Two of the cameras are fixed in the environment, and one is directly mounted on the robot\u2019s end-effector. Each paradigm is tested on the fol- lowing manipulation tasks: \u2013",
+      "caption_excerpt": "Figure 2. We collect all demonstrations us- ing a GELLO [30] to teleoperate the arm at 20 Hz. For each timestep, we record the robot’s joint position, in- cluding the gripper state x, the commanded joint and gripper state at, and RGB images y from three Re- alSense D435 cameras. Two of the cameras are fixed in the environment, and one is directly mounted on the robot’s end-effector. Each paradigm is tested on the fol- lowing manipulation tasks: –",
       "visually_inspected": false
     },
     {
@@ -41,7 +41,7 @@
     {
       "figure": "Figure 3",
       "page_1_based": 6,
-      "caption_excerpt": "Figure 3. We find that Demo-D has the potential to signif- icantly reduce execution time, and performs the task faster than equivalent versions of Action-D. But this speed comes at a cost: increasing to n = 4 sharply re- duces the success rate, significantly under-performing the alternatives. Observing the robot\u2019s motion, we find that Demo-D fails because the robot is trying to com- plete segments of the task too rapidly. For example, in the pick",
+      "caption_excerpt": "Figure 3. We find that Demo-D has the potential to signif- icantly reduce execution time, and performs the task faster than equivalent versions of Action-D. But this speed comes at a cost: increasing to n = 4 sharply re- duces the success rate, significantly under-performing the alternatives. Observing the robot’s motion, we find that Demo-D fails because the robot is trying to com- plete segments of the task too rapidly. For example, in the pick",
       "visually_inspected": false
     },
     {
@@ -53,19 +53,19 @@
     {
       "figure": "Figure 4",
       "page_1_based": 8,
-      "caption_excerpt": "Fig. 4: Example segments for transporting the block tower in the Tower Transfer task. Ideally, the robot should maintain speed during the segment from 11.5s \u2013 16.5s, since speeding up causes the blocks to fall over. SAIL labels the entire sequence as speed-up because a straight-line motion has low complexity. DemoSpeedup oscillates between modes while focusing on the entropy in the human\u2019s demonstrations. Both of these approaches cause the tower ",
+      "caption_excerpt": "Fig. 4: Example segments for transporting the block tower in the Tower Transfer task. Ideally, the robot should maintain speed during the segment from 11.5s – 16.5s, since speeding up causes the blocks to fall over. SAIL labels the entire sequence as speed-up because a straight-line motion has low complexity. DemoSpeedup oscillates between modes while focusing on the entropy in the human’s demonstrations. Both of these approaches cause the tower ",
       "visually_inspected": false
     },
     {
       "figure": "Figure 2",
       "page_1_based": 8,
-      "caption_excerpt": "Figure 2. Both Pick and Place and Push Cup, were introduced in Section 4. Below, we describe the goal for the new manipulation tasks: \u2013 Tower Transfer: The robot transfers a tower of freely stacked wooden blocks to a new platform. \u2013 Plug Insertion: The robot picks a plug and inserts it into a socket that is fixed in place. We test on assembly ID #00186 from the AutoMate assembly benchmark [27]. \u2013 Table Sorting: A long-horizon task with fruits and",
+      "caption_excerpt": "Figure 2. Both Pick and Place and Push Cup, were introduced in Section 4. Below, we describe the goal for the new manipulation tasks: – Tower Transfer: The robot transfers a tower of freely stacked wooden blocks to a new platform. – Plug Insertion: The robot picks a plug and inserts it into a socket that is fixed in place. We test on assembly ID #00186 from the AutoMate assembly benchmark [27]. – Table Sorting: A long-horizon task with fruits and",
       "visually_inspected": false
     },
     {
       "figure": "Figure 5",
       "page_1_based": 9,
-      "caption_excerpt": "Figure 5. A one-way ANOVA showed that policies trained with VOLT complete tasks significantly faster than Nor- mal Speed across all tasks (p < 0.001 for all). VOLT achieved up to x2.57 speedup in the Pick and Place task, and an average \u223cx2.13 over Normal Speed with- out negatively impacting performance. In particular, VOLT significantly outperforms training with the orig- inal demonstration in Table Sorting (p < 0.05), where VOLT exhibits a more ",
+      "caption_excerpt": "Figure 5. A one-way ANOVA showed that policies trained with VOLT complete tasks significantly faster than Nor- mal Speed across all tasks (p < 0.001 for all). VOLT achieved up to x2.57 speedup in the Pick and Place task, and an average ∼x2.13 over Normal Speed with- out negatively impacting performance. In particular, VOLT significantly outperforms training with the orig- inal demonstration in Table Sorting (p < 0.05), where VOLT exhibits a more ",
       "visually_inspected": false
     }
   ],
@@ -106,5 +106,31 @@
       "figure": 7,
       "kind": "userprompttext"
     }
-  ]
+  ],
+  "visual_scan_coverage": {
+    "page_count": 14,
+    "pages_scanned_1_based": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14
+    ],
+    "contact_sheet_inspected": true,
+    "evidence_files": [
+      "research/survey/volt-pages-1-7.png",
+      "research/survey/volt-pages-8-14.png"
+    ]
+  },
+  "evidence_status": "no_method_figure",
+  "no_method_figure_scope": "All14 PDF pages inspected as rendered contact sheets, plus prior detailed figure pages. Seven figures consist of task/comparison photographs, results charts and system/user prompt text. No architecture or method-flow diagram is present; Figure4 illustrates an example decision with task images, trajectories and prose, rather than an architecture. Do not count a converted architecture deliverable."
 }

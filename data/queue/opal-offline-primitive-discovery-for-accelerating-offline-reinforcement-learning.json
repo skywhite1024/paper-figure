@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "opal-offline-primitive-discovery-for-accelerating-offline-reinforcement-learning",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 5,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.514582Z",
-  "updated_at": "2026-10-09T20:14:36.516765Z",
+  "updated_at": "2026-10-09T20:49:33.795173Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,7 +26,7 @@
   },
   "stages": {
     "source_identity": {
-      "status": "reported",
+      "status": "passed",
       "evidence": {
         "references": [
           "research/survey/opal-offline-primitive-discovery-for-accelerating-offline-reinforcement-learning.json",
@@ -35,19 +35,20 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/opal-offline-primitive-discovery-for-accelerating-offline-reinforcement-learning.json",
-          "sha256": "3c374af48c0ff8e02ebd8e1860d550a5792c9aa8ed51dc5e4134d1714c47248d"
+          "sha256": "8d71661b1ca2ffe9feb432595390455731168740cf47a872dc9fa9a6416c7706"
         },
         "version": "2010.13611v3",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
-        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
         "expected_title": "OPAL: Offline Primitive Discovery for Accelerating Offline Reinforcement Learning",
         "observed_title": "OPAL: Offline Primitive Discovery for Accelerating Offline Reinforcement Learning",
         "source_url": "https://arxiv.org/pdf/2010.13611v3",
         "source_sha256": "41b49f2151ee1529cf51955726809f873e76b1de8f07988efd5ebcdb65ca8d31",
         "reported_title_match": true,
-        "identity_review_basis": null,
+        "identity_review_basis": "visually_inspected_source_candidate",
         "identity_reviewed": null,
         "title_review_method": null,
         "mismatch_reason": null
@@ -63,11 +64,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/opal-offline-primitive-discovery-for-accelerating-offline-reinforcement-learning.json",
-          "sha256": "3c374af48c0ff8e02ebd8e1860d550a5792c9aa8ed51dc5e4134d1714c47248d"
+          "sha256": "8d71661b1ca2ffe9feb432595390455731168740cf47a872dc9fa9a6416c7706"
         },
         "version": "2010.13611v3",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
         "observed_source": {
@@ -82,12 +83,63 @@
       }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/opal-offline-primitive-discovery-for-accelerating-offline-reinforcement-learning.json",
+          "https://arxiv.org/pdf/2010.13611v3"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/opal-offline-primitive-discovery-for-accelerating-offline-reinforcement-learning.json",
+          "sha256": "8d71661b1ca2ffe9feb432595390455731168740cf47a872dc9fa9a6416c7706"
+        },
+        "version": "2010.13611v3",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 4,
+            "caption": "Overview of offline RL with OPAL.",
+            "crop_pdf_points": [
+              107,
+              82,
+              494,
+              222
+            ],
+            "vector_paths": 81,
+            "native_text_spans": 154,
+            "raster_images": 2,
+            "visually_inspected": true,
+            "notes": "Primitive autoencoding, offline task-policy training and hierarchical execution; native graph and density plots."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/opal/README.md",
+          "output/opal/VALIDATION.json"
+        ],
+        "output_directory": "output/opal",
+        "source_sha256": "41b49f2151ee1529cf51955726809f873e76b1de8f07988efd5ebcdb65ca8d31",
+        "scene_sha256": "f9d64cf3ecf6017842b23be66da286140c0b4bd42ed650ed9ae9e0662c9219f3",
+        "text_editability": {
+          "typeable_text_objects": 27,
+          "native_freeform_paths": 233,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -207,6 +259,145 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:49:29.282954Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "36e9dced4b435b33b6f331b7b97513e96fd515637ded4d0e80cc8999669862c2",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/opal-offline-primitive-discovery-for-accelerating-offline-reinforcement-learning.json",
+                "https://arxiv.org/pdf/2010.13611v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/opal-offline-primitive-discovery-for-accelerating-offline-reinforcement-learning.json",
+                "sha256": "8d71661b1ca2ffe9feb432595390455731168740cf47a872dc9fa9a6416c7706"
+              },
+              "version": "2010.13611v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "OPAL: Offline Primitive Discovery for Accelerating Offline Reinforcement Learning",
+              "observed_title": "OPAL: Offline Primitive Discovery for Accelerating Offline Reinforcement Learning",
+              "source_url": "https://arxiv.org/pdf/2010.13611v3",
+              "source_sha256": "41b49f2151ee1529cf51955726809f873e76b1de8f07988efd5ebcdb65ca8d31",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/opal-offline-primitive-discovery-for-accelerating-offline-reinforcement-learning.json",
+                "https://arxiv.org/pdf/2010.13611v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/opal-offline-primitive-discovery-for-accelerating-offline-reinforcement-learning.json",
+                "sha256": "8d71661b1ca2ffe9feb432595390455731168740cf47a872dc9fa9a6416c7706"
+              },
+              "version": "2010.13611v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/opal-offline-primitive-discovery-for-accelerating-offline-reinforcement-learning.pdf",
+                "reported_sha256": "41b49f2151ee1529cf51955726809f873e76b1de8f07988efd5ebcdb65ca8d31",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 23,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/opal-offline-primitive-discovery-for-accelerating-offline-reinforcement-learning.json",
+                "https://arxiv.org/pdf/2010.13611v3"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/opal-offline-primitive-discovery-for-accelerating-offline-reinforcement-learning.json",
+                "sha256": "8d71661b1ca2ffe9feb432595390455731168740cf47a872dc9fa9a6416c7706"
+              },
+              "version": "2010.13611v3",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 4,
+                  "caption": "Overview of offline RL with OPAL.",
+                  "crop_pdf_points": [
+                    107,
+                    82,
+                    494,
+                    222
+                  ],
+                  "vector_paths": 81,
+                  "native_text_spans": 154,
+                  "raster_images": 2,
+                  "visually_inspected": true,
+                  "notes": "Primitive autoencoding, offline task-policy training and hierarchical execution; native graph and density plots."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 5,
+      "at": "2026-10-09T20:49:33.795173Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "661d57111998ddedcd34dafcfd15ec376b78868944e6ce7551be8924f72ceb82",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/opal/README.md",
+                "output/opal/VALIDATION.json"
+              ],
+              "output_directory": "output/opal",
+              "source_sha256": "41b49f2151ee1529cf51955726809f873e76b1de8f07988efd5ebcdb65ca8d31",
+              "scene_sha256": "f9d64cf3ecf6017842b23be66da286140c0b4bd42ed650ed9ae9e0662c9219f3",
+              "text_editability": {
+                "typeable_text_objects": 27,
+                "native_freeform_paths": 233,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

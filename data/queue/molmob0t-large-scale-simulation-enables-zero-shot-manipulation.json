@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "molmob0t-large-scale-simulation-enables-zero-shot-manipulation",
-  "revision": 3,
+  "revision": 4,
   "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.504838Z",
-  "updated_at": "2026-10-09T20:14:36.490967Z",
+  "updated_at": "2026-10-09T20:49:29.237477Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -35,11 +35,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/molmob0t-large-scale-simulation-enables-zero-shot-manipulation.json",
-          "sha256": "786640049d6a96786f0fd5bcdf9c28164f689d9002694bfdd0acddef4394de0e"
+          "sha256": "7e9f22b3e1b5cd9195d38a50338a3b95ba82f997628e8ba0f4ca74f6d4355ed1"
         },
         "version": "2603.16861v2",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
         "expected_title": "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation",
@@ -47,7 +47,7 @@
         "source_url": "https://arxiv.org/pdf/2603.16861v2",
         "source_sha256": "55fbccef55184f5a1a257fc8dd497290f63e1b2a10de2e992b3d1c4535821fdf",
         "reported_title_match": false,
-        "identity_review_basis": null,
+        "identity_review_basis": "visually_inspected_source_candidate",
         "identity_reviewed": null,
         "title_review_method": null,
         "mismatch_reason": null
@@ -63,11 +63,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/molmob0t-large-scale-simulation-enables-zero-shot-manipulation.json",
-          "sha256": "786640049d6a96786f0fd5bcdf9c28164f689d9002694bfdd0acddef4394de0e"
+          "sha256": "7e9f22b3e1b5cd9195d38a50338a3b95ba82f997628e8ba0f4ca74f6d4355ed1"
         },
         "version": "2603.16861v2",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
         "observed_source": {
@@ -82,8 +82,45 @@
       }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/molmob0t-large-scale-simulation-enables-zero-shot-manipulation.json",
+          "https://arxiv.org/pdf/2603.16861v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/molmob0t-large-scale-simulation-enables-zero-shot-manipulation.json",
+          "sha256": "7e9f22b3e1b5cd9195d38a50338a3b95ba82f997628e8ba0f4ca74f6d4355ed1"
+        },
+        "version": "2603.16861v2",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 5,
+            "caption": "MolmoBot-Engine.",
+            "crop_pdf_points": [
+              69,
+              61,
+              543,
+              279
+            ],
+            "vector_paths": 50,
+            "native_text_spans": 17,
+            "raster_images": 15,
+            "visually_inspected": true,
+            "notes": "Environment construction, domain randomization and iterative trajectory planning/execution."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -206,6 +243,114 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:49:29.237477Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "b0a7c4f564e29f297d0c8450d90cc1f24b6f98b30f1766b361be49e79c50c569",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/molmob0t-large-scale-simulation-enables-zero-shot-manipulation.json",
+                "https://arxiv.org/pdf/2603.16861v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/molmob0t-large-scale-simulation-enables-zero-shot-manipulation.json",
+                "sha256": "7e9f22b3e1b5cd9195d38a50338a3b95ba82f997628e8ba0f4ca74f6d4355ed1"
+              },
+              "version": "2603.16861v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+              "expected_title": "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation",
+              "observed_title": "MolmoB0T: Large-Scale Simulation Enables Zero-Shot Manipulation",
+              "source_url": "https://arxiv.org/pdf/2603.16861v2",
+              "source_sha256": "55fbccef55184f5a1a257fc8dd497290f63e1b2a10de2e992b3d1c4535821fdf",
+              "reported_title_match": false,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/molmob0t-large-scale-simulation-enables-zero-shot-manipulation.json",
+                "https://arxiv.org/pdf/2603.16861v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/molmob0t-large-scale-simulation-enables-zero-shot-manipulation.json",
+                "sha256": "7e9f22b3e1b5cd9195d38a50338a3b95ba82f997628e8ba0f4ca74f6d4355ed1"
+              },
+              "version": "2603.16861v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/molmob0t-large-scale-simulation-enables-zero-shot-manipulation.pdf",
+                "reported_sha256": "55fbccef55184f5a1a257fc8dd497290f63e1b2a10de2e992b3d1c4535821fdf",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 33,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/molmob0t-large-scale-simulation-enables-zero-shot-manipulation.json",
+                "https://arxiv.org/pdf/2603.16861v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/molmob0t-large-scale-simulation-enables-zero-shot-manipulation.json",
+                "sha256": "7e9f22b3e1b5cd9195d38a50338a3b95ba82f997628e8ba0f4ca74f6d4355ed1"
+              },
+              "version": "2603.16861v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 5,
+                  "caption": "MolmoBot-Engine.",
+                  "crop_pdf_points": [
+                    69,
+                    61,
+                    543,
+                    279
+                  ],
+                  "vector_paths": 50,
+                  "native_text_spans": 17,
+                  "raster_images": 15,
+                  "visually_inspected": true,
+                  "notes": "Environment construction, domain randomization and iterative trajectory planning/execution."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
             }
           }
         }

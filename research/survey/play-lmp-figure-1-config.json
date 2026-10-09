@@ -1,0 +1,68 @@
+{
+  "id": "play-lmp-figure-1",
+  "paper_title": "Learning Latent Plans from Play",
+  "paper_url": "https://arxiv.org/pdf/1903.01973v2",
+  "figure": "Figure 1",
+  "page": 2,
+  "crop": [
+    107,
+    71,
+    509,
+    355
+  ],
+  "license": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+  "notes": "Original training and task-agnostic inference architecture. Native plan distributions, proposal/recognition networks, action decoders, colored flow paths and live ordinary labels. Five source demonstration images remain separate clipped raster inserts.",
+  "scale": 3,
+  "raster_regions": [
+    {
+      "bbox": [
+        253.67099,
+        242.66316,
+        323.15631,
+        300.6723
+      ],
+      "seqno": 144,
+      "reason": "Original clipped play-data observation image"
+    },
+    {
+      "bbox": [
+        182.45065,
+        242.64688,
+        251.14243,
+        300.65594
+      ],
+      "seqno": 146,
+      "reason": "Original clipped play-data observation image"
+    },
+    {
+      "bbox": [
+        111.0602,
+        242.78799,
+        179.75195,
+        300.79706
+      ],
+      "seqno": 148,
+      "reason": "Original clipped play-data observation image"
+    },
+    {
+      "bbox": [
+        348.15833,
+        243.67302,
+        417.60327,
+        302.29834
+      ],
+      "seqno": 235,
+      "reason": "Original clipped play-data observation image"
+    },
+    {
+      "bbox": [
+        437.57001,
+        243.68466,
+        507.81711,
+        302.30988
+      ],
+      "seqno": 237,
+      "reason": "Original clipped play-data observation image"
+    }
+  ]
+}

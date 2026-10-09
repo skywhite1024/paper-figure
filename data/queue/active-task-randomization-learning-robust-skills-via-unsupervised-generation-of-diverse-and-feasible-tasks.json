@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "active-task-randomization-learning-robust-skills-via-unsupervised-generation-of-diverse-and-feasible-tasks",
-  "revision": 3,
+  "revision": 4,
   "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.502334Z",
-  "updated_at": "2026-10-09T20:14:35.821604Z",
+  "updated_at": "2026-10-09T20:49:28.279483Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,7 +26,7 @@
   },
   "stages": {
     "source_identity": {
-      "status": "reported",
+      "status": "passed",
       "evidence": {
         "references": [
           "research/survey/active-task-randomization-learning-robust-skills-via-unsupervised-generation-of-diverse-and-feasible-tasks.json",
@@ -35,19 +35,20 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/active-task-randomization-learning-robust-skills-via-unsupervised-generation-of-diverse-and-feasible-tasks.json",
-          "sha256": "df585379fd973fded305cb18fff650a060ee63f429bca7e8f41a2ba9893e3306"
+          "sha256": "cf06c8b739b056deccd943c5b5600a6fb59368f989200e4f957525cefe6d6e20"
         },
         "version": "2211.06134v2",
         "license_note": "unverified",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
-        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
         "expected_title": "Active Task Randomization: Learning Robust Skills via Unsupervised Generation of Diverse and Feasible Tasks",
         "observed_title": "Active Task Randomization: Learning Robust Skills via Unsupervised Generation of Diverse and Feasible Tasks",
         "source_url": "https://arxiv.org/pdf/2211.06134v2",
         "source_sha256": "c13ef30ae59aad2323d16791e9cfbaf22ad416aeaceb5062d054e93e9fe0556c",
         "reported_title_match": true,
-        "identity_review_basis": null,
+        "identity_review_basis": "visually_inspected_source_candidate",
         "identity_reviewed": null,
         "title_review_method": null,
         "mismatch_reason": null
@@ -63,11 +64,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/active-task-randomization-learning-robust-skills-via-unsupervised-generation-of-diverse-and-feasible-tasks.json",
-          "sha256": "df585379fd973fded305cb18fff650a060ee63f429bca7e8f41a2ba9893e3306"
+          "sha256": "cf06c8b739b056deccd943c5b5600a6fb59368f989200e4f957525cefe6d6e20"
         },
         "version": "2211.06134v2",
         "license_note": "unverified",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
         "observed_source": {
@@ -82,8 +83,45 @@
       }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/active-task-randomization-learning-robust-skills-via-unsupervised-generation-of-diverse-and-feasible-tasks.json",
+          "https://arxiv.org/pdf/2211.06134v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/active-task-randomization-learning-robust-skills-via-unsupervised-generation-of-diverse-and-feasible-tasks.json",
+          "sha256": "cf06c8b739b056deccd943c5b5600a6fb59368f989200e4f957525cefe6d6e20"
+        },
+        "version": "2211.06134v2",
+        "license_note": "unverified",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 1",
+            "page_1_based": 1,
+            "caption": "Overview of ATR.",
+            "crop_pdf_points": [
+              311,
+              146,
+              559,
+              380
+            ],
+            "vector_paths": 111,
+            "native_text_spans": 0,
+            "raster_images": 5,
+            "visually_inspected": true,
+            "notes": "Task sampling and skill-policy training plus task-planned skill composition at test time."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -207,6 +245,115 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:49:28.279483Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "33f59c8e5a2d5eba8d1c9024641dc0c5f4ad7e0262b921157d63c5e52da09fee",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/active-task-randomization-learning-robust-skills-via-unsupervised-generation-of-diverse-and-feasible-tasks.json",
+                "https://arxiv.org/pdf/2211.06134v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/active-task-randomization-learning-robust-skills-via-unsupervised-generation-of-diverse-and-feasible-tasks.json",
+                "sha256": "cf06c8b739b056deccd943c5b5600a6fb59368f989200e4f957525cefe6d6e20"
+              },
+              "version": "2211.06134v2",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "Active Task Randomization: Learning Robust Skills via Unsupervised Generation of Diverse and Feasible Tasks",
+              "observed_title": "Active Task Randomization: Learning Robust Skills via Unsupervised Generation of Diverse and Feasible Tasks",
+              "source_url": "https://arxiv.org/pdf/2211.06134v2",
+              "source_sha256": "c13ef30ae59aad2323d16791e9cfbaf22ad416aeaceb5062d054e93e9fe0556c",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/active-task-randomization-learning-robust-skills-via-unsupervised-generation-of-diverse-and-feasible-tasks.json",
+                "https://arxiv.org/pdf/2211.06134v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/active-task-randomization-learning-robust-skills-via-unsupervised-generation-of-diverse-and-feasible-tasks.json",
+                "sha256": "cf06c8b739b056deccd943c5b5600a6fb59368f989200e4f957525cefe6d6e20"
+              },
+              "version": "2211.06134v2",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/active-task-randomization-learning-robust-skills-via-unsupervised-generation-of-diverse-and-feasible-tasks.pdf",
+                "reported_sha256": "c13ef30ae59aad2323d16791e9cfbaf22ad416aeaceb5062d054e93e9fe0556c",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 8,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/active-task-randomization-learning-robust-skills-via-unsupervised-generation-of-diverse-and-feasible-tasks.json",
+                "https://arxiv.org/pdf/2211.06134v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/active-task-randomization-learning-robust-skills-via-unsupervised-generation-of-diverse-and-feasible-tasks.json",
+                "sha256": "cf06c8b739b056deccd943c5b5600a6fb59368f989200e4f957525cefe6d6e20"
+              },
+              "version": "2211.06134v2",
+              "license_note": "unverified",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 1",
+                  "page_1_based": 1,
+                  "caption": "Overview of ATR.",
+                  "crop_pdf_points": [
+                    311,
+                    146,
+                    559,
+                    380
+                  ],
+                  "vector_paths": 111,
+                  "native_text_spans": 0,
+                  "raster_images": 5,
+                  "visually_inspected": true,
+                  "notes": "Task sampling and skill-policy training plus task-planned skill composition at test time."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
             }
           }
         }

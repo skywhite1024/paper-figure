@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "diagram_id": "deps-figure-1",
+  "source_sha256": "4165dc5d148e6dd5857f74247d8731347aabb42176fb28acd5289d70b167971b",
+  "assets": [
+    {
+      "name": "deps-figure-1-raster-0.png",
+      "sha256": "3fb7966e1a00604864bd687c981691e59eb6f3ad64c9a8d54a9f121417cd31e4"
+    },
+    {
+      "name": "deps-figure-1-raster-1.png",
+      "sha256": "42e215e7b07c3532868d303e4e1f5874d23013a9c831c01cfb1d78bb5c65a730"
+    },
+    {
+      "name": "deps-figure-1-raster-2.png",
+      "sha256": "91c76444fd7245ae91a6138caf02d19e0e8ca6a614ea8c3c2ef59796f821a8c5"
+    },
+    {
+      "name": "deps-figure-1-raster-3.png",
+      "sha256": "d5d5088295454f7b04b2a8adc90c9434c9ffbe1277c1f5ff2c523f7b8788f307"
+    },
+    {
+      "name": "deps-figure-1-raster-4.png",
+      "sha256": "a7a5fb846d9a2477bd77eb8272d4b474464d6cee7fbf9aa8e40b8630f1c9d6fa"
+    },
+    {
+      "name": "deps-figure-1-raster-5.png",
+      "sha256": "0110bf38e53d8c73e00a15ee3820828413f131af15d31ffd5f69a3256fc40eba"
+    }
+  ],
+  "provenance": {
+    "paper_title": "Learning Parameterized Skills from Demonstrations (DEPS)",
+    "paper_url": "https://arxiv.org/pdf/2510.24095v1",
+    "figure": "Figure 1",
+    "license": "License not verified; private authorized source reference",
+    "notes": "Native editable three-level skill hierarchy, major labels and connectors. Six original illustration inserts retain miniature skill-manifold curves, robot/cup icons, action icon and compressed-state icon; annotations baked into those source inserts remain raster.",
+    "page": 2,
+    "status": "figure_recreation",
+    "source_sha256": "75a8a81107ea891a654e5d5a646205f25598bc8eba8a8740e97f0eb42d61d8b0",
+    "source_crop_pdf_points": [
+      296,
+      74,
+      505,
+      185
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "dash_fidelity": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+    "extraction_warnings": [
+      "16 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 0"
+    ],
+    "text_repairs": "Original main policy labels remain live serif text; environment/compressed state labels remain live Arial. Fitted font sizes preserve source line bounds."
+  },
+  "metrics": {
+    "native_nodes": 32,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 26,
+    "native_text_objects": 6,
+    "raster_images": 6,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "deps-figure-1.drawio",
+      "sha256": "7a304d045b4629067e8b68034a697e3aa6e0f7f3d06409de9829c346d1a1281b"
+    },
+    {
+      "name": "deps-figure-1.png",
+      "sha256": "005d4e3d6dfd1ecf72b9dac7f3493e5f41a1cd76e8ca1de92d02e2a6101c253b"
+    },
+    {
+      "name": "deps-figure-1.pptx",
+      "sha256": "b0f6661725ac7039b87bebe3bde8f2574b37bfb598bfcf7c725510e5df1f3618"
+    }
+  ]
+}

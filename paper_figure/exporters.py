@@ -33,6 +33,7 @@ def drawio(d,out,base):
   shape={'rect':'rounded=0','rounded_rect':'rounded=1;arcSize=12','ellipse':'ellipse','diamond':'rhombus','text':'text','image':'shape=image','path':'shape=stencil('+stencil(n)+')' if n['shape']=='path' else ''}[n['shape']]
   fill='none' if n['shape']=='text' else n.get('fill','#FFFFFF');stroke='none' if n['shape']=='text' else n.get('stroke','#334155')
   style=f"{shape};html=0;whiteSpace={'nowrap' if n.get('no_wrap') else 'wrap'};fillColor={fill};strokeColor={stroke};strokeWidth={n.get('stroke_width',1.5)};fontColor={n.get('text_color','#111111')};fontSize={n.get('font_size',20)};fontFamily={n.get('font_family','Arial')};fontStyle={(1 if n.get('bold') else 0)+(2 if n.get('italic') else 0)};align={n.get('align','center')};verticalAlign=middle;spacing={n.get('text_inset',0)};{drawio_dash(n,1.5)}fillOpacity={100*n.get('fill_opacity',1)};strokeOpacity={100*n.get('stroke_opacity',1)};"
+  if n.get('rotation'):style+=f"rotation={n['rotation']};"
   if n['shape']=='image':
    p=local_asset(base,n['asset']);mime='image/png' if p.suffix.lower()=='.png' else 'image/jpeg';style+=f"image=data:{mime},{base64.b64encode(p.read_bytes()).decode()};imageAspect=0;"
   cell=ET.SubElement(r,'mxCell',id=n['id'],value='' if n['shape']=='image' else n.get('label',''),style=style,vertex='1',parent='1')
@@ -54,16 +55,23 @@ def pptx(d,out,base,preview):
   try:r=subprocess.run([node,str(t/'export.mjs'),str(t/'input.json')],capture_output=True,text=True,timeout=240)
   except (OSError,subprocess.TimeoutExpired) as exc:raise ValidationError(str(exc)) from exc
   require(r.returncode==0,'PPTX backend: '+r.stderr[-2500:]);Path(str(out)+'.inspect.ndjson').unlink(missing_ok=True)
+def input_hashes(d,source):
+ source=Path(source)
+ assets=sorted({n['asset'] for n in d['nodes'] if n['shape']=='image'})
+ return {'source_sha256':hashlib.sha256(source.read_bytes()).hexdigest(),
+         'assets':[{'name':name,'sha256':hashlib.sha256(local_asset(source.parent,name).read_bytes()).hexdigest()} for name in assets]}
 def export(d,source,out,formats=('drawio','pptx'),force=False,preview=False):
  out=Path(out);require(formats and all(f in ['drawio','pptx'] for f in formats),'unsupported format');names=[d['id']+'.'+f for f in formats]+[d['id']+'.manifest.json']+([d['id']+'.png'] if preview and 'pptx' in formats else [])
  require(force or not any((out/n).exists() for n in names),'output exists; use --force');out.mkdir(parents=True,exist_ok=True)
+ inputs=input_hashes(d,source)
  with tempfile.TemporaryDirectory(dir=out,prefix='.stage-') as tmp:
   t=Path(tmp)
   for fmt in formats:
    target=t/(d['id']+'.'+fmt)
    if fmt=='drawio':drawio(d,target,Path(source).parent)
    else:pptx(d,target,Path(source).parent,preview)
-  manifest={'schema_version':1,'diagram_id':d['id'],'source_sha256':hashlib.sha256(Path(source).read_bytes()).hexdigest(),'provenance':d['provenance'],'metrics':metrics(d),'files':[{'name':p.name,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(t.iterdir())]}
+  require(input_hashes(d,source)==inputs,'Source JSON or raster asset changed during export; outputs not published')
+  manifest={'schema_version':1,'diagram_id':d['id'],**inputs,'provenance':d['provenance'],'metrics':metrics(d),'files':[{'name':p.name,'sha256':hashlib.sha256(p.read_bytes()).hexdigest()} for p in sorted(t.iterdir())]}
   (t/(d['id']+'.manifest.json')).write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
   for p in t.iterdir():os.replace(p,out/p.name)
  return manifest

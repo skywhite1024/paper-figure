@@ -200,7 +200,11 @@ def extract(pdf, config, destination):
                 items.append((drawing['seqno'], dict(node, id=node['id']+f'-part-{group_index}', commands=group, reviewed_compound_union=True)))
         else:
             items.append((drawing['seqno'], node))
+    skipped_hidden_text = 0
     for index, span in enumerate(page.get_texttrace()):
+        if span.get('type') == 3 or span.get('opacity', 1) == 0 or span['size']*scale < .01:
+            skipped_hidden_text += 1
+            continue
         if any(font in span['font'] for font in outlined_fonts): continue
         # One PDF text span can contain distant labels or several lines. Split
         # by character origins rather than creating one giant text frame.
@@ -285,6 +289,7 @@ def extract(pdf, config, destination):
         items.append((seq, dict(id=f'pdf-raster-{index}', shape='image', asset=name, alt=region['reason'], **geometry(rect))))
     scene['nodes'] = [node for _, node in sorted(items, key=lambda pair: pair[0])]
     provenance['extraction_warnings'] = warnings
+    provenance['ignored_invisible_text_spans'] = skipped_hidden_text
     require(any(node['shape'] != 'image' for node in scene['nodes']), 'No editable source objects; manual reconstruction required')
     validate(scene, destination)
     (destination/(config['id']+'.json')).write_text(json.dumps(scene, ensure_ascii=False, indent=2)+'\n')

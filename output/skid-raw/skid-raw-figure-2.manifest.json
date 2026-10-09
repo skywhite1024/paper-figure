@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "diagram_id": "skid-raw-figure-2",
+  "source_sha256": "cbc77c3bd818eadb1487f4e2e1ec3b664ce6c84dcf03a03955e4d009bd68e7b5",
+  "assets": [
+    {
+      "name": "skid-raw-figure-2-raster-0.png",
+      "sha256": "bc80c6d8a38427ce54af5671c5eea0db9887e06a9ef177b015da15ee6826b2a8"
+    },
+    {
+      "name": "skid-raw-figure-2-raster-1.png",
+      "sha256": "68c47db94ab6171c28eb8edf5880557e1175f4a26dde1e30cbd399c0fa74ad51"
+    }
+  ],
+  "provenance": {
+    "paper_title": "SkiD RAW: Skill Discovery from Raw Trajectories",
+    "paper_url": "https://cps.unileoben.ac.at/wp/RAL2021Tanneberg.pdf",
+    "figure": "Figure 2",
+    "license": "License not verified; author-hosted manuscript for private reference",
+    "notes": "Original probabilistic graphical model and SKID recurrent discovery framework. Network symbols and architecture paths remain native; two embedded trajectory/probability mini-plots remain raster, including the small 3 skill(s) label inside the left plot.",
+    "page": 2,
+    "status": "figure_recreation",
+    "source_sha256": "38604f2d5577496c0aef84b2ab3c953e0d55126834a9409766046716a71c7765",
+    "source_crop_pdf_points": [
+      137,
+      58,
+      489,
+      177
+    ],
+    "extraction_review": "pending; native geometry extraction is not visual fidelity approval",
+    "font_substitutions": "Arial or Courier New; source fonts recorded per text object",
+    "outlined_font_families": [
+      "TimesNewRomanPS-BoldItal"
+    ],
+    "outlined_math_limit": "Selected source mathematical fonts preserved as editable glyph outlines, not live equation/text objects.",
+    "dash_fidelity": "PPTX uses the closest supported native preset, not exact PDF dash lengths. Draw.io retains interval lengths; PDF phase/caps are not preserved; zero intervals become 0.001 scene units.",
+    "extraction_warnings": [
+      "48 source clipping groups intersect crop; extracted paths require explicit clipping review",
+      "path crosses crop boundary: 1",
+      "path crosses crop boundary: 2",
+      "path crosses crop boundary: 3",
+      "path partially intersects raster inset: 43",
+      "path partially intersects raster inset: 44",
+      "path partially intersects raster inset: 45",
+      "path partially intersects raster inset: 46",
+      "path partially intersects raster inset: 47",
+      "path partially intersects raster inset: 48",
+      "unhandled image/shading at seq 293: [388.8406677246094, 95.83831024169922, 431.25177001953125, 129.76719665527344]; requires reviewed raster region",
+      "unhandled image/shading at seq 296: [196.373779296875, 95.25504302978516, 362.51861572265625, 129.86854553222656]; requires reviewed raster region"
+    ],
+    "ignored_invisible_text_spans": 0
+  },
+  "metrics": {
+    "native_nodes": 271,
+    "transparent_anchor_nodes": 0,
+    "native_freeform_paths": 265,
+    "native_text_objects": 6,
+    "raster_images": 2,
+    "semantic_connectors": 0,
+    "pptx_connector_segments": 0,
+    "path_attachment": "freeform paths have no semantic endpoint attachment",
+    "fidelity_status": "figure_recreation",
+    "visual_review": "pending"
+  },
+  "files": [
+    {
+      "name": "skid-raw-figure-2.drawio",
+      "sha256": "800805a7e9107bcde2767466a2a91604cd2bc23ca5f8dce2e035c101ea84cf1c"
+    },
+    {
+      "name": "skid-raw-figure-2.png",
+      "sha256": "5b180c8cada32dd37e9605c386d3f683b64a5f5939e9a6ad14ab9cec203d1fee"
+    },
+    {
+      "name": "skid-raw-figure-2.pptx",
+      "sha256": "8a14267793221c95adbd39e4c588f3de92b6a24f6a3f015d44ec8df011c71120"
+    }
+  ]
+}

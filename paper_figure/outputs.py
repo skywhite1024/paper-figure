@@ -1,5 +1,7 @@
 """Validate and index paper-scoped deliverables without rewriting artifact bytes."""
 import hashlib
+import base64
+import xml.etree.ElementTree as ET
 import html
 import json
 import re
@@ -7,7 +9,7 @@ import shutil
 import tempfile
 from pathlib import Path
 
-from .model import ValidationError, require
+from .model import ValidationError, require, local_asset
 
 
 def sha256(path):
@@ -61,6 +63,21 @@ def read_paper(folder, repository):
         path = local_file(folder, name)
         require(name in entries and sha256(path) == entries[name]['sha256'],
                 f'{path}: export hash mismatch')
+    image_nodes = [n for n in scene['nodes'] if n['shape'] == 'image']
+    assets = {n['asset']: sha256(local_asset(scene_path.parent, n['asset'])) for n in image_nodes}
+    if 'assets' in manifest:
+        require({entry['name']: entry['sha256'] for entry in manifest['assets']} == assets, 'Raster source assets differ from export manifest')
+    if image_nodes:
+        try:
+            cells = {c.get('id'): c for c in ET.parse(folder/(stem+'.drawio')).iter('mxCell')}
+            for node in image_nodes:
+                style = cells[node['id']].get('style', '')
+                match = re.search(r'(?:^|;)image=data:image/(?:png|jpeg),([^;]+)(?:;|$)', style)
+                require(match is not None, 'Missing embedded draw.io raster source')
+                embedded = base64.b64decode(match.group(1), validate=True)
+                require(hashlib.sha256(embedded).hexdigest() == assets[node['asset']], 'Source asset differs from actual embedded draw.io bytes')
+        except (ET.ParseError, ValueError, KeyError) as exc:
+            raise ValidationError('Invalid or stale embedded raster asset: '+str(exc)) from exc
     qa_path = folder / 'VALIDATION.json'
     if qa_path.is_file():
         qa = json_file(qa_path)
@@ -113,7 +130,7 @@ def refresh_output(repository, output=None):
         typeable_text = sum(bool(n.get('label', '').strip()) and n['shape'] != 'image' for n in scene['nodes']) + sum(bool(e.get('label', '').strip()) for e in scene['edges'])
         native_paths = sum(n['shape'] == 'path' for n in scene['nodes'])
         raster_count = sum(n['shape'] == 'image' for n in scene['nodes'])
-        source_version = paper.get('arxiv_id_version') or paper.get('source_version') or 'source version recorded in sources.json'
+        source_version = paper.get('arxiv_id_version') or paper.get('source_version') or paper.get('publication_version') or 'source version recorded in sources.json'
         text = [f'# {title}', '', f'{figure} · PDF 第 {page} 页 · {source_version}', '',
                 f'- [PowerPoint]({stem}.pptx)', f'- [draw.io]({stem}.drawio)',
                 f'- [重建预览]({stem}.png)', f'- [论文原图]({original.name})',

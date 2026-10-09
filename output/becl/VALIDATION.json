@@ -1,0 +1,41 @@
+{
+  "diagram_id": "becl-figure-3",
+  "source_scene_sha256": "b50f166ed8162a552deab65422db8c29ac6c5c2845ee564f20be2300462c7716",
+  "source_pdf_sha256": "17c5a946c854b64a8042503b5831c6708ea15364be8090872edd3aad5d37c362",
+  "checked_files": [
+    {
+      "name": "becl-figure-3.drawio",
+      "sha256": "84a4f0ac65d0f11dd9dc294f65a5d507bcca472689865b38cd9946abebeb4d76"
+    },
+    {
+      "name": "becl-figure-3.png",
+      "sha256": "92598f67efe5efa1ec94e78895c780bda972c3a4fdc20e8f17289b43fa5a64dc"
+    },
+    {
+      "name": "becl-figure-3.pptx",
+      "sha256": "386cb082cad7bf8319ceaff628ef807731fd576978cadbad009f23cf518c4fdb"
+    }
+  ],
+  "review_status": "source versus independent LibreOffice PPTX render passed",
+  "checks": {
+    "source_title": "actual first-page title checked",
+    "source_page_figure": "Figure 3 PDFpage4 crop compared",
+    "hashes": "all source/export hashes match",
+    "layout_geometry": "source visual geometry preserved",
+    "labels": "legible; no material clipping or collisions",
+    "native_editability": "native XML checked; raster portions restricted to disclosed source assets",
+    "drawio": "XML checked; app rendering unavailable under isolated display socket restrictions"
+  },
+  "native_xml_counts": {
+    "p:sp": 175,
+    "p:pic": 62,
+    "a:custGeom": 66,
+    "p:cxnSp": 0,
+    "a:t": 47
+  },
+  "limitations": [
+    "Math glyphs may be editable outline paths rather than live equation text",
+    "Minor font/dash/arrowhead renderer differences",
+    "Freeform paths lack automatic semantic attachment"
+  ]
+}

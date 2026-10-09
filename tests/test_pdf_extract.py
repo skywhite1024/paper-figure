@@ -63,3 +63,9 @@ class ExtractionTests(unittest.TestCase):
         pdf=self.root/'full-image.pdf';doc.save(pdf);doc.close()
         self.config['reviewed_raw_images']=[0]
         with self.assertRaises(ValidationError):extract(pdf,self.config,self.root/'scene')
+    def test_invisible_pdf_text_not_rendered_as_labels(self):
+        doc=fitz.open(self.pdf);doc[0].insert_text((150,120),'HIDDEN',fontsize=10,render_mode=3)
+        pdf=self.root/'invisible.pdf';doc.save(pdf);doc.close()
+        scene=extract(pdf,self.config,self.root/'scene')
+        self.assertFalse(any('HIDDEN' in n.get('label','') for n in scene['nodes']))
+        self.assertGreater(scene['provenance']['ignored_invisible_text_spans'],0)

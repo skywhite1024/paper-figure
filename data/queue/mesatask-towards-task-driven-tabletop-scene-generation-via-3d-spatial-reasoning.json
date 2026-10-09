@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "mesatask-towards-task-driven-tabletop-scene-generation-via-3d-spatial-reasoning",
-  "revision": 3,
+  "revision": 4,
   "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.497779Z",
-  "updated_at": "2026-10-09T20:14:36.462286Z",
+  "updated_at": "2026-10-09T20:49:29.198416Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,7 +26,7 @@
   },
   "stages": {
     "source_identity": {
-      "status": "reported",
+      "status": "passed",
       "evidence": {
         "references": [
           "research/survey/mesatask-towards-task-driven-tabletop-scene-generation-via-3d-spatial-reasoning.json",
@@ -35,19 +35,20 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/mesatask-towards-task-driven-tabletop-scene-generation-via-3d-spatial-reasoning.json",
-          "sha256": "d6b95b5ca3ab42d6d408b447dfb6add4bf2672d7c7974bd2124a6a5aa0944ef1"
+          "sha256": "6cc51d4619fbb5cce647ee2b94aa50ddc7debb0fac4b7700d8463c528148fdc9"
         },
         "version": "2509.22281v1",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
-        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
         "expected_title": "MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning",
         "observed_title": "MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning",
         "source_url": "https://arxiv.org/pdf/2509.22281v1",
         "source_sha256": "45ed869dd42c02f733b74aab7dda7f58c295b12485be0d8f07139a71db585258",
         "reported_title_match": true,
-        "identity_review_basis": null,
+        "identity_review_basis": "visually_inspected_source_candidate",
         "identity_reviewed": null,
         "title_review_method": null,
         "mismatch_reason": null
@@ -63,11 +64,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/mesatask-towards-task-driven-tabletop-scene-generation-via-3d-spatial-reasoning.json",
-          "sha256": "d6b95b5ca3ab42d6d408b447dfb6add4bf2672d7c7974bd2124a6a5aa0944ef1"
+          "sha256": "6cc51d4619fbb5cce647ee2b94aa50ddc7debb0fac4b7700d8463c528148fdc9"
         },
         "version": "2509.22281v1",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
         "observed_source": {
@@ -82,8 +83,45 @@
       }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/mesatask-towards-task-driven-tabletop-scene-generation-via-3d-spatial-reasoning.json",
+          "https://arxiv.org/pdf/2509.22281v1"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/mesatask-towards-task-driven-tabletop-scene-generation-via-3d-spatial-reasoning.json",
+          "sha256": "6cc51d4619fbb5cce647ee2b94aa50ddc7debb0fac4b7700d8463c528148fdc9"
+        },
+        "version": "2509.22281v1",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 5,
+            "caption": "Dataset construction pipeline.",
+            "crop_pdf_points": [
+              62,
+              89,
+              530,
+              319
+            ],
+            "vector_paths": 63,
+            "native_text_spans": 67,
+            "raster_images": 43,
+            "visually_inspected": true,
+            "notes": "Scene image generation, coarse reconstruction, human-assisted refinement and dataset-statistic panels."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -207,6 +245,115 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:49:29.198416Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "fb29de8afe400b1967bfd0f77d4a10bd58d6f0fa5cb3447af78113fea634ced3",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/mesatask-towards-task-driven-tabletop-scene-generation-via-3d-spatial-reasoning.json",
+                "https://arxiv.org/pdf/2509.22281v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/mesatask-towards-task-driven-tabletop-scene-generation-via-3d-spatial-reasoning.json",
+                "sha256": "6cc51d4619fbb5cce647ee2b94aa50ddc7debb0fac4b7700d8463c528148fdc9"
+              },
+              "version": "2509.22281v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning",
+              "observed_title": "MesaTask: Towards Task-Driven Tabletop Scene Generation via 3D Spatial Reasoning",
+              "source_url": "https://arxiv.org/pdf/2509.22281v1",
+              "source_sha256": "45ed869dd42c02f733b74aab7dda7f58c295b12485be0d8f07139a71db585258",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/mesatask-towards-task-driven-tabletop-scene-generation-via-3d-spatial-reasoning.json",
+                "https://arxiv.org/pdf/2509.22281v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/mesatask-towards-task-driven-tabletop-scene-generation-via-3d-spatial-reasoning.json",
+                "sha256": "6cc51d4619fbb5cce647ee2b94aa50ddc7debb0fac4b7700d8463c528148fdc9"
+              },
+              "version": "2509.22281v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/mesatask-towards-task-driven-tabletop-scene-generation-via-3d-spatial-reasoning.pdf",
+                "reported_sha256": "45ed869dd42c02f733b74aab7dda7f58c295b12485be0d8f07139a71db585258",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 39,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/mesatask-towards-task-driven-tabletop-scene-generation-via-3d-spatial-reasoning.json",
+                "https://arxiv.org/pdf/2509.22281v1"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/mesatask-towards-task-driven-tabletop-scene-generation-via-3d-spatial-reasoning.json",
+                "sha256": "6cc51d4619fbb5cce647ee2b94aa50ddc7debb0fac4b7700d8463c528148fdc9"
+              },
+              "version": "2509.22281v1",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 5,
+                  "caption": "Dataset construction pipeline.",
+                  "crop_pdf_points": [
+                    62,
+                    89,
+                    530,
+                    319
+                  ],
+                  "vector_paths": 63,
+                  "native_text_spans": 67,
+                  "raster_images": 43,
+                  "visually_inspected": true,
+                  "notes": "Scene image generation, coarse reconstruction, human-assisted refinement and dataset-statistic panels."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
             }
           }
         }

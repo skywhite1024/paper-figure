@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "anytask-an-automated-task-and-data-generation-framework-for-advancing-sim-to-real-policy-learning",
-  "revision": 3,
+  "revision": 4,
   "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.496422Z",
-  "updated_at": "2026-10-09T20:14:35.895944Z",
+  "updated_at": "2026-10-09T20:49:28.369110Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,7 +26,7 @@
   },
   "stages": {
     "source_identity": {
-      "status": "reported",
+      "status": "passed",
       "evidence": {
         "references": [
           "research/survey/anytask-an-automated-task-and-data-generation-framework-for-advancing-sim-to-real-policy-learning.json",
@@ -35,19 +35,20 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/anytask-an-automated-task-and-data-generation-framework-for-advancing-sim-to-real-policy-learning.json",
-          "sha256": "4b9abea181c2dd07acb33dd44743cc87e1674971aea8cefc11cf481f70bcf6f9"
+          "sha256": "c4d28f1f35be48e7d2b78b4a52926e7d62ed4fc013e1a768cb039b2c465e99e1"
         },
         "version": "2512.17853v2",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
-        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
         "expected_title": "AnyTask: An Automated Task and Data Generation Framework for Advancing Sim-to-Real Policy Learning",
         "observed_title": "AnyTask: an Automated Task and Data Generation Framework for Advancing Sim-to-Real Policy Learning",
         "source_url": "https://arxiv.org/pdf/2512.17853v2",
         "source_sha256": "511df38af5995725333fbcce983419388c9a747955be1b20bfc52af5ae029741",
         "reported_title_match": true,
-        "identity_review_basis": null,
+        "identity_review_basis": "visually_inspected_source_candidate",
         "identity_reviewed": null,
         "title_review_method": null,
         "mismatch_reason": null
@@ -63,11 +64,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/anytask-an-automated-task-and-data-generation-framework-for-advancing-sim-to-real-policy-learning.json",
-          "sha256": "4b9abea181c2dd07acb33dd44743cc87e1674971aea8cefc11cf481f70bcf6f9"
+          "sha256": "c4d28f1f35be48e7d2b78b4a52926e7d62ed4fc013e1a768cb039b2c465e99e1"
         },
         "version": "2512.17853v2",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
         "observed_source": {
@@ -82,8 +83,45 @@
       }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/anytask-an-automated-task-and-data-generation-framework-for-advancing-sim-to-real-policy-learning.json",
+          "https://arxiv.org/pdf/2512.17853v2"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/anytask-an-automated-task-and-data-generation-framework-for-advancing-sim-to-real-policy-learning.json",
+          "sha256": "c4d28f1f35be48e7d2b78b4a52926e7d62ed4fc013e1a768cb039b2c465e99e1"
+        },
+        "version": "2512.17853v2",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 2,
+            "caption": "Overview of AnyTask.",
+            "crop_pdf_points": [
+              70,
+              62,
+              551,
+              196
+            ],
+            "vector_paths": 0,
+            "native_text_spans": 0,
+            "raster_images": 1,
+            "visually_inspected": true,
+            "notes": "Task and simulation generation feeding code, simulation, data collection and sim-to-real policy."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -207,6 +245,115 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:49:28.369110Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "7ff6596126f9c1cc97ce2ba9bf2759f97ca59b861889188543b9eec26afa0c24",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/anytask-an-automated-task-and-data-generation-framework-for-advancing-sim-to-real-policy-learning.json",
+                "https://arxiv.org/pdf/2512.17853v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/anytask-an-automated-task-and-data-generation-framework-for-advancing-sim-to-real-policy-learning.json",
+                "sha256": "c4d28f1f35be48e7d2b78b4a52926e7d62ed4fc013e1a768cb039b2c465e99e1"
+              },
+              "version": "2512.17853v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "AnyTask: An Automated Task and Data Generation Framework for Advancing Sim-to-Real Policy Learning",
+              "observed_title": "AnyTask: an Automated Task and Data Generation Framework for Advancing Sim-to-Real Policy Learning",
+              "source_url": "https://arxiv.org/pdf/2512.17853v2",
+              "source_sha256": "511df38af5995725333fbcce983419388c9a747955be1b20bfc52af5ae029741",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/anytask-an-automated-task-and-data-generation-framework-for-advancing-sim-to-real-policy-learning.json",
+                "https://arxiv.org/pdf/2512.17853v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/anytask-an-automated-task-and-data-generation-framework-for-advancing-sim-to-real-policy-learning.json",
+                "sha256": "c4d28f1f35be48e7d2b78b4a52926e7d62ed4fc013e1a768cb039b2c465e99e1"
+              },
+              "version": "2512.17853v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/anytask-an-automated-task-and-data-generation-framework-for-advancing-sim-to-real-policy-learning.pdf",
+                "reported_sha256": "511df38af5995725333fbcce983419388c9a747955be1b20bfc52af5ae029741",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 28,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/anytask-an-automated-task-and-data-generation-framework-for-advancing-sim-to-real-policy-learning.json",
+                "https://arxiv.org/pdf/2512.17853v2"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/anytask-an-automated-task-and-data-generation-framework-for-advancing-sim-to-real-policy-learning.json",
+                "sha256": "c4d28f1f35be48e7d2b78b4a52926e7d62ed4fc013e1a768cb039b2c465e99e1"
+              },
+              "version": "2512.17853v2",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 2,
+                  "caption": "Overview of AnyTask.",
+                  "crop_pdf_points": [
+                    70,
+                    62,
+                    551,
+                    196
+                  ],
+                  "vector_paths": 0,
+                  "native_text_spans": 0,
+                  "raster_images": 1,
+                  "visually_inspected": true,
+                  "notes": "Task and simulation generation feeding code, simulation, data collection and sim-to-real policy."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
             }
           }
         }

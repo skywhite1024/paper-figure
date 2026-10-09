@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "vlbiman-vision-language-anchored-one-shot-demonstration-enables-generalizable-bimanual-robotic-manipulation",
-  "revision": 3,
+  "revision": 4,
   "status": "in_progress",
   "created_at": "2026-10-09T20:04:59.507357Z",
-  "updated_at": "2026-10-09T20:14:36.893851Z",
+  "updated_at": "2026-10-09T20:49:29.811180Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -26,7 +26,7 @@
   },
   "stages": {
     "source_identity": {
-      "status": "reported",
+      "status": "passed",
       "evidence": {
         "references": [
           "research/survey/vlbiman-vision-language-anchored-one-shot-demonstration-enables-generalizable-bimanual-robotic-manipulation.json",
@@ -35,19 +35,20 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/vlbiman-vision-language-anchored-one-shot-demonstration-enables-generalizable-bimanual-robotic-manipulation.json",
-          "sha256": "a7d0e7389af104acb6411b018708bfb8b59dc4d88b59b8221272c3f9ffc3b434"
+          "sha256": "213f02992665efb5a839ab8f39c7b8c92ec0324ce18f12a7ab23bae0efa7ecd9"
         },
         "version": "2509.21723v4",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
-        "summary": "Survey identity claim retained; source/title evidence is not sufficient to pass identity.",
+        "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+        "matches_catalog": true,
         "expected_title": "VLBiMan: Vision-Language Anchored One-Shot Demonstration Enables Generalizable Bimanual Robotic Manipulation",
         "observed_title": "VLBiMan: Vision-Language Anchored One-Shot Demonstration Enables Generalizable Bimanual Robotic Manipulation",
         "source_url": "https://arxiv.org/pdf/2509.21723v4",
         "source_sha256": "6ecb5efd8c040508243e477990fdad996ca6315102ce18e0f884418f69e4561e",
         "reported_title_match": true,
-        "identity_review_basis": null,
+        "identity_review_basis": "visually_inspected_source_candidate",
         "identity_reviewed": null,
         "title_review_method": null,
         "mismatch_reason": null
@@ -63,11 +64,11 @@
         "survey_import": true,
         "survey": {
           "path": "research/survey/vlbiman-vision-language-anchored-one-shot-demonstration-enables-generalizable-bimanual-robotic-manipulation.json",
-          "sha256": "a7d0e7389af104acb6411b018708bfb8b59dc4d88b59b8221272c3f9ffc3b434"
+          "sha256": "213f02992665efb5a839ab8f39c7b8c92ec0324ce18f12a7ab23bae0efa7ecd9"
         },
         "version": "2509.21723v4",
         "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
-        "review_notes": "PDF successfully opened; title text machine-matched against first-page text. Figure pixels not yet inspected; caption_search_cues are retrieval hints only, not confirmed architecture figures.",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
         "inspected_at": null,
         "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
         "observed_source": {
@@ -82,8 +83,45 @@
       }
     },
     "figure_selection": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "references": [
+          "research/survey/vlbiman-vision-language-anchored-one-shot-demonstration-enables-generalizable-bimanual-robotic-manipulation.json",
+          "https://arxiv.org/pdf/2509.21723v4"
+        ],
+        "survey_import": true,
+        "survey": {
+          "path": "research/survey/vlbiman-vision-language-anchored-one-shot-demonstration-enables-generalizable-bimanual-robotic-manipulation.json",
+          "sha256": "213f02992665efb5a839ab8f39c7b8c92ec0324ce18f12a7ab23bae0efa7ecd9"
+        },
+        "version": "2509.21723v4",
+        "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+        "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+        "inspected_at": null,
+        "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+        "figure_candidates": [
+          {
+            "figure": "Figure 2",
+            "page_1_based": 4,
+            "caption": "Vision-Language Anchored Bimanual Manipulation framework.",
+            "crop_pdf_points": [
+              108,
+              83,
+              505,
+              260
+            ],
+            "vector_paths": 134,
+            "native_text_spans": 43,
+            "raster_images": 36,
+            "visually_inspected": true,
+            "notes": "Task-aware decomposition, VLM anchored adaptation and trajectory composition."
+          }
+        ],
+        "reviewed_pages": null,
+        "no_method_figure_reported": false,
+        "visual_scan_coverage": null,
+        "scope": null
+      }
     },
     "recreation": {
       "status": "pending",
@@ -207,6 +245,115 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:49:29.811180Z",
+      "actor": "survey-import",
+      "event": "update",
+      "previous_sha256": "7b94c5706bb8b205482b29f19fe5bf891b16404f0867432422be297f8578f77f",
+      "patch": {
+        "stages": {
+          "source_identity": {
+            "status": "passed",
+            "evidence": {
+              "references": [
+                "research/survey/vlbiman-vision-language-anchored-one-shot-demonstration-enables-generalizable-bimanual-robotic-manipulation.json",
+                "https://arxiv.org/pdf/2509.21723v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/vlbiman-vision-language-anchored-one-shot-demonstration-enables-generalizable-bimanual-robotic-manipulation.json",
+                "sha256": "213f02992665efb5a839ab8f39c7b8c92ec0324ce18f12a7ab23bae0efa7ecd9"
+              },
+              "version": "2509.21723v4",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey title matched the catalog; referenced PDF bytes and hash were verified.",
+              "matches_catalog": true,
+              "expected_title": "VLBiMan: Vision-Language Anchored One-Shot Demonstration Enables Generalizable Bimanual Robotic Manipulation",
+              "observed_title": "VLBiMan: Vision-Language Anchored One-Shot Demonstration Enables Generalizable Bimanual Robotic Manipulation",
+              "source_url": "https://arxiv.org/pdf/2509.21723v4",
+              "source_sha256": "6ecb5efd8c040508243e477990fdad996ca6315102ce18e0f884418f69e4561e",
+              "reported_title_match": true,
+              "identity_review_basis": "visually_inspected_source_candidate",
+              "identity_reviewed": null,
+              "title_review_method": null,
+              "mismatch_reason": null
+            }
+          },
+          "source_access": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/vlbiman-vision-language-anchored-one-shot-demonstration-enables-generalizable-bimanual-robotic-manipulation.json",
+                "https://arxiv.org/pdf/2509.21723v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/vlbiman-vision-language-anchored-one-shot-demonstration-enables-generalizable-bimanual-robotic-manipulation.json",
+                "sha256": "213f02992665efb5a839ab8f39c7b8c92ec0324ce18f12a7ab23bae0efa7ecd9"
+              },
+              "version": "2509.21723v4",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed.",
+              "observed_source": {
+                "reported_path": "build/sources/vlbiman-vision-language-anchored-one-shot-demonstration-enables-generalizable-bimanual-robotic-manipulation.pdf",
+                "reported_sha256": "6ecb5efd8c040508243e477990fdad996ca6315102ce18e0f884418f69e4561e",
+                "verified_locally": true,
+                "durable": false,
+                "reason": "PDF bytes and SHA256 verified in temporary/build storage; durable output copy is still needed."
+              },
+              "page_count": 31,
+              "source_status": "accessible"
+            }
+          },
+          "figure_selection": {
+            "status": "reported",
+            "evidence": {
+              "references": [
+                "research/survey/vlbiman-vision-language-anchored-one-shot-demonstration-enables-generalizable-bimanual-robotic-manipulation.json",
+                "https://arxiv.org/pdf/2509.21723v4"
+              ],
+              "survey_import": true,
+              "survey": {
+                "path": "research/survey/vlbiman-vision-language-anchored-one-shot-demonstration-enables-generalizable-bimanual-robotic-manipulation.json",
+                "sha256": "213f02992665efb5a839ab8f39c7b8c92ec0324ce18f12a7ab23bae0efa7ecd9"
+              },
+              "version": "2509.21723v4",
+              "license_note": "http://arxiv.org/licenses/nonexclusive-distrib/1.0/",
+              "review_notes": "Actual source figure pixels rendered and visually inspected2026-10-09; source title matched against PDFfirst-page text. Reconstruction/export not yet complete.",
+              "inspected_at": null,
+              "summary": "Survey candidates/review retained; candidate lists and incomplete source evidence do not certify a selected deliverable.",
+              "figure_candidates": [
+                {
+                  "figure": "Figure 2",
+                  "page_1_based": 4,
+                  "caption": "Vision-Language Anchored Bimanual Manipulation framework.",
+                  "crop_pdf_points": [
+                    108,
+                    83,
+                    505,
+                    260
+                  ],
+                  "vector_paths": 134,
+                  "native_text_spans": 43,
+                  "raster_images": 36,
+                  "visually_inspected": true,
+                  "notes": "Task-aware decomposition, VLM anchored adaptation and trajectory composition."
+                }
+              ],
+              "reviewed_pages": null,
+              "no_method_figure_reported": false,
+              "visual_scan_coverage": null,
+              "scope": null
             }
           }
         }

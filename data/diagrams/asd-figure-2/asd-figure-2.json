@@ -1,0 +1,584 @@
+{
+  "schema_version": 1,
+  "id": "asd-figure-2",
+  "title": "Agentic Skill Discovery \u2014 contextual skill acquisition loop",
+  "canvas": {
+    "width": 1573,
+    "height": 428
+  },
+  "provenance": {
+    "paper_title": "Agentic skill discovery",
+    "paper_url": "https://www2.informatik.uni-hamburg.de/wtm/publications/2026/ZWW26/1-s2.0-S0921889025003458-main.pdf",
+    "figure": "Figure 2",
+    "page": 4,
+    "license": "CC BY4.0; https://creativecommons.org/licenses/by/4.0/",
+    "status": "figure_recreation",
+    "source_sha256": "6374fb6056098cd13ec89ff351188529d9af2eabb518707fa6a6428149c6233f",
+    "source_crop_pdf_points": [
+      108.978,
+      55.445,
+      486.541,
+      158.237
+    ],
+    "notes": "Faithful structural recreation of publisher Figure2. Original icon artwork retained in nine discrete raster crops; text, context panel and three arrow routes rebuilt as native editable objects. All labels typeable. Font metrics, corner radius, brace and dash cadence approximate the original. Raster icon interiors are not editable; no complete background raster included. Original colors intentionally pale."
+  },
+  "nodes": [
+    {
+      "id": "context",
+      "shape": "path",
+      "x": 1,
+      "y": 8,
+      "width": 642,
+      "height": 414,
+      "fill": "#F9F9F9",
+      "stroke": "#EEEEEE",
+      "stroke_width": 4,
+      "dash": true,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 95,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 547,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 610,
+            "y1": 0,
+            "x2": 642,
+            "y2": 35,
+            "x": 642,
+            "y": 100
+          }
+        },
+        {
+          "lineTo": {
+            "x": 642,
+            "y": 314
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 642,
+            "y1": 380,
+            "x2": 610,
+            "y2": 414,
+            "x": 547,
+            "y": 414
+          }
+        },
+        {
+          "lineTo": {
+            "x": 95,
+            "y": 414
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 32,
+            "y1": 414,
+            "x2": 0,
+            "y2": 380,
+            "x": 0,
+            "y": 314
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 100
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 0,
+            "y1": 35,
+            "x2": 32,
+            "y2": 0,
+            "x": 95,
+            "y": 0
+          }
+        },
+        {
+          "close": {}
+        }
+      ]
+    },
+    {
+      "id": "proposal-line",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1573,
+      "height": 428,
+      "fill": "none",
+      "stroke": "#DDDDDD",
+      "stroke_width": 5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 675,
+            "y": 127
+          }
+        },
+        {
+          "lineTo": {
+            "x": 995,
+            "y": 127
+          }
+        }
+      ]
+    },
+    {
+      "id": "proposal-head",
+      "shape": "path",
+      "x": 993,
+      "y": 117,
+      "width": 28,
+      "height": 20,
+      "fill": "#DDDDDD",
+      "stroke": "none",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 0,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 28,
+            "y": 10
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 20
+          }
+        },
+        {
+          "close": {}
+        }
+      ]
+    },
+    {
+      "id": "learn-return",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1573,
+      "height": 428,
+      "fill": "none",
+      "stroke": "#DDDDDD",
+      "stroke_width": 5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 1272,
+            "y": 127
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1450,
+            "y": 127
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 1612,
+            "y1": 127,
+            "x2": 1612,
+            "y2": 344,
+            "x": 1450,
+            "y": 344
+          }
+        },
+        {
+          "lineTo": {
+            "x": 1255,
+            "y": 344
+          }
+        }
+      ]
+    },
+    {
+      "id": "learn-head",
+      "shape": "path",
+      "x": 1233,
+      "y": 334,
+      "width": 30,
+      "height": 20,
+      "fill": "#DDDDDD",
+      "stroke": "none",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 30,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 10
+          }
+        },
+        {
+          "lineTo": {
+            "x": 30,
+            "y": 20
+          }
+        },
+        {
+          "close": {}
+        }
+      ]
+    },
+    {
+      "id": "collect-line",
+      "shape": "path",
+      "x": 0,
+      "y": 0,
+      "width": 1573,
+      "height": 428,
+      "fill": "none",
+      "stroke": "#DDDDDD",
+      "stroke_width": 5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 952,
+            "y": 344
+          }
+        },
+        {
+          "lineTo": {
+            "x": 687,
+            "y": 344
+          }
+        }
+      ]
+    },
+    {
+      "id": "collect-head",
+      "shape": "path",
+      "x": 662,
+      "y": 334,
+      "width": 30,
+      "height": 20,
+      "fill": "#DDDDDD",
+      "stroke": "none",
+      "commands": [
+        {
+          "moveTo": {
+            "x": 30,
+            "y": 0
+          }
+        },
+        {
+          "lineTo": {
+            "x": 0,
+            "y": 10
+          }
+        },
+        {
+          "lineTo": {
+            "x": 30,
+            "y": 20
+          }
+        },
+        {
+          "close": {}
+        }
+      ]
+    },
+    {
+      "id": "earth",
+      "shape": "image",
+      "x": 199,
+      "y": 18,
+      "width": 89,
+      "height": 90,
+      "asset": "assets/earth.png",
+      "alt": "Original raster earth icon; internal icon artwork is not editable"
+    },
+    {
+      "id": "camera",
+      "shape": "image",
+      "x": 195,
+      "y": 128,
+      "width": 90,
+      "height": 82,
+      "asset": "assets/camera.png",
+      "alt": "Original raster camera icon; internal icon artwork is not editable"
+    },
+    {
+      "id": "arm",
+      "shape": "image",
+      "x": 201,
+      "y": 224,
+      "width": 86,
+      "height": 84,
+      "asset": "assets/arm.png",
+      "alt": "Original raster arm icon; internal icon artwork is not editable"
+    },
+    {
+      "id": "library",
+      "shape": "image",
+      "x": 200,
+      "y": 315,
+      "width": 86,
+      "height": 84,
+      "asset": "assets/library.png",
+      "alt": "Original raster library icon; internal icon artwork is not editable"
+    },
+    {
+      "id": "llm",
+      "shape": "image",
+      "x": 692,
+      "y": 77,
+      "width": 99,
+      "height": 99,
+      "asset": "assets/llm.png",
+      "alt": "Original raster llm icon; internal icon artwork is not editable"
+    },
+    {
+      "id": "task",
+      "shape": "image",
+      "x": 1020,
+      "y": 0,
+      "width": 217,
+      "height": 191,
+      "asset": "assets/task.png",
+      "alt": "Original raster task icon; internal icon artwork is not editable"
+    },
+    {
+      "id": "gear",
+      "shape": "image",
+      "x": 1295,
+      "y": 71,
+      "width": 120,
+      "height": 116,
+      "asset": "assets/gear.png",
+      "alt": "Original raster gear icon; internal icon artwork is not editable"
+    },
+    {
+      "id": "skill-options",
+      "shape": "image",
+      "x": 1010,
+      "y": 194,
+      "width": 198,
+      "height": 171,
+      "asset": "assets/skill-options.png",
+      "alt": "Original raster skill-options icon; internal icon artwork is not editable"
+    },
+    {
+      "id": "collect-cube",
+      "shape": "image",
+      "x": 861,
+      "y": 299,
+      "width": 85,
+      "height": 91,
+      "asset": "assets/collect-cube.png",
+      "alt": "Original raster collect-cube icon; internal icon artwork is not editable"
+    },
+    {
+      "id": "brace",
+      "shape": "path",
+      "x": 171,
+      "y": 240,
+      "width": 32,
+      "height": 150,
+      "fill": "none",
+      "stroke": "#80A3CF",
+      "stroke_width": 5,
+      "commands": [
+        {
+          "moveTo": {
+            "x": 29,
+            "y": 0
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 4,
+            "y1": 0,
+            "x2": 25,
+            "y2": 69,
+            "x": 0,
+            "y": 75
+          }
+        },
+        {
+          "cubicBezTo": {
+            "x1": 25,
+            "y1": 81,
+            "x2": 4,
+            "y2": 150,
+            "x": 29,
+            "y": 150
+          }
+        }
+      ]
+    },
+    {
+      "id": "environment",
+      "shape": "text",
+      "x": 296,
+      "y": 28,
+      "width": 335,
+      "height": 66,
+      "label": "Environment",
+      "font_size": 43,
+      "font_family": "Arial",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "text_color": "#000000"
+    },
+    {
+      "id": "observations",
+      "shape": "text",
+      "x": 296,
+      "y": 133,
+      "width": 335,
+      "height": 64,
+      "label": "Observations",
+      "font_size": 43,
+      "font_family": "Arial",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "text_color": "#000000"
+    },
+    {
+      "id": "configuration",
+      "shape": "text",
+      "x": 296,
+      "y": 226,
+      "width": 340,
+      "height": 64,
+      "label": "Configuration",
+      "font_size": 43,
+      "font_family": "Arial",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "text_color": "#000000"
+    },
+    {
+      "id": "skill-library",
+      "shape": "text",
+      "x": 296,
+      "y": 319,
+      "width": 340,
+      "height": 65,
+      "label": "Skill Library",
+      "font_size": 43,
+      "font_family": "Arial",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "text_color": "#000000"
+    },
+    {
+      "id": "robot",
+      "shape": "text",
+      "x": 29,
+      "y": 325,
+      "width": 133,
+      "height": 70,
+      "label": "Robot",
+      "font_size": 43,
+      "font_family": "Arial",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "text_color": "#000000"
+    },
+    {
+      "id": "propose",
+      "shape": "text",
+      "x": 790,
+      "y": 59,
+      "width": 209,
+      "height": 59,
+      "label": "Propose",
+      "font_size": 40,
+      "font_family": "Arial",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "text_color": "#777777"
+    },
+    {
+      "id": "learn",
+      "shape": "text",
+      "x": 1401,
+      "y": 58,
+      "width": 166,
+      "height": 61,
+      "label": "Learn",
+      "font_size": 40,
+      "font_family": "Arial",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "text_color": "#777777"
+    },
+    {
+      "id": "collect",
+      "shape": "text",
+      "x": 727,
+      "y": 273,
+      "width": 142,
+      "height": 60,
+      "label": "Collect",
+      "font_size": 40,
+      "font_family": "Arial",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "text_color": "#777777"
+    },
+    {
+      "id": "task-label",
+      "shape": "text",
+      "x": 1074,
+      "y": 64,
+      "width": 148,
+      "height": 66,
+      "label": "Task",
+      "font_size": 48,
+      "font_family": "Arial",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "text_color": "#000000"
+    },
+    {
+      "id": "skills-label",
+      "shape": "text",
+      "x": 1002,
+      "y": 353,
+      "width": 292,
+      "height": 62,
+      "label": "Skill Options",
+      "font_size": 42,
+      "font_family": "Arial",
+      "align": "left",
+      "text_inset": 0,
+      "no_wrap": true,
+      "text_color": "#000000"
+    }
+  ],
+  "edges": []
+}

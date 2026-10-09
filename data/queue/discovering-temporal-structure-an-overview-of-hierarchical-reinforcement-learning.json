@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "discovering-temporal-structure-an-overview-of-hierarchical-reinforcement-learning",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.458340Z",
-  "updated_at": "2026-10-09T20:14:36.082418Z",
+  "updated_at": "2026-10-09T20:49:33.932830Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -125,8 +125,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/temporal-survey/README.md",
+          "output/temporal-survey/VALIDATION.json"
+        ],
+        "output_directory": "output/temporal-survey",
+        "source_sha256": "70463ca1b717e55535b7d0faa19662bf2d80e61f1716f11086671d2316058d2d",
+        "scene_sha256": "f6faa30ace1c4a22e4d75439d06dcc7161b69be2ec484baaad9d5ca012ab1555",
+        "text_editability": {
+          "typeable_text_objects": 13,
+          "native_freeform_paths": 52,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -289,6 +303,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:49:33.932830Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "812056117e3de4861428b8d0e32db694b9603af21f495bb9ba6564add2407f62",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/temporal-survey/README.md",
+                "output/temporal-survey/VALIDATION.json"
+              ],
+              "output_directory": "output/temporal-survey",
+              "source_sha256": "70463ca1b717e55535b7d0faa19662bf2d80e61f1716f11086671d2316058d2d",
+              "scene_sha256": "f6faa30ace1c4a22e4d75439d06dcc7161b69be2ec484baaad9d5ca012ab1555",
+              "text_editability": {
+                "typeable_text_objects": 13,
+                "native_freeform_paths": 52,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }

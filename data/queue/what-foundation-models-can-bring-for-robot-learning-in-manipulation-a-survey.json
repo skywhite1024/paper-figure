@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "paper_id": "what-foundation-models-can-bring-for-robot-learning-in-manipulation-a-survey",
-  "revision": 3,
-  "status": "in_progress",
+  "revision": 4,
+  "status": "recreated",
   "created_at": "2026-10-09T20:04:59.459772Z",
-  "updated_at": "2026-10-09T20:14:36.906569Z",
+  "updated_at": "2026-10-09T20:42:50.774589Z",
   "catalog": {
     "path": "data/catalog.json",
     "sha256": "274a0e52331fccfc2b9d5ed2347c8b3b86120cecfba6d343749eb66ea3b7e2a4",
@@ -125,8 +125,22 @@
       }
     },
     "recreation": {
-      "status": "pending",
-      "evidence": null
+      "status": "reported",
+      "evidence": {
+        "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+        "references": [
+          "output/foundation-survey/README.md",
+          "output/foundation-survey/VALIDATION.json"
+        ],
+        "output_directory": "output/foundation-survey",
+        "source_sha256": "7511063b5630f9c3c2deb78944f7bd1cd40e7dbcbfb677fb364fc49eb665897a",
+        "scene_sha256": "d2db0bd2c54462209c9f712d93339d0ef8bdac676517fa4b32c6ed9b9051497f",
+        "text_editability": {
+          "typeable_text_objects": 83,
+          "native_freeform_paths": 134,
+          "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+        }
+      }
     },
     "qa": {
       "status": "pending",
@@ -289,6 +303,36 @@
               "identity_reviewed": null,
               "title_review_method": null,
               "mismatch_reason": null
+            }
+          }
+        }
+      }
+    },
+    {
+      "revision": 4,
+      "at": "2026-10-09T20:42:50.774589Z",
+      "actor": "bundle-integration",
+      "event": "update",
+      "previous_sha256": "8601332b644b29dce67ed3e4a1975bf6af155b6b9f678de02d7c8e981597c00e",
+      "patch": {
+        "status": "recreated",
+        "stages": {
+          "recreation": {
+            "status": "reported",
+            "evidence": {
+              "summary": "Complete local source-linked editable bundle; application QA limits remain explicit in per-paper report.",
+              "references": [
+                "output/foundation-survey/README.md",
+                "output/foundation-survey/VALIDATION.json"
+              ],
+              "output_directory": "output/foundation-survey",
+              "source_sha256": "7511063b5630f9c3c2deb78944f7bd1cd40e7dbcbfb677fb364fc49eb665897a",
+              "scene_sha256": "d2db0bd2c54462209c9f712d93339d0ef8bdac676517fa4b32c6ed9b9051497f",
+              "text_editability": {
+                "typeable_text_objects": 83,
+                "native_freeform_paths": 134,
+                "note": "Ordinary outlined labels should be upgraded to typeable text where feasible; mathematical outlines remain disclosed."
+              }
             }
           }
         }
